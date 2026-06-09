@@ -3,6 +3,7 @@ const DATA_FILES = {
   highImpactResearch: "high-impact-research.json",
   chinaResearch: "china-research.json",
   clinicalTrials: "clinical-trials.json",
+  weeklyBrief: "weekly-brief.json",
   updateStatus: "update-status.json"
 };
 
@@ -43,6 +44,11 @@ async function initPage() {
     return;
   }
 
+  if (page === "weekly") {
+    await initWeeklyPage();
+    return;
+  }
+
   await initGenericPage();
 }
 
@@ -59,11 +65,12 @@ async function loadJson(fileName, fallback = []) {
 }
 
 async function initHome() {
-  const [latest, highImpact, china, trials, status] = await Promise.all([
+  const [latest, highImpact, china, trials, weeklyBrief, status] = await Promise.all([
     loadJson(DATA_FILES.latestResearch),
     loadJson(DATA_FILES.highImpactResearch),
     loadJson(DATA_FILES.chinaResearch),
     loadJson(DATA_FILES.clinicalTrials),
+    loadJson(DATA_FILES.weeklyBrief, {}),
     loadJson(DATA_FILES.updateStatus, {})
   ]);
 
@@ -83,6 +90,7 @@ async function initHome() {
     compact: true,
     emptyTitle: "暂无重点研究"
   });
+  renderWeeklyBrief(document.querySelector("#home-weekly-brief"), weeklyBrief, { compact: true });
 }
 
 async function initResearchPage() {
@@ -179,6 +187,11 @@ async function initStatusPage() {
   renderStatus(document.querySelector("#status-panel"), status);
 }
 
+async function initWeeklyPage() {
+  const weeklyBrief = await loadJson(DATA_FILES.weeklyBrief, {});
+  renderWeeklyBrief(document.querySelector("#weekly-brief-panel"), weeklyBrief);
+}
+
 async function initGenericPage() {
   const container = document.querySelector("#generic-list");
   if (!container) return;
@@ -259,6 +272,116 @@ function renderArticleCard(article, options = {}) {
         ${article.doi ? `<a href="https://doi.org/${escapeAttribute(article.doi)}" target="_blank" rel="noopener">DOI</a>` : ""}
       </div>
     </article>
+  `;
+}
+
+function renderWeeklyBrief(container, brief, options = {}) {
+  if (!container) return;
+  if (!brief || !Array.isArray(brief.priorityReading)) {
+    renderEmpty(container, "暂无每周精选", "运行 npm run update 后会基于 PubMed 数据生成周报。");
+    return;
+  }
+
+  const priority = brief.priorityReading || [];
+  const china = brief.chinaHighlights || [];
+  const review = brief.reviewQueue || [];
+  const trends = brief.topicTrends || [];
+  const counts = brief.counts || {};
+
+  if (!priority.length && !china.length && !review.length && !trends.length) {
+    renderEmpty(container, "暂无每周精选", "当前没有可用于生成周报的 PubMed 数据。");
+    return;
+  }
+
+  const maxTrend = Math.max(...trends.map((item) => item.count), 1);
+  const compact = options.compact;
+  const priorityLimit = compact ? 3 : 6;
+
+  container.innerHTML = `
+    <div class="brief-summary">
+      <div>
+        <span>周期</span>
+        <strong>${escapeHtml(formatBriefPeriod(brief.period))}</strong>
+      </div>
+      <div>
+        <span>PubMed 文献</span>
+        <strong>${escapeHtml(String(counts.latestResearch ?? 0))}</strong>
+      </div>
+      <div>
+        <span>重点研究</span>
+        <strong>${escapeHtml(String(counts.highImpact ?? 0))}</strong>
+      </div>
+      <div>
+        <span>中国研究</span>
+        <strong>${escapeHtml(String(counts.chinaResearch ?? 0))}</strong>
+      </div>
+    </div>
+    <div class="brief-grid">
+      <section class="brief-card">
+        <div class="section-heading tight">
+          <p class="eyebrow">Priority Reading</p>
+          <h3>优先阅读</h3>
+        </div>
+        <div class="item-list compact-list">
+          ${priority.slice(0, priorityLimit).map((article) => renderArticleCard(article, { compact: true })).join("")}
+        </div>
+      </section>
+      <section class="brief-card">
+        <div class="section-heading tight">
+          <p class="eyebrow">Topic Trends</p>
+          <h3>主题趋势</h3>
+        </div>
+        ${renderTopicTrends(trends, maxTrend)}
+      </section>
+      ${
+        compact
+          ? ""
+          : `
+            <section class="brief-card">
+              <div class="section-heading tight">
+                <p class="eyebrow">China Watch</p>
+                <h3>中国研究</h3>
+              </div>
+              <div class="item-list compact-list">
+                ${china.map((article) => renderArticleCard(article, { compact: true })).join("")}
+              </div>
+            </section>
+            <section class="brief-card">
+              <div class="section-heading tight">
+                <p class="eyebrow">Manual Review</p>
+                <h3>待复核队列</h3>
+              </div>
+              <div class="item-list compact-list">
+                ${review.map((article) => renderArticleCard(article, { compact: true })).join("")}
+              </div>
+            </section>
+          `
+      }
+    </div>
+  `;
+}
+
+function renderTopicTrends(trends, maxTrend) {
+  if (!trends.length) {
+    return `<div class="empty-inline">暂无主题趋势。</div>`;
+  }
+
+  return `
+    <div class="topic-trends">
+      ${trends
+        .map(
+          (item) => `
+            <div class="topic-meter">
+              <div>
+                <strong>${escapeHtml(item.tag)}</strong>
+                <span>${escapeHtml(String(item.count))}</span>
+              </div>
+              <meter min="0" max="${escapeAttribute(String(maxTrend))}" value="${escapeAttribute(String(item.count))}"></meter>
+            </div>
+          `
+        )
+        .join("")}
+    </div>
   `;
 }
 
@@ -480,6 +603,11 @@ function formatDateTime(value) {
     hour: "2-digit",
     minute: "2-digit"
   }).format(date);
+}
+
+function formatBriefPeriod(period) {
+  if (!period?.start && !period?.end) return "周期待补充";
+  return `${formatDate(period.start)} - ${formatDate(period.end)}`;
 }
 
 function escapeHtml(value) {

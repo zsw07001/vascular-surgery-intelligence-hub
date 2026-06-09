@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>指南与共识 | 血管外科情报中枢</title>
+    <title>每周精选 | 血管外科情报中枢</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
-  <body data-page="guidelines">
+  <body data-page="weekly">
     <header class="site-header">
       <a class="brand" href="../index.html">
         <span class="brand-mark">VSIH</span>
-        <span><strong>血管外科情报中枢</strong><small>Guidelines</small></span>
+        <span><strong>血管外科情报中枢</strong><small>Weekly Brief</small></span>
       </a>
       <nav class="top-nav" aria-label="主导航">
-        <a href="weekly-brief.html">周报</a>
+        <a href="weekly-brief.html" aria-current="page">周报</a>
         <a href="research.html">文献</a>
         <a href="trials.html">试验</a>
         <a href="china.html">中国研究</a>
@@ -23,15 +23,15 @@
 
     <main class="page-shell">
       <section class="page-title">
-        <p class="eyebrow">Guidelines & Consensus</p>
-        <h1>指南与共识</h1>
-        <p>预留指南、专家共识和实践建议的情报列表。</p>
+        <p class="eyebrow">Weekly Brief</p>
+        <h1>每周精选</h1>
+        <p>基于当前 PubMed 数据自动生成的优先阅读清单、主题趋势和待复核队列。</p>
       </section>
-      <section class="item-list" id="generic-list" data-source="guidelines.json" data-empty-title="暂无指南数据"></section>
+      <section class="weekly-panel" id="weekly-brief-panel" aria-live="polite"></section>
     </main>
 
     <footer class="site-footer">
-      <p>指南解读仅作阅读辅助，正式判断应回到原始指南全文。</p>
+      <p>每周精选为规则生成的阅读辅助，不构成医学建议。</p>
     </footer>
     <script src="../app.js" defer></script>
   </body>

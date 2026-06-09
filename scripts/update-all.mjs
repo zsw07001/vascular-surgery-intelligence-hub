@@ -4,18 +4,26 @@ import { dirname, join } from "node:path";
 import { buildPubMedQuery, clinicalTrialsConfig, pubmedConfig } from "./config.mjs";
 import { ensureArray, readJsonFile, writeJsonFile } from "./utils.mjs";
 import { updatePubMed } from "./update-pubmed.mjs";
+import { updateWeeklyBrief } from "./update-weekly-brief.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const rootDir = join(__dirname, "..");
 const dataDir = join(rootDir, "data");
 
-const supportArrayFiles = ["clinical-trials.json", "guidelines.json", "device-regulatory.json"];
+const supportArrayFiles = [
+  "clinical-trials.json",
+  "guidelines.json",
+  "device-regulatory.json",
+  "safety.json",
+  "conference-news.json"
+];
 async function main() {
   const supportResults = await validateSupportData();
   const existingCounts = await readExistingPubMedCounts();
   const pubmedResult = await runPubMedSafely();
   const effectiveCounts = pubmedResult.ok ? pubmedResult.counts : existingCounts;
+  const weeklyBriefResult = await runWeeklyBriefSafely();
 
   const updateStatus = {
     lastUpdated: new Date().toISOString(),
@@ -47,6 +55,12 @@ async function main() {
           ensureArray(await readJsonFile(join(dataDir, "guidelines.json"), [])).length +
           ensureArray(await readJsonFile(join(dataDir, "device-regulatory.json"), [])).length,
         message: "当前保留静态数据结构和空状态。"
+      },
+      {
+        name: "Weekly Brief",
+        status: weeklyBriefResult.ok ? "success" : "error",
+        count: weeklyBriefResult.count,
+        message: weeklyBriefResult.ok ? "Weekly brief generated from current PubMed JSON." : weeklyBriefResult.error
       }
     ],
     pubmed: {
@@ -58,7 +72,7 @@ async function main() {
       highImpactCount: pubmedResult.ok ? pubmedResult.highImpact.length : existingCounts.highImpact,
       chinaResearchCount: pubmedResult.ok ? pubmedResult.chinaResearch.length : existingCounts.china
     },
-    errors: pubmedResult.ok ? [] : [pubmedResult.error],
+    errors: [pubmedResult.ok ? "" : pubmedResult.error, weeklyBriefResult.ok ? "" : weeklyBriefResult.error].filter(Boolean),
     manualReview: buildManualReviewItems(pubmedResult, effectiveCounts),
     configPreview: {
       pubmedQuery: buildPubMedQuery(),
@@ -74,6 +88,9 @@ async function main() {
     );
   } else {
     console.log(`PubMed update skipped/failed: ${pubmedResult.error}`);
+  }
+  if (weeklyBriefResult.ok) {
+    console.log(`Weekly brief generated: ${weeklyBriefResult.count} priority items.`);
   }
 }
 
@@ -123,6 +140,23 @@ async function validateSupportData() {
   }
 
   return results;
+}
+
+async function runWeeklyBriefSafely() {
+  try {
+    const brief = await updateWeeklyBrief({ dataDir });
+    return {
+      ok: true,
+      count: brief.priorityReading.length + brief.chinaHighlights.length + brief.reviewQueue.length,
+      error: null
+    };
+  } catch (error) {
+    return {
+      ok: false,
+      count: 0,
+      error: error.message
+    };
+  }
 }
 
 async function readExistingPubMedCounts() {

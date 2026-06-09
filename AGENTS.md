@@ -61,6 +61,7 @@
 - 对外部 API 请求要控制速率、设置超时并记录错误。
 - PubMed 中国研究只根据 affiliation 判断，不根据作者姓名判断。
 - PubMed 更新失败时不得用空数组覆盖已有安全数据。
+- `data/weekly-brief.json` 只从现有 PubMed JSON 规则生成，不调用 AI。
 
 ## 前端规范
 

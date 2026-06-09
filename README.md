@@ -54,6 +54,9 @@ data/china-research.json
 data/clinical-trials.json
 data/guidelines.json
 data/device-regulatory.json
+data/safety.json
+data/conference-news.json
+data/weekly-brief.json
 data/update-status.json
 ```
 
@@ -136,6 +139,10 @@ npm run update
 - 病例报告、基础研究和动物研究
 - 中国研究筛选结果，尤其是 affiliation 缺失或机构名称不规范时
 - ClinicalTrials.gov 状态、地点和申办方字段
+
+## 每周精选
+
+`data/weekly-brief.json` 由 `npm run update` 根据现有 PubMed JSON 规则生成，不调用 AI。当前包括优先阅读、中国研究、待复核队列和主题趋势。
 
 ## 下一阶段
 
