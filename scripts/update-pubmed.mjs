@@ -351,7 +351,13 @@ function textForScoringField(article, field) {
 
 function firstMatchingPattern(text, patterns) {
   const normalized = String(text || "").toLowerCase();
-  return patterns.find((pattern) => normalized.includes(String(pattern).toLowerCase())) || "";
+  return patterns.find((pattern) => matchesPattern(normalized, pattern)) || "";
+}
+
+function matchesPattern(text, pattern) {
+  const escaped = String(pattern).toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const flexible = escaped.replace(/\\ /g, "[\\s-]+");
+  return new RegExp(`(^|[^a-z0-9])${flexible}([^a-z0-9]|$)`, "i").test(text);
 }
 
 function extractAuthors(article) {

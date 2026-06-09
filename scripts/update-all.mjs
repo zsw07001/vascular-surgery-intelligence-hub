@@ -4,6 +4,7 @@ import { dirname, join } from "node:path";
 import { buildPubMedQuery, clinicalTrialsConfig, pubmedConfig } from "./config.mjs";
 import { ensureArray, readJsonFile, writeJsonFile } from "./utils.mjs";
 import { updatePubMed } from "./update-pubmed.mjs";
+import { updateDerivedInsights } from "./update-derived-insights.mjs";
 import { updateWeeklyBrief } from "./update-weekly-brief.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -23,6 +24,7 @@ async function main() {
   const existingCounts = await readExistingPubMedCounts();
   const pubmedResult = await runPubMedSafely();
   const effectiveCounts = pubmedResult.ok ? pubmedResult.counts : existingCounts;
+  const derivedResult = await runDerivedInsightsSafely();
   const weeklyBriefResult = await runWeeklyBriefSafely();
 
   const updateStatus = {
@@ -50,11 +52,15 @@ async function main() {
       },
       {
         name: "Guidelines and device regulatory",
-        status: statusForSupport(supportResults),
-        count:
-          ensureArray(await readJsonFile(join(dataDir, "guidelines.json"), [])).length +
-          ensureArray(await readJsonFile(join(dataDir, "device-regulatory.json"), [])).length,
-        message: "当前保留静态数据结构和空状态。"
+        status: derivedResult.ok ? "success" : statusForSupport(supportResults),
+        count: derivedResult.guidelines + derivedResult.devices,
+        message: derivedResult.ok ? "Generated from current PubMed JSON." : derivedResult.error
+      },
+      {
+        name: "Safety signals",
+        status: derivedResult.ok ? "success" : statusForSupport(supportResults),
+        count: derivedResult.safety,
+        message: derivedResult.ok ? "Generated from current PubMed JSON." : derivedResult.error
       },
       {
         name: "Weekly Brief",
@@ -72,7 +78,11 @@ async function main() {
       highImpactCount: pubmedResult.ok ? pubmedResult.highImpact.length : existingCounts.highImpact,
       chinaResearchCount: pubmedResult.ok ? pubmedResult.chinaResearch.length : existingCounts.china
     },
-    errors: [pubmedResult.ok ? "" : pubmedResult.error, weeklyBriefResult.ok ? "" : weeklyBriefResult.error].filter(Boolean),
+    errors: [
+      pubmedResult.ok ? "" : pubmedResult.error,
+      derivedResult.ok ? "" : derivedResult.error,
+      weeklyBriefResult.ok ? "" : weeklyBriefResult.error
+    ].filter(Boolean),
     manualReview: buildManualReviewItems(pubmedResult, effectiveCounts),
     configPreview: {
       pubmedQuery: buildPubMedQuery(),
@@ -91,6 +101,11 @@ async function main() {
   }
   if (weeklyBriefResult.ok) {
     console.log(`Weekly brief generated: ${weeklyBriefResult.count} priority items.`);
+  }
+  if (derivedResult.ok) {
+    console.log(
+      `Derived insights generated: ${derivedResult.guidelines} guidelines, ${derivedResult.devices} device signals, ${derivedResult.safety} safety signals.`
+    );
   }
 }
 
@@ -140,6 +155,27 @@ async function validateSupportData() {
   }
 
   return results;
+}
+
+async function runDerivedInsightsSafely() {
+  try {
+    const result = await updateDerivedInsights({ dataDir });
+    return {
+      ok: true,
+      guidelines: result.guidelines.length,
+      devices: result.devices.length,
+      safety: result.safety.length,
+      error: null
+    };
+  } catch (error) {
+    return {
+      ok: false,
+      guidelines: ensureArray(await readJsonFile(join(dataDir, "guidelines.json"), [])).length,
+      devices: ensureArray(await readJsonFile(join(dataDir, "device-regulatory.json"), [])).length,
+      safety: ensureArray(await readJsonFile(join(dataDir, "safety.json"), [])).length,
+      error: error.message
+    };
+  }
 }
 
 async function runWeeklyBriefSafely() {

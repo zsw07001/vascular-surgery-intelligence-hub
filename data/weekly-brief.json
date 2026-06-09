@@ -1,77 +1,50 @@
 {
-  "generatedAt": "2026-06-09T10:43:16.154Z",
+  "generatedAt": "2026-06-09T10:54:25.099Z",
   "period": {
     "start": "2026-06-03",
     "end": "2026-06-09"
   },
   "counts": {
     "latestResearch": 200,
-    "highImpact": 24,
-    "chinaResearch": 34,
-    "reviewQueue": 83
+    "highImpact": 89,
+    "chinaResearch": 37,
+    "reviewQueue": 15
   },
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 84
+      "count": 83
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 79
-    },
-    {
-      "tag": "Vascular Graft / Stent / Device",
       "count": 71
     },
     {
-      "tag": "Aortic Disease",
-      "count": 47
-    },
-    {
       "tag": "Venous Disease",
-      "count": 47
+      "count": 50
     },
     {
-      "tag": "PAD / CLTI",
-      "count": 37
+      "tag": "Vascular Graft / Stent / Device",
+      "count": 45
+    },
+    {
+      "tag": "Aortic Disease",
+      "count": 40
     },
     {
       "tag": "China Research",
-      "count": 34
+      "count": 37
+    },
+    {
+      "tag": "PAD / CLTI",
+      "count": 28
     },
     {
       "tag": "Open Surgery",
-      "count": 25
+      "count": 27
     }
   ],
   "priorityReading": [
-    {
-      "pmid": "40451566",
-      "title": "Progestin-only contraception and thrombosis: An updated systematic review.",
-      "journal": "Contraception",
-      "publicationDate": "2025-05-30",
-      "authors": [
-        "Tepper NK",
-        "Nguyen AT",
-        "Whiteman MK",
-        "Curtis KM"
-      ],
-      "doi": "10.1016/j.contraception.2025.110978",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40451566/",
-      "topicTags": [
-        "Venous Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Systematic Review",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "isChinaResearch": false,
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。"
-    },
     {
       "pmid": "42250116",
       "title": "Association of intensive blood pressure lowering with health-related quality of life after endovascular thrombectomy: a post-hoc analysis of the ENCHANTED2/MT trial.",
@@ -100,77 +73,49 @@
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42250116/",
       "topicTags": [
         "Endovascular",
-        "Vascular Graft / Stent / Device",
         "China Research"
       ],
       "studyTypeTags": [
         "RCT",
-        "Clinical Trial",
-        "Basic Research"
+        "Clinical Trial"
       ],
       "relevance": "high",
-      "score": 7,
+      "score": 14,
       "isChinaResearch": true,
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。"
     },
     {
-      "pmid": "42236287",
-      "title": "No Increased Risk of Cancer Death after Endovascular Aortic Repair in a Nationwide Population-based Cohort Study.",
-      "journal": "The British journal of surgery",
-      "publicationDate": "2026-06-03",
+      "pmid": "41833592",
+      "title": "To regress or not to regress? Outcomes of aneurysm sac behavior after endovascular aortic aneurysm repair: A systematic review and meta-analysis.",
+      "journal": "Journal of vascular surgery",
+      "publicationDate": "2026-03-14",
       "authors": [
-        "Lilja F",
-        "Wanhainen A",
-        "Mani K"
+        "&#xc7;etinel E",
+        "Khattak AI",
+        "Labib M",
+        "Dagostin AF",
+        "Bezborodova A",
+        "Rego RA",
+        "Habiyambere GI",
+        "Madera D"
       ],
-      "doi": "10.1093/bjs/znag065",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42236287/",
+      "doi": "10.1016/j.jvs.2026.02.042",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41833592/",
       "topicTags": [
         "Aortic Disease",
         "Endovascular",
         "Imaging / Diagnosis"
       ],
       "studyTypeTags": [
-        "Cohort",
-        "Registry"
+        "Clinical Trial",
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
       ],
       "relevance": "high",
       "score": 9,
       "isChinaResearch": false,
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。"
-    },
-    {
-      "pmid": "41657254",
-      "title": "Application of the Branch-First Technique in Mesenteric Malperfusion Syndrome Prior to Delayed Open Aortic Repair for Acute Type A Aortic Dissection.",
-      "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
-      "publicationDate": "2026-02-09",
-      "authors": [
-        "Ye M",
-        "Sun H",
-        "Zeng C",
-        "Si Y",
-        "Wang W",
-        "Yu B",
-        "Zhao H",
-        "Ren K",
-        "Xu J",
-        "Xu B",
-        "Yu S",
-        "Liu J",
-        "Xue C",
-        "Duan W"
-      ],
-      "doi": "10.1080/08941939.2026.2622166",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41657254/",
-      "topicTags": [
-        "Aortic Disease",
-        "China Research"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 9,
-      "isChinaResearch": true,
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。"
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。"
     },
     {
       "pmid": "42260250",
@@ -194,43 +139,111 @@
         "Imaging / Diagnosis"
       ],
       "studyTypeTags": [
-        "RCT",
-        "Clinical Trial",
         "Systematic Review",
         "Meta-analysis",
-        "Basic Research",
         "Review"
       ],
-      "relevance": "medium",
-      "score": 4,
+      "relevance": "high",
+      "score": 9,
       "isChinaResearch": false,
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。"
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。"
     },
     {
-      "pmid": "42258514",
-      "title": "Implementation of a clinical decision support tool to improve the adequate prescription of low-molecular-weight heparins in non-surgical patients.",
-      "journal": "PloS one",
+      "pmid": "42260504",
+      "title": "Factors associated with postoperative acute kidney injury in stanford type a aortic dissection in china: a systematic review and meta-analysis.",
+      "journal": "Journal of cardiothoracic surgery",
       "publicationDate": "2026-06-08",
       "authors": [
-        "van Gosliga F",
-        "Pals D",
-        "van Ojik A",
-        "van Roon E"
+        "Ning L",
+        "Chen M",
+        "Luo H",
+        "Xie P",
+        "Li Z",
+        "Liao Q"
       ],
-      "doi": "10.1371/journal.pone.0350017",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42258514/",
+      "doi": "10.1186/s13019-026-04372-7",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260504/",
       "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
+        "Aortic Disease",
+        "Open Surgery",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "isChinaResearch": true,
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。"
+    },
+    {
+      "pmid": "42242464",
+      "title": "Comparative Patency Outcomes between Stent Configurations in Endovascular Non-malignant Iliocaval Reconstruction for Chronic Venous Disease: A Systematic Review.",
+      "journal": "Journal of vascular and interventional radiology : JVIR",
+      "publicationDate": "2026-06-03",
+      "authors": [
+        "Sivaharan A",
+        "Harmen C",
+        "Coates A",
+        "Alatishe B",
+        "Khalil R",
+        "El-Sayed T",
+        "Nandhra S"
+      ],
+      "doi": "10.1016/j.jvir.2026.108886",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42242464/",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
         "Guideline / Consensus"
       ],
       "studyTypeTags": [
-        "Guideline"
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
       ],
       "relevance": "high",
-      "score": 6,
+      "score": 9,
       "isChinaResearch": false,
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。"
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。"
+    },
+    {
+      "pmid": "41722899",
+      "title": "Efficacy and Safety of Endovascular Therapy with Stent Implantation Versus Endarterectomy in Common Femoral Artery Atherosclerosis: A Systematic Review and Meta-Analysis.",
+      "journal": "Annals of vascular surgery",
+      "publicationDate": "2026-02-19",
+      "authors": [
+        "Gomes Soares EA",
+        "de Melo Silva B",
+        "Bohatch J&#xfa;nior MS",
+        "de Freitas Quintanilha D",
+        "Wells N",
+        "Ochoa Chaar CI",
+        "de Carvalho Dias Miranda N",
+        "Miranda LM",
+        "Teixeira EC",
+        "Mazotti de Moraes T"
+      ],
+      "doi": "10.1016/j.avsg.2026.02.013",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41722899/",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "isChinaResearch": false,
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。"
     }
   ],
   "chinaHighlights": [
@@ -262,51 +275,46 @@
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42250116/",
       "topicTags": [
         "Endovascular",
-        "Vascular Graft / Stent / Device",
         "China Research"
       ],
       "studyTypeTags": [
         "RCT",
-        "Clinical Trial",
-        "Basic Research"
+        "Clinical Trial"
       ],
       "relevance": "high",
-      "score": 7,
+      "score": 14,
       "isChinaResearch": true,
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。"
     },
     {
-      "pmid": "41657254",
-      "title": "Application of the Branch-First Technique in Mesenteric Malperfusion Syndrome Prior to Delayed Open Aortic Repair for Acute Type A Aortic Dissection.",
-      "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
-      "publicationDate": "2026-02-09",
+      "pmid": "42260504",
+      "title": "Factors associated with postoperative acute kidney injury in stanford type a aortic dissection in china: a systematic review and meta-analysis.",
+      "journal": "Journal of cardiothoracic surgery",
+      "publicationDate": "2026-06-08",
       "authors": [
-        "Ye M",
-        "Sun H",
-        "Zeng C",
-        "Si Y",
-        "Wang W",
-        "Yu B",
-        "Zhao H",
-        "Ren K",
-        "Xu J",
-        "Xu B",
-        "Yu S",
-        "Liu J",
-        "Xue C",
-        "Duan W"
+        "Ning L",
+        "Chen M",
+        "Luo H",
+        "Xie P",
+        "Li Z",
+        "Liao Q"
       ],
-      "doi": "10.1080/08941939.2026.2622166",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41657254/",
+      "doi": "10.1186/s13019-026-04372-7",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260504/",
       "topicTags": [
         "Aortic Disease",
+        "Open Surgery",
         "China Research"
       ],
-      "studyTypeTags": [],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
       "relevance": "high",
       "score": 9,
       "isChinaResearch": true,
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。"
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。"
     },
     {
       "pmid": "42249540",
@@ -330,194 +338,160 @@
         "China Research"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Basic Research"
+        "Cohort"
       ],
       "relevance": "high",
-      "score": 6,
-      "isChinaResearch": true,
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。"
-    },
-    {
-      "pmid": "42248631",
-      "title": "Letter regarding \"Three-branched ISLF-TEVAR for zone 0 acute dissection: Five-year outcomes\".",
-      "journal": "Journal of vascular surgery",
-      "publicationDate": "2026-07-01",
-      "authors": [
-        "Dong W",
-        "Song Q",
-        "Lv Z"
-      ],
-      "doi": "10.1016/j.jvs.2026.01.052",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42248631/",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "China Research"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
+      "score": 11,
       "isChinaResearch": true,
       "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。"
-    }
-  ],
-  "reviewQueue": [
-    {
-      "pmid": "42253749",
-      "title": "Revealing the Hidden Severity: A Case Report on Managing Complex Aortic Stenosis With TAVI.",
-      "journal": "Case reports in cardiology",
-      "publicationDate": "2026-06-03",
-      "authors": [
-        "Stefoulis T",
-        "Sindone J",
-        "Mahjoub M",
-        "Pack SJ",
-        "Lal S"
-      ],
-      "doi": "10.1155/cric/1945506",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42253749/",
-      "topicTags": [
-        "Aortic Disease",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "studyTypeTags": [
-        "Guideline",
-        "Case Report",
-        "Basic Research"
-      ],
-      "relevance": "review",
-      "score": 0,
-      "isChinaResearch": false,
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。"
     },
     {
-      "pmid": "42233906",
-      "title": "Single-Stage Repair of Complex Congenital Aortic Arch Pathology With Dissection and Aneurysm in an Adult.",
-      "journal": "JACC. Case reports",
-      "publicationDate": "2026-06-03",
+      "pmid": "42260637",
+      "title": "Rivaroxaban versus low-molecular-weight heparin and fondaparinux for preventing deep vein thrombosis after total knee arthroplasty in high-altitude residents: a randomized controlled trial.",
+      "journal": "Trials",
+      "publicationDate": "2026-06-08",
       "authors": [
-        "Ahmad N",
-        "Chen X",
-        "Huang Y",
-        "Li J",
-        "Wang Y",
-        "Zhang Q",
-        "Huang L"
+        "Ren L",
+        "Fang H",
+        "Fu X",
+        "Chu X",
+        "Liu X",
+        "Shi L",
+        "Zheng P"
       ],
-      "doi": "10.1016/j.jaccas.2026.108596",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42233906/",
+      "doi": "10.1186/s13063-025-09371-y",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260637/",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
+        "Venous Disease",
+        "Antithrombotic Therapy",
         "Imaging / Diagnosis",
         "China Research"
       ],
       "studyTypeTags": [
         "RCT",
-        "Case Report",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "isChinaResearch": true,
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。"
+    }
+  ],
+  "reviewQueue": [
+    {
+      "pmid": "41232099",
+      "title": "ICU Nurses' Perspectives on Barriers and Interventions for Central-Line-Associated Bloodstream Infection Prevention.",
+      "journal": "Journal of nursing care quality",
+      "publicationDate": "2025-11-12",
+      "authors": [
+        "Nguyen A",
+        "Craig S"
+      ],
+      "doi": "10.1097/NCQ.0000000000000929",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41232099/",
+      "topicTags": [
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Guideline"
+      ],
+      "relevance": "review",
+      "score": 0,
+      "isChinaResearch": false,
+      "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。"
+    },
+    {
+      "pmid": "42260794",
+      "title": "Global research trends on intra-arterial chemotherapy for retinoblastoma: A bibliometric and visualized study.",
+      "journal": "Medicine",
+      "publicationDate": "2026-06-05",
+      "authors": [
+        "Visconti-Lopez FJ",
+        "Saal-Zapata G"
+      ],
+      "doi": "10.1097/MD.0000000000049223",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260794/",
+      "topicTags": [],
+      "studyTypeTags": [],
+      "relevance": "review",
+      "score": 0,
+      "isChinaResearch": false,
+      "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。"
+    },
+    {
+      "pmid": "42249884",
+      "title": "Reply: Timing, risk, and relevance: Refining venous thromboembolism screening in esophageal cancer.",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
+      "publicationDate": "2026-06-05",
+      "authors": [
+        "Jones GD",
+        "Raja S",
+        "Ahmad U",
+        "Raymond DP",
+        "Tang A",
+        "Rappaport JM",
+        "Azari F",
+        "Feczko AF",
+        "Sudarshan M",
+        "Toth AJ",
+        "Blackstone EH",
+        "Murthy S"
+      ],
+      "doi": "10.1016/j.jtcvs.2026.04.042",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42249884/",
+      "topicTags": [
+        "Venous Disease"
+      ],
+      "studyTypeTags": [],
+      "relevance": "review",
+      "score": 0,
+      "isChinaResearch": false,
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。"
+    },
+    {
+      "pmid": "42160785",
+      "title": "Toward digital twin-enabled venous flow modelling: Interactive valve geometry and lab-on-chip generation framework.",
+      "journal": "Computers in biology and medicine",
+      "publicationDate": "2026-05-20",
+      "authors": [
+        "Kumar VV",
+        "Harris C",
+        "Kumar V",
+        "Janssen H"
+      ],
+      "doi": "10.1016/j.compbiomed.2026.111755",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42160785/",
+      "topicTags": [
+        "Venous Disease"
+      ],
+      "studyTypeTags": [],
+      "relevance": "review",
+      "score": 0,
+      "isChinaResearch": false,
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。"
+    },
+    {
+      "pmid": "42140576",
+      "title": "Integrated single-cell multi-omics analysis identifies fibroblast-like smooth muscle cells as a key driving phenotypic switching during aortic aneurysm progression.",
+      "journal": "Journal of molecular and cellular cardiology",
+      "publicationDate": "2026-05-14",
+      "authors": [
+        "Zhang J",
+        "Zhao W"
+      ],
+      "doi": "10.1016/j.yjmcc.2026.05.006",
+      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42140576/",
+      "topicTags": [
+        "Aortic Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
         "Basic Research"
       ],
       "relevance": "review",
       "score": 0,
       "isChinaResearch": true,
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。"
-    },
-    {
-      "pmid": "42258428",
-      "title": "Prevalence and factors associated with microvascular and macrovascular diabetes complications in adult Ugandans: A systematic review and meta-analysis.",
-      "journal": "PloS one",
-      "publicationDate": "2026-06-08",
-      "authors": [
-        "Kibirige D",
-        "Olum R",
-        "Turyamureeba W",
-        "Morgan B",
-        "Kyazze AP",
-        "Nsubuga Y",
-        "Okot J",
-        "Lumu W",
-        "Bongomin F"
-      ],
-      "doi": "10.1371/journal.pone.0312792",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42258428/",
-      "topicTags": [
-        "PAD / CLTI"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Basic Research",
-        "Review"
-      ],
-      "relevance": "review",
-      "score": -3,
-      "isChinaResearch": false,
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。"
-    },
-    {
-      "pmid": "42140129",
-      "title": "Does point-of-care testing offer a positive economic impact on primary healthcare? A systematic review.",
-      "journal": "Health policy (Amsterdam, Netherlands)",
-      "publicationDate": "2026-05-12",
-      "authors": [
-        "Berkta&#x15f; SA",
-        "T&#xfc;z&#xfc;n H",
-        "Erg&#xfc;n MA",
-        "&#x130;lhan MN"
-      ],
-      "doi": "10.1016/j.healthpol.2026.105652",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42140129/",
-      "topicTags": [
-        "Venous Disease",
-        "Vascular Graft / Stent / Device",
-        "Guideline / Consensus"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Basic Research",
-        "Review"
-      ],
-      "relevance": "review",
-      "score": -1,
-      "isChinaResearch": false,
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。"
-    },
-    {
-      "pmid": "42069036",
-      "title": "Secondary prevention strategies for patients with lower extremity peripheral artery disease after successful peripheral vascular intervention.",
-      "journal": "American heart journal",
-      "publicationDate": "2026-04-30",
-      "authors": [
-        "Gouda P",
-        "Secemsky EA",
-        "Hess CN",
-        "Arya S",
-        "Fokorede F",
-        "Mehran R",
-        "Bonaca MP",
-        "Patel MR",
-        "Jones WS"
-      ],
-      "doi": "10.1016/j.ahj.2026.107446",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42069036/",
-      "topicTags": [
-        "PAD / CLTI",
-        "Antithrombotic Therapy",
-        "Guideline / Consensus"
-      ],
-      "studyTypeTags": [
-        "Guideline",
-        "Basic Research",
-        "Review"
-      ],
-      "relevance": "review",
-      "score": -1,
-      "isChinaResearch": false,
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。"
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。"
     }
   ],
   "note": "规则生成周报：基于现有 PubMed 数据按相关性、研究类型、中国机构和主题标签排序，不调用 AI。"

@@ -156,11 +156,10 @@
       "China Research"
     ],
     "studyTypeTags": [],
-    "relevance": "high",
-    "score": 7,
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
-      "+3 title vascular surgery topic: EVAR",
-      "+2 treatment or prognosis relevance: outcome",
+      "+3 title vascular surgery topic: TEVAR",
       "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
@@ -223,19 +222,17 @@
       "Letter"
     ],
     "topicTags": [
-      "Aortic Disease",
       "Endovascular",
       "Vascular Graft / Stent / Device"
     ],
     "studyTypeTags": [],
     "relevance": "medium",
-    "score": 5,
+    "score": 3,
     "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 treatment or prognosis relevance: graft"
+      "+3 title vascular surgery topic: endovascular"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
     "source": "PubMed"
   },
   {
@@ -260,14 +257,11 @@
       "Observational Study"
     ],
     "topicTags": [],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -3,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 human study: human",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -320,12 +314,10 @@
     "studyTypeTags": [
       "Basic Research"
     ],
-    "relevance": "review",
-    "score": -5,
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: mechanism"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -359,16 +351,14 @@
     "topicTags": [
       "Aortic Disease",
       "Open Surgery",
-      "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [],
-    "relevance": "high",
-    "score": 7,
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: stent"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -403,15 +393,13 @@
       "Guideline / Consensus"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -445,20 +433,113 @@
       "Guideline / Consensus"
     ],
     "studyTypeTags": [
-      "Guideline",
-      "Basic Research"
+      "Guideline"
+    ],
+    "relevance": "high",
+    "score": 9,
+    "scoreReasons": [
+      "+2 clinical evidence design: guideline",
+      "+3 high-value publication type: guideline",
+      "+2 human study: clinical",
+      "+2 treatment or prognosis relevance: intervention"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42261217",
+    "title": "Exploratory Evaluation of Dual Digital Platforms for Acute Brain Conditions in Medically Underserved Rural Areas : A Chuncheon, Gangwon-do Experience.",
+    "abstract": "OBJECTIVE: To describe an exploratory initial experience with two complementary digital platforms consisting of an AI-based telemedicine system and an SNS-based transfer coordination network, for acute brain conditions in rural areas with limited or no on-site neurosurgical coverage. METHODS: We retrospectively reviewed patients with acute brain conditions who first presented to rural hospitals and were subsequently transferred to a regional hub hospital between January 2024 and March 2025. Transfers were coordinated using either an AI-integrated CT telemedicine platform or an SNS-based (KakaoTalk) collaboration network. Outcomes were assessed using the 3-month modified Rankin Scale (mRS), with favorable outcome defined as 0-2. RESULTS: Eight patients (mean age 70.5 years) were managed via the AI platform, which supported collaboration between non-expert rural clinicians and hub-hospital neurospecialists. Referrals were initiated by general practitioners (n=5), an internist (n=1), and nurses (n=2). AI-assisted CT screening with integrated teleconsultation facilitated timely diagnostic clarification and early management. All eight patients had favorable outcomes at 3 months. Twelve patients were managed via the SNS platform for inter-hospital transfer. 11 required neurocritical care and 3 underwent neurosurgical or endovascular intervention after transfer. Overall, 9 patients achieved favorable functional outcomes (3-month mRS score, 0-2). CONCLUSION: This exploratory study describes the potential utility of a dual-platform strategy integrating AI-based telemedicine and SNS-based transfer coordination for supporting acute brain condition management in medically underserved rural areas. Further prospective studies are needed to determine whether this approach improves time-sensitive transfer processes and clinical outcomes.",
+    "englishSummary": "OBJECTIVE: To describe an exploratory initial experience with two complementary digital platforms consisting of an AI-based telemedicine system and an SNS-based transfer coordination network, for acute brain conditions in rural areas with limited or no on-site neurosurgical coverage. METHODS: We retrospectively reviewed patients with acute brain conditions who first presented to rural hospitals and were subsequently transferred to a regional hub hospital between January 2024 and March 2025. Transfers were coordinated using either an AI-integrated CT telemedicine platform or an SNS-based (KakaoTalk) collaboration network.",
+    "journal": "Journal of Korean Neurosurgical Society",
+    "publicationDate": "2026-06-09",
+    "authors": [
+      "Shin SH",
+      "Park MS",
+      "Kang J",
+      "Han S",
+      "Lee SH",
+      "Sohn JH",
+      "Choi HJ",
+      "Jun HS",
+      "Ahn JH",
+      "Lee SJ",
+      "Kim S",
+      "Kim C",
+      "Jeon JP"
+    ],
+    "affiliations": [
+      "Department of Biomedical Informatics, Hallym University Sacred Heart Hospital, Chuncheon, Korea.",
+      "Department of Neurosurgery, Hallym University College of Medicine, Chuncheon, Korea.",
+      "Department of Neurology, Hallym University College of Medicine, Chuncheon, Korea.",
+      "Department of Neurosurgery, Kangwon National University College of Medicine, Chuncheon, Korea.",
+      "Department of Neurology, Kangwon National University College of Medicine, Chuncheon, Korea.",
+      "Department of Neurology, Hallym University College of Medicine, Chuncheon, Korea. gumdol52@hallym.or.kr.",
+      "Department of Neurosurgery, Hallym University College of Medicine, Chuncheon, Korea. jjs6553@daum.net.",
+      "Department of Medical Device Development, Seoul National University College of Medicine, Seoul, Korea. jjs6553@daum.net.",
+      "Department of Population and Quantitative Health Sciences, UMass Chan Medical School, Worcester, MA, USA. jjs6553@daum.net."
+    ],
+    "doi": "10.3340/jkns.2026.0091",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42261217/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Vascular Graft / Stent / Device"
+    ],
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: intervention"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42260521",
+    "title": "Emerging strategies in venous thromboembolism: a narrative review of pharmacological innovations.",
+    "abstract": "Venous thromboembolism (VTE), comprising deep vein thrombosis (DVT) and pulmonary embolism (PE), is a major cause of preventable morbidity and mortality and is increasingly recognized as a chronic vascular disease. Although direct oral anticoagulants (DOACs) have simplified management, clinically important limitations remain. Major bleeding still occurs in roughly 2-4% of treated patients per year and clinically relevant nonmajor bleeding in 10-12%, while post-thrombotic syndrome (PTS) after proximal DVT and persistent functional limitation after PE continue to impair quality of life. This narrative review synthesizes emerging pharmacological strategies beyond conventional anticoagulation, with emphasis on the maturity of evidence and on the distinction between thromboprophylaxis, treatment of acute VTE, secondary prevention, and adjunctive thrombus-resolution approaches. Factor XI/activated factor XI (FXI/FXIa) inhibition is the most mature bleeding-sparing platform. In orthopedic thromboprophylaxis, abelacimab, FXI antisense oligonucleotides, milvexian, and osocimab reduced postoperative venous thrombosis with low bleeding signals, but most data still come from prophylaxis rather than treatment trials. By contrast, fibrinolysis-enhancing strategies targeting &#x3b1;2-antiplasmin, plasminogen activator inhibitor-1 (PAI-1), or thrombin-activatable fibrinolysis inhibitor (TAFI) seek to accelerate endogenous clot resolution and possibly reduce long-term disability, yet current clinical evidence remains early phase. Thrombo-inflammatory approaches targeting selectins or P-selectin glycoprotein ligand-1 (PSGL-1) have strong mechanistic rationale but limited direct clinical confirmation. Overall, the VTE pipeline is moving from broad suppression of coagulation toward mechanism-based strategies matched to specific clinical problems: bleeding-sparing anticoagulation, safer clot-resolution adjuncts, and therapies directed at vein wall injury. At present, FXI inhibition appears closest to clinical translation, whereas fibrinolysis-enhancing and thrombo-inflammatory approaches remain exploratory. Wider adoption will depend on phase 3 treatment outcomes, evidence in cancer and organ dysfunction, reversibility, cost-effectiveness, and integration into clinical guidelines.",
+    "englishSummary": "Venous thromboembolism (VTE), comprising deep vein thrombosis (DVT) and pulmonary embolism (PE), is a major cause of preventable morbidity and mortality and is increasingly recognized as a chronic vascular disease. Although direct oral anticoagulants (DOACs) have simplified management, clinically important limitations remain. Major bleeding still occurs in roughly 2-4% of treated patients per year and clinically relevant nonmajor bleeding in 10-12%, while post-thrombotic syndrome (PTS) after proximal DVT and persistent functional limitation after PE continue to impair quality of life.",
+    "journal": "Thrombosis journal",
+    "publicationDate": "2026-06-09",
+    "authors": [
+      "Ye J",
+      "Huang K"
+    ],
+    "affiliations": [
+      "Department of Nursing, The First Affiliated Hospital of Zhejiang University School of Medicine, 1367 Wenyi West Road, Yuhang District, Hangzhou, Zhejiang, 311121, China.",
+      "The First Affiliated Hospital of Zhejiang University School of Medicine, 1367 Wenyi West Road, Yuhang District, Hangzhou, Zhejiang, 311121, China. KunHuang@zju.edu.cn."
+    ],
+    "doi": "10.1186/s12959-026-00882-5",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260521/",
+    "publicationTypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "Antithrombotic Therapy",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Basic Research",
+      "Review"
     ],
     "relevance": "medium",
     "score": 4,
     "scoreReasons": [
-      "+2 clinical evidence design: guideline",
-      "+3 high-value publication type: guideline",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China",
+      "-2 basic mechanism without clinical relevance: mechanism"
     ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -497,24 +578,20 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Clinical Trial",
       "Systematic Review",
       "Meta-analysis",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
-      "+2 clinical evidence design: trial",
+      "+2 clinical evidence design: meta-analysis",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
     "source": "PubMed"
   },
   {
@@ -563,16 +640,237 @@
       "Cohort",
       "Basic Research"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: outcome"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42260926",
+    "title": "Endovascular Conversion of a Failed Fenestrated Anaconda Endograft Using a Branched Custom-Made Device.",
+    "abstract": "PURPOSE: To present the successful resolution of a type Ia endoleak in a patient previously treated with a fenestrated Anaconda endograft using a custom-made branched endograft. TECHNIQUE: The limited working length and the retrograde orientation of the renal arteries due to caudal migration of the previous fenestrated endograft required a unique custom-made 5-branched graft configuration designed by COOK Medical (Bloomington, Indiana). This design featured 2 short (10-mm) retrograde branches for the renal arteries, along with an additional branch extending from the main body of the graft to accommodate the contralateral limb of the previous endograft. A .014&#x2033; wire was used as a stabilizing \"pull-through wire\" for the Fustar sheath, providing adequate stability for the challenging catheterization of the target vessels. CONCLUSION: Custom-made branched endovascular aneurysm repair after failed fenestrated Anaconda device is a feasible solution. Thorough planning and complex endovascular techniques may be necessary.Clinical ImpactThis technical report highlights the significant challenges associated with endovascular reintervention following failure of fenestrated endografts. Such reoperations often require customized grafts and advanced endovascular skills. Our experience demonstrates that with appropriate planning, branched endovascular repair (bEVAR) can be a feasible and effective solution for managing failed fenestrated endovascular aneurysm repair (fEVAR) apart from open conversion.",
+    "englishSummary": "PURPOSE: To present the successful resolution of a type Ia endoleak in a patient previously treated with a fenestrated Anaconda endograft using a custom-made branched endograft. TECHNIQUE: The limited working length and the retrograde orientation of the renal arteries due to caudal migration of the previous fenestrated endograft required a unique custom-made 5-branched graft configuration designed by COOK Medical (Bloomington, Indiana). This design featured 2 short (10-mm) retrograde branches for the renal arteries, along with an additional branch extending from the main body of the graft to accommodate the contralateral limb of the previous endograft.",
+    "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+    "publicationDate": "2026-06-08",
+    "authors": [
+      "Amvrazi AV",
+      "Assaf B",
+      "Hasemaki N",
+      "Stana J",
+      "Gouveia E Melo R",
+      "Tsilimparis N"
+    ],
+    "affiliations": [
+      "Department of Vascular Surgery, University Hospital, LMU Munich, Germany.",
+      "Vascular Surgery Department, Hospital de Santa Maria, Unidade Local de Sa&#xfa;de de Santa Maria, Lisbon, Portugal; Faculdade de Medicina da Universidade de Lisboa; Centro Cardiovascular da Universidade de Lisboa (CCUL@RISE), Lisbon, Portugal."
+    ],
+    "doi": "10.1177/15266028261454349",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260926/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Vascular Graft / Stent / Device"
+    ],
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 7,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 human study: clinical",
+      "+2 treatment or prognosis relevance: device"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42260637",
+    "title": "Rivaroxaban versus low-molecular-weight heparin and fondaparinux for preventing deep vein thrombosis after total knee arthroplasty in high-altitude residents: a randomized controlled trial.",
+    "abstract": "BACKGROUND: High-altitude residence (defined as&#x2009;&#x2265;&#x2009;1500&#xa0;m above sea level) is associated with chronic hypoxia and increased thrombotic risk. This study aimed to evaluate the comparative efficacy and safety of rivaroxaban, low-molecular-weight heparin (LMWH), and fondaparinux for preventing deep vein thrombosis (DVT) after total knee arthroplasty (TKA) in long-term high-altitude residents. METHODS: In this randomized controlled trial, 90 high-altitude residents undergoing primary TKA were randomly assigned to one of three groups: rivaroxaban (group A), LMWH (group B), or fondaparinux (group C). The primary outcome was the incidence of postoperative DVT assessed by duplex ultrasonography on postoperative day 14. Secondary outcomes included coagulation indicators (PT, APTT, FIB, PLT, D-dimer), inflammatory markers (CRP, PCT, IL-6, ESR, WBC), knee circumference, intraoperative blood loss, and bleeding-related adverse events. RESULTS: DVT incidence was 0% in the rivaroxaban group, compared with 16.7% in the LMWH group and 13.3% in the fondaparinux group (P&#x2009;=&#x2009;0.016). On postoperative day 14, D-dimer levels were significantly lower in the rivaroxaban group than in LMWH (P&#x2009;<&#x2009;0.001) and fondaparinux (P&#x2009;<&#x2009;0.001) and lower in fondaparinux than LMWH (P&#x2009;<&#x2009;0.001). PT and APTT were higher in the rivaroxaban group compared with LMWH (PT P&#x2009;<&#x2009;0.001, APTT P&#x2009;=&#x2009;0.012) and fondaparinux (PT P&#x2009;<&#x2009;0.001, APTT P&#x2009;=&#x2009;0.035). FIB and PLT showed no significant differences. CRP and PCT were significantly lower with rivaroxaban than LMWH (CRP P&#x2009;<&#x2009;0.001, PCT P&#x2009;<&#x2009;0.001) and fondaparinux (CRP P&#x2009;=&#x2009;0.018, PCT P&#x2009;=&#x2009;0.018), while IL-6, ESR, and WBC showed no group differences. Intraoperative blood loss and bleeding complications were comparable across groups. CONCLUSION: Among high-altitude residents undergoing TKA, rivaroxaban demonstrated superior efficacy in preventing postoperative DVT and reducing inflammatory response without increasing bleeding risk. These findings contribute important evidence to guide anticoagulant selection in populations living at high altitude, who face unique thrombotic challenges due to chronic hypoxia.",
+    "englishSummary": "BACKGROUND: High-altitude residence (defined as&#x2009;&#x2265;&#x2009;1500&#xa0;m above sea level) is associated with chronic hypoxia and increased thrombotic risk. This study aimed to evaluate the comparative efficacy and safety of rivaroxaban, low-molecular-weight heparin (LMWH), and fondaparinux for preventing deep vein thrombosis (DVT) after total knee arthroplasty (TKA) in long-term high-altitude residents. METHODS: In this randomized controlled trial, 90 high-altitude residents undergoing primary TKA were randomly assigned to one of three groups: rivaroxaban (group A), LMWH (group B), or fondaparinux (group C).",
+    "journal": "Trials",
+    "publicationDate": "2026-06-08",
+    "authors": [
+      "Ren L",
+      "Fang H",
+      "Fu X",
+      "Chu X",
+      "Liu X",
+      "Shi L",
+      "Zheng P"
+    ],
+    "affiliations": [
+      "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, 610072, China.",
+      "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, 610072, China. shilihan1989@sina.com.",
+      "Chengdu University of Traditional Chinese Medicine, Chengdu, 6610072, People's Republic of China. shilihan1989@sina.com.",
+      "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, 610072, China. zhengpaiTCM@163.com.",
+      "Chengdu University of Traditional Chinese Medicine, Chengdu, 6610072, People's Republic of China. zhengpaiTCM@163.com."
+    ],
+    "doi": "10.1186/s13063-025-09371-y",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260637/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "Antithrombotic Therapy",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "RCT",
+      "Clinical Trial"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 clinical evidence design: randomized",
+      "+2 treatment or prognosis relevance: outcome",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42260569",
+    "title": "The effect of hemoadsorption to patients with Stanford Type A Aortic Dissection.",
+    "abstract": "OBJECTIVE: To observe the effect of hemoadsorption, an emerging therapy potentially valuable in blood purification, inflammation inhibition and toxic removal, to patients with Stanford Type A Aortic Dissection. METHODS: The clinical data of 100 patients with TAAD from January 2021 to June 2023 were retrospectively analyzed. Patients were divided into HA group and CON group, depending on the usage of hemoadsorption during the cardiopulmonary bypass, with 50 patients in each group. The comparison between two groups was performed including cardiopulmonary time, surgery time, aortic cross-clamp time, deep hypothermia cardiac arrest time, ultrafiltration volume, urine output as well as blood transfusion and clinical laboratory tests such as white cell count, aspartate aminotransferase, alanine transaminase, creatinine as well as blood urea nitrogen. All these variables were measured at 24&#xa0;h and 48&#xa0;h after surgery. RESULTS: There was no significant difference for both baseline characteristics and surgery-related variables between two groups (P&#x2009;>&#x2009;0.05). The number of patients with ICU stay&#x2009;&#x2264;&#x2009;6 d in HA group was higher significantly than that in CON group (P&#x2009;=&#x2009;0.038), while, other remaining endpoints were not significant in two groups (P&#x2009;>&#x2009;0.05). Postoperative 24&#xa0;h and 48&#xa0;h, lower aspartate aminotransferase and alanine transaminase are associated with intraoperative hemoadsorption (P&#x2009;=&#x2009;0.006, 0.006, 0.001 and 0.001, respectively). CONCLUSION: Hemoadsorption is correlated with early positive and favorable changes of laboratory tests.",
+    "englishSummary": "OBJECTIVE: To observe the effect of hemoadsorption, an emerging therapy potentially valuable in blood purification, inflammation inhibition and toxic removal, to patients with Stanford Type A Aortic Dissection. METHODS: The clinical data of 100 patients with TAAD from January 2021 to June 2023 were retrospectively analyzed. Patients were divided into HA group and CON group, depending on the usage of hemoadsorption during the cardiopulmonary bypass, with 50 patients in each group.",
+    "journal": "Journal of cardiothoracic surgery",
+    "publicationDate": "2026-06-08",
+    "authors": [
+      "Liu B",
+      "Liu H",
+      "Zhang S",
+      "Wei X",
+      "Ge S"
+    ],
+    "affiliations": [
+      "The department of cardiovascular surgery, the first affiliated hospital of Anhui Medical University, No.120 Wanshui Road, Hefei, Anhui province, China.",
+      "The department of cardiovascular surgery, Hefei BOE hospital, No.1266 Dongfang Avenue, Hefei, Anhui province, China.",
+      "The department of cardiovascular surgery, the first affiliated hospital of Anhui Medical University, No.120 Wanshui Road, Hefei, Anhui province, China. wenxian84@126.com."
+    ],
+    "doi": "10.1186/s13019-026-04348-7",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260569/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "Open Surgery",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "high",
+    "score": 9,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: aortic dissection",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42260507",
+    "title": "The role of early venous duplex screening in improving patient safety indicator-12 (PSI-12) classification accuracy: a retrospective cohort study.",
+    "abstract": "BACKGROUND: Venous thromboembolism (VTE) is a major cause of morbidity among surgical patients. Patient Safety Indicator 12 (PSI-12) identifies perioperative VTE events. This study evaluates whether early admission duplex ultrasound identifies VTEs associated with PSI-12 coding and assesses PSI-12 classification accuracy. METHODS: A single-center retrospective analysis was conducted on surgical patients with a venous duplex ultrasound within 48&#xa0;h of admission at a large academic medical center (2013-2024). Two cohorts were analyzed: (1) all surgical patients with early duplex imaging, (2) PSI-12 positive elective surgical patients with early duplex imaging. The primary outcome was the prevalence of pre-existing DVT identified within 48 h among PSI-12 positive patients. Diagnostic accuracy of early abnormal duplex findings for predicting PSI-12 classification was assessed using sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV). RESULTS: Among all 10,498 surgical patients, 10.6% had positive duplex findings for DVT. PSI-12 positive patients had double the prevalence compared to PSI-12 negatives (20.9% vs. 10.4%, p&#x2009;<&#x2009;0.001). In PSI-12 positive elective cases, 10.7% of preoperative duplex studies identified a DVT. Misclassification, defined as PSI-12 positive admissions without imaging-confirmed DVT or pulmonary embolism, occurred in 8.7% of elective cases. Overall, 36.7% of PSI-12 positive patients had abnormal early duplex findings. Early duplex demonstrated limited sensitivity but high specificity (sensitivity 36.7%, specificity 81.7%, PPV 3.7%, NPV 98.5%). CONCLUSIONS: Our findings suggest possible pre-existing disease rather than hospital-acquired VTE in PSI-12 positive patients. Incorporating admission duplex studies could improve PSI-12 classification accuracy, reduce costs, and enhance patient safety.",
+    "englishSummary": "BACKGROUND: Venous thromboembolism (VTE) is a major cause of morbidity among surgical patients. Patient Safety Indicator 12 (PSI-12) identifies perioperative VTE events. This study evaluates whether early admission duplex ultrasound identifies VTEs associated with PSI-12 coding and assesses PSI-12 classification accuracy.",
+    "journal": "Patient safety in surgery",
+    "publicationDate": "2026-06-08",
+    "authors": [
+      "Surti AS",
+      "Matthews RT",
+      "Popescu O",
+      "Bentaleb M",
+      "Alban RF"
+    ],
+    "affiliations": [
+      "Department of Surgery, Cedars-Sinai Medical Center, 8700 Beverly Blvd, 8215NT, Los Angeles, CA, 90048, USA.",
+      "College of Medicine and Health Sciences, Khalifa University, Abu Dhabi, United Arab Emirates.",
+      "Department of Surgery, Cedars-Sinai Medical Center, 8700 Beverly Blvd, 8215NT, Los Angeles, CA, 90048, USA. rodrigo.alban@csmc.edu."
+    ],
+    "doi": "10.1186/s13037-026-00489-9",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260507/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "Imaging / Diagnosis"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: outcome"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42260504",
+    "title": "Factors associated with postoperative acute kidney injury in stanford type a aortic dissection in china: a systematic review and meta-analysis.",
+    "abstract": "OBJECTIVE: This study aimed to explore the factors associated with postoperative acute kidney injury in Chinese Stanford type A aortic dissection patients through a systematic review and meta-analysis. METHODS: CNKI, WanFang Database, VIP, SinoMed, PubMed, Web of Science, Embase and Cochrane Library were comprehensively searched from inception until September 2025. Two reviewers independently conducted study selection, data extraction, and quality assessment. Meta-analysis was performed using Stata 15.1 and R 4.5.0 software. The certainty of evidence was evaluated using the GRADE tool. RESULTS: A total of 47 eligible studies comprising 9077 patients were included. Based on these observational studies, which predominantly had low to very low certainty of evidence (GRADE), the following factors were found to be associated with postoperative AKI in Chinese Stanford type A aortic dissection patients: age[adjusted odds ratio (OR)&#x2009;=&#x2009;1.10, 95% confidence interval (CI): 1.03-1.19, p&#x2009;<&#x2009;0.05], BMI[OR&#x2009;=&#x2009;1.20, 95%CI: 1.17-1.24, p&#x2009;<&#x2009;0.001], hypertension history[OR&#x2009;=&#x2009;2.74, 95%CI: 2.34-3.21, p&#x2009;<&#x2009;0.001], renal artery involvement[OR&#x2009;=&#x2009;4.40, 95%CI: 2.81-6.91, p&#x2009;<&#x2009;0.001], preoperative cardiac tamponade[OR&#x2009;=&#x2009;3.47, 95%CI: 1.93-6.26, p&#x2009;<&#x2009;0.001], preoperative serum creatinine[OR&#x2009;=&#x2009;1.16, 95%CI: 1.09-1.23, p&#x2009;<&#x2009;0.001], preoperative platelet[OR&#x2009;=&#x2009;0.96, 95%CI: 0.92-1.00, p&#x2009;<&#x2009;0.05], preoperative serum myoglobin[OR&#x2009;=&#x2009;1.69, 95%CI: 1.44-1.98, p&#x2009;<&#x2009;0.001], preoperative serum cystatin C[OR&#x2009;=&#x2009;6.59, 95%CI: 3.77-11.50, p&#x2009;<&#x2009;0.001], cardiopulmonary bypass time[adjusted OR&#x2009;=&#x2009;1.01, 95%CI: 1.00-1.02, p&#x2009;<&#x2009;0.05], CPB >&#x2009;180&#xa0;min[OR&#x2009;=&#x2009;3.48, 95%CI: 1.65-7.30, p&#x2009;<&#x2009;0.01], operative time[OR&#x2009;=&#x2009;1.69, 95%CI: 1.33-2.14, p&#x2009;<&#x2009;0.05], deep hypothermic circulatory arrest time[OR&#x2009;=&#x2009;1.16, 95%CI: 1.10-1.22, p&#x2009;<&#x2009;0.001], aortic cross-clamp time[OR&#x2009;=&#x2009;1.11, 95%CI: 1.01-1.21, p&#x2009;<&#x2009;0.05], intraoperative RBCs transfusion volume[adjusted OR&#x2009;=&#x2009;1.17, 95%CI: 1.02-1.35, p&#x2009;<&#x2009;0.05], intraoperative urine output[OR&#x2009;=&#x2009;0.75, 95%CI: 0.64-0.88, p&#x2009;<&#x2009;0.001], mechanical ventilation time[OR&#x2009;=&#x2009;1.01, 95%CI: 1.01-1.02, p&#x2009;<&#x2009;0.001] and postoperative procalcitonin[OR&#x2009;=&#x2009;1.03, 95%CI: 1.01-1.06, p&#x2009;<&#x2009;0.05]. CONCLUSION: This study demonstrates that factors associated with postoperative acute kidney injury in Chinese Stanford type A aortic dissection patients are closely related to the perioperative period. These findings may help clinicians identify risk factors early and facilitate the development of preventive strategies to improve patient outcomes. REGISTRATION: The research is registered on the PROSPERO website with the registration number CRD420250651792.",
+    "englishSummary": "OBJECTIVE: This study aimed to explore the factors associated with postoperative acute kidney injury in Chinese Stanford type A aortic dissection patients through a systematic review and meta-analysis. METHODS: CNKI, WanFang Database, VIP, SinoMed, PubMed, Web of Science, Embase and Cochrane Library were comprehensively searched from inception until September 2025. Two reviewers independently conducted study selection, data extraction, and quality assessment.",
+    "journal": "Journal of cardiothoracic surgery",
+    "publicationDate": "2026-06-08",
+    "authors": [
+      "Ning L",
+      "Chen M",
+      "Luo H",
+      "Xie P",
+      "Li Z",
+      "Liao Q"
+    ],
+    "affiliations": [
+      "Nursing Department, The Third Hospital of Mianyang, Sichuan Mental Health Center, Mianyang, Sichuan Province, China.",
+      "Nursing Department, The Third Hospital of Mianyang, Sichuan Mental Health Center, Mianyang, Sichuan Province, China. qqliao2009@163.com.",
+      "The Second Department of Severe Psychiatric, The Third Hospital of Mianyang, Sichuan Mental Health Center, no.190, East Section of Jiannan Road, Youxian District, Mianyang, 621000, Sichuan Province, China. qqliao2009@163.com."
+    ],
+    "doi": "10.1186/s13019-026-04372-7",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260504/",
+    "publicationTypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "Open Surgery",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Systematic Review",
+      "Meta-analysis",
+      "Review"
+    ],
+    "relevance": "high",
+    "score": 9,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: aortic dissection",
+      "+2 clinical evidence design: meta-analysis",
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
     "source": "PubMed"
   },
   {
@@ -608,16 +906,13 @@
       "Open Surgery",
       "Antithrombotic Therapy"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 1,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: randomized",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -663,22 +958,19 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Clinical Trial",
       "Cohort",
       "Registry",
-      "Real-world Evidence",
-      "Basic Research"
+      "Real-world Evidence"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
-      "+2 clinical evidence design: trial",
+      "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: real-world"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
+    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
     "source": "PubMed"
   },
   {
@@ -718,15 +1010,12 @@
       "Open Surgery",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
@@ -767,16 +1056,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -812,21 +1099,18 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "RCT",
       "Cohort",
-      "Real-world Evidence",
-      "Basic Research"
+      "Real-world Evidence"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: clinical",
-      "+2 treatment or prognosis relevance: real-world",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: real-world"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
     "source": "PubMed"
   },
   {
@@ -857,16 +1141,14 @@
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -895,22 +1177,17 @@
       "Journal Article"
     ],
     "topicTags": [
-      "PAD / CLTI",
-      "Venous Disease",
-      "Guideline / Consensus"
+      "Venous Disease"
     ],
-    "studyTypeTags": [
-      "Guideline"
-    ],
-    "relevance": "high",
-    "score": 6,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 clinical evidence design: guideline",
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -953,14 +1230,12 @@
     "studyTypeTags": [
       "Systematic Review",
       "Meta-analysis",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -3,
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 clinical evidence design: meta-analysis",
-      "-5 animal-only signal: rat"
+      "+2 clinical evidence design: meta-analysis"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
@@ -1043,24 +1318,20 @@
       "Review"
     ],
     "topicTags": [
-      "Endovascular",
-      "Vascular Graft / Stent / Device"
+      "Endovascular"
     ],
     "studyTypeTags": [
       "RCT",
       "Clinical Trial",
       "Systematic Review",
       "Meta-analysis",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 2,
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
-      "+2 clinical evidence design: randomized",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 clinical evidence design: randomized"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究为系统综述或 Meta 分析，适合优先阅读。",
@@ -1092,7 +1363,6 @@
     ],
     "topicTags": [
       "Endovascular",
-      "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [],
@@ -1135,18 +1405,15 @@
     "studyTypeTags": [
       "Cohort",
       "Registry",
-      "Real-world Evidence",
-      "Basic Research"
+      "Real-world Evidence"
     ],
-    "relevance": "low",
-    "score": 2,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic aneurysm",
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: pathway"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -1182,15 +1449,13 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -2,
+    "relevance": "medium",
+    "score": 3,
     "scoreReasons": [
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat",
       "-1 case report: case report"
     ],
     "isChinaResearch": false,
@@ -1230,22 +1495,19 @@
       "China Research"
     ],
     "studyTypeTags": [
-      "Clinical Trial",
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
     "relevance": "high",
-    "score": 6,
+    "score": 11,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic dissection",
-      "+2 clinical evidence design: trial",
+      "+2 clinical evidence design: cohort",
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -1282,16 +1544,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: device",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: device"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -1335,14 +1595,11 @@
       "Venous Disease",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -3,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -1371,18 +1628,14 @@
     "topicTags": [
       "Carotid Disease",
       "Endovascular",
-      "Open Surgery",
-      "Vascular Graft / Stent / Device"
+      "Open Surgery"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
@@ -1427,20 +1680,16 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
     "source": "PubMed"
   },
   {
@@ -1470,19 +1719,14 @@
     "topicTags": [
       "Venous Disease",
       "Endovascular",
-      "Vascular Graft / Stent / Device",
       "Antithrombotic Therapy",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -1537,14 +1781,11 @@
     "topicTags": [
       "PAD / CLTI"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -3,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 human study: clinical",
-      "-5 animal-only signal: rat"
+      "+2 human study: clinical"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -1589,7 +1830,7 @@
     "relevance": "low",
     "score": 2,
     "scoreReasons": [
-      "+2 treatment or prognosis relevance: intervention"
+      "+2 treatment or prognosis relevance: device"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -1630,16 +1871,14 @@
     ],
     "studyTypeTags": [
       "Cohort",
-      "Real-world Evidence",
-      "Basic Research"
+      "Real-world Evidence"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -1691,25 +1930,21 @@
     ],
     "topicTags": [
       "Endovascular",
-      "Vascular Graft / Stent / Device",
       "China Research"
     ],
     "studyTypeTags": [
       "RCT",
-      "Clinical Trial",
-      "Basic Research"
+      "Clinical Trial"
     ],
     "relevance": "high",
-    "score": 7,
+    "score": 14,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 clinical evidence design: randomized",
       "+3 high-value publication type: randomized controlled trial",
-      "+2 human study: human",
+      "+2 human study: patients",
       "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: pathway"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -1748,16 +1983,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -1787,18 +2020,15 @@
     "publicationTypes": [
       "Journal Article"
     ],
-    "topicTags": [
-      "Imaging / Diagnosis"
-    ],
+    "topicTags": [],
     "studyTypeTags": [
       "Basic Research"
     ],
-    "relevance": "review",
-    "score": -3,
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
       "+2 human study: human",
       "+2 treatment or prognosis relevance: prognosis",
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: cell line"
     ],
     "isChinaResearch": false,
@@ -1835,22 +2065,49 @@
       "China Research"
     ],
     "studyTypeTags": [
-      "Clinical Trial",
       "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 clinical evidence design: trial",
       "+2 human study: clinical",
       "+2 treatment or prognosis relevance: treatment",
       "+2 China affiliation: China",
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: mechanism"
     ],
     "isChinaResearch": true,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42260794",
+    "title": "Global research trends on intra-arterial chemotherapy for retinoblastoma: A bibliometric and visualized study.",
+    "abstract": "PURPOSE: This study aims to determine the bibliometric characteristics of scientific articles on intra-arterial chemotherapy for retinoblastoma worldwide. METHODS: The Web of Science database was used to conduct a comprehensive search strategy, which included all languages, countries or regions, affiliations, journals, research areas. The search ultimately yielded 256 articles that met the predefined inclusion criteria and were manually reviewed. The study employed a bibliometric analysis using quantitative bibliometric indicators and network analysis with co-authorship and co-occurrence of terms, using the bibliometrix package in R and VOSviewer, respectively. RESULTS: The number of publications has been increasing since the first publication in 2010, with the largest number in 2021 (36 articles). The average number of citations per document was 13.32, and the annual growth rate was 5.38%. The most prolific country and authors were from the United States. Carol Lally Shields had the most contributions (53 articles), and the most cited study was published by Gobin et al in 2011. The journal with the most publications was JAMA Ophthalmology. The most commonly used keywords were Retina, Enucleation, and Periocular around 2016, while Radiation, Advanced age, and External carotid artery were commonly used around 2020. CONCLUSIONS: The United States is the most prolific country in this topic, with a large publication output but a low collaboration among other countries. Low- and middle-income countries should also be encouraged to implement research to contribute to the advancement of knowledge on intra-arterial chemotherapy for retinoblastoma.",
+    "englishSummary": "PURPOSE: This study aims to determine the bibliometric characteristics of scientific articles on intra-arterial chemotherapy for retinoblastoma worldwide. METHODS: The Web of Science database was used to conduct a comprehensive search strategy, which included all languages, countries or regions, affiliations, journals, research areas. The search ultimately yielded 256 articles that met the predefined inclusion criteria and were manually reviewed.",
+    "journal": "Medicine",
+    "publicationDate": "2026-06-05",
+    "authors": [
+      "Visconti-Lopez FJ",
+      "Saal-Zapata G"
+    ],
+    "affiliations": [
+      "Universidad Cient&#xed;fica del Sur, Lima, Peru.",
+      "Department of Neurosurgery. Hospital Nacional Guillermo Almenara Irigoyen-EsSalud, La Victoria, Lima, Peru.",
+      "Department of Interventional Neurosurgery, Clinica Angloamericana, San Isidro, Lima, Peru."
+    ],
+    "doi": "10.1097/MD.0000000000049223",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42260794/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [],
+    "studyTypeTags": [],
+    "relevance": "review",
+    "score": 0,
+    "scoreReasons": [],
+    "isChinaResearch": false,
+    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
     "source": "PubMed"
   },
   {
@@ -1930,16 +2187,14 @@
     "studyTypeTags": [
       "Cohort",
       "Registry",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -1987,13 +2242,12 @@
       "Case Report",
       "Basic Research"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "+2 treatment or prognosis relevance: graft",
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -2021,16 +2275,14 @@
     ],
     "topicTags": [
       "Endovascular",
-      "Antithrombotic Therapy",
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
       "Case Report"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "review",
+    "score": -1,
     "scoreReasons": [
-      "+2 treatment or prognosis relevance: outcome",
       "-1 case report: case report"
     ],
     "isChinaResearch": false,
@@ -2069,16 +2321,14 @@
       "Aortic Disease"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic dissection",
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat",
       "-1 case report: case report"
     ],
     "isChinaResearch": false,
@@ -2120,16 +2370,14 @@
       "China Research"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 human study: clinical",
       "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -2164,16 +2412,13 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -3,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: clinical",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: mechanism"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -2213,20 +2458,17 @@
       "Antithrombotic Therapy"
     ],
     "studyTypeTags": [
-      "Clinical Trial",
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
-      "+2 clinical evidence design: trial",
+      "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: graft",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: graft"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
+    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
     "source": "PubMed"
   },
   {
@@ -2257,27 +2499,22 @@
       "Review"
     ],
     "topicTags": [
-      "Aortic Disease",
-      "Endovascular",
-      "Guideline / Consensus"
+      "Endovascular"
     ],
     "studyTypeTags": [
       "Systematic Review",
       "Meta-analysis",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 7,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
-      "+2 clinical evidence design: systematic review",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+    "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
     "source": "PubMed"
   },
   {
@@ -2357,13 +2594,12 @@
     "studyTypeTags": [
       "Basic Research"
     ],
-    "relevance": "low",
-    "score": 2,
+    "relevance": "high",
+    "score": 7,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic dissection",
       "+2 human study: patients",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -2408,17 +2644,15 @@
     ],
     "studyTypeTags": [
       "Cohort",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "medium",
-    "score": 3,
+    "relevance": "high",
+    "score": 8,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -2455,15 +2689,12 @@
       "Antithrombotic Therapy",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -2497,16 +2728,14 @@
       "Antithrombotic Therapy"
     ],
     "studyTypeTags": [
-      "Clinical Trial",
-      "Basic Research"
+      "Clinical Trial"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: randomized",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: device",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: device"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
@@ -2544,15 +2773,12 @@
       "Journal Article"
     ],
     "topicTags": [],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: outcome"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -2594,17 +2820,15 @@
       "China Research"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "medium",
-    "score": 3,
+    "relevance": "high",
+    "score": 8,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: outcome",
-      "+2 China affiliation: Taiwan",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: Taiwan"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -2638,16 +2862,12 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
     "relevance": "low",
     "score": 2,
     "scoreReasons": [
-      "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 human study: clinical",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -2680,15 +2900,13 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -4,
+    "relevance": "low",
+    "score": 1,
     "scoreReasons": [
       "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -2739,18 +2957,15 @@
     "publicationTypes": [
       "Journal Article"
     ],
-    "topicTags": [
-      "Vascular Graft / Stent / Device"
-    ],
+    "topicTags": [],
     "studyTypeTags": [
       "Basic Research"
     ],
-    "relevance": "review",
-    "score": -3,
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
       "+2 human study: clinical",
       "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: mechanism"
     ],
     "isChinaResearch": false,
@@ -2783,21 +2998,15 @@
     "publicationTypes": [
       "Journal Article"
     ],
-    "topicTags": [
-      "Guideline / Consensus"
-    ],
+    "topicTags": [],
     "studyTypeTags": [
-      "Guideline",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 clinical evidence design: guideline",
       "+2 human study: clinical",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -2834,20 +3043,14 @@
       "Journal Article"
     ],
     "topicTags": [
-      "Endovascular",
-      "Vascular Graft / Stent / Device",
-      "Imaging / Diagnosis"
+      "Endovascular"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 2,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
-      "+2 clinical evidence design: randomized",
-      "+2 treatment or prognosis relevance: device",
-      "-5 animal-only signal: rat"
+      "+2 clinical evidence design: randomized"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -2883,17 +3086,14 @@
       "Vascular Graft / Stent / Device",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "medium",
-    "score": 4,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -2925,19 +3125,15 @@
     ],
     "topicTags": [
       "Dialysis Access",
-      "Imaging / Diagnosis",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 1,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -2977,16 +3173,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -2,
+    "relevance": "medium",
+    "score": 3,
     "scoreReasons": [
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -3030,15 +3224,12 @@
       "Journal Article"
     ],
     "topicTags": [],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -3082,13 +3273,12 @@
     "studyTypeTags": [
       "Basic Research"
     ],
-    "relevance": "review",
-    "score": -3,
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
       "+2 treatment or prognosis relevance: treatment",
       "+2 China affiliation: China",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: mechanism"
+      "-2 basic mechanism without clinical relevance: in vitro"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -3119,21 +3309,59 @@
       "PAD / CLTI"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Clinical Trial",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 clinical evidence design: trial",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: clinical",
+      "+2 treatment or prognosis relevance: outcome"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42261740",
+    "title": "Uterine fibroids as an underrecognized risk factor for venous thromboembolism: a narrative review.",
+    "abstract": "BACKGROUND: Uterine fibroids are a prevalent gynecologic condition traditionally associated with heavy menstrual bleeding and pelvic pressure. However, emerging evidence suggests that large uterine fibroids may also contribute to venous thromboembolism (VTE) by causing mechanical compression of pelvic veins and the inferior vena cava, leading to venous stasis and subsequent thrombosis. This narrative review aims to consolidate current knowledge, discuss diagnostic strategies and management approaches for fibroid-associated VTE, and raise clinical awareness about this often-overlooked complication. METHODS: A comprehensive literature search was conducted across PubMed, PubMed Central, Embase, Scopus, and Google Scholar from January 2000 to April 2024. Studies examining the relationship between uterine fibroids and VTE, including case reports, observational studies, reviews, and management guidelines, were included. A descriptive synthesis of findings was performed. RESULTS: Twenty-four studies were included, demonstrating a consistent association between large uterine fibroids and increased VTE risk. Key mechanisms included venous compression, hormonal influences, and a fibroid-associated hypercoagulable state. Clinical presentations ranged from isolated deep vein thrombosis (DVT) to life-threatening pulmonary embolism (PE). Early diagnosis often relied on pelvic imaging such as ultrasound and MRI. Management strategies involved prompt anticoagulation, individualized surgical planning (primarily hysterectomy), and multidisciplinary coordination. In select cases, prophylactic anticoagulation was suggested for high-risk patients pending surgery. CONCLUSION: Uterine fibroids should be recognized as a potential etiology for unexplained VTE, particularly in women without classic risk factors. Early imaging, anticoagulation, and surgical intervention, when appropriate, can optimize outcomes. Further research is needed to establish standardized screening and management guidelines for this underrecognized cause of thromboembolic disease.",
+    "englishSummary": "BACKGROUND: Uterine fibroids are a prevalent gynecologic condition traditionally associated with heavy menstrual bleeding and pelvic pressure. However, emerging evidence suggests that large uterine fibroids may also contribute to venous thromboembolism (VTE) by causing mechanical compression of pelvic veins and the inferior vena cava, leading to venous stasis and subsequent thrombosis. This narrative review aims to consolidate current knowledge, discuss diagnostic strategies and management approaches for fibroid-associated VTE, and raise clinical awareness about this often-overlooked complication.",
+    "journal": "Blood coagulation & fibrinolysis : an international journal in haemostasis and thrombosis",
+    "publicationDate": "2026-06-04",
+    "authors": [
+      "Megahed M",
+      "Shah ZZ",
+      "Razvi KA",
+      "Abdeen Y"
+    ],
+    "affiliations": [
+      "Department of Cardiology, Ain Shams University, Cairo, Egypt.",
+      "Department of Internal Medicine.",
+      "Department of Pulmonary and Critical Care Medicine, HCA Healthcare Clear Lake, Webster, Texas, USA."
+    ],
+    "doi": "10.1097/MBC.0000000000001436",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42261740/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "Antithrombotic Therapy",
+      "Imaging / Diagnosis"
+    ],
+    "studyTypeTags": [
+      "Case Report",
+      "Review"
+    ],
+    "relevance": "medium",
+    "score": 3,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery",
+      "-1 case report: case reports"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -3177,17 +3405,15 @@
     ],
     "studyTypeTags": [
       "Cohort",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: device",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: device"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -3228,16 +3454,14 @@
     "studyTypeTags": [
       "Cohort",
       "Registry",
-      "Guideline",
-      "Basic Research"
+      "Guideline"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -3280,17 +3504,15 @@
     "studyTypeTags": [
       "Clinical Trial",
       "Cohort",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 clinical evidence design: trial",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -3324,14 +3546,11 @@
       "Imaging / Diagnosis",
       "Guideline / Consensus"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -3,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 human study: human",
-      "-5 animal-only signal: rat"
+      "+2 human study: human"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -3356,8 +3575,7 @@
       "Journal Article"
     ],
     "topicTags": [
-      "Endovascular",
-      "Vascular Graft / Stent / Device"
+      "Endovascular"
     ],
     "studyTypeTags": [],
     "relevance": "medium",
@@ -3405,26 +3623,23 @@
       "Journal Article"
     ],
     "topicTags": [
-      "PAD / CLTI",
       "Endovascular",
       "Imaging / Diagnosis",
       "Guideline / Consensus"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 clinical evidence design: consensus",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
     "source": "PubMed"
   },
   {
@@ -3468,16 +3683,14 @@
       "Vascular Graft / Stent / Device"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -3512,9 +3725,8 @@
       "Review"
     ],
     "relevance": "review",
-    "score": -7,
+    "score": -2,
     "scoreReasons": [
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: mechanism"
     ],
     "isChinaResearch": false,
@@ -3557,16 +3769,12 @@
       "Aortic Disease",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 2,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -3609,17 +3817,15 @@
     "studyTypeTags": [
       "Clinical Trial",
       "Cohort",
-      "Real-world Evidence",
-      "Basic Research"
+      "Real-world Evidence"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: vascular surgery",
       "+2 clinical evidence design: randomized",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
@@ -3656,16 +3862,13 @@
       "Venous Disease",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 1,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -3693,21 +3896,17 @@
     ],
     "topicTags": [
       "Endovascular",
-      "Vascular Graft / Stent / Device",
       "Antithrombotic Therapy"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: pathway"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -3742,15 +3941,12 @@
       "Venous Disease",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -3791,16 +3987,13 @@
     ],
     "studyTypeTags": [
       "Guideline",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: guideline",
-      "+2 human study: clinical",
-      "+2 treatment or prognosis relevance: guideline",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: guideline"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -3836,15 +4029,12 @@
       "Vascular Graft / Stent / Device",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -3870,27 +4060,22 @@
       "Journal Article"
     ],
     "topicTags": [
-      "PAD / CLTI",
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Clinical Trial",
       "Systematic Review",
       "Meta-analysis",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: randomized",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: outcome"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
     "source": "PubMed"
   },
   {
@@ -3925,27 +4110,23 @@
       "Journal Article"
     ],
     "topicTags": [
-      "PAD / CLTI",
       "Venous Disease",
-      "Vascular Graft / Stent / Device",
       "Antithrombotic Therapy"
     ],
     "studyTypeTags": [
       "Clinical Trial",
       "Systematic Review",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: randomized",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: outcome"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -3978,25 +4159,20 @@
       "Journal Article"
     ],
     "topicTags": [
-      "PAD / CLTI",
-      "Venous Disease",
-      "Guideline / Consensus"
+      "Venous Disease"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Real-world Evidence",
-      "Basic Research"
+      "Real-world Evidence"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: real-world",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -4028,16 +4204,14 @@
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -4082,16 +4256,13 @@
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research",
-      "Review"
+      "Cohort"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -4128,20 +4299,17 @@
       "Open Surgery"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: human",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+    "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
     "source": "PubMed"
   },
   {
@@ -4181,14 +4349,11 @@
     "topicTags": [
       "Endovascular"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -3,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 human study: patients",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -4226,16 +4391,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -4267,7 +4430,7 @@
     "relevance": "review",
     "score": -1,
     "scoreReasons": [
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -4299,22 +4462,16 @@
     ],
     "topicTags": [
       "Aortic Disease",
-      "Vascular Graft / Stent / Device",
-      "Imaging / Diagnosis",
-      "Guideline / Consensus"
+      "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Guideline",
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": 0,
+    "relevance": "medium",
+    "score": 3,
     "scoreReasons": [
-      "+2 clinical evidence design: guideline",
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat",
       "-1 case report: case report"
     ],
     "isChinaResearch": false,
@@ -4352,7 +4509,6 @@
       "Journal Article"
     ],
     "topicTags": [
-      "PAD / CLTI",
       "Venous Disease",
       "Imaging / Diagnosis",
       "China Research"
@@ -4361,18 +4517,16 @@
       "Cohort",
       "Basic Research"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
       "+2 China affiliation: China",
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: mechanism"
     ],
     "isChinaResearch": true,
-    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -4418,17 +4572,14 @@
       "Endovascular"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Clinical Trial",
-      "Basic Research"
+      "Clinical Trial"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: trial",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
@@ -4467,16 +4618,14 @@
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -4506,16 +4655,14 @@
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: outcome"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -4556,23 +4703,20 @@
       "Guideline / Consensus"
     ],
     "studyTypeTags": [
-      "Clinical Trial",
       "Systematic Review",
       "Meta-analysis",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 clinical evidence design: randomized",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: stent"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+    "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
     "source": "PubMed"
   },
   {
@@ -4604,20 +4748,16 @@
       "Journal Article"
     ],
     "topicTags": [
-      "PAD / CLTI",
       "Endovascular"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -2,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 3,
     "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "-5 animal-only signal: rat"
+      "+3 title vascular surgery topic: endovascular"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
     "source": "PubMed"
   },
   {
@@ -4657,16 +4797,14 @@
     "studyTypeTags": [
       "RCT",
       "Clinical Trial",
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: trial",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: stent"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -4705,15 +4843,13 @@
       "China Research"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "review",
-    "score": 0,
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -4747,16 +4883,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -4799,12 +4933,11 @@
       "Basic Research"
     ],
     "relevance": "review",
-    "score": -6,
+    "score": -1,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: clinical",
       "+2 China affiliation: China",
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: mechanism",
       "-5 not vascular surgery topic: coronary"
     ],
@@ -4850,15 +4983,12 @@
       "Open Surgery",
       "Vascular Graft / Stent / Device"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: stent"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -4910,457 +5040,19 @@
       "Journal Article"
     ],
     "topicTags": [
-      "Aortic Disease",
-      "Imaging / Diagnosis"
-    ],
-    "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": 0,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic dissection",
-      "+2 human study: patients",
-      "-5 animal-only signal: rat"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42236913",
-    "title": "[Minimally invasive cotton osteotomy : Surgical technique and functional outcomes].",
-    "abstract": "OBJECTIVE: The primary objective of the minimally invasive Cotton osteotomy is to correct sagittal malalignment of the medial column by targeted plantarflexion, thereby restoring alignment and contributing to the reconstruction of complex pes planovalgus deformities within a&#xa0;joint-preserving surgical approach. INDICATIONS: The procedure is indicated in cases of flexible forefoot supination as part of a&#xa0;progressive collapsing foot deformity (PCFD), particularly when isolated hindfoot correction is insufficient to re-establish medial arch stability. Additional indications include tibialis posterior tendon insufficiency and overload syndromes of the medial column. CONTRAINDICATIONS: Contraindications include general surgical inoperability and acute infection at the operative site. Relative contraindications comprise advanced peripheral arterial disease, severe osteoporosis, neuropathic foot deformities with loss of protective sensation, and symptomatic arthritis of the medial column joints. SURGICAL TECHNIQUE: The Cotton osteotomy is performed via a&#xa0;minimally invasive, closed-wedge technique through a&#xa0;small plantar-medial incision. A&#xa0;wedge-shaped bone fragment is resected from the medial cuneiform using a&#xa0;Shannon burr. The osteotomy gap is then closed by controlled compression to achieve plantarflexion of the medial ray. Fixation is accomplished with a&#xa0;percutaneously inserted, cannulated compression screw under fluoroscopic guidance. POSTOPERATIVE MANAGEMENT: Postoperatively, patients are immobilized in a&#xa0;below-knee walker boot with touch-down weight-bearing for six weeks. After radiographic confirmation of consolidation, progressive loading is initiated with transition to full weight-bearing and regular footwear around week&#xa0;12. Physical therapy supports restoration of mobility and strength throughout the recovery period. RESULTS: This retrospective study included 13&#xa0;feet in 12&#xa0;patients who underwent minimally invasive Cotton osteotomy as part of a&#xa0;combined hindfoot reconstruction. Significant functional improvement was observed, with the AOFAS score increasing from 71.5&#x202f;&#xb1;&#x2009;14.0 preoperatively to 91.0&#x202f;&#xb1;&#x2009;5.6 postoperatively (p&#x202f;<&#x2009;0.05), corresponding to a&#xa0;very large effect size (Cohen's d&#x202f;=&#x2009;2.20). One case of prolonged wound secretion occurred at the calcaneal osteotomy site and was managed conservatively without revision surgery.",
-    "englishSummary": "OBJECTIVE: The primary objective of the minimally invasive Cotton osteotomy is to correct sagittal malalignment of the medial column by targeted plantarflexion, thereby restoring alignment and contributing to the reconstruction of complex pes planovalgus deformities within a&#xa0;joint-preserving surgical approach. INDICATIONS: The procedure is indicated in cases of flexible forefoot supination as part of a&#xa0;progressive collapsing foot deformity (PCFD), particularly when isolated hindfoot correction is insufficient to re-establish medial arch stability. Additional indications include tibialis posterior tendon insufficiency and overload syndromes of the medial column.",
-    "journal": "Operative Orthopadie und Traumatologie",
-    "publicationDate": "2026-06-03",
-    "authors": [
-      "Werneburg F",
-      "Felsberg M",
-      "Beschauner J",
-      "Rump C",
-      "Arbab D",
-      "Zeh A",
-      "Delank KS",
-      "Gutteck N"
-    ],
-    "affiliations": [
-      "Department f&#xfc;r Orthop&#xe4;die, Unfall- und Wiederherstellungschirurgie, Martin-Luther-Universit&#xe4;t Halle-Wittenberg, Universit&#xe4;tsklinikum Halle (Saale), Ernst-Grube-Stra&#xdf;e&#xa0;40, 06120, Halle (Saale), Deutschland. felix.werneburg@uk-halle.de.",
-      "Department f&#xfc;r Orthop&#xe4;die, Unfall- und Wiederherstellungschirurgie, Martin-Luther-Universit&#xe4;t Halle-Wittenberg, Universit&#xe4;tsklinikum Halle (Saale), Ernst-Grube-Stra&#xdf;e&#xa0;40, 06120, Halle (Saale), Deutschland.",
-      "Department f&#xfc;r Orthop&#xe4;die und Unfallchirurgie, Fakult&#xe4;t f&#xfc;r Gesundheit, Universit&#xe4;t Witten/Herdecke, Herten, Deutschland."
-    ],
-    "doi": "10.1007/s00064-026-00946-9",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42236913/",
-    "publicationTypes": [
-      "English Abstract",
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "PAD / CLTI"
-    ],
-    "studyTypeTags": [
-      "Basic Research",
-      "Review"
-    ],
-    "relevance": "review",
-    "score": -1,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42236686",
-    "title": "Corrigendum to \"Local Anesthesia Is Associated With Lower Mortality After Endovascular Repair of Ruptured Abdominal Aortic Aneurysm\".",
-    "abstract": "",
-    "englishSummary": "",
-    "journal": "The American surgeon",
-    "publicationDate": "2026-06-03",
-    "authors": [],
-    "affiliations": [],
-    "doi": "10.1177/00031348261457116",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42236686/",
-    "publicationTypes": [
-      "Journal Article",
-      "Published Erratum"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Endovascular"
-    ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -2,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "-5 animal-only signal: rat"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42236287",
-    "title": "No Increased Risk of Cancer Death after Endovascular Aortic Repair in a Nationwide Population-based Cohort Study.",
-    "abstract": "INTRODUCTION: The short-term benefits of endovascular aortic repair (EVAR) compared to open repair (OR) for treatment of abdominal aortic aneurysms (AAA) are well established. However, concerns have been raised regarding a potential increased long-term cancer risk associated with EVAR, related to procedural and surveillance-related radiation exposure. The aim of this nation-wide population-based cohort study was to evaluate whether EVAR is associated with an increased long-term cancer risk compared to OR. METHODS: All patients undergoing primary AAA repair for an intact AAA (ICD-10: I71.4) from January 2005-February 2024 were identified from the Swedish National Patient Register. Previous and subsequent cancer diagnoses, as well as previous comorbidities for this cohort were recorded. Cause of death was retrieved from the Cause of Death Registry. Inverse probability of treatment weighting (IPTW) was applied using propensity scores derived from baseline demographics characteristics and comorbidities. Weighted cox regression models, with EVAR as the sole regressor, were then fitted for the event of a new cancer diagnosis and survival. RESULT: Some 15,509 patients were identified (mean age 73 years; 17% female; 24% previous cancer diagnosis). After weighting, standardized mean differences for comorbidities, age, gender, and recent hospital admissions were all within &#xb1; 0.1. The median survival was 8.7 years (95% CI 8.4-8.9) for EVAR patients and 9.4 years (95% CI 9.1-9.6) for OR patients. The median follow-up time was 4.9 years (IQR 6.1) for new cancer and 5.9 years (IQR 6.4) for cancer-related death. Freedom from new cancer was lower in EVAR patients (HR 0.92, 95% CI 0.86-0.98) whereas cancer related survival was similar (HR 0.93 95% CI 0.85-1.02). CONCLUSION: EVAR was not associated with an increased risk of dying of cancer, but with an increased risk of being diagnosed with a new cancer. This should be interpreted carefully as there is a clear risk of detection bias of otherwise unknown tumors due to routine imaging during EVAR surveillance.",
-    "englishSummary": "INTRODUCTION: The short-term benefits of endovascular aortic repair (EVAR) compared to open repair (OR) for treatment of abdominal aortic aneurysms (AAA) are well established. However, concerns have been raised regarding a potential increased long-term cancer risk associated with EVAR, related to procedural and surveillance-related radiation exposure. The aim of this nation-wide population-based cohort study was to evaluate whether EVAR is associated with an increased long-term cancer risk compared to OR.",
-    "journal": "The British journal of surgery",
-    "publicationDate": "2026-06-03",
-    "authors": [
-      "Lilja F",
-      "Wanhainen A",
-      "Mani K"
-    ],
-    "affiliations": [
-      "Department of Surgical Sciences, Vascular Surgery, Uppsala University, Uppsala, Sweden.",
-      "Department of Diagnostics and Intervention, Surgery, Ume&#xe5; University, Ume&#xe5;, Sweden."
-    ],
-    "doi": "10.1093/bjs/znag065",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42236287/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Endovascular",
-      "Imaging / Diagnosis"
-    ],
-    "studyTypeTags": [
-      "Cohort",
-      "Registry"
-    ],
-    "relevance": "high",
-    "score": 9,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42236255",
-    "title": "Validity evidence for Entrustable Professional Activities assessments in surgery.",
-    "abstract": "PURPOSE: Workplace-based assessments (WBAs) of surgical trainees historically demonstrate poor alignment between faculty and learner perception of clinical encounters. Given trainee perception of receiving low autonomy is associated with higher rates of burnout, depression, and attrition, it is important to better align faculty and trainee perceptions of clinical experiences. This study aims to evaluate validity evidence data, including response process, internal structure, and consequences, of vascular surgery Entrustable Professional Activities assessments (EPAs) using national pilot implementation data. METHOD: A multi-institutional pilot implementation of vascular surgery EPAs was open to residencies and fellowships from April-June of 2024. Participating programs collected assessments of entrustment for clinical encounters. Faculty and trainee assessments were paired and descriptive statistics were conducted. A linear mixed-effects model was conducted to examine factors associated with alignment. Intraclass correlation (ICC) was calculated between trainee and faculty assessments. A random effects model was applied to demonstrate sources of variance in entrustment ratings. Linear mixed effects models were applied to examine encounter and demographic differences in faculty assessed and trainee self-assessed entrustment scores. RESULTS: Twenty-nine programs contributed 1,620 paired assessments (n&#x2009;=&#x2009;79 trainees, n&#x2009;=&#x2009;87 faculty). There were no differences in absolute alignment by demographics or phase of care. ICC for all EPAs combined was 0.76). Variance in entrustment ratings was attributed primarily to the interaction between EPA and trainee (31%), suggesting EPA assessments were able to discriminate proficiency within trainees across EPAs. Entrustment ratings were not different when considering demographic variables. CONCLUSIONS: In this retrospective analysis of national EPA pilot implementation data of residents, fellows, and faculty, strong response process and internal structure validity evidence was established. Shortcomings of other WBAs used in surgical training, such as poor alignment between faculty and trainee perceptions of an encounter, were not evident with the use of behaviorally-anchored EPA assessments.",
-    "englishSummary": "PURPOSE: Workplace-based assessments (WBAs) of surgical trainees historically demonstrate poor alignment between faculty and learner perception of clinical encounters. Given trainee perception of receiving low autonomy is associated with higher rates of burnout, depression, and attrition, it is important to better align faculty and trainee perceptions of clinical experiences. This study aims to evaluate validity evidence data, including response process, internal structure, and consequences, of vascular surgery Entrustable Professional Activities assessments (EPAs) using national pilot implementation data.",
-    "journal": "Academic medicine : journal of the Association of American Medical Colleges",
-    "publicationDate": "2026-06-03",
-    "authors": [
-      "Weaver ML",
-      "Sun T",
-      "Johnson CE",
-      "Brooke BS",
-      "Park YS",
-      "Smith BK"
-    ],
-    "affiliations": [
-      "Division of Vascular Surgery, Department of Surgery, University of Utah Spencer Fox Eccles School of Medicine, Salt Lake City, UT, United States.",
-      "Department of Surgery, University of Utah Spencer Fox Eccles School of Medicine, Salt Lake City, UT, United States.",
-      "Department of Medical Education, University of Illinois-Chicago, Chicago, IL, United States.",
-      "Division of Vascular Surgery, Department of Surgery, University of Wisconsin, Madison, WI, United States."
-    ],
-    "doi": "10.1093/acamed/wvag170",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42236255/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
-    "scoreReasons": [
-      "+2 human study: clinical",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42234390",
-    "title": "Renal protection by intermittent cold crystalloid perfusion during thoracoabdominal aortic aneurysm repair.",
-    "abstract": "BACKGROUND: Renal dysfunction is a major postoperative complication of thoracoabdominal aortic aneurysm repair and is closely associated with increased mortality. We adopted a simple method involving intermittent cold crystalloid perfusion into the renal arteries using gravity infusion during thoracoabdominal aortic aneurysm repair and evaluated its effectiveness. METHODS: Between April 2011 and January 2024, 63 patients underwent open thoracoabdominal aortic aneurysm repair at Fukuoka University Hospital. After excluding 11 cases, 52 cases were retrospectively analyzed. Intermittent renal perfusion was performed using 4&#xa0;&#xb0;C lactated Ringer solution containing mannitol and methylprednisolone. Patients were classified into chronic kidney disease (<&#x2009;45&#xa0;mL/min) and non-chronic kidney disease groups (&#x2265;&#x2009;45&#xa0;mL/min) based on the preoperative estimated glomerular filtration rate, and renal function was assessed. RESULTS: There were no significant differences in operative or ischemic parameters between the groups. Postoperative acute kidney injury (Kidney Disease: Improving Global Outcomes stage&#x2009;&#x2265;&#x2009;2) occurred in 21% of all patients, with no significant difference between the groups. Serum creatinine levels increased transiently postoperatively in both groups but returned to baseline or improved at discharge. No patient required long-term dialysis. Urine output tended to be higher in the chronic kidney disease group than in the non-chronic kidney disease group, particularly during the early postoperative period. CONCLUSIONS: Intermittent cold crystalloid perfusion is a simple and effective method for renal protection in thoracoabdominal aortic aneurysm repair with favorable clinical outcomes regardless of preoperative renal function. The absence of permanent dialysis cases suggests that this approach is safe and feasible, particularly in emergencies and resource-limited settings.",
-    "englishSummary": "BACKGROUND: Renal dysfunction is a major postoperative complication of thoracoabdominal aortic aneurysm repair and is closely associated with increased mortality. We adopted a simple method involving intermittent cold crystalloid perfusion into the renal arteries using gravity infusion during thoracoabdominal aortic aneurysm repair and evaluated its effectiveness. METHODS: Between April 2011 and January 2024, 63 patients underwent open thoracoabdominal aortic aneurysm repair at Fukuoka University Hospital.",
-    "journal": "General thoracic and cardiovascular surgery",
-    "publicationDate": "2026-06-03",
-    "authors": [
-      "Hayama M",
-      "Kuwahara G",
-      "Wada H",
-      "Teratani H",
-      "Furui M"
-    ],
-    "affiliations": [
-      "Department of Cardiovascular Surgery, Fukuoka University, 7-45-1 Nanakuma, Jonan-Ku, Fukuoka, 814-0180, Japan.",
-      "Department of Cardiovascular Surgery, Fukuoka University, 7-45-1 Nanakuma, Jonan-Ku, Fukuoka, 814-0180, Japan. gok365@gmail.com."
-    ],
-    "doi": "10.1007/s11748-026-02325-4",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42234390/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Imaging / Diagnosis"
-    ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 2,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42234116",
-    "title": "Dislodgement forces and cost effectiveness of prehospital securement of peripheral intravenous catheters on moist skin: a randomized controlled clinical trial in healthy volunteers.",
-    "abstract": "OBJECTIVES: Peripheral intravenous catheters (PIVC) are widely used clinical devices for administering fluids or essential drugs to patients. The failure rate of PIVC remains high and Emergency Medicine has been shown to be a risk factor for dislodgement. When the skin is moist from sweat or fluids, standard intra-hospital dressings and securements fail. In emergency situations, a failed catheter can then critically delay intravenous therapies. The most effective dressing to prevent accidental removal of a prehospital PIVC remains unclear. It was the aim of this study to compare the force required to dislodge a PIVC with four different methods of securing PIVCs used in emergency medicine. In addition, the costs were calculated. METHODS: Artificial sweat was applied to the skin of 180 volunteers. PIVCs were attached onto the forearm using four different securements (elastic gauze, cohesive gauze, clingfilm and a velcro securing device). Continuously increasing traction force was applied until dislodgement of the respective securement. For statistical tests, either Friedman's test or repeated measures ANOVA was used. RESULTS: Clingfilm showed the greatest resistance to increasing pulling force with cohesive bandages as close second. The velcro securing device was strongest at resisting low level of forces but fell off sharply at higher force. Elastic bandages were the weakest in both categories. Clingfilm was the most cost-effective method (4ct), followed by elastic gauze (12 ct), cohesive gauze (60 ct) and the velcro device (316 ct). CONCLUSIONS: In situations where intravenous catheters are difficult to secure or at high risk of dislodgement either clingfilm or cohesive dressing should be used. Simple elastic bandages should not be used in any setting for securement of PIVC.",
-    "englishSummary": "OBJECTIVES: Peripheral intravenous catheters (PIVC) are widely used clinical devices for administering fluids or essential drugs to patients. The failure rate of PIVC remains high and Emergency Medicine has been shown to be a risk factor for dislodgement. When the skin is moist from sweat or fluids, standard intra-hospital dressings and securements fail.",
-    "journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
-    "publicationDate": "2026-06-03",
-    "authors": [
-      "Vogeler J",
-      "Schumann S",
-      "Heinrich S",
-      "Hell J",
-      "Schmutz A"
-    ],
-    "affiliations": [
-      "Medical Center - University of Freiburg, Department of Anesthesiology and Critical Care, Faculty of Medicine, University of Freiburg, Hugstetter Strasse 55, 79106, Freiburg, Germany.",
-      "Medical Center - University of Freiburg, Department of Anesthesiology and Critical Care, Faculty of Medicine, University of Freiburg, Hugstetter Strasse 55, 79106, Freiburg, Germany. axel.schmutz@uniklinik-freiburg.de."
-    ],
-    "doi": "10.1007/s00068-026-03227-z",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42234116/",
-    "publicationTypes": [
-      "Journal Article",
-      "Randomized Controlled Trial"
-    ],
-    "topicTags": [
-      "Vascular Graft / Stent / Device"
-    ],
-    "studyTypeTags": [
-      "RCT",
-      "Clinical Trial",
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 2,
-    "scoreReasons": [
-      "+3 high-value publication type: randomized controlled trial",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: device",
-      "-5 animal-only signal: rat"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42234063",
-    "title": "Patronus: patient-specific training setup for aortic aneurysm repair.",
-    "abstract": "PURPOSE: Surgical training for Aortic Repair (EVAR) on simulators holds the potential to reduce radiation of the X-ray-guided procedure. Precision and realism of training simulators increases significantly with the use of patient-specific phantoms. However, radiation-free setups utilizing 3D-printed anatomies lack realistic imaging. METHOD: We propose PATRONUS, a hardware and software prototype for patient-specific, radiation-free surgical training for EVAR. 3D printed, transparent phantoms are imaged inside a black box which is accessed from the outside. Pseudo X-rays are generated through reconstructed radiographs, which are enhanced by virtual catheters and contrast agent. RESULTS: 9.30 mm 1.059 s Our prototype demonstrates a complete pipeline including a 3D printing workflow, phantom preparation, online registration of phantoms to the patient CT and pseudo X-ray generation. We report an average registration error (RMSE) of the scene inside the simulator to the digital twin of. The entire simulator pipeline takesto execute per image. CONCLUSION: State-of-the-art techniques for scene understanding and 3D printing enable the transition from simulated interventions on 3D printed vascular phantoms under cameras to a digital twin representation in the CT regime. The PATRONUS simulator prototype thus provides a foundation for radiation-free, realistic endovascular surgical training with patient-specific phantoms.",
-    "englishSummary": "PURPOSE: Surgical training for Aortic Repair (EVAR) on simulators holds the potential to reduce radiation of the X-ray-guided procedure. Precision and realism of training simulators increases significantly with the use of patient-specific phantoms. However, radiation-free setups utilizing 3D-printed anatomies lack realistic imaging.",
-    "journal": "International journal of computer assisted radiology and surgery",
-    "publicationDate": "2026-06-03",
-    "authors": [
-      "Krumb HJ",
-      "Dorweiler B",
-      "Mukhopadhyay A"
-    ],
-    "affiliations": [
-      "Computer Science Department, TU Darmstadt, Fraunhoferstr. 5, Darmstadt, 64293, Hessen, Germany. henry_john.krumb@tu-darmstadt.de.",
-      "Klinik und Poliklinik f&#xfc;r Gef&#xe4;&#xdf;chirurgie- Vaskul&#xe4;re und endovaskul&#xe4;re Chirurgie, Uniklinik K&#xf6;ln, Kerpener Str. 62, Cologne, 50937, Nordrhein-Westfalen, Germany.",
-      "Computer Science Department, TU Darmstadt, Fraunhoferstr. 5, Darmstadt, 64293, Hessen, Germany."
-    ],
-    "doi": "10.1007/s11548-026-03715-y",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42234063/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Endovascular",
-      "Imaging / Diagnosis"
-    ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": 0,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42233909",
-    "title": "Personalized External Aortic Root Support Before Pregnancy in Heritable Thoracic Aortic Disease.",
-    "abstract": "BACKGROUND: Heritable thoracic aortic disease (HTAD) increases the risk of aortic dissection, particularly during pregnancy and the puerperium. Standard management includes beta-blockers and, in selected cases, prophylactic aortic root surgery. Personalized external aortic root support (PEARS) offers an extravascular approach to aortic root support, but pregnancy data are scarce. This case series describes pregnancies in women with HTAD after PEARS. CASE SUMMARY: Three pregnancies in 2 women with Marfan syndrome and familial thoracic aortic aneurysm and dissection who underwent preconception PEARS are presented. No dissections occurred. Aortic dimensions remained stable throughout pregnancy and follow-up (5 and 34 months). Pregnancies were uncomplicated, and all births were vaginal. Postpartum hemorrhage due to retained placenta occurred in all cases and was managed medically and by manual removal at the operating theater. Neonatal outcomes were favorable. CONCLUSION: In this case series, PEARS seems to be a promising preconception strategy, with favorable cardiovascular, obstetric, and neonatal outcomes.",
-    "englishSummary": "BACKGROUND: Heritable thoracic aortic disease (HTAD) increases the risk of aortic dissection, particularly during pregnancy and the puerperium. Standard management includes beta-blockers and, in selected cases, prophylactic aortic root surgery. Personalized external aortic root support (PEARS) offers an extravascular approach to aortic root support, but pregnancy data are scarce.",
-    "journal": "JACC. Case reports",
-    "publicationDate": "2026-06-03",
-    "authors": [
-      "Molendijk J",
-      "van Schie MI",
-      "Robbers-Visser D",
-      "Bouma BJ",
-      "Koolbergen DR",
-      "Heitkamp A",
-      "Roos C",
-      "Oudijk MA"
-    ],
-    "affiliations": [
-      "Department of Obstetrics and Gynecology, Amsterdam UMC, Amsterdam, the Netherlands; Amsterdam Reproduction and Development Research Institute, Amsterdam, the Netherlands; Amsterdam Cardiovascular Sciences, Amsterdam, the Netherlands. Electronic address: j.molendijk@amsterdamumc.nl.",
-      "Department of Obstetrics and Gynecology, Amsterdam UMC, Amsterdam, the Netherlands.",
-      "Amsterdam Cardiovascular Sciences, Amsterdam, the Netherlands; Department of Cardiology, Amsterdam UMC, Amsterdam, the Netherlands.",
-      "Department of Cardiology, Amsterdam UMC, Amsterdam, the Netherlands; Department of Cardio-thoracic Surgery, Amsterdam UMC, Amsterdam, the Netherlands.",
-      "Department of Obstetrics and Gynecology, Amsterdam UMC, Amsterdam, the Netherlands; Amsterdam Reproduction and Development Research Institute, Amsterdam, the Netherlands."
-    ],
-    "doi": "10.1016/j.jaccas.2026.108739",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42233909/",
-    "publicationTypes": [
-      "Case Reports",
-      "Journal Article"
-    ],
-    "topicTags": [
       "Aortic Disease"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "review",
-    "score": -4,
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "+3 title vascular surgery topic: aortic dissection",
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42233906",
-    "title": "Single-Stage Repair of Complex Congenital Aortic Arch Pathology With Dissection and Aneurysm in an Adult.",
-    "abstract": "BACKGROUND: Complex congenital aortic arch anomalies in adults are rare and may present abruptly when complicated by dissection or aneurysm, posing significant surgical challenges. CASE SUMMARY: A 42-year-old man presented with sudden-onset chest and back pain. Computed tomography angiography demonstrated aortic coarctation, right aortic arch with an aberrant left subclavian artery arising from Kommerell diverticulum, and associated arch and descending thoracic aortic aneurysm with dissection. Because of the absence of suitable landing zones for endovascular repair, a single-stage anatomical repair via median sternotomy was performed, including hemiarch reconstruction, proximal descending thoracic aortic replacement, and bilateral subclavian artery reconstruction. Postoperative recovery was complicated by bleeding requiring re-exploration and pulmonary infection, both successfully managed. DISCUSSION: Simultaneous management of multiple congenital arch anomalies with dissection is rarely reported and highlights the feasibility of single-stage repair. TAKE-HOME MESSAGE: Single-stage repair can provide definitive treatment in carefully selected patients with complex anatomy.",
-    "englishSummary": "BACKGROUND: Complex congenital aortic arch anomalies in adults are rare and may present abruptly when complicated by dissection or aneurysm, posing significant surgical challenges. CASE SUMMARY: A 42-year-old man presented with sudden-onset chest and back pain. Computed tomography angiography demonstrated aortic coarctation, right aortic arch with an aberrant left subclavian artery arising from Kommerell diverticulum, and associated arch and descending thoracic aortic aneurysm with dissection.",
-    "journal": "JACC. Case reports",
-    "publicationDate": "2026-06-03",
-    "authors": [
-      "Ahmad N",
-      "Chen X",
-      "Huang Y",
-      "Li J",
-      "Wang Y",
-      "Zhang Q",
-      "Huang L"
-    ],
-    "affiliations": [
-      "Department of Cardiovascular Surgery, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
-      "Department of Radiology, Xiangya Hospital, Central South University, Changsha, Hunan, China.",
-      "Department of Cardiovascular Surgery, Xiangya Hospital, Central South University, Changsha, Hunan, China. Electronic address: drhlj@csu.edu.cn."
-    ],
-    "doi": "10.1016/j.jaccas.2026.108596",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42233906/",
-    "publicationTypes": [
-      "Case Reports",
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Endovascular",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "RCT",
-      "Case Report",
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": 0,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42231731",
-    "title": "No significant differences in ultrasound morphology after endovenous laser ablation with 1940-nm versus 1470-nm radially emitting fibers: A one-year prospective randomized multicenter study.",
-    "abstract": "BackgroundEndovenous laser ablation (EVLA) is a guideline-recommended treatment for great saphenous vein (GSV) incompetence. Higher-wavelength lasers (1470&#xa0;nm, 1940&#xa0;nm) with radial fibers aim to improve efficacy while reducing postoperative morbidity. Prospective comparisons remain limited.MethodsIn this multicenter, randomized trial, 66 patients (31 women, 35 men; mean age 54.8 &#xb1; 13.6 years) with symptomatic GSV reflux (CEAP C2-C5) were assigned to EVLA using a 1940-nm (Group 1; n = 32) or 1470-nm laser (Group 2; n = 34). Procedures employed standardized radial fibers and identical target LEED (160&#xa0;J/cm for the first 5&#xa0;cm, 80&#xa0;J/cm thereafter). The primary endpoint was ultrasound-based vein morphology (diameter, resorption) at 3, 6, and 12 months. Secondary endpoints included occlusion rates, postoperative pain, sensory disturbances, complications, and quality of life. Outcome assessors were blinded during postoperative examinations.ResultsBaseline characteristics were comparable between groups. During follow-up, 4 patients in Group 1 and one in Group 2 discontinued participation. Complete occlusion was achieved in all patients. No significant differences in vein diameter reduction or resorption were observed between groups. Complete vein resorption at 12 months occurred in 67.9% (Group 1) and 48.5% (Group 2; p = .194). Postoperative pain scores were lower in the 1940-nm group at first follow-up in exploratory analyses, and fewer sensory disturbances occured (7.1% vs 24.1%; p = .092), without statistical significance. Interpretation is limited by differences in applied power (1940&#xa0;nm: 8&#xa0;W; 1470&#xa0;nm: including cases treated at 10&#xa0;W). No deep vein thrombosis or endothermal heat-induced thrombosis occurred.ConclusionIn this randomized study, no significant differences in ultrasound-based morphological outcomes were observed between 1940-nm and 1470-nm EVLA for GSV incompetence. These findings support comparable efficacy between 1940-nm and 1470-nm EVLA; however, larger studies powered for clinical outcomes are required to confirm potential differences in postoperative morbidity.",
-    "englishSummary": "BackgroundEndovenous laser ablation (EVLA) is a guideline-recommended treatment for great saphenous vein (GSV) incompetence. Higher-wavelength lasers (1470&#xa0;nm, 1940&#xa0;nm) with radial fibers aim to improve efficacy while reducing postoperative morbidity. Prospective comparisons remain limited.MethodsIn this multicenter, randomized trial, 66 patients (31 women, 35 men; mean age 54.8 &#xb1; 13.6 years) with symptomatic GSV reflux (CEAP C2-C5) were assigned to EVLA using a 1940-nm (Group 1; n = 32) or 1470-nm laser (Group 2; n = 34).",
-    "journal": "Phlebology",
-    "publicationDate": "2026-06-03",
-    "authors": [
-      "St&#xfc;cker M",
-      "M&#xfc;ller L",
-      "Mattausch T",
-      "Weiler T"
-    ],
-    "affiliations": [
-      "Department of Dermatology, Venereology and Allergology, Center for Vein Treatment at the Section of Dermatology and Vascular Surgery, Catholic Hospital Bochum gGmbH, Bochum, Germany.",
-      "Department of Vascular Surgery, Dermatologikum Hamburg GmbH, Hamburg, Germany.",
-      "Department of Vascular Medicine, University Heart and Vascular Center, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
-      "Venenzentrum am Bruehl, Leipzig, Germany.",
-      "Venenzentrum Pforzheim, Pforzheim, Germany."
-    ],
-    "doi": "10.1177/02683555261458189",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42231731/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "Imaging / Diagnosis",
-      "Guideline / Consensus"
-    ],
-    "studyTypeTags": [
-      "Clinical Trial",
-      "Guideline",
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 1,
-    "scoreReasons": [
-      "+2 clinical evidence design: randomized",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -5397,17 +5089,12 @@
       "Vascular Graft / Stent / Device",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research",
-      "Review"
-    ],
-    "relevance": "low",
-    "score": 1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: outcome",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -5436,21 +5123,17 @@
       "Validation Study"
     ],
     "topicTags": [
-      "Vascular Graft / Stent / Device",
       "China Research"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "medium",
-    "score": 3,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: stent",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 human study: clinical",
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -5487,13 +5170,11 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
     "relevance": "review",
-    "score": -6,
+    "score": -1,
     "scoreReasons": [
-      "-5 animal-only signal: rat",
       "-1 case report: case report"
     ],
     "isChinaResearch": false,
@@ -5552,16 +5233,13 @@
       "Guideline / Consensus"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: consensus",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: clinical"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -5611,21 +5289,18 @@
       "Antithrombotic Therapy"
     ],
     "studyTypeTags": [
-      "Clinical Trial",
       "Real-world Evidence",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
-      "+2 clinical evidence design: trial",
+      "+2 clinical evidence design: real-world",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: stent"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+    "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
     "source": "PubMed"
   },
   {
@@ -5662,15 +5337,13 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 treatment or prognosis relevance: device",
-      "-5 animal-only signal: rat",
       "-1 case report: case report"
     ],
     "isChinaResearch": false,
@@ -5703,17 +5376,11 @@
     "topicTags": [
       "Venous Disease"
     ],
-    "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
-    ],
+    "studyTypeTags": [],
     "relevance": "low",
-    "score": 1,
+    "score": 2,
     "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -5754,15 +5421,13 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -4,
+    "relevance": "low",
+    "score": 1,
     "scoreReasons": [
       "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -5795,17 +5460,12 @@
     "topicTags": [
       "Venous Disease"
     ],
-    "studyTypeTags": [
-      "Clinical Trial",
-      "Basic Research"
-    ],
+    "studyTypeTags": [],
     "relevance": "review",
-    "score": -5,
-    "scoreReasons": [
-      "-5 animal-only signal: rat"
-    ],
+    "score": 0,
+    "scoreReasons": [],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -5844,15 +5504,11 @@
     "topicTags": [
       "PAD / CLTI"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -5,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 human study: clinical",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: pathway"
+      "+2 human study: clinical"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -5891,18 +5547,12 @@
       "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: mechanism"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -5986,7 +5636,6 @@
     ],
     "topicTags": [
       "Aortic Disease",
-      "Imaging / Diagnosis",
       "China Research"
     ],
     "studyTypeTags": [
@@ -5999,7 +5648,7 @@
       "+2 human study: human",
       "+2 China affiliation: China",
       "-5 animal-only signal: mice",
-      "-2 basic mechanism without clinical relevance: mechanism"
+      "-2 basic mechanism without clinical relevance: in vitro"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -6023,14 +5672,11 @@
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
     "relevance": "review",
-    "score": -5,
-    "scoreReasons": [
-      "-5 animal-only signal: rat"
-    ],
+    "score": 0,
+    "scoreReasons": [],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
@@ -6061,22 +5707,17 @@
     ],
     "topicTags": [
       "Venous Disease",
-      "Vascular Graft / Stent / Device",
       "Guideline / Consensus"
     ],
     "studyTypeTags": [
       "Systematic Review",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: consensus",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: device",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: pathway"
+      "+2 human study: human"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
@@ -6112,16 +5753,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 treatment or prognosis relevance: device",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -6156,16 +5795,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -6212,17 +5849,14 @@
     ],
     "studyTypeTags": [
       "Guideline",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: guideline",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: mechanism"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -6260,7 +5894,7 @@
     "score": 1,
     "scoreReasons": [
       "+2 treatment or prognosis relevance: surgery",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -6289,24 +5923,18 @@
       "Journal Article"
     ],
     "topicTags": [
-      "PAD / CLTI",
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "Clinical Trial",
-      "Basic Research",
       "Review"
     ],
     "relevance": "low",
-    "score": 1,
+    "score": 2,
     "scoreReasons": [
-      "+2 clinical evidence design: trial",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -6334,17 +5962,12 @@
       "Guideline / Consensus"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Guideline",
-      "Basic Research"
+      "Guideline"
     ],
     "relevance": "low",
-    "score": 1,
+    "score": 2,
     "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -6372,14 +5995,11 @@
       "Imaging / Diagnosis",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -3,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 China affiliation: Taiwan",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: Taiwan"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -6419,16 +6039,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -6461,20 +6079,16 @@
       "PAD / CLTI",
       "Endovascular",
       "Open Surgery",
-      "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
       "Case Report",
-      "Basic Research",
       "Review"
     ],
     "relevance": "review",
-    "score": -4,
+    "score": -1,
     "scoreReasons": [
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -6514,16 +6128,14 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -6563,19 +6175,17 @@
       "Journal Article"
     ],
     "topicTags": [
-      "Imaging / Diagnosis",
       "China Research"
     ],
     "studyTypeTags": [
       "Basic Research"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: clinical",
       "+2 treatment or prognosis relevance: treatment",
       "+2 China affiliation: China",
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: mechanism"
     ],
     "isChinaResearch": true,
@@ -6611,19 +6221,61 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic dissection",
       "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42029016",
+    "title": "Anesthesia for Pediatric Interventional Radiology.",
+    "abstract": "Pediatric Interventional Radiology (IR) is progressively expanding and gaining popularity as it provides minimally invasive procedures and treatments, with very good outcomes and low adverse event rates. The image-guided body procedures include central venous access, gastrointestinal procedures, such as gastrostomy tubes, biopsies of solid organs and tumors, pleural and abdominal drain placements, endovascular procedures, and embolizations. Pediatric patients who require IR are often medically complex and have significant pathophysiological derangements. Pediatric IR intersects with multiple specialties, including Oncology, Transplant, General Surgery, Genetic Metabolic Diseases, Neurology, and Infectious Diseases. Anesthesiologists play a key role in IR, ensuring safe and effective care, often under complex clinical circumstances. The purpose of this review is to outline key practical considerations in the anesthetic management of pediatric IR, in particular body procedures. We present aspects of the pre-procedure evaluation and preparation and an overview of the IR technique, including considerations about agents commonly used in radiology, and we describe peri-operative considerations, anticipated challenges, and potential complications. Anesthesiologists will learn about image-guided body procedures and peculiarities of the anesthetic management, expanding their familiarity, and gaining confidence with pediatric cases in the IR environment.",
+    "englishSummary": "Pediatric Interventional Radiology (IR) is progressively expanding and gaining popularity as it provides minimally invasive procedures and treatments, with very good outcomes and low adverse event rates. The image-guided body procedures include central venous access, gastrointestinal procedures, such as gastrostomy tubes, biopsies of solid organs and tumors, pleural and abdominal drain placements, endovascular procedures, and embolizations. Pediatric patients who require IR are often medically complex and have significant pathophysiological derangements.",
+    "journal": "Paediatric anaesthesia",
+    "publicationDate": "2026-04-24",
+    "authors": [
+      "Olsen JM",
+      "Parra DA",
+      "Levine M",
+      "Robertson J",
+      "Fracassa S",
+      "Downing L"
+    ],
+    "affiliations": [
+      "Department of Anesthesiology & Pain Medicine, University of Toronto, Toronto, Canada.",
+      "Department of Anesthesia & Pain Medicine, The Hospital for Sick Children, Toronto, Canada.",
+      "Department of Medical Imaging, University of Toronto, Toronto, Canada.",
+      "Department of Diagnostic and Interventional Radiology, The Hospital for Sick Children, Toronto, Canada."
+    ],
+    "doi": "10.1002/pan.70195",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42029016/",
+    "publicationTypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Imaging / Diagnosis"
+    ],
+    "studyTypeTags": [
+      "Review"
+    ],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
     "source": "PubMed"
   },
   {
@@ -6652,22 +6304,17 @@
     ],
     "topicTags": [
       "Venous Disease",
-      "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "RCT",
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: outcome"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -6694,14 +6341,11 @@
       "Journal Article"
     ],
     "topicTags": [],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -3,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 human study: human",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -6730,14 +6374,10 @@
       "Letter"
     ],
     "topicTags": [],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
+    "studyTypeTags": [],
     "relevance": "review",
-    "score": -5,
-    "scoreReasons": [
-      "-5 animal-only signal: rat"
-    ],
+    "score": 0,
+    "scoreReasons": [],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
     "source": "PubMed"
@@ -6771,16 +6411,14 @@
       "Vascular Graft / Stent / Device"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -2,
+    "relevance": "medium",
+    "score": 3,
     "scoreReasons": [
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -6814,16 +6452,13 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": -2,
+    "relevance": "low",
+    "score": 1,
     "scoreReasons": [
-      "+2 human study: clinical",
       "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -6860,19 +6495,14 @@
     ],
     "topicTags": [
       "PAD / CLTI",
-      "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 2,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
       "+3 title vascular surgery topic: PAD",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -6908,17 +6538,14 @@
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat",
-      "-2 basic mechanism without clinical relevance: pathway"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -6951,15 +6578,13 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -6998,17 +6623,15 @@
       "China Research"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "medium",
-    "score": 3,
+    "relevance": "high",
+    "score": 8,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
-      "+2 human study: human",
+      "+2 human study: patients",
       "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -7057,9 +6680,8 @@
       "Basic Research"
     ],
     "relevance": "review",
-    "score": -1,
+    "score": -3,
     "scoreReasons": [
-      "+2 human study: human",
       "+2 treatment or prognosis relevance: treatment",
       "-5 animal-only signal: mice"
     ],
@@ -7098,19 +6720,16 @@
     ],
     "topicTags": [
       "PAD / CLTI",
-      "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -7146,16 +6765,14 @@
     ],
     "studyTypeTags": [
       "Cohort",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: outcome"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -7190,15 +6807,13 @@
       "PAD / CLTI"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 human study: clinical",
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -7246,17 +6861,15 @@
       "Clinical Trial",
       "Systematic Review",
       "Meta-analysis",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 clinical evidence design: trial",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: outcome"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -7290,21 +6903,14 @@
       "Journal Article"
     ],
     "topicTags": [
-      "Endovascular",
-      "Vascular Graft / Stent / Device",
-      "Guideline / Consensus"
+      "Endovascular"
     ],
-    "studyTypeTags": [
-      "Guideline",
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 clinical evidence design: guideline",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -7347,15 +6953,12 @@
       "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: graft"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -7401,14 +7004,13 @@
       "Case Report",
       "Basic Research"
     ],
-    "relevance": "review",
-    "score": -4,
+    "relevance": "low",
+    "score": 1,
     "scoreReasons": [
-      "+2 human study: human",
+      "+2 human study: patients",
       "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: mechanism",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -7451,16 +7053,14 @@
       "Vascular Graft / Stent / Device"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 2,
+    "relevance": "high",
+    "score": 7,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: graft",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: graft"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -7499,25 +7099,20 @@
     "topicTags": [
       "PAD / CLTI",
       "Endovascular",
-      "Open Surgery",
-      "Vascular Graft / Stent / Device"
+      "Open Surgery"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Cohort",
-      "Basic Research",
-      "Review"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
     "source": "PubMed"
   },
   {
@@ -7548,10 +7143,9 @@
     ],
     "studyTypeTags": [],
     "relevance": "medium",
-    "score": 5,
+    "score": 3,
     "scoreReasons": [
-      "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 treatment or prognosis relevance: graft"
+      "+3 title vascular surgery topic: aortic aneurysm"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -7591,20 +7185,17 @@
     "topicTags": [
       "PAD / CLTI",
       "Endovascular",
-      "Vascular Graft / Stent / Device",
       "Antithrombotic Therapy"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -7648,17 +7239,15 @@
     "studyTypeTags": [
       "Clinical Trial",
       "Cohort",
-      "Real-world Evidence",
-      "Basic Research"
+      "Real-world Evidence"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 clinical evidence design: trial",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -7703,16 +7292,14 @@
     "studyTypeTags": [
       "Systematic Review",
       "Guideline",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: randomized",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
@@ -7795,19 +7382,16 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+    "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
     "source": "PubMed"
   },
   {
@@ -7843,17 +7427,15 @@
       "Endovascular"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -7887,7 +7469,6 @@
       "Journal Article"
     ],
     "topicTags": [
-      "Aortic Disease",
       "Endovascular",
       "Open Surgery",
       "Vascular Graft / Stent / Device"
@@ -7897,18 +7478,16 @@
       "Cohort",
       "Basic Research"
     ],
-    "relevance": "low",
-    "score": 2,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+3 title vascular surgery topic: aortic aneurysm",
       "+2 clinical evidence design: trial",
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: surgery",
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: mechanism"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
     "source": "PubMed"
   },
   {
@@ -7957,21 +7536,16 @@
       "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Clinical Trial",
-      "Basic Research"
-    ],
-    "relevance": "medium",
-    "score": 4,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 7,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
-      "+2 clinical evidence design: trial",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
     "source": "PubMed"
   },
   {
@@ -8016,25 +7590,21 @@
       "Vascular Graft / Stent / Device"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Clinical Trial",
       "Cohort",
       "Systematic Review",
       "Meta-analysis",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "high",
+    "score": 9,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
       "+2 clinical evidence design: randomized",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
     "source": "PubMed"
   },
   {
@@ -8074,17 +7644,13 @@
       "Venous Disease"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Clinical Trial",
-      "Basic Research"
+      "Clinical Trial"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: randomized",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -8116,16 +7682,13 @@
       "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 2,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 7,
     "scoreReasons": [
       "+3 title vascular surgery topic: endovascular",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -8157,22 +7720,17 @@
       "Journal Article"
     ],
     "topicTags": [
-      "Dialysis Access",
-      "Vascular Graft / Stent / Device",
       "China Research"
     ],
     "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
+      "Cohort"
     ],
-    "relevance": "medium",
-    "score": 3,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: cohort",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: stent",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -8204,15 +7762,13 @@
       "Imaging / Diagnosis"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -8250,15 +7806,12 @@
     "topicTags": [
       "Endovascular"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -8295,16 +7848,14 @@
       "China Research"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
-      "+2 human study: human",
+      "+2 human study: patients",
       "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -8344,16 +7895,13 @@
       "Imaging / Diagnosis",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 2,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 7,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 human study: human",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -8389,15 +7937,12 @@
       "Endovascular",
       "Vascular Graft / Stent / Device"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -8434,14 +7979,11 @@
       "Vascular Graft / Stent / Device",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -3,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: stent"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -8482,18 +8024,12 @@
       "Endovascular",
       "Vascular Graft / Stent / Device"
     ],
-    "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
-    ],
+    "studyTypeTags": [],
     "relevance": "medium",
-    "score": 4,
+    "score": 5,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic dissection",
-      "+2 clinical evidence design: cohort",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -8529,16 +8065,13 @@
       "PAD / CLTI",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 1,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
-      "+2 human study: human",
+      "+2 human study: patients",
       "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -8582,11 +8115,10 @@
     ],
     "studyTypeTags": [],
     "relevance": "high",
-    "score": 9,
+    "score": 7,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic dissection",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: intervention",
+      "+2 human study: patients",
       "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
@@ -8628,16 +8160,13 @@
       "Endovascular",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 2,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 7,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic dissection",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -8667,15 +8196,12 @@
       "Journal Article"
     ],
     "topicTags": [],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -8716,24 +8242,20 @@
     "topicTags": [
       "Carotid Disease",
       "Endovascular",
-      "Open Surgery",
-      "Vascular Graft / Stent / Device"
+      "Open Surgery"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Real-world Evidence",
-      "Basic Research"
+      "Real-world Evidence"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: real-world",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: real-world"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+    "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
     "source": "PubMed"
   },
   {
@@ -8777,22 +8299,18 @@
       "Endovascular"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Clinical Trial",
       "Systematic Review",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
-      "+2 clinical evidence design: trial",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
+      "+2 clinical evidence design: systematic review",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: intervention"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
     "source": "PubMed"
   },
   {
@@ -8876,16 +8394,13 @@
       "Dialysis Access",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
-      "+2 human study: human",
+      "+2 human study: patients",
       "+2 treatment or prognosis relevance: surgery",
       "+2 China affiliation: China",
-      "-5 animal-only signal: rat",
       "-2 basic mechanism without clinical relevance: pathway"
     ],
     "isChinaResearch": true,
@@ -8921,17 +8436,15 @@
       "China Research"
     ],
     "studyTypeTags": [
-      "Case Report",
-      "Basic Research"
+      "Case Report"
     ],
-    "relevance": "review",
-    "score": 0,
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
-      "+2 human study: human",
+      "+2 human study: clinical",
       "+2 treatment or prognosis relevance: surgery",
       "+2 China affiliation: China",
-      "-5 animal-only signal: rat",
-      "-1 case report: case report"
+      "-1 case report: case reports"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
@@ -8970,17 +8483,14 @@
       "Guideline / Consensus"
     ],
     "studyTypeTags": [
-      "Guideline",
-      "Basic Research",
-      "Review"
+      "Guideline"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
       "+2 clinical evidence design: guideline",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: guideline",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: guideline"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -9014,15 +8524,11 @@
       "PAD / CLTI",
       "Imaging / Diagnosis"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "review",
-    "score": -1,
+    "studyTypeTags": [],
+    "relevance": "low",
+    "score": 2,
     "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
@@ -9053,16 +8559,13 @@
       "Imaging / Diagnosis",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 2,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 7,
     "scoreReasons": [
       "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 human study: human",
-      "+2 China affiliation: China",
-      "-5 animal-only signal: rat"
+      "+2 human study: clinical",
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -9091,26 +8594,19 @@
       "Review"
     ],
     "topicTags": [
-      "Venous Disease",
-      "Vascular Graft / Stent / Device"
+      "Venous Disease"
     ],
     "studyTypeTags": [
-      "RCT",
-      "Clinical Trial",
-      "Cohort",
-      "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: randomized",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: stent",
-      "-5 animal-only signal: rat"
+      "+2 human study: human"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -9161,21 +8657,16 @@
     ],
     "topicTags": [
       "Venous Disease",
-      "Vascular Graft / Stent / Device",
       "Antithrombotic Therapy",
       "Guideline / Consensus"
     ],
-    "studyTypeTags": [
-      "Guideline",
-      "Basic Research"
-    ],
-    "relevance": "low",
-    "score": 1,
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 6,
     "scoreReasons": [
-      "+2 clinical evidence design: guideline",
+      "+2 clinical evidence design: consensus",
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
@@ -9204,16 +8695,11 @@
       "Guideline / Consensus"
     ],
     "studyTypeTags": [
-      "Guideline",
-      "Basic Research"
+      "Guideline"
     ],
     "relevance": "review",
-    "score": -1,
-    "scoreReasons": [
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: intervention",
-      "-5 animal-only signal: rat"
-    ],
+    "score": 0,
+    "scoreReasons": [],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
     "source": "PubMed"
@@ -9247,22 +8733,17 @@
     ],
     "topicTags": [
       "Venous Disease",
-      "Vascular Graft / Stent / Device",
       "Antithrombotic Therapy"
     ],
     "studyTypeTags": [
       "Systematic Review",
-      "Basic Research",
       "Review"
     ],
     "relevance": "medium",
-    "score": 4,
+    "score": 5,
     "scoreReasons": [
       "+2 clinical evidence design: systematic review",
-      "+3 high-value publication type: systematic review",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: device",
-      "-5 animal-only signal: rat"
+      "+3 high-value publication type: systematic review"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
@@ -9305,13 +8786,11 @@
       "Basic Research",
       "Review"
     ],
-    "relevance": "low",
-    "score": 1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 clinical evidence design: systematic review",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+2 human study: patients"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
@@ -9340,19 +8819,16 @@
       "Journal Article"
     ],
     "topicTags": [
-      "Endovascular",
-      "Imaging / Diagnosis"
+      "Endovascular"
     ],
     "studyTypeTags": [
-      "Basic Research",
       "Review"
     ],
-    "relevance": "review",
-    "score": -1,
+    "relevance": "medium",
+    "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "-5 animal-only signal: rat"
+      "+2 treatment or prognosis relevance: treatment"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
@@ -9383,24 +8859,20 @@
       "Review"
     ],
     "topicTags": [
-      "Venous Disease",
-      "Vascular Graft / Stent / Device"
+      "Venous Disease"
     ],
     "studyTypeTags": [
-      "RCT",
       "Systematic Review",
       "Review"
     ],
-    "relevance": "high",
-    "score": 9,
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
       "+2 clinical evidence design: systematic review",
-      "+3 high-value publication type: systematic review",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: device"
+      "+3 high-value publication type: systematic review"
     ],
     "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
     "source": "PubMed"
   },
   {
@@ -9436,17 +8908,13 @@
     ],
     "studyTypeTags": [
       "Systematic Review",
-      "Basic Research",
       "Review"
     ],
     "relevance": "medium",
-    "score": 4,
+    "score": 5,
     "scoreReasons": [
       "+2 clinical evidence design: systematic review",
-      "+3 high-value publication type: systematic review",
-      "+2 human study: human",
-      "+2 treatment or prognosis relevance: outcome",
-      "-5 animal-only signal: rat"
+      "+3 high-value publication type: systematic review"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
