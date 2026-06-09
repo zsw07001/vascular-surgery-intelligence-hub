@@ -1,60 +1,60 @@
 {
-  "generatedAt": "2026-06-09T11:39:34.402Z",
+  "generatedAt": "2026-06-09T21:59:01.348Z",
   "period": {
     "start": "2026-06-03",
     "end": "2026-06-09"
   },
-  "dataUpdatedAt": "2026-06-09T11:39:34.402Z",
+  "dataUpdatedAt": "2026-06-09T21:59:01.348Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-06-09T11:39:34.402Z"
+      "updatedAt": "2026-06-09T21:59:01.348Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 732,
-      "updatedAt": "2026-06-09T11:39:34.402Z"
+      "count": 746,
+      "updatedAt": "2026-06-09T21:59:01.348Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 15,
-      "updatedAt": "2026-06-09T11:39:34.402Z"
+      "updatedAt": "2026-06-09T21:59:01.348Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-06-09T11:39:34.402Z"
+      "updatedAt": "2026-06-09T21:59:01.348Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-06-09T11:39:34.402Z"
+      "updatedAt": "2026-06-09T21:59:01.348Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-06-09T11:39:34.402Z"
+      "updatedAt": "2026-06-09T21:59:01.348Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
     "highImpact": 89,
     "chinaResearch": 37,
-    "clinicalTrials": 732,
+    "clinicalTrials": 746,
     "guidelines": 15,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、732 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、746 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
@@ -846,6 +846,23 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
+    },
+    {
       "nctId": "NCT02050113",
       "title": "Complex Aortic Aneurysm Repair Using Physician Modified Endografts and Custom Made Devices",
       "source": "ClinicalTrials.gov",
@@ -860,22 +877,6 @@
       "enrollment": 600,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
       "url": "https://clinicaltrials.gov/study/NCT02050113"
-    },
-    {
-      "nctId": "NCT07613840",
-      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-29",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 484,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-05-29",
-      "url": "https://clinicaltrials.gov/study/NCT07613840"
     },
     {
       "nctId": "NCT01538056",
@@ -1009,6 +1010,23 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
+    },
+    {
       "nctId": "NCT02050113",
       "title": "Complex Aortic Aneurysm Repair Using Physician Modified Endografts and Custom Made Devices",
       "source": "ClinicalTrials.gov",
@@ -1023,22 +1041,6 @@
       "enrollment": 600,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
       "url": "https://clinicaltrials.gov/study/NCT02050113"
-    },
-    {
-      "nctId": "NCT07613840",
-      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-29",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 484,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-05-29",
-      "url": "https://clinicaltrials.gov/study/NCT07613840"
     },
     {
       "nctId": "NCT01538056",

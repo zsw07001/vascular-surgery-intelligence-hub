@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-06-09T11:39:34.546Z",
-  "mode": "pubmed",
-  "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
+  "lastUpdated": "2026-06-09T21:59:01.526Z",
+  "mode": "pubmed-error",
+  "note": "PubMed 未成功更新，已保留现有文献数据；ClinicalTrials.gov 会继续尝试使用 API v2 更新。",
   "sources": [
     {
       "name": "PubMed ESearch/EFetch",
-      "status": "success",
+      "status": "error",
       "count": 200,
-      "message": "Fetched 200 articles from PubMed.",
-      "startedAt": "2026-06-09T11:39:12.919Z",
-      "finishedAt": "2026-06-09T11:39:18.240Z"
+      "message": "PubMed request failed: 500 Internal Server Error",
+      "startedAt": null,
+      "finishedAt": null
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 732,
-      "message": "Fetched 732 active/recruiting trials from ClinicalTrials.gov API v2.",
+      "count": 746,
+      "message": "Fetched 746 active/recruiting trials from ClinicalTrials.gov API v2.",
       "apiVersion": "2.0.5",
-      "dataTimestamp": "2026-06-08T09:00:05"
+      "dataTimestamp": "2026-06-09T09:00:05"
     },
     {
       "name": "Guidelines and device regulatory",
@@ -36,7 +36,7 @@
       "status": "success",
       "count": 35,
       "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
-      "finishedAt": "2026-06-09T11:39:34.546Z"
+      "finishedAt": "2026-06-09T21:59:01.526Z"
     }
   ],
   "pubmed": {
@@ -56,8 +56,11 @@
     "highImpactCount": 89,
     "chinaResearchCount": 37
   },
-  "errors": [],
+  "errors": [
+    "PubMed request failed: 500 Internal Server Error"
+  ],
   "manualReview": [
+    "PubMed 未成功更新：请检查 .env 中 NCBI_EMAIL 是否已填写，或稍后重试 NCBI E-utilities。",
     "有 15 篇文献被标记为 review，建议人工确认是否纳入。",
     "有 27 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
     "有 37 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
