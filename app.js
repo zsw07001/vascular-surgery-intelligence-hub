@@ -3,6 +3,9 @@ const DATA_FILES = {
   highImpactResearch: "high-impact-research.json",
   chinaResearch: "china-research.json",
   clinicalTrials: "clinical-trials.json",
+  guidelines: "guidelines.json",
+  deviceRegulatory: "device-regulatory.json",
+  safety: "safety.json",
   weeklyBrief: "weekly-brief.json",
   updateStatus: "update-status.json"
 };
@@ -57,19 +60,27 @@ function dataBasePath() {
 }
 
 async function loadJson(fileName, fallback = []) {
-  const response = await fetch(`${dataBasePath()}${fileName}`, { cache: "no-store" });
-  if (!response.ok) {
+  try {
+    const response = await fetch(`${dataBasePath()}${fileName}`, { cache: "no-store" });
+    if (!response.ok) {
+      return fallback;
+    }
+    return response.json();
+  } catch (error) {
+    console.warn(`Unable to load ${fileName}`, error);
     return fallback;
   }
-  return response.json();
 }
 
 async function initHome() {
-  const [latest, highImpact, china, trials, weeklyBrief, status] = await Promise.all([
+  const [latest, highImpact, china, trials, guidelines, devices, safety, weeklyBrief, status] = await Promise.all([
     loadJson(DATA_FILES.latestResearch),
     loadJson(DATA_FILES.highImpactResearch),
     loadJson(DATA_FILES.chinaResearch),
     loadJson(DATA_FILES.clinicalTrials),
+    loadJson(DATA_FILES.guidelines),
+    loadJson(DATA_FILES.deviceRegulatory),
+    loadJson(DATA_FILES.safety),
     loadJson(DATA_FILES.weeklyBrief, {}),
     loadJson(DATA_FILES.updateStatus, {})
   ]);
@@ -81,6 +92,14 @@ async function initHome() {
 
   const updated = status.lastUpdated ? formatDateTime(status.lastUpdated) : "等待数据";
   setText("#home-updated", updated);
+  renderHomeStatus(document.querySelector("#home-status-panel"), status, {
+    pubmed: latest.length,
+    clinicalTrials: trials.length,
+    guidelines: guidelines.length,
+    devices: devices.length,
+    safety: safety.length,
+    weeklyBrief: countWeeklyBriefItems(weeklyBrief)
+  });
 
   renderArticleList(document.querySelector("#home-latest-list"), latest.slice(0, 3), {
     compact: true,
@@ -91,6 +110,89 @@ async function initHome() {
     emptyTitle: "暂无重点研究"
   });
   renderWeeklyBrief(document.querySelector("#home-weekly-brief"), weeklyBrief, { compact: true });
+}
+
+function renderHomeStatus(container, status, counts) {
+  if (!container) return;
+
+  const source = (patterns) => findStatusSource(status, patterns);
+  const pubmedSource = source(["PubMed"]);
+  const trialSource = source(["ClinicalTrials.gov"]);
+  const guidelineDeviceSource = source(["Guidelines and device regulatory"]);
+  const safetySource = source(["Safety"]);
+  const weeklySource = source(["Weekly Brief"]);
+
+  const cards = [
+    {
+      label: "PubMed",
+      source: pubmedSource,
+      count: sourceCount(pubmedSource, counts.pubmed),
+      time: pubmedSource?.finishedAt || status.lastUpdated
+    },
+    {
+      label: "ClinicalTrials.gov",
+      source: trialSource,
+      count: sourceCount(trialSource, counts.clinicalTrials),
+      time: trialSource?.finishedAt || status.lastUpdated
+    },
+    {
+      label: "Guidelines",
+      source: guidelineDeviceSource,
+      count: counts.guidelines,
+      time: guidelineDeviceSource?.finishedAt || status.lastUpdated,
+      emptyText: "待人工维护"
+    },
+    {
+      label: "Devices / Regulatory",
+      source: guidelineDeviceSource,
+      count: counts.devices,
+      time: guidelineDeviceSource?.finishedAt || status.lastUpdated,
+      emptyText: "待人工维护"
+    },
+    {
+      label: "Safety",
+      source: safetySource,
+      count: sourceCount(safetySource, counts.safety),
+      time: safetySource?.finishedAt || status.lastUpdated
+    },
+    {
+      label: "Weekly Brief",
+      source: weeklySource,
+      count: sourceCount(weeklySource, counts.weeklyBrief),
+      time: weeklySource?.finishedAt || status.lastUpdated
+    }
+  ];
+
+  container.innerHTML = cards.map(renderHomeStatusCard).join("");
+}
+
+function renderHomeStatusCard(card) {
+  const status = card.source?.status || (card.count > 0 ? "success" : "not_run");
+  const countText = card.count > 0 ? String(card.count) : card.emptyText || "暂无数据";
+  const updatedText = card.time ? formatDateTime(card.time) : "暂无更新时间";
+
+  return `
+    <article class="home-source-card">
+      <div>
+        <strong>${escapeHtml(card.label)}</strong>
+        <span class="${statusClass(status)}">${escapeHtml(status)}</span>
+      </div>
+      <p>数量：${escapeHtml(countText)}</p>
+      <p>更新：${escapeHtml(updatedText)}</p>
+    </article>
+  `;
+}
+
+function findStatusSource(status, patterns) {
+  const sources = Array.isArray(status?.sources) ? status.sources : [];
+  return sources.find((source) =>
+    patterns.some((pattern) => String(source.name || "").toLowerCase().includes(pattern.toLowerCase()))
+  );
+}
+
+function sourceCount(source, fallback) {
+  if (typeof source?.count === "number") return source.count;
+  return typeof fallback === "number" ? fallback : 0;
 }
 
 async function initResearchPage() {
@@ -566,6 +668,16 @@ function trialMatchesQuery(trial, query) {
 function countActiveTrials(trials) {
   const activeStatuses = new Set(["RECRUITING", "NOT_YET_RECRUITING", "ACTIVE_NOT_RECRUITING"]);
   return trials.filter((trial) => activeStatuses.has(String(trial.status || "").toUpperCase())).length;
+}
+
+function countWeeklyBriefItems(brief) {
+  if (!brief || typeof brief !== "object") return 0;
+  return (
+    (brief.priorityReading || []).length +
+    (brief.chinaHighlights || []).length +
+    (brief.reviewQueue || []).length +
+    (brief.topicTrends || []).length
+  );
 }
 
 function setText(selector, value) {

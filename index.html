@@ -39,14 +39,15 @@
           </p>
         </div>
         <div class="hero-panel" aria-label="情报概览">
-          <div class="signal-grid">
-            <span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span>
+          <div class="home-status-header">
+            <div>
+              <small>自动更新状态</small>
+              <strong id="home-updated">等待数据</strong>
+            </div>
+            <a href="pages/data-status.html">查看详情</a>
           </div>
-          <div class="signal-readout">
-            <strong id="home-updated">等待数据</strong>
-            <small>自动更新状态</small>
+          <div class="home-status-list" id="home-status-panel">
+            <div class="status-loading">正在加载数据源状态...</div>
           </div>
         </div>
       </section>

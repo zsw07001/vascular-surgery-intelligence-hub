@@ -201,46 +201,81 @@ h3 {
   box-shadow: var(--shadow);
 }
 
-.signal-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
-  height: 170px;
-}
-
-.signal-grid span {
-  border: 1px solid rgba(15, 118, 110, 0.2);
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.76);
-}
-
-.signal-grid span:nth-child(2n) {
-  background: rgba(29, 79, 145, 0.12);
-}
-
-.signal-grid span:nth-child(3n) {
-  background: rgba(36, 120, 90, 0.13);
-}
-
-.signal-readout {
+.home-status-header {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin-top: 18px;
 }
 
-.signal-readout strong,
-.signal-readout small {
+.home-status-header strong,
+.home-status-header small {
   display: block;
 }
 
-.signal-readout strong {
+.home-status-header small {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.home-status-header strong {
   font-size: 16px;
 }
 
-.signal-readout small {
+.home-status-header a {
+  flex: 0 0 auto;
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.home-status-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.home-source-card,
+.status-loading {
+  min-height: 92px;
+  padding: 12px;
+  border: 1px solid rgba(15, 118, 110, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.home-source-card div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.home-source-card strong {
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.home-source-card span {
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.home-source-card p,
+.status-loading {
+  margin: 6px 0 0;
   color: var(--muted);
+  font-size: 13px;
+}
+
+.status-loading {
+  display: grid;
+  grid-column: 1 / -1;
+  min-height: 160px;
+  place-items: center;
+  margin: 0;
 }
 
 .stat-grid {
@@ -737,8 +772,8 @@ h3 {
     min-height: 220px;
   }
 
-  .signal-grid {
-    height: 130px;
+  .home-status-list {
+    grid-template-columns: 1fr;
   }
 
   .module-grid,
