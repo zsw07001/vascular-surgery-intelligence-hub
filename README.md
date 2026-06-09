@@ -1,6 +1,6 @@
 # 血管外科情报中枢 / Vascular Surgery Intelligence Hub
 
-一个纯静态的医学专题情报仪表盘，用于聚合血管外科相关文献、临床试验、指南共识、器械/监管动态和中国研究线索。当前阶段已接入 PubMed 文献抓取；ClinicalTrials.gov 暂时保留 mock data。
+一个纯静态的医学专题情报仪表盘，用于聚合血管外科相关文献、临床试验、指南共识、器械/监管动态和中国研究线索。当前阶段已接入 PubMed 文献抓取和 ClinicalTrials.gov API v2 临床试验抓取。
 
 > 本项目仅作为情报聚合和阅读辅助，不构成医学建议。正式临床、科研、产品或监管判断应回到原始论文、指南、临床试验登记和监管文件。
 
@@ -43,7 +43,7 @@ AGENTS.md
 - 页面只读取 `data/*.json`，不依赖后端服务器。
 - `app.js` 负责加载 JSON、渲染卡片、搜索、筛选和空状态。
 - `scripts/config.mjs` 集中维护 PubMed 检索式、排除规则、评分规则、标签规则和中国机构关键词。
-- `scripts/update-all.mjs` 会调用真实 PubMed 更新流程；ClinicalTrials.gov 暂未接入。
+- `scripts/update-all.mjs` 会调用真实 PubMed 和 ClinicalTrials.gov 更新流程。
 
 ## 数据文件
 
@@ -128,7 +128,7 @@ npm install
 npm run update
 ```
 
-当前 workflow 会运行 PubMed 更新脚本。如果 GitHub Actions 中没有配置 `NCBI_EMAIL`，脚本会跳过真实 PubMed 抓取并保留现有数据。建议在仓库 Secrets 中配置 `NCBI_EMAIL`，并可选配置 `NCBI_TOOL`。
+当前 workflow 会运行 PubMed 和 ClinicalTrials.gov 更新脚本。如果 GitHub Actions 中没有配置 `NCBI_EMAIL`，脚本会跳过真实 PubMed 抓取并保留现有文献数据；ClinicalTrials.gov 不需要 API key。建议在仓库 Secrets 中配置 `NCBI_EMAIL`，并可选配置 `NCBI_TOOL`。
 
 ## 人工复核建议
 
@@ -150,5 +150,5 @@ npm run update
 
 1. 抽样复核 PubMed 标签、评分和中国机构筛选。
 2. 根据复核结果微调 `scripts/config.mjs`。
-3. `scripts/update-clinicaltrials.mjs`：接入 ClinicalTrials.gov API v2。
+3. 继续优化 ClinicalTrials.gov 主题词和状态筛选。
 4. 后续再接入指南、器械监管和人工复核工作流。

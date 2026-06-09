@@ -250,6 +250,7 @@ export const chinaAffiliationKeywords = [
 
 export const clinicalTrialsConfig = {
   apiBase: "https://clinicaltrials.gov/api/v2",
+  requestTimeoutMs: 30000,
   topics: [
     "peripheral arterial disease",
     "chronic limb-threatening ischemia",
@@ -264,8 +265,146 @@ export const clinicalTrialsConfig = {
     "hemodialysis access",
     "endovascular"
   ],
+  termTopics: ["endovascular"],
   activeStatuses: ["RECRUITING", "NOT_YET_RECRUITING", "ACTIVE_NOT_RECRUITING"],
-  pageSize: 100
+  pageSize: 100,
+  maxPagesPerTopic: 2,
+  includePatterns: [
+    "peripheral arterial disease",
+    "peripheral artery disease",
+    "chronic limb-threatening ischemia",
+    "critical limb ischemia",
+    "limb ischemia",
+    "femoropopliteal",
+    "tibial artery",
+    "iliac lesion",
+    "aortic aneurysm",
+    "abdominal aortic aneurysm",
+    "thoracoabdominal aortic aneurysm",
+    "aortic dissection",
+    "aortic arch",
+    "endovascular aneurysm repair",
+    "evar",
+    "tevar",
+    "bevar",
+    "fenestrated",
+    "branched endovascular",
+    "carotid stenosis",
+    "carotid artery",
+    "carotid endarterectomy",
+    "deep vein thrombosis",
+    "venous thromboembolism",
+    "venous insufficiency",
+    "varicose veins",
+    "iliac vein",
+    "hemodialysis access",
+    "dialysis access",
+    "vascular access",
+    "dialysis fistula",
+    "hemodialysis fistula",
+    "arteriovenous fistula maturation",
+    "stent graft",
+    "endograft",
+    "vascular graft",
+    "vascular surgery",
+    "lower extremity arterial",
+    "lower extremity venous"
+  ],
+  contextualIncludeRules: [
+    {
+      label: "Dialysis access arteriovenous fistula",
+      requiredPatterns: ["arteriovenous fistula"],
+      contextPatterns: [
+        "hemodialysis",
+        "haemodialysis",
+        "dialysis",
+        "end-stage renal",
+        "end stage renal",
+        "end-stage kidney",
+        "end stage kidney",
+        "vascular access",
+        "fistula maturation"
+      ]
+    }
+  ],
+  strongVascularPatterns: [
+    "peripheral arterial disease",
+    "peripheral artery disease",
+    "chronic limb-threatening ischemia",
+    "critical limb ischemia",
+    "aortic aneurysm",
+    "abdominal aortic aneurysm",
+    "aortic dissection",
+    "aortic arch",
+    "carotid stenosis",
+    "carotid artery stenosis",
+    "carotid endarterectomy",
+    "carotid revascularization",
+    "carotid artery stenting",
+    "deep vein thrombosis",
+    "venous thromboembolism",
+    "venous insufficiency",
+    "varicose veins",
+    "hemodialysis access",
+    "dialysis access",
+    "vascular access",
+    "stent graft",
+    "endograft",
+    "vascular surgery",
+    "lower extremity arterial",
+    "lower extremity venous"
+  ],
+  strictExcludeRules: [
+    {
+      label: "Neurovascular-only topics",
+      blockPatterns: ["intracranial", "cerebral", "brain", "neurosurgical", "middle cerebral artery"],
+      allowPatterns: [
+        "extracranial carotid",
+        "carotid stenosis",
+        "carotid artery stenosis",
+        "carotid endarterectomy",
+        "carotid artery stenting",
+        "carotid revascularization",
+        "aortic aneurysm",
+        "aortic dissection",
+        "peripheral arterial disease",
+        "peripheral artery disease",
+        "lower extremity arterial",
+        "lower extremity venous",
+        "hemodialysis access",
+        "dialysis access"
+      ]
+    },
+    {
+      label: "Coronary-only topics",
+      blockPatterns: ["coronary artery disease", "acute coronary syndrome", "myocardial infarction"],
+      allowPatterns: [
+        "peripheral arterial disease",
+        "peripheral artery disease",
+        "chronic limb-threatening ischemia",
+        "critical limb ischemia",
+        "aortic aneurysm",
+        "aortic dissection",
+        "carotid stenosis",
+        "deep vein thrombosis",
+        "venous thromboembolism"
+      ]
+    }
+  ],
+  excludePatterns: [
+    "left atrial appendage",
+    "atrial fibrillation",
+    "intracranial",
+    "cerebral",
+    "brain",
+    "neurosurgical",
+    "coronary artery disease",
+    "acute coronary syndrome",
+    "breast cancer",
+    "lung cancer",
+    "covid-19",
+    "pregnancy"
+  ]
 };
 
 export function buildPubMedQuery() {

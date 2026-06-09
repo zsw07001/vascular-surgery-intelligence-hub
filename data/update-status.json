@@ -1,21 +1,23 @@
 {
-  "lastUpdated": "2026-06-09T10:56:40.805Z",
+  "lastUpdated": "2026-06-09T11:08:32.871Z",
   "mode": "pubmed",
-  "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 暂未接入，仍保留现有数据。",
+  "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
     {
       "name": "PubMed ESearch/EFetch",
       "status": "success",
       "count": 200,
       "message": "Fetched 200 articles from PubMed.",
-      "startedAt": "2026-06-09T10:56:38.219Z",
-      "finishedAt": "2026-06-09T10:56:40.678Z"
+      "startedAt": "2026-06-09T11:08:12.628Z",
+      "finishedAt": "2026-06-09T11:08:15.782Z"
     },
     {
       "name": "ClinicalTrials.gov",
-      "status": "not_run",
-      "count": 3,
-      "message": "第二阶段暂不接入 ClinicalTrials.gov，保留第一阶段 mock 或现有数据。"
+      "status": "success",
+      "count": 732,
+      "message": "Fetched 732 active/recruiting trials from ClinicalTrials.gov API v2.",
+      "apiVersion": "2.0.5",
+      "dataTimestamp": "2026-06-08T09:00:05"
     },
     {
       "name": "Guidelines and device regulatory",

@@ -4,6 +4,7 @@ import { dirname, join } from "node:path";
 import { buildPubMedQuery, clinicalTrialsConfig, pubmedConfig } from "./config.mjs";
 import { ensureArray, readJsonFile, writeJsonFile } from "./utils.mjs";
 import { updatePubMed } from "./update-pubmed.mjs";
+import { updateClinicalTrials } from "./update-clinicaltrials.mjs";
 import { updateDerivedInsights } from "./update-derived-insights.mjs";
 import { updateWeeklyBrief } from "./update-weekly-brief.mjs";
 
@@ -24,6 +25,7 @@ async function main() {
   const existingCounts = await readExistingPubMedCounts();
   const pubmedResult = await runPubMedSafely();
   const effectiveCounts = pubmedResult.ok ? pubmedResult.counts : existingCounts;
+  const clinicalTrialsResult = await runClinicalTrialsSafely();
   const derivedResult = await runDerivedInsightsSafely();
   const weeklyBriefResult = await runWeeklyBriefSafely();
 
@@ -31,8 +33,8 @@ async function main() {
     lastUpdated: new Date().toISOString(),
     mode: pubmedResult.ok ? "pubmed" : pubmedResult.skipped ? "pubmed-skipped" : "pubmed-error",
     note: pubmedResult.ok
-      ? "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 暂未接入，仍保留现有数据。"
-      : "PubMed 未成功更新，已保留现有文献数据；ClinicalTrials.gov 暂未接入。",
+      ? "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。"
+      : "PubMed 未成功更新，已保留现有文献数据；ClinicalTrials.gov 会继续尝试使用 API v2 更新。",
     sources: [
       {
         name: "PubMed ESearch/EFetch",
@@ -46,9 +48,13 @@ async function main() {
       },
       {
         name: "ClinicalTrials.gov",
-        status: "not_run",
-        count: ensureArray(await readJsonFile(join(dataDir, "clinical-trials.json"), [])).length,
-        message: "第二阶段暂不接入 ClinicalTrials.gov，保留第一阶段 mock 或现有数据。"
+        status: clinicalTrialsResult.ok ? "success" : "error",
+        count: clinicalTrialsResult.count,
+        message: clinicalTrialsResult.ok
+          ? `Fetched ${clinicalTrialsResult.count} active/recruiting trials from ClinicalTrials.gov API v2.`
+          : clinicalTrialsResult.error,
+        apiVersion: clinicalTrialsResult.version?.apiVersion || null,
+        dataTimestamp: clinicalTrialsResult.version?.dataTimestamp || null
       },
       {
         name: "Guidelines and device regulatory",
@@ -80,6 +86,7 @@ async function main() {
     },
     errors: [
       pubmedResult.ok ? "" : pubmedResult.error,
+      clinicalTrialsResult.ok ? "" : clinicalTrialsResult.error,
       derivedResult.ok ? "" : derivedResult.error,
       weeklyBriefResult.ok ? "" : weeklyBriefResult.error
     ].filter(Boolean),
@@ -106,6 +113,9 @@ async function main() {
     console.log(
       `Derived insights generated: ${derivedResult.guidelines} guidelines, ${derivedResult.devices} device signals, ${derivedResult.safety} safety signals.`
     );
+  }
+  if (clinicalTrialsResult.ok) {
+    console.log(`ClinicalTrials.gov update complete: ${clinicalTrialsResult.count} trials.`);
   }
 }
 
@@ -155,6 +165,27 @@ async function validateSupportData() {
   }
 
   return results;
+}
+
+async function runClinicalTrialsSafely() {
+  try {
+    const result = await updateClinicalTrials({ dataDir });
+    return {
+      ok: result.ok,
+      count: result.ok ? result.trials.length : ensureArray(await readJsonFile(join(dataDir, "clinical-trials.json"), [])).length,
+      error: result.error,
+      version: result.version,
+      topicResults: result.topicResults
+    };
+  } catch (error) {
+    return {
+      ok: false,
+      count: ensureArray(await readJsonFile(join(dataDir, "clinical-trials.json"), [])).length,
+      error: error.message,
+      version: null,
+      topicResults: []
+    };
+  }
 }
 
 async function runDerivedInsightsSafely() {
