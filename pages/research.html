@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>文献情报 | 血管外科情报中枢</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body data-page="research" data-dataset="latest-research">
+    <header class="site-header">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">VSIH</span>
+        <span><strong>血管外科情报中枢</strong><small>Research</small></span>
+      </a>
+      <nav class="top-nav" aria-label="主导航">
+        <a href="research.html" aria-current="page">文献</a>
+        <a href="trials.html">试验</a>
+        <a href="china.html">中国研究</a>
+        <a href="data-status.html">数据状态</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-title">
+        <p class="eyebrow">PubMed Intelligence</p>
+        <h1 id="research-page-title">最新文献</h1>
+        <p>按主题、研究类型、相关性和中国机构线索筛选血管外科相关文献。</p>
+      </section>
+
+      <section class="toolbar" aria-label="文献筛选">
+        <label class="search-field">
+          <span>搜索</span>
+          <input id="search-input" type="search" placeholder="标题、摘要、期刊、作者" autocomplete="off" />
+        </label>
+        <label>
+          <span>主题标签</span>
+          <select id="topic-filter">
+            <option value="">全部主题</option>
+          </select>
+        </label>
+        <label>
+          <span>研究类型</span>
+          <select id="study-type-filter">
+            <option value="">全部类型</option>
+          </select>
+        </label>
+        <label>
+          <span>相关性</span>
+          <select id="relevance-filter">
+            <option value="">全部</option>
+            <option value="high">高相关</option>
+            <option value="medium">中相关</option>
+            <option value="low">低相关</option>
+            <option value="review">待复核</option>
+          </select>
+        </label>
+        <label class="check-row">
+          <input id="china-filter" type="checkbox" />
+          <span>仅中国研究</span>
+        </label>
+      </section>
+
+      <div class="result-meta" id="result-meta"></div>
+      <section class="item-list" id="research-list" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <p>仅作为情报聚合和阅读辅助，不构成医学建议。</p>
+    </footer>
+    <script src="../app.js" defer></script>
+  </body>
+</html>

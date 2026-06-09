@@ -1,0 +1,17 @@
+{
+  "name": "vascular-surgery-intelligence-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static intelligence dashboard for vascular surgery literature, trials, guidelines, and regulatory signals.",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "update": "node scripts/update-all.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.8.0"
+  }
+}

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="血管外科情报中枢，聚合文献、临床试验、指南共识、器械监管和中国研究。"
+    />
+    <title>血管外科情报中枢 | Vascular Surgery Intelligence Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="血管外科情报中枢首页">
+        <span class="brand-mark">VSIH</span>
+        <span>
+          <strong>血管外科情报中枢</strong>
+          <small>Vascular Surgery Intelligence Hub</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="主导航">
+        <a href="pages/research.html">文献</a>
+        <a href="pages/trials.html">试验</a>
+        <a href="pages/china.html">中国研究</a>
+        <a href="pages/data-status.html">数据状态</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero dashboard-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Clinical · Research · Med Affairs · Market Intelligence</p>
+          <h1>血管外科情报中枢</h1>
+          <p class="hero-subtitle">Vascular Surgery Intelligence Hub</p>
+          <p class="hero-text">
+            面向血管外科临床、科研、医学事务和产业情报的专题工作台，聚合最新文献、临床试验、器械/药物动态、指南共识和中国研究。
+          </p>
+        </div>
+        <div class="hero-panel" aria-label="情报概览">
+          <div class="signal-grid">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="signal-readout">
+            <strong id="home-updated">等待数据</strong>
+            <small>自动更新状态</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="stat-grid" aria-label="核心统计">
+        <article class="stat-card">
+          <span>过去 7 天 PubMed 新增/更新文献</span>
+          <strong data-stat="latestCount">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>高相关临床研究</span>
+          <strong data-stat="highImpactCount">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>中国机构相关研究</span>
+          <strong data-stat="chinaCount">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>进行中/招募中的临床试验</span>
+          <strong data-stat="activeTrialCount">0</strong>
+        </article>
+      </section>
+
+      <section class="module-grid" aria-label="情报模块">
+        <a class="module-card" href="pages/research.html">
+          <span>Latest Research</span>
+          <strong>最新文献</strong>
+        </a>
+        <a class="module-card" href="pages/research.html?dataset=high-impact">
+          <span>High Impact</span>
+          <strong>重点研究</strong>
+        </a>
+        <a class="module-card" href="pages/trials.html">
+          <span>Clinical Trials</span>
+          <strong>临床试验</strong>
+        </a>
+        <a class="module-card" href="pages/guidelines.html">
+          <span>Guidelines</span>
+          <strong>指南与共识</strong>
+        </a>
+        <a class="module-card" href="pages/devices.html">
+          <span>Devices & Regulatory</span>
+          <strong>器械与监管</strong>
+        </a>
+        <a class="module-card" href="pages/china.html">
+          <span>China Research</span>
+          <strong>中国研究</strong>
+        </a>
+        <a class="module-card" href="pages/data-status.html">
+          <span>Data Status</span>
+          <strong>数据状态</strong>
+        </a>
+      </section>
+
+      <section class="content-band two-column">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Research Watch</p>
+            <h2>最新文献摘要</h2>
+          </div>
+          <div class="item-list compact-list" id="home-latest-list" data-limit="3"></div>
+        </div>
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow">Priority Reading</p>
+            <h2>重点研究</h2>
+          </div>
+          <div class="item-list compact-list" id="home-high-list" data-limit="3"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>仅作为情报聚合和阅读辅助，不构成医学建议。正式判断应回到原始论文、指南和监管文件。</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

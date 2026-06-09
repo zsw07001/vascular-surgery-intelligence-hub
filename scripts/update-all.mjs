@@ -1,0 +1,194 @@
+import { existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+import { buildPubMedQuery, clinicalTrialsConfig, pubmedConfig } from "./config.mjs";
+import { ensureArray, readJsonFile, writeJsonFile } from "./utils.mjs";
+import { updatePubMed } from "./update-pubmed.mjs";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const rootDir = join(__dirname, "..");
+const dataDir = join(rootDir, "data");
+
+const supportArrayFiles = ["clinical-trials.json", "guidelines.json", "device-regulatory.json"];
+async function main() {
+  const supportResults = await validateSupportData();
+  const existingCounts = await readExistingPubMedCounts();
+  const pubmedResult = await runPubMedSafely();
+  const effectiveCounts = pubmedResult.ok ? pubmedResult.counts : existingCounts;
+
+  const updateStatus = {
+    lastUpdated: new Date().toISOString(),
+    mode: pubmedResult.ok ? "pubmed" : pubmedResult.skipped ? "pubmed-skipped" : "pubmed-error",
+    note: pubmedResult.ok
+      ? "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 暂未接入，仍保留现有数据。"
+      : "PubMed 未成功更新，已保留现有文献数据；ClinicalTrials.gov 暂未接入。",
+    sources: [
+      {
+        name: "PubMed ESearch/EFetch",
+        status: pubmedResult.ok ? "success" : pubmedResult.skipped ? "skipped" : "error",
+        count: effectiveCounts.total,
+        message: pubmedResult.ok
+          ? `Fetched ${pubmedResult.articles.length} articles from PubMed.`
+          : pubmedResult.error,
+        startedAt: pubmedResult.startedAt || null,
+        finishedAt: pubmedResult.finishedAt || null
+      },
+      {
+        name: "ClinicalTrials.gov",
+        status: "not_run",
+        count: ensureArray(await readJsonFile(join(dataDir, "clinical-trials.json"), [])).length,
+        message: "第二阶段暂不接入 ClinicalTrials.gov，保留第一阶段 mock 或现有数据。"
+      },
+      {
+        name: "Guidelines and device regulatory",
+        status: statusForSupport(supportResults),
+        count:
+          ensureArray(await readJsonFile(join(dataDir, "guidelines.json"), [])).length +
+          ensureArray(await readJsonFile(join(dataDir, "device-regulatory.json"), [])).length,
+        message: "当前保留静态数据结构和空状态。"
+      }
+    ],
+    pubmed: {
+      lookbackDays: pubmedConfig.lookbackDays,
+      dateType: pubmedConfig.dateType,
+      maxRecords: pubmedConfig.maxRecords,
+      query: buildPubMedQuery(),
+      counts: effectiveCounts,
+      highImpactCount: pubmedResult.ok ? pubmedResult.highImpact.length : existingCounts.highImpact,
+      chinaResearchCount: pubmedResult.ok ? pubmedResult.chinaResearch.length : existingCounts.china
+    },
+    errors: pubmedResult.ok ? [] : [pubmedResult.error],
+    manualReview: buildManualReviewItems(pubmedResult, effectiveCounts),
+    configPreview: {
+      pubmedQuery: buildPubMedQuery(),
+      clinicalTrialTopics: clinicalTrialsConfig.topics
+    }
+  };
+
+  await writeJsonFile(join(dataDir, "update-status.json"), updateStatus);
+
+  if (pubmedResult.ok) {
+    console.log(
+      `PubMed update complete: ${pubmedResult.articles.length} total, ${pubmedResult.highImpact.length} high-impact, ${pubmedResult.chinaResearch.length} China research.`
+    );
+  } else {
+    console.log(`PubMed update skipped/failed: ${pubmedResult.error}`);
+  }
+}
+
+async function runPubMedSafely() {
+  try {
+    return await updatePubMed({ rootDir, dataDir });
+  } catch (error) {
+    return {
+      ok: false,
+      skipped: false,
+      error: error.message,
+      articles: [],
+      highImpact: [],
+      chinaResearch: [],
+      counts: await readExistingPubMedCounts()
+    };
+  }
+}
+
+async function validateSupportData() {
+  const results = [];
+
+  for (const fileName of supportArrayFiles) {
+    const filePath = join(dataDir, fileName);
+
+    if (!existsSync(filePath)) {
+      await writeJsonFile(filePath, []);
+    }
+
+    try {
+      const value = ensureArray(await readJsonFile(filePath, []));
+      await writeJsonFile(filePath, value);
+      results.push({
+        name: fileName,
+        status: "success",
+        count: value.length,
+        message: "Existing data validated."
+      });
+    } catch (error) {
+      results.push({
+        name: fileName,
+        status: "error",
+        count: 0,
+        message: error.message
+      });
+    }
+  }
+
+  return results;
+}
+
+async function readExistingPubMedCounts() {
+  const latest = ensureArray(await readJsonFile(join(dataDir, "latest-research.json"), []));
+  const highImpact = ensureArray(await readJsonFile(join(dataDir, "high-impact-research.json"), []));
+  const china = ensureArray(await readJsonFile(join(dataDir, "china-research.json"), []));
+
+  return latest.reduce(
+    (acc, article) => {
+      acc.total += 1;
+      const relevance = normalizeRelevance(article);
+      if (Object.prototype.hasOwnProperty.call(acc, relevance)) {
+        acc[relevance] += 1;
+      } else {
+        acc.review += 1;
+      }
+      return acc;
+    },
+    {
+      total: 0,
+      high: 0,
+      medium: 0,
+      low: 0,
+      review: 0,
+      china: china.length,
+      highImpact: highImpact.length
+    }
+  );
+}
+
+function normalizeRelevance(article) {
+  if (typeof article.relevance === "string") return article.relevance;
+  return article.relevance?.level || "review";
+}
+
+function buildManualReviewItems(pubmedResult, counts) {
+  const items = [];
+
+  if (!pubmedResult.ok) {
+    items.push("PubMed 未成功更新：请检查 .env 中 NCBI_EMAIL 是否已填写，或稍后重试 NCBI E-utilities。");
+  }
+
+  if (counts.review > 0) {
+    items.push(`有 ${counts.review} 篇文献被标记为 review，建议人工确认是否纳入。`);
+  }
+
+  if (counts.low > 0) {
+    items.push(`有 ${counts.low} 篇文献为低相关，建议抽样检查排除规则是否需要收紧。`);
+  }
+
+  if (counts.china > 0) {
+    items.push(`有 ${counts.china} 篇文献命中中国机构 affiliation，建议抽样核对机构字段。`);
+  }
+
+  if (items.length === 0) {
+    items.push("暂无明显待复核事项；仍建议抽样核对 PMID、DOI、affiliation 和标签结果。");
+  }
+
+  return items;
+}
+
+function statusForSupport(results) {
+  return results.every((result) => result.status === "success") ? "success" : "error";
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

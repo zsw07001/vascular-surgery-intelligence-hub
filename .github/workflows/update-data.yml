@@ -1,0 +1,42 @@
+name: Update Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 20 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update data
+        env:
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          NCBI_TOOL: vascular-surgery-intelligence-hub
+        run: npm run update
+
+      - name: Commit updated data
+        run: |
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data
+            git commit -m "chore: update data"
+            git push
+          else
+            echo "No data changes to commit."
+          fi

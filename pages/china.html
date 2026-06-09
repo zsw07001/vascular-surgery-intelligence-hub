@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>中国研究 | 血管外科情报中枢</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body data-page="research" data-dataset="china-research" data-force-china="true">
+    <header class="site-header">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">VSIH</span>
+        <span><strong>血管外科情报中枢</strong><small>China Research</small></span>
+      </a>
+      <nav class="top-nav" aria-label="主导航">
+        <a href="research.html">文献</a>
+        <a href="trials.html">试验</a>
+        <a href="china.html" aria-current="page">中国研究</a>
+        <a href="data-status.html">数据状态</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-title">
+        <p class="eyebrow">China Affiliation Watch</p>
+        <h1>中国研究</h1>
+        <p>仅根据 affiliation 字段筛选，不根据作者姓名判断。</p>
+      </section>
+
+      <section class="toolbar" aria-label="中国研究筛选">
+        <label class="search-field">
+          <span>搜索</span>
+          <input id="search-input" type="search" placeholder="标题、摘要、机构、期刊" autocomplete="off" />
+        </label>
+        <label>
+          <span>主题标签</span>
+          <select id="topic-filter"><option value="">全部主题</option></select>
+        </label>
+        <label>
+          <span>研究类型</span>
+          <select id="study-type-filter"><option value="">全部类型</option></select>
+        </label>
+        <label>
+          <span>相关性</span>
+          <select id="relevance-filter">
+            <option value="">全部</option>
+            <option value="high">高相关</option>
+            <option value="medium">中相关</option>
+            <option value="low">低相关</option>
+            <option value="review">待复核</option>
+          </select>
+        </label>
+      </section>
+
+      <div class="result-meta" id="result-meta"></div>
+      <section class="item-list" id="research-list" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <p>仅作为情报聚合和阅读辅助，不构成医学建议。</p>
+    </footer>
+    <script src="../app.js" defer></script>
+  </body>
+</html>

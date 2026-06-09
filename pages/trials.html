@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>临床试验 | 血管外科情报中枢</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body data-page="trials">
+    <header class="site-header">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">VSIH</span>
+        <span><strong>血管外科情报中枢</strong><small>Clinical Trials</small></span>
+      </a>
+      <nav class="top-nav" aria-label="主导航">
+        <a href="research.html">文献</a>
+        <a href="trials.html" aria-current="page">试验</a>
+        <a href="china.html">中国研究</a>
+        <a href="data-status.html">数据状态</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-title">
+        <p class="eyebrow">ClinicalTrials.gov Watch</p>
+        <h1>临床试验</h1>
+        <p>第一阶段展示 mock 数据；下一阶段将接入 ClinicalTrials.gov API v2。</p>
+      </section>
+
+      <section class="toolbar" aria-label="临床试验搜索">
+        <label class="search-field wide">
+          <span>搜索</span>
+          <input id="search-input" type="search" placeholder="NCT ID、疾病、干预、申办方" autocomplete="off" />
+        </label>
+      </section>
+
+      <div class="result-meta" id="result-meta"></div>
+      <section class="item-list" id="trial-list" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <p>临床试验状态以 ClinicalTrials.gov 原始记录为准。</p>
+    </footer>
+    <script src="../app.js" defer></script>
+  </body>
+</html>
