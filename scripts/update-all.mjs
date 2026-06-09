@@ -72,7 +72,8 @@ async function main() {
         name: "Weekly Brief",
         status: weeklyBriefResult.ok ? "success" : "error",
         count: weeklyBriefResult.count,
-        message: weeklyBriefResult.ok ? "Weekly brief generated from current PubMed JSON." : weeklyBriefResult.error
+        message: weeklyBriefResult.ok ? "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON." : weeklyBriefResult.error,
+        finishedAt: weeklyBriefResult.finishedAt || null
       }
     ],
     pubmed: {
@@ -210,18 +211,23 @@ async function runDerivedInsightsSafely() {
 }
 
 async function runWeeklyBriefSafely() {
+  const startedAt = new Date().toISOString();
   try {
     const brief = await updateWeeklyBrief({ dataDir });
     return {
       ok: true,
-      count: brief.priorityReading.length + brief.chinaHighlights.length + brief.reviewQueue.length,
-      error: null
+      count: brief.counts?.totalBriefItems ?? 0,
+      error: null,
+      startedAt,
+      finishedAt: new Date().toISOString()
     };
   } catch (error) {
     return {
       ok: false,
       count: 0,
-      error: error.message
+      error: error.message,
+      startedAt,
+      finishedAt: new Date().toISOString()
     };
   }
 }

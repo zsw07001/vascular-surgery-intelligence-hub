@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T11:26:52.294Z",
+  "lastUpdated": "2026-06-09T11:39:34.546Z",
   "mode": "pubmed",
   "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
@@ -8,8 +8,8 @@
       "status": "success",
       "count": 200,
       "message": "Fetched 200 articles from PubMed.",
-      "startedAt": "2026-06-09T11:26:30.195Z",
-      "finishedAt": "2026-06-09T11:26:34.666Z"
+      "startedAt": "2026-06-09T11:39:12.919Z",
+      "finishedAt": "2026-06-09T11:39:18.240Z"
     },
     {
       "name": "ClinicalTrials.gov",
@@ -34,8 +34,9 @@
     {
       "name": "Weekly Brief",
       "status": "success",
-      "count": 15,
-      "message": "Weekly brief generated from current PubMed JSON."
+      "count": 35,
+      "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
+      "finishedAt": "2026-06-09T11:39:34.546Z"
     }
   ],
   "pubmed": {

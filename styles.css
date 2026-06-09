@@ -619,6 +619,29 @@ h3 {
   font-size: 22px;
 }
 
+.brief-overview {
+  display: grid;
+  gap: 6px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.brief-overview strong {
+  font-size: 18px;
+}
+
+.brief-overview p,
+.brief-overview span {
+  margin: 0;
+  color: var(--muted);
+}
+
+.brief-overview span {
+  font-size: 13px;
+}
+
 .brief-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
@@ -631,6 +654,49 @@ h3 {
 
 .section-heading.tight {
   margin-bottom: 12px;
+}
+
+.brief-item-list,
+.brief-source-list {
+  display: grid;
+  gap: 0;
+}
+
+.brief-item,
+.brief-source-list > div {
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+
+.brief-item:first-child,
+.brief-source-list > div:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.brief-item h4 {
+  margin: 8px 0 6px;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.brief-reason {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.brief-source-list strong,
+.brief-source-list span,
+.empty-inline strong,
+.empty-inline span {
+  display: block;
+}
+
+.brief-source-list span {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .topic-trends {
@@ -664,6 +730,11 @@ h3 {
 .empty-inline {
   color: var(--muted);
   font-size: 14px;
+}
+
+.empty-inline strong {
+  margin-bottom: 4px;
+  color: var(--ink);
 }
 
 .status-summary {

@@ -379,25 +379,27 @@ function renderArticleCard(article, options = {}) {
 
 function renderWeeklyBrief(container, brief, options = {}) {
   if (!container) return;
-  if (!brief || !Array.isArray(brief.priorityReading)) {
-    renderEmpty(container, "暂无每周精选", "运行 npm run update 后会基于 PubMed 数据生成周报。");
+  if (!brief || typeof brief !== "object" || !Array.isArray(brief.priorityReading)) {
+    renderEmpty(container, "暂无每周精选", "运行 npm run update 后会基于 PubMed 和 ClinicalTrials.gov 数据生成周报。");
     return;
   }
 
   const priority = brief.priorityReading || [];
   const china = brief.chinaHighlights || [];
-  const review = brief.reviewQueue || [];
+  const trials = brief.trialHighlights || brief.clinicalTrials || [];
+  const review = brief.manualReview || brief.reviewQueue || [];
   const trends = brief.topicTrends || [];
   const counts = brief.counts || {};
 
-  if (!priority.length && !china.length && !review.length && !trends.length) {
-    renderEmpty(container, "暂无每周精选", "当前没有可用于生成周报的 PubMed 数据。");
+  if (!priority.length && !china.length && !trials.length && !review.length && !trends.length) {
+    renderEmpty(container, "暂无每周精选", "当前没有可用于生成周报的文献、临床试验或复核提醒。");
     return;
   }
 
   const maxTrend = Math.max(...trends.map((item) => item.count), 1);
   const compact = options.compact;
-  const priorityLimit = compact ? 3 : 6;
+  const priorityLimit = compact ? 3 : 10;
+  const trialLimit = compact ? 2 : 10;
 
   container.innerHTML = `
     <div class="brief-summary">
@@ -406,34 +408,37 @@ function renderWeeklyBrief(container, brief, options = {}) {
         <strong>${escapeHtml(formatBriefPeriod(brief.period))}</strong>
       </div>
       <div>
-        <span>PubMed 文献</span>
-        <strong>${escapeHtml(String(counts.latestResearch ?? 0))}</strong>
+        <span>重点文献</span>
+        <strong>${escapeHtml(String(priority.length))}</strong>
       </div>
       <div>
-        <span>重点研究</span>
-        <strong>${escapeHtml(String(counts.highImpact ?? 0))}</strong>
+        <span>临床试验</span>
+        <strong>${escapeHtml(String(trials.length))}</strong>
       </div>
       <div>
-        <span>中国研究</span>
-        <strong>${escapeHtml(String(counts.chinaResearch ?? 0))}</strong>
+        <span>简报条目</span>
+        <strong>${escapeHtml(String(counts.totalBriefItems ?? priority.length + china.length + trials.length + review.length))}</strong>
       </div>
     </div>
+    <article class="brief-overview">
+      <strong>本周重点速览</strong>
+      <p>${escapeHtml(brief.overviewZh || "规则生成的血管外科情报简报。")}</p>
+      <span>数据更新时间：${escapeHtml(formatDateTime(brief.dataUpdatedAt || brief.generatedAt))}</span>
+    </article>
     <div class="brief-grid">
       <section class="brief-card">
         <div class="section-heading tight">
-          <p class="eyebrow">Priority Reading</p>
-          <h3>优先阅读</h3>
+          <p class="eyebrow">Priority Research</p>
+          <h3>重点文献</h3>
         </div>
-        <div class="item-list compact-list">
-          ${priority.slice(0, priorityLimit).map((article) => renderArticleCard(article, { compact: true })).join("")}
-        </div>
+        ${renderBriefSection(priority.slice(0, priorityLimit), "暂无重点文献", "当前没有符合优先级规则的 PubMed 文献。")}
       </section>
       <section class="brief-card">
         <div class="section-heading tight">
-          <p class="eyebrow">Topic Trends</p>
-          <h3>主题趋势</h3>
+          <p class="eyebrow">Trial Watch</p>
+          <h3>临床试验</h3>
         </div>
-        ${renderTopicTrends(trends, maxTrend)}
+        ${renderBriefSection(trials.slice(0, trialLimit), "暂无重点临床试验", "当前没有可进入周报的招募中或进行中试验。")}
       </section>
       ${
         compact
@@ -444,21 +449,80 @@ function renderWeeklyBrief(container, brief, options = {}) {
                 <p class="eyebrow">China Watch</p>
                 <h3>中国研究</h3>
               </div>
-              <div class="item-list compact-list">
-                ${china.map((article) => renderArticleCard(article, { compact: true })).join("")}
-              </div>
+              ${renderBriefSection(china, "暂无中国研究", "当前没有符合优先级规则的中国机构研究。")}
             </section>
             <section class="brief-card">
               <div class="section-heading tight">
                 <p class="eyebrow">Manual Review</p>
-                <h3>待复核队列</h3>
+                <h3>待人工复核</h3>
               </div>
-              <div class="item-list compact-list">
-                ${review.map((article) => renderArticleCard(article, { compact: true })).join("")}
+              ${renderBriefSection(review, "暂无待复核提醒", "当前没有指南、器械、安全性或热点复核提醒。")}
+            </section>
+            <section class="brief-card">
+              <div class="section-heading tight">
+                <p class="eyebrow">Topic Trends</p>
+                <h3>主题趋势</h3>
               </div>
+              ${renderTopicTrends(trends, maxTrend)}
+            </section>
+            <section class="brief-card">
+              <div class="section-heading tight">
+                <p class="eyebrow">Source Status</p>
+                <h3>数据源更新时间</h3>
+              </div>
+              ${renderBriefSourceUpdates(brief.sourceUpdates || [])}
             </section>
           `
       }
+    </div>
+  `;
+}
+
+function renderBriefSection(items, emptyTitle, emptyText) {
+  if (!items.length) {
+    return `<div class="empty-inline"><strong>${escapeHtml(emptyTitle)}</strong><span>${escapeHtml(emptyText)}</span></div>`;
+  }
+
+  return `<div class="brief-item-list">${items.map(renderBriefItem).join("")}</div>`;
+}
+
+function renderBriefItem(item) {
+  const url = item.url || item.pubmedUrl || (item.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${item.pmid}/` : "");
+  const tags = item.topicTags || [];
+  const date = item.date || item.publicationDate || item.lastUpdatePostDate || "";
+
+  return `
+    <article class="brief-item">
+      <div class="card-topline">
+        <span>${escapeHtml(item.source || item.journal || "Source pending")}</span>
+        <span>${escapeHtml(formatDate(date))}</span>
+      </div>
+      <h4>${url ? `<a href="${escapeAttribute(url)}" target="_blank" rel="noopener">${escapeHtml(item.title || "Untitled item")}</a>` : escapeHtml(item.title || "Untitled item")}</h4>
+      <p class="brief-reason">${escapeHtml(item.reason || item.summaryZh || "入选理由待补充。")}</p>
+      <div class="tag-row">
+        ${tags.slice(0, 6).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
+      </div>
+    </article>
+  `;
+}
+
+function renderBriefSourceUpdates(sources) {
+  if (!sources.length) {
+    return `<div class="empty-inline"><strong>暂无数据源状态</strong><span>运行更新脚本后会显示来源更新时间。</span></div>`;
+  }
+
+  return `
+    <div class="brief-source-list">
+      ${sources
+        .map(
+          (source) => `
+            <div>
+              <strong>${escapeHtml(source.name || "Unknown source")}</strong>
+              <span>${escapeHtml(source.status || "unknown")} · ${escapeHtml(String(source.count ?? 0))} · ${escapeHtml(formatDateTime(source.updatedAt))}</span>
+            </div>
+          `
+        )
+        .join("")}
     </div>
   `;
 }
@@ -568,6 +632,7 @@ function renderStatus(container, status) {
               <strong>${escapeHtml(source.name || "Unknown source")}</strong>
               <span class="${statusClass(source.status)}">${escapeHtml(source.status || "unknown")}</span>
               <p>抓取数量：${escapeHtml(String(source.count ?? 0))}</p>
+              <p>更新时间：${escapeHtml(formatDateTime(source.finishedAt || source.dataTimestamp || status.lastUpdated))}</p>
               <p>${escapeHtml(source.message || "无错误信息")}</p>
             </article>
           `
@@ -672,11 +737,12 @@ function countActiveTrials(trials) {
 
 function countWeeklyBriefItems(brief) {
   if (!brief || typeof brief !== "object") return 0;
+  if (typeof brief.counts?.totalBriefItems === "number") return brief.counts.totalBriefItems;
   return (
     (brief.priorityReading || []).length +
     (brief.chinaHighlights || []).length +
-    (brief.reviewQueue || []).length +
-    (brief.topicTrends || []).length
+    (brief.trialHighlights || brief.clinicalTrials || []).length +
+    (brief.manualReview || brief.reviewQueue || []).length
   );
 }
 
