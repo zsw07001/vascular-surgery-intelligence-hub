@@ -5,6 +5,8 @@ export const pubmedConfig = {
   maxRecords: 200,
   requestDelayMs: 400,
   requestTimeoutMs: 30000,
+  requestRetryCount: 3,
+  requestRetryBaseDelayMs: 1000,
   dateType: "mdat",
   defaultTool: "vascular-surgery-intelligence-hub",
   emailEnvVar: "NCBI_EMAIL",

@@ -144,7 +144,7 @@ async function fetchPubMedXml(ids, runtime) {
 }
 
 async function fetchJson(url) {
-  const response = await fetchWithTimeout(url);
+  const response = await fetchWithRetry(url);
   if (!response.ok) {
     throw new Error(`PubMed request failed: ${response.status} ${response.statusText}`);
   }
@@ -152,11 +152,37 @@ async function fetchJson(url) {
 }
 
 async function fetchText(url) {
-  const response = await fetchWithTimeout(url);
+  const response = await fetchWithRetry(url);
   if (!response.ok) {
     throw new Error(`PubMed request failed: ${response.status} ${response.statusText}`);
   }
   return response.text();
+}
+
+async function fetchWithRetry(url) {
+  const maxAttempts = Math.max(1, (pubmedConfig.requestRetryCount || 0) + 1);
+  let lastError = null;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      const response = await fetchWithTimeout(url);
+      if (!shouldRetryResponse(response) || attempt === maxAttempts) {
+        return response;
+      }
+
+      lastError = new Error(`PubMed request failed: ${response.status} ${response.statusText}`);
+      await waitBeforeRetry(attempt, maxAttempts, lastError.message);
+    } catch (error) {
+      lastError = error;
+      if (!shouldRetryError(error) || attempt === maxAttempts) {
+        throw error;
+      }
+
+      await waitBeforeRetry(attempt, maxAttempts, error.message);
+    }
+  }
+
+  throw lastError || new Error("PubMed request failed after retries.");
 }
 
 async function fetchWithTimeout(url) {
@@ -173,6 +199,34 @@ async function fetchWithTimeout(url) {
   } finally {
     clearTimeout(timeout);
   }
+}
+
+function shouldRetryResponse(response) {
+  return response.status === 429 || response.status >= 500;
+}
+
+function shouldRetryError(error) {
+  const message = String(error?.message || "").toLowerCase();
+  return (
+    error?.name === "AbortError" ||
+    message.includes("timed out") ||
+    message.includes("fetch failed") ||
+    message.includes("socket") ||
+    message.includes("econnreset") ||
+    message.includes("etimedout")
+  );
+}
+
+async function waitBeforeRetry(attempt, maxAttempts, reason) {
+  const delay = retryDelayMs(attempt);
+  console.warn(`PubMed request retry ${attempt}/${maxAttempts - 1} after ${delay} ms: ${reason}`);
+  await sleep(delay);
+}
+
+function retryDelayMs(attempt) {
+  const baseDelay = pubmedConfig.requestRetryBaseDelayMs || 1000;
+  const jitter = Math.floor(Math.random() * 250);
+  return baseDelay * 2 ** (attempt - 1) + jitter;
 }
 
 function parsePubMedXml(xml) {

@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-06-09T21:59:01.526Z",
-  "mode": "pubmed-error",
-  "note": "PubMed 未成功更新，已保留现有文献数据；ClinicalTrials.gov 会继续尝试使用 API v2 更新。",
+  "lastUpdated": "2026-06-10T15:19:30.087Z",
+  "mode": "pubmed",
+  "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
     {
       "name": "PubMed ESearch/EFetch",
-      "status": "error",
+      "status": "success",
       "count": 200,
-      "message": "PubMed request failed: 500 Internal Server Error",
-      "startedAt": null,
-      "finishedAt": null
+      "message": "Fetched 200 articles from PubMed.",
+      "startedAt": "2026-06-10T15:19:15.758Z",
+      "finishedAt": "2026-06-10T15:19:19.778Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 746,
-      "message": "Fetched 746 active/recruiting trials from ClinicalTrials.gov API v2.",
+      "count": 750,
+      "message": "Fetched 750 active/recruiting trials from ClinicalTrials.gov API v2.",
       "apiVersion": "2.0.5",
-      "dataTimestamp": "2026-06-09T09:00:05"
+      "dataTimestamp": "2026-06-10T09:00:06"
     },
     {
       "name": "Guidelines and device regulatory",
       "status": "success",
-      "count": 55,
+      "count": 59,
       "message": "Generated from current PubMed JSON."
     },
     {
@@ -36,7 +36,7 @@
       "status": "success",
       "count": 35,
       "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
-      "finishedAt": "2026-06-09T21:59:01.526Z"
+      "finishedAt": "2026-06-10T15:19:30.087Z"
     }
   ],
   "pubmed": {
@@ -47,23 +47,20 @@
     "counts": {
       "total": 200,
       "high": 77,
-      "medium": 81,
-      "low": 27,
-      "review": 15,
-      "china": 37,
-      "highImpact": 89
+      "medium": 79,
+      "low": 32,
+      "review": 12,
+      "china": 32,
+      "highImpact": 90
     },
-    "highImpactCount": 89,
-    "chinaResearchCount": 37
+    "highImpactCount": 90,
+    "chinaResearchCount": 32
   },
-  "errors": [
-    "PubMed request failed: 500 Internal Server Error"
-  ],
+  "errors": [],
   "manualReview": [
-    "PubMed 未成功更新：请检查 .env 中 NCBI_EMAIL 是否已填写，或稍后重试 NCBI E-utilities。",
-    "有 15 篇文献被标记为 review，建议人工确认是否纳入。",
-    "有 27 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
-    "有 37 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
+    "有 12 篇文献被标记为 review，建议人工确认是否纳入。",
+    "有 32 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
+    "有 32 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
   ],
   "configPreview": {
     "pubmedQuery": "(\"vascular surgery\"[Title/Abstract]\nOR \"Vascular Surgical Procedures\"[MeSH Terms]\nOR \"peripheral arterial disease\"[Title/Abstract]\nOR \"peripheral artery disease\"[Title/Abstract]\nOR \"critical limb ischemia\"[Title/Abstract]\nOR \"chronic limb-threatening ischemia\"[Title/Abstract]\nOR \"CLTI\"[Title/Abstract]\nOR \"abdominal aortic aneurysm\"[Title/Abstract]\nOR \"AAA\"[Title/Abstract]\nOR \"EVAR\"[Title/Abstract]\nOR \"TEVAR\"[Title/Abstract]\nOR \"aortic aneurysm\"[Title/Abstract]\nOR \"aortic dissection\"[Title/Abstract]\nOR \"carotid stenosis\"[Title/Abstract]\nOR \"carotid endarterectomy\"[Title/Abstract]\nOR \"carotid artery stenting\"[Title/Abstract]\nOR \"deep vein thrombosis\"[Title/Abstract]\nOR \"venous thromboembolism\"[Title/Abstract]\nOR \"varicose veins\"[Title/Abstract]\nOR \"hemodialysis access\"[Title/Abstract]\nOR \"arteriovenous fistula\"[Title/Abstract]\nOR \"endovascular\"[Title/Abstract])\nNOT (\"coronary\"[Title/Abstract]\nOR \"intracranial\"[Title/Abstract]\nOR \"cerebral aneurysm\"[Title/Abstract]\nOR \"animal model\"[Title/Abstract]\nOR \"mouse\"[Title/Abstract]\nOR \"mice\"[Title/Abstract]\nOR \"rat\"[Title/Abstract])",
