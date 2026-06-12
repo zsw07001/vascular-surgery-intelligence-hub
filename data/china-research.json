@@ -235,6 +235,8 @@
       "Journal Article"
     ],
     "topicTags": [
+      "Aortic Disease",
+      "Imaging / Diagnosis",
       "China Research"
     ],
     "studyTypeTags": [],
@@ -245,7 +247,7 @@
       "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -340,6 +342,55 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42140397",
+    "title": "Matrix metalloproteinase-14 promotes LRP6 shedding in vascular smooth muscle cells and its expression is elevated in the tibial arteries from peripheral artery disease.",
+    "abstract": "Vascular smooth muscle cells (VSMCs) dedifferentiation is a key driver of peripheral artery disease (PAD), a common complication of atherosclerosis. Although matrix metallopeptidase 14 (MMP14) has been implicated in promoting VSMC dedifferentiation, the underlying mechanisms remain incompletely defined. Here, we demonstrate that MMP14 expression is markedly increased in PAD plaques, accompanied by elevated platelet-derived growth factor receptor-&#x3b2; (PDGFR&#x3b2;) and reduced low-density lipoprotein receptor-related protein 6 (LRP6) levels, predominantly within VSMCs, compared with plaque-free arterial segments. Mechanistically, MMP14 selectively promoted LRP6 shedding without affecting LRP5 in VSMCs. Genetic or pharmacological inhibition of MMP14 increased LRP6 abundance, reduced PDGFR&#x3b2; and SP1 expression, attenuated ERK phosphorylation, and suppressed VSMC proliferation and migration. In contrast, MMP14 overexpression produced opposite effects. Collectively, these findings indicate that MMP14 enhances VSMC proliferation and migration through modulation of the LRP6-PDGFR&#x3b2; signaling axis.",
+    "englishSummary": "Vascular smooth muscle cells (VSMCs) dedifferentiation is a key driver of peripheral artery disease (PAD), a common complication of atherosclerosis. Although matrix metallopeptidase 14 (MMP14) has been implicated in promoting VSMC dedifferentiation, the underlying mechanisms remain incompletely defined. Here, we demonstrate that MMP14 expression is markedly increased in PAD plaques, accompanied by elevated platelet-derived growth factor receptor-&#x3b2; (PDGFR&#x3b2;) and reduced low-density lipoprotein receptor-related protein 6 (LRP6) levels, predominantly within VSMCs, compared with plaque-free arterial segments.",
+    "journal": "Biochimica et biophysica acta. General subjects",
+    "publicationDate": "2026-05-14",
+    "authors": [
+      "Chen HG",
+      "Gao D",
+      "Zeng GF",
+      "Zhang GP",
+      "Yuan ZY",
+      "Pan DH",
+      "Qin YK",
+      "Lv ZY",
+      "Tan XB",
+      "Chen GT",
+      "Wang GQ",
+      "Zhang DW",
+      "Xia XD"
+    ],
+    "affiliations": [
+      "Department of Orthopedics, Affiliated Qingyuan Hospital (Qingyuan People's Hospital), Guangzhou Medical University, Qingyuan, Guangdong 511518, China.",
+      "Department of Orthopedics, Affiliated Qingyuan Hospital (Qingyuan People's Hospital), Guangzhou Medical University, Qingyuan, Guangdong 511518, China. Electronic address: wangguiqing@gzhmu.edu.cn.",
+      "Department of Pediatrics and Group on the Molecular and Cell Biology of Lipids, University of Alberta, Alberta, Canada. Electronic address: dzhang@ualberta.ca.",
+      "Department of Orthopedics, Affiliated Qingyuan Hospital (Qingyuan People's Hospital), Guangzhou Medical University, Qingyuan, Guangdong 511518, China. Electronic address: xiaxiaodan1979@gzhmu.edu.cn."
+    ],
+    "doi": "10.1016/j.bbagen.2026.130964",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42140397/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "PAD / CLTI",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "low",
+    "score": 2,
+    "scoreReasons": [
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -453,12 +504,13 @@
     "studyTypeTags": [
       "Basic Research"
     ],
-    "relevance": "medium",
-    "score": 4,
+    "relevance": "review",
+    "score": -1,
     "scoreReasons": [
       "+2 human study: clinical",
       "+2 treatment or prognosis relevance: treatment",
       "+2 China affiliation: China",
+      "-5 animal-only signal: mice",
       "-2 basic mechanism without clinical relevance: mechanism"
     ],
     "isChinaResearch": true,
@@ -870,7 +922,9 @@
     "doi": "10.1016/j.avsg.2026.02.054",
     "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41796659/",
     "publicationTypes": [
-      "Journal Article"
+      "Journal Article",
+      "Multicenter Study",
+      "Comparative Study"
     ],
     "topicTags": [
       "Endovascular",
@@ -1203,7 +1257,9 @@
     "doi": "10.1016/j.avsg.2026.01.041",
     "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41692163/",
     "publicationTypes": [
-      "Journal Article"
+      "Journal Article",
+      "Multicenter Study",
+      "Comparative Study"
     ],
     "topicTags": [
       "Aortic Disease",
