@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-06-12T22:01:01.230Z",
+  "generatedAt": "2026-06-13T21:37:59.575Z",
   "period": {
-    "start": "2026-06-06",
-    "end": "2026-06-12"
+    "start": "2026-06-07",
+    "end": "2026-06-13"
   },
-  "dataUpdatedAt": "2026-06-12T22:01:01.230Z",
+  "dataUpdatedAt": "2026-06-13T21:37:59.575Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-06-12T22:01:01.230Z"
+      "updatedAt": "2026-06-13T21:37:59.575Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 743,
-      "updatedAt": "2026-06-12T22:01:01.230Z"
+      "updatedAt": "2026-06-13T21:37:59.575Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 10,
-      "updatedAt": "2026-06-12T22:01:01.230Z"
+      "count": 11,
+      "updatedAt": "2026-06-13T21:37:59.575Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-06-12T22:01:01.230Z"
+      "updatedAt": "2026-06-13T21:37:59.575Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-06-12T22:01:01.230Z"
+      "updatedAt": "2026-06-13T21:37:59.575Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-06-12T22:01:01.230Z"
+      "updatedAt": "2026-06-13T21:37:59.575Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 91,
-    "chinaResearch": 33,
+    "highImpact": 95,
+    "chinaResearch": 31,
     "clinicalTrials": 743,
-    "guidelines": 10,
+    "guidelines": 11,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,7 +58,7 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 94
+      "count": 91
     },
     {
       "tag": "Imaging / Diagnosis",
@@ -66,27 +66,27 @@
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 58
+      "count": 62
     },
     {
       "tag": "Aortic Disease",
-      "count": 48
+      "count": 41
     },
     {
       "tag": "Venous Disease",
       "count": 37
     },
     {
-      "tag": "China Research",
-      "count": 33
+      "tag": "PAD / CLTI",
+      "count": 36
     },
     {
       "tag": "Open Surgery",
-      "count": 33
+      "count": 34
     },
     {
-      "tag": "PAD / CLTI",
-      "count": 33
+      "tag": "China Research",
+      "count": 31
     }
   ],
   "priorityReading": [
@@ -165,6 +165,28 @@
       "doi": "10.1016/j.avsg.2026.03.043"
     },
     {
+      "pmid": "41796665",
+      "title": "Endovascular Treatment for Symptomatic Hypogastric Artery Stenosis or Occlusion: A Systematic Review and Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2026-03-06",
+      "journal": "Annals of vascular surgery",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 12,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 12",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41796665/",
+      "doi": "10.1016/j.avsg.2026.02.048"
+    },
+    {
       "pmid": "41903844",
       "title": "Do Arterial Allografts Outperform Venous in Cryopreserved Bypass for Limb Salvage? A Systematic Review and Meta-Analysis of Infrainguinal Revascularization Outcomes.",
       "source": "PubMed",
@@ -187,28 +209,6 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41903844/",
       "doi": "10.1016/j.avsg.2026.03.030"
-    },
-    {
-      "pmid": "41796665",
-      "title": "Endovascular Treatment for Symptomatic Hypogastric Artery Stenosis or Occlusion: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-03-06",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41796665/",
-      "doi": "10.1016/j.avsg.2026.02.048"
     },
     {
       "pmid": "41786009",
@@ -282,37 +282,38 @@
       "doi": "10.1016/j.lungcan.2026.109413"
     },
     {
-      "pmid": "42190493",
-      "title": "Uninterrupted oral anticoagulation plus short-term single antiplatelet therapy in anticoagulated patients undergoing carotid artery stenting.",
+      "pmid": "41757778",
+      "title": "Treatment Strategies for Management of True Hepatic Artery Aneurysms: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
-      "date": "2026-05-25",
-      "journal": "Clinical neurology and neurosurgery",
+      "date": "2026-02-27",
+      "journal": "The American surgeon",
       "topicTags": [
-        "Carotid Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy"
+        "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
-        "Real-world Evidence",
+        "Cohort",
+        "Systematic Review",
+        "Meta-analysis",
+        "Case Report",
         "Review"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Real-world Evidence；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42190493/",
-      "doi": "10.1016/j.clineuro.2026.109513"
+      "score": 8,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757778/",
+      "doi": "10.1177/00031348261425178"
     },
     {
-      "pmid": "42269071",
-      "title": "Efficacy and safety of low-dose versus standard-dose direct oral anticoagulants for secondary prevention of cancer-associated thrombosis: a systematic review and meta-analysis.",
+      "pmid": "42035721",
+      "title": "Intraosseous vancomycin results in lower superficial and deep infection rate compared with alternative intravenous methods in total knee arthroplasty: a time-stratified meta-analysis.",
       "source": "PubMed",
-      "date": "2026-05-04",
-      "journal": "Proceedings (Baylor University. Medical Center)",
+      "date": "2026-04-25",
+      "journal": "The Knee",
       "topicTags": [
         "Venous Disease",
-        "Antithrombotic Therapy"
+        "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
         "Systematic Review",
@@ -320,11 +321,11 @@
         "Review"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 6",
+      "score": 7,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Vascular Graft / Stent / Device；score 7",
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42269071/",
-      "doi": "10.1080/08998280.2026.2662102"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42035721/",
+      "doi": "10.1016/j.knee.2026.104443"
     }
   ],
   "priorityArticles": [
@@ -403,6 +404,28 @@
       "doi": "10.1016/j.avsg.2026.03.043"
     },
     {
+      "pmid": "41796665",
+      "title": "Endovascular Treatment for Symptomatic Hypogastric Artery Stenosis or Occlusion: A Systematic Review and Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2026-03-06",
+      "journal": "Annals of vascular surgery",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 12,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 12",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41796665/",
+      "doi": "10.1016/j.avsg.2026.02.048"
+    },
+    {
       "pmid": "41903844",
       "title": "Do Arterial Allografts Outperform Venous in Cryopreserved Bypass for Limb Salvage? A Systematic Review and Meta-Analysis of Infrainguinal Revascularization Outcomes.",
       "source": "PubMed",
@@ -425,28 +448,6 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41903844/",
       "doi": "10.1016/j.avsg.2026.03.030"
-    },
-    {
-      "pmid": "41796665",
-      "title": "Endovascular Treatment for Symptomatic Hypogastric Artery Stenosis or Occlusion: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-03-06",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41796665/",
-      "doi": "10.1016/j.avsg.2026.02.048"
     },
     {
       "pmid": "41786009",
@@ -520,37 +521,38 @@
       "doi": "10.1016/j.lungcan.2026.109413"
     },
     {
-      "pmid": "42190493",
-      "title": "Uninterrupted oral anticoagulation plus short-term single antiplatelet therapy in anticoagulated patients undergoing carotid artery stenting.",
+      "pmid": "41757778",
+      "title": "Treatment Strategies for Management of True Hepatic Artery Aneurysms: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
-      "date": "2026-05-25",
-      "journal": "Clinical neurology and neurosurgery",
+      "date": "2026-02-27",
+      "journal": "The American surgeon",
       "topicTags": [
-        "Carotid Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy"
+        "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
-        "Real-world Evidence",
+        "Cohort",
+        "Systematic Review",
+        "Meta-analysis",
+        "Case Report",
         "Review"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Real-world Evidence；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42190493/",
-      "doi": "10.1016/j.clineuro.2026.109513"
+      "score": 8,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41757778/",
+      "doi": "10.1177/00031348261425178"
     },
     {
-      "pmid": "42269071",
-      "title": "Efficacy and safety of low-dose versus standard-dose direct oral anticoagulants for secondary prevention of cancer-associated thrombosis: a systematic review and meta-analysis.",
+      "pmid": "42035721",
+      "title": "Intraosseous vancomycin results in lower superficial and deep infection rate compared with alternative intravenous methods in total knee arthroplasty: a time-stratified meta-analysis.",
       "source": "PubMed",
-      "date": "2026-05-04",
-      "journal": "Proceedings (Baylor University. Medical Center)",
+      "date": "2026-04-25",
+      "journal": "The Knee",
       "topicTags": [
         "Venous Disease",
-        "Antithrombotic Therapy"
+        "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
         "Systematic Review",
@@ -558,11 +560,11 @@
         "Review"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 6",
+      "score": 7,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Vascular Graft / Stent / Device；score 7",
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42269071/",
-      "doi": "10.1080/08998280.2026.2662102"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42035721/",
+      "doi": "10.1016/j.knee.2026.104443"
     }
   ],
   "chinaHighlights": [
@@ -1210,17 +1212,15 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41951205/"
     },
     {
-      "title": "External Validation of the Impact of Bone Mineral Density and the Osteosarcopenia-Aneurysm Score to Predict Long-Term Survival Following Endovascular Repair for Abdominal Aortic Aneurysms.",
+      "title": "Endovascular Treatment for Symptomatic Hypogastric Artery Stenosis or Occlusion: A Systematic Review and Meta-Analysis.",
       "source": "Devices / Regulatory",
-      "date": "2026-03-04",
+      "date": "2026-03-06",
       "topicTags": [
-        "Aortic Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
+        "Vascular Graft / Stent / Device"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41791489/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41796665/"
     },
     {
       "title": "To regress or not to regress? Outcomes of aneurysm sac behavior after endovascular aortic aneurysm repair: A systematic review and meta-analysis.",
@@ -1342,17 +1342,15 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41951205/"
     },
     {
-      "title": "External Validation of the Impact of Bone Mineral Density and the Osteosarcopenia-Aneurysm Score to Predict Long-Term Survival Following Endovascular Repair for Abdominal Aortic Aneurysms.",
+      "title": "Endovascular Treatment for Symptomatic Hypogastric Artery Stenosis or Occlusion: A Systematic Review and Meta-Analysis.",
       "source": "Devices / Regulatory",
-      "date": "2026-03-04",
+      "date": "2026-03-06",
       "topicTags": [
-        "Aortic Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
+        "Vascular Graft / Stent / Device"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41791489/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41796665/"
     },
     {
       "title": "To regress or not to regress? Outcomes of aneurysm sac behavior after endovascular aortic aneurysm repair: A systematic review and meta-analysis.",
