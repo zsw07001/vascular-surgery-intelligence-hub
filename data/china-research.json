@@ -49,52 +49,6 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42246156",
-    "title": "Molecular mechanisms of iron metabolism and ferroptosis in cardiovascular diseases and intervention strategies targeting natural products (Review).",
-    "abstract": "Obesity, hypertension and high cholesterol diets are factors that contribute to the development of cardiovascular diseases (CVDs), posing risks to both physical and mental health. The occurrence and progression of CVDs are associated with multiple cell death pathways, such as ferroptosis and autophagy. Ferroptosis, a relatively recently identified form of regulated cell death, is an iron&#x2011;dependent process of lipid peroxidation that can accumulate to lethal levels, resulting in oxidative damage to cell membranes. The mechanism of ferroptosis involves glutathione (GSH) depletion, iron overload and excessive production of reactive oxygen species (ROS). Iron homeostasis plays a crucial role in maintaining cardiac function and is closely related to the occurrence and progression of CVDs. Studies of various CVD models have found that the major metabolic pathways regulating ferroptosis include iron metabolism, GSH metabolism and lipid metabolism. Modulating these metabolic pathways can regulate the occurrence and execution of ferroptosis in cardiac myocytes, potentially improving CVDs. Targeting the metabolic pathways of ferroptosis may become a new therapeutic direction for CVDs. Therefore, the present review summarized the relationship between ferroptosis and various CVDs, including myocardial diseases, heart failure, atherosclerosis, myocardial ischemia, reperfusion injury, hypertension and aortic dissection, to offer new insights into CVD treatment. In addition, it summarized the inhibitors targeting ferroptosis in CVDs, such as iron chelators (deferoxamine and deferiprone), ROS inhibitors, lipid peroxidation inhibitors and antioxidants (such as alpha&#x2011;lipoic acid, selenium), which have been proven to be effective in basic experiments and clinical trials and can exert cardiovascular protection.",
-    "englishSummary": "Obesity, hypertension and high cholesterol diets are factors that contribute to the development of cardiovascular diseases (CVDs), posing risks to both physical and mental health. The occurrence and progression of CVDs are associated with multiple cell death pathways, such as ferroptosis and autophagy. Ferroptosis, a relatively recently identified form of regulated cell death, is an iron&#x2011;dependent process of lipid peroxidation that can accumulate to lethal levels, resulting in oxidative damage to cell membranes.",
-    "journal": "Molecular medicine reports",
-    "publicationDate": "2026-06-05",
-    "authors": [
-      "Ge L",
-      "Zhang T",
-      "Yu J",
-      "Xiao S",
-      "Zhou Y",
-      "Luo L"
-    ],
-    "affiliations": [
-      "Department of Cardiology, Changde Hospital, Xiangya School of Medicine, Central South University (The First People's Hospital of Changde City), Changde, Hunan 415003, P.R. China.",
-      "Department of Ultrasound, Changde Hospital, Xiangya School of Medicine, Central South University (The First People's Hospital of Changde City), Changde, Hunan 415003, P.R. China."
-    ],
-    "doi": "10.3892/mmr.2026.13931",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42246156/",
-    "publicationTypes": [
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Basic Research",
-      "Review"
-    ],
-    "relevance": "medium",
-    "score": 4,
-    "scoreReasons": [
-      "+2 human study: clinical",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China",
-      "-2 basic mechanism without clinical relevance: mechanism"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
     "pmid": "42190443",
     "title": "Noise-Pressure Constrained Liutex method for robust vortex identification in 4D Flow MRI of abdominal aortic aneurysms.",
     "abstract": "INTRODUCTION: Accurate identification of vortices is critical for predicting the rupture risk of abdominal aortic aneurysms (AAA). However, existing vortex identification methods perform poorly in noisy 4D Flow MRI data. This study aims to develop a robust vortex identification framework to address these limitations. METHODS: &#x3b2; A new vortex identification method based on Liutex method is proposed that integrates relative pressure information and divergence-based noise estimation to enhance the accuracy and robustness of vortex identification in noisy environments. The performance of the proposed method was validated against conventional techniques (vorticity, Q-criterion, &#x394;-criterion) and original Liutex using 4D Flow MRI data from 10 AAA patients, with the Fscore as the evaluation metric. RESULTS: &#x3b2; Qualitative visualization and quantitative analysis demonstrated the superior performance of the Noise-Pressure Constrained Liutex (NPC-Liutex) method. It achieved clearer delineation of vortical structures across diverse hemodynamic patterns, with significantly higher Fscores (average improvement: 0.058), lower spatial entropy (average improvement: 65.8%) and lower false identification rates (average reduced false identification: 78.6%) compared to existing methods. CONCLUSION: The NPC-Liutex method enables reliable extraction of vortical structures, accurate quantification of vortex intensity, and robust tracking of their dynamic evolution in AAA. By addressing noise sensitivity and shear contamination, this approach offers a clinically viable tool for enhancing hemodynamic risk assessment in AAA using 4D Flow MRI.",
@@ -141,54 +95,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42160845",
-    "title": "A multimodal prognostic model for post-thrombectomy outcomes: Integrating vascular ultrasound parameters and clinical risk factors.",
-    "abstract": "BACKGROUND: Mechanical thrombectomy (MT) has advanced the therapeutic approach for acute ischemic stroke-induced large vessel occlusion (AIS-LVO). However, many patients show unfavorable neurological effects despite successful reperfusion. Thus, identifying prognostic determinants associated with adverse effects after MT is crucial for the early detection of high-risk individuals. METHODS: This retrospective cohort study included 176 AIS&#x2011;LVO patients who achieved successful recanalization (mTICI &#x2265;2b) and underwent TCD monitoring within 72&#x202f;h after MT. Patients were randomly divided into training and validation sets (7:3). Clinical variables and TCD parameters were collected, and least absolute shrinkage and selection operator (LASSO) regression was used for feature selection. The data were used to develop a prognostic prediction model, which was evaluated using receiver operating characteristic (ROC) curve analysis, calibration curve and decision curve analysis(DCA). RESULTS: Three predictors were selected: peak systolic velocity ratio (PSV_ratio), smoke, and mean flow velocity of the affected middle cerebral artery (MFV_aMCA). The predictive model based on the aforementioned parameters demonstrated good performance in the ROC analysis, calibration curve and DCA. CONCLUSION: In conclusion, PSV_ratio, smoke, and MFV_aMCA are independently predict 90-day outcomes in anterior circulation AIS-LVO patients treated with MT. The predictive model incorporating these factors provides a valuable tool for risk stratification.",
-    "englishSummary": "BACKGROUND: Mechanical thrombectomy (MT) has advanced the therapeutic approach for acute ischemic stroke-induced large vessel occlusion (AIS-LVO). However, many patients show unfavorable neurological effects despite successful reperfusion. Thus, identifying prognostic determinants associated with adverse effects after MT is crucial for the early detection of high-risk individuals.",
-    "journal": "Clinical neurology and neurosurgery",
-    "publicationDate": "2026-05-17",
-    "authors": [
-      "Chen X",
-      "Huang Q",
-      "Li L",
-      "Lin Y",
-      "Wang Y",
-      "Chen Q",
-      "Lin L"
-    ],
-    "affiliations": [
-      "Department of Ultrasound, Zhangzhou Municipal Hospital of Fujian Province and Zhangzhou Affiliated Hospital of Fujian Medical University, Zhangzhou, Fujian, China. Electronic address: cxqio2025@163.com.",
-      "Department of Ultrasound, Zhangzhou Municipal Hospital of Fujian Province and Zhangzhou Affiliated Hospital of Fujian Medical University, Zhangzhou, Fujian, China. Electronic address: 2420543813@qq.com.",
-      "Department of Ultrasound, Zhangzhou Municipal Hospital of Fujian Province and Zhangzhou Affiliated Hospital of Fujian Medical University, Zhangzhou, Fujian, China. Electronic address: 285176954@qq.com.",
-      "Department of Ultrasound, Zhangzhou Municipal Hospital of Fujian Province and Zhangzhou Affiliated Hospital of Fujian Medical University, Zhangzhou, Fujian, China; School of Clinical Medicine, Fujian Medical University, Fuzhou, Fujian, China. Electronic address: 910972149@qq.com.",
-      "Department of Ultrasound, Zhangzhou Municipal Hospital of Fujian Province and Zhangzhou Affiliated Hospital of Fujian Medical University, Zhangzhou, Fujian, China; School of Clinical Medicine, Fujian Medical University, Fuzhou, Fujian, China. Electronic address: 549698321@qq.com.",
-      "Department of Ultrasound, Zhangzhou Municipal Hospital of Fujian Province and Zhangzhou Affiliated Hospital of Fujian Medical University, Zhangzhou, Fujian, China. Electronic address: 694520670@qq.com.",
-      "Department of Ultrasound, Zhangzhou Municipal Hospital of Fujian Province and Zhangzhou Affiliated Hospital of Fujian Medical University, Zhangzhou, Fujian, China. Electronic address: ccs2025@163.com."
-    ],
-    "doi": "10.1016/j.clineuro.2026.109490",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42160845/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -697,7 +603,8 @@
     "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42031653/",
     "publicationTypes": [
       "Journal Article",
-      "Review"
+      "Review",
+      "Research Support, Non-U.S. Gov't"
     ],
     "topicTags": [
       "Open Surgery",
@@ -759,52 +666,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "41887996",
-    "title": "Combined CTP and QDSA Assessment Predicts Postoperative Cerebral Hyperperfusion Syndrome in Moyamoya Disease.",
-    "abstract": "RATIONALE AND OBJECTIVES: To evaluate the predictive value of combined computed tomography perfusion (CTP) and quantitative digital subtraction angiography (QDSA) for cerebral hyperperfusion syndrome (CHS) after surgical revascularization in moyamoya disease (MMD). METHODS: This retrospective study included 340 patients (396 hemispheres) with MMD who underwent direct or combined bypass surgery. Preoperative CTP and QDSA assessments were performed to assess cerebral perfusion and analyze hemodynamic parameters. Logistic regression with generalized estimating equations (GEE), accounting for within-patient clustering, and receiver operating characteristic (ROC) analyses were used to identify risk factors and evaluate predictive performance. RESULTS: Postoperative CHS occurred in 29.04% (115/396) of hemispheres. Independent risk factors included CTP stages 3-4 (OR 7.40, 95% CI 4.27-12.84, p<0.001), shortened TTP of superficial temporal artery (OR 0.66, 95% CI 0.55-0.79, p<0.001), older age (OR 1.03, 95% CI 1.00-1.06, p=0.030), and hypertension (OR 4.74, 95% CI 2.74-8.19, p<0.001). The multivariate integrated model demonstrated good predictive performance (AUC 0.815, 95% CI 0.771-0.858). CONCLUSION: Combined CTP and QDSA assessment effectively predicts CHS risk after MMD revascularization, with CTP stages 3-4, shortened TTP of STA, older age, and hypertension as independent risk factors. This dual-modality approach aids in preoperative risk stratification and surgical planning.",
-    "englishSummary": "RATIONALE AND OBJECTIVES: To evaluate the predictive value of combined computed tomography perfusion (CTP) and quantitative digital subtraction angiography (QDSA) for cerebral hyperperfusion syndrome (CHS) after surgical revascularization in moyamoya disease (MMD). METHODS: This retrospective study included 340 patients (396 hemispheres) with MMD who underwent direct or combined bypass surgery. Preoperative CTP and QDSA assessments were performed to assess cerebral perfusion and analyze hemodynamic parameters.",
-    "journal": "Academic radiology",
-    "publicationDate": "2026-03-25",
-    "authors": [
-      "Fu X",
-      "Yuan M",
-      "Wang X",
-      "Wang S",
-      "Chen T",
-      "Zhao X",
-      "Yan Y",
-      "Chen L",
-      "Jiang C",
-      "Sun S"
-    ],
-    "affiliations": [
-      "Department of Interventional Neuroradiology, Beijing Neurosurgical Institute, Beijing, China (X.F., C.J.); Department of Neurosurgery, Beijing Tiantan Hospital, Capital Medical University, Beijing, China (X.F., C.J.).",
-      "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China (M.Y., X.W., S.W., T.C., X.Z., Y.Y., L.C., S.S); Department of Neuroradiology, Beijing Neurosurgical Institute, Beijing, China (M.Y., X.W., S.W., T.C., X.Z., Y.Y., L.C., S.S).",
-      "Department of Radiology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China (M.Y., X.W., S.W., T.C., X.Z., Y.Y., L.C., S.S); Department of Neuroradiology, Beijing Neurosurgical Institute, Beijing, China (M.Y., X.W., S.W., T.C., X.Z., Y.Y., L.C., S.S). Electronic address: sunshengjun0212@163.com."
-    ],
-    "doi": "10.1016/j.acra.2026.03.003",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41887996/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Open Surgery",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -986,57 +847,6 @@
       "+2 treatment or prognosis relevance: treatment",
       "+2 China affiliation: China",
       "-2 basic mechanism without clinical relevance: pathway"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "41794123",
-    "title": "Efficacy and Safety of Prophylactic Anticoagulation Versus Therapeutic Anticoagulation After Iliac Vein Stenting in Patients with a Nonthrombotic Iliac Vein Lesion.",
-    "abstract": "BACKGROUND: The long-term patency of stents is notably high in patients undergoing stenting for nonthrombotic iliac vein lesions (NIVLs). Consequently, the postoperative antithrombotic strategy of employing therapeutic anticoagulation (TA) in these patients has been called into question. This study aims to compare the clinical outcomes of prophylactic versus TA at our center. METHODS: In this single-institution retrospective study, a total of 155 patients with NIVLs who were prescribed either prophylactic or therapeutic doses of anticoagulation for a duration of 3 months following stent placement were enrolled. The outcomes assessed during follow-up included primary patency, bleeding events, mortality, the revised venous clinical severity score (r-VCSS) and symptom recurrence. RESULTS: From October 2012 to April 2024, 82 patients received prophylactic anticoagulation (PA) and 73 TA, with a median follow-up period of 42 months. There was no significant difference between the PA group and the TA group in rates of primary patency (98.8% vs. 95.9%, P = 0.292, hazard ratio [HR] 0.317, 95% confidence interval [CI] 0.045 to 2.252), mortality (4.9% vs. 6.8%, P = 0.957, HR 1.035, 95% CI 0.277 to 3.866), as well as symptom recurrence (7.3% vs. 11.0%, P = 0.456, HR 0.670, 95% CI 0.235 to 1.914). In addition, the major bleeding events (0.0% vs. 1.4%, P = 0.471), the clinically relevant nonmajor bleeding events (3.7% vs. 8.2%, P = 0.385), total bleeding events (3.7% vs. 9.6%, P = 0.241), and the changes in the r-VCSS from baseline to 6 months postoperatively (5.00 [3.00, 6.00] vs. 5.00 [3.00, 6.00], P = 0.643) were also not significantly different in the 2 groups. CONCLUSION: In patients with NIVLs, PA after iliac vein stenting exhibited similar clinical outcomes when compared with TA. This finding suggests that PA may be sufficient. Furthermore, the nonanticoagulation regimens merit further investigation.",
-    "englishSummary": "BACKGROUND: The long-term patency of stents is notably high in patients undergoing stenting for nonthrombotic iliac vein lesions (NIVLs). Consequently, the postoperative antithrombotic strategy of employing therapeutic anticoagulation (TA) in these patients has been called into question. This study aims to compare the clinical outcomes of prophylactic versus TA at our center.",
-    "journal": "Annals of vascular surgery",
-    "publicationDate": "2026-03-06",
-    "authors": [
-      "Qiu YH",
-      "Zhang YH",
-      "Wu ZC",
-      "Zhang JC",
-      "Yang Z",
-      "Zhu GX",
-      "Miao SL",
-      "Chen FF",
-      "Chen BC"
-    ],
-    "affiliations": [
-      "Department of Vascular Surgery, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
-      "Molecular Pharmacology Research Center, School of Pharmaceutical Science, Wenzhou Medical University, Wenzhou, China.",
-      "The Second Affiliated Hospital & The Second Clinical Medical College of Zhejiang Chinese Medical University, Hangzhou, China.",
-      "Department of Radiology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
-      "Key Laboratory of Diagnosis and Treatment of Severe Hepato-Pancreatic Diseases of Zhejiang Province, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China. Electronic address: bichengchen9@126.com."
-    ],
-    "doi": "10.1016/j.avsg.2026.02.040",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41794123/",
-    "publicationTypes": [
-      "Journal Article",
-      "Comparative Study"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "Endovascular",
-      "Vascular Graft / Stent / Device",
-      "Antithrombotic Therapy",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: stent",
-      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
@@ -1276,36 +1086,35 @@
     "source": "PubMed"
   },
   {
-    "pmid": "41582005",
-    "title": "Splicing of fibronectin gene contribute to the aneurysmal dilatation of arteriovenous fistula.",
-    "abstract": "Patients with end-stage renal disease often require arteriovenous fistula (AVF) creation for hemodialysis. However, nearly 40% of patients develop aneurysmal dilatation of AVF (AVFA) after surgery, which can lead to prolonged bleeding at puncture sites, increased infection risk, and even potential rupture. Despite its high incidence, research on AVFA remains remarkably limited. This study makes an innovative discovery by establishing a link between AVFA formation and alternative splicing of fibronectin (FN), a crucial extracellular matrix component. Specifically, we demonstrate that increased inclusion of the EDA exon in FN within vascular smooth muscle cells triggers phenotypic switching to a synthetic state and extracellular matrix remodeling through the ITGB1/FAK/Src/RUNX2 pathway. These changes ultimately reduce vascular mechanical strength and contribute to AVFA development. Furthermore, we identify the splicing factor SRSF5 as a key regulator of EDA inclusion and characterize its potential binding sites, providing potential therapeutic targets for AVFA prevention.",
-    "englishSummary": "Patients with end-stage renal disease often require arteriovenous fistula (AVF) creation for hemodialysis. However, nearly 40% of patients develop aneurysmal dilatation of AVF (AVFA) after surgery, which can lead to prolonged bleeding at puncture sites, increased infection risk, and even potential rupture. Despite its high incidence, research on AVFA remains remarkably limited.",
-    "journal": "Renal failure",
-    "publicationDate": "2026-01-25",
+    "pmid": "41671935",
+    "title": "Association between inflammation&#x2011;based index and acute deep vein thrombosis and thrombus burden.",
+    "abstract": "BACKGROUND: Inflammation is pivotal in venous thrombogenesis. Complete blood count (CBC)-derived inflammation indexes are emerging biomarkers, but their value for diagnosing acute deep vein thrombosis (DVT) and stratifying thrombus burden requires further investigation. OBJECTIVE: To evaluate CBC-derived inflammation indexes-neutrophil-to-lymphocyte ratio (NLR), platelet-to-lymphocyte ratio (PLR), systemic immune-inflammation index (SII), lymphocyte-to-monocyte ratio (LMR), and systemic inflammation response index (SIRI)-for diagnosing acute DVT and stratifying thrombus burden. METHODS: In this retrospective study, 360 patients referred for venous Doppler ultrasound were categorized into non-DVT (n = 200), isolated distal DVT (IDDVT, n = 114), and proximal DVT (PDVT, n = 46) groups. Demographic data, comorbidities, and CBC parameters were collected to calculate the indexes. Predictive ability was assessed using receiver operating characteristic (ROC) curve analysis, and group differences were evaluated with the Kruskal-Wallis and Dunn's tests. RESULTS: Acute DVT patients showed significantly elevated NLR, PLR, SII, and SIRI, and reduced LMR. ROC analysis indicated LMR had the highest predictive efficacy for acute DVT (AUC: 0.737) with high specificity (85.5%). For distinguishing IDDVT from PDVT, only NLR and LMR showed significant discriminative value. CONCLUSION: NLR and LMR are valuable biomarkers for diagnosing acute DVT and assessing thrombus burden. Their high specificity supports adjunctive use in risk stratification, but their low sensitivity necessitates integration with comprehensive clinical assessment.",
+    "englishSummary": "BACKGROUND: Inflammation is pivotal in venous thrombogenesis. Complete blood count (CBC)-derived inflammation indexes are emerging biomarkers, but their value for diagnosing acute deep vein thrombosis (DVT) and stratifying thrombus burden requires further investigation. OBJECTIVE: To evaluate CBC-derived inflammation indexes-neutrophil-to-lymphocyte ratio (NLR), platelet-to-lymphocyte ratio (PLR), systemic immune-inflammation index (SII), lymphocyte-to-monocyte ratio (LMR), and systemic inflammation response index (SIRI)-for diagnosing acute DVT and stratifying thrombus burden.",
+    "journal": "Heart & lung : the journal of critical care",
+    "publicationDate": "2026-02-10",
     "authors": [
-      "Wang H",
-      "Ni Q",
-      "Qi H",
-      "Qian X",
-      "Chu Y",
-      "Wang Y",
-      "Yao Y",
-      "Shen N",
-      "Deng W",
-      "Guo X",
-      "Zhang L"
+      "Bai Y",
+      "Li D",
+      "Huang X",
+      "Wang K",
+      "Jia Z",
+      "Qin H",
+      "Lu A"
     ],
     "affiliations": [
-      "Department of Vascular Surgery, Renji Hospital, Shanghai JiaoTong University School of Medicine, Shanghai Municipality, China.",
-      "Department of Vascular Surgery, Guangzhou Women and Children's Medical Center, Guangzhou, Guangdong Province, China."
+      "Department of Interventional and Vascular Surgery, The Third Affiliated Hospital of Nanjing Medical University (Changzhou Second People's Hospital), Changzhou 213003, China.",
+      "Department of Oncology and Radiotherapy, The Third Affiliated Hospital of Nanjing Medical University (Changzhou Second People's Hospital), Changzhou 213003, China.",
+      "Department of Critical Care Medicine, The Third Affiliated Hospital of Nanjing Medical University (Changzhou Second People's Hospital), Changzhou 213003, China.",
+      "Department of Endocrinology, The Third Affiliated Hospital of Nanjing Medical University (Changzhou Second People's Hospital), Changzhou 213003, China. Electronic address: 13861227034@163.com."
     ],
-    "doi": "10.1080/0886022X.2025.2611610",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41582005/",
+    "doi": "10.1016/j.hrtlng.2026.102737",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41671935/",
     "publicationTypes": [
       "Journal Article"
     ],
     "topicTags": [
-      "Dialysis Access",
+      "Venous Disease",
+      "Imaging / Diagnosis",
       "China Research"
     ],
     "studyTypeTags": [],
@@ -1313,9 +1122,54 @@
     "score": 4,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China",
-      "-2 basic mechanism without clinical relevance: pathway"
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "41581276",
+    "title": "Exercise tolerance in patients with chronic thromboembolic pulmonary hypertension after balloon pulmonary angioplasty.",
+    "abstract": "BACKGROUND: PA Balloon pulmonary angioplasty (BPA) is an effective therapeutic alternative for patients with chronic thromboembolic pulmonary hypertension (CTEPH), which improved pulmonary arterial compliance (C) and pulmonary vascular resistance (PVR). OBJECTIVE: PA To investigate whether the Cis a predictor of exercise tolerance after BPA. METHODS: The correlations between changes in each parameter and changes in six-minute walking distance (6MWD) were evaluated by Pearson's test. The determinants of functional capacity that was defined as 6MWD &#x2265;440 m were assessed with a logistic regression model. Multiple linear regression analysis was used to identify the independent variables related to &#x25b3;6MWD. RESULTS: PA PA PA PA We enrolled 70 patients (female/male: 40/30, mean age: 64 years) who underwent a total of 271 BPA sessions which significantly increased C[1.0 (0.7, 1.3) vs. 2.1 (1.7, 2.5) mL/mmHg], and decreased PVR [6.7 (3.6, 9.7) vs. 3.0 (2.1, 4.3) wood units]. The correlation coefficient between improvement in 6MWD and changes in Cwas r = 0.328 (P = 0.006). At univariate analysis, duration of pulmonary hypertension symptoms and pulmonary arterial compliance were found to be associated with good exercise tolerance. Multivariate analysis demonstrated that C(95 %CI: 1.23 to 3.75, P = 0.026) was an independent predictor of exercise tolerance after BPA. The multiple linear regression analysis demonstrated that &#x25b3;C(&#x3b2;= 0.292, P = 0.019) was an independent predictor of &#x25b3;6MWD. CONCLUSION: PA PA BPA significantly improved Cin inoperable patients with CTEPH and the resistance-compliance relationship maintained inversely associated. After successful BPA, baseline Cis an important determinant of exercise tolerance.",
+    "englishSummary": "BACKGROUND: PA Balloon pulmonary angioplasty (BPA) is an effective therapeutic alternative for patients with chronic thromboembolic pulmonary hypertension (CTEPH), which improved pulmonary arterial compliance (C) and pulmonary vascular resistance (PVR). OBJECTIVE: PA To investigate whether the Cis a predictor of exercise tolerance after BPA. METHODS: The correlations between changes in each parameter and changes in six-minute walking distance (6MWD) were evaluated by Pearson's test.",
+    "journal": "Heart & lung : the journal of critical care",
+    "publicationDate": "2026-01-24",
+    "authors": [
+      "Lu Z",
+      "Zhang C",
+      "Wan J",
+      "Xiao Y",
+      "Zhao L",
+      "Lu G",
+      "Zhang H",
+      "Wang L",
+      "Yi Y",
+      "Wang L",
+      "Ma X"
+    ],
+    "affiliations": [
+      "Department of Interventional Diagnosis and Treatment, Beijing Anzhen Hospital, Capital Medical University, Beijing, China.",
+      "Department of Respiratory and Critical Care Medicine, Beijing Anzhen Hospital, Capital Medical University, Beijing, China.",
+      "Department of Radiology, Beijing Anzhen Hospital, Capital Medical University, Beijing, China.",
+      "Department of Interventional Diagnosis and Treatment, Beijing Anzhen Hospital, Capital Medical University, Beijing, China. Electronic address: maxi8238@yahoo.com."
+    ],
+    "doi": "10.1016/j.hrtlng.2026.102725",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41581276/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
