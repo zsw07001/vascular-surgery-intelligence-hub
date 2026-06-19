@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-06-18T22:25:29.922Z",
+  "generatedAt": "2026-06-19T21:34:39.891Z",
   "period": {
-    "start": "2026-06-12",
-    "end": "2026-06-18"
+    "start": "2026-06-13",
+    "end": "2026-06-19"
   },
-  "dataUpdatedAt": "2026-06-18T22:25:29.922Z",
+  "dataUpdatedAt": "2026-06-19T21:34:39.891Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-06-18T22:25:29.922Z"
+      "updatedAt": "2026-06-19T21:34:39.891Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 737,
-      "updatedAt": "2026-06-18T22:25:29.922Z"
+      "updatedAt": "2026-06-19T21:34:39.891Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 12,
-      "updatedAt": "2026-06-18T22:25:29.922Z"
+      "count": 13,
+      "updatedAt": "2026-06-19T21:34:39.891Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-06-18T22:25:29.922Z"
+      "updatedAt": "2026-06-19T21:34:39.891Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-06-18T22:25:29.922Z"
+      "updatedAt": "2026-06-19T21:34:39.891Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-06-18T22:25:29.922Z"
+      "updatedAt": "2026-06-19T21:34:39.891Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 88,
+    "highImpact": 84,
     "chinaResearch": 26,
     "clinicalTrials": 737,
-    "guidelines": 12,
+    "guidelines": 13,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,35 +58,35 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 85
+      "count": 93
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 69
+      "count": 73
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 52
+      "count": 54
     },
     {
       "tag": "Venous Disease",
-      "count": 43
+      "count": 45
     },
     {
       "tag": "Aortic Disease",
-      "count": 34
-    },
-    {
-      "tag": "PAD / CLTI",
-      "count": 27
+      "count": 35
     },
     {
       "tag": "China Research",
       "count": 26
     },
     {
+      "tag": "PAD / CLTI",
+      "count": 26
+    },
+    {
       "tag": "Open Surgery",
-      "count": 24
+      "count": 23
     }
   ],
   "priorityReading": [
@@ -114,31 +114,6 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41833592/",
       "doi": "10.1016/j.jvs.2026.02.042"
-    },
-    {
-      "pmid": "41722899",
-      "title": "Efficacy and Safety of Endovascular Therapy with Stent Implantation Versus Endarterectomy in Common Femoral Artery Atherosclerosis: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-02-19",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Cohort",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 12,
-      "reason": "high relevance；Systematic Review / Meta-analysis；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 12",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41722899/",
-      "doi": "10.1016/j.avsg.2026.02.013"
     },
     {
       "pmid": "41967668",
@@ -234,6 +209,27 @@
       "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41786007/",
       "doi": "10.1016/j.jvs.2026.02.035"
+    },
+    {
+      "pmid": "42177328",
+      "title": "Temporal trends in device selection and clinical outcomes after femoropopliteal endovascular therapy: a multicenter real-world study.",
+      "source": "PubMed",
+      "date": "2026-05-23",
+      "journal": "Cardiovascular intervention and therapeutics",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42177328/",
+      "doi": "10.1007/s12928-026-01291-1"
     },
     {
       "pmid": "42229338",
@@ -354,31 +350,6 @@
       "doi": "10.1016/j.jvs.2026.02.042"
     },
     {
-      "pmid": "41722899",
-      "title": "Efficacy and Safety of Endovascular Therapy with Stent Implantation Versus Endarterectomy in Common Femoral Artery Atherosclerosis: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-02-19",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Cohort",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 12,
-      "reason": "high relevance；Systematic Review / Meta-analysis；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 12",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41722899/",
-      "doi": "10.1016/j.avsg.2026.02.013"
-    },
-    {
       "pmid": "41967668",
       "title": "Comprehensive Evaluation and Management Strategies for Asymptomatic Carotid Artery Stenosis: A Critical Review and Network Meta-Analysis.",
       "source": "PubMed",
@@ -472,6 +443,27 @@
       "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41786007/",
       "doi": "10.1016/j.jvs.2026.02.035"
+    },
+    {
+      "pmid": "42177328",
+      "title": "Temporal trends in device selection and clinical outcomes after femoropopliteal endovascular therapy: a multicenter real-world study.",
+      "source": "PubMed",
+      "date": "2026-05-23",
+      "journal": "Cardiovascular intervention and therapeutics",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42177328/",
+      "doi": "10.1007/s12928-026-01291-1"
     },
     {
       "pmid": "42229338",
@@ -1158,15 +1150,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41786007/"
     },
     {
-      "title": "Menopausal Hormone Therapy: A Narrative Review of Contemporary Evidence.",
+      "title": "An international survey on current practices of management of neonatal catheter-associated venous thromboembolism: communication from the ISTH SSC Subcommittee on Pediatric and Neonatal Thrombosis and Hemostasis.",
       "source": "Guidelines",
-      "date": "2026-07-01",
+      "date": "2026-03-24",
       "topicTags": [
         "Venous Disease",
+        "Antithrombotic Therapy",
         "Guideline / Consensus"
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42304170/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41887532/"
     },
     {
       "title": "To regress or not to regress? Outcomes of aneurysm sac behavior after endovascular aortic aneurysm repair: A systematic review and meta-analysis.",
@@ -1182,17 +1175,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41833592/"
     },
     {
-      "title": "Efficacy and Safety of Endovascular Therapy with Stent Implantation Versus Endarterectomy in Common Femoral Artery Atherosclerosis: A Systematic Review and Meta-Analysis.",
+      "title": "Temporal trends in device selection and clinical outcomes after femoropopliteal endovascular therapy: a multicenter real-world study.",
       "source": "Devices / Regulatory",
-      "date": "2026-02-19",
+      "date": "2026-05-23",
       "topicTags": [
         "PAD / CLTI",
         "Endovascular",
-        "Open Surgery",
         "Vascular Graft / Stent / Device"
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41722899/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42177328/"
     },
     {
       "title": "Endovascular Treatment for Symptomatic Hypogastric Artery Stenosis or Occlusion: A Systematic Review and Meta-Analysis.",
@@ -1232,17 +1224,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41833592/"
     },
     {
-      "title": "Efficacy and Safety of Endovascular Therapy with Stent Implantation Versus Endarterectomy in Common Femoral Artery Atherosclerosis: A Systematic Review and Meta-Analysis.",
+      "title": "Temporal trends in device selection and clinical outcomes after femoropopliteal endovascular therapy: a multicenter real-world study.",
       "source": "Safety",
-      "date": "2026-02-19",
+      "date": "2026-05-23",
       "topicTags": [
         "PAD / CLTI",
         "Endovascular",
-        "Open Surgery",
         "Vascular Graft / Stent / Device"
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41722899/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42177328/"
     }
   ],
   "reviewQueue": [
@@ -1288,15 +1279,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41786007/"
     },
     {
-      "title": "Menopausal Hormone Therapy: A Narrative Review of Contemporary Evidence.",
+      "title": "An international survey on current practices of management of neonatal catheter-associated venous thromboembolism: communication from the ISTH SSC Subcommittee on Pediatric and Neonatal Thrombosis and Hemostasis.",
       "source": "Guidelines",
-      "date": "2026-07-01",
+      "date": "2026-03-24",
       "topicTags": [
         "Venous Disease",
+        "Antithrombotic Therapy",
         "Guideline / Consensus"
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42304170/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41887532/"
     },
     {
       "title": "To regress or not to regress? Outcomes of aneurysm sac behavior after endovascular aortic aneurysm repair: A systematic review and meta-analysis.",
@@ -1312,17 +1304,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41833592/"
     },
     {
-      "title": "Efficacy and Safety of Endovascular Therapy with Stent Implantation Versus Endarterectomy in Common Femoral Artery Atherosclerosis: A Systematic Review and Meta-Analysis.",
+      "title": "Temporal trends in device selection and clinical outcomes after femoropopliteal endovascular therapy: a multicenter real-world study.",
       "source": "Devices / Regulatory",
-      "date": "2026-02-19",
+      "date": "2026-05-23",
       "topicTags": [
         "PAD / CLTI",
         "Endovascular",
-        "Open Surgery",
         "Vascular Graft / Stent / Device"
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41722899/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42177328/"
     },
     {
       "title": "Endovascular Treatment for Symptomatic Hypogastric Artery Stenosis or Occlusion: A Systematic Review and Meta-Analysis.",
@@ -1362,17 +1353,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41833592/"
     },
     {
-      "title": "Efficacy and Safety of Endovascular Therapy with Stent Implantation Versus Endarterectomy in Common Femoral Artery Atherosclerosis: A Systematic Review and Meta-Analysis.",
+      "title": "Temporal trends in device selection and clinical outcomes after femoropopliteal endovascular therapy: a multicenter real-world study.",
       "source": "Safety",
-      "date": "2026-02-19",
+      "date": "2026-05-23",
       "topicTags": [
         "PAD / CLTI",
         "Endovascular",
-        "Open Surgery",
         "Vascular Graft / Stent / Device"
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41722899/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42177328/"
     }
   ],
   "note": "规则生成周报：基于 PubMed、ClinicalTrials.gov 和派生提醒数据按相关性、研究类型、主题、招募状态和更新时间排序，不调用 AI。"
