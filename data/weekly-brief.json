@@ -1,119 +1,96 @@
 {
-  "generatedAt": "2026-06-29T21:44:05.299Z",
+  "generatedAt": "2026-06-30T21:46:09.096Z",
   "period": {
-    "start": "2026-06-23",
-    "end": "2026-06-29"
+    "start": "2026-06-24",
+    "end": "2026-06-30"
   },
-  "dataUpdatedAt": "2026-06-29T21:44:05.299Z",
+  "dataUpdatedAt": "2026-06-30T21:46:09.096Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-06-29T21:44:05.299Z"
+      "updatedAt": "2026-06-30T21:46:09.096Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 757,
-      "updatedAt": "2026-06-29T21:44:05.299Z"
+      "count": 745,
+      "updatedAt": "2026-06-30T21:46:09.096Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 11,
-      "updatedAt": "2026-06-29T21:44:05.299Z"
+      "updatedAt": "2026-06-30T21:46:09.096Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-06-29T21:44:05.299Z"
+      "updatedAt": "2026-06-30T21:46:09.096Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-06-29T21:44:05.299Z"
+      "updatedAt": "2026-06-30T21:46:09.096Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-06-29T21:44:05.299Z"
+      "updatedAt": "2026-06-30T21:46:09.096Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 79,
-    "chinaResearch": 38,
-    "clinicalTrials": 757,
+    "highImpact": 82,
+    "chinaResearch": 32,
+    "clinicalTrials": 745,
     "guidelines": 11,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、757 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、745 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Imaging / Diagnosis",
-      "count": 82
+      "count": 78
     },
     {
       "tag": "Endovascular",
-      "count": 76
+      "count": 71
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 60
+      "count": 58
     },
     {
       "tag": "Venous Disease",
-      "count": 49
-    },
-    {
-      "tag": "China Research",
-      "count": 38
+      "count": 55
     },
     {
       "tag": "Aortic Disease",
-      "count": 28
+      "count": 32
+    },
+    {
+      "tag": "China Research",
+      "count": 32
     },
     {
       "tag": "PAD / CLTI",
-      "count": 22
+      "count": 23
     },
     {
       "tag": "Open Surgery",
-      "count": 18
+      "count": 17
     }
   ],
   "priorityReading": [
     {
-      "pmid": "42020341",
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-04-22",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/",
-      "doi": "10.1080/0886022X.2026.2647082"
-    },
-    {
       "pmid": "41866115",
       "title": "Efficacy and safety of cyanoacrylate ablation vs endovenous radiofrequency ablation for varicose veins in chronic great saphenous vein insufficiency: A systematic review and meta-analysis.",
       "source": "PubMed",
@@ -312,33 +289,33 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42300201/",
       "doi": "10.1002/dmrr.70189"
+    },
+    {
+      "pmid": "41895470",
+      "title": "Frequency of inappropriate endovenous truncal ablation therapy within the vascular quality initiative varicose vein registry.",
+      "source": "PubMed",
+      "date": "2026-03-25",
+      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "topicTags": [
+        "Venous Disease",
+        "Endovascular",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Registry",
+        "Guideline"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Registry / Guideline；Venous Disease / Endovascular；score 6",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41895470/",
+      "doi": "10.1016/j.jvsv.2026.102493"
     }
   ],
   "priorityArticles": [
     {
-      "pmid": "42020341",
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-04-22",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/",
-      "doi": "10.1080/0886022X.2026.2647082"
-    },
-    {
       "pmid": "41866115",
       "title": "Efficacy and safety of cyanoacrylate ablation vs endovenous radiofrequency ablation for varicose veins in chronic great saphenous vein insufficiency: A systematic review and meta-analysis.",
       "source": "PubMed",
@@ -537,33 +514,33 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42300201/",
       "doi": "10.1002/dmrr.70189"
+    },
+    {
+      "pmid": "41895470",
+      "title": "Frequency of inappropriate endovenous truncal ablation therapy within the vascular quality initiative varicose vein registry.",
+      "source": "PubMed",
+      "date": "2026-03-25",
+      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "topicTags": [
+        "Venous Disease",
+        "Endovascular",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Registry",
+        "Guideline"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Registry / Guideline；Venous Disease / Endovascular；score 6",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41895470/",
+      "doi": "10.1016/j.jvsv.2026.102493"
     }
   ],
   "chinaHighlights": [
     {
-      "pmid": "42020341",
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-04-22",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/",
-      "doi": "10.1080/0886022X.2026.2647082"
-    },
-    {
       "pmid": "41866115",
       "title": "Efficacy and safety of cyanoacrylate ablation vs endovenous radiofrequency ablation for varicose veins in chronic great saphenous vein insufficiency: A systematic review and meta-analysis.",
       "source": "PubMed",
@@ -648,33 +625,33 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41786079/",
       "doi": "10.1016/j.jvsv.2026.102468"
+    },
+    {
+      "pmid": "42339063",
+      "title": "Extensive aortic intimal intussusception during thoracic endovascular aortic repair for type B aortic dissection associated with aberrant right subclavian artery.",
+      "source": "PubMed",
+      "date": "2026-05-18",
+      "journal": "Journal of vascular surgery cases and innovative techniques",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Case Report"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42339063/",
+      "doi": "10.1016/j.jvscit.2026.102323"
     }
   ],
   "chinaResearch": [
     {
-      "pmid": "42020341",
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-04-22",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/",
-      "doi": "10.1080/0886022X.2026.2647082"
-    },
-    {
       "pmid": "41866115",
       "title": "Efficacy and safety of cyanoacrylate ablation vs endovenous radiofrequency ablation for varicose veins in chronic great saphenous vein insufficiency: A systematic review and meta-analysis.",
       "source": "PubMed",
@@ -759,26 +736,32 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41786079/",
       "doi": "10.1016/j.jvsv.2026.102468"
+    },
+    {
+      "pmid": "42339063",
+      "title": "Extensive aortic intimal intussusception during thoracic endovascular aortic repair for type B aortic dissection associated with aberrant right subclavian artery.",
+      "source": "PubMed",
+      "date": "2026-05-18",
+      "journal": "Journal of vascular surgery cases and innovative techniques",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Case Report"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42339063/",
+      "doi": "10.1016/j.jvscit.2026.102323"
     }
   ],
   "trialHighlights": [
-    {
-      "nctId": "NCT07322913",
-      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-06-15",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1200,
-      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
-      "url": "https://clinicaltrials.gov/study/NCT07322913"
-    },
     {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
@@ -892,6 +875,22 @@
       "enrollment": 600,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
       "url": "https://clinicaltrials.gov/study/NCT02050113"
+    },
+    {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-29",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-05-29",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
     },
     {
       "nctId": "NCT01538056",
@@ -927,23 +926,6 @@
   ],
   "clinicalTrials": [
     {
-      "nctId": "NCT07322913",
-      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-06-15",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1200,
-      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
-      "url": "https://clinicaltrials.gov/study/NCT07322913"
-    },
-    {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
       "source": "ClinicalTrials.gov",
@@ -1056,6 +1038,22 @@
       "enrollment": 600,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
       "url": "https://clinicaltrials.gov/study/NCT02050113"
+    },
+    {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-29",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-05-29",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
     },
     {
       "nctId": "NCT01538056",
@@ -1162,18 +1160,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41895655/"
     },
     {
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-04-22",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/"
-    },
-    {
       "title": "Extensive endovascular thoracoabdominal aortic septotomy for treatment of malperfusion in acute aortic dissection.",
       "source": "Devices / Regulatory",
       "date": "2026-05-22",
@@ -1184,6 +1170,19 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42368739/"
+    },
+    {
+      "title": "Endorelining endovascular aortic repair using an iliac branch endoprosthesis in cases requiring secondary intervention following endovascular aortic repair or grafting.",
+      "source": "Devices / Regulatory",
+      "date": "2026-05-14",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42368738/"
     },
     {
       "title": "Temporal trends in device selection and clinical outcomes after femoropopliteal endovascular therapy: a multicenter real-world study.",
@@ -1284,18 +1283,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41895655/"
     },
     {
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-04-22",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/"
-    },
-    {
       "title": "Extensive endovascular thoracoabdominal aortic septotomy for treatment of malperfusion in acute aortic dissection.",
       "source": "Devices / Regulatory",
       "date": "2026-05-22",
@@ -1306,6 +1293,19 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42368739/"
+    },
+    {
+      "title": "Endorelining endovascular aortic repair using an iliac branch endoprosthesis in cases requiring secondary intervention following endovascular aortic repair or grafting.",
+      "source": "Devices / Regulatory",
+      "date": "2026-05-14",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42368738/"
     },
     {
       "title": "Temporal trends in device selection and clinical outcomes after femoropopliteal endovascular therapy: a multicenter real-world study.",
