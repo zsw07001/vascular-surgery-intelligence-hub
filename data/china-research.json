@@ -91,6 +91,459 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42397409",
+    "title": "Reconstruction of complete cerebral arterial anatomy from non-contrast CT using deep learning for pre-thrombectomy guidance.",
+    "abstract": "BACKGROUND AND PURPOSE: Traditional imaging methods, like CT angiography (CTA), are unable to visualize the occluded vessels in acute ischemic stroke (AIS). We aimed to develop a deep learning based segmentation model for reconstructing the complete cerebral vasculature from non-contrast CT (NCCT) in LVO-AIS patients for endovascular thrombectomy planning. METHODS: A nnU-Net model was trained and validated on retrospectively collected paired NCCT-CTA head images without large vessel occlusions (LVOs) from December 2018 to July 2025 (dataset 1: n&#x2009;=&#x2009;280, for model training, internal validation and internal test; dataset 2: n&#x2009;=&#x2009;40, for external validation). Model performance was evaluated using quantitative segmentation metrics, including the Dice Similarity Coefficient (DSC). Additionally, the model was evaluated on NCCT images of LVO-AIS patients from two hospitals, and the segmentation results were verified against post-recanalization DSA by two radiologists (dataset 3: n&#x2009;=&#x2009;290). RESULTS: The nnU-Net model demonstrated robust segmentation performance, achieving DSC of 0.80&#x2009;&#xb1;&#x2009;0.04, 0.79&#x2009;&#xb1;&#x2009;0.04, and 0.79&#x2009;&#xb1;&#x2009;0.04 on the internal validation, internal test, and external validation sets, respectively. In the clinical evaluation involving LVO-AIS patients, high-quality segmentations were assigned by Rater 1 in 98.9% of cases and by Rater 2 in 98.3% of cases, with substantial inter-rater agreement (Cohen's &#x3ba;&#x2009;=&#x2009;0.74; 95% CI, 0.56-0.89). CONCLUSION: This study demonstrated the feasibility of using a deep learning model to segment cerebral vasculature from NCCT images in LVO-AIS patients. The proposed approach may provide complementary anatomical information for thrombectomy planning, but prospective studies are needed to determine its clinical impact.",
+    "englishSummary": "BACKGROUND AND PURPOSE: Traditional imaging methods, like CT angiography (CTA), are unable to visualize the occluded vessels in acute ischemic stroke (AIS). We aimed to develop a deep learning based segmentation model for reconstructing the complete cerebral vasculature from non-contrast CT (NCCT) in LVO-AIS patients for endovascular thrombectomy planning. METHODS: A nnU-Net model was trained and validated on retrospectively collected paired NCCT-CTA head images without large vessel occlusions (LVOs) from December 2018 to July 2025 (dataset 1: n&#x2009;=&#x2009;280, for model training, internal validation and internal test; dataset 2: n&#x2009;=&#x2009;40, for external validation).",
+    "journal": "Neuroradiology",
+    "publicationDate": "2026-07-03",
+    "authors": [
+      "Liu Y",
+      "Zhang J",
+      "Lv P",
+      "Song L",
+      "Yang G",
+      "Zhao L",
+      "Cao Y",
+      "Liu S",
+      "Shi H",
+      "Jia Z"
+    ],
+    "affiliations": [
+      "Department of Radiology, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
+      "Subei People's Hospital Affiliated to Yangzhou University, Yangzhou, China.",
+      "UnionStrong (Beijing) Technology Co., Ltd, Beijing, China.",
+      "Department of Radiology, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China. shihb@njmu.edu.cn.",
+      "Department of Radiology, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China. zhenyu_jia@sina.com."
+    ],
+    "doi": "10.1007/s00234-026-04098-2",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42397409/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42396816",
+    "title": "EAT-Lancet Diet, Plasma Metabolites, and Risk of Peripheral Artery Disease: A Prospective Cohort Study.",
+    "abstract": "BACKGROUND: The Planetary Health Diet Index, developed by the EAT-Lancet Commission, promotes sustainable and healthy eating, yet its association with peripheral artery disease (PAD) remains underexplored. Furthermore, the metabolic mechanisms potentially linking this dietary pattern to PAD warrant deeper investigation. METHODS: In 192&#x2009;166 UKB (UK Biobank) participants with 24-hour dietary recall, Cox proportional hazards models were used to evaluate the association between the EAT-Lancet diet index and PAD. In a subcohort (n=93&#x2009;961), diet-related metabolites were identified via elastic net regression to construct a metabolic signature, which was analyzed for its association with PAD risk and potential mediating role. RESULTS: Over a median follow-up of 10.55&#x2009;years, 1579 PAD events occurred. Higher adherence to the EAT-Lancet diet was associated with a lower PAD risk (hazard ratio [HR], 0.74 [95% CI, 0.62-0.87]), consistent across subgroups and sensitivity analyses. Sixty metabolites formed the diet-related metabolic signature, inversely associated with PAD (HR, 0.66 [95% CI, 0.50-0.88]) and mediating 12.9% (95% CI, 4.6%-28.5%) of the diet's protective effect, with mediating metabolites mainly enriched in the fatty acids subclass. CONCLUSIONS: Greater adherence to the EAT-Lancet diet is associated with a lower risk of PAD, with its metabolic signature potentially mediating this relationship, underscoring the importance of dietary interventions and metabolic monitoring for PAD prevention.",
+    "englishSummary": "BACKGROUND: The Planetary Health Diet Index, developed by the EAT-Lancet Commission, promotes sustainable and healthy eating, yet its association with peripheral artery disease (PAD) remains underexplored. Furthermore, the metabolic mechanisms potentially linking this dietary pattern to PAD warrant deeper investigation. METHODS: In 192&#x2009;166 UKB (UK Biobank) participants with 24-hour dietary recall, Cox proportional hazards models were used to evaluate the association between the EAT-Lancet diet index and PAD.",
+    "journal": "Journal of the American Heart Association",
+    "publicationDate": "2026-07-03",
+    "authors": [
+      "Zhang Z",
+      "Ren J",
+      "Sun X",
+      "Zhu S",
+      "Yang Y",
+      "Ma Y"
+    ],
+    "affiliations": [
+      "Department of Nutrition and Food Hygiene, Hebei Key Laboratory of Environment and Human Health, School of Public Health Hebei Medical University Shijiazhuang China.",
+      "Undergraduate of School of Public Health Hebei Medical University Shijiazhuang China."
+    ],
+    "doi": "10.1161/JAHA.126.049143",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42396816/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "PAD / CLTI",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "low",
+    "score": 2,
+    "scoreReasons": [
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42396809",
+    "title": "Impact of Intimal Tear Location on Clinical Outcomes in Extensive Arch Repair of Acute Stanford Type A Aortic Dissection.",
+    "abstract": "BACKGROUND: The impact of intimal tear location on outcomes in acute Stanford type A aortic dissection remains unclear. This study investigated the impact of different tear locations on early and long-term death in patients undergoing total arch replacement with frozen elephant trunk. METHODS: This single-center retrospective study included 1524 patients with acute Stanford type A aortic dissection who underwent total arch replacement with frozen elephant trunk from January 2010 to December 2022. Patients were stratified by primary entry tear location: ascending aorta (n=857 [56.2%]), aortic arch (n=459 [30.1%]), and descending aorta (n=208 [13.6%]). Primary end points were in-hospital death and long-term survival. Multivariable regression analyses with further sensitivity analyses for early and long-term outcomes were performed. RESULTS: P P P P In-hospital death differed significantly among groups (=0.035): descending tear (21 [10.1%]) versus ascending (46 [5.4%]) versus arch (24 [5.2%]). Multivariable analysis identified descending tear as an independent predictor of in-hospital death (odds ratio, 3.728 [95% CI, 1.934-7.188];<0.001). During a median follow-up period of 48.2 months, descending tear location remained independently associated with increased long-term mortality risk (hazard ratio [HR], 2.140 [95% CI, 1.418-3.230];<0.001), while arch tears showed no significant difference from ascending tears (HR, 1.232;=0.227). Reintervention rates did not differ among groups after multivariable adjustment. CONCLUSIONS: Intimal tear location significantly impacts acute Stanford type A aortic dissection prognosis. Descending aortic tears confer substantially higher early and long-term mortality rates, requiring aggressive perioperative management and closer surveillance. Tear location should be incorporated into risk stratification systems for individualized treatment planning.",
+    "englishSummary": "BACKGROUND: The impact of intimal tear location on outcomes in acute Stanford type A aortic dissection remains unclear. This study investigated the impact of different tear locations on early and long-term death in patients undergoing total arch replacement with frozen elephant trunk. METHODS: This single-center retrospective study included 1524 patients with acute Stanford type A aortic dissection who underwent total arch replacement with frozen elephant trunk from January 2010 to December 2022.",
+    "journal": "Journal of the American Heart Association",
+    "publicationDate": "2026-07-03",
+    "authors": [
+      "Ji Y",
+      "Zhou C",
+      "Zhang K",
+      "Gao W",
+      "Hou B",
+      "Wang J",
+      "Gao S",
+      "Xu K",
+      "Sun X",
+      "Yu C",
+      "Qiu J"
+    ],
+    "affiliations": [
+      "Department of Vascular Surgery National Center for Cardiovascular Diseases, National Clinical Research Center for Cardiovascular Diseases, Fuwai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College Beijing China.",
+      "Department of Cardiac Surgery Beijing Anzhen Hospital, Capital Medical University, and Beijing Institute of Heart, Lung and Blood Vessel Diseases Beijing China.",
+      "Department of Cardiac Surgery The First Affiliated Hospital of Zhengzhou University Zhengzhou China.",
+      "Department of Cardiac Surgery The Second Affiliated Hospital, Zhejiang University Hangzhou China."
+    ],
+    "doi": "10.1161/JAHA.125.048870",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42396809/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 9,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: aortic dissection",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42394570",
+    "title": "Errate: Limb-Salvage Outcomes of Arterial Repair Beyond Time Limit at Different Lower-Extremity Injury Sites.",
+    "abstract": "The authors wish to correct the following statement in the Abstract. The sentence: \"Amputations were performed in 16 patients due to non-viable limbs, progressing infection, or muscle necrosis.\" should read: \"Amputations were performed in 14 patients due to non-viable limbs, progressing infection, or muscle necrosis.\" Reference: Li Yu, Linglong Deng, Shaobo Zhu, Kai Deng, Guorong Yu, Chunquan Zhu, Baiwen Qi, Zhenyu Pan. Limb-Salvage Outcomes of Arterial Repair Beyond Time Limit at Different Lower-Extremity Injury Sites. Med Sci Monit, 2021; 27:e927652;&#xa0;DOI: 10.12659/MSM.927652.",
+    "englishSummary": "The authors wish to correct the following statement in the Abstract. The sentence: \"Amputations were performed in 16 patients due to non-viable limbs, progressing infection, or muscle necrosis.\" should read: \"Amputations were performed in 14 patients due to non-viable limbs, progressing infection, or muscle necrosis.\" Reference: Li Yu, Linglong Deng, Shaobo Zhu, Kai Deng, Guorong Yu, Chunquan Zhu, Baiwen Qi, Zhenyu Pan. Limb-Salvage Outcomes of Arterial Repair Beyond Time Limit at Different Lower-Extremity Injury Sites.",
+    "journal": "Medical science monitor : international medical journal of experimental and clinical research",
+    "publicationDate": "2026-07-03",
+    "authors": [
+      "Yu L",
+      "Deng L",
+      "Zhu S",
+      "Deng K",
+      "Yu G",
+      "Zhu C",
+      "Qi B",
+      "Pan Z"
+    ],
+    "affiliations": [
+      "Department of Orthopedics Trauma and Microsurgery, Zhongnan Hospital of Wuhan University, Wuhan, Hubei, China."
+    ],
+    "doi": "10.12659/MSM.954693",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42394570/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42393659",
+    "title": "Revised cardiac risk index and adverse outcomes in patients undergoing surgical stabilization of rib fractures.",
+    "abstract": "BACKGROUND: Surgical stabilization of rib fractures (SSRF) is increasingly performed in patients with severe rib fractures or flail chest. It has been shown to reduce ventilator days and pulmonary complications. Nevertheless, SSRF carries perioperative morbidity, particularly pulmonary and cardiac events, and the optimal preoperative cardiac risk stratification tool for this population has not been established. This study evaluated the association between the Revised Cardiac Risk Index (RCRI) and in-hospital mortality and cardiopulmonary complications in SSRF patients. METHODS: This retrospective cohort study used the ACS-TQIP National Trauma Data Bank (2019-2023) to identify adult patients undergoing SSRF. Patients with AIS&#x2009;&#x2265;&#x2009;2 in non-thoracic regions, blunt cardiac injury (AIS&#x2009;&#x2265;&#x2009;2), or aortic injury were excluded. Because SSRF is an intrathoracic procedure, each patient carried a minimum RCRI of 1; patients were stratified into RCRI&#x2009;=&#x2009;1, RCRI&#x2009;=&#x2009;2, and RCRI&#x2009;&#x2265;&#x2009;3. The primary outcomes were in-hospital mortality and a composite of cardiopulmonary complications (myocardial infarction, cardiac arrest, pneumonia, ARDS, deep vein thrombosis, and pulmonary embolism). Modified Poisson regression with robust standard errors estimated adjusted risk ratios (RRs), with RCRI&#x2009;=&#x2009;1 as the reference and adjustment for demographics, regional and chest AIS, fixation details, and comorbidities. RESULTS: After exclusions, 6,139 patients were analyzed (RCRI&#x2009;=&#x2009;1, n&#x2009;=&#x2009;4,678; RCRI&#x2009;=&#x2009;2, n&#x2009;=&#x2009;1,208; RCRI&#x2009;&#x2265;&#x2009;3, n&#x2009;=&#x2009;253). Adverse outcomes increased stepwise with higher RCRI in both unadjusted and adjusted analyses. Compared with RCRI&#x2009;=&#x2009;1, RCRI&#x2009;&#x2265;&#x2009;3 was associated with significantly higher adjusted risks of in-hospital mortality (RR 3.34, 95% CI 2.06-5.43, p <0.001) and cardiopulmonary complications (RR 3.42, 95% CI 2.08-5.62; both p&#x2009;<&#x2009;0.001), as well as myocardial infarction (RR 9.28, 95% CI 2.84-30.34, p&#x2009;<&#x2009;0.001) and pneumonia (RR 5.85, 95% CI 2.72-12.59, p&#x2009;<&#x2009;0.001). RCRI&#x2009;=&#x2009;2 was also associated with increased mortality (RR 2.13, 95% CI 1.50-3.04, p&#x2009;<&#x2009;0.001) and cardiopulmonary complications (RR 1.72, 95% CI 1.20-2.48, p&#x2009;=&#x2009;0.003). CONCLUSIONS: RCRI is a simple, readily available bedside tool that independently stratifies the risk of in-hospital mortality and cardiopulmonary complications in patients undergoing SSRF. Incorporating the RCRI into preoperative assessment may help identify high-risk patients and guide perioperative management.",
+    "englishSummary": "BACKGROUND: Surgical stabilization of rib fractures (SSRF) is increasingly performed in patients with severe rib fractures or flail chest. It has been shown to reduce ventilator days and pulmonary complications. Nevertheless, SSRF carries perioperative morbidity, particularly pulmonary and cardiac events, and the optimal preoperative cardiac risk stratification tool for this population has not been established.",
+    "journal": "BMC surgery",
+    "publicationDate": "2026-07-02",
+    "authors": [
+      "Wang YH",
+      "Liao CA",
+      "Kuo LW",
+      "Chan SY",
+      "Chen SA",
+      "Tee YS",
+      "Cheng CT",
+      "Liao CH",
+      "Fu CY",
+      "Kang SC",
+      "Hsieh CH",
+      "Scalea TM",
+      "Ribeiro MAF"
+    ],
+    "affiliations": [
+      "Department of Trauma and Emergency Surgery, Linkou Chang Gung Memorial Hospital, Taoyuan City, 333, Taiwan.",
+      "Department of Surgery, R Adams Cowley Shock Trauma Center, University of Maryland, 22 S Greene St. Baltimore, Baltimore, MD, 21201, USA.",
+      "Department of Surgery, R Adams Cowley Shock Trauma Center, University of Maryland, 22 S Greene St. Baltimore, Baltimore, MD, 21201, USA. drmribeiro@gmail.com."
+    ],
+    "doi": "10.1186/s12893-026-03999-6",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42393659/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 China affiliation: Taiwan"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42392873",
+    "title": "Deep inspiration-facilitated stenting for extremely tortuous vertebral artery ostium in a Type III arch.",
+    "abstract": "Endovascular treatment of vertebral artery ostial (VAO) stenosis can be technically challenging in the presence of severe supra-aortic tortuosity, particularly a Type III aortic arch where stable guide catheter positioning is often difficult to maintain. During device delivery, inadequate proximal support may result in guide catheter prolapse into the aortic arch, compromising procedural success. Although adjunctive support techniques such as the buddy-wire technique may improve system stability, extreme vascular tortuosity can still impede the advancement of balloons or stents.1 A deep inspiration maneuver with transient breath-holding may facilitate device delivery by inducing caudal displacement of the aortic arch and proximal subclavian artery.2 Because the distal vertebral artery remains relatively fixed within the transverse foramina, this maneuver generates temporary axial tension across the V1 segment, partially straightening the tortuous vascular course and improving device trackability.3This technical video (video 1) demonstrates step-by-step endovascular reconstruction of an extremely tortuous right VAO lesion in a patient with prior failed stenting caused by hostile vascular anatomy and subsequent recurrent stenosis. Despite the Type III arch anatomy, a transfemoral approach was mandated over a radial approach due to the acute ostial geometry, providing the necessary antegrade delivery vector. We highlight a dual strategy approach combining distal wire-anchor support to enhance guiding stability and respiratory-induced vascular straightening to facilitate device navigation, ultimately enabling precise stent deployment and complete revascularization.neurintsurg;jnis-2026-025713v1/V1F1V1Video 1.",
+    "englishSummary": "Endovascular treatment of vertebral artery ostial (VAO) stenosis can be technically challenging in the presence of severe supra-aortic tortuosity, particularly a Type III aortic arch where stable guide catheter positioning is often difficult to maintain. During device delivery, inadequate proximal support may result in guide catheter prolapse into the aortic arch, compromising procedural success. Although adjunctive support techniques such as the buddy-wire technique may improve system stability, extreme vascular tortuosity can still impede the advancement of balloons or stents.1 A deep inspiration maneuver with transient breath-holding may facilitate device delivery by inducing caudal displacement of the aortic arch and proximal subclavian artery.2 Because the distal vertebral artery remains relatively fixed within the transverse foramina, this maneuver generates temporary axial tension across the V1 segment, partially straightening the tortuous vascular course and improving device trackability.3This technical video (video 1) demonstrates step-by-step endovascular reconstruction of an extremely tortuous right VAO lesion in a patient with prior failed stenting caused by hostile vascular anatomy and subsequent recurrent stenosis.",
+    "journal": "Journal of neurointerventional surgery",
+    "publicationDate": "2026-07-02",
+    "authors": [
+      "Tan Y",
+      "Duan N",
+      "Wang B",
+      "Ma N"
+    ],
+    "affiliations": [
+      "Department of Interventional Neuroradiology, Beijing Tiantan Hospital Affiliated to Capital Medical University, Beijing, China.",
+      "China National Clinical Research Center for Neurological Diseases, Beijing, China.",
+      "Department of Encephalopathy, Beijing Huairou Hospital of Traditional Chinese Medicine, Beijing, China.",
+      "Department of Interventional Neuroradiology, Beijing Tiantan Hospital Affiliated to Capital Medical University, Beijing, China maning_03@hotmail.com."
+    ],
+    "doi": "10.1136/jnis-2026-025713",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42392873/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Vascular Graft / Stent / Device",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42392505",
+    "title": "Precision Imaging Evaluation and Clinical Application Progress of Vascular Calcification in Lower Extremity Peripheral Artery Disease.",
+    "abstract": "Lower extremity peripheral artery disease (PAD) affects a large and growing population worldwide and imposes a substantial clinical burden, particularly among older adults and patients with diabetes, chronic kidney disease, and other cardiovascular risk factors.Vascular calcification is a common and clinically important feature of PAD. It can impair diagnostic accuracy, reduce vascular compliance, increase procedural difficulty during endovascular therapy, and adversely affect long-term outcomes, including restenosis, limb loss, and mortality. Therefore, accurate assessment of calcification is essential for risk stratification, treatment planning, and prognostic evaluation.Although advances in imaging have improved the detection and characterization of lower extremity arterial calcification, several challenges remain. Current imaging approaches are limited by inconsistent scoring standards, heterogeneous CT thresholds, incomplete differentiation between intimal and medial calcification, insufficient detection of active microcalcification, and limited evidence linking imaging findings to treatment selection and post-intervention outcomes. This review summarizes the pathophysiological basis of lower extremity arterial calcification in PAD, recent progress in multimodal imaging evaluation, and the clinical application of imaging findings in endovascular treatment planning. We further discuss imaging-guided vessel preparation strategies, current translational limitations, and future directions, including standardized scoring systems, prospective outcome-based validation, artificial intelligence-assisted quantification, and molecular imaging of active calcification.",
+    "englishSummary": "Lower extremity peripheral artery disease (PAD) affects a large and growing population worldwide and imposes a substantial clinical burden, particularly among older adults and patients with diabetes, chronic kidney disease, and other cardiovascular risk factors.Vascular calcification is a common and clinically important feature of PAD. It can impair diagnostic accuracy, reduce vascular compliance, increase procedural difficulty during endovascular therapy, and adversely affect long-term outcomes, including restenosis, limb loss, and mortality. Therefore, accurate assessment of calcification is essential for risk stratification, treatment planning, and prognostic evaluation.Although advances in imaging have improved the detection and characterization of lower extremity arterial calcification, several challenges remain.",
+    "journal": "Annals of vascular surgery",
+    "publicationDate": "2026-07-02",
+    "authors": [
+      "Ding S",
+      "Wang X",
+      "Pan X"
+    ],
+    "affiliations": [
+      "Department of Radiology, Fourth Affiliated Hospital of China Medical University, Shenyang, China.",
+      "Department of Radiology, Fourth Affiliated Hospital of China Medical University, Shenyang, China. Electronic address: panxcmu4th@126.com."
+    ],
+    "doi": "10.1016/j.avsg.2026.06.035",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42392505/",
+    "publicationTypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "topicTags": [
+      "PAD / CLTI",
+      "Endovascular",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Review"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42392285",
+    "title": "Foot dynamic contrast-enhanced MRI for assessing microcirculatory changes after endovascular therapy in peripheral artery disease: A prospective pilot study.",
+    "abstract": "BACKGROUND: Peripheral artery disease (PAD) impairs foot perfusion, whereas successful restoration of macroscopic arterial patency does not necessarily indicate normalization of distal foot microcirculation. OBJECTIVE: To evaluate the feasibility, interobserver reproducibility, and postprocedural responsiveness of foot dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) with extended Tofts modeling for assessing distal foot microcirculatory changes after technically successful endovascular therapy (EVT) in symptomatic PAD. METHODS: In this prospective single-center pilot study, symptomatic PAD patients who underwent technically successful EVT and completed paired pre- and post-EVT foot DCE-MRI were included. Baseline clinical characteristics and ankle-brachial index (ABI) were collected. DCE-MRI pharmacokinetic parameters, including Ktrans, Kep, and Ve, were quantified in predefined foot soft-tissue regions of interest (ROIs). Interobserver reproducibility was assessed using intraclass correlation coefficients (ICCs). Pre- and post-EVT values were compared using paired t-tests or Wilcoxon signed-rank tests according to normality. Exploratory associations between DCE-MRI parameters and ABI were assessed using Spearman correlation. Sensitivity analysis was performed after excluding patients with chronic limb-threatening ischemia (CLTI) and ulceration. RESULTS: Fourteen patients were included in the final paired analysis. ABI improved post-EVT (0.48 [interquartile range (IQR) 0.37-0.58] vs. 0.69 [IQR 0.56-0.76], p&#x202f;=&#x202f;0.004). In the treated limb, Ktrans increased significantly post-EVT (0.0102 [IQR 0.0078-0.0121] vs. 0.0224 [IQR 0.0186-0.0263] min-1, p&#x202f;=&#x202f;0.001), whereas Kep and Ve did not. No significant treatment-related changes were observed in the untreated limb. Ktrans showed exploratory positive associations with ABI pre-EVT (&#x3c1;&#x202f;=&#x202f;0.56, p&#x202f;=&#x202f;0.037) and post-EVT (&#x3c1;&#x202f;=&#x202f;0.66, p&#x202f;=&#x202f;0.011). In sensitivity analysis excluding the two patients with CLTI and ulceration, Ktrans remained significantly increased post-EVT (0.0100 [IQR 0.0058-0.0112] vs. 0.0200 [IQR 0.0158-0.0244] min-1, p&#x202f;=&#x202f;0.003). CONCLUSIONS: Foot DCE-MRI was feasible and reproducible in this pilot PAD cohort. Ktrans showed the most consistent post-EVT increase and may represent a candidate imaging marker of post-EVT microcirculatory change.",
+    "englishSummary": "BACKGROUND: Peripheral artery disease (PAD) impairs foot perfusion, whereas successful restoration of macroscopic arterial patency does not necessarily indicate normalization of distal foot microcirculation. OBJECTIVE: To evaluate the feasibility, interobserver reproducibility, and postprocedural responsiveness of foot dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) with extended Tofts modeling for assessing distal foot microcirculatory changes after technically successful endovascular therapy (EVT) in symptomatic PAD. METHODS: In this prospective single-center pilot study, symptomatic PAD patients who underwent technically successful EVT and completed paired pre- and post-EVT foot DCE-MRI were included.",
+    "journal": "Magnetic resonance imaging",
+    "publicationDate": "2026-07-02",
+    "authors": [
+      "Zhou K",
+      "Chen C",
+      "Du S",
+      "Zhang J",
+      "Li S",
+      "Zhu T",
+      "Dong Y",
+      "Zhang W"
+    ],
+    "affiliations": [
+      "Department of Vascular Surgery, Huadong Hospital, Fudan University, Shanghai, China.",
+      "Department of Orthopeadic, Huadong Hospital Affiliated to Fudan University, Shanghai, China.",
+      "Department of Radiology, Huadong Hospital, Fudan University, Shanghai, China.",
+      "Department of Radiology, Huadong Hospital, Fudan University, Shanghai, China. Electronic address: doctor_dy@163.com.",
+      "Department of Vascular Surgery, Huadong Hospital, Fudan University, Shanghai, China. Electronic address: zhangwan_hd@fudan.edu.cn."
+    ],
+    "doi": "10.1016/j.mri.2026.110740",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42392285/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "PAD / CLTI",
+      "Endovascular",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 11,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42391878",
+    "title": "Efficacy and safety of recombinant human thrombopoietin (rhTPO) in critically ill patients with severe thrombocytopenia: A single-center retrospective cohort study.",
+    "abstract": "BACKGROUND: Recombinant human thrombopoietin (rhTPO) has demonstrated proven efficacy in the management of chemotherapy-related and immune-mediated thrombocytopenia. In contrast, thrombocytopenia among intensive care unit (ICU) patients is typically multifactorial and develops in the setting of severe systemic illness. Therefore, the clinical efficacy and safety of rhTPO in critically ill patients remain uncertain and require further evaluation. METHODS: In this retrospective study, 172 ICU patients with severe non-chemotherapy- and non-immune-related thrombocytopenia were included. Patients were categorized into rhTPO and non-rhTPO groups according to whether rhTPO was administered. The dynamic changes of laboratory variables were analyzed using generalized estimating equations (GEE). Multivariate logistic regression analysis was performed to identify factors associated with clinical efficacy and 28-day mortality. RESULTS: 9 By the third day of treatment, platelet (PLT) counts were significantly higher and rose more rapidly in the rhTPO group than in the non-rhTPO group (P&#xa0;<&#xa0;0.001), corresponding to a higher clinical response rate (P&#xa0;<&#xa0;0.001). Although 28-day mortality did not differ significantly between the groups (P&#xa0;=&#xa0;0.514), hospital stay was prolonged in the rhTPO group (P&#xa0;<&#xa0;0.001). Treatment with rhTPO was not associated with marked alterations in liver or renal function, coagulation parameters, or inflammatory markers. However, the incidence of deep vein thrombosis was numerically higher in the rhTPO group compared with controls, albeit without statistical significance (P&#xa0;=&#xa0;0.086). Multivariate logistic regression confirmed that rhTPO administration (OR&#xa0;=&#xa0;11.513, P&#xa0;<&#xa0;0.001) was an independent protective factor for achieving clinical efficacy, while a baseline platelet count <30&#xa0;&#xd7;&#xa0;10/L (OR&#xa0;=&#xa0;0.385, P&#xa0;=&#xa0;0.043) was an independent risk factor. In addition, vasopressor use (OR&#xa0;=&#xa0;2.549, P&#xa0;=&#xa0;0.048) was identified as an independent risk factor for 28-day mortality. CONCLUSIONS: RhTPO was associated with higher clinical response rates and a relatively safe profile in ICU patients; however, definitive causal relationships cannot be inferred from these retrospective data.",
+    "englishSummary": "BACKGROUND: Recombinant human thrombopoietin (rhTPO) has demonstrated proven efficacy in the management of chemotherapy-related and immune-mediated thrombocytopenia. In contrast, thrombocytopenia among intensive care unit (ICU) patients is typically multifactorial and develops in the setting of severe systemic illness. Therefore, the clinical efficacy and safety of rhTPO in critically ill patients remain uncertain and require further evaluation.",
+    "journal": "International immunopharmacology",
+    "publicationDate": "2026-07-02",
+    "authors": [
+      "Shen W",
+      "Wei Q",
+      "Chen Z",
+      "Chen X",
+      "Xu F",
+      "Fan H"
+    ],
+    "affiliations": [
+      "Department of Intensive Care Unit, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang Province, People's Republic of China. Electronic address: hss2848@163.com.",
+      "Department of Intensive Care Unit, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang Province, People's Republic of China. Electronic address: 2311140123@nbu.edu.cn.",
+      "Department of Intensive Care Unit, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang Province, People's Republic of China. Electronic address: chenzhaoY_upup@163.com.",
+      "Department of Intensive Care Unit, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang Province, People's Republic of China. Electronic address: chenxxnb@163.com.",
+      "Department of Intensive Care Unit, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang Province, People's Republic of China; Central Laboratory, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang Province, People's Republic of China. Electronic address: xufengnbu@163.com.",
+      "Department of Intensive Care Unit, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang Province, People's Republic of China; Department of Critical Care Medicine, People's Hospital of Ganluo County, Ganluo, Sichuan Province, People's Republic of China. Electronic address: peterbenny@163.com."
+    ],
+    "doi": "10.1016/j.intimp.2026.117104",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42391878/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 human study: human",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42391253",
+    "title": "Gold wrist-assisted PFNA reduces internal complications and enhances recovery in obese osteoporotic patients with intertrochanteric femur fractures.",
+    "abstract": "INTRODUCTION: Obese, osteoporotic patients with intertrochanteric fractures face higher surgical risks and delayed recovery. The \"Gold Wrist,\" an auxiliary curved guiding instrument for proximal femoral nail anti-rotation (PFNA), was developed to assist guidewire placement and improve procedural efficiency. METHODS: In this retrospective cohort study, 500 patients (almost all with BMI&#x2009;>&#x2009;28 and varying degrees of osteoporosis) underwent PFNA using either the Gold Wrist (n&#x2009;=&#x2009;250) or conventional instruments (n&#x2009;=&#x2009;250). Outcomes included operative time, fluoroscopy exposure, incision length, inflammatory markers, functional recovery, internal medicine complications, mechanical complications, hospitalization cost, and estimated carbon footprint. Finite element analysis assessed device mechanical stability. RESULTS: Finite element analysis confirmed reliable mechanical performance. The Gold Wrist group had shorter operative time (114.7&#x2009;&#xb1;&#x2009;34.6 vs. 127.3&#x2009;&#xb1;&#x2009;34.3 min), smaller incisions (6.15&#x2009;&#xb1;&#x2009;1.88 vs. 7.27&#x2009;&#xb1;&#x2009;1.79 cm), and lower TNF-&#x3b1;, IL-6, CRP, and CK levels (all P&#x2009;<&#x2009;0.0001). Functional recovery was faster, with higher Harris Hip Scores (87.7&#x2009;&#xb1;&#x2009;2.7 vs. 84.7&#x2009;&#xb1;&#x2009;3.4) and greater hip motion. Internal medicine complications-including infection, deep vein thrombosis, pulmonary embolism, and cardiovascular events-were significantly reduced. Mechanical complications, including implant failure, were reported separately. Hospitalization costs and estimated carbon footprint were also lower. CONCLUSION: The auxiliary Gold Wrist device improves surgical precision, accelerates recovery, and reduces internal medicine complications in obese, osteoporotic patients undergoing PFNA. It offers a clinically effective and sustainable approach to managing high-risk intertrochanteric fractures.",
+    "englishSummary": "INTRODUCTION: Obese, osteoporotic patients with intertrochanteric fractures face higher surgical risks and delayed recovery. The \"Gold Wrist,\" an auxiliary curved guiding instrument for proximal femoral nail anti-rotation (PFNA), was developed to assist guidewire placement and improve procedural efficiency. METHODS: In this retrospective cohort study, 500 patients (almost all with BMI&#x2009;>&#x2009;28 and varying degrees of osteoporosis) underwent PFNA using either the Gold Wrist (n&#x2009;=&#x2009;250) or conventional instruments (n&#x2009;=&#x2009;250).",
+    "journal": "PloS one",
+    "publicationDate": "2026-07-02",
+    "authors": [
+      "Wu Z",
+      "Li J",
+      "Mao S",
+      "Lu J",
+      "Zhao Y",
+      "Yu S",
+      "Tian D",
+      "Jing J",
+      "Ao R",
+      "Xu X"
+    ],
+    "affiliations": [
+      "Department of Orthopaedics, The Second Affiliated Hospital of Anhui Medical University, Hefei, China.",
+      "Institute of Orthopaedics, Research Center for Translational Medicine, The Second Affiliated Hospital of Anhui Medical University, Hefei, China.",
+      "Department of Orthopaedics, Shanghai Seventh People's Hospital, Shanghai, China."
+    ],
+    "doi": "10.1371/journal.pone.0348432",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42391253/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "Vascular Graft / Stent / Device",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 8,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: device",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42390739",
     "title": "Vascular geometry characterization for AI-based endovascular navigation.",
     "abstract": "PURPOSE: Mechanical thrombectomy (MT) is a time-critical intervention for acute ischemic stroke; however, access remains limited due to a shortage of neuroradiologists and specialized centers. Reinforcement learning (RL) offers potential to automate endovascular navigation and improve accessibility, yet current models lack standardized frameworks to assess navigation difficulty for model training and evaluation. This study aims to identify vascular metrics associated with navigation difficulty and to develop an automated pipeline for quantitative vascular feature extraction, enabling future complexity grading. METHODS: Vascular trees were segmented from computed tomography angiograms from 61 patients, and vascular metrics including aortic arch type, presence of bovine arch, vessel length, tortuosity, take-off angle, number of reverse curves were measured using a custom pipeline. A Soft Actor-Critic RL algorithm was used for 120&#xa0;s autonomous navigation. Outcomes were analyzed using both mixed-effects linear and logistic regression . RESULTS: &#x3b2; = 118.20 On the left side, the presence of a bovine arch and aortic arch type&#xa0;II/III increased the navigation time by&#xa0;30.19&#xa0;s and&#xa0;37.92&#xa0;s, respectively, while greater tortuosity () further prolonged the procedure and reduced success probability. On the right side, type&#xa0;II/III arches extended the procedure time by&#xa0;45.94&#xa0;s, while each additional reverse curve was associated with&#xa0;3.96&#xa0;s longer navigation time and lower probability of success . CONCLUSIONS: These findings demonstrate for the first time that MT agent navigation difficulty is strongly influenced by vascular geometry. The proposed automated pipeline enables objective and quantitative characterization of vascular features, providing a foundation for future development of standardized complexity grading and RL model evaluation, without aiming to demonstrate clinically generalizable autonomous navigation. Our code for automated vascular metrics quantification is available at http://github.com/SurgicalDataScienceKCL/AI-VascularGeometryCharacterisation.",
@@ -218,6 +671,54 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42396897",
+    "title": "Perfluorooctane Sulfonate Exposure and Peripheral Artery Disease: Mendelian Randomization and Integrative Multi-Omics Systems Toxicology With Machine Learning.",
+    "abstract": "Epidemiological and experimental studies have linked legacy and emerging PFAS to adverse cardiovascular outcomes, yet most evidence remains observational and is susceptible to confounding, measurement error, and reverse causation. This study used European-ancestry GWAS data and two-sample Mendelian randomization to assess potential causal associations between PFOA or PFOS exposure and five cardiovascular diseases. For significant MR findings, network toxicology was integrated with transcriptomic data to identify candidate targets and pathways, followed by machine learning-based prioritization. Immune cell infiltration, single-cell transcriptomic analysis, molecular docking, and molecular dynamics simulation were further applied to explore immune mechanisms and pollutant-protein interactions. Genetically predicted PFOS exposure was associated with an increased risk of peripheral artery disease. Enrichment analysis implicated PPAR and PI3K-Akt signaling pathways, while machine learning based on 129 overlapping genes identified HMOX1, KDR, MMP9, and PPARG as key targets. Immune infiltration and single-cell analyses indicated remodeling of the PAD immune microenvironment, with HMOX1 mainly enriched in macrophages. Virtual knockout highlighted APC-related MHC II antigen presentation, and docking and dynamics simulations supported stable PFOS-HMOX1 binding. These findings suggest a potential PFOS-PAD association and provide candidate biomarkers for further validation.",
+    "englishSummary": "Epidemiological and experimental studies have linked legacy and emerging PFAS to adverse cardiovascular outcomes, yet most evidence remains observational and is susceptible to confounding, measurement error, and reverse causation. This study used European-ancestry GWAS data and two-sample Mendelian randomization to assess potential causal associations between PFOA or PFOS exposure and five cardiovascular diseases. For significant MR findings, network toxicology was integrated with transcriptomic data to identify candidate targets and pathways, followed by machine learning-based prioritization.",
+    "journal": "Chemical biology & drug design",
+    "publicationDate": "2026-07-01",
+    "authors": [
+      "Lan X",
+      "Wu Q",
+      "Zhou J",
+      "Jiang J",
+      "Yang G",
+      "Yang H",
+      "Chen Y",
+      "Zeng J",
+      "Han C",
+      "Yang J"
+    ],
+    "affiliations": [
+      "Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+      "Chengdu Shuangliu Hospital of Traditional Chinese Medicine, Chengdu, China.",
+      "School of Nursing, Chengdu University of Traditional Chinese Medicine, Chengdu, China.",
+      "The Second Hospital, Jilin University Department of Hepatopancreatobiliary Medicine, Jilin, China.",
+      "Department of Cardiology, The Affiliated Suzhou Hospital of Nanjing Medical University, Suzhou Municipal Hospital, Gusu School, Nanjing Medical University, Suzhou, China.",
+      "Suzhou Key Laboratory of Cardiovascular Disease, Suzhou, China."
+    ],
+    "doi": "10.1111/cbdd.70352",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42396897/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "PAD / CLTI",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "low",
+    "score": 2,
+    "scoreReasons": [
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -641,6 +1142,49 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42302924",
+    "title": "Endothelial-to-mesenchymal transition in ischemic diseases: Molecular mechanisms, pathophysiological roles, and emerging therapeutic strategies.",
+    "abstract": "Ischemic diseases, characterized by insufficient blood perfusion and vascular dysfunction, are a major cause of morbidity and mortality worldwide, including myocardial infarction (MI), ischemic stroke (IS), peripheral artery disease (PAD), and ischemic retinopathy. Endothelial-to-mesenchymal transition (EndMT) plays important roles in both physiological and pathophysiological processes. Under physiological conditions, EndMT is a tightly regulated developmental process required for embryonic cardiovascular formation. However, under pathological conditions such as ischemia, EndMT can be aberrantly activated by hypoxia, inflammatory signaling, and oxidative stress. Accumulating evidence indicates that EndMT plays dual roles in ischemic diseases. Partial EndMT may contribute to adaptive vascular remodeling and angiogenesis during the early phase of tissue injury, whereas persistent activation promotes endothelial dysfunction, extracellular matrix deposition, fibrosis, and chronic inflammation, thereby exacerbating disease progression. In this review, we summarize the current understanding of EndMT in ischemic diseases, focusing on the major regulatory signaling pathways, including TGF-&#x3b2;/Smad, Wnt/&#x3b2;-catenin, and Notch signaling, as well as epigenetic mechanisms such as histone modifications, DNA methylation, and non-coding RNAs. We further discuss emerging therapeutic strategies targeting EndMT, encompassing endogenous hormones, traditional Chinese medicine formulations, natural compounds, small molecule compounds, and RNA-based therapeutics. The clinical translation of EndMT is hindered by the lack of standardized diagnostic criteria and the limitations of existing experimental models. A deeper understanding of the EndMT regulatory network may provide new insights into vascular remodeling and facilitate the development of novel therapeutic strategies.",
+    "englishSummary": "Ischemic diseases, characterized by insufficient blood perfusion and vascular dysfunction, are a major cause of morbidity and mortality worldwide, including myocardial infarction (MI), ischemic stroke (IS), peripheral artery disease (PAD), and ischemic retinopathy. Endothelial-to-mesenchymal transition (EndMT) plays important roles in both physiological and pathophysiological processes. Under physiological conditions, EndMT is a tightly regulated developmental process required for embryonic cardiovascular formation.",
+    "journal": "Life sciences",
+    "publicationDate": "2026-06-16",
+    "authors": [
+      "He Z",
+      "Yang Q",
+      "Ji X",
+      "Li J",
+      "Xu M"
+    ],
+    "affiliations": [
+      "Department of Clinical Pharmacy, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, 210009, China.",
+      "Adicon Holdings Limited, Nanjing, 210009, China.",
+      "Department of Pharmacy, Nanjing First Hospital, Nanjing Medical University, Nanjing, 210006, China.",
+      "Department of Clinical Pharmacy, School of Basic Medicine and Clinical Pharmacy, China Pharmaceutical University, Nanjing, 210009, China. Electronic address: mingxu@cpu.edu.cn."
+    ],
+    "doi": "10.1016/j.lfs.2026.124542",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42302924/",
+    "publicationTypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "topicTags": [
+      "PAD / CLTI",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Review"
+    ],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 human study: clinical",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42358229",
     "title": "Machine learning-based prediction of mortality and hospitalization in diabetic patients with heart failure with preserved ejection fraction: the GUARDIAN-P risk score.",
     "abstract": "AIMS: Diabetes mellitus (DM) is a major contributor to adverse outcomes in patients with heart failure with preserved ejection fraction (HFpEF). We aim to develop and externally validate a machine learning-based model using a random survival forest (RSF) approach for predicting the composite outcome of hospitalization for heart failure (HHF) and cardiovascular (CV) death in patients with DM and HFpEF. METHODS AND RESULTS: n This retrospective cohort study included 1450 adult patients with coexisting DM and HFpEF identified from the National Taiwan University Hospital-Integrated Medical Database. An initial RSF model was trained using 27 clinical variables, and the top 9 predictors were selected to construct a parsimonious final model. Predictive performance was evaluated using the area under the receiver operating characteristic curve (AUC), and external validation was conducted in an independent cohort (= 729) from MacKay Memorial Hospital. Over a mean follow-up of 3.6 &#xb1; 3.0 years, 327 patients (22.6%) experienced the composite outcome. The final RSF model achieved an AUC of 88.2% in the training cohort and 79.8% in the validation cohort. The nine selected predictors were age, N-terminal pro-brain natriuretic peptide, serum albumin, fasting glucose, estimated glomerular filtration rate, uric acid, left atrial diameter, peripheral artery disease, and left ventricular ejection fraction. Risk increased progressively with the number of risk factors present. CONCLUSION: The RSF-based model incorporating nine routinely available variables accurately predicts HHF and CV death in patients with DM and HFpEF. This tool may support personalized risk assessment and guide clinical decision-making.",
@@ -878,44 +1422,6 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42129579",
-    "title": "Association of postoperative acetabular abduction angle with gait asymmetry and adverse reactions following total hip arthroplasty across different surgical approaches.",
-    "abstract": "BACKGROUND: Total hip arthroplasty (THA) is effective for end-stage hip disorders, but evidence on the combined effects of surgical approach and acetabular abduction angle remains limited. This study investigated the associations of surgical approach and acetabular abduction angle with gait symmetry, prosthesis alignment, and complications after THA. RESEARCH DESIGN AND METHODS: n This retrospective study included 120 patients undergoing unilateral THA, divided into a posterolateral approach (PLA) group and a direct anterior approach (DAA) group (= 60 each). Each group was further stratified by acetabular abduction angle (ideal 40&#xb0;-50&#xb0;; non-ideal: <40&#xb0; or >50&#xb0;). Gait asymmetry index (AI), acetabular anteversion, hip center displacement, and serum inflammatory marker levels were assessed postoperatively. Adverse events within 12&#x2009;months were recorded. RESULTS: p p p The DAA group exhibited lower AI values, hip-center deviations, and inflammatory marker levels at early postoperative stages than the PLA group (&#x2009;<&#x2009;0.05). The DAA group also had reduced rates of dislocation, wound infection, and deep vein thrombosis (&#x2009;<&#x2009;0.05). Dislocation occurred less frequently in the ideal-angle subgroup (&#x2009;<&#x2009;0.05). CONCLUSION: The direct anterior approach and an acetabular abduction angle of 40&#xb0;-50&#xb0; were associated with improved early recovery, reduced gait asymmetry, and lower complication rates after THA.",
-    "englishSummary": "BACKGROUND: Total hip arthroplasty (THA) is effective for end-stage hip disorders, but evidence on the combined effects of surgical approach and acetabular abduction angle remains limited. This study investigated the associations of surgical approach and acetabular abduction angle with gait symmetry, prosthesis alignment, and complications after THA. RESEARCH DESIGN AND METHODS: n This retrospective study included 120 patients undergoing unilateral THA, divided into a posterolateral approach (PLA) group and a direct anterior approach (DAA) group (= 60 each).",
-    "journal": "Expert review of medical devices",
-    "publicationDate": "2026-05-19",
-    "authors": [
-      "Xian S",
-      "Chen M",
-      "Zhai Y"
-    ],
-    "affiliations": [
-      "Department of Orthopedics, Affiliated Hospital of Chengdu University, Chengdu, Sichuan, China."
-    ],
-    "doi": "10.1080/17434440.2026.2675019",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42129579/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "Vascular Graft / Stent / Device",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Review"
-    ],
-    "relevance": "medium",
-    "score": 4,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
     "pmid": "42384904",
     "title": "Incidence and Risk Factors of Catheter-Related Thrombosis in Oncology Patients With Internal Jugular and Subclavian Implanted Ports: A Retrospective Single-Center Study.",
     "abstract": "OBJECTIVE: This study compared the clinical characteristics of catheter-related thrombosis (CRT) associated with internal jugular and subclavian vein-implanted ports. METHODS: This retrospective study enrolled patients who were newly implanted with a vascular access port between January and December 2022. Relevant patient and clinical information, including demographic data, catheter details, and CRT results, were mainly obtained from the hospital's electronic medical record database. Follow-up was conducted until the time of the patient's first occurrence of thrombus at the infusion port or the last vascular color Doppler ultrasound available for patients without thrombus up to the study deadline (December 2024). RESULTS: Among 647 patients who underwent B-ultrasound examinations due to different reasons, such as discomfort symptoms, catheter dysfunction, and pre-extubation thrombus screening, 277 patients (42.8%) experienced CRT, and the median time to thrombosis was 14 (12, 16) months. It was most frequently located at the entrance of the catheterized vein (36.6%). Breast cancer and internal jugular vein catheterization were risk factors for CRT. After pairwise comparisons, there was a significant difference in the median time (4 [2, 7] vs 5 [3, 10] months) between the early onset thrombus (hypoechoic), and older thrombi (hyperechoic signal) (adjusted P = .021). CONCLUSION: For cancer patients who undergo ultrasound examinations for various reasons, the risk of CRT is relatively high. More attention should be paid to patients with breast cancer and with internal jugular vein implantation around 14 months after catheterization.",
@@ -955,41 +1461,46 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42024253",
-    "title": "Expression of Chitosanase-3-like Protein 1 in Outflow Tract Veins of Patients with Autologous Arteriovenous Fistula Failure and Potential Involvement with Phenotypic Transformation of Medial Smooth Muscle Cells.",
-    "abstract": "OBJECTIVE: Chitosanase-3-like protein (CHI3L1) serum levels are expressed at elevated levels in Autologous arteriovenous fistula (AVF) dysfunction patients. This study was to investigate the expression and possible mechanisms of CHI3L1 in vascular tissues of AVF dysfunction patients. METHODS: Collect healthy venous tissue from the head of uremic patients undergoing their first AVF surgery (control group) and non-functional fistula tissue from patients undergoing reconstructive surgery after AVF dysfunction (a total of 6 paired samples). The pathological characteristics of the tissues were observed using HE staining and EVG staining. CHI3L1 and M2 macrophage secreted factors (TGF-&#x3b2;1, PDGF, MMP2 and MMP9) proteins were analyzed by immunoblotting. The expression and localization of myofibroblast marker protein &#x3b1;-SMA and M2 macrophage marker protein CD206 were assessed by immunofluorescence labeling. RESULTS: The lumen of the failed fistula tissues was significantly narrowed, with significant thickening of the venous intima and elastic fiber breakage compared with the control group. CHI3L1, TGF-&#x3b2;1, PDGF, MMP2 and MMP9 in the failed fistula tissues was significantly higher than that in the control group (P&#x2009;<&#x2009;0.01). &#x3b1;-SMA and CD206 expression in the failed fistula tissues was significantly increased and clustered in the intima. Both &#x3b1;-SMA and CD206 in the intima were co-localized with CHI3L1. CONCLUSION: CHI3L1 is highly expressed in dysfunctional fistula tissue, coexisting with M2 macrophage markers and &#x3b1;-SMA-positive cells. This suggests it may influence the proliferation, migration, and phenotypic transformation of medial smooth muscle cells by interacting with M2 macrophages and their secreted factors, thereby contributing to the development and progression of AVF dysfunction.",
-    "englishSummary": "OBJECTIVE: Chitosanase-3-like protein (CHI3L1) serum levels are expressed at elevated levels in Autologous arteriovenous fistula (AVF) dysfunction patients. This study was to investigate the expression and possible mechanisms of CHI3L1 in vascular tissues of AVF dysfunction patients. METHODS: Collect healthy venous tissue from the head of uremic patients undergoing their first AVF surgery (control group) and non-functional fistula tissue from patients undergoing reconstructive surgery after AVF dysfunction (a total of 6 paired samples).",
-    "journal": "Applied biochemistry and biotechnology",
-    "publicationDate": "2026-04-23",
+    "pmid": "42396236",
+    "title": "Current evidence and future directions for prophylactic anticoagulation therapy after severe spontaneous intracerebral hemorrhage: a narrative review.",
+    "abstract": "Patients with spontaneous intracerebral hemorrhage (sICH) are at high risk for venous thromboembolism (VTE), a complication strongly associated with adverse clinical outcomes. While prophylactic anticoagulation has been shown to effectively reduce VTE incidence, significant uncertainty remains regarding its safety and the optimal timing of initiation. This article comprehensively reviews key aspects including anticoagulant selection, patient eligibility, therapeutic time windows, and current clinical challenges. Research gaps persist in defining appropriate anticoagulation strategies according to drug type, initiation timing, and sICH subtypes (e.g., lobar, deep, or amyloid-related hemorrhage). Future efforts should focus on conducting large-scale, multicenter, prospective clinical trials to validate the efficacy and safety of novel anticoagulants. Concurrently, integrating machine learning to develop high-precision risk prediction models, tailoring individualized treatment approaches, and establishing multidisciplinary collaborative research frameworks are essential steps toward advancing the standardization and rationalization of prophylactic anticoagulation in patients with severe sICH.",
+    "englishSummary": "Patients with spontaneous intracerebral hemorrhage (sICH) are at high risk for venous thromboembolism (VTE), a complication strongly associated with adverse clinical outcomes. While prophylactic anticoagulation has been shown to effectively reduce VTE incidence, significant uncertainty remains regarding its safety and the optimal timing of initiation. This article comprehensively reviews key aspects including anticoagulant selection, patient eligibility, therapeutic time windows, and current clinical challenges.",
+    "journal": "Journal of intensive medicine",
+    "publicationDate": "2026-04-22",
     "authors": [
-      "Chen X",
-      "Xu J",
-      "Yao F",
-      "Yan S"
+      "Yang Q",
+      "Mei J",
+      "Feng W",
+      "Deng S",
+      "Yan R",
+      "Gong Y"
     ],
     "affiliations": [
-      "Department of Nephrology, Zhoushan Hospital, No.739, Dingshen Road, Lincheng New District, Zhoushan City, Zhejiang Province, 316021, China. chenxuebobo33@outlook.com.",
-      "Department of Nephrology, Zhoushan Hospital, No.739, Dingshen Road, Lincheng New District, Zhoushan City, Zhejiang Province, 316021, China."
+      "Department of Critical Care Medicine, Huashan Hospital Affiliated to Fudan University, Shanghai, China."
     ],
-    "doi": "10.1007/s12010-026-05675-0",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42024253/",
+    "doi": "10.1016/j.jointm.2026.02.001",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42396236/",
     "publicationTypes": [
-      "Journal Article"
+      "Journal Article",
+      "Review"
     ],
     "topicTags": [
-      "Dialysis Access",
+      "Venous Disease",
+      "Antithrombotic Therapy",
       "China Research"
     ],
-    "studyTypeTags": [],
+    "studyTypeTags": [
+      "Review"
+    ],
     "relevance": "high",
     "score": 6,
     "scoreReasons": [
       "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
+      "+2 treatment or prognosis relevance: treatment",
       "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -1032,85 +1543,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "41864535",
-    "title": "The Caprini score for venous thromboembolism risk assessment: A scoping review of applications, validation, and future directions.",
-    "abstract": "OBJECTIVE: The aim of this study was to characterize the contemporary academic landscape surrounding the Caprini venous thromboembolism (VTE) risk assessment model (RAM), including its application patterns, reported performance, evolving scholarly perspectives, and dominant refinement strategies. METHODS: A scoping review was conducted following the Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Scoping Reviews framework. PubMed, Web of Science, Embase, and the Cochrane Library were systematically searched for studies published between January 1, 2021, and December 31, 2025, using terms including \"Caprini score,\" \"venous thromboembolism,\" and \"risk assessment.\" Eligible studies reported on the validation, application, or modification of the Caprini RAM in adult patients. Data on study characteristics, predictive performance metrics (eg, area under the curve [AUC]), author conclusions, and model refinement details were extracted. RESULTS: From 754 identified records, 275 studies met the inclusion criteria. Analysis of 275 studies with codable author perspectives revealed a distribution of supportive (113 studies; 41.1%), neutral (96 studies; 34.9%), and critical (66 studies; 24.0%) stances. Fifty-two studies providing paired AUC data reported a mean baseline Caprini score AUC of 0.702 (standard deviation [SD], 0.104), compared with a mean AUC of 0.832 (SD, 0.080) for refined or new models. The mean AUC improvement was 0.130 (SD, 0.117), with a median improvement of 0.105 (interquartile range, 0.106); improvements were observed in 98.1% of these comparisons. Critical perspectives frequently cited poor accuracy in specific populations (eg, medical inpatients) and operational complexity. In response, 111 studies proposed refinements categorized into four domains: integration of biomarkers (33 studies), development of specialty-specific/simplified models (45 studies), application of artificial intelligence/machine learning (23 studies), and optimization of assessment processes (30 studies). CONCLUSIONS: This review quantifies a fragmented scholarly discourse on the Caprini RAM, reflecting its validated utility in certain contexts alongside recognized limitations driving extensive model refinement. The significant performance gains reported for refined models, particularly in specialties where the original score underperforms, highlight the ongoing evolution of VTE risk assessment toward more precise and context-adapted tools.",
-    "englishSummary": "OBJECTIVE: The aim of this study was to characterize the contemporary academic landscape surrounding the Caprini venous thromboembolism (VTE) risk assessment model (RAM), including its application patterns, reported performance, evolving scholarly perspectives, and dominant refinement strategies. METHODS: A scoping review was conducted following the Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Scoping Reviews framework. PubMed, Web of Science, Embase, and the Cochrane Library were systematically searched for studies published between January 1, 2021, and December 31, 2025, using terms including \"Caprini score,\" \"venous thromboembolism,\" and \"risk assessment.\" Eligible studies reported on the validation, application, or modification of the Caprini RAM in adult patients.",
-    "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
-    "publicationDate": "2026-03-20",
-    "authors": [
-      "Zhang J",
-      "Jiang Y",
-      "Zhou D",
-      "Zhu N"
-    ],
-    "affiliations": [
-      "Department of Pulmonary and Critical Care Medicine, Huashan Hospital, Fudan University, Shanghai, China.",
-      "Department of Preventive Medicine, Xiangnan University, Chenzhou, Hunan, China.",
-      "Department of Pulmonary and Critical Care Medicine, Huashan Hospital, Fudan University, Shanghai, China. Electronic address: doctorzhuning@163.com."
-    ],
-    "doi": "10.1016/j.jvsv.2026.102483",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41864535/",
-    "publicationTypes": [
-      "Scoping Review",
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Review"
-    ],
-    "relevance": "medium",
-    "score": 4,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "41823615",
-    "title": "Letter to the Editor: High Risk of Venous Thromboembolism With Aspirin Prophylaxis After THA for High-riding Developmental Dysplasia of the Hip: A Retrospective, Comparative Study.",
-    "abstract": "",
-    "englishSummary": "",
-    "journal": "Clinical orthopaedics and related research",
-    "publicationDate": "2026-03-13",
-    "authors": [
-      "Qu S",
-      "Ding J",
-      "Song J",
-      "Jiang H"
-    ],
-    "affiliations": [
-      "Dalian Medical University, Dalian, Liaoning, PR China.",
-      "Department of Orthopedics, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, PR China."
-    ],
-    "doi": "10.1097/CORR.0000000000003897",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41823615/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "Antithrombotic Therapy",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "low",
-    "score": 2,
-    "scoreReasons": [
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -1198,43 +1630,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "41503834",
-    "title": "Proteome-Wide Mendelian Randomization Reveals Biomarkers for Abdominal Aortic Aneurysm.",
-    "abstract": "BACKGROUND: Abdominal aortic aneurysm (AAA) is a progressive vascular disorder that enlarges irreversibly and may ultimately rupture. Mendelian randomization (MR) provides a powerful approach to uncover biomarkers. We aimed to identify plasma proteins linked to AAA and evaluate their diagnostic potential. METHODS: We performed a proteome-wide MR analysis using genetic instruments for 2,940 plasma proteins from the UK Biobank Pharma Proteomics Project (UKB-PPP). Summary statistics for AAA were obtained from the Finnish R9 GWAS, comprising 4,083 cases and 420,324 controls. RESULTS: Eleven proteins showed significant causal associations with AAA risk (FDR < 0.05): seven positively and four negatively associated, highlighting their potential as diagnostic markers. CONCLUSION: This study provides the first proteome-wide MR evidence linking plasma proteins to AAA, offering candidate biomarkers for diagnosis. As a hypothesis-generating work, further experimental and clinical validation is warranted.",
-    "englishSummary": "BACKGROUND: Abdominal aortic aneurysm (AAA) is a progressive vascular disorder that enlarges irreversibly and may ultimately rupture. Mendelian randomization (MR) provides a powerful approach to uncover biomarkers. We aimed to identify plasma proteins linked to AAA and evaluate their diagnostic potential.",
-    "journal": "Journal of investigative surgery : the official journal of the Academy of Surgical Research",
-    "publicationDate": "2026-01-08",
-    "authors": [
-      "Yan S",
-      "Zhang Y",
-      "Shen C"
-    ],
-    "affiliations": [
-      "Department of Vascular Surgery, Zhoushan Hospital, Zhoushan City, Zhejiang Province, China."
-    ],
-    "doi": "10.1080/08941939.2025.2560332",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41503834/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 human study: clinical",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
