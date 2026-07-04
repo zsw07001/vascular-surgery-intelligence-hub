@@ -1,52 +1,52 @@
 {
-  "generatedAt": "2026-07-03T21:31:43.776Z",
+  "generatedAt": "2026-07-04T21:13:37.597Z",
   "period": {
-    "start": "2026-06-27",
-    "end": "2026-07-03"
+    "start": "2026-06-28",
+    "end": "2026-07-04"
   },
-  "dataUpdatedAt": "2026-07-03T21:31:43.776Z",
+  "dataUpdatedAt": "2026-07-04T21:13:37.597Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-07-03T21:31:43.776Z"
+      "updatedAt": "2026-07-04T21:13:37.597Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 760,
-      "updatedAt": "2026-07-03T21:31:43.776Z"
+      "updatedAt": "2026-07-04T21:13:37.597Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 10,
-      "updatedAt": "2026-07-03T21:31:43.776Z"
+      "updatedAt": "2026-07-04T21:13:37.597Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-03T21:31:43.776Z"
+      "updatedAt": "2026-07-04T21:13:37.597Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-03T21:31:43.776Z"
+      "updatedAt": "2026-07-04T21:13:37.597Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-07-03T21:31:43.776Z"
+      "updatedAt": "2026-07-04T21:13:37.597Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 80,
-    "chinaResearch": 37,
+    "highImpact": 77,
+    "chinaResearch": 36,
     "clinicalTrials": 760,
     "guidelines": 10,
     "devices": 40,
@@ -58,11 +58,11 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 69
+      "count": 73
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 61
+      "count": 60
     },
     {
       "tag": "Venous Disease",
@@ -70,11 +70,11 @@
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 49
+      "count": 46
     },
     {
       "tag": "China Research",
-      "count": 37
+      "count": 36
     },
     {
       "tag": "PAD / CLTI",
@@ -86,7 +86,7 @@
     },
     {
       "tag": "Open Surgery",
-      "count": 19
+      "count": 20
     }
   ],
   "priorityReading": [
@@ -182,26 +182,6 @@
       "doi": "10.1186/s40959-026-00520-z"
     },
     {
-      "pmid": "42360019",
-      "title": "Dermatological Safety of Chlorhexidine-Impregnated Dressings in Paediatric Intensive Care: A Randomised Clinical Trial.",
-      "source": "PubMed",
-      "date": "2026-07-01",
-      "journal": "Nursing in critical care",
-      "topicTags": [
-        "PAD / CLTI"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42360019/",
-      "doi": "10.1111/nicc.70554"
-    },
-    {
       "pmid": "42386048",
       "title": "One-Year Clinical and Imaging Outcomes After Dedicated Sirolimus-Eluting Stenting for Symptomatic Vertebral Artery Origin Stenosis: A Real-World Cohort Study.",
       "source": "PubMed",
@@ -245,6 +225,27 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42268537/",
       "doi": "10.1007/s11695-026-08765-4"
+    },
+    {
+      "pmid": "42399855",
+      "title": "Computational fluid dynamics evaluation of physician-modified stent graft repair for distal residual stanford type B aortic dissection.",
+      "source": "PubMed",
+      "date": "2026-07-03",
+      "journal": "BMC cardiovascular disorders",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399855/",
+      "doi": "10.1186/s12872-026-06172-2"
     },
     {
       "pmid": "42392108",
@@ -405,26 +406,6 @@
       "doi": "10.1186/s40959-026-00520-z"
     },
     {
-      "pmid": "42360019",
-      "title": "Dermatological Safety of Chlorhexidine-Impregnated Dressings in Paediatric Intensive Care: A Randomised Clinical Trial.",
-      "source": "PubMed",
-      "date": "2026-07-01",
-      "journal": "Nursing in critical care",
-      "topicTags": [
-        "PAD / CLTI"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42360019/",
-      "doi": "10.1111/nicc.70554"
-    },
-    {
       "pmid": "42386048",
       "title": "One-Year Clinical and Imaging Outcomes After Dedicated Sirolimus-Eluting Stenting for Symptomatic Vertebral Artery Origin Stenosis: A Real-World Cohort Study.",
       "source": "PubMed",
@@ -468,6 +449,27 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42268537/",
       "doi": "10.1007/s11695-026-08765-4"
+    },
+    {
+      "pmid": "42399855",
+      "title": "Computational fluid dynamics evaluation of physician-modified stent graft repair for distal residual stanford type B aortic dissection.",
+      "source": "PubMed",
+      "date": "2026-07-03",
+      "journal": "BMC cardiovascular disorders",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399855/",
+      "doi": "10.1186/s12872-026-06172-2"
     },
     {
       "pmid": "42392108",
@@ -605,6 +607,27 @@
       "doi": "10.1016/j.wneu.2026.125170"
     },
     {
+      "pmid": "42399855",
+      "title": "Computational fluid dynamics evaluation of physician-modified stent graft repair for distal residual stanford type B aortic dissection.",
+      "source": "PubMed",
+      "date": "2026-07-03",
+      "journal": "BMC cardiovascular disorders",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [],
+      "relevance": "high",
+      "score": 9,
+      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399855/",
+      "doi": "10.1186/s12872-026-06172-2"
+    },
+    {
       "pmid": "42392285",
       "title": "Foot dynamic contrast-enhanced MRI for assessing microcirculatory changes after endovascular therapy in peripheral artery disease: A prospective pilot study.",
       "source": "PubMed",
@@ -625,30 +648,6 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42392285/",
       "doi": "10.1016/j.mri.2026.110740"
-    },
-    {
-      "pmid": "42387477",
-      "title": "A selective strategy for celiac trunk non-reconstruction in visceral debranching hybrid surgery for abdominal aortic aneurysm: a case report.",
-      "source": "PubMed",
-      "date": "2026-07-01",
-      "journal": "BMC surgery",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Case Report"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42387477/",
-      "doi": "10.1186/s12893-026-03998-7"
     }
   ],
   "chinaResearch": [
@@ -721,6 +720,27 @@
       "doi": "10.1016/j.wneu.2026.125170"
     },
     {
+      "pmid": "42399855",
+      "title": "Computational fluid dynamics evaluation of physician-modified stent graft repair for distal residual stanford type B aortic dissection.",
+      "source": "PubMed",
+      "date": "2026-07-03",
+      "journal": "BMC cardiovascular disorders",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [],
+      "relevance": "high",
+      "score": 9,
+      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399855/",
+      "doi": "10.1186/s12872-026-06172-2"
+    },
+    {
       "pmid": "42392285",
       "title": "Foot dynamic contrast-enhanced MRI for assessing microcirculatory changes after endovascular therapy in peripheral artery disease: A prospective pilot study.",
       "source": "PubMed",
@@ -741,30 +761,6 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42392285/",
       "doi": "10.1016/j.mri.2026.110740"
-    },
-    {
-      "pmid": "42387477",
-      "title": "A selective strategy for celiac trunk non-reconstruction in visceral debranching hybrid surgery for abdominal aortic aneurysm: a case report.",
-      "source": "PubMed",
-      "date": "2026-07-01",
-      "journal": "BMC surgery",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Case Report"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42387477/",
-      "doi": "10.1186/s12893-026-03998-7"
     }
   ],
   "trialHighlights": [
@@ -1140,6 +1136,20 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42393384/"
     },
     {
+      "title": "Computational fluid dynamics evaluation of physician-modified stent graft repair for distal residual stanford type B aortic dissection.",
+      "source": "Devices / Regulatory",
+      "date": "2026-07-03",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399855/"
+    },
+    {
       "title": "A selective strategy for celiac trunk non-reconstruction in visceral debranching hybrid surgery for abdominal aortic aneurysm: a case report.",
       "source": "Devices / Regulatory",
       "date": "2026-07-01",
@@ -1153,6 +1163,19 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42387477/"
+    },
+    {
+      "title": "Comment on: Impact of stent materials and hemodynamic changes after endovascular aneurysm repair for abdominal aortic aneurysm.",
+      "source": "Devices / Regulatory",
+      "date": "2026-07-03",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399480/"
     },
     {
       "title": "Extensive endovascular thoracoabdominal aortic septotomy for treatment of malperfusion in acute aortic dissection.",
@@ -1167,31 +1190,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42368739/"
     },
     {
-      "title": "Endorelining endovascular aortic repair using an iliac branch endoprosthesis in cases requiring secondary intervention following endovascular aortic repair or grafting.",
-      "source": "Devices / Regulatory",
-      "date": "2026-05-14",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42368738/"
-    },
-    {
-      "title": "Risk Factors for Delirium after Abdominal Aortic Aneurysm Repair.",
-      "source": "Devices / Regulatory",
-      "date": "2026-04-02",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41935823/"
-    },
-    {
       "title": "A selective strategy for celiac trunk non-reconstruction in visceral debranching hybrid surgery for abdominal aortic aneurysm: a case report.",
       "source": "Safety",
       "date": "2026-07-01",
@@ -1207,16 +1205,15 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42387477/"
     },
     {
-      "title": "Risk Factors for Delirium after Abdominal Aortic Aneurysm Repair.",
+      "title": "Premature peripheral arterial disease (PAD) is associated with worse outcomes after endovascular peripheral vascular intervention.",
       "source": "Safety",
-      "date": "2026-04-02",
+      "date": "2026-07-03",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "PAD / CLTI",
+        "Endovascular"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41935823/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398680/"
     }
   ],
   "reviewQueue": [
@@ -1268,6 +1265,20 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42393384/"
     },
     {
+      "title": "Computational fluid dynamics evaluation of physician-modified stent graft repair for distal residual stanford type B aortic dissection.",
+      "source": "Devices / Regulatory",
+      "date": "2026-07-03",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399855/"
+    },
+    {
       "title": "A selective strategy for celiac trunk non-reconstruction in visceral debranching hybrid surgery for abdominal aortic aneurysm: a case report.",
       "source": "Devices / Regulatory",
       "date": "2026-07-01",
@@ -1281,6 +1292,19 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42387477/"
+    },
+    {
+      "title": "Comment on: Impact of stent materials and hemodynamic changes after endovascular aneurysm repair for abdominal aortic aneurysm.",
+      "source": "Devices / Regulatory",
+      "date": "2026-07-03",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42399480/"
     },
     {
       "title": "Extensive endovascular thoracoabdominal aortic septotomy for treatment of malperfusion in acute aortic dissection.",
@@ -1295,31 +1319,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42368739/"
     },
     {
-      "title": "Endorelining endovascular aortic repair using an iliac branch endoprosthesis in cases requiring secondary intervention following endovascular aortic repair or grafting.",
-      "source": "Devices / Regulatory",
-      "date": "2026-05-14",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42368738/"
-    },
-    {
-      "title": "Risk Factors for Delirium after Abdominal Aortic Aneurysm Repair.",
-      "source": "Devices / Regulatory",
-      "date": "2026-04-02",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41935823/"
-    },
-    {
       "title": "A selective strategy for celiac trunk non-reconstruction in visceral debranching hybrid surgery for abdominal aortic aneurysm: a case report.",
       "source": "Safety",
       "date": "2026-07-01",
@@ -1335,16 +1334,15 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42387477/"
     },
     {
-      "title": "Risk Factors for Delirium after Abdominal Aortic Aneurysm Repair.",
+      "title": "Premature peripheral arterial disease (PAD) is associated with worse outcomes after endovascular peripheral vascular intervention.",
       "source": "Safety",
-      "date": "2026-04-02",
+      "date": "2026-07-03",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "PAD / CLTI",
+        "Endovascular"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41935823/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398680/"
     }
   ],
   "note": "规则生成周报：基于 PubMed、ClinicalTrials.gov 和派生提醒数据按相关性、研究类型、主题、招募状态和更新时间排序，不调用 AI。"
