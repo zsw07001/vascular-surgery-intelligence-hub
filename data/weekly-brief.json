@@ -1,52 +1,52 @@
 {
-  "generatedAt": "2026-07-04T21:13:37.597Z",
+  "generatedAt": "2026-07-05T21:19:30.348Z",
   "period": {
-    "start": "2026-06-28",
-    "end": "2026-07-04"
+    "start": "2026-06-29",
+    "end": "2026-07-05"
   },
-  "dataUpdatedAt": "2026-07-04T21:13:37.597Z",
+  "dataUpdatedAt": "2026-07-05T21:19:30.348Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-07-04T21:13:37.597Z"
+      "updatedAt": "2026-07-05T21:19:30.348Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 760,
-      "updatedAt": "2026-07-04T21:13:37.597Z"
+      "updatedAt": "2026-07-05T21:19:30.348Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 10,
-      "updatedAt": "2026-07-04T21:13:37.597Z"
+      "updatedAt": "2026-07-05T21:19:30.348Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-04T21:13:37.597Z"
+      "updatedAt": "2026-07-05T21:19:30.348Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-04T21:13:37.597Z"
+      "updatedAt": "2026-07-05T21:19:30.348Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-07-04T21:13:37.597Z"
+      "updatedAt": "2026-07-05T21:19:30.348Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 77,
-    "chinaResearch": 36,
+    "highImpact": 80,
+    "chinaResearch": 37,
     "clinicalTrials": 760,
     "guidelines": 10,
     "devices": 40,
@@ -58,7 +58,7 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 73
+      "count": 77
     },
     {
       "tag": "Imaging / Diagnosis",
@@ -66,19 +66,19 @@
     },
     {
       "tag": "Venous Disease",
-      "count": 52
+      "count": 50
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 46
+      "count": 43
     },
     {
       "tag": "China Research",
-      "count": 36
+      "count": 37
     },
     {
       "tag": "PAD / CLTI",
-      "count": 32
+      "count": 34
     },
     {
       "tag": "Aortic Disease",
@@ -86,11 +86,34 @@
     },
     {
       "tag": "Open Surgery",
-      "count": 20
+      "count": 21
     }
   ],
   "priorityReading": [
     {
+      "pmid": "42227206",
+      "title": "Frailty and the efficacy and safety of surgical versus endovascular revascularization: post-hoc analysis of the BEST-CLI trial.",
+      "source": "PubMed",
+      "date": "2026-07-02",
+      "journal": "The British journal of surgery",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Open Surgery"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial",
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 12,
+      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI / Endovascular；score 12",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42227206/",
+      "doi": "10.1093/bjs/znag067"
+    },
+    {
       "pmid": "42383695",
       "title": "Antiplatelets match anticoagulants for VTE prevention after joint arthroplasty: a meta-analysis of randomized clinical trials.",
       "source": "PubMed",
@@ -205,26 +228,27 @@
       "doi": "10.1016/j.wneu.2026.125170"
     },
     {
-      "pmid": "42268537",
-      "title": "Enoxaparin 40&#xa0;mg Versus 60&#xa0;mg for Venous Thromboembolism Prophylaxis After Bariatric Surgery: A Systematic Review and Meta-Analysis of Pharmacologic and Clinical Outcomes.",
+      "pmid": "42401812",
+      "title": "Cytomegalovirus enteritis in a patient with AKI after type B aortic dissection surgery: a case report.",
       "source": "PubMed",
-      "date": "2026-06-10",
-      "journal": "Obesity surgery",
+      "date": "2026-07-04",
+      "journal": "BMC infectious diseases",
       "topicTags": [
-        "Venous Disease"
+        "Aortic Disease",
+        "Open Surgery",
+        "Imaging / Diagnosis",
+        "China Research"
       ],
       "studyTypeTags": [
-        "Cohort",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
+        "Clinical Trial",
+        "Case Report"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42268537/",
-      "doi": "10.1007/s11695-026-08765-4"
+      "score": 10,
+      "reason": "high relevance；Clinical Trial；Aortic Disease；score 10",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401812/",
+      "doi": "10.1186/s12879-026-13747-z"
     },
     {
       "pmid": "42399855",
@@ -289,32 +313,33 @@
       "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42386086/",
       "doi": "10.1016/j.jvs.2026.06.150"
-    },
-    {
-      "pmid": "42392285",
-      "title": "Foot dynamic contrast-enhanced MRI for assessing microcirculatory changes after endovascular therapy in peripheral artery disease: A prospective pilot study.",
-      "source": "PubMed",
-      "date": "2026-07-02",
-      "journal": "Magnetic resonance imaging",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；PAD / CLTI / Endovascular；score 11",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42392285/",
-      "doi": "10.1016/j.mri.2026.110740"
     }
   ],
   "priorityArticles": [
     {
+      "pmid": "42227206",
+      "title": "Frailty and the efficacy and safety of surgical versus endovascular revascularization: post-hoc analysis of the BEST-CLI trial.",
+      "source": "PubMed",
+      "date": "2026-07-02",
+      "journal": "The British journal of surgery",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Open Surgery"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial",
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 12,
+      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI / Endovascular；score 12",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42227206/",
+      "doi": "10.1093/bjs/znag067"
+    },
+    {
       "pmid": "42383695",
       "title": "Antiplatelets match anticoagulants for VTE prevention after joint arthroplasty: a meta-analysis of randomized clinical trials.",
       "source": "PubMed",
@@ -429,26 +454,27 @@
       "doi": "10.1016/j.wneu.2026.125170"
     },
     {
-      "pmid": "42268537",
-      "title": "Enoxaparin 40&#xa0;mg Versus 60&#xa0;mg for Venous Thromboembolism Prophylaxis After Bariatric Surgery: A Systematic Review and Meta-Analysis of Pharmacologic and Clinical Outcomes.",
+      "pmid": "42401812",
+      "title": "Cytomegalovirus enteritis in a patient with AKI after type B aortic dissection surgery: a case report.",
       "source": "PubMed",
-      "date": "2026-06-10",
-      "journal": "Obesity surgery",
+      "date": "2026-07-04",
+      "journal": "BMC infectious diseases",
       "topicTags": [
-        "Venous Disease"
+        "Aortic Disease",
+        "Open Surgery",
+        "Imaging / Diagnosis",
+        "China Research"
       ],
       "studyTypeTags": [
-        "Cohort",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
+        "Clinical Trial",
+        "Case Report"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42268537/",
-      "doi": "10.1007/s11695-026-08765-4"
+      "score": 10,
+      "reason": "high relevance；Clinical Trial；Aortic Disease；score 10",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401812/",
+      "doi": "10.1186/s12879-026-13747-z"
     },
     {
       "pmid": "42399855",
@@ -513,28 +539,6 @@
       "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42386086/",
       "doi": "10.1016/j.jvs.2026.06.150"
-    },
-    {
-      "pmid": "42392285",
-      "title": "Foot dynamic contrast-enhanced MRI for assessing microcirculatory changes after endovascular therapy in peripheral artery disease: A prospective pilot study.",
-      "source": "PubMed",
-      "date": "2026-07-02",
-      "journal": "Magnetic resonance imaging",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；PAD / CLTI / Endovascular；score 11",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42392285/",
-      "doi": "10.1016/j.mri.2026.110740"
     }
   ],
   "chinaHighlights": [
@@ -607,6 +611,29 @@
       "doi": "10.1016/j.wneu.2026.125170"
     },
     {
+      "pmid": "42401812",
+      "title": "Cytomegalovirus enteritis in a patient with AKI after type B aortic dissection surgery: a case report.",
+      "source": "PubMed",
+      "date": "2026-07-04",
+      "journal": "BMC infectious diseases",
+      "topicTags": [
+        "Aortic Disease",
+        "Open Surgery",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Case Report"
+      ],
+      "relevance": "high",
+      "score": 10,
+      "reason": "中国机构研究；high relevance；Clinical Trial；Aortic Disease；score 10",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401812/",
+      "doi": "10.1186/s12879-026-13747-z"
+    },
+    {
       "pmid": "42399855",
       "title": "Computational fluid dynamics evaluation of physician-modified stent graft repair for distal residual stanford type B aortic dissection.",
       "source": "PubMed",
@@ -626,28 +653,6 @@
       "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42399855/",
       "doi": "10.1186/s12872-026-06172-2"
-    },
-    {
-      "pmid": "42392285",
-      "title": "Foot dynamic contrast-enhanced MRI for assessing microcirculatory changes after endovascular therapy in peripheral artery disease: A prospective pilot study.",
-      "source": "PubMed",
-      "date": "2026-07-02",
-      "journal": "Magnetic resonance imaging",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；PAD / CLTI / Endovascular；score 11",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42392285/",
-      "doi": "10.1016/j.mri.2026.110740"
     }
   ],
   "chinaResearch": [
@@ -720,6 +725,29 @@
       "doi": "10.1016/j.wneu.2026.125170"
     },
     {
+      "pmid": "42401812",
+      "title": "Cytomegalovirus enteritis in a patient with AKI after type B aortic dissection surgery: a case report.",
+      "source": "PubMed",
+      "date": "2026-07-04",
+      "journal": "BMC infectious diseases",
+      "topicTags": [
+        "Aortic Disease",
+        "Open Surgery",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Case Report"
+      ],
+      "relevance": "high",
+      "score": 10,
+      "reason": "中国机构研究；high relevance；Clinical Trial；Aortic Disease；score 10",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42401812/",
+      "doi": "10.1186/s12879-026-13747-z"
+    },
+    {
       "pmid": "42399855",
       "title": "Computational fluid dynamics evaluation of physician-modified stent graft repair for distal residual stanford type B aortic dissection.",
       "source": "PubMed",
@@ -739,28 +767,6 @@
       "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42399855/",
       "doi": "10.1186/s12872-026-06172-2"
-    },
-    {
-      "pmid": "42392285",
-      "title": "Foot dynamic contrast-enhanced MRI for assessing microcirculatory changes after endovascular therapy in peripheral artery disease: A prospective pilot study.",
-      "source": "PubMed",
-      "date": "2026-07-02",
-      "journal": "Magnetic resonance imaging",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；PAD / CLTI / Endovascular；score 11",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42392285/",
-      "doi": "10.1016/j.mri.2026.110740"
     }
   ],
   "trialHighlights": [
@@ -1190,6 +1196,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42368739/"
     },
     {
+      "title": "Frailty and the efficacy and safety of surgical versus endovascular revascularization: post-hoc analysis of the BEST-CLI trial.",
+      "source": "Safety",
+      "date": "2026-07-02",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Open Surgery"
+      ],
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42227206/"
+    },
+    {
       "title": "A selective strategy for celiac trunk non-reconstruction in visceral debranching hybrid surgery for abdominal aortic aneurysm: a case report.",
       "source": "Safety",
       "date": "2026-07-01",
@@ -1203,17 +1221,6 @@
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42387477/"
-    },
-    {
-      "title": "Premature peripheral arterial disease (PAD) is associated with worse outcomes after endovascular peripheral vascular intervention.",
-      "source": "Safety",
-      "date": "2026-07-03",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular"
-      ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42398680/"
     }
   ],
   "reviewQueue": [
@@ -1319,6 +1326,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42368739/"
     },
     {
+      "title": "Frailty and the efficacy and safety of surgical versus endovascular revascularization: post-hoc analysis of the BEST-CLI trial.",
+      "source": "Safety",
+      "date": "2026-07-02",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Open Surgery"
+      ],
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42227206/"
+    },
+    {
       "title": "A selective strategy for celiac trunk non-reconstruction in visceral debranching hybrid surgery for abdominal aortic aneurysm: a case report.",
       "source": "Safety",
       "date": "2026-07-01",
@@ -1332,17 +1351,6 @@
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42387477/"
-    },
-    {
-      "title": "Premature peripheral arterial disease (PAD) is associated with worse outcomes after endovascular peripheral vascular intervention.",
-      "source": "Safety",
-      "date": "2026-07-03",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular"
-      ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42398680/"
     }
   ],
   "note": "规则生成周报：基于 PubMed、ClinicalTrials.gov 和派生提醒数据按相关性、研究类型、主题、招募状态和更新时间排序，不调用 AI。"
