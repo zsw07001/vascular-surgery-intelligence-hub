@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-07-10T21:20:09.060Z",
+  "generatedAt": "2026-07-11T21:06:27.373Z",
   "period": {
-    "start": "2026-07-04",
-    "end": "2026-07-10"
+    "start": "2026-07-05",
+    "end": "2026-07-11"
   },
-  "dataUpdatedAt": "2026-07-10T21:20:09.060Z",
+  "dataUpdatedAt": "2026-07-11T21:06:27.373Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 199,
-      "updatedAt": "2026-07-10T21:20:09.060Z"
+      "updatedAt": "2026-07-11T21:06:27.373Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 754,
-      "updatedAt": "2026-07-10T21:20:09.060Z"
+      "updatedAt": "2026-07-11T21:06:27.373Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 12,
-      "updatedAt": "2026-07-10T21:20:09.060Z"
+      "count": 11,
+      "updatedAt": "2026-07-11T21:06:27.373Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-10T21:20:09.060Z"
+      "updatedAt": "2026-07-11T21:06:27.373Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-10T21:20:09.060Z"
+      "updatedAt": "2026-07-11T21:06:27.373Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-07-10T21:20:09.060Z"
+      "updatedAt": "2026-07-11T21:06:27.373Z"
     }
   ],
   "counts": {
     "latestResearch": 199,
-    "highImpact": 93,
+    "highImpact": 95,
     "chinaResearch": 35,
     "clinicalTrials": 754,
-    "guidelines": 12,
+    "guidelines": 11,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -62,15 +62,15 @@
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 79
-    },
-    {
-      "tag": "Aortic Disease",
-      "count": 43
+      "count": 80
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 43
+      "count": 44
+    },
+    {
+      "tag": "Aortic Disease",
+      "count": 41
     },
     {
       "tag": "PAD / CLTI",
@@ -82,11 +82,11 @@
     },
     {
       "tag": "Venous Disease",
-      "count": 30
+      "count": 35
     },
     {
       "tag": "Open Surgery",
-      "count": 16
+      "count": 14
     }
   ],
   "priorityReading": [
@@ -301,26 +301,25 @@
       "doi": "10.1016/j.avsg.2026.04.028"
     },
     {
-      "pmid": "42415075",
-      "title": "Aortic arch replacement with descending thoracic aorta stenting for chronic dissection: early outcomes.",
+      "pmid": "42119725",
+      "title": "The Premature Termination of the Phase III SALAMANDER Trial of REX-001, an Autologous Bone Marrow Cell Therapy, for Chronic Limb Ischemia in Diabetic Patients: Insights and Outcomes.",
       "source": "PubMed",
-      "date": "2026-07-07",
-      "journal": "Journal of cardiothoracic surgery",
+      "date": "2026-05-12",
+      "journal": "Annals of vascular surgery",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
+        "PAD / CLTI"
       ],
       "studyTypeTags": [
-        "Clinical Trial"
+        "RCT",
+        "Clinical Trial",
+        "Basic Research"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Clinical Trial；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42415075/",
-      "doi": "10.1186/s13019-026-04385-2"
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42119725/",
+      "doi": "10.1016/j.avsg.2026.04.044"
     }
   ],
   "priorityArticles": [
@@ -535,26 +534,25 @@
       "doi": "10.1016/j.avsg.2026.04.028"
     },
     {
-      "pmid": "42415075",
-      "title": "Aortic arch replacement with descending thoracic aorta stenting for chronic dissection: early outcomes.",
+      "pmid": "42119725",
+      "title": "The Premature Termination of the Phase III SALAMANDER Trial of REX-001, an Autologous Bone Marrow Cell Therapy, for Chronic Limb Ischemia in Diabetic Patients: Insights and Outcomes.",
       "source": "PubMed",
-      "date": "2026-07-07",
-      "journal": "Journal of cardiothoracic surgery",
+      "date": "2026-05-12",
+      "journal": "Annals of vascular surgery",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
+        "PAD / CLTI"
       ],
       "studyTypeTags": [
-        "Clinical Trial"
+        "RCT",
+        "Clinical Trial",
+        "Basic Research"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Clinical Trial；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42415075/",
-      "doi": "10.1186/s13019-026-04385-2"
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42119725/",
+      "doi": "10.1016/j.avsg.2026.04.044"
     }
   ],
   "chinaHighlights": [
