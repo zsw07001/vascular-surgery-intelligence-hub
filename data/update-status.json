@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T21:06:27.595Z",
+  "lastUpdated": "2026-07-12T21:06:41.147Z",
   "mode": "pubmed",
   "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
@@ -8,8 +8,8 @@
       "status": "success",
       "count": 199,
       "message": "Fetched 199 articles from PubMed.",
-      "startedAt": "2026-07-11T21:06:22.480Z",
-      "finishedAt": "2026-07-11T21:06:24.756Z"
+      "startedAt": "2026-07-12T21:06:36.457Z",
+      "finishedAt": "2026-07-12T21:06:38.602Z"
     },
     {
       "name": "ClinicalTrials.gov",
@@ -22,7 +22,7 @@
     {
       "name": "Guidelines and device regulatory",
       "status": "success",
-      "count": 51,
+      "count": 48,
       "message": "Generated from current PubMed JSON."
     },
     {
@@ -36,7 +36,7 @@
       "status": "success",
       "count": 35,
       "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
-      "finishedAt": "2026-07-11T21:06:27.595Z"
+      "finishedAt": "2026-07-12T21:06:41.147Z"
     }
   ],
   "pubmed": {
@@ -46,21 +46,21 @@
     "query": "(\"vascular surgery\"[Title/Abstract]\nOR \"Vascular Surgical Procedures\"[MeSH Terms]\nOR \"peripheral arterial disease\"[Title/Abstract]\nOR \"peripheral artery disease\"[Title/Abstract]\nOR \"critical limb ischemia\"[Title/Abstract]\nOR \"chronic limb-threatening ischemia\"[Title/Abstract]\nOR \"CLTI\"[Title/Abstract]\nOR \"abdominal aortic aneurysm\"[Title/Abstract]\nOR \"AAA\"[Title/Abstract]\nOR \"EVAR\"[Title/Abstract]\nOR \"TEVAR\"[Title/Abstract]\nOR \"aortic aneurysm\"[Title/Abstract]\nOR \"aortic dissection\"[Title/Abstract]\nOR \"carotid stenosis\"[Title/Abstract]\nOR \"carotid endarterectomy\"[Title/Abstract]\nOR \"carotid artery stenting\"[Title/Abstract]\nOR \"deep vein thrombosis\"[Title/Abstract]\nOR \"venous thromboembolism\"[Title/Abstract]\nOR \"varicose veins\"[Title/Abstract]\nOR \"hemodialysis access\"[Title/Abstract]\nOR \"arteriovenous fistula\"[Title/Abstract]\nOR \"endovascular\"[Title/Abstract])\nNOT (\"coronary\"[Title/Abstract]\nOR \"intracranial\"[Title/Abstract]\nOR \"cerebral aneurysm\"[Title/Abstract]\nOR \"animal model\"[Title/Abstract]\nOR \"mouse\"[Title/Abstract]\nOR \"mice\"[Title/Abstract]\nOR \"rat\"[Title/Abstract])",
     "counts": {
       "total": 199,
-      "high": 85,
-      "medium": 74,
-      "low": 28,
-      "review": 12,
-      "china": 35,
+      "high": 88,
+      "medium": 70,
+      "low": 30,
+      "review": 11,
+      "china": 36,
       "highImpact": 95
     },
     "highImpactCount": 95,
-    "chinaResearchCount": 35
+    "chinaResearchCount": 36
   },
   "errors": [],
   "manualReview": [
-    "有 12 篇文献被标记为 review，建议人工确认是否纳入。",
-    "有 28 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
-    "有 35 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
+    "有 11 篇文献被标记为 review，建议人工确认是否纳入。",
+    "有 30 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
+    "有 36 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
   ],
   "configPreview": {
     "pubmedQuery": "(\"vascular surgery\"[Title/Abstract]\nOR \"Vascular Surgical Procedures\"[MeSH Terms]\nOR \"peripheral arterial disease\"[Title/Abstract]\nOR \"peripheral artery disease\"[Title/Abstract]\nOR \"critical limb ischemia\"[Title/Abstract]\nOR \"chronic limb-threatening ischemia\"[Title/Abstract]\nOR \"CLTI\"[Title/Abstract]\nOR \"abdominal aortic aneurysm\"[Title/Abstract]\nOR \"AAA\"[Title/Abstract]\nOR \"EVAR\"[Title/Abstract]\nOR \"TEVAR\"[Title/Abstract]\nOR \"aortic aneurysm\"[Title/Abstract]\nOR \"aortic dissection\"[Title/Abstract]\nOR \"carotid stenosis\"[Title/Abstract]\nOR \"carotid endarterectomy\"[Title/Abstract]\nOR \"carotid artery stenting\"[Title/Abstract]\nOR \"deep vein thrombosis\"[Title/Abstract]\nOR \"venous thromboembolism\"[Title/Abstract]\nOR \"varicose veins\"[Title/Abstract]\nOR \"hemodialysis access\"[Title/Abstract]\nOR \"arteriovenous fistula\"[Title/Abstract]\nOR \"endovascular\"[Title/Abstract])\nNOT (\"coronary\"[Title/Abstract]\nOR \"intracranial\"[Title/Abstract]\nOR \"cerebral aneurysm\"[Title/Abstract]\nOR \"animal model\"[Title/Abstract]\nOR \"mouse\"[Title/Abstract]\nOR \"mice\"[Title/Abstract]\nOR \"rat\"[Title/Abstract])",

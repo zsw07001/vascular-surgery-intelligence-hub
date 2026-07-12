@@ -102,6 +102,436 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42437430",
+    "title": "Multi-modal Features Analysis and Performance Assessment for Endovascular Surgery Skills.",
+    "abstract": "PURPOSE: Interventional skill and assessment are essential for vascular interventionalists prior to performing clinical procedures. However, traditional surgical assessments often fail to deliver objective and accurate results. To address these issues, our study proposes a simulator and an analytical framework for evaluating endovascular procedural performance. METHODS: A custom interventional operation simulator included an in vitro silicone phantom, mock circulation loop, visual module, force-sensing module, and custom software for kinematic and force data post-processing. An in vitro study was conducted to deliver medical guidewire to four target vessels by thirty interventionalists and ten medical novices. Four types of features (i.e., vascular morphological, device-vascular model interaction, kinematic and force) were obtained from the interventional tasks. An operational force prediction model was developed and trained using long short-term memory (LSTM) networks based on multi-modal feature datasets. Furthermore, features with significant differences were applied for qualitative and quantitative evaluation via support vector machine and Mahalanobis distance. RESULTS: The well-trained LSTM model could predict the operation force, force and torque between instruments and vascular model. The qualitative assessment achieved an overall accuracy of 84.17% for two-class classification to distinguish the novice and expert attempts, and the quantitative assessment could assign effective scores for all attempts. CONCLUSIONS: This work provides an approach for the prediction and assessment of intervention performance behaviors, and results demonstrate the effectiveness of this method for promoting the development of interventional skill assessment.",
+    "englishSummary": "PURPOSE: Interventional skill and assessment are essential for vascular interventionalists prior to performing clinical procedures. However, traditional surgical assessments often fail to deliver objective and accurate results. To address these issues, our study proposes a simulator and an analytical framework for evaluating endovascular procedural performance.",
+    "journal": "Annals of biomedical engineering",
+    "publicationDate": "2026-07-12",
+    "authors": [
+      "Liang S",
+      "Yuan P",
+      "Zhang X",
+      "Li S",
+      "Li L",
+      "Yang B",
+      "Gao F",
+      "Deng Y",
+      "Jiao L",
+      "Chen D"
+    ],
+    "affiliations": [
+      "School of Medical Technology, Beijing Institute of Technology, No. 5, Zhong Guan Cun Road South, Beijing, 100081, China.",
+      "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, No. 45, Changchun Street, Beijing, 100053, China.",
+      "Department of Interventional Neuroradiology, TianTan Hospital, Capital Medical University, Beijing, 100070, China.",
+      "Department of Neurosurgery, Xuanwu Hospital, Capital Medical University, No. 45, Changchun Street, Beijing, 100053, China. liqunjiao@sina.cn.",
+      "School of Medical Technology, Beijing Institute of Technology, No. 5, Zhong Guan Cun Road South, Beijing, 100081, China. duanduan@bit.edu.cn."
+    ],
+    "doi": "10.1007/s10439-026-04256-w",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42437430/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Vascular Graft / Stent / Device",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "high",
+    "score": 7,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 human study: clinical",
+      "+2 treatment or prognosis relevance: surgery",
+      "+2 China affiliation: China",
+      "-2 basic mechanism without clinical relevance: in vitro"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42436561",
+    "title": "Do robot-assisted percutaneous vascular interventions improve effectiveness and safety compared with manual procedures: protocol for a systematic review and meta-analysis.",
+    "abstract": "BACKGROUND: Robot-assisted percutaneous vascular interventions have emerged as a promising technology across cardiovascular, neurovascular, and peripheral vascular procedures. Although robotic systems may offer advantages such as enhanced precision and reduced radiation exposure, their clinical effectiveness and safety compared with conventional manual techniques remain uncertain, and the current level of procedural autonomy has not been systematically evaluated. This study seeks to provide direct and practical clinical evidence for clinicians. METHODS AND ANALYSIS: In this protocol, Preferred Reporting Items for systematic review and meta-analysis Protocols were followed. A comprehensive search will be conducted in PubMed, EMBASE, Web of Science, and Cochrane Central Register of Controlled Trials from inception to January 31, 2026. Inclusion criteria encompass randomized controlled trials and observational studies (both comparative and single-arm) evaluating robot-assisted interventions across cardiovascular, neurovascular, and peripheral vascular territories in adult populations. The primary outcomes are clinical success rates and major adverse cardiovascular/cerebrovascular events (MACE) rates. Secondary outcomes include technical success rates, procedural efficiency metrics, and radiation exposures. Comparative studies will be used for the primary effectiveness analyses, whereas single-arm studies will be analyzed separately as descriptive and supportive evidence. We will assess the quality of evidence, heterogeneity, and reporting bias following the recommendations of the Cochrane Handbook for systematic reviews of interventions. DISCUSSION: This systematic review will synthesize high-quality evidence on the comparative efficacy and safety of robot-assisted versus manual vascular interventions, with territory-specific analyses as the primary analytical framework. Any pan-vascular pooled estimate will be considered secondary or exploratory and interpreted in the context of cardiovascular, neurovascular, and peripheral vascular-specific findings. By clarifying the true clinical value of endovascular robotics across multiple territories, our findings will directly inform clinical decision-making, optimize procedural strategies, and guide future technological innovation. SYSTEMATIC REVIEW REGISTRATION: PROSPERO CRD420251231572.",
+    "englishSummary": "BACKGROUND: Robot-assisted percutaneous vascular interventions have emerged as a promising technology across cardiovascular, neurovascular, and peripheral vascular procedures. Although robotic systems may offer advantages such as enhanced precision and reduced radiation exposure, their clinical effectiveness and safety compared with conventional manual techniques remain uncertain, and the current level of procedural autonomy has not been systematically evaluated. This study seeks to provide direct and practical clinical evidence for clinicians.",
+    "journal": "Systematic reviews",
+    "publicationDate": "2026-07-11",
+    "authors": [
+      "Wu X",
+      "Guo S",
+      "Zhang X",
+      "Xing Z",
+      "Zhang L",
+      "Cui S",
+      "Li X",
+      "Sun Y",
+      "Luo J",
+      "Lin X",
+      "Jiao L",
+      "Liu S",
+      "Wang T"
+    ],
+    "affiliations": [
+      "Department of Neurosurgery, Xuanwu Hospital, China International Neuroscience Institute, Capital Medical University, National Center for Neurological Disorders, No. 45 Changchun Ave, Xicheng District, Beijing, 100053, China.",
+      "Institute of Automation, Chinese Academy of Sciences, 95 Zhongguancun East Road, Haidian District, Beijing, 100190, China.",
+      "First Hospital, Peking University, Beijing, China.",
+      "Health Science Center, Peking University, Beijing, China.",
+      "Department of Neurosurgery, Xuanwu Hospital, China International Neuroscience Institute, Capital Medical University, National Center for Neurological Disorders, No. 45 Changchun Ave, Xicheng District, Beijing, 100053, China. liqunjiao@sina.cn.",
+      "Department of Interventional Neuroradiology, Xuanwu Hospital, China International Neuroscience Institute, Capital Medical University, National Center for Neurological Disorders, No. 45 Changchun Ave, Xicheng District, Beijing, 100053, China. liqunjiao@sina.cn.",
+      "Institute of Automation, Chinese Academy of Sciences, 95 Zhongguancun East Road, Haidian District, Beijing, 100190, China. shiqi.liu@ia.ac.cn.",
+      "Department of Neurosurgery, Xuanwu Hospital, China International Neuroscience Institute, Capital Medical University, National Center for Neurological Disorders, No. 45 Changchun Ave, Xicheng District, Beijing, 100053, China. wangtao_dr@sina.com."
+    ],
+    "doi": "10.1186/s13643-026-03261-3",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42436561/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Systematic Review",
+      "Meta-analysis",
+      "Review"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 clinical evidence design: randomized",
+      "+2 human study: clinical",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42436426",
+    "title": "Serum GPX4, ALOX15, and FPN1 are associated with severity of carotid atherosclerosis: a cross-sectional observational study.",
+    "abstract": "BACKGROUND: Carotid atherosclerosis (CAS) is a major cause of ischemic stroke. Ferroptosis-related proteins glutathione peroxidase 4 (GPX4), arachidonate 15-lipoxygenase (ALOX15), and ferroportin-1 (FPN1) may be involved in atherosclerotic processes, but their clinical relevance in CAS remains unclear. OBJECTIVE: To examine the associations of serum GPX4, ALOX15, and FPN1 with CAS severity and evaluate their discriminatory performance for severe carotid stenosis. METHODS: This cross-sectional observational study included 280 CAS patients classified into non-severe (n&#x2009;=&#x2009;207) and severe (n&#x2009;=&#x2009;73) stenosis groups. Serum GPX4, ALOX15, and FPN1 were measured by ELISA. Group differences were analyzed, ROC analysis assessed discriminatory performance, and logistic regression identified factors associated with severe CAS. RESULTS: Severe CAS patients were older and had higher proportions of diabetes, multiple plaques, and prior stroke. They also showed higher TC, LDL-C, hs-CRP, and IL-6, lower HDL-C, lower serum GPX4 and FPN1, and higher ALOX15. The AUCs were 0.721 for GPX4, 0.698 for FPN1, and 0.869 for ALOX15. The biomarker model yielded an AUC of 0.914. The combined model including clinical variables and the three biomarkers yielded an AUC of 0.991 and outperformed the clinical model alone. In multivariable analysis, age, HDL-C, Z-ln(hs-CRP), Z-ln(IL-6), GPX4, and ALOX15 remained independently associated with severe CAS. CONCLUSION: Serum GPX4, ALOX15, and FPN1 were associated with CAS severity and provided additional discriminatory information for severe carotid stenosis in this cohort. Further longitudinal validation is needed.",
+    "englishSummary": "BACKGROUND: Carotid atherosclerosis (CAS) is a major cause of ischemic stroke. Ferroptosis-related proteins glutathione peroxidase 4 (GPX4), arachidonate 15-lipoxygenase (ALOX15), and ferroportin-1 (FPN1) may be involved in atherosclerotic processes, but their clinical relevance in CAS remains unclear. OBJECTIVE: To examine the associations of serum GPX4, ALOX15, and FPN1 with CAS severity and evaluate their discriminatory performance for severe carotid stenosis.",
+    "journal": "BMC neurology",
+    "publicationDate": "2026-07-11",
+    "authors": [
+      "Wei W",
+      "Xiang J",
+      "Min W",
+      "Zhang X"
+    ],
+    "affiliations": [
+      "Department of Neurology, The 921st Hospital of Joint Logistics Support Force of PLA, Changsha, 410153, China.",
+      "Department of Vascular Surgery, The Second Xiangya Hospital of Central South University, 139 Renmin Middle Road, Furong District, Changsha, Hunan, 410001, China. XiapingZhang818@163.com."
+    ],
+    "doi": "10.1186/s12883-026-05143-6",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42436426/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Carotid Disease",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42436423",
+    "title": "Cerebral venous sinus thrombosis secondary to relapsed minimal change disease: a case managed with endovascular thrombolysis.",
+    "abstract": "BACKGROUND: Cerebral venous sinus thrombosis (CVST) is a rare type of stroke characterized by the formation of blood clots within the dural venous sinuses which has a high mortality rate. Despite its potential severity, cerebral venous sinus thrombosis secondary to nephrotic syndrome remains rarely reported and under-recognized in clinical practice. CASE PRESENTATION: We described a 20-year-old male who presented with a relapse of minimal change disease, complicated by extensive CVST. On the basis of anticoagulant therapy, his neurological condition deteriorated rapidly, manifesting as altered mental consciousness, progressive limb weakness, and new-onset seizures. Given the failure of conventional medical management, endovascular therapy of catheter-directed thrombolysis was performed. The patient's neurological status improved dramatically within days. CONCLUSIONS: This case demonstrates that cerebral venous sinus thrombosis should be considered in nephrotic syndrome patients presenting with even subtle or non-specific neurological symptoms. Patients with focal neurological deficits, altered mental status, new-onset seizures, or unusual headache should undergo prompt neurological evaluation and appropriate brain imaging, including computed tomography venography (CTV) or magnetic resonance venography (MRV) when CVST is suspected. In the specific setting of nephrotic syndrome, clinicians should maintain a heightened index of suspicion for CVST, even when initial neurological findings are subtle or non-specific. As illustrated by this case, early recognition and timely escalation to endovascular therapy can be life-saving when conventional anticoagulation fails to prevent neurological deterioration. Our patient achieved complete neurological recovery and sustained remission of nephrotic syndrome, underscoring the value of multidisciplinary collaboration and individualized treatment strategies.",
+    "englishSummary": "BACKGROUND: Cerebral venous sinus thrombosis (CVST) is a rare type of stroke characterized by the formation of blood clots within the dural venous sinuses which has a high mortality rate. Despite its potential severity, cerebral venous sinus thrombosis secondary to nephrotic syndrome remains rarely reported and under-recognized in clinical practice. CASE PRESENTATION: We described a 20-year-old male who presented with a relapse of minimal change disease, complicated by extensive CVST.",
+    "journal": "BMC neurology",
+    "publicationDate": "2026-07-11",
+    "authors": [
+      "Tian L",
+      "Du H",
+      "Zhu J",
+      "Xing L",
+      "Li S",
+      "Zhou M",
+      "Wen L"
+    ],
+    "affiliations": [
+      "Department of Nephrology, The Second Hospital of Hebei Medical University, Shijiazhuang, China.",
+      "Department of Neurosurgery, The Second Hospital of Hebei Medical University, Shijiazhuang, China.",
+      "Breast and Thyroid Surgery Department, The Second Hospital of Hebei Medical University, Shijiazhuang, China.",
+      "Department of Nephrology, The Second Hospital of Hebei Medical University, Shijiazhuang, China. wenliyingtougao@163.com."
+    ],
+    "doi": "10.1186/s12883-026-05137-4",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42436423/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Antithrombotic Therapy",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 9,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42435698",
+    "title": "Deep learning-based multimodal fusion of vibrational spectroscopy and clinical data for aortic dissection diagnosis and prognosis.",
+    "abstract": "BACKGROUND: Aortic dissection and myocardial infarction are two life-threatening acute cardiovascular conditions with similar clinical presentations but fundamentally different treatment strategies. Misdiagnosis between these diseases can severely endanger patient survival, highlighting the urgent need for efficient and non-invasive differential diagnostic methods. Vibrational spectroscopy, characterized by its non-invasiveness, high throughput, and molecular sensitivity, offers a promising approach for early biochemical disease identification. However, single spectral modalities are limited in diagnostic performance due to insufficient complementary information. RESULTS: To address these limitations, we propose MSFusion, a multimodal deep learning model that integrates infrared and Raman spectroscopy data for precise diagnosis and survival prognosis prediction of aortic dissection. MSFusion employs a three-branch multiscale convolutional architecture to extract hierarchical spectral representations, incorporates a cross-modal attention module to promote semantic synergy and complementary interaction between modalities, and utilizes a bidirectional multiscale fusion mechanism to align local and global features across multiple granularities.Experimental results demonstrate that MSFusion achieves 95.63% accuracy and 98.79% AUC in distinguishing aortic dissection from myocardial infarction, significantly outperforming unimodal and conventional fusion approaches. For survival prognosis, the model is further extended by incorporating clinical indicators to predict postoperative survival outcomes, achieving 81.82% accuracy and 70.00% AUC, showing its capability for effective clinical risk stratification. SIGNIFICANCE: This study presents a multimodal deep learning framework that combines vibrational spectroscopy with clinical data for rapid and non-invasive diagnosis of aortic dissection. MSFusion effectively enhances diagnostic precision and prognostic reliability, providing a promising tool for intelligent cardiovascular disease assessment and clinical decision support.",
+    "englishSummary": "BACKGROUND: Aortic dissection and myocardial infarction are two life-threatening acute cardiovascular conditions with similar clinical presentations but fundamentally different treatment strategies. Misdiagnosis between these diseases can severely endanger patient survival, highlighting the urgent need for efficient and non-invasive differential diagnostic methods. Vibrational spectroscopy, characterized by its non-invasiveness, high throughput, and molecular sensitivity, offers a promising approach for early biochemical disease identification.",
+    "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+    "publicationDate": "2026-07-11",
+    "authors": [
+      "Ma G",
+      "Yan L",
+      "Zhou X",
+      "Yang H",
+      "Chen C",
+      "Tao J",
+      "Liu H",
+      "Chen C",
+      "Yang Y"
+    ],
+    "affiliations": [
+      "School of Software, Xinjiang University, Urumqi 830046, China.",
+      "College of Life Science and Technology, Xinjiang University, Urumqi, 830049, China; Department of Anesthesiology, People's Hospital of Xinjiang Uygur Autonomous Region, Xinjiang, 830001, China.",
+      "School of Computer Science and Technology, Xinjiang University, Urumqi 830049, China.",
+      "Xinjiang Cloud Computing Application Laboratory, Karamay, 830001, China; Xinjiang Hongyou Software Co., Ltd., Karamay, 830001, China.",
+      "Department of Cardiology, People's Hospital of Xinjiang Uygur Autonomous Region, Xinjiang, 830001, China; Xinjiang Key Laboratory of Cardiovascular Homeostasis and Regeneration Research, Xinjiang, 830001, China.",
+      "School of Software, Xinjiang University, Urumqi 830046, China; Xinjiang Key Laboratory of Cardiovascular Homeostasis and Regeneration Research, Xinjiang, 830001, China; MOE Key Laboratory of Bioinformatics, BNRIST Bioinformatics Division, Institute for Precision Medicine & Department of Automation, Tsinghua University, Beijing 100084, China; People's Hospital of Xinjiang Uyghur Autonomous Region, Xinjiang, 830001, China. Electronic address: chenchengoptics@gmail.com.",
+      "Department of Cardiology, People's Hospital of Xinjiang Uygur Autonomous Region, Xinjiang, 830001, China; Xinjiang Key Laboratory of Cardiovascular Homeostasis and Regeneration Research, Xinjiang, 830001, China. Electronic address: yangyn5126@163.com."
+    ],
+    "doi": "10.1016/j.saa.2026.128391",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42435698/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "high",
+    "score": 7,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: aortic dissection",
+      "+2 human study: clinical",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China",
+      "-2 basic mechanism without clinical relevance: mechanism"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42435112",
+    "title": "Evaluating the impact of frailty in older adults on functional outcomes post-mechanical thrombectomy: a multicentre study incorporating traditional and machine learning methods.",
+    "abstract": "Frailty is associated with high risk of mortality. Our study evaluated frailty as a predictor of outcomes in older adults with acute ischemic stroke treated with endovascular thrombectomy utilizing machine learning models. We conducted a multinational observational cohort study. Patients&#x2009;>&#x2009;70&#xa0;years-old treated with endovascular thrombectomy were eligible. The primary outcome was 90-day functional independence(FI). 674 patients were included, with frailty defined as Clinical Frailty Score(CFS)&#x2009;>&#x2009;3. Univariate and multivariate analyses were performed. Predictive machine learning models were developed and evaluated, while values were computed for variable importance. A P-value of&#x2009;<&#x2009;0.05 was considered statistically significant. On univariate analysis, age, race, diabetes mellitus, albumin, National Institute of Health Stroke Scale(NIHSS), Alberta Stroke Programme Early CT Score(ASPECTS), number of thrombectomy attempts(>&#x2009;3), recanalization(>&#x2009;TICI 2B), and frailty were significantly associated with 90-day-FI. On logistic regression, NIHSS(adjusted OR: 1.105, 95% CI:1.03-1.11,P&#x2009;=&#x2009;0.005), recanalization&#x2009;>&#x2009;TICI 2B(adjusted OR: 0.049,95% CI:0.005-0.522,P&#x2009;=&#x2009;0.012), and frailty(adjusted OR: 13.451,95% CI:2.572-70.3,P&#x2009;=&#x2009;0.002) were independently associated with 90-day FI. The Random Forest model achieved an AUROC of 0.82 with a Brier score of 0.129. Youden's J statistic yielded a best threshold of 0.63. Confidence intervals were estimated using a non-parametric bootstrap method(95% CI:0.735-0.915). Frailty had the highest feature importance and the second-highest Shapley value. The CFS is an effective prognostication tool for older adults undergoing endovascular thrombectomy. Models incorporating frailty demonstrate good predictive value. Further study involving larger cohorts may refine models that can be applied pre-procedurally to identify patients at risk of poor outcomes.",
+    "englishSummary": "Frailty is associated with high risk of mortality. Our study evaluated frailty as a predictor of outcomes in older adults with acute ischemic stroke treated with endovascular thrombectomy utilizing machine learning models. We conducted a multinational observational cohort study.",
+    "journal": "Journal of thrombosis and thrombolysis",
+    "publicationDate": "2026-07-11",
+    "authors": [
+      "Yeo JYP",
+      "Lee TH",
+      "Maus V",
+      "Fischer S",
+      "Schob S",
+      "Simonato D",
+      "Cester G",
+      "Gabrieli JD",
+      "Wu T",
+      "Kim J",
+      "Berry-Noronha A",
+      "Winders J",
+      "Ameen O",
+      "Teo KSH",
+      "Myint MZ",
+      "Chin HK",
+      "Halik H",
+      "Lim HS",
+      "Ng MB",
+      "Wong LYH",
+      "Tan LF",
+      "Jing M",
+      "Yeung W",
+      "Gopinathan A",
+      "Makmur A",
+      "Low XZ",
+      "Sia CH",
+      "Tan BYQ",
+      "Tan CH",
+      "Yeo LLL"
+    ],
+    "affiliations": [
+      "Division of Neurology, Department of Medicine, National University Hospital, 5 Lower Kent Ridge Road, Kent Ridge, Singapore.",
+      "Department of Neurology, Chang Gung Memorial Hospital, Linkou Medical Center, Taoyuan City, Taiwan.",
+      "Department of Radiology, University Hospital Knappschaftskrankenhaus Bochum GmbH, Bochum, Germany.",
+      "Department of Radiology, Martin-Luther-University Halle Wittenberg, Halle (Saale), Germany.",
+      "Nuffield Department of Population Health (NDPH), University of Oxford, Oxford, UK.",
+      "Department of Interventional Radiology, Padova University Hospital, Padua, Italy.",
+      "New Zealand Brain Research Institute, Christchurch, New Zealand.",
+      "Healthy Ageing Programme, Alexandra Hospital, National University Health System, Queenstown, Singapore.",
+      "National University Heart Centre, National University Hospital, Kent Ridge, Singapore.",
+      "Department of Diagnostic Imaging, National University Hospital, Kent Ridge, Singapore.",
+      "Division of Neurology, Department of Medicine, National University Hospital, 5 Lower Kent Ridge Road, Kent Ridge, Singapore. leonard_ll_yeo@nuhs.edu.sg."
+    ],
+    "doi": "10.1007/s11239-026-03295-3",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42435112/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 8,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: outcome",
+      "+2 China affiliation: Taiwan"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42436667",
+    "title": "Longitudinal Analysis of Heparin-Binding Protein (HBP) and Serum Amyloid a Protein (SAA) Versus Interleukin 6 (IL-6), C-Reactive Protein (CRP), and Procalcitonin (PCT) During Both the Acute Postoperative Period and Recovery at Three Months From Non-emergent Cardiac Surgery.",
+    "abstract": "e baseline 24hr= 7d 3m 3m baseline 7d 3m 3m 24h 7d 24h Variability in novel inflammatory markers (HBP and SAA) post-surgery could indicate ongoing perioperative inflammation. This pilot cohort study collected blood from 99 patients undergoing elective cardiac surgery at baseline, 24 hours, 7 days, and 3 months post-surgery. Inflammatory markers (HBP, SAA, PCT, CRP, IL-6) were measured with a point-of-care device. Demographic and clinical data were extracted from health records. Serum SAA increased significantly in the acute postoperative phase (M[IQR];SAA=81.1[87] vs SAA232.65[88.02];U[72]=2343,p<0.0001), remained elevated at 7 days (Me=252.6[88.56];U[57]=1484,p<0.0001) and were still more pronounced than baseline at t(Me=118.44[101.52];U[38]=448,p=0.0008). HBP showed a significant rise at seven days (HBP=45[26;89] vs HBP=121[69.75;224.5]; U[56]=805,p<0.0001) then returned to near baseline by t(Me=32.5[15.75;98.5]). Traditional inflammatory markers PCT, CRP, and IL-6 demonstrated a rapid increase at tand plateaued at t. None of the biomarkers showed variability at baseline or postoperatively with preoperative status or postoperative complications. Cluster analysis of the inflammatory markers at 24 hours (t) identified distinct subgroups. Cluster #1-patients with a modest increase in all markers; Cluster#2 characterized with a robust increase in IL-6; Cluster #3 showed increase in CRP and decline in HBP; Cluster #4 showed a modest increase in IL-6 and decline in HBP; Cluster #5 represented a decline in both CRP and SAA. Patients in these clusters differ with respect to age, pre-existing peripheral artery disease, and borderline differences in perioperative acetaminophen use. SAA and HBP remain elevated longer than IL-6, CRP, and PCT after surgery, suggesting that inflammation may persist beyond 3 months.",
+    "englishSummary": "e baseline 24hr= 7d 3m 3m baseline 7d 3m 3m 24h 7d 24h Variability in novel inflammatory markers (HBP and SAA) post-surgery could indicate ongoing perioperative inflammation. This pilot cohort study collected blood from 99 patients undergoing elective cardiac surgery at baseline, 24 hours, 7 days, and 3 months post-surgery. Inflammatory markers (HBP, SAA, PCT, CRP, IL-6) were measured with a point-of-care device.",
+    "journal": "Clinical Medicine Insights. Cardiology",
+    "publicationDate": "2026-07-10",
+    "authors": [
+      "Laudanski K",
+      "Ahmed AS",
+      "Mahmoud MA",
+      "Gad H",
+      "Harris BRE",
+      "Smith R",
+      "Zhu D",
+      "Elgazar A",
+      "Vasishta A",
+      "Ognjen G",
+      "Diedrich DA",
+      "Crestanello J"
+    ],
+    "affiliations": [
+      "Department of Anesthesiology and Perioperative Care, Mayo Clinic, Rochester, MN, USA.",
+      "Division of Pulmonary Care and Critical Care, Mayo Clinic, Rochester, MN, USA.",
+      "2nd Dalian Hospital, Dalian, The People's Republic of China.",
+      "Ashyana Consulting, Dundee, Scotland, UK.",
+      "Division of Cardiac Surgery, Mayo Clinic, Rochester, MN, USA."
+    ],
+    "doi": "10.1177/11795468261462607",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42436667/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "PAD / CLTI",
+      "Vascular Graft / Stent / Device",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 8,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42435601",
+    "title": "Short-course high-dose methylprednisolone reduces complications and shortens hospital stay after glioblastoma resection: a propensity score-matched cohort study.",
+    "abstract": "BACKGROUND: Perioperative corticosteroid use for patients with isocitrate dehydrogenase (IDH)-wildtype glioblastoma (GBM) after surgical resection remains unstandardized, and conventional dexamethasone regimens are linked to elevated venous thromboembolism risk and adverse survival impacts. This study aimed to evaluate the effects of short-course high-dose methylprednisolone (MP) on length of hospital stay (LOS), postoperative complications, and long-term outcomes in patients with IDH-wildtype GBM. METHODS: This study included 315 adult patients with newly diagnosed IDH-wildtype GBM who underwent surgery at Nanfang Hospital between January 2019 and June 2024. Patients were assigned to the MP group (intravenous MP 500&#xa0;mg/day within the first three postoperative days) or the non-MP group (no MP administered during this window). 1:1 propensity score matching (PSM) was performed to balance baseline clinical and tumor-related covariates. Primary outcomes were LOS and 30-day postoperative complications; secondary outcomes included progression-free survival (PFS), overall survival (OS), and dynamic changes of perioperative inflammatory-immune biomarkers. RESULTS: 232 patients were included in the final matched cohort (116 per group). The MP group had a significantly shorter median LOS (11.0 vs 12.5&#xa0;days, P&#xa0;<&#xa0;0.001) and lower incidence of deep vein thrombosis (DVT) (0% vs 6.03%, P&#xa0;=&#xa0;0.014) compared with the non-MP group. Multivariate analysis confirmed MP administration was an independent protective factor for shortened LOS (incidence rate ratio&#xa0;=&#xa0;0.916, 95% CI: 0.851-0.986, P&#xa0;=&#xa0;0.019) and reduced DVT risk (odds ratio&#xa0;=&#xa0;0.063, 95% CI: 0.000-0.524, P&#xa0;=&#xa0;0.006). No significant between-group differences were observed in PFS (P&#xa0;=&#xa0;0.938) or OS (P&#xa0;=&#xa0;0.948). MP significantly modulated early postoperative inflammatory biomarkers without sustained immune disturbance. CONCLUSION: Short-course high-dose MP after GBM resection was significantly associated with reducing LOS and postoperative DVT incidence, without increasing steroid-related complications or impairing long-term survival. This regimen provides a feasible alternative for postoperative corticosteroid use in GBM patients.",
+    "englishSummary": "BACKGROUND: Perioperative corticosteroid use for patients with isocitrate dehydrogenase (IDH)-wildtype glioblastoma (GBM) after surgical resection remains unstandardized, and conventional dexamethasone regimens are linked to elevated venous thromboembolism risk and adverse survival impacts. This study aimed to evaluate the effects of short-course high-dose methylprednisolone (MP) on length of hospital stay (LOS), postoperative complications, and long-term outcomes in patients with IDH-wildtype GBM. METHODS: This study included 315 adult patients with newly diagnosed IDH-wildtype GBM who underwent surgery at Nanfang Hospital between January 2019 and June 2024.",
+    "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+    "publicationDate": "2026-07-10",
+    "authors": [
+      "Lin J",
+      "Li K",
+      "Chen Z",
+      "Ye Z",
+      "Zhang H",
+      "Tang W",
+      "Li Z",
+      "Qu S",
+      "Yi GZ",
+      "Huang G"
+    ],
+    "affiliations": [
+      "Department of Neurosurgery, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China; Department of Neurosurgery, Jieyang People's Hospital, Guangdong, PR China; The Laboratory for Precision Neurosurgery, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China.",
+      "The First Clinical Medical College, Southern Medical University, Guangzhou, Guangdong, PR China.",
+      "Department of Neurosurgery, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China; The Laboratory for Precision Neurosurgery, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China.",
+      "The Second Clinical Medical College, Southern Medical University, Guangzhou, Guangdong, PR China.",
+      "Department of Neurosurgery, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China; Nanfang Glioma Center, Guangzhou, Guangdong, PR China; Institute of Brain Disease, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China.",
+      "Department of Neurosurgery, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China; The Laboratory for Precision Neurosurgery, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China; Nanfang Glioma Center, Guangzhou, Guangdong, PR China; Institute of Brain Disease, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China. Electronic address: yiguozhong09@163.com.",
+      "Department of Neurosurgery, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China; The Laboratory for Precision Neurosurgery, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China; Nanfang Glioma Center, Guangzhou, Guangdong, PR China; Institute of Brain Disease, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, PR China. Electronic address: hgl1020@163.com."
+    ],
+    "doi": "10.1016/j.jocn.2026.112191",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42435601/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 8,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42432523",
     "title": "Atrial myxoma-related embolic stroke: two distinct embolic mechanisms and clinical implications in young adults (a case series).",
     "abstract": "BACKGROUND: Cardiac myxoma can lead to stroke via two distinct embolic mechanisms: embolism from tumor fragments or thromboembolism from the tumor surface. Pathological confirmation of the embolus is rarely conducted; however, the pathological features of stroke have implications for treatment. CASE SERIES REPORT: We present two young Chinese patients with acute ischemic stroke subsequent to atrial myxoma, whose stroke was caused via distinct embolic mechanisms. The first patient exhibited isolated basilar artery occlusion due to secondary thrombosis. This patient underwent successful computed tomography(CT)-guided mechanical thrombectomy 11&#xa0;h after symptom onset. The second patient exhibited the combination of cerebral and peripheral embolism due to direct shedding of tumor emboli and was subjected to sequential endovascular treatment. Both patients achieved complete recanalization and favorable 3-month functional outcomes after tumor resection. These cases highlight phenotypic heterogeneity, differences in embolic mechanisms, and the value of integrated imaging, pathological examination, cardiac assessment, and individualized therapy in atrial myxoma-related stroke. CONCLUSION: Atrial myxoma-associated strokes involve two distinct mechanisms of embolism that may affect secondary prevention and follow-up strategies. Accurate differentiation relies on the pathological examination of embolic material, which requires coordinated multidisciplinary care to develop personalized treatment.",
@@ -231,6 +661,45 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42436969",
+    "title": "Incidence and Related Risk Factors of Pulmonary Complications After Spinal Fusion Surgery: A Retrospective Nationwide Inpatient Sample Database Study.",
+    "abstract": "BACKGROUND: Postoperative pulmonary complications (PPCs) are common surgical complications and have a significant cost impact. However, the incidence, risk factors, and cost burden of US health care associated with PPCs after spine fusion surgery have not been comprehensively analyzed through large national databases. METHODS: A retrospective analysis utilized the Nationwide Inpatient Sample (NIS) database from 2010 to 2019. Adult patients (&#x2265;18 years) undergoing spinal fusion were identified via ICD-9-CM/ICD-10-CM procedural codes. PPCs-defined as pneumonia, acute respiratory failure (ARF), pulmonary embolism, or pulmonary edema-were identified by diagnostic codes. Multivariate and stratified logistic regression analyses examined overall and subtype-specific risk factors. RESULTS: Among 812,609 patients, 17,121 (2.11%) developed PPCs, including 9,591 (1.18%) with ARF, 7,376 (0.91%) with pneumonia, 2,159 (0.27%) with pulmonary embolism, and 553 (0.07%) with pulmonary edema. The overall PPCs' rate increased from 2014 to 2019, driven primarily by rising ARF incidence. Patients with PPCs had longer hospital stays (9 vs. 3 days), higher total charges ($197,994 vs. $85,233), and greater in-hospital mortality (5.82% vs. 0.08%, all P < 0.001). Multivariate analysis identified advanced age (&#x2265;75: OR = 1.86), multiple comorbidities (OR = 10.98), pulmonary circulation disorders (OR = 11.38), continuous trauma ventilation (OR = 13.34), and septicemia (OR = 14.34) as high-risk factors. Stratified analyses revealed distinct risk profiles: impaired pulmonary reserve and frailty were associated with pneumonia and ARF; venous thromboembolism risk factors with pulmonary embolism; and cardiac, renal, and fluid-related disorders with pulmonary edema. Protective factors included female sex (OR = 0.70), elective admission (OR = 0.32), lumbar fusion (OR = 0.76), and private insurance (OR = 0.89). CONCLUSION: PPCs after spinal fusion are increasing, primarily due to rising ARF rates. These complications exhibit clinically distinct risk profiles that support subtype-specific assessment and individualized prevention strategies targeting pulmonary reserve, thromboembolic risk, and cardiopulmonary vulnerability.",
+    "englishSummary": "BACKGROUND: Postoperative pulmonary complications (PPCs) are common surgical complications and have a significant cost impact. However, the incidence, risk factors, and cost burden of US health care associated with PPCs after spine fusion surgery have not been comprehensively analyzed through large national databases. METHODS: A retrospective analysis utilized the Nationwide Inpatient Sample (NIS) database from 2010 to 2019.",
+    "journal": "Geriatric orthopaedic surgery & rehabilitation",
+    "publicationDate": "2026-07-09",
+    "authors": [
+      "Wang Y",
+      "Liao YD",
+      "Zhang Y",
+      "Liao CR",
+      "Chen JT"
+    ],
+    "affiliations": [
+      "Division of Spine Surgery, Department of Orthopaedics, Nanfang Hospital, Southern Medical University, Guangzhou, Guangdong, China.",
+      "Division of Spine Surgery, Department of Orthopaedics, Jiangmen Central Hospital, Jiangmen, Guangdong, China."
+    ],
+    "doi": "10.1177/21514593261468051",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42436969/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -500,389 +969,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42420874",
-    "title": "Efficacy of ultrasound guidance for arteriovenous access cannulation in haemodialysis patients: a systematic review with quantitative synthesis.",
-    "abstract": "BACKGROUND: Ultrasound (US)-guided cannulation has been proposed to improve success rates and safety compared with conventional palpation-guided techniques in haemodialysis patients. This systematic review with quantitative synthesis evaluated the efficacy of US-guided versus palpation-guided cannulation for arteriovenous access. METHODS: Randomized controlled trials (RCTs) comparing US-guided with conventional cannulation were included. Searches were conducted across five electronic databases from inception to May 2025. Quantitative syntheses were performed where appropriate using Review Manager 5.4, calculating pooled risk ratios (RRs) and mean differences (MDs) with 95% confidence intervals (CIs). To address potential unit-of-analysis errors, data were stratified by reporting unit, namely patient-level versus cannulation-event-level reporting. A random-effects model was employed to provide conservative estimates given the high heterogeneity. RESULTS: Five RCTs involving 142 unique patients, totaling 2,894 cannulation events, met the inclusion criteria. US-guided cannulation showed a marginal improvement in the first-attempt success rate (RR&#x2009;=&#x2009;1.08; 95% CI, 1.00-1.16; p&#x2009;=&#x2009;0.04). However, after excluding the largest event-based reporting study, Wu et al. [24], the leave-one-out sensitivity analysis showed that the effect was no longer statistically significant (RR&#x2009;=&#x2009;1.07; 95% CI, 0.98-1.16; p&#x2009;=&#x2009;0.14). The observed overall effect was predominantly driven by trials using cannulation events as the unit of analysis, whereas studies reporting per-patient outcomes showed no significant differences. No definitive clinical or geographical conclusions could be drawn, as apparent variations across trials were identified as statistical artifacts resulting from these unit-of-analysis errors. No statistically significant differences were found in complication rates. Due to substantial methodological heterogeneity in procedure duration definitions, these data were synthesized qualitatively and showed no consistent benefit. High heterogeneity was observed for first-attempt success (I&#xb2; = 91%) and complications (I&#xb2; = 89%). CONCLUSIONS: Although US-guided cannulation shows potential for increasing first-attempt success, the current evidence is limited by significant unit-of-analysis errors and clinical heterogeneity related to the operator learning curve. When accounting for these statistical artifacts, no definitive evidence supports superior efficacy in specific clinical or geographical settings. Future large-scale RCTs should adopt standardized, per-patient reporting to confirm these findings. PROTOCOL REGISTRATION: PROSPERO Registration Number: CRD42023424434.",
-    "englishSummary": "BACKGROUND: Ultrasound (US)-guided cannulation has been proposed to improve success rates and safety compared with conventional palpation-guided techniques in haemodialysis patients. This systematic review with quantitative synthesis evaluated the efficacy of US-guided versus palpation-guided cannulation for arteriovenous access. METHODS: Randomized controlled trials (RCTs) comparing US-guided with conventional cannulation were included.",
-    "journal": "BMC nephrology",
-    "publicationDate": "2026-07-08",
-    "authors": [
-      "Chang TW",
-      "Chen HY",
-      "Chen YC",
-      "Huang CY",
-      "Wu WT",
-      "Chang KV"
-    ],
-    "affiliations": [
-      "Institute of Clinical Nursing, College of Nursing, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
-      "Department of Nursing, National Taiwan University Hospital Bei-Hu Branch, Taipei, Taiwan.",
-      "Department of Nephrology, National Taiwan University Hospital, Bei-Hu Branch, Taipei, Taiwan.",
-      "Department of Physical Medicine and Rehabilitation, College of Medicine, National Taiwan University Hospital, National Taiwan University, Taipei, Taiwan.",
-      "Department of Physical Medicine and Rehabilitation, National Taiwan University Hospital, Bei-Hu Branch, Taipei, Taiwan.",
-      "Department of Physical Medicine and Rehabilitation, College of Medicine, National Taiwan University Hospital, National Taiwan University, Taipei, Taiwan. kvchang011@gmail.com.",
-      "Department of Physical Medicine and Rehabilitation, National Taiwan University Hospital, Bei-Hu Branch, Taipei, Taiwan. kvchang011@gmail.com.",
-      "Center for Regional Anesthesia and Pain Medicine, Wang-Fang Hospital, Taipei Medical University, Taipei, Taiwan. kvchang011@gmail.com."
-    ],
-    "doi": "10.1186/s12882-026-05193-5",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42420874/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Systematic Review",
-      "Review"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 clinical evidence design: randomized",
-      "+2 human study: patients",
-      "+2 China affiliation: Taiwan"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42420543",
-    "title": "Principal component analysis of morphological features of the aortic arch for predicting the risk for acute type B aortic dissection.",
-    "abstract": "To characterize aortic morphological features associated with Stanford type B aortic dissection. This retrospective cross-sectional study included patients who underwent contrast-enhanced CT angiography between January 2017 and December 2018. TBAD cases and controls without aortic disease were identified based on imaging findings. The dataset was randomly divided into a derivation cohort and an independent validation cohort. Aortic geometric parameters were measured and summarized using principal component analysis (PCA). A multivariable logistic regression model was developed in the derivation cohort and evaluated in the validation cohort, with performance assessed by discrimination and calibration in distinguishing TBAD cases from controls. In multivariable analysis, hypertension, rotated component 1, and rotated component 5 were associated with increased odds of TBAD, whereas age, smoking status, rotated component 2, and rotated component 4 were associated with decreased odds. The area under the curve (AUC) was 0.935 (95% CI 0.912-0.959) in the derivation cohort and 0.948 (95% CI 0.918-0.977) in the validation cohort. The Hosmer-Lemeshow test indicated no evidence of poor fit (P&#x2009;=&#x2009;0.971). This study identified PCA-derived morphological features associated with Stanford type B aortic dissection. These findings may contribute to future risk stratification strategies. Further validation in prospective, multicenter studies is required.Trial registration: Chinese Clinical Trials Registry: ChiCTR2000029219.",
-    "englishSummary": "To characterize aortic morphological features associated with Stanford type B aortic dissection. This retrospective cross-sectional study included patients who underwent contrast-enhanced CT angiography between January 2017 and December 2018. TBAD cases and controls without aortic disease were identified based on imaging findings.",
-    "journal": "Scientific reports",
-    "publicationDate": "2026-07-08",
-    "authors": [
-      "Zhan Y",
-      "Li C",
-      "Wang R",
-      "Qiu P",
-      "Chen W"
-    ],
-    "affiliations": [
-      "First Affiliated Hospital of Anhui Medical University, Hefei, China.",
-      "The First People's Hospital of Chu Zhou, Chuzhou, China.",
-      "Shanghai Ninth People's Hospital, Shanghai, China.",
-      "First Affiliated Hospital of Anhui Medical University, Hefei, China. chenwei366@ahmu.edu.cn."
-    ],
-    "doi": "10.1038/s41598-026-61130-4",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42420543/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Clinical Trial",
-      "Cohort",
-      "Registry"
-    ],
-    "relevance": "high",
-    "score": 9,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic dissection",
-      "+2 clinical evidence design: trial",
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42420530",
-    "title": "Deacetylation of SRF catalyzed by SIRT7 protects against abdominal aortic aneurysm formation.",
-    "abstract": "Abdominal aortic aneurysm (AAA) is a life-threatening cardiovascular disease for which no effective pharmacological treatments exist. Histone deacetylases (HDACs) have emerged as critical regulators of cardiovascular pathophysiology; however, the contributions of individual HDAC isoforms to AAA formation remain largely undefined. Here, we identified sirtuin 7 (SIRT7) as the most markedly downregulation isoform among 18 HDAC family members in human AAA tissues. Global and vascular smooth muscle cell (VSMC)-specific Sirt7 knockout exacerbated AAA formation, whereas SIRT7 overexpression attenuated aneurysm progression. Mechanistically, SIRT7 deacetylates serum response factor (SRF) at lysine 154, thereby preventing SRF nuclear-to-cytoplasmic translocation and ubiquitin-mediated degradation and preserving the VSMC contractile phenotype. Consequently, SIRT7 deficiency enhances SRF acetylation, accelerates its degradation, and promotes VSMC phenotypic switching, ultimately facilitating AAA progression. Pharmacological activation of SIRT7 with the NAD&#x207a; precursor nicotinamide mononucleotide attenuated aortic dilation. Collectively, our findings reveal a crucial role for SIRT7-mediated SRF-K154 deacetylation in limiting AAA progression and suggest that nicotinamide mononucleotide supplementation may represent a promising therapeutic strategy for AAA.",
-    "englishSummary": "Abdominal aortic aneurysm (AAA) is a life-threatening cardiovascular disease for which no effective pharmacological treatments exist. Histone deacetylases (HDACs) have emerged as critical regulators of cardiovascular pathophysiology; however, the contributions of individual HDAC isoforms to AAA formation remain largely undefined. Here, we identified sirtuin 7 (SIRT7) as the most markedly downregulation isoform among 18 HDAC family members in human AAA tissues.",
-    "journal": "Experimental & molecular medicine",
-    "publicationDate": "2026-07-08",
-    "authors": [
-      "Xiong Y",
-      "Chen J",
-      "Lu W",
-      "Liu Y",
-      "Sheng C",
-      "Liu S",
-      "Xu B",
-      "Li Y",
-      "Pan B",
-      "Wang W"
-    ],
-    "affiliations": [
-      "Department of General and Vascular Surgery, Xiangya Hospital, Central South University, Changsha, China.",
-      "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China.",
-      "Department of Surgery, Stanford University School of Medicine, Stanford, CA, USA.",
-      "Department of Surgery, University of Michigan Medical School, Ann Arbor, MI, USA.",
-      "Department of General and Vascular Surgery, Xiangya Hospital, Central South University, Changsha, China. pbh1990s@csu.edu.cn.",
-      "Department of General and Vascular Surgery, Xiangya Hospital, Central South University, Changsha, China. weiwangcsu@csu.edu.cn.",
-      "National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, Central South University, Changsha, China. weiwangcsu@csu.edu.cn.",
-      "Clinical Research Center for Vascular Intervention in Hunan Province, Xiangya Hospital, Central South University, Changsha, China. weiwangcsu@csu.edu.cn."
-    ],
-    "doi": "10.1038/s12276-026-01787-z",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42420530/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 human study: human",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42420144",
-    "title": "Final Postprocedural DSA Intrahepatic Branch Patency Predicts Outcomes After Endovascular Recanalization for Acute Non-cirrhotic Portal Vein Thrombosis.",
-    "abstract": "RATIONALE AND OBJECTIVES: To evaluate whether intrahepatic branch patency on postprocedural digital subtraction angiography (DSA) predicts outcomes after endovascular recanalization for non-cirrhotic portal vein thrombosis (NCPVT). MATERIALS AND METHODS: This retrospective study included 122 patients with acute NCPVT who underwent endovascular recanalization. According to final postprocedural DSA findings, patients were classified into patent and occluded intrahepatic branch groups. Early postprocedural outcomes, follow-up adverse events, overall survival, and stent patency were compared. Kaplan-Meier and Cox regression analyses were used to identify factors associated with symptom recurrence. RESULTS: Postprocedural DSA demonstrated patent intrahepatic branches in 71 patients and occlusion in 51. Compared with the patent group, the occluded group had higher rates of bowel necrosis during hospitalization (17.6% vs 4.2%, P&#xa0;=&#xa0;0.014), gastrointestinal bleeding (35.7% vs 7.9%, P&#xa0;<&#xa0;0.001), recurrent abdominal pain (78.6% vs 30.2%, P&#xa0;<&#xa0;0.001), cavernous transformation of the portal vein (CTPV)&#xa0;(92.9% vs 65.1%, P&#xa0;=&#xa0;0.001), and secondary intervention (52.4% vs 22.2%, P&#xa0;=&#xa0;0.002) during follow-up. In multivariable Cox analysis, intrahepatic branch occlusion remained independently associated with symptom recurrence (hazard ratio, 3.08; 95% confidence interval, 1.57-6.03; P&#xa0;=&#xa0;0.001). Overall survival did not differ significantly between groups. Transjugular intrahepatic portosystemic shunt (TIPS) was not independently associated with overall symptom recurrence, although in patients with intrahepatic branch occlusion it was associated with less gastrointestinal bleeding during follow-up. Stent occlusion occurred in 35 of 49 patients with available follow-up data. CONCLUSION: Intrahepatic branch patency on postprocedural DSA provides prognostic information after endovascular recanalization for NCPVT. Persistent branch occlusion identifies patients at increased risk for adverse outcomes and may support closer surveillance and individualized postprocedural management.",
-    "englishSummary": "RATIONALE AND OBJECTIVES: To evaluate whether intrahepatic branch patency on postprocedural digital subtraction angiography (DSA) predicts outcomes after endovascular recanalization for non-cirrhotic portal vein thrombosis (NCPVT). MATERIALS AND METHODS: This retrospective study included 122 patients with acute NCPVT who underwent endovascular recanalization. According to final postprocedural DSA findings, patients were classified into patent and occluded intrahepatic branch groups.",
-    "journal": "Academic radiology",
-    "publicationDate": "2026-07-08",
-    "authors": [
-      "Xue W",
-      "Guo Y",
-      "Hua Z",
-      "Liu S",
-      "Xu P",
-      "Zhou B",
-      "Li X",
-      "Cao H",
-      "Jiao Z",
-      "Li Z"
-    ],
-    "affiliations": [
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: 13526219317@163.com.",
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: 15617151671@163.com.",
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: HZHzzu1h@163.com.",
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: liu.shirui@163.com.",
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: xp0371@126.com.",
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: zbn17803868897@163.com.",
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: lixuirving@163.com.",
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: cxhemail@sina.com.",
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: jiaozhouyang@126.com.",
-      "Department of Endovascular Surgery, the First Affiliated Hospital of Zhengzhou University, Zhengzhou, Henan&#xa0;450052, China&#xa0;(W.X., Y.G., Z.H., S.L., P.X., B.Z., X.L., H.C., Z.J., Z.L.). Electronic address: fccliz2@zzu.edu.cn."
-    ],
-    "doi": "10.1016/j.acra.2026.06.023",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42420144/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Endovascular",
-      "Vascular Graft / Stent / Device",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 9,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42419562",
-    "title": "Prognostic Value of T2-FLAIR Hyperintense Vessel Sign for Cerebral Hyperperfusion Syndrome and Feasibility of Risk-Stratified Perioperative Management Following Carotid Artery Stenting.",
-    "abstract": "OBJECTIVE: This study aimed to assess the prognostic performance of preoperative T2-FLAIR hyperintense vessel sign (HVS) grading for cerebral hyperperfusion syndrome (CHS) after carotid artery stenting (CAS), and to evaluate the clinical feasibility and safety of an HVS-guided risk-stratified perioperative management strategy. METHODS: A single-center prospective cohort study was conducted on 128 consecutive patients with symptomatic carotid stenosis &#x2265;70 who underwent elective CAS. All participants were categorized into three groups based on preoperative HVS grades: low-risk (HVS 0-1), intermediate-risk (HVS 2), and high-risk (HVS 3). Tailored interventions, including session-based staged angioplasty and tiered systolic blood pressure control, were implemented across all groups. The primary clinical endpoint was 30-day symptomatic CHS. Firth penalized logistic regression was applied for exploratory analysis of factors associated with CHS occurrence. RESULTS: The overall 30-day incidence of symptomatic CHS was 6.3%, with a stepwise rising risk across low-risk (0%), intermediate-risk (5.3%) and high-risk (24%) HVS subgroups (P<0.001). Exploratory regression analysis revealed that HVS grade &#x2265;2 (OR=6.87, 95%CI: 2.91-16.23, P<0.001) and incomplete circle of Willis (OR=3.72, 95%CI: 1.58-8.76, P=0.003) were correlated with higher CHS odds. There were no intergroup differences in total procedural complications, and the CHS incidence of our cohort was numerically lower than that of a historical control group. CONCLUSIONS: Preoperative T2-FLAIR HVS grading serves as a reliable prognostic marker for stratifying CHS risk in patients receiving CAS. The HVS-guided risk-stratified perioperative management protocol is clinically feasible and safe. As a widely accessible imaging indicator, HVS has promising application value in routine clinical practice. Further large-scale multicenter studies are warranted to validate our findings.",
-    "englishSummary": "OBJECTIVE: This study aimed to assess the prognostic performance of preoperative T2-FLAIR hyperintense vessel sign (HVS) grading for cerebral hyperperfusion syndrome (CHS) after carotid artery stenting (CAS), and to evaluate the clinical feasibility and safety of an HVS-guided risk-stratified perioperative management strategy. METHODS: A single-center prospective cohort study was conducted on 128 consecutive patients with symptomatic carotid stenosis &#x2265;70 who underwent elective CAS. All participants were categorized into three groups based on preoperative HVS grades: low-risk (HVS 0-1), intermediate-risk (HVS 2), and high-risk (HVS 3).",
-    "journal": "World neurosurgery",
-    "publicationDate": "2026-07-08",
-    "authors": [
-      "Wan D",
-      "Wang C",
-      "Liu H",
-      "Yan L",
-      "Wu T",
-      "Yu J",
-      "Li Y",
-      "Zhang J"
-    ],
-    "affiliations": [
-      "Department of Neurosurgery, The Second People's Hospital of Shizuishan, Ningxia, China. Electronic address: 344595889@qq.com.",
-      "Department of Anesthesiology, The Second People's Hospital of Shizuishan, Ningxia, China.",
-      "Department of Neurosurgery, The Second People's Hospital of Shizuishan, Ningxia, China.",
-      "Department of Critical Care Medicine, The Second People's Hospital of Shizuishan, Ningxia, China.",
-      "Department of Radiology, The Second People's Hospital of Shizuishan, Ningxia, China."
-    ],
-    "doi": "10.1016/j.wneu.2026.125187",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42419562/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Carotid Disease",
-      "Endovascular",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42419478",
-    "title": "A Single-Sided Knot Modification of Diameter-Reducing Ties for Physician-Modified Endografts.",
-    "abstract": "",
-    "englishSummary": "",
-    "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-    "publicationDate": "2026-07-08",
-    "authors": [
-      "Jiang Y",
-      "Hu J",
-      "Li F",
-      "Liu X",
-      "Lu X",
-      "Liu G"
-    ],
-    "affiliations": [
-      "Department of Vascular Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, P. R. China; The Vascular Center, Shanghai Jiao Tong University School of Medicine, Shanghai, P. R. China.",
-      "Department of Vascular Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, P. R. China; The Vascular Center, Shanghai Jiao Tong University School of Medicine, Shanghai, P. R. China. Electronic address: benny_liuxb@163.com.",
-      "Department of Vascular Surgery, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, P. R. China; The Vascular Center, Shanghai Jiao Tong University School of Medicine, Shanghai, P. R. China; Department of Vascular Surgery, Fengcheng Hospital, Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, P. R. China. Electronic address: benny_liuxb@163.com."
-    ],
-    "doi": "10.1016/j.ejvs.2026.07.007",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42419478/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Endovascular",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "low",
-    "score": 2,
-    "scoreReasons": [
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42418349",
-    "title": "Machine-Learning-Assisted Catalytic Sensor Array for Rapid Diagnosis of Aortic Dissection.",
-    "abstract": "Acute aortic dissection (AD) is a time-critical cardiovascular emergency that is clinically difficult to distinguish from other causes of acute chest pain. Rapid blood diagnostics with high specificity for AD are therefore urgently needed. Herein, we report a machine-learning-assisted sensor array constructed from manganese porphyrin (Mn-TCPP) and two framework assemblies (PFC-73-Mn, PCN-224-Mn) for the precise triage of AD. The sensor array generates disease-specific colorimetric response patterns through differential catalytic inhibition upon exposure to plasma. This sensing capability is governed by the protein corona effect, in which the disease-related plasma proteins form distinct coronal layers on the surface of sensing elements and modulate the permeation of substrates to the catalytic active sites. The sensor array combined with an XGBoost algorithm successfully distinguished AD patients from other causes of acute chest pain in a cohort of 181 individuals with an accuracy of 86.5% and an area under the curve (AUC) of 0.933. Fusion with clinical biomarkers using a Random Forest classifier further improved performance to 91.9% accuracy and 0.985 AUC. This study provides a rapid, robust tool for AD diagnosis using 20 &#x3bc;L of plasma in 15 min and offers mechanistic insight into the sensor array for disease triage based on blood samples.",
-    "englishSummary": "Acute aortic dissection (AD) is a time-critical cardiovascular emergency that is clinically difficult to distinguish from other causes of acute chest pain. Rapid blood diagnostics with high specificity for AD are therefore urgently needed. Herein, we report a machine-learning-assisted sensor array constructed from manganese porphyrin (Mn-TCPP) and two framework assemblies (PFC-73-Mn, PCN-224-Mn) for the precise triage of AD.",
-    "journal": "Analytical chemistry",
-    "publicationDate": "2026-07-08",
-    "authors": [
-      "Guo S",
-      "Wen Y",
-      "Zhou X",
-      "Lv S",
-      "Liu N",
-      "Li R",
-      "Zhao P",
-      "Xiu J",
-      "Tao J"
-    ],
-    "affiliations": [
-      "Department of Cardiology, Nanfang Hospital, Southern Medical University, Guangzhou 510515, China.",
-      "The First School of Clinical Medicine, Southern Medical University, Guangzhou 510515, China.",
-      "School of Chemistry and Chemical Engineering, South China University of Technology, Guangzhou 510640, China.",
-      "NMPA Key Laboratory for Research and Evaluation of Drug Metabolism,Guangdong Provincial Key Laboratory of New Drug Screening, School of Pharmaceutical Sciences, Southern Medical University, 510515 Guangzhou, China.",
-      "Guangdong Provincial Key Laboratory of Cardiac Function and Microcirculation, Nanfang Hospital, Southern Medical University, Guangzhou 510515, China.",
-      "State Key Laboratory of Organ Failure Research, Nanfang Hospital, Southern Medical University, Guangzhou 510515, China."
-    ],
-    "doi": "10.1021/acs.analchem.6c03030",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42418349/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 9,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic dissection",
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42417067",
-    "title": "Impact of Preoperative Nutrition Status on Wound Healing in Patients With Chronic Limb-Threatening Ischemia Undergoing Endovascular Therapy.",
-    "abstract": "BACKGROUND: In the treatment of chronic limb-threatening Ischemia (CLTI), achieving complete wound healing is a crucial goal. The controlling nutritional status (CONUT) score, prognostic nutritional index (PNI), and geriatric nutritional risk index (GNRI) are objective tools for assessing malnutrition and have been shown to be associated with poor clinical outcomes in patients with CLTI. However, the association between malnutrition, as defined by various tools, and wound healing in patients with CLTI following EVT has not yet been fully evaluated. AIMS: This study aimed to investigate the relationship between malnutrition and wound healing in patients with CLTI undergoing endovascular therapy (EVT). METHODS: A total of 165 patients treated with EVT for CLTI with wounds were retrospectively analyzed for up to 12 months of follow-up between January 2016 and June 2024. The patients were classified into two groups based on their wound healing status 6 months postoperatively: early wound healing group and delayed wound healing group. Nutritional status was evaluated using the CONUT score, GNRI, and PNI. The relationship between nutritional status and delayed wound healing was examined using logistic regression analysis. RESULTS: The delayed wound healing group had significantly higher CONUT score and lower GNRI and PNI. Logistic regression analysis demonstrated that CONUT malnutrition (odds ratio [OR] 4.140, 95% confidence interval [CI] 1.689-10.150, p&#x2009;=&#x2009;0.002) and GNRI malnutrition (OR 5.269, 95% CI 1.959-14.171, p&#x2009;=&#x2009;0.001) were independent predictors of delayed wound healing. Receiver operating characteristic (ROC) analysis indicated that the area under the curve (AUC) for the CONUT score (AUC&#x2009;=&#x2009;0.811) was greater than that for the GNRI (AUC&#x2009;=&#x2009;0.763), although no significant differences were found (p&#x2009;=&#x2009;0.324). CONCLUSIONS: Malnutrition is closely associated with delayed wound healing in patients with CLTI following EVT. Nutritional status is crucial for decision-making in the treatment of CLTI, and early nutritional intervention may improve patient outcomes.",
-    "englishSummary": "BACKGROUND: In the treatment of chronic limb-threatening Ischemia (CLTI), achieving complete wound healing is a crucial goal. The controlling nutritional status (CONUT) score, prognostic nutritional index (PNI), and geriatric nutritional risk index (GNRI) are objective tools for assessing malnutrition and have been shown to be associated with poor clinical outcomes in patients with CLTI. However, the association between malnutrition, as defined by various tools, and wound healing in patients with CLTI following EVT has not yet been fully evaluated.",
-    "journal": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
-    "publicationDate": "2026-07-08",
-    "authors": [
-      "Pan T",
-      "Liu Z",
-      "Zhang J",
-      "Wang L",
-      "Ji D",
-      "Wang F"
-    ],
-    "affiliations": [
-      "Interventional Therapy Department of the First Affiliated Hospital of Dalian Medical University, Dalian, China."
-    ],
-    "doi": "10.1002/ccd.70746",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42417067/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "PAD / CLTI",
-      "Endovascular",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 9,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -1325,52 +1411,6 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42017243",
-    "title": "TAVR for Elderly Patient With Bicuspid Aortic Stenosis, Severe Horizontal Heart, and Ascending Aorta Dilation.",
-    "abstract": "BACKGROUND: Transcatheter aortic valve replacement (TAVR) has advanced from an emerging technology to a standard therapeutic option for high-risk patients with symptomatic severe aortic stenosis. Procedural risk correlates strongly with aortic root anatomy. In elderly patients with bicuspid aortic valves, concomitant horizontal cardiac orientation and ascending aortic dilation confer markedly higher procedural risk. CASE SUMMARY: We report an elderly patient with a bicuspid aortic valve, severe horizontal aortic root angulation (88&#xb0;), and ascending aortic dilation (approximately 60 mm). The presence of an ascending aortic aneurysm supported the indication for surgical intervention. Given the substantial technical complexity and perioperative risk of open-heart surgery, TAVR was selected as a safer alternative. DISCUSSION: This case demonstrates that TAVR remains feasible in elderly patients with complex anatomy unsuitable for surgery, despite increased procedural challenges and risk. TAKE-HOME MESSAGE: In elderly patients with severe aortic stenosis and anatomically complex aortic pathology, TAVR should be considered a clinically viable treatment strategy.",
-    "englishSummary": "BACKGROUND: Transcatheter aortic valve replacement (TAVR) has advanced from an emerging technology to a standard therapeutic option for high-risk patients with symptomatic severe aortic stenosis. Procedural risk correlates strongly with aortic root anatomy. In elderly patients with bicuspid aortic valves, concomitant horizontal cardiac orientation and ascending aortic dilation confer markedly higher procedural risk.",
-    "journal": "JACC. Case reports",
-    "publicationDate": "2026-04-18",
-    "authors": [
-      "Tang X",
-      "Lu Q",
-      "Zou H",
-      "Shi J",
-      "Yong Y",
-      "Sun W",
-      "Zhang H",
-      "Kong X"
-    ],
-    "affiliations": [
-      "Department of Cardiology, Jiangsu Province Hospital, the First Affiliated Hospital of Nanjing Medical University, Nanjing, China.",
-      "Department of Cardiology, Jiangsu Province Hospital, the First Affiliated Hospital of Nanjing Medical University, Nanjing, China. Electronic address: haozhanghh@163.com."
-    ],
-    "doi": "10.1016/j.jaccas.2026.108254",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42017243/",
-    "publicationTypes": [
-      "Case Reports",
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Case Report"
-    ],
-    "relevance": "medium",
-    "score": 5,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China",
-      "-1 case report: case reports"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
     "pmid": "41967669",
     "title": "Endovascular Intervention Reduces Thrombosis Risk in Retrievable Inferior Vena Cava Filters: A Multicenter Propensity-Matched Analysis.",
     "abstract": "BACKGROUND: Current guidelines recommend retrievable inferior vena cava filters (RIVCFs) placement prior to endovascular intervention (EI) for deep vein thrombosis (DVT), yet the impact of EI on RIVCF-related thrombosis/trapped embolus (T/TE) remains controversial. METHODS: In this prospective registry-based study (ChiCTR1800014252), 2,773 patients undergoing RIVCF placement across 103 Chinese centers (2018-2019) were stratified into EI (n = 1,472) and no-EI (n = 1,301) groups. Propensity score matching (1:1) balanced 23 baseline variables (e.g., DVT acuity and anticoagulation). The primary end point was RIVCF T/TE (defined as inferior vena cava obstruction or thrombus >5 cm above the filter), validated by core-lab adjudicated imaging (computed tomography/angiography). All treating physicians from the 103 participating centers received unified standardized training on the clinical selection criteria for EI and non-EI therapy prior to the study initiation, ensuring consistent intercenter decision-making. The selection of therapeutic modalities was further based on individualized clinical characteristics, including the anatomical location of DVT, thrombus burden, presence of procedural contraindications, and patient's informed consent after full risk-benefit explanation. RESULTS: After matching (n = 1,007 per group), EI was associated with a 46% lower risk of RIVCF T/TE (8.9% vs. 14.0%, P < 0.001; odds ratio = 0.54, 95% confidence interval: 0.41-0.71). Symptomatic pulmonary embolism rates were comparable (1.2% vs. 2.8%, P = 0.07). No brand-specific differences in T/TE incidence were observed (P = 0.32). CONCLUSION: This study challenges the necessity of routine RIVCF placement before EI, demonstrating that EI itself reduces thrombosis risk. These findings advocate for selective filter use, potentially sparing patients from device-related complications.",
@@ -1553,6 +1593,46 @@
       "Journal Article"
     ],
     "topicTags": [
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "41693288",
+    "title": "Diagnostic Efficacy of Acoustic Radiation Force Impulse in Staging of Lower Limb Intramuscular Venous Thrombosis: A Single-Center Prospective Cohort Study.",
+    "abstract": "OBJECTIVES: Acoustic radiation force impulse (ARFI) imaging can quantitatively reflect tissue stiffness through shear wave velocity (SWV). In recent years, ARFI technology has been successfully applied in the diagnosis of liver and breast diseases, and has made some progress in the quantitative assessment and staging of femoral vein and popliteal vein thrombosis. However, research on intramuscular venous thrombosis in the lower limbs is still insufficient. This study aims to evaluate the application value of ARFI technology in the staging of lower limb intramuscular venous thrombosis. METHODS: A prospective cohort of 227 patients with 265 intramuscular venous thromboses was included. According to the time of thrombus formation, they were divided into acute (133 cases, 152 thromboses), subacute (52 cases, 65 thromboses), and chronic (42 cases, 48 thromboses) groups. Gray-scale and Doppler ultrasound characteristics were analyzed, and sampling depth and SWV values were compared among groups. Receiver operating characteristic (ROC) curves were plotted to determine optimal cutoff values for distinguishing different stages. RESULTS: Acute-phase thrombi typically appear hypoechoic, avascular, and sharply demarcated from the vessel wall. Subacute thrombi are predominantly isoechoic, usually without detectable blood flow, and show indistinct margins in some cases. Chronic thrombi exhibit heterogeneous echogenicity, often demonstrate intrathrombus flow signals, and consistently display poorly defined borders with the vessel wall. The SWV values for the 3 groups of cases were (1.90&#x2009;&#xb1;&#x2009;0.26) m/s, (2.35&#x2009;&#xb1;&#x2009;0.34) m/s, and (2.82&#x2009;&#xb1;&#x2009;0.43) m/s for the 3 groups respectively. One-way ANOVA showed no significant difference in sampling depth (p&#x2009;=&#x2009;.160) but significant difference in SWV values (p&#x2009;<&#x2009;.05). The ROC curve area for distinguishing acute from subacute thrombi was 86.6% (95% CI: 0.818-0.913, p&#x2009;<&#x2009;.05), with a cutoff SWV of 2.01&#x2009;m/s, yielding 89.2% sensitivity and 70.4% specificity for acute thrombi diagnosis. For subacute versus chronic thrombi, the ROC area was 82.3% (95% CI: 0.743-0.902, p&#x2009;<&#x2009;.01), with a cutoff SWV of 2.63&#x2009;m/s, achieving 72.9% sensitivity and 87.7% specificity for subacute thrombi diagnosis. CONCLUSION: ARFI technology shows high diagnostic efficacy for staging lower limb intramuscular venous thrombosis and can be promoted in clinical practice.",
+    "englishSummary": "OBJECTIVES: Acoustic radiation force impulse (ARFI) imaging can quantitatively reflect tissue stiffness through shear wave velocity (SWV). In recent years, ARFI technology has been successfully applied in the diagnosis of liver and breast diseases, and has made some progress in the quantitative assessment and staging of femoral vein and popliteal vein thrombosis. However, research on intramuscular venous thrombosis in the lower limbs is still insufficient.",
+    "journal": "Journal of ultrasound in medicine : official journal of the American Institute of Ultrasound in Medicine",
+    "publicationDate": "2026-02-15",
+    "authors": [
+      "Meng X",
+      "Wang J",
+      "Mu Y",
+      "Wu X",
+      "Yan Z"
+    ],
+    "affiliations": [
+      "Department of Ultrasound, The 904th Hospital of PLA, Wuxi, China."
+    ],
+    "doi": "10.1002/jum.70200",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41693288/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Imaging / Diagnosis",
       "China Research"
     ],
     "studyTypeTags": [

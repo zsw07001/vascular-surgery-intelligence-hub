@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-07-11T21:06:27.373Z",
+  "generatedAt": "2026-07-12T21:06:40.922Z",
   "period": {
-    "start": "2026-07-05",
-    "end": "2026-07-11"
+    "start": "2026-07-06",
+    "end": "2026-07-12"
   },
-  "dataUpdatedAt": "2026-07-11T21:06:27.373Z",
+  "dataUpdatedAt": "2026-07-12T21:06:40.922Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 199,
-      "updatedAt": "2026-07-11T21:06:27.373Z"
+      "updatedAt": "2026-07-12T21:06:40.922Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 754,
-      "updatedAt": "2026-07-11T21:06:27.373Z"
+      "updatedAt": "2026-07-12T21:06:40.922Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 11,
-      "updatedAt": "2026-07-11T21:06:27.373Z"
+      "count": 8,
+      "updatedAt": "2026-07-12T21:06:40.922Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-11T21:06:27.373Z"
+      "updatedAt": "2026-07-12T21:06:40.922Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-11T21:06:27.373Z"
+      "updatedAt": "2026-07-12T21:06:40.922Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-07-11T21:06:27.373Z"
+      "updatedAt": "2026-07-12T21:06:40.922Z"
     }
   ],
   "counts": {
     "latestResearch": 199,
     "highImpact": 95,
-    "chinaResearch": 35,
+    "chinaResearch": 36,
     "clinicalTrials": 754,
-    "guidelines": 11,
+    "guidelines": 8,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -57,36 +57,36 @@
   "overviewZh": "本周自动汇总 199 篇 PubMed 文献、754 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
-      "tag": "Endovascular",
-      "count": 83
+      "tag": "Imaging / Diagnosis",
+      "count": 85
     },
     {
-      "tag": "Imaging / Diagnosis",
-      "count": 80
+      "tag": "Endovascular",
+      "count": 82
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 44
+      "count": 45
     },
     {
       "tag": "Aortic Disease",
-      "count": 41
+      "count": 40
     },
     {
       "tag": "PAD / CLTI",
-      "count": 38
+      "count": 40
     },
     {
       "tag": "China Research",
-      "count": 35
+      "count": 36
     },
     {
       "tag": "Venous Disease",
-      "count": 35
+      "count": 34
     },
     {
       "tag": "Open Surgery",
-      "count": 14
+      "count": 16
     }
   ],
   "priorityReading": [
@@ -233,29 +233,6 @@
       "doi": "10.1016/j.avsg.2026.03.047"
     },
     {
-      "pmid": "42420543",
-      "title": "Principal component analysis of morphological features of the aortic arch for predicting the risk for acute type B aortic dissection.",
-      "source": "PubMed",
-      "date": "2026-07-08",
-      "journal": "Scientific reports",
-      "topicTags": [
-        "Aortic Disease",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Registry"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Clinical Trial / Registry；Aortic Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42420543/",
-      "doi": "10.1038/s41598-026-61130-4"
-    },
-    {
       "pmid": "42107697",
       "title": "Machine Learning Models in the Prediction of Adverse Outcomes in Peripheral Arterial Disease: Meta-Analysis.",
       "source": "PubMed",
@@ -320,6 +297,28 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42119725/",
       "doi": "10.1016/j.avsg.2026.04.044"
+    },
+    {
+      "pmid": "42103139",
+      "title": "Male Sex and Distal Aortic Expansion after TEVAR: A Single-Center Analysis with Bayesian Evidence Synthesis.",
+      "source": "PubMed",
+      "date": "2026-05-06",
+      "journal": "Annals of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Meta-analysis"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Meta-analysis；Aortic Disease / Endovascular；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42103139/",
+      "doi": "10.1016/j.avsg.2026.04.032"
     }
   ],
   "priorityArticles": [
@@ -466,29 +465,6 @@
       "doi": "10.1016/j.avsg.2026.03.047"
     },
     {
-      "pmid": "42420543",
-      "title": "Principal component analysis of morphological features of the aortic arch for predicting the risk for acute type B aortic dissection.",
-      "source": "PubMed",
-      "date": "2026-07-08",
-      "journal": "Scientific reports",
-      "topicTags": [
-        "Aortic Disease",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Registry"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Clinical Trial / Registry；Aortic Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42420543/",
-      "doi": "10.1038/s41598-026-61130-4"
-    },
-    {
       "pmid": "42107697",
       "title": "Machine Learning Models in the Prediction of Adverse Outcomes in Peripheral Arterial Disease: Meta-Analysis.",
       "source": "PubMed",
@@ -553,6 +529,28 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42119725/",
       "doi": "10.1016/j.avsg.2026.04.044"
+    },
+    {
+      "pmid": "42103139",
+      "title": "Male Sex and Distal Aortic Expansion after TEVAR: A Single-Center Analysis with Bayesian Evidence Synthesis.",
+      "source": "PubMed",
+      "date": "2026-05-06",
+      "journal": "Annals of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Meta-analysis"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Meta-analysis；Aortic Disease / Endovascular；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42103139/",
+      "doi": "10.1016/j.avsg.2026.04.032"
     }
   ],
   "chinaHighlights": [
@@ -581,29 +579,6 @@
       "doi": "10.1016/j.avsg.2026.03.047"
     },
     {
-      "pmid": "42420543",
-      "title": "Principal component analysis of morphological features of the aortic arch for predicting the risk for acute type B aortic dissection.",
-      "source": "PubMed",
-      "date": "2026-07-08",
-      "journal": "Scientific reports",
-      "topicTags": [
-        "Aortic Disease",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Registry"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "中国机构研究；high relevance；Clinical Trial / Registry；Aortic Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42420543/",
-      "doi": "10.1038/s41598-026-61130-4"
-    },
-    {
       "pmid": "42103139",
       "title": "Male Sex and Distal Aortic Expansion after TEVAR: A Single-Center Analysis with Bayesian Evidence Synthesis.",
       "source": "PubMed",
@@ -648,24 +623,46 @@
       "doi": "10.1186/s12933-026-03290-1"
     },
     {
-      "pmid": "42420144",
-      "title": "Final Postprocedural DSA Intrahepatic Branch Patency Predicts Outcomes After Endovascular Recanalization for Acute Non-cirrhotic Portal Vein Thrombosis.",
+      "pmid": "42436667",
+      "title": "Longitudinal Analysis of Heparin-Binding Protein (HBP) and Serum Amyloid a Protein (SAA) Versus Interleukin 6 (IL-6), C-Reactive Protein (CRP), and Procalcitonin (PCT) During Both the Acute Postoperative Period and Recovery at Three Months From Non-emergent Cardiac Surgery.",
       "source": "PubMed",
-      "date": "2026-07-08",
-      "journal": "Academic radiology",
+      "date": "2026-07-10",
+      "journal": "Clinical Medicine Insights. Cardiology",
+      "topicTags": [
+        "PAD / CLTI",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；PAD / CLTI / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42436667/",
+      "doi": "10.1177/11795468261462607"
+    },
+    {
+      "pmid": "42437430",
+      "title": "Multi-modal Features Analysis and Performance Assessment for Endovascular Surgery Skills.",
+      "source": "PubMed",
+      "date": "2026-07-12",
+      "journal": "Annals of biomedical engineering",
       "topicTags": [
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
         "China Research"
       ],
-      "studyTypeTags": [],
+      "studyTypeTags": [
+        "Basic Research"
+      ],
       "relevance": "high",
-      "score": 9,
-      "reason": "中国机构研究；high relevance；Endovascular / Vascular Graft / Stent / Device；score 9",
+      "score": 7,
+      "reason": "中国机构研究；high relevance；Endovascular / Vascular Graft / Stent / Device；score 7",
       "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42420144/",
-      "doi": "10.1016/j.acra.2026.06.023"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42437430/",
+      "doi": "10.1007/s10439-026-04256-w"
     }
   ],
   "chinaResearch": [
@@ -694,29 +691,6 @@
       "doi": "10.1016/j.avsg.2026.03.047"
     },
     {
-      "pmid": "42420543",
-      "title": "Principal component analysis of morphological features of the aortic arch for predicting the risk for acute type B aortic dissection.",
-      "source": "PubMed",
-      "date": "2026-07-08",
-      "journal": "Scientific reports",
-      "topicTags": [
-        "Aortic Disease",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Registry"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "中国机构研究；high relevance；Clinical Trial / Registry；Aortic Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42420543/",
-      "doi": "10.1038/s41598-026-61130-4"
-    },
-    {
       "pmid": "42103139",
       "title": "Male Sex and Distal Aortic Expansion after TEVAR: A Single-Center Analysis with Bayesian Evidence Synthesis.",
       "source": "PubMed",
@@ -761,24 +735,46 @@
       "doi": "10.1186/s12933-026-03290-1"
     },
     {
-      "pmid": "42420144",
-      "title": "Final Postprocedural DSA Intrahepatic Branch Patency Predicts Outcomes After Endovascular Recanalization for Acute Non-cirrhotic Portal Vein Thrombosis.",
+      "pmid": "42436667",
+      "title": "Longitudinal Analysis of Heparin-Binding Protein (HBP) and Serum Amyloid a Protein (SAA) Versus Interleukin 6 (IL-6), C-Reactive Protein (CRP), and Procalcitonin (PCT) During Both the Acute Postoperative Period and Recovery at Three Months From Non-emergent Cardiac Surgery.",
       "source": "PubMed",
-      "date": "2026-07-08",
-      "journal": "Academic radiology",
+      "date": "2026-07-10",
+      "journal": "Clinical Medicine Insights. Cardiology",
+      "topicTags": [
+        "PAD / CLTI",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；PAD / CLTI / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42436667/",
+      "doi": "10.1177/11795468261462607"
+    },
+    {
+      "pmid": "42437430",
+      "title": "Multi-modal Features Analysis and Performance Assessment for Endovascular Surgery Skills.",
+      "source": "PubMed",
+      "date": "2026-07-12",
+      "journal": "Annals of biomedical engineering",
       "topicTags": [
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
         "China Research"
       ],
-      "studyTypeTags": [],
+      "studyTypeTags": [
+        "Basic Research"
+      ],
       "relevance": "high",
-      "score": 9,
-      "reason": "中国机构研究；high relevance；Endovascular / Vascular Graft / Stent / Device；score 9",
+      "score": 7,
+      "reason": "中国机构研究；high relevance；Endovascular / Vascular Graft / Stent / Device；score 7",
       "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42420144/",
-      "doi": "10.1016/j.acra.2026.06.023"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42437430/",
+      "doi": "10.1007/s10439-026-04256-w"
     }
   ],
   "trialHighlights": [
@@ -1144,15 +1140,14 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42203164/"
     },
     {
-      "title": "Adherence to guideline-recommended management in acute severe ulcerative colitis: a retrospective audit.",
+      "title": "Mechanical thrombectomy for pediatric large-vessel occlusion: a systematic review and meta-analysis with post hoc analysis.",
       "source": "Guidelines",
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "topicTags": [
-        "Venous Disease",
         "Guideline / Consensus"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42429404/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42435262/"
     },
     {
       "title": "Impact of Intravascular Ultrasound Guidance on Strategy and Patency in Endovascular Treatment of Peripheral Arterial Disease: A Prospective Randomized Study.",
@@ -1278,15 +1273,14 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42203164/"
     },
     {
-      "title": "Adherence to guideline-recommended management in acute severe ulcerative colitis: a retrospective audit.",
+      "title": "Mechanical thrombectomy for pediatric large-vessel occlusion: a systematic review and meta-analysis with post hoc analysis.",
       "source": "Guidelines",
-      "date": "2026-07-10",
+      "date": "2026-07-11",
       "topicTags": [
-        "Venous Disease",
         "Guideline / Consensus"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42429404/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42435262/"
     },
     {
       "title": "Impact of Intravascular Ultrasound Guidance on Strategy and Patency in Endovascular Treatment of Peripheral Arterial Disease: A Prospective Randomized Study.",
