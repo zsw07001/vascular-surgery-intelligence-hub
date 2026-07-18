@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-07-17T21:07:51.321Z",
+  "generatedAt": "2026-07-18T21:06:13.033Z",
   "period": {
-    "start": "2026-07-11",
-    "end": "2026-07-17"
+    "start": "2026-07-12",
+    "end": "2026-07-18"
   },
-  "dataUpdatedAt": "2026-07-17T21:07:51.321Z",
+  "dataUpdatedAt": "2026-07-18T21:06:13.033Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-07-17T21:07:51.321Z"
+      "updatedAt": "2026-07-18T21:06:13.033Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 762,
-      "updatedAt": "2026-07-17T21:07:51.321Z"
+      "updatedAt": "2026-07-18T21:06:13.033Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 6,
-      "updatedAt": "2026-07-17T21:07:51.321Z"
+      "count": 7,
+      "updatedAt": "2026-07-18T21:06:13.033Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-17T21:07:51.321Z"
+      "updatedAt": "2026-07-18T21:06:13.033Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-17T21:07:51.321Z"
+      "updatedAt": "2026-07-18T21:06:13.033Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-07-17T21:07:51.321Z"
+      "updatedAt": "2026-07-18T21:06:13.033Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 103,
-    "chinaResearch": 44,
+    "highImpact": 101,
+    "chinaResearch": 47,
     "clinicalTrials": 762,
-    "guidelines": 6,
+    "guidelines": 7,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,35 +58,35 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 106
+      "count": 107
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 66
+      "count": 74
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 64
+      "count": 59
     },
     {
       "tag": "Aortic Disease",
-      "count": 52
+      "count": 50
     },
     {
       "tag": "China Research",
-      "count": 44
-    },
-    {
-      "tag": "PAD / CLTI",
-      "count": 29
+      "count": 47
     },
     {
       "tag": "Venous Disease",
-      "count": 29
+      "count": 30
+    },
+    {
+      "tag": "PAD / CLTI",
+      "count": 26
     },
     {
       "tag": "Open Surgery",
-      "count": 23
+      "count": 22
     }
   ],
   "priorityReading": [
@@ -210,52 +210,6 @@
       "doi": "10.1177/15266028251333701"
     },
     {
-      "pmid": "42466577",
-      "title": "Randomization of Endovascular Treatment with Stent-Retriever and/or Thromboaspiration versus Best Medical Therapy in Acute Ischemic Stroke Due to Large Vessel Occlusion in the Extended Time Window Trial (RESILIENT-Extend): Rationale and Design.",
-      "source": "PubMed",
-      "date": "2026-07-17",
-      "journal": "International journal of stroke : official journal of the International Stroke Society",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Real-world Evidence"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Clinical Trial / Real-world Evidence；Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42466577/",
-      "doi": "10.1177/17474930261472689"
-    },
-    {
-      "pmid": "42464753",
-      "title": "Ten Years of European Experience With Roadsaver Carotid Stent: A Systematic Review of Literature and Exploratory Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-07-17",
-      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
-      "topicTags": [
-        "Carotid Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42464753/",
-      "doi": "10.1177/15266028261453269"
-    },
-    {
       "pmid": "40586349",
       "title": "Safety and Efficacy of Endovascular Treatment Modalities for Below-the-Knee Arterial Disease: A Systematic Review and Network Meta-analysis.",
       "source": "PubMed",
@@ -324,6 +278,51 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40079393/",
       "doi": "10.1177/15266028251320510"
+    },
+    {
+      "pmid": "39861981",
+      "title": "Fenestrated Anaconda Endograft for the Treatment of Complex Aortic Aneurysms: Systematic Review and Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2025-01-24",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39861981/",
+      "doi": "10.1177/15266028251313947"
+    },
+    {
+      "pmid": "42466577",
+      "title": "Randomization of Endovascular Treatment with Stent-Retriever and/or Thromboaspiration versus Best Medical Therapy in Acute Ischemic Stroke Due to Large Vessel Occlusion in the Extended Time Window Trial (RESILIENT-Extend): Rationale and Design.",
+      "source": "PubMed",
+      "date": "2026-07-17",
+      "journal": "International journal of stroke : official journal of the International Stroke Society",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Clinical Trial / Real-world Evidence；Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42466577/",
+      "doi": "10.1177/17474930261472689"
     }
   ],
   "priorityArticles": [
@@ -447,52 +446,6 @@
       "doi": "10.1177/15266028251333701"
     },
     {
-      "pmid": "42466577",
-      "title": "Randomization of Endovascular Treatment with Stent-Retriever and/or Thromboaspiration versus Best Medical Therapy in Acute Ischemic Stroke Due to Large Vessel Occlusion in the Extended Time Window Trial (RESILIENT-Extend): Rationale and Design.",
-      "source": "PubMed",
-      "date": "2026-07-17",
-      "journal": "International journal of stroke : official journal of the International Stroke Society",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Real-world Evidence"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Clinical Trial / Real-world Evidence；Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42466577/",
-      "doi": "10.1177/17474930261472689"
-    },
-    {
-      "pmid": "42464753",
-      "title": "Ten Years of European Experience With Roadsaver Carotid Stent: A Systematic Review of Literature and Exploratory Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-07-17",
-      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
-      "topicTags": [
-        "Carotid Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42464753/",
-      "doi": "10.1177/15266028261453269"
-    },
-    {
       "pmid": "40586349",
       "title": "Safety and Efficacy of Endovascular Treatment Modalities for Below-the-Knee Arterial Disease: A Systematic Review and Network Meta-analysis.",
       "source": "PubMed",
@@ -561,6 +514,51 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40079393/",
       "doi": "10.1177/15266028251320510"
+    },
+    {
+      "pmid": "39861981",
+      "title": "Fenestrated Anaconda Endograft for the Treatment of Complex Aortic Aneurysms: Systematic Review and Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2025-01-24",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39861981/",
+      "doi": "10.1177/15266028251313947"
+    },
+    {
+      "pmid": "42466577",
+      "title": "Randomization of Endovascular Treatment with Stent-Retriever and/or Thromboaspiration versus Best Medical Therapy in Acute Ischemic Stroke Due to Large Vessel Occlusion in the Extended Time Window Trial (RESILIENT-Extend): Rationale and Design.",
+      "source": "PubMed",
+      "date": "2026-07-17",
+      "journal": "International journal of stroke : official journal of the International Stroke Society",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Clinical Trial / Real-world Evidence；Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42466577/",
+      "doi": "10.1177/17474930261472689"
     }
   ],
   "chinaHighlights": [
