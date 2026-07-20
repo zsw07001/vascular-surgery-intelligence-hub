@@ -1,84 +1,84 @@
 {
-  "generatedAt": "2026-07-19T21:07:05.628Z",
+  "generatedAt": "2026-07-20T21:32:16.878Z",
   "period": {
-    "start": "2026-07-13",
-    "end": "2026-07-19"
+    "start": "2026-07-14",
+    "end": "2026-07-20"
   },
-  "dataUpdatedAt": "2026-07-19T21:07:05.628Z",
+  "dataUpdatedAt": "2026-07-20T21:32:16.878Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-07-19T21:07:05.628Z"
+      "updatedAt": "2026-07-20T21:32:16.878Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 762,
-      "updatedAt": "2026-07-19T21:07:05.628Z"
+      "count": 754,
+      "updatedAt": "2026-07-20T21:32:16.878Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 7,
-      "updatedAt": "2026-07-19T21:07:05.628Z"
+      "count": 6,
+      "updatedAt": "2026-07-20T21:32:16.878Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-19T21:07:05.628Z"
+      "updatedAt": "2026-07-20T21:32:16.878Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-19T21:07:05.628Z"
+      "updatedAt": "2026-07-20T21:32:16.878Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-07-19T21:07:05.628Z"
+      "updatedAt": "2026-07-20T21:32:16.878Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 100,
-    "chinaResearch": 50,
-    "clinicalTrials": 762,
-    "guidelines": 7,
+    "highImpact": 107,
+    "chinaResearch": 52,
+    "clinicalTrials": 754,
+    "guidelines": 6,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、762 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、754 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 104
+      "count": 109
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 74
+      "count": 69
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 57
-    },
-    {
-      "tag": "Aortic Disease",
-      "count": 51
+      "count": 60
     },
     {
       "tag": "China Research",
-      "count": 50
+      "count": 52
+    },
+    {
+      "tag": "Aortic Disease",
+      "count": 48
     },
     {
       "tag": "Venous Disease",
-      "count": 31
+      "count": 33
     },
     {
       "tag": "Open Surgery",
@@ -86,7 +86,7 @@
     },
     {
       "tag": "PAD / CLTI",
-      "count": 23
+      "count": 22
     }
   ],
   "priorityReading": [
@@ -803,6 +803,23 @@
   ],
   "trialHighlights": [
     {
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-06-15",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
+    },
+    {
       "nctId": "NCT07510451",
       "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
       "source": "ClinicalTrials.gov",
@@ -883,23 +900,6 @@
       "enrollment": 122,
       "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
       "url": "https://clinicaltrials.gov/study/NCT06528873"
-    },
-    {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
     },
     {
       "nctId": "NCT05566301",
@@ -968,6 +968,23 @@
   ],
   "clinicalTrials": [
     {
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-06-15",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
+    },
+    {
       "nctId": "NCT07510451",
       "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
       "source": "ClinicalTrials.gov",
@@ -1048,23 +1065,6 @@
       "enrollment": 122,
       "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
       "url": "https://clinicaltrials.gov/study/NCT06528873"
-    },
-    {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
     },
     {
       "nctId": "NCT05566301",
@@ -1172,18 +1172,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40169389/"
     },
     {
-      "title": "Expert Consensus on the Clinical Application of Sulodexide in Vascular Diseases.",
+      "title": "Venous Thrombotic and Thromboembolic Considerations in Stroke: An Expert Meeting Report on Future Directions for Clinical Trials.",
       "source": "Guidelines",
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "topicTags": [
-        "PAD / CLTI",
         "Venous Disease",
+        "Endovascular",
         "Antithrombotic Therapy",
         "Guideline / Consensus",
         "China Research"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42470601/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42473070/"
     },
     {
       "title": "Comparison of Postoperative Outcomes Between Endovascular and Surgical Revascularization of the Left Subclavian Artery in Patients Undergoing Thoracic Endovascular Aortic Repair: Systematic Review and Meta-Analysis.",
@@ -1305,18 +1305,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40169389/"
     },
     {
-      "title": "Expert Consensus on the Clinical Application of Sulodexide in Vascular Diseases.",
+      "title": "Venous Thrombotic and Thromboembolic Considerations in Stroke: An Expert Meeting Report on Future Directions for Clinical Trials.",
       "source": "Guidelines",
-      "date": "2026-07-18",
+      "date": "2026-07-19",
       "topicTags": [
-        "PAD / CLTI",
         "Venous Disease",
+        "Endovascular",
         "Antithrombotic Therapy",
         "Guideline / Consensus",
         "China Research"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42470601/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42473070/"
     },
     {
       "title": "Comparison of Postoperative Outcomes Between Endovascular and Surgical Revascularization of the Left Subclavian Artery in Patients Undergoing Thoracic Endovascular Aortic Repair: Systematic Review and Meta-Analysis.",
