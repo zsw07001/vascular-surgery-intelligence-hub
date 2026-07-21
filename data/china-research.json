@@ -43,667 +43,86 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42474849",
-    "title": "Global research trends and clinical theme evolution in robot-assisted nephrectomy with venous tumor thrombectomy for renal cell carcinoma: a bibliometric and visualization analysis.",
-    "abstract": "Robot-assisted nephrectomy with renal vein or inferior vena cava (IVC) tumor thrombectomy is a technically demanding procedure used in selected patients with renal cell carcinoma (RCC) and venous tumor thrombus. The research map of this field has not been clearly described, and recent technical, comparative, and systemic-therapy developments make an updated focused analysis timely. We searched the Science Citation Index Expanded of the Web of Science Core Collection from database inception to 4 May 2026. English articles and reviews about robot-assisted nephrectomy or radical nephrectomy with renal vein or IVC tumor thrombectomy for RCC were included. Titles, abstracts, keywords, authors, affiliations, journals, citations, and cited references were extracted. Python 3.11 was used for descriptive analysis, keyword analysis, co-citation analysis, visualization, and clinical theme coding. We included 51 SCIE publications from 2011 to 2026, including 40 articles and 11 reviews. The papers received 1229 citations, with a mean of 24.10 citations per paper and a median of 12. Annual publications peaked in 2020 with 7 papers. The United States published 24 papers, China published 21, and Italy published 8 when all author affiliations were counted. The Chinese People's Liberation Army General Hospital published 14 papers, and the University of Southern California published 7. Ma X, Zhang X, and Wang BJ were the most productive authors. European Urology, Journal of Urology, and Journal of Endourology were the leading journals. After term cleaning, the most frequent keywords were renal cell carcinoma, tumor thrombus, robotic surgery, experience, inferior vena cava, and thrombectomy. This field has moved from early technical exploration to early evidence building. Future work should use multicenter prospective designs and should study high-level IVC thrombus, long-term oncologic outcomes, perioperative safety after neoadjuvant therapy, robotic training, and multidisciplinary care pathways.",
-    "englishSummary": "Robot-assisted nephrectomy with renal vein or inferior vena cava (IVC) tumor thrombectomy is a technically demanding procedure used in selected patients with renal cell carcinoma (RCC) and venous tumor thrombus. The research map of this field has not been clearly described, and recent technical, comparative, and systemic-therapy developments make an updated focused analysis timely. We searched the Science Citation Index Expanded of the Web of Science Core Collection from database inception to 4 May 2026.",
-    "journal": "Journal of robotic surgery",
-    "publicationDate": "2026-07-20",
+    "pmid": "42476643",
+    "title": "Positron emission tomography-guided planning is associated with improved outcomes after thoracic endovascular aortic repair in T4b esophageal cancer.",
+    "abstract": "",
+    "englishSummary": "",
+    "journal": "Journal of vascular surgery",
+    "publicationDate": "2026-08-01",
     "authors": [
-      "Kang L",
-      "Shao J",
-      "Wang F",
-      "Gong M",
-      "Ma Z",
-      "Zhan T",
-      "Zheng Y",
-      "Wang C",
-      "Yang S",
-      "Shang P"
+      "De Le&#xf3;n Ayala IA",
+      "Hou MM",
+      "Cheng YT",
+      "Chang FC",
+      "Chen CY",
+      "Chu PH",
+      "Liu KS",
+      "Yeh CH",
+      "Chao YK",
+      "Chen SW"
     ],
     "affiliations": [
-      "Department of Urology, Lanzhou University Second Hospital, Lanzhou, 730030, Gansu, China.",
-      "Department of Neurology, Lanzhou University Second Hospital, Lanzhou, 730030, Gansu, China.",
-      "Department of Andrology, Lanzhou University First Hospital, Lanzhou, 730030, Gansu, China.",
-      "Department of Urology, Lanzhou University Second Hospital, Lanzhou, 730030, Gansu, China. shangpf@lzu.edu.cn."
+      "Division of Thoracic and Cardiovascular Surgery, Department of Surgery, Chang Gung Memorial Hospital, Linkou Medical Center, Chang Gung University, Taoyuan City, Taiwan.",
+      "Division of Hematology and Oncology, Chang Gung Memorial Hospital-Linkou, Chang Gung University, Taoyuan, Taiwan.",
+      "Department of Anesthesiology, Chang Gung Memorial Hospital, Linkou Medical Center, Chang Gung University, Taoyuan City, Taiwan.",
+      "Department of Cardiology, Chang Gung Memorial Hospital, Linkou Medical Center, Chang Gung University, Taoyuan City, Taiwan.",
+      "Division of Thoracic Surgery, Chang Gung Memorial Hospital-Linkou, Chang Gung University, Taoyuan, Taiwan.",
+      "Division of Thoracic and Cardiovascular Surgery, Department of Surgery, Chang Gung Memorial Hospital, Taoyuan City, Taiwan; Center for Big Data Analytics and Statistics, Chang Gung Memorial Hospital, Linkou Medical Center, Chang Gung University, Taoyuan City, Taiwan."
     ],
-    "doi": "10.1007/s11701-026-03588-y",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42474849/",
+    "doi": "10.1016/j.jvs.2026.04.010",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42476643/",
     "publicationTypes": [
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Basic Research",
-      "Review"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42472827",
-    "title": "An interpretable clinical-proteomic framework identifies baseline neuroinflammatory proteomic patterns associated with post-thrombectomy mortality.",
-    "abstract": "Endovascular thrombectomy (EVT) is the standard reperfusion therapy for emergent large-vessel occlusion; however, nearly 20% of EVT-treated patients still die within one year. Although early clinical indicators can help stratify post-EVT prognosis, the baseline neuroinflammatory biology associated with fatal outcomes after EVT remains incompletely characterized. In this prospective study of 148 EVT-treated patients, including 30 patients who died within 1 year, we profiled pre-procedure serum proteins using the Olink 384 Inflammation panel and applied an exploratory clinical-proteomic framework. A clinical-only model was used to define higher-risk and lower-risk clinical strata. We then mapped these strata to baseline proteomic patterns through differential expression and annotation-supported candidate mapping. Higher-risk phenotypes were associated with a candidate inflammation- and immune-receptor-related baseline protein pattern. Lower-risk phenotypes were associated with a candidate adhesion/extracellular-matrix-related baseline protein pattern. These internally derived findings suggest that poor outcomes after EVT are associated with candidate baseline inflammatory and tissue-structure-related proteomic patterns. This study provides a neuroinflammation-focused framework for hypothesis generation and candidate prioritization, but the findings require external validation.",
-    "englishSummary": "Endovascular thrombectomy (EVT) is the standard reperfusion therapy for emergent large-vessel occlusion; however, nearly 20% of EVT-treated patients still die within one year. Although early clinical indicators can help stratify post-EVT prognosis, the baseline neuroinflammatory biology associated with fatal outcomes after EVT remains incompletely characterized. In this prospective study of 148 EVT-treated patients, including 30 patients who died within 1 year, we profiled pre-procedure serum proteins using the Olink 384 Inflammation panel and applied an exploratory clinical-proteomic framework.",
-    "journal": "Journal of neuroinflammation",
-    "publicationDate": "2026-07-20",
-    "authors": [
-      "Xiao M",
-      "Qiao N",
-      "Zhang R",
-      "Xi R",
-      "Ma X",
-      "Li H",
-      "Zhou HQ",
-      "Liu Y",
-      "Lin J"
-    ],
-    "affiliations": [
-      "Shanghai Ji Ai Genetics and IVF Institute, Obstetrics & Gynecology Hospital of Fudan University, Shanghai Key Lab of Reproduction and Development, Shanghai Key Lab of Female Reproductive Endocrine Related Diseases, Shanghai, China.",
-      "Shanghai Institute of Hematology, State Key Laboratory of Medical Genomics, National Research Center for Translational Medicine at Shanghai, Ruijin Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, China.",
-      "Department of Neurology, Minhang Hospital, Fudan University, 170 Xinsong Road, Minhang District, Shanghai, 201199, China.",
-      "Department of Laboratory Medicine, Minhang Hospital, Fudan University, Shanghai, China.",
-      "Department of Neurology, Shanghai Fifth People's Hospital, Fudan University, Shanghai, China.",
-      "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.",
-      "Department of Neurology, Minhang Hospital, Fudan University, 170 Xinsong Road, Minhang District, Shanghai, 201199, China. linjixian@fudan.edu.cn."
-    ],
-    "doi": "10.1186/s12974-026-03971-4",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42472827/",
-    "publicationTypes": [
-      "Journal Article"
+      "Letter"
     ],
     "topicTags": [
       "Endovascular",
       "China Research"
     ],
     "studyTypeTags": [],
-    "relevance": "high",
-    "score": 6,
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: prognosis",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42473070",
-    "title": "Venous Thrombotic and Thromboembolic Considerations in Stroke: An Expert Meeting Report on Future Directions for Clinical Trials.",
-    "abstract": "Venous thrombosis and venous thromboembolism (VTE) are important, yet under-recognized causes and complications of stroke. They may complicate acute stroke as deep venous thrombosis or pulmonary embolism (DVT/PE), contribute causally to ischemic stroke through paradoxical embolism from a patent foramen ovale (PFO), or present directly as cerebral venous thrombosis (CVT). Despite shared pathophysiological features and overlapping antithrombotic strategies, these conditions are typically considered separately, fragmenting evidence and limiting the exchange of concepts. We therefore convened experts across both fields to examine these conditions under a unifying venous theme.Thirty-two stroke and thrombosis clinicians and researchers identified research priorities across three domains: prevention of VTE after stroke, secondary prevention after PFO-related stroke, and acute and long-term management of CVT. Structured discussions were guided by the PICO (Population, Intervention, Comparison, Outcome) framework, followed by a Delphi survey to establish consensus.Priority questions centred on the balance between thrombosis prevention and bleeding risk and the optimal timing, duration, and choice of DVT/PE prophylaxis after stroke; the optimal antithrombotic strategy for patients awaiting or forgoing PFO closure; and, for CVT, the role of endovascular therapy in severe disease and the optimal duration of secondary prevention (Graphical Abstract). Across domains, the group prioritized pragmatic and platform trial designs, integration with international registries to address the rarity of CVT, and patient-oriented outcomes that extend beyond functional recovery.By considering these venous conditions together and bridging stroke neurology and thrombosis medicine, this work defines priority questions to address persistent evidence gaps, harmonize practice, and improve patient-centered outcomes.",
-    "englishSummary": "Venous thrombosis and venous thromboembolism (VTE) are important, yet under-recognized causes and complications of stroke. They may complicate acute stroke as deep venous thrombosis or pulmonary embolism (DVT/PE), contribute causally to ischemic stroke through paradoxical embolism from a patent foramen ovale (PFO), or present directly as cerebral venous thrombosis (CVT). Despite shared pathophysiological features and overlapping antithrombotic strategies, these conditions are typically considered separately, fragmenting evidence and limiting the exchange of concepts.",
-    "journal": "International journal of stroke : official journal of the International Stroke Society",
-    "publicationDate": "2026-07-19",
-    "authors": [
-      "Vikulova D",
-      "Dizonno V",
-      "Zhou L",
-      "Gorman J",
-      "Lun R",
-      "Ignacio KHD",
-      "Bushnell CD",
-      "Ganesh A",
-      "Katsanos AH",
-      "Sposato LA",
-      "Rosa SD",
-      "Fuerte-Hortigon A",
-      "Aguiar de Sousa D",
-      "Carcel C",
-      "Singh N",
-      "Wan T",
-      "Samuelson Bannow B",
-      "Bian H",
-      "Chen C",
-      "Coutinho JM",
-      "Demchuk AM",
-      "Doshi D",
-      "Farhoudi M",
-      "Fonseca ACG",
-      "Fu V",
-      "Heldner MR",
-      "Ouyang M",
-      "Ramage ER",
-      "Sebastian IA",
-      "Leker RR",
-      "Anderson C",
-      "Menon B",
-      "Field TS"
-    ],
-    "affiliations": [
-      "Vancouver Stroke Program, Division of Neurology, Medicine, University of British Columbia, Vancouver, Canada.",
-      "Department of Clinical Neurosciences, Cumming School of Medicine, University of Calgary, Calgary, Canada.",
-      "Department of Neurology, Wake Forest School of Medicine, Winston-Salem, North Carolina, USA.",
-      "Department of Medicine, Neurology, McMaster University and Population Health Research Institute, Hamilton, ON, Canada.",
-      "Department of Clinical Neurological Sciences, Department of Epidemiology & Biostatistics, and Department of Anatomy and Cell Biology, Schulich School of Medicine and Dentistry, and Heart & Brain Lab, Western University, London, ON, Canada.",
-      "Department of Neuroradiology, Lisbon Central University Hospital - S&#xe3;o Jos&#xe9; Local Health Unit, Lisbon, Portugal.",
-      "Faculdade de Medicina, Universidade de Lisboa, Lisbon, Portugal.",
-      "Stroke Center, Lisbon Central University Hospital, Lisbon, Portugal.",
-      "The George Institute for Global Health, University of New South Wales, Sydney, New South Wales, Australia.",
-      "Department of Internal Medicine, Section of Neurology, Rady Faculty of Health Sciences, University of Manitoba, Winnipeg, Manitoba, Canada.",
-      "Department of General Internal Medicine, University of British Columbia, Vancouver, Canada.",
-      "Department of Hematology & Oncology, Cleveland Clinic Cancer Institute, Cleveland, OH, USA.",
-      "Beijing Institute for Brain Disorders, Capital Medical University, Beijing, China.",
-      "Shanghai East Hospital, School of Medicine, Tongji University, Shanghai, China.",
-      "Department of Neurology, Amsterdam UMC, Location University of Amsterdam, Amsterdam, Netherlands.",
-      "P.D. Hinduja Hospital and Medical Research Centre, Mumbai, India.",
-      "Neurosciences Research Center and Aging Research Institute, Tabriz University of Medical Sciences, Tabriz, Iran.",
-      "Department of Neurology, Hospital de Santa Maria, Faculdade de Medicina, Universidade de Lisboa, Lisboa, Portugal.",
-      "Medical Research Institute of New Zealand, Wellington, New Zealand.",
-      "Department of Neurology, Inselspital, University hospital and University of Bern, Bern, Switzerland.",
-      "The Florey Institute of Neuroscience and Mental Health, Heidelberg, Victoria, Australia.",
-      "Christian Medical College and Hospital: Ludhi&#x101;na, Punjab, India.",
-      "Department of Neurology, Hadassah-Hebrew University Medical Center, Jerusalem, Israel.",
-      "Institute of Science and Technology for Brain-inspired Intelligence, Fudan University, Shanghai, China.",
-      "Royal Prince Alfred Hospital, Sydney, Australia."
-    ],
-    "doi": "10.1177/17474930261473348",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42473070/",
-    "publicationTypes": [
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "Endovascular",
-      "Antithrombotic Therapy",
-      "Guideline / Consensus",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Clinical Trial",
-      "Basic Research",
-      "Review"
-    ],
-    "relevance": "high",
-    "score": 8,
-    "scoreReasons": [
-      "+2 clinical evidence design: trial",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42472734",
-    "title": "Factors influencing self-care in hemodialysis patients with autogenous arteriovenous fistulas for vascular access.",
-    "abstract": "This cross-sectional study investigated factors influencing self-care of hemodialysis (HD) patients with autogenous arteriovenous fistulas (AVFs) in primary hospitals in China. This cross-sectional study enrolled maintenance hemodialysis patients from blood purification centers in county-level primary hospitals affiliated with the Nephrology Specialist Alliance of the National Regional Medical Center in Shanxi Province between May and June 2024. Data were collected using a general information questionnaire and the Self-Care Ability Assessment Scale for MHD Patients with arteriovenous fistula (AVF), administered using the Wenjuanxing (an online survey platform commonly used in China) online survey platform. The analysis included 263 valid questionnaires (55.5% male; 52.5% >50 years old). The self-care ability score for arteriovenous fistula among 263 primary hospital MHD patients was 148.70&#x2009;&#xb1;&#x2009;17.89 (total score ranging from 38 to 190 points). The multivariable analysis indicated that diabetes mellitus (&#x3b2;=-5.187, P&#x2009;=&#x2009;0.034), obtaining arteriovenous fistula-related knowledge through education provided by healthcare professionals (&#x3b2;&#x2009;=&#x2009;7.288, P&#x2009;<&#x2009;0.001), and regularly visiting medical institutions for arteriovenous fistula examinations (&#x3b2;&#x2009;=&#x2009;9.397, P&#x2009;=&#x2009;0.008) were independently associated with the arteriovenous fistula self-care ability among primary hospital MHD patients. AVF self-care ability among MHD patients in primary hospitals was moderate. Diabetes was a negative factor, while professional education and regular examinations were positive correlates. These findings provide preliminary evidence for intervention strategies in Chinese primary hospitals. However, due to the cross-sectional design and single-region sample, causality and generalizability to other populations are limited. Further research in diverse settings is required.",
-    "englishSummary": "This cross-sectional study investigated factors influencing self-care of hemodialysis (HD) patients with autogenous arteriovenous fistulas (AVFs) in primary hospitals in China. This cross-sectional study enrolled maintenance hemodialysis patients from blood purification centers in county-level primary hospitals affiliated with the Nephrology Specialist Alliance of the National Regional Medical Center in Shanxi Province between May and June 2024. Data were collected using a general information questionnaire and the Self-Care Ability Assessment Scale for MHD Patients with arteriovenous fistula (AVF), administered using the Wenjuanxing (an online survey platform commonly used in China) online survey platform.",
-    "journal": "Scientific reports",
-    "publicationDate": "2026-07-19",
-    "authors": [
-      "Li M",
-      "Ma W",
-      "Han F",
-      "Xu H",
-      "Cheng Y",
-      "Cao M",
-      "Zhao Y",
-      "Chang W",
-      "Xue Y",
-      "Xu J"
-    ],
-    "affiliations": [
-      "Shanxi University of Traditional Chinese Medicine, Jinzhong, 030619, China.",
-      "Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University, Tongji Shanxi Hospital, Taiyuan, 030032, China.",
-      "Shanxi Bethune Hospital, Shanxi Academy of Medical Sciences, Third Hospital of Shanxi Medical University, Tongji Shanxi Hospital, Taiyuan, 030032, China. xujia@sxbqeh.com.cn."
-    ],
-    "doi": "10.1038/s41598-026-63103-z",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42472734/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Dialysis Access",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42472396",
-    "title": "Efficacy and safety of cytoreductive nephrectomy combined with thrombectomy in metastatic renal cell carcinoma with venous tumor thrombus: a real-world study based on inverse probability of treatment weighting.",
-    "abstract": "BACKGROUND: Cytoreductive nephrectomy (CN) combined with thrombectomy remains controversial for metastatic renal cell carcinoma with venous tumor thrombus (mRCC-VTT), and optimal patient selection remains undefined. METHODS: We retrospectively analyzed 238 patients with RCC-VTT treated at a single center between February 2006 and December 2023. Patients were stratified as non-metastatic surgical (nmRCC-VTT-S, n&#x2009;=&#x2009;135), metastatic surgical (mRCC-VTT-S, n&#x2009;=&#x2009;53), or metastatic non-surgical (mRCC-VTT-NS, n&#x2009;=&#x2009;50). Inverse probability of treatment weighting (IPTW) was used to reduce measured confounding. Perioperative outcomes, OS, PFS, subgroup heterogeneity, and 3-month landmark sensitivity analyses were evaluated. RESULTS: After IPTW adjustment, perioperative outcomes were comparable between metastatic and non-metastatic surgical cohorts (all P&#x2009;>&#x2009;0.05). In the metastatic cohort, surgery was associated with longer OS than non-surgical management (P&#x2009;=&#x2009;0.027), and this association remained significant in the 3-month landmark analysis after re-estimating IPTW (P&#x2009;=&#x2009;0.018). PFS showed no significant difference after primary IPTW adjustment (P&#x2009;=&#x2009;0.517) and showed only a non-significant favorable trend after landmark IPTW adjustment (P&#x2009;=&#x2009;0.064). Mayo level modified the association between surgery and OS (P for interaction&#x2009;<&#x2009;0.001) and PFS (P for interaction&#x2009;=&#x2009;0.034). For OS, surgery was associated with longer survival in Mayo 0-II thrombi (HR 0.56, P&#x2009;=&#x2009;0.045), whereas patients with Mayo III-IV thrombi had worse outcomes after surgery (HR 6.22, P&#x2009;=&#x2009;0.016). CONCLUSIONS: CN combined with thrombectomy appeared feasible and was associated with improved OS in selected patients with mRCC-VTT, particularly those with low-level thrombi. Mayo level should inform surgical decision-making, and systemic therapy-first strategies should be considered for high-level thrombi.",
-    "englishSummary": "BACKGROUND: Cytoreductive nephrectomy (CN) combined with thrombectomy remains controversial for metastatic renal cell carcinoma with venous tumor thrombus (mRCC-VTT), and optimal patient selection remains undefined. METHODS: We retrospectively analyzed 238 patients with RCC-VTT treated at a single center between February 2006 and December 2023. Patients were stratified as non-metastatic surgical (nmRCC-VTT-S, n&#x2009;=&#x2009;135), metastatic surgical (mRCC-VTT-S, n&#x2009;=&#x2009;53), or metastatic non-surgical (mRCC-VTT-NS, n&#x2009;=&#x2009;50).",
-    "journal": "World journal of urology",
-    "publicationDate": "2026-07-19",
-    "authors": [
-      "Shi C",
-      "Peng C",
-      "Song J",
-      "Jiao Q",
-      "Chen Y",
-      "Yang Z",
-      "Lv D",
-      "Zhang X",
-      "Gu L",
-      "Ma X",
-      "Huang Q"
-    ],
-    "affiliations": [
-      "School of Medicine, Nankai University, Tianjin, 300071, China.",
-      "Senior Department of Urology, Chinese PLA General Hospital, No. 69, Yongding, Road, Haidian District, Beijing, 100039, China.",
-      "Medical School of Chinese PLA, Beijing, 100853, China.",
-      "Department of Urology, The Third People's Hospital of Yibin, Yibin, 644000, China.",
-      "School of Medicine, Nankai University, Tianjin, 300071, China. mxin301@126.com.",
-      "Senior Department of Urology, Chinese PLA General Hospital, No. 69, Yongding, Road, Haidian District, Beijing, 100039, China. mxin301@126.com.",
-      "School of Medicine, Nankai University, Tianjin, 300071, China. gdhuangqingbo@163.com.",
-      "Senior Department of Urology, Chinese PLA General Hospital, No. 69, Yongding, Road, Haidian District, Beijing, 100039, China. gdhuangqingbo@163.com."
-    ],
-    "doi": "10.1007/s00345-026-06616-6",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42472396/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort",
-      "Real-world Evidence",
-      "Basic Research"
-    ],
-    "relevance": "high",
-    "score": 8,
-    "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42471496",
-    "title": "Can glucagon-like peptide-1 receptor agonists affect outcomes after spine surgery? A systematic review and meta-analysis.",
-    "abstract": "PURPOSE: To evaluate the association between glucagon-like peptide-1 receptor agonist (GLP-1RA) use and perioperative, postoperative and fusion-related outcomes following spine surgery. METHODS: A systematic search of PubMed/ MEDLINE, Scopus, Web of Science, and the Cochrane Library was conducted from inception through December 2025 in accordance with PRISMA 2020 guidelines. Comparative studies evaluating outcomes of spine surgery in patients exposed to GLP-1RAs versus non-users were included. Random-effects meta-analyses were performed for perioperative outcomes, medical and surgical complications, reoperation and fusion-related outcomes. Subgroup analyses were conducted based on diabetes status, fusion levels and duration of follow-up. RESULTS: Twenty comparative studies with 546,668 patients were included in the analysis. GLP-1RA use was not associated with significant differences in perioperative or postoperative outcomes, including transfusion [log odds ratio (OR)=-0.25,95% CI:-0.67,0.17), operative time [mean difference (MD)=-5.3&#xa0;min,95% CI:-23.9,13.3)], length of stay (MD=-0.19days,95% CI:-1.35,0.96), surgical site infection (logOR&#x2009;=&#x2009;0.29,95% CI:-0.08,0.66), venous thromboembolism (logOR&#x2009;=&#x2009;0.19,95% CI:-0.25,0.63), readmission (logOR&#x2009;=&#x2009;0.31,95% CI:-0.07,0.69), reoperation (logOR&#x2009;=&#x2009;0.12,95% CI:-0.17,0.42), or implant failure. In contrast, GLP-1RA use was associated with higher fusion success (logOR&#x2009;=&#x2009;0.42,95% CI:0.33,0.51;p&#x2009;<&#x2009;0.001), consistent across follow-up intervals. CONCLUSION: In the available observational literature, GLP-1RA use is not associated with increased perioperative complications following spine surgery and may be related to improved fusion outcomes. These findings provide reassurance regarding perioperative safety and suggest a potential long-term benefit in arthrodesis, although prospective studies are needed to confirm causality and define optimal perioperative management strategies. LEVEL OF EVIDENCE: III.",
-    "englishSummary": "PURPOSE: To evaluate the association between glucagon-like peptide-1 receptor agonist (GLP-1RA) use and perioperative, postoperative and fusion-related outcomes following spine surgery. METHODS: A systematic search of PubMed/ MEDLINE, Scopus, Web of Science, and the Cochrane Library was conducted from inception through December 2025 in accordance with PRISMA 2020 guidelines. Comparative studies evaluating outcomes of spine surgery in patients exposed to GLP-1RAs versus non-users were included.",
-    "journal": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
-    "publicationDate": "2026-07-18",
-    "authors": [
-      "Muthu S",
-      "Viswanathan VK",
-      "Kolarpatti Ponnusamy DV",
-      "Samuel MS",
-      "Rajappan Chandra SK",
-      "Sharun K",
-      "Hiatt L",
-      "Rajaram Manoharan SR",
-      "Theiss S"
-    ],
-    "affiliations": [
-      "Department of Spine Surgery, Orthopaedic Research Group, Coimbatore, India. drsathishmuthu@gmail.com.",
-      "Central Research Laboratory, Aarupadai Veedu Medical College and Hospital, Vinayaka Mission's Research Foundation, Puducherry, India. drsathishmuthu@gmail.com.",
-      "Department of Orthopedic Surgery, University of Alabama at Birmingham, Birmingham, USA.",
-      "Department of Spine Surgery, Orthopaedic Research Group, Coimbatore, India.",
-      "Department of Orthopaedics, Government Medical College, Karur, India.",
-      "MPH Global Health, Harvard University, Cambridge, USA.",
-      "Clinical Trial & Research Unit, Interdisciplinary Institute of Indian System of Medicine (IIISM), SRM Institute of Science and Technology, Chennai, India.",
-      "Graduate Institute of Medicine, Yuan Ze University, Taoyuan District, Taiwan."
-    ],
-    "doi": "10.1007/s00586-026-10205-x",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42471496/",
-    "publicationTypes": [
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Clinical Trial",
-      "Systematic Review",
-      "Meta-analysis",
-      "Review"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
+      "+3 title vascular surgery topic: endovascular",
       "+2 China affiliation: Taiwan"
     ],
     "isChinaResearch": true,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
-    "pmid": "42471050",
-    "title": "Preoperative Complement-Related Markers and Major Adverse Aortic Events After Thoracic Endovascular Aortic Repair: An Exploratory Retrospective Cohort Study.",
-    "abstract": "OBJECTIVE: To evaluate whether preoperative circulating complement-related markers are associated with major adverse aortic events (MAAE) after thoracic endovascular aortic repair (TEVAR) for thoracic aortic aneurysm. METHODS: This single-center retrospective cohort included 186 adults who underwent TEVAR between January 2020 and December 2024. Preoperative C3, C4, C3a and C5a were assessed together with clinical, inflammatory and coagulation variables. MAAE was defined as endoleak, secondary aortic intervention, rapid aneurysm expansion, aortic-related death or rupture. Penalized Cox regression was the primary analysis, with ROC and Kaplan-Meier analyses performed exploratorily. RESULTS: During a median follow-up of 26.1 months (interquartile range [IQR], 8.4-47.4 months), 67 patients (36.0%) developed MAAE. Patients with MAAE were older and had larger aneurysms and higher C3, C4, C3a and C5a levels. In penalized multivariable Cox analysis, age, aneurysm diameter, C3, C3a and D-dimer remained associated with MAAE. Exploratory AUCs were 0.761 for C3, 0.852 for C4, 0.724 for C3a and 0.716 for C5a. A cross-validated complement-only model showed high discrimination (AUC, 0.894; Harrell C-index, 0.816), but suboptimal calibration (Hosmer-Lemeshow P=0.041). CONCLUSIONS: Preoperative complement-related markers, particularly C3 and C3a, were associated with MAAE after TEVAR. C4 showed strong exploratory discrimination and merits validation in time-to-event and external cohorts. These findings support complement activation as a potential prognostic signal.",
-    "englishSummary": "OBJECTIVE: To evaluate whether preoperative circulating complement-related markers are associated with major adverse aortic events (MAAE) after thoracic endovascular aortic repair (TEVAR) for thoracic aortic aneurysm. METHODS: This single-center retrospective cohort included 186 adults who underwent TEVAR between January 2020 and December 2024. Preoperative C3, C4, C3a and C5a were assessed together with clinical, inflammatory and coagulation variables.",
-    "journal": "Annals of vascular surgery",
-    "publicationDate": "2026-07-18",
+    "pmid": "42476637",
+    "title": "Benefits of smoking cessation among lifestyle factors in abdominal aortic aneurysm.",
+    "abstract": "",
+    "englishSummary": "",
+    "journal": "Journal of vascular surgery",
+    "publicationDate": "2026-08-01",
     "authors": [
-      "Wang J",
-      "Liu Q",
-      "Wang P",
-      "Liu T"
+      "Jiang M",
+      "Mo F",
+      "Wang L"
     ],
     "affiliations": [
-      "Department of Cardiothoracic Surgery, Han Zhong Central Hospital, Hanzhong 723000, Shaan xi, P.R.China; Affiliated-Hospital-of Guangxi Medical- University, Nanning 530021, Guangxi, P.R. China.",
-      "Department of Cardiothoracic Surgery, Han Zhong Central Hospital, Hanzhong 723000, Shaan xi, P.R.China.",
-      "Affiliated-Hospital-of Guangxi Medical- University, Nanning 530021, Guangxi, P.R. China.",
-      "Department of Cardiothoracic Surgery, Affiliated Hospital of Youjiang Medical- University for Nationalities, BaiSe 533000, Guangxi, P.R. China; Key Laboratoryof Biomedical-Materials of Guangxi (Cultivation), BaiSe, 533000, Guangxi, P.R. China. Electronic address: liutao1256@yeah.net."
+      "Department of Vascular Surgery, Zhongshan Hospital, Fudan University, Shanghai, China; Vascular Surgery Institute, Fudan University, Shanghai, China.",
+      "Department of Vascular Surgery, Zhongshan Hospital, Fudan University, Shanghai, China; Vascular Surgery Institute, Fudan University, Shanghai, China; National Clinical Research Center for Interventional Medicine, Shanghai, China; Key Laboratory of Panvascular Disease Precision Medicine, Zhongshan Hospital Xiamen, Fudan University, Xiamen, China."
     ],
-    "doi": "10.1016/j.avsg.2026.06.057",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42471050/",
+    "doi": "10.1016/j.jvs.2026.03.620",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42476637/",
     "publicationTypes": [
       "Journal Article"
     ],
     "topicTags": [
       "Aortic Disease",
-      "Endovascular",
       "China Research"
     ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 11,
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 5,
     "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention",
+      "+3 title vascular surgery topic: aortic aneurysm",
       "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42470601",
-    "title": "Expert Consensus on the Clinical Application of Sulodexide in Vascular Diseases.",
-    "abstract": "Sulodexide is a highly purified glycosaminoglycan with multiple pharmacological effects, including endothelial glycocalyx repair, endothelial cell protection, anti-inflammatory and antithrombotic actions, promotion of fibrinolysis, reduction of blood viscosity, lipid regulation, and anti-oxidative activity. It serves as a potentially effective foundational therapeutic agent for the prevention and treatment of vascular diseases. This consensus integrates current scientific knowledge on the clinical application of sulodexide in vascular diseases, aiming to provide guidance and reference for rational drug use among clinicians. The consensus statements first elaborate on the pharmacological mechanisms and pharmacokinetic profiles of sulodexide. Through a structured review and integration of published basic and clinical research evidence from China and abroad, it summarizes clinical efficacy and safety data for sulodexide in chronic venous disease, venous thromboembolism, peripheral arterial disease, and microangiopathy, highlighting the importance of rational use of sulodexide in vascular disease management. Additionally, based on evidence-based medicine and existing medical guidelines, specific clinical application recommendations are proposed.",
-    "englishSummary": "Sulodexide is a highly purified glycosaminoglycan with multiple pharmacological effects, including endothelial glycocalyx repair, endothelial cell protection, anti-inflammatory and antithrombotic actions, promotion of fibrinolysis, reduction of blood viscosity, lipid regulation, and anti-oxidative activity. It serves as a potentially effective foundational therapeutic agent for the prevention and treatment of vascular diseases. This consensus integrates current scientific knowledge on the clinical application of sulodexide in vascular diseases, aiming to provide guidance and reference for rational drug use among clinicians.",
-    "journal": "Advances in therapy",
-    "publicationDate": "2026-07-18",
-    "authors": [
-      "Li Y",
-      "Zhao Y",
-      "Ye W",
-      "Consensus Working Group of the Vascular Surgery Branch of the China International Exchange and Promotive Association for Medical and Health Care, the Geriatric Pharmacy Professional Committee of the China Medical Education Association, and the Vascular Limb Salvage Branch of the Beijing Association of Holistic Integrative Medicine"
-    ],
-    "affiliations": [
-      "Beijing Hospital, National Center of Gerontology, No. 1 Dondan Dahua Road, Dongcheng District, Beijing, China. liyongjun4679@bjhmoh.cn.",
-      "The First Affiliated Hospital of Chongqing Medical University, No. 1 Youyi Road, Yuanjiagang, Yuzhong District, Chongqing, China.",
-      "Peking Union Medical College Hospital, No.1 Shuai Fu Yuan, Dongcheng District, Beijing, China."
-    ],
-    "doi": "10.1007/s12325-026-03631-2",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42470601/",
-    "publicationTypes": [
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "PAD / CLTI",
-      "Venous Disease",
-      "Antithrombotic Therapy",
-      "Guideline / Consensus",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Basic Research",
-      "Review"
-    ],
-    "relevance": "high",
-    "score": 8,
-    "scoreReasons": [
-      "+2 clinical evidence design: consensus",
-      "+2 human study: clinical",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42470072",
-    "title": "Effect of indobufen combined with clopidogrel on efficacy and blood TGF-&#x3b2; and IL-6 expression after percutaneous transluminal angioplasty of arteriovenous fistula.",
-    "abstract": "This study aimed to investigate the effect of indobufen combined with clopidogrel compared with clopidogrel alone on the efficacy and serum inflammatory factors (transforming growth factor-beta [TGF-&#x3b2;], interkeukin [IL]-6) in patients after percutaneous transluminal angioplasty (PTA) for arteriovenous fistula (AVF). A retrospective cohort study was conducted, enrolling 120 patients after AVF-PTA. Patients were divided into the combination therapy group (indobufen&#x2005;+&#x2005;clopidogrel) and the conventional therapy group (clopidogrel alone) by propensity score matching, with 60 patients in each group. The clinical efficacy at 7 days postoperatively, changes in AVF blood flow volume/velocity, changes in serum TGF-&#x3b2;/IL-6 levels, and restenosis rates at 3 and 6 months postoperatively were compared between the 2 groups. The total clinical effective rate at 7 days postoperatively was significantly higher in the combination therapy group (91.7% vs 76.7%, P&#x2005;=&#x2005;.024), with more significant improvements in AVF blood flow volume and velocity (both P&#x2005;<&#x2005;.001). The combination therapy group showed greater reductions in serum TGF-&#x3b2; and IL-6 levels postoperatively (both P&#x2005;<&#x2005;.01). The restenosis rates were significantly lower in the combination group at 3 months (6.7% vs 20.0%, P&#x2005;=&#x2005;.038) and 6 months (15.0% vs 36.7%, P&#x2005;=&#x2005;.006) postoperatively, with higher primary patency rates (P&#x2005;=&#x2005;.004). Indobufen combined with clopidogrel can more effectively improve early postoperative efficacy and AVF function after AVF-PTA, significantly suppress the expression of inflammatory factors, and reduce the risk of short- to medium-term restenosis. Its mechanism may be related to synergistic antiplatelet and anti-inflammatory effects.",
-    "englishSummary": "This study aimed to investigate the effect of indobufen combined with clopidogrel compared with clopidogrel alone on the efficacy and serum inflammatory factors (transforming growth factor-beta [TGF-&#x3b2;], interkeukin [IL]-6) in patients after percutaneous transluminal angioplasty (PTA) for arteriovenous fistula (AVF). A retrospective cohort study was conducted, enrolling 120 patients after AVF-PTA. Patients were divided into the combination therapy group (indobufen&#x2005;+&#x2005;clopidogrel) and the conventional therapy group (clopidogrel alone) by propensity score matching, with 60 patients in each group.",
-    "journal": "Medicine",
-    "publicationDate": "2026-07-17",
-    "authors": [
-      "Feng S",
-      "Li L",
-      "Wang L",
-      "He J",
-      "Wang X"
-    ],
-    "affiliations": [
-      "Department of Nephrology, Affiliated Hospital of Hebei University of Engineering, Handan, Hebei, China.",
-      "Department of Cardiac and Great Vascular Surgery I, Handan First Hospital, Handan, Hebei, China."
-    ],
-    "doi": "10.1097/MD.0000000000049686",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42470072/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Dialysis Access",
-      "Endovascular",
-      "Antithrombotic Therapy",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
-    ],
-    "relevance": "medium",
-    "score": 4,
-    "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 China affiliation: China",
-      "-2 basic mechanism without clinical relevance: mechanism"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42470022",
-    "title": "Analysis of risk factors associated with intimal hyperplasia in arteriovenous fistulas among patients undergoing hemodialysis.",
-    "abstract": "Arteriovenous fistula (AVF) intimal hyperplasia (IH) is a major pathological basis of AVF stenosis and dysfunction in patients undergoing maintenance hemodialysis. This single-center retrospective observational cohort study enrolled adult hemodialysis patients with a native AVF at our institution between May 2021 and May 2023. IH was determined primarily by duplex ultrasound (DUS) evidence of pathologic venous intimal thickening and/or hemodynamically significant stenosis attributable to IH, with angiographic confirmation when clinically indicated. Demographic characteristics, hemodialysis vintage, dialysis prescription and adequacy, vascular access profiles, comorbidities, medication exposure, and routine laboratory indices were extracted from electronic medical records, the hemodialysis information platform, and the vascular access imaging database. Comparisons were performed between the IH group (n&#x2005;=&#x2005;38) and the control group (n&#x2005;=&#x2005;126), followed by univariate and multivariable logistic regression analyses. Patients with IH were slightly older and had longer hemodialysis vintage and a longer interval from AVF creation to evaluation. The IH group also showed higher rates of diabetes mellitus and recent infection, higher inflammatory burden reflected by C-reactive protein (CRP) and neutrophil-to-lymphocyte ratio (NLR), lower albumin, higher d-dimer, and higher serum phosphate. In multivariable analysis, longer time from AVF creation to evaluation, diabetes mellitus, higher CRP, and higher phosphate independently correlated with IH, whereas higher albumin was protective. These findings suggest that cumulative access exposure, metabolic disease, systemic inflammation, nutritional status, and disordered mineral metabolism jointly contribute to IH risk and may inform targeted surveillance and preventive management in routine hemodialysis care.",
-    "englishSummary": "Arteriovenous fistula (AVF) intimal hyperplasia (IH) is a major pathological basis of AVF stenosis and dysfunction in patients undergoing maintenance hemodialysis. This single-center retrospective observational cohort study enrolled adult hemodialysis patients with a native AVF at our institution between May 2021 and May 2023. IH was determined primarily by duplex ultrasound (DUS) evidence of pathologic venous intimal thickening and/or hemodynamically significant stenosis attributable to IH, with angiographic confirmation when clinically indicated.",
-    "journal": "Medicine",
-    "publicationDate": "2026-07-17",
-    "authors": [
-      "Liang M",
-      "Liao X"
-    ],
-    "affiliations": [
-      "Nephrology Rheumatology and Immunology Department, Mengcheng County First People's Hospital, Bozhou City, Anhui Province, China.",
-      "College of Medical Technology and Nursing, Hunan Institute of Transportation Engineering, Hengyang City, Hunan Province, China."
-    ],
-    "doi": "10.1097/MD.0000000000049682",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42470022/",
-    "publicationTypes": [
-      "Journal Article",
-      "Observational Study"
-    ],
-    "topicTags": [
-      "Dialysis Access",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42470007",
-    "title": "Construction and validation of a machine learning-based risk prediction model for venous thromboembolism in older adult patients: A multifactorial analysis of 28,231 cases.",
-    "abstract": "Venous thromboembolism (VTE) is a leading preventable cause of in-hospital mortality in older adults, yet early risk stratification remains a key clinical challenge. This study aimed to develop and internally validate an explainable machine learning model for incident VTE prediction in hospitalized older adult patients. We enrolled 28,231 patients aged &#x2265;65 years admitted between January 2023 and December 2024, excluding those with VTE on admission. The primary endpoint was imaging-confirmed incident in-hospital VTE. Patients were split into training/test sets (7:3) via outcome-stratified sampling. Missing data were handled with multivariate imputation by chained equations imputation (training set only). Five machine learning models were constructed with 10-fold cross-validation and hyperparameter tuning, evaluated by pooled area under the curve (AUC), calibration curves, and decision curve analysis, with SHAP for model interpretation. 1797 (6.38%) incident VTE events were recorded. XGBoost showed optimal performance, with a training AUC of 0.753 and a test AUC of 0.712, favorable calibration, and stable clinical net benefit. Top predictors included diabetic nephropathy, triglycerides, great saphenous vein varicosity, fatty liver, cerebrovascular accident and age. We developed and validated an explainable XGBoost model for VTE risk prediction in older inpatients, enabling early risk stratification to support individualized thromboprophylaxis. Multicenter prospective external validation is warranted for clinical implementation.",
-    "englishSummary": "Venous thromboembolism (VTE) is a leading preventable cause of in-hospital mortality in older adults, yet early risk stratification remains a key clinical challenge. This study aimed to develop and internally validate an explainable machine learning model for incident VTE prediction in hospitalized older adult patients. We enrolled 28,231 patients aged &#x2265;65 years admitted between January 2023 and December 2024, excluding those with VTE on admission.",
-    "journal": "Medicine",
-    "publicationDate": "2026-07-17",
-    "authors": [
-      "Zhou S",
-      "Tang Z",
-      "Tan Y",
-      "Ni N",
-      "Liang D"
-    ],
-    "affiliations": [
-      "Cardiothoracic Surgery, Bishan Hospital of Chongqing Medical University, Bishan, Chongqing, China."
-    ],
-    "doi": "10.1097/MD.0000000000049729",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42470007/",
-    "publicationTypes": [
-      "Journal Article",
-      "Validation Study"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: outcome",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42469367",
-    "title": "Venturi-effect ultrasonography for early detection of AVF stenosis: a prospective multicenter study.",
-    "abstract": "This study aims to evaluate the diagnostic value of the Venturi effect combined with conventional ultrasonographic indicators for the early detection of arteriovenous fistula (AVF) stenosis in hemodialysis patients. A total of 169 patients with suspected AVF dysfunction were enrolled from January 2019 to June 2024 at the Department of Nephrology. Ultrasound parameters assessed including the minimal lumen diameter (MD) at the suspected stenosis site of the cephalic vein, the Venturi effect presence, peak systolic velocity (PSV), peak systolic velocity ratio (PSVR), brachial artery resistance index (BA-RI), and the flow volume difference (&#x394;FV). The diagnostic performance of each individual conventional parameter was compared with that of its combination with the Venturi effect for early AVF stenosis detection. Among the 169 patients, 158 were confirmed as stenotic. The conventional ultrasound indicators with the highest sensitivity and specificity for diagnosing AVF stenosis were MD, with a sensitivity of 93.7% and specificity of 93.8%. The area under the receiver operating characteristic curve (AUC) of individual parameters was ranked from highest to lowest as follows: AUC_MD&#x2009;>&#x2009;AUC_BA-RI&#x2009;>&#x2009;AUC_PSV&#x2009;>&#x2009;AUC_PSVR&#x2009;>&#x2009;AUC_&#x394;FV. After combining the Venturi effect with each indicator, diagnostic sensitivity for AVF stenosis improved to varying degrees. Among them, the diagnostic performance of PSV, PSVR and &#x394;FV has significantly improved (P&#x2009;<&#x2009;0.005). The Venturi effect combined with conventional ultrasonographic indicators demonstrates high diagnostic efficacy in the early diagnosis of AVF stenosis.",
-    "englishSummary": "This study aims to evaluate the diagnostic value of the Venturi effect combined with conventional ultrasonographic indicators for the early detection of arteriovenous fistula (AVF) stenosis in hemodialysis patients. A total of 169 patients with suspected AVF dysfunction were enrolled from January 2019 to June 2024 at the Department of Nephrology. Ultrasound parameters assessed including the minimal lumen diameter (MD) at the suspected stenosis site of the cephalic vein, the Venturi effect presence, peak systolic velocity (PSV), peak systolic velocity ratio (PSVR), brachial artery resistance index (BA-RI), and the flow volume difference (&#x394;FV).",
-    "journal": "Scientific reports",
-    "publicationDate": "2026-07-17",
-    "authors": [
-      "Chen YX",
-      "Gou B",
-      "Zhang JC",
-      "Jie W",
-      "Liu YL",
-      "Jiang RF",
-      "Liu BT",
-      "Liu J"
-    ],
-    "affiliations": [
-      "Department of Ultrasound Medicine, Chengdu University of Traditional Chinese Medicine Affiliated Fifth People's Hospital, Chengdu, China.",
-      "Department of Ultrasound Medicine, Clinical Medical College and The First Affiliated Hospital of Chengdu Medical College, Chengdu, China.",
-      "Department of Ultrasound Medicine, Clinical Medical College and The First Affiliated Hospital of Chengdu Medical College, Chengdu, China. drliujian0524@163.com."
-    ],
-    "doi": "10.1038/s41598-026-62364-y",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42469367/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Dialysis Access",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "medium",
-    "score": 4,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42468969",
-    "title": "Optical coherence tomography for carotid artery plaque: a standardised imaging and analysis methodology.",
-    "abstract": "BACKGROUND: Stroke remains a leading cause of morbidity and mortality, with carotid atherosclerosis representing a major contributor. High-resolution evaluation of plaque characteristics is critical for risk stratification and therapeutic guidance. However, reliable methodologies for assessments are limited. Optical coherence tomography (OCT) provides superior resolution, yet standardised protocols for carotid artery imaging are lacking. OBJECTIVE: This study aimed to develop and validate a standardised methodology for the acquisition and analysis of carotid artery plaque using OCT imaging. METHODS: Sixty-four patients with internal carotid artery stenosis from the HERALD trial who underwent paired OCT imaging were included. A standardised non-occlusive protocol was employed to accommodate carotid anatomy. Key plaque features-minimum fibrous cap thickness (FCT), maximum lipid arc, calcification, minimum lumen area, intraplaque vessels, dissection and cholesterol crystals-were assessed by three independent, blinded observers. Fibrous cap volume (FCV) was calculated using an AI-driven dual-coordinate framework. Statistical analyses included intraclass correlation coefficients (ICC) for continuous variables, Fleiss' kappa for categorical variables, Bland-Altman analysis for inter-observer agreement and Pearson correlation to assess relationships between variables. RESULTS: Analysis of 134 OCT pullbacks demonstrated excellent inter-observer reproducibility for minimum FCT (ICC=0.901), maximum lipid arc (ICC=0.812), and minimum lumen area (ICC=0.909). All observers achieved excellent intra-observer consistency. Bland-Altman analysis confirmed high agreement. Agreement for qualitative features was excellent for cholesterol crystals (&#x3ba;=0.957), intraplaque vessels (&#x3ba;=0.955), and dissections (&#x3ba;=0.988) and moderately high for calcification (&#x3ba;=0.848). FCV measurement using the AI framework showed good concordance with manual segmentation (mean Dice coefficient=0.73). A weak positive correlation was observed between changes in FCV and minimum FCT (r=0.296, p=0.024). CONCLUSIONS: This study establishes a comprehensive and standardised OCT methodology for carotid plaque imaging, demonstrating excellent reproducibility in quantifying key morphological and high-risk features.",
-    "englishSummary": "BACKGROUND: Stroke remains a leading cause of morbidity and mortality, with carotid atherosclerosis representing a major contributor. High-resolution evaluation of plaque characteristics is critical for risk stratification and therapeutic guidance. However, reliable methodologies for assessments are limited.",
-    "journal": "Stroke and vascular neurology",
-    "publicationDate": "2026-07-17",
-    "authors": [
-      "Wang L",
-      "Lin J",
-      "Wan Y",
-      "Hong C",
-      "Li X",
-      "Zhang L",
-      "Zuo W",
-      "Tan S",
-      "Peng H",
-      "Qiu M",
-      "Menon BK",
-      "Zhou W",
-      "Chen S",
-      "Qiu W",
-      "Hu B"
-    ],
-    "affiliations": [
-      "Department of Neurology, Huazhong University of Science and Technology Tongji Medical College Union Hospital, Wuhan, Hubei, China.",
-      "Departments of Clinical Neuroscience and Radiology, University of Calgary Cumming School of Medicine, Calgary, Alberta, Canada.",
-      "College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, Hubei, China.",
-      "Department of Neurology, Huazhong University of Science and Technology Tongji Medical College Union Hospital, Wuhan, Hubei, China hubo@mail.hust.edu.cn."
-    ],
-    "doi": "10.1136/svn-2025-004921",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42468969/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Clinical Trial"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 clinical evidence design: trial",
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -789,6 +208,104 @@
       "+2 clinical evidence design: cohort",
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42335865",
+    "title": "The dynamic interplay between cerebral collateral cascade and infarct growth rate in futile recanalization after endovascular thrombectomy: A pilot retrospective cohort study.",
+    "abstract": "BACKGROUND: Futile recanalization (FR) remains common despite successful reperfusion after endovascular thrombectomy (EVT) for acute ischemic stroke. Although both collateral status and infarct growth rate (IGR) are established predictors of outcome, it remains unclear whether infarct growth dynamics modify the prognostic effect of collateral status. OBJECTIVE: This study aimed to investigate the interaction between the cerebral collateral cascade (CCC) and IGR in relation to FR after successful EVT. METHOD: We retrospectively analyzed consecutive patients from two comprehensive stroke centers with anterior circulation large-vessel occlusion who achieved successful reperfusion (modified Thrombolysis in Cerebral Infarction grade 2b-3) after EVT within 6&#x202f;h of a clearly documented symptom onset. Patients with wake-up stroke or uncertain onset were excluded. Collateral status was assessed with the CCC framework, integrating pial arterial collateral, tissue-level collateral, and venous outflow. IGR was calculated as the baseline ischemic core volume divided by onset-to-imaging time. The primary outcome was futile recanalization, defined as a 90-day modified Rankin Scale (mRS) score of 3-6 despite successful reperfusion. Multivariable logistic regression was used to evaluate independent associations and the CCC&#xd7;IGR interaction term. RESULTS: Among 157 included patients, 70 (44.6%) experienced futile recanalization. In multivariable analysis, unfavorable CCC and higher IGR were independently associated with futile recanalization. A statistically significant interaction was observed between CCC and IGR (interaction OR, 0.863, 95% CI, 0.754-0.986; P&#x202f;=&#x202f;0.031). In stratified analyses, favorable CCC was associated with a lower risk of futile recanalization among slow progressors (<10&#x202f;mL/h)(OR, 0.152; 95%CI, 0.043-0.531; P&#x202f;=&#x202f;0.003), but not among fast progressors (&#x2265;10mL/h)(OR, 0.460; 95% CI, 0.050-4.225; P&#x202f;=&#x202f;0.493). CONCLUSIONS: The association between favorable CCC and reduced FR after successful EVT appears to be modified by IGR. Favorable CCC was associated with reduced futile recanalization primarily in slow progressors, whereas this association was attenuated in fast progressors. These preliminary findings suggest that integrating collateral status with ischemic progression metrics may provide complementary information for post-reperfusion prognostic assessment after EVT, although external validation is required.",
+    "englishSummary": "BACKGROUND: Futile recanalization (FR) remains common despite successful reperfusion after endovascular thrombectomy (EVT) for acute ischemic stroke. Although both collateral status and infarct growth rate (IGR) are established predictors of outcome, it remains unclear whether infarct growth dynamics modify the prognostic effect of collateral status. OBJECTIVE: This study aimed to investigate the interaction between the cerebral collateral cascade (CCC) and IGR in relation to FR after successful EVT.",
+    "journal": "Clinical neurology and neurosurgery",
+    "publicationDate": "2026-06-23",
+    "authors": [
+      "Yang J",
+      "Fei J",
+      "Shao W",
+      "Ma Y",
+      "Chen P",
+      "Hu C",
+      "Zhang Y"
+    ],
+    "affiliations": [
+      "Department of Radiology, The Fourth Affiliated Hospital of Soochow University, Suzhou, China.",
+      "Department of Radiology, The First Affiliated Hospital of Soochow University, Suzhou, China.",
+      "Department of Radiology, The Fourth Affiliated Hospital of Soochow University, Suzhou, China. Electronic address: zhangyusdfyy@163.com."
+    ],
+    "doi": "10.1016/j.clineuro.2026.109555",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42335865/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 9,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: outcome",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42314850",
+    "title": "Potential survival benefit of adjunctive catheter-based embolectomy in high-risk pulmonary embolism patients on veno-arterial extracorporeal membrane oxygenation: A multicenter retrospective study.",
+    "abstract": "BACKGROUND: Management of high-risk pulmonary embolism (HRPE) requiring veno-arterial extracorporeal membrane oxygenation (VA-ECMO) is challenging, with limited evidence guiding optimal reperfusion strategies. This study evaluated the association between different reperfusion approaches, including catheter-based embolectomy, and clinical outcomes in HRPE patients supported with VA-ECMO. METHODS: A multicenter retrospective cohort study included HRPE patients from six ICUs between January 2020 and August 2023. Patients on VA-ECMO were categorized into three groups: ECMO alone, ECMO with systemic thrombolysis, and ECMO with pulmonary artery catheter-based embolectomy. Patients managed without ECMO served as controls. The primary endpoint was 60-day all-cause mortality. RESULTS: Among 89 patients, 64 (71.9%) received VA-ECMO. Within this group, 35 (54.7%) were managed with ECMO alone, 18 (28.1%) with ECMO + thrombolysis, and 11 (17.2%) with ECMO + embolectomy. The observed 60-day mortality rates were 60.0% in non-ECMO, 42.9% in ECMO-alone, 61.1% in ECMO + thrombolysis, and significantly lower at 9.1% in ECMO + embolectomy. Multivariate Cox analysis identified renal replacement therapy (HR 2.87, P&#xa0;=&#xa0;0.024), baseline serum lactate (HR 1.053 per mmol/L, P&#xa0;=&#xa0;0.045), and reperfusion strategy (ECMO + embolectomy vs. others; HR 10.3, P&#xa0;=&#xa0;0.041) as independent predictors of mortality. CONCLUSION: In HRPE patients supported with VA-ECMO, catheter-based embolectomy was associated with markedly improved 60-day survival compared to ECMO alone or with thrombolysis, suggesting a potential benefit of this intervention despite limited sample size.",
+    "englishSummary": "BACKGROUND: Management of high-risk pulmonary embolism (HRPE) requiring veno-arterial extracorporeal membrane oxygenation (VA-ECMO) is challenging, with limited evidence guiding optimal reperfusion strategies. This study evaluated the association between different reperfusion approaches, including catheter-based embolectomy, and clinical outcomes in HRPE patients supported with VA-ECMO. METHODS: A multicenter retrospective cohort study included HRPE patients from six ICUs between January 2020 and August 2023.",
+    "journal": "International journal of cardiology",
+    "publicationDate": "2026-06-18",
+    "authors": [
+      "Hou W",
+      "Ren W",
+      "Shao Z",
+      "Zhang S",
+      "Luo J",
+      "Wang X",
+      "Fan Z",
+      "Xu J",
+      "Sun R",
+      "Hu B"
+    ],
+    "affiliations": [
+      "Emergency and Critical Care Center, ICU, Zhejiang Provincial People's Hospital (Affiliated People's Hospital, Hangzhou Medical College), Hangzhou 310014, Zhejiang, China.",
+      "ICU, Taizhou Hospital of Zhejiang Province, Linhai 317000, Zhejiang, China.",
+      "ICU, Quzhou People's Hospital, Quzhou 324000, Zhejiang, China.",
+      "ICU, Wenzhou Central Hospital, Wenzhou 325000, Zhejiang, China.",
+      "ICU, The First Affiliated Hospital of Ningbo University, Ningbo 315010, Zhejiang, China.",
+      "ICU, Lishui People's Hospital, Lishui 323000, Zhejiang, China.",
+      "Emergency and Critical Care Center, ICU, Zhejiang Provincial People's Hospital (Affiliated People's Hospital, Hangzhou Medical College), Hangzhou 310014, Zhejiang, China. Electronic address: hubangchuanicu@163.com."
+    ],
+    "doi": "10.1016/j.ijcard.2026.134635",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42314850/",
+    "publicationTypes": [
+      "Journal Article",
+      "Multicenter Study"
+    ],
+    "topicTags": [
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 8,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: intervention",
       "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
@@ -1066,6 +583,62 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42102924",
+    "title": "A systematic review and meta-analysis of cancer risk in patients with abdominal aortic aneurysm.",
+    "abstract": "OBJECTIVE: This systematic review and meta-analysis aim to determine whether patients with abdominal aortic aneurysm (AAA) have an elevated risk of developing cancer compared with those without AAA, and to compare the cancer risk among patients who have undergone different types of AAA repair. METHODS: This systematic review and meta-analysis was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. A systematic search of PubMed, Embase, and Web of Science was performed up to August 27, 2025, to identify studies investigating cancer risk in patients with AAA. The primary objective was to determine whether the risk of cancer is higher in patients with AAA compared with those without AAA. The secondary objective was to compare the cancer risk among patients who underwent different AAA repair procedures. Two reviewers independently selected studies for inclusion and extracted the data. All statistical analyses were performed using standard statistical procedures in R software (The R Foundation for Statistical Computing). RESULTS: Twelve original studies were included. A significant association was observed between AAA and an elevated risk of cancer compared with those without AAA risk ratio ([RR], 1.69; 95% confidence interval, 1.28-2.22; P < .001). Subgroup analyses revealed associations with elevated risks of respiratory, hepatic, bladder, pancreatic, and hematological malignancies. Additionally, endovascular aortic repair was associated with a higher cancer risk compared with open aortic repair (risk ratio, 1.11, 95% confidence interval, 1.06-1.16; P < .001). CONCLUSIONS: This meta-analysis suggests that AAA is associated with an increased cancer risk compared with the general population, and also suggests a higher cancer risk and/or a greater likelihood of cancer detection associated with endovascular aortic repair compared with open aortic repair.",
+    "englishSummary": "OBJECTIVE: This systematic review and meta-analysis aim to determine whether patients with abdominal aortic aneurysm (AAA) have an elevated risk of developing cancer compared with those without AAA, and to compare the cancer risk among patients who have undergone different types of AAA repair. METHODS: This systematic review and meta-analysis was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. A systematic search of PubMed, Embase, and Web of Science was performed up to August 27, 2025, to identify studies investigating cancer risk in patients with AAA.",
+    "journal": "Journal of vascular surgery",
+    "publicationDate": "2026-05-07",
+    "authors": [
+      "Zhang Z",
+      "Shu C",
+      "Wang J",
+      "Hu H",
+      "Zhao J",
+      "Huang B",
+      "Vilayphone V",
+      "Zhao W",
+      "He Y",
+      "Yang Y"
+    ],
+    "affiliations": [
+      "Division of Vascular Surgery, Department of General Surgery, West China Hospital, Sichuan University, Chengdu, China; West China School of Clinical Medicine, Sichuan University, Chengdu, China.",
+      "Division of Vascular Surgery, Department of General Surgery, West China Hospital, Sichuan University, Chengdu, China.",
+      "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK; Yu-Yue Pathology Scientific Research Center, Chongqing, China; Jinfeng Laboratory, Chongqing, China.",
+      "Division of Vascular Surgery, Department of General Surgery, West China Hospital, Sichuan University, Chengdu, China. Electronic address: yangy@wchscu.cn."
+    ],
+    "doi": "10.1016/j.jvs.2026.04.032",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42102924/",
+    "publicationTypes": [
+      "Systematic Review",
+      "Journal Article",
+      "Meta-Analysis",
+      "Review"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "Endovascular",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Systematic Review",
+      "Meta-analysis",
+      "Review"
+    ],
+    "relevance": "high",
+    "score": 12,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: aortic aneurysm",
+      "+2 clinical evidence design: meta-analysis",
+      "+3 high-value publication type: systematic review",
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42081193",
     "title": "Evaluating Three Routes of Tranexamic Acid Administration in Total Hip and Knee Arthroplasty: A Nationwide Database Analysis in Taiwan.",
     "abstract": "BACKGROUND: Tranexamic acid (TXA) reduces perioperative blood loss, but comparative effectiveness and safety across administration routes remain uncertain. The authors evaluated topical, IV, and oral TXA in unilateral total hip and knee arthroplasty. METHODS: Using Taiwan's national health insurance database (2012 to 2021), the authors identified patients undergoing unilateral arthroplasty and evaluated perioperative TXA use, erythrocyte transfusion, and adverse events within 60 days after discharge. Conditional logistic regression and six propensity score-matched comparisons were conducted: topical versus none, IV versus none, oral versus none, topical versus IV, topical plus 1.0&#x2009;g IV versus topical alone, and IV plus 1.0&#x2009;g topical versus IV alone. RESULTS: Compared with no TXA, all routes were associated with lower transfusion risk (topical: risk ratio [RR], 0.45; 95% CI, 0.41 to 0.48; P < 0.001; IV: RR, 0.80; 95% CI, 0.79 to 0.84; P < 0.001; oral: RR, 0.82; 95% CI, 0.73 to 0.92; P = 0.007). Topical and IV TXA were associated with similar risk (RR, 1.09; 95% CI, 0.96 to 1.24; P > 0.999), and the combined use was not associated with a different risk compared with either route alone. Topical TXA was associated with the greatest reduction in predicted transfusion risk at low dose ranging from 0 to 3.0 g (-3,087 per 10,000 [-2,886, -3,276]). Overall, TXA use was not associated with increased venous thromboembolism (VTE), infections, or wound complications. A higher VTE incidence was observed with topical TXA in patients with previous vascular disease without pharmacologic prophylaxis, but this was not significant after adjustment for confounders. TXA was not associated with renal injury overall, but high-dose IV (greater than 3.0&#x2009;g) or oral (greater than 8.0&#x2009;g) TXA increased predicted risk (approximately 10%) in patients with preexisting renal disease. CONCLUSIONS: TXA use was associated with substantial transfusion reduction without an overall increase in adverse events. No administration route or combination proved superior. Caution is warranted with higher-dose IV or oral TXA in patients with renal disease, and the association between topical TXA and VTE in high-risk patients merits further investigation.",
@@ -1151,6 +724,52 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42025649",
+    "title": "The value of the mini-cuff technique in fenestrated/branched endovascular aortic repair: Efficacy validation based on the composite end point of target vessel instability.",
+    "abstract": "OBJECTIVE: To evaluate whether adjunctive mini-cuff use is associated with a reduced risk of postoperative target vessel instability (TVI) after physician-modified endograft (PMEG)-based fenestrated/branched endovascular aortic repair (FB-EVAR). METHODS: This single-center retrospective cohort study included 216 patients with complex aortic diseases treated with PMEG-based FB-EVAR between January 2018 and June 2024. Patients were divided into two groups based on the use of the mini-cuff technique: the FB-EVAR with mini-cuff group (FM group; n = 79) and the FB-EVAR without mini-cuff group (FB group; n = 137). A total of 666 target vessels were analyzed at the branch level, including 193 reconstructed with adjunctive mini-cuff and 473 without mini-cuff. The primary end point was TVI, a composite of target vessel occlusion, >70% stenosis, reintervention, or type Ic/target vessel-related type III endoleak. Time-to-event data were analyzed using Cox proportional hazards regression with robust standard errors to account for within-patient clustering of vessels. Key covariates were prespecified and forced into the multivariable model, including pathology (degenerative vs postdissection), prior aortic endovascular surgery, aneurysm neck-to-sac &#x3b2;-angle of >60&#xb0;, adverse target vessel condition, and age. RESULTS: The FM group had a higher prevalence of prior aortic endovascular surgery (48.1% vs 16.1%) and postdissection pathology (65.8% vs 27.7%); at the branch level, adverse anatomical conditions were also more frequent in the FM group (26.4% vs 19.2%). In the unadjusted branch-level analysis, TVI occurred less often with mini-cuffs (10.9% vs 16.3%), although this difference did not attain statistical significance (P = .074). Because mini-cuffs were selectively used in higher-risk anatomies, multivariable adjusted analyses were performed. In the multivariable Cox model with robust standard errors, mini-cuff use was independently associated with a lower hazard of TVI (adjusted hazard ratio, 0.882; 95% confidence interval, 0.802-0.969; P = .009). At 24 months, the Kaplan-Meier-estimated branch-level TVI risk was approximately 20% with mini-cuffs vs 25% without, corresponding with an absolute risk reduction of approximately 5% and an estimated number needed to treat of approximately 21. Perioperative outcomes were similar between the groups. CONCLUSIONS: In this retrospective PMEG-based FB-EVAR cohort, adjunctive mini-cuff use was independently associated with improved midterm target vessel stability without increased perioperative risk. However, given the nonrandomized design and selective use in higher-risk anatomies, residual confounding and selection bias cannot be excluded.",
+    "englishSummary": "OBJECTIVE: To evaluate whether adjunctive mini-cuff use is associated with a reduced risk of postoperative target vessel instability (TVI) after physician-modified endograft (PMEG)-based fenestrated/branched endovascular aortic repair (FB-EVAR). METHODS: This single-center retrospective cohort study included 216 patients with complex aortic diseases treated with PMEG-based FB-EVAR between January 2018 and June 2024. Patients were divided into two groups based on the use of the mini-cuff technique: the FB-EVAR with mini-cuff group (FM group; n = 79) and the FB-EVAR without mini-cuff group (FB group; n = 137).",
+    "journal": "Journal of vascular surgery",
+    "publicationDate": "2026-04-21",
+    "authors": [
+      "Fu DS",
+      "Pan ZH",
+      "Wang YZ",
+      "Zhao ZH",
+      "Liu Z"
+    ],
+    "affiliations": [
+      "Department of Vascular Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China.",
+      "Department of Vascular Surgery, Nanjing Drum Tower Hospital, The Affiliated Hospital of Nanjing University Medical School, Nanjing, China. Electronic address: liuzhao@nju.edu.cn."
+    ],
+    "doi": "10.1016/j.jvs.2026.03.791",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42025649/",
+    "publicationTypes": [
+      "Journal Article",
+      "Validation Study"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "Endovascular",
+      "Vascular Graft / Stent / Device",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 11,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -1527,6 +1146,148 @@
     "source": "PubMed"
   },
   {
+    "pmid": "41967726",
+    "title": "Association of lifestyle factors and genetic risk with incident abdominal aortic aneurysm.",
+    "abstract": "OBJECTIVE: Although lifestyle factors are associated with the risk of abdominal aortic aneurysm (AAA), its relationship with genetic susceptibility in determining AAA remains unclear. We aim to investigate the association of lifestyle factors and genetic risk with the incidence of AAAs. METHODS: A prospective cohort study, including 274,755 adult participants with White European ancestry and no AAA at baseline, was recruited between 2006 and 2010. A polygenic risk score was calculated to quantify genetic susceptibility to AAA in participants, and a comprehensive healthy lifestyle score was derived based on factors including sleep, diet, alcohol consumption, physical activity, waist-to-hip ratio, and smoking. Incident AAAs were determined by linking medical history with hospital admission and death registries. RESULTS: Participants at high genetic risk had an 89% higher risk of AAAs compared with those at low genetic risk. A poor lifestyle was associated with a 165% increased risk of developing AAAs compared with a healthy lifestyle. Participants with both a poor lifestyle and high genetic risk exhibited the highest risk, with a hazard ratio for incident AAAs of 4.64 (95% confidence interval, 2.59-8.31) compared with those at low genetic risk and a healthy lifestyle. Moreover, there was a significant positive additive interaction between poor lifestyle and high genetic risk (relative excess risk due to interaction: 1.81; 95% confidence interval, 0.69-2.92). CONCLUSIONS: High genetic risk and poor lifestyle were both independently and jointly associated with an increased risk of AAAs. Moreover, following a healthy lifestyle can reduce the risk of AAAs for individuals, particularly among those with high genetic risk.",
+    "englishSummary": "OBJECTIVE: Although lifestyle factors are associated with the risk of abdominal aortic aneurysm (AAA), its relationship with genetic susceptibility in determining AAA remains unclear. We aim to investigate the association of lifestyle factors and genetic risk with the incidence of AAAs. METHODS: A prospective cohort study, including 274,755 adult participants with White European ancestry and no AAA at baseline, was recruited between 2006 and 2010.",
+    "journal": "Journal of vascular surgery",
+    "publicationDate": "2026-04-11",
+    "authors": [
+      "Ren J",
+      "Zhang Z",
+      "Sun X",
+      "Pei H",
+      "Zhang Y",
+      "Zhang C",
+      "Zhang X",
+      "Qiao S",
+      "Zhu S",
+      "Yin B",
+      "Ma Y"
+    ],
+    "affiliations": [
+      "Hebei Key Laboratory of Environment and Human Health, Department of Nutrition and Food Hygiene, School of Public Health, Hebei Medical University, Shijiazhuang, China.",
+      "Hebei Key Laboratory of Environment and Human Health, Department of Nutrition and Food Hygiene, School of Public Health, Hebei Medical University, Shijiazhuang, China. Electronic address: mayuxia@hebmu.edu.cn."
+    ],
+    "doi": "10.1016/j.jvs.2026.03.619",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41967726/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 7,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: aortic aneurysm",
+      "+2 clinical evidence design: cohort",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "41967725",
+    "title": "Sex differences in patients hospitalized for repair of intact abdominal aortic aneurysms in 11 high-income countries: A cross-sectional cohort study.",
+    "abstract": "OBJECTIVE: Sex differences in the treatment and outcomes of males and females undergoing intact abdominal aortic aneurysm (AAA) repair have been documented in single-country studies, with females tending to have worse outcomes. However, international comparisons of sex differences across countries using patient-level data and harmonized analytical methods are lacking. METHODS: We conducted a retrospective serial cross sectional cohort study using population-representative administrative data from 11 countries participating in the International Health Systems Research Collaborative (IHSRC) to identify adults aged 66+ years hospitalized for intact AAA repair between 2011 and 2019. We compared females and males within each country with respect to age- and comorbidity-adjusted AAA population-adjusted incidence of surgeries, 30-day and 1-year mortality, 30-day readmission, and hospital length of stay (LOS). RESULTS: Our intact AAA repair cohort sizes differed widely across our 11 countries, ranging from 200,151 in the United States (178,777 [78%] endovascular aneurysm repair [EVAR]; 21,374 [22%] open repair) to 1290 in Israel (1199 [89%] EVAR; 91[11%] open repair). Overall AAA population-adjusted incidence of surgeries (EVAR plus open repairs per 100,000 population per year) were significantly lower for females than males in all countries but the male to female repair ratio within countries differed widely. For example, in the United States there were approximately 4.5 male repairs per 1.0 female repair; in Israel the ratio was 10:1. Thirty-day and 1-year age- and comorbidity-adjusted mortality was higher for females than males in most countries (Switzerland, 1-year mortality: 8.5 female, 5.4 male). Females experienced longer hospital overall (EVAR plus open) LOS (eg, South Korea, male 17.9 days vs female 23.5 days) and higher rates of hospital readmission (eg, Israel, male 21.0% vs female 33.6%) than males. These disparities persisted across years and repair subtype. CONCLUSIONS: Compared with males, females had lower AAA population-adjusted incidence of surgeries, higher mortality, higher readmission rates, and longer hospital LOS across 11 diverse high-income countries. However, the magnitude of the female-male differences were surprisingly variable. These findings raise important questions about whether these differences are manifestations of true clinical differences across countries or differences in how males and females are treated in each country. We suggest that countries with larger \"gaps\" explore the underlying drivers of these differences while simultaneously exploring opportunities to redesign care.",
+    "englishSummary": "OBJECTIVE: Sex differences in the treatment and outcomes of males and females undergoing intact abdominal aortic aneurysm (AAA) repair have been documented in single-country studies, with females tending to have worse outcomes. However, international comparisons of sex differences across countries using patient-level data and harmonized analytical methods are lacking. METHODS: We conducted a retrospective serial cross sectional cohort study using population-representative administrative data from 11 countries participating in the International Health Systems Research Collaborative (IHSRC) to identify adults aged 66+ years hospitalized for intact AAA repair between 2011 and 2019.",
+    "journal": "Journal of vascular surgery",
+    "publicationDate": "2026-04-11",
+    "authors": [
+      "Woo S",
+      "Kim SJ",
+      "Hwang SH",
+      "Al-Azazi S",
+      "Banerjee A",
+      "Bakx P",
+      "Burrack N",
+      "Chen YC",
+      "Cordier J",
+      "Elshaug AG",
+      "Hirani JC",
+      "Ehlig D",
+      "Fu C",
+      "Hartman AR",
+      "Godoy C",
+      "Griffiths D",
+      "Hatfield LA",
+      "Huang HH",
+      "Huang N",
+      "Jones P",
+      "Khashram M",
+      "Ko DT",
+      "Korkmaz S",
+      "Lix LM",
+      "Moser D",
+      "Novack V",
+      "Pasea L",
+      "Qiu F",
+      "Schermerhorn M",
+      "Stukel TA",
+      "Groot CU",
+      "Landon B",
+      "Cram P"
+    ],
+    "affiliations": [
+      "Department of Medical Science, Soonchunhyang University Graduate School, Asan, South Korea.",
+      "Department of Health Administration and Management, College of Medical Science, Soonchunhyang University, Asan, South Korea. Electronic address: sunjkim0623@sch.ac.kr.",
+      "HIRA Policy Research Institute, Health Insurance Review & Assessment Service (HIRA), Wonju, South Korea.",
+      "Department of Community Health Sciences, University of Manitoba, Winnipeg, Manitoba, Canada; George & Fay Yee Centre for Healthcare Innovation, University of Manitoba, Winnipeg, Manitoba, Canada.",
+      "Institute of Health Informatics, University College London, London, UK; Department of Cardiology, University College London Hospitals, London, England.",
+      "Erasmus School of Health Policy & Management, Erasmus University, Rotterdam, The Netherlands.",
+      "Clinical Research Center, Soroka University Medical Center, Faculty of Health Sciences, Ben Gurion University of the Negev, Beersheba, Israel.",
+      "Institute of Hospital and Health Care Administration, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+      "School of Medicine - University of St.Gallen (HSG), ST Gallen, Switzerland.",
+      "Centre for Health Policy, Melbourne School of Population and Global Health, The University of Melbourne, Victoria, Australia; Melbourne Medical School, The University of Melbourne, Victoria, Australia.",
+      "VIVE-The Danish Centre for Social Science Research, Copenhagen, Denmark.",
+      "Department of Health Care Policy, Harvard Medical School, Boston, MA.",
+      "Centre for Health Policy, Melbourne School of Population and Global Health, The University of Melbourne, Victoria, Australia.",
+      "Statistics and Data Science, NORC at the University of Chicago, Chicago, IL.",
+      "Department of Vascular Surgery, Waikato Hospital, Hamilton, New Zealand.",
+      "Department of Surgery, University of Auckland, Auckland, New Zealand.",
+      "Schulich Heart Program, Sunnybrook Health Sciences Centre, Sunnybrook Research Institute, Toronto, ON, Canada; ICES, Toronto, ON, Canada; Faculty of Medicine, University of Toronto, Toronto, ON, Canada.",
+      "VIVE-The Danish Centre for Social Science Research, Copenhagen, Denmark; Department of Economics, University of Copenhagen, Copenhagen K, Denmark.",
+      "Institute of Health Informatics, University College London, London, UK.",
+      "ICES, Toronto, ON, Canada.",
+      "Division of Vascular Surgery, Beth Israel Deaconess Medical Center, Boston, MA, USA.",
+      "Department of Surgery, University of Auckland, Auckland, New Zealand; Division of Orthopedic Surgery, Department of Surgery, University of Toronto, Toronto, ON, Canada; Institute of Health Policy, Management and Evaluation, University of Toronto, Toronto, Canada.",
+      "Section of Geriatrics, Ohio Health Grant Medical Center, Columbus, OH."
+    ],
+    "doi": "10.1016/j.jvs.2026.03.623",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41967725/",
+    "publicationTypes": [
+      "Journal Article",
+      "Comparative Study",
+      "Multicenter Study"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "Endovascular",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort",
+      "Review"
+    ],
+    "relevance": "high",
+    "score": 8,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: clinical",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: Taiwan"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "41945241",
     "title": "A novel predictive model for evaluating thrombus regression in postpartum venous thromboembolism patients.",
     "abstract": "INTRODUCTION: Antithrombotic evaluation of postpartum venous thromboembolism (VTE) after anticoagulant therapy is challenging because of the lack of high-quality clinical evidence. AIM: To identify and validate a machine learning model to predict thrombus regression in postpartum VTE patients. METHOD: This study constructed three cohorts of postpartum VTE patients receiving low-molecular-weight heparin (LMWH): retrospective (n&#x2009;=&#x2009;200), prospective (n&#x2009;=&#x2009;50), and external (n&#x2009;=&#x2009;29) cohorts. The main endpoint was imaging-based thrombus regression. Based on clinical guidelines and literature, we screened 16 potential predictors. The retrospective dataset was analyzed using eight machine learning models to predict thrombus regression after anticoagulant therapy. The performance of the model was evaluated by the area under the receiver operating characteristic curve (AUC-ROC), residual analysis, accuracy, sensitivity and specificity. The optimal model was selected based on its comprehensive performance and further validated on the prospective and external cohorts. Model interpretability was analyzed using variable importance and partial dependence plots. RESULTS: Thrombus regression was significantly associated with anti-Xa activity (p&#x2009;=&#x2009;0.009), antithrombin III levels (p&#x2009;=&#x2009;0.028), and D-dimer levels (p&#x2009;=&#x2009;0.024). Of the eight models, the random forest (RF) model demonstrated the best predictive performance, with the AUC-ROC value of 0.831(95%CI 0.696-0.967), accuracy of 0.77, sensitivity of 0.45, specificity of 0.89, and the highest accuracy in predicting thrombus regression events in the prospective (94.29%) and external (90.00%) postpartum VTE datasets. The key predictive variables were anti-Xa activity, antithrombin III levels, D-dimer levels, and body mass index (BMI). CONCLUSION: Based on data from the three cohorts of patients with postpartum VTE, the RF model was identified as the optimal model for predicting thrombus regression events, with anti-Xa activity, antithrombin III levels, D-dimer levels, and BMI serving as key predictors. This study may help assess changes in the thrombotic state of postpartum VTE patients and guide clinical precision medication.",
@@ -1615,6 +1376,53 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42031655",
+    "title": "Invasive Blood Pressure Monitoring Using Ultrasound-guided Artery Cannulation Through the Distal Radial Artery Approach at the Anatomical Snuffbox Compared With the Conventional Artery Approach: A Randomized Controlled Trial.",
+    "abstract": "OBJECTIVE: To evaluate the feasibility of ultrasound-guided radial artery cannulation in the anatomical snuffbox for invasive blood pressure monitoring. Invasive blood pressure monitoring is essential for the management of critically ill patients. The conventional radial artery and dorsalis pedis artery are standard access sites; nevertheless, they present limitations. Recently, distal transradial access has become a promising new approach, due to its association with fewer complications and greater patient comfort. DESIGN: A randomized controlled study. SETTING: May 1, 2023, to May 1, 2024. PARTICIPANTS: A total of 120 patients scheduled for invasive blood pressure monitoring via arterial cannulation. INTERVENTIONS: Patients were enrolled and randomized into three groups according to the puncture site: radial artery in the anatomical snuffbox (Group A), radial artery (Group B), and dorsalis pedis artery (Group C). MEASUREMENTS AND MAIN RESULTS: The coprimary outcomes were the first-attempt success rate and puncture duration. CONCLUSIONS: No significant difference was observed in first-attempt success rates among the three groups (Group A: 75%, Group B: 72.5%, and Group C: 52.5%). Group B demonstrated significantly shorter puncture duration than both Group A (p = 0.001) and Group C (p = 0.001). Compared with conventional radial artery and dorsalis pedis artery cannulation, the anatomical snuffbox approach achieves comparable success rates, establishing it as a clinically viable alternative for invasive hemodynamic monitoring.",
+    "englishSummary": "OBJECTIVE: To evaluate the feasibility of ultrasound-guided radial artery cannulation in the anatomical snuffbox for invasive blood pressure monitoring. Invasive blood pressure monitoring is essential for the management of critically ill patients. The conventional radial artery and dorsalis pedis artery are standard access sites; nevertheless, they present limitations.",
+    "journal": "Journal of cardiothoracic and vascular anesthesia",
+    "publicationDate": "2026-03-25",
+    "authors": [
+      "Zhu W",
+      "Chen R",
+      "Cheng X",
+      "Liu C",
+      "Chen S",
+      "Chen H"
+    ],
+    "affiliations": [
+      "Department of Anesthesiology, the First Affiliated Hospital, Wenzhou Medical University, Zhejiang, China.",
+      "Operation Room Nursing, the First Affiliated Hospital, Wenzhou Medical University, Zhejiang, China.",
+      "Department of Pain Management, the First Affiliated Hospital, Wenzhou Medical University, Zhejiang, China. Electronic address: chhfei@126.com."
+    ],
+    "doi": "10.1053/j.jvca.2026.03.038",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42031655/",
+    "publicationTypes": [
+      "Journal Article",
+      "Randomized Controlled Trial",
+      "Comparative Study"
+    ],
+    "topicTags": [
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "RCT",
+      "Clinical Trial"
+    ],
+    "relevance": "high",
+    "score": 9,
+    "scoreReasons": [
+      "+2 clinical evidence design: randomized",
+      "+3 high-value publication type: randomized controlled trial",
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "41870688",
     "title": "RNA-binding motif protein 10 accelerates abdominal aortic aneurysm formation by inducing smooth muscle cell apoptosis.",
     "abstract": "",
@@ -1661,6 +1469,54 @@
     "source": "PubMed"
   },
   {
+    "pmid": "41946645",
+    "title": "Comparative Effectiveness of Anesthesia Techniques on the Duration of Endovascular Lower-Extremity Revascularization: A Single-CenterRetrospective Study.",
+    "abstract": "OBJECTIVE: To compare the effects of peripheral nerve block anesthesia (PNBA) (ultrasound-guided iliac fascia and sciatic block) and monitored anesthesia care (MAC) on operative efficiency and postoperative outcomes in patients with lower-limb arteriosclerosis obliterans (ASO) undergoing endovascular revascularization. DESIGN: Retrospective matched cohort study (1:1 propensity score matching). SETTING: Single-center analysis of patients undergoing ASO. PARTICIPANTS: One hundred ninety-four matched pairs (N = 388) selected from 459 eligible patients. INTERVENTIONS: PNBA (n = 194) versus MAC (n = 194). MEASUREMENTS AND MAIN RESULTS: In terms of primary outcomes, PNBA significantly reduced operative time across procedure types (stent implantation, 130.30 &#xb1; 60.079 minutes v 147.86 &#xb1; 68.155 minutes [p = 0.05]; balloon dilation, 137.79 &#xb1; 54.063 minutes v 179.97 &#xb1; 90.335 minutes [p < 0.001]) and age groups (&#x2265;65 years, 136.41 &#xb1; 57.771 minutes v 164.68 &#xb1; 81.373 minutes [p < 0.001]; <65 years, 121.39 &#xb1; 55.225 minutes v 158.57 &#xb1; 80.773 minutes [p = 0.023]). Secondary outcomes, including myocardial injury after noncardiac surgery, amputation, death, intensive care unit admission, renal function, and coagulation changes, were comparable (all p &#x2265; 0.05). Compared with MAC, the PNBA approach significantly relieved pain and improved patient satisfaction. Specifically, 80.9% of patients reported no pain, and 85.1% reported high satisfaction, compared with 15.4% and 5.2%, respectively, for the MAC approach (both p &#x2264; 0.001). CONCLUSIONS: PNBA demonstrated significant advantages in lower-limb revascularization surgery for ASO, including reduced operative time, optimized perioperative analgesia, and improved patient satisfaction.",
+    "englishSummary": "OBJECTIVE: To compare the effects of peripheral nerve block anesthesia (PNBA) (ultrasound-guided iliac fascia and sciatic block) and monitored anesthesia care (MAC) on operative efficiency and postoperative outcomes in patients with lower-limb arteriosclerosis obliterans (ASO) undergoing endovascular revascularization. DESIGN: Retrospective matched cohort study (1:1 propensity score matching). SETTING: Single-center analysis of patients undergoing ASO.",
+    "journal": "Journal of cardiothoracic and vascular anesthesia",
+    "publicationDate": "2026-03-15",
+    "authors": [
+      "Ying M",
+      "Wang W",
+      "Chen H",
+      "Liu M",
+      "Wu J",
+      "Lu H",
+      "Liang C"
+    ],
+    "affiliations": [
+      "Department of Anesthesiology, Zhongshan Hospital (Xiamen), Fudan University, Xiamen, China.",
+      "Department of Anesthesiology, Zhongshan Hospital, Fudan University, Shanghai, China. Electronic address: superwm226@126.com."
+    ],
+    "doi": "10.1053/j.jvca.2026.03.015",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41946645/",
+    "publicationTypes": [
+      "Journal Article",
+      "Comparative Study"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Vascular Graft / Stent / Device",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 11,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "41577300",
     "title": "Endoscopic ultrasound-guided coils embolization with cyanoacrylate injection versus transjugular intrahepatic portosystemic shunt with variceal embolization for gastric variceal bleeding: a multicenter propensity-matched analysis.",
     "abstract": "BACKGROUND AND AIMS: Gastric variceal bleeding (GVB) carries high mortality, and conventional endoscopy offers limited efficacy. This study aimed to evaluate the efficacy and safety of EUS-guided coils embolization combined with cyanoacrylate injection (EUS-Coils+CYA) versus transjugular intrahepatic portosystemic shunt combined with variceal embolization (TIPS+VE) in patients with GVB. METHODS: This multicenter retrospective study used a propensity score-matching (PSM) analysis. The primary outcomes were technical success rate, recurrent bleeding rate, and mortality rate. RESULTS: Of the 187 initially enrolled patients with cirrhosis and GVB, 124 were matched (62 per group). After 1:1 PSM, 124 patients were analyzed (62 in the EUS-Coils+CYA group and 62 in the TIPS+VE group). The technical success rate was 100% in both groups. No significant differences were found in the overall recurrent bleeding rate (11.29% vs 9.68%; P = .769) or mortality rate (4.84% vs 1.61%; P = .611). Regarding other adverse events, the TIPS+VE group had a higher incidence of postprocedural abdominal pain and overall hepatic encephalopathy (HE) than the EUS-Coils+CYA group (14.52% vs 1.61%; P = .008; 14.52% vs 1.61%; P = .008). Multivariate analysis identified the treatment method as a factor associated with HE development (hazard ratio = 8.84; 95% CI, 1.12-69.79; P = .039). Conversely, the incidence of ectopic embolism (all pulmonary embolisms) was higher in the EUS-Coils+CYA group than in the TIPS+VE group (9.68% vs 0%; P = .036). CONCLUSIONS: EUS-Coils+CYA and TIPS+VE showed comparable outcomes in controlling gastric varix recurrent bleeding and survival. Patients treated with EUS-Coils+CYA had a lower incidence of HE but carried a risk of ectopic embolism.",
@@ -1704,6 +1560,51 @@
     "scoreReasons": [
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "41569401",
+    "title": "Targeting Vascular Calcification: Novel Insights into Molecular Pathways and Clinical Interventions.",
+    "abstract": "Vascular calcification (VC), a pathological hallmark of advanced atherosclerosis, exerts a profound impact on arterial stiffness and the incidence of cardiovascular disease. Its development involves not only actively regulated biological processes but also passive mineral deposition and is particularly prevalent in patients with diabetes, chronic kidney disease, and endocrine disorders. Although conventional therapies-such as phosphate binders, calcium channel blockers, bisphosphonates, and endovascular interventions-form the current clinical foundation, they remain inadequate for preventing early VC or reversing established lesions. This review systematically summarizes advances in both standard strategies and emerging therapies. Recent studies have highlighted several breakthrough approaches: nanotechnology-based delivery systems, optimized agents such as SNF472 and GLP-1 receptor agonists, and bioactive constituents from traditional Chinese medicine (e.g., ginsenosides, chelerythrine), all of which target distinct calcification pathways. In addition, dietary interventions and lifestyle modification show preventive value. Progress in multi-omics technologies continues to uncover new molecular mechanisms and therapeutic targets, guiding precision medicine. By integrating mechanistic insights with novel therapeutic paradigms, this review aims to facilitate the development of personalized management strategies and ultimately improve cardiovascular outcomes in high-risk populations.",
+    "englishSummary": "Vascular calcification (VC), a pathological hallmark of advanced atherosclerosis, exerts a profound impact on arterial stiffness and the incidence of cardiovascular disease. Its development involves not only actively regulated biological processes but also passive mineral deposition and is particularly prevalent in patients with diabetes, chronic kidney disease, and endocrine disorders. Although conventional therapies-such as phosphate binders, calcium channel blockers, bisphosphonates, and endovascular interventions-form the current clinical foundation, they remain inadequate for preventing early VC or reversing established lesions.",
+    "journal": "Cardiovascular drugs and therapy",
+    "publicationDate": "2026-01-22",
+    "authors": [
+      "Chen J",
+      "Zhang W",
+      "Yu M",
+      "Li L",
+      "Cai G",
+      "Wang Z"
+    ],
+    "affiliations": [
+      "Department of Cardiology, Affiliated Hospital of Jiangsu University, Jiangsu University, Zhenjiang, Jiangsu, 212000, China.",
+      "Department of Gastroenterology, Digestive Disease Institute of Jiangsu University, Affiliated Hospital of Jiangsu University, Zhenjiang, 212000, China.",
+      "Department of Pathology, Affiliated Hospital of Jiangsu University, Jiangsu University, Zhenjiang, Jiangsu, 212000, China.",
+      "Department of Cardiology, Wujin Hospital Affiliated with Jiangsu University, Wujin, Jiangsu, 213161, China. caigaojun@wjrmyy.cn.",
+      "Department of Cardiology, Affiliated Hospital of Jiangsu University, Jiangsu University, Zhenjiang, Jiangsu, 212000, China. wangtsmc@126.com."
+    ],
+    "doi": "10.1007/s10557-025-07831-w",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41569401/",
+    "publicationTypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Review"
+    ],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 human study: patients",
       "+2 China affiliation: China"
     ],
     "isChinaResearch": true,
