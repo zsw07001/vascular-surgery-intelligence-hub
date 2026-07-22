@@ -1,72 +1,72 @@
 {
-  "generatedAt": "2026-07-21T21:32:31.603Z",
+  "generatedAt": "2026-07-22T21:34:54.892Z",
   "period": {
-    "start": "2026-07-15",
-    "end": "2026-07-21"
+    "start": "2026-07-16",
+    "end": "2026-07-22"
   },
-  "dataUpdatedAt": "2026-07-21T21:32:31.603Z",
+  "dataUpdatedAt": "2026-07-22T21:34:54.892Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-07-21T21:32:31.603Z"
+      "updatedAt": "2026-07-22T21:34:54.892Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 758,
-      "updatedAt": "2026-07-21T21:32:31.603Z"
+      "count": 754,
+      "updatedAt": "2026-07-22T21:34:54.892Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 6,
-      "updatedAt": "2026-07-21T21:32:31.603Z"
+      "count": 7,
+      "updatedAt": "2026-07-22T21:34:54.892Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-21T21:32:31.603Z"
+      "updatedAt": "2026-07-22T21:34:54.892Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-21T21:32:31.603Z"
+      "updatedAt": "2026-07-22T21:34:54.892Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-07-21T21:32:31.603Z"
+      "updatedAt": "2026-07-22T21:34:54.892Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 107,
-    "chinaResearch": 50,
-    "clinicalTrials": 758,
-    "guidelines": 6,
+    "highImpact": 110,
+    "chinaResearch": 46,
+    "clinicalTrials": 754,
+    "guidelines": 7,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、758 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、754 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 118
+      "count": 122
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 63
+      "count": 66
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 56
+      "count": 57
     },
     {
       "tag": "Aortic Disease",
@@ -74,19 +74,19 @@
     },
     {
       "tag": "China Research",
-      "count": 50
+      "count": 46
     },
     {
       "tag": "PAD / CLTI",
-      "count": 33
+      "count": 34
     },
     {
       "tag": "Open Surgery",
-      "count": 29
+      "count": 30
     },
     {
       "tag": "Venous Disease",
-      "count": 20
+      "count": 18
     }
   ],
   "priorityReading": [
@@ -801,23 +801,6 @@
   ],
   "trialHighlights": [
     {
-      "nctId": "NCT07322913",
-      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-06-15",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1200,
-      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
-      "url": "https://clinicaltrials.gov/study/NCT07322913"
-    },
-    {
       "nctId": "NCT07510451",
       "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
       "source": "ClinicalTrials.gov",
@@ -898,6 +881,23 @@
       "enrollment": 122,
       "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
       "url": "https://clinicaltrials.gov/study/NCT06528873"
+    },
+    {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
     },
     {
       "nctId": "NCT05566301",
@@ -966,23 +966,6 @@
   ],
   "clinicalTrials": [
     {
-      "nctId": "NCT07322913",
-      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-06-15",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1200,
-      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
-      "url": "https://clinicaltrials.gov/study/NCT07322913"
-    },
-    {
       "nctId": "NCT07510451",
       "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
       "source": "ClinicalTrials.gov",
@@ -1063,6 +1046,23 @@
       "enrollment": 122,
       "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
       "url": "https://clinicaltrials.gov/study/NCT06528873"
+    },
+    {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
     },
     {
       "nctId": "NCT05566301",
@@ -1157,6 +1157,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40314192/"
     },
     {
+      "title": "Brain Frailty Rather than Age Alone Mediates the Lack of Benefit for Endovascular Thrombectomy in the Elderly Population of the RESILIENT Trial.",
+      "source": "Guidelines",
+      "date": "2026-05-10",
+      "topicTags": [
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42108689/"
+    },
+    {
       "title": "Comparative Long-Term Outcomes of Drug-Coated Balloons Alone Versus Combined Treatment with Rotational Atherectomy in the Treatment of Femoropopliteal Artery In-Stent Restenosis.",
       "source": "Guidelines",
       "date": "2025-04-01",
@@ -1168,18 +1180,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40169389/"
-    },
-    {
-      "title": "Systemic Heparinization After Neuraxial Anesthesia in Vascular Surgery: A Multicenter Retrospective Analysis.",
-      "source": "Guidelines",
-      "date": "2026-03-24",
-      "topicTags": [
-        "Endovascular",
-        "Open Surgery",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020204/"
     },
     {
       "title": "Midterm outcomes of off-the-shelf multibranched versus physician-modified endografts for endovascular repair of complex and thoracoabdominal aortic aneurysms: A systematic review and meta-analysis.",
@@ -1285,6 +1285,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40314192/"
     },
     {
+      "title": "Brain Frailty Rather than Age Alone Mediates the Lack of Benefit for Endovascular Thrombectomy in the Elderly Population of the RESILIENT Trial.",
+      "source": "Guidelines",
+      "date": "2026-05-10",
+      "topicTags": [
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42108689/"
+    },
+    {
       "title": "Comparative Long-Term Outcomes of Drug-Coated Balloons Alone Versus Combined Treatment with Rotational Atherectomy in the Treatment of Femoropopliteal Artery In-Stent Restenosis.",
       "source": "Guidelines",
       "date": "2025-04-01",
@@ -1296,18 +1308,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40169389/"
-    },
-    {
-      "title": "Systemic Heparinization After Neuraxial Anesthesia in Vascular Surgery: A Multicenter Retrospective Analysis.",
-      "source": "Guidelines",
-      "date": "2026-03-24",
-      "topicTags": [
-        "Endovascular",
-        "Open Surgery",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020204/"
     },
     {
       "title": "Midterm outcomes of off-the-shelf multibranched versus physician-modified endografts for endovascular repair of complex and thoracoabdominal aortic aneurysms: A systematic review and meta-analysis.",
