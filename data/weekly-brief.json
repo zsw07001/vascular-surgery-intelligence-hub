@@ -1,80 +1,80 @@
 {
-  "generatedAt": "2026-07-22T21:34:54.892Z",
+  "generatedAt": "2026-07-23T21:28:21.029Z",
   "period": {
-    "start": "2026-07-16",
-    "end": "2026-07-22"
+    "start": "2026-07-17",
+    "end": "2026-07-23"
   },
-  "dataUpdatedAt": "2026-07-22T21:34:54.892Z",
+  "dataUpdatedAt": "2026-07-23T21:28:21.029Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-07-22T21:34:54.892Z"
+      "updatedAt": "2026-07-23T21:28:21.029Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 754,
-      "updatedAt": "2026-07-22T21:34:54.892Z"
+      "count": 748,
+      "updatedAt": "2026-07-23T21:28:21.029Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 7,
-      "updatedAt": "2026-07-22T21:34:54.892Z"
+      "updatedAt": "2026-07-23T21:28:21.029Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-22T21:34:54.892Z"
+      "updatedAt": "2026-07-23T21:28:21.029Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-22T21:34:54.892Z"
+      "updatedAt": "2026-07-23T21:28:21.029Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-07-22T21:34:54.892Z"
+      "updatedAt": "2026-07-23T21:28:21.029Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 110,
-    "chinaResearch": 46,
-    "clinicalTrials": 754,
+    "highImpact": 108,
+    "chinaResearch": 43,
+    "clinicalTrials": 748,
     "guidelines": 7,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、754 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、748 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 122
+      "count": 114
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 66
+      "count": 67
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 57
+      "count": 58
     },
     {
       "tag": "Aortic Disease",
-      "count": 55
+      "count": 54
     },
     {
       "tag": "China Research",
-      "count": 46
+      "count": 43
     },
     {
       "tag": "PAD / CLTI",
@@ -82,11 +82,11 @@
     },
     {
       "tag": "Open Surgery",
-      "count": 30
+      "count": 29
     },
     {
       "tag": "Venous Disease",
-      "count": 18
+      "count": 19
     }
   ],
   "priorityReading": [
@@ -185,29 +185,6 @@
       "doi": "10.1016/j.jvs.2026.04.032"
     },
     {
-      "pmid": "42020341",
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-04-22",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/",
-      "doi": "10.1080/0886022X.2026.2647082"
-    },
-    {
       "pmid": "40314192",
       "title": "The Influence of Lesion Length on the Efficacy of Angioplasty with Atherectomy in Treating Infrapopliteal Artery Disease: Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -323,6 +300,29 @@
       "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39861981/",
       "doi": "10.1177/15266028251313947"
+    },
+    {
+      "pmid": "40356328",
+      "title": "The Prospective, Multiple Center Study of a Novel Embedded Modular Single-Branched Stent-Graft for Type B Aortic Dissection Involving the Left Subclavian Artery.",
+      "source": "PubMed",
+      "date": "2025-05-12",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "high relevance；Clinical Trial；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 11",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40356328/",
+      "doi": "10.1177/15266028251330733"
     }
   ],
   "priorityArticles": [
@@ -421,29 +421,6 @@
       "doi": "10.1016/j.jvs.2026.04.032"
     },
     {
-      "pmid": "42020341",
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-04-22",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/",
-      "doi": "10.1080/0886022X.2026.2647082"
-    },
-    {
       "pmid": "40314192",
       "title": "The Influence of Lesion Length on the Efficacy of Angioplasty with Atherectomy in Treating Infrapopliteal Artery Disease: Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -559,6 +536,29 @@
       "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39861981/",
       "doi": "10.1177/15266028251313947"
+    },
+    {
+      "pmid": "40356328",
+      "title": "The Prospective, Multiple Center Study of a Novel Embedded Modular Single-Branched Stent-Graft for Type B Aortic Dissection Involving the Left Subclavian Artery.",
+      "source": "PubMed",
+      "date": "2025-05-12",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "high relevance；Clinical Trial；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 11",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40356328/",
+      "doi": "10.1177/15266028251330733"
     }
   ],
   "chinaHighlights": [
@@ -610,29 +610,6 @@
       "doi": "10.1016/j.jvs.2026.04.032"
     },
     {
-      "pmid": "42020341",
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-04-22",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/",
-      "doi": "10.1080/0886022X.2026.2647082"
-    },
-    {
       "pmid": "40314192",
       "title": "The Influence of Lesion Length on the Efficacy of Angioplasty with Atherectomy in Treating Infrapopliteal Artery Disease: Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -678,6 +655,28 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40356328/",
       "doi": "10.1177/15266028251330733"
+    },
+    {
+      "pmid": "42025649",
+      "title": "The value of the mini-cuff technique in fenestrated/branched endovascular aortic repair: Efficacy validation based on the composite end point of target vessel instability.",
+      "source": "PubMed",
+      "date": "2026-04-21",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 11",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42025649/",
+      "doi": "10.1016/j.jvs.2026.03.791"
     }
   ],
   "chinaResearch": [
@@ -729,29 +728,6 @@
       "doi": "10.1016/j.jvs.2026.04.032"
     },
     {
-      "pmid": "42020341",
-      "title": "Factors influencing patency after percutaneous transluminal angioplasty for autogenous arteriovenous fistulae: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-04-22",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42020341/",
-      "doi": "10.1080/0886022X.2026.2647082"
-    },
-    {
       "pmid": "40314192",
       "title": "The Influence of Lesion Length on the Efficacy of Angioplasty with Atherectomy in Treating Infrapopliteal Artery Disease: Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -797,25 +773,47 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40356328/",
       "doi": "10.1177/15266028251330733"
+    },
+    {
+      "pmid": "42025649",
+      "title": "The value of the mini-cuff technique in fenestrated/branched endovascular aortic repair: Efficacy validation based on the composite end point of target vessel instability.",
+      "source": "PubMed",
+      "date": "2026-04-21",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 11",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42025649/",
+      "doi": "10.1016/j.jvs.2026.03.791"
     }
   ],
   "trialHighlights": [
     {
-      "nctId": "NCT07510451",
-      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
       "source": "ClinicalTrials.gov",
-      "date": "2026-07-14",
+      "date": "2026-06-15",
       "topicTags": [
+        "PAD / CLTI",
         "Aortic Disease",
-        "Venous Disease",
-        "Endovascular",
+        "Carotid Disease",
         "Vascular Graft / Stent / Device"
       ],
       "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 200,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-07-14",
-      "url": "https://clinicaltrials.gov/study/NCT07510451"
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
     },
     {
       "nctId": "NCT05378347",
@@ -883,23 +881,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
-    },
-    {
       "nctId": "NCT05566301",
       "title": "MULTIcentric Study About RESistance to CLOpidogrel in Dual Antiplatelet Therapy for Carotid Stenting",
       "source": "ClinicalTrials.gov",
@@ -946,6 +927,22 @@
       "enrollment": 600,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
       "url": "https://clinicaltrials.gov/study/NCT02050113"
+    },
+    {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-29",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-05-29",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
     },
     {
       "nctId": "NCT01538056",
@@ -966,21 +963,21 @@
   ],
   "clinicalTrials": [
     {
-      "nctId": "NCT07510451",
-      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
       "source": "ClinicalTrials.gov",
-      "date": "2026-07-14",
+      "date": "2026-06-15",
       "topicTags": [
+        "PAD / CLTI",
         "Aortic Disease",
-        "Venous Disease",
-        "Endovascular",
+        "Carotid Disease",
         "Vascular Graft / Stent / Device"
       ],
       "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 200,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-07-14",
-      "url": "https://clinicaltrials.gov/study/NCT07510451"
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
     },
     {
       "nctId": "NCT05378347",
@@ -1048,23 +1045,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
-    },
-    {
       "nctId": "NCT05566301",
       "title": "MULTIcentric Study About RESistance to CLOpidogrel in Dual Antiplatelet Therapy for Carotid Stenting",
       "source": "ClinicalTrials.gov",
@@ -1111,6 +1091,22 @@
       "enrollment": 600,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
       "url": "https://clinicaltrials.gov/study/NCT02050113"
+    },
+    {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-29",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-05-29",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
     },
     {
       "nctId": "NCT01538056",

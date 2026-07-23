@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T21:34:55.111Z",
+  "lastUpdated": "2026-07-23T21:28:21.245Z",
   "mode": "pubmed",
   "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
@@ -8,16 +8,16 @@
       "status": "success",
       "count": 200,
       "message": "Fetched 200 articles from PubMed.",
-      "startedAt": "2026-07-22T21:34:49.134Z",
-      "finishedAt": "2026-07-22T21:34:51.425Z"
+      "startedAt": "2026-07-23T21:28:16.824Z",
+      "finishedAt": "2026-07-23T21:28:18.917Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 754,
-      "message": "Fetched 754 active/recruiting trials from ClinicalTrials.gov API v2.",
+      "count": 748,
+      "message": "Fetched 748 active/recruiting trials from ClinicalTrials.gov API v2.",
       "apiVersion": "2.0.5",
-      "dataTimestamp": "2026-07-22T09:00:05"
+      "dataTimestamp": "2026-07-23T09:00:05"
     },
     {
       "name": "Guidelines and device regulatory",
@@ -36,7 +36,7 @@
       "status": "success",
       "count": 35,
       "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
-      "finishedAt": "2026-07-22T21:34:55.111Z"
+      "finishedAt": "2026-07-23T21:28:21.245Z"
     }
   ],
   "pubmed": {
@@ -46,21 +46,21 @@
     "query": "(\"vascular surgery\"[Title/Abstract]\nOR \"Vascular Surgical Procedures\"[MeSH Terms]\nOR \"peripheral arterial disease\"[Title/Abstract]\nOR \"peripheral artery disease\"[Title/Abstract]\nOR \"critical limb ischemia\"[Title/Abstract]\nOR \"chronic limb-threatening ischemia\"[Title/Abstract]\nOR \"CLTI\"[Title/Abstract]\nOR \"abdominal aortic aneurysm\"[Title/Abstract]\nOR \"AAA\"[Title/Abstract]\nOR \"EVAR\"[Title/Abstract]\nOR \"TEVAR\"[Title/Abstract]\nOR \"aortic aneurysm\"[Title/Abstract]\nOR \"aortic dissection\"[Title/Abstract]\nOR \"carotid stenosis\"[Title/Abstract]\nOR \"carotid endarterectomy\"[Title/Abstract]\nOR \"carotid artery stenting\"[Title/Abstract]\nOR \"deep vein thrombosis\"[Title/Abstract]\nOR \"venous thromboembolism\"[Title/Abstract]\nOR \"varicose veins\"[Title/Abstract]\nOR \"hemodialysis access\"[Title/Abstract]\nOR \"arteriovenous fistula\"[Title/Abstract]\nOR \"endovascular\"[Title/Abstract])\nNOT (\"coronary\"[Title/Abstract]\nOR \"intracranial\"[Title/Abstract]\nOR \"cerebral aneurysm\"[Title/Abstract]\nOR \"animal model\"[Title/Abstract]\nOR \"mouse\"[Title/Abstract]\nOR \"mice\"[Title/Abstract]\nOR \"rat\"[Title/Abstract])",
     "counts": {
       "total": 200,
-      "high": 105,
-      "medium": 61,
-      "low": 16,
+      "high": 102,
+      "medium": 67,
+      "low": 13,
       "review": 18,
-      "china": 46,
-      "highImpact": 110
+      "china": 43,
+      "highImpact": 108
     },
-    "highImpactCount": 110,
-    "chinaResearchCount": 46
+    "highImpactCount": 108,
+    "chinaResearchCount": 43
   },
   "errors": [],
   "manualReview": [
     "有 18 篇文献被标记为 review，建议人工确认是否纳入。",
-    "有 16 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
-    "有 46 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
+    "有 13 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
+    "有 43 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
   ],
   "configPreview": {
     "pubmedQuery": "(\"vascular surgery\"[Title/Abstract]\nOR \"Vascular Surgical Procedures\"[MeSH Terms]\nOR \"peripheral arterial disease\"[Title/Abstract]\nOR \"peripheral artery disease\"[Title/Abstract]\nOR \"critical limb ischemia\"[Title/Abstract]\nOR \"chronic limb-threatening ischemia\"[Title/Abstract]\nOR \"CLTI\"[Title/Abstract]\nOR \"abdominal aortic aneurysm\"[Title/Abstract]\nOR \"AAA\"[Title/Abstract]\nOR \"EVAR\"[Title/Abstract]\nOR \"TEVAR\"[Title/Abstract]\nOR \"aortic aneurysm\"[Title/Abstract]\nOR \"aortic dissection\"[Title/Abstract]\nOR \"carotid stenosis\"[Title/Abstract]\nOR \"carotid endarterectomy\"[Title/Abstract]\nOR \"carotid artery stenting\"[Title/Abstract]\nOR \"deep vein thrombosis\"[Title/Abstract]\nOR \"venous thromboembolism\"[Title/Abstract]\nOR \"varicose veins\"[Title/Abstract]\nOR \"hemodialysis access\"[Title/Abstract]\nOR \"arteriovenous fistula\"[Title/Abstract]\nOR \"endovascular\"[Title/Abstract])\nNOT (\"coronary\"[Title/Abstract]\nOR \"intracranial\"[Title/Abstract]\nOR \"cerebral aneurysm\"[Title/Abstract]\nOR \"animal model\"[Title/Abstract]\nOR \"mouse\"[Title/Abstract]\nOR \"mice\"[Title/Abstract]\nOR \"rat\"[Title/Abstract])",
