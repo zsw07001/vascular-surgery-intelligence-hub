@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-07-31T21:29:35.332Z",
+  "generatedAt": "2026-08-01T21:08:54.831Z",
   "period": {
-    "start": "2026-07-25",
-    "end": "2026-07-31"
+    "start": "2026-07-26",
+    "end": "2026-08-01"
   },
-  "dataUpdatedAt": "2026-07-31T21:29:35.332Z",
+  "dataUpdatedAt": "2026-08-01T21:08:54.831Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-07-31T21:29:35.332Z"
+      "updatedAt": "2026-08-01T21:08:54.831Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 740,
-      "updatedAt": "2026-07-31T21:29:35.332Z"
+      "updatedAt": "2026-08-01T21:08:54.831Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 16,
-      "updatedAt": "2026-07-31T21:29:35.332Z"
+      "count": 13,
+      "updatedAt": "2026-08-01T21:08:54.831Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-31T21:29:35.332Z"
+      "updatedAt": "2026-08-01T21:08:54.831Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-07-31T21:29:35.332Z"
+      "updatedAt": "2026-08-01T21:08:54.831Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-07-31T21:29:35.332Z"
+      "updatedAt": "2026-08-01T21:08:54.831Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 86,
-    "chinaResearch": 28,
+    "highImpact": 92,
+    "chinaResearch": 34,
     "clinicalTrials": 740,
-    "guidelines": 16,
+    "guidelines": 13,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,35 +58,35 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 91
+      "count": 81
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 80
+      "count": 79
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 48
+      "count": 44
     },
     {
       "tag": "PAD / CLTI",
-      "count": 31
+      "count": 35
+    },
+    {
+      "tag": "China Research",
+      "count": 34
     },
     {
       "tag": "Venous Disease",
-      "count": 31
+      "count": 33
     },
     {
       "tag": "Aortic Disease",
       "count": 28
     },
     {
-      "tag": "China Research",
-      "count": 28
-    },
-    {
       "tag": "Open Surgery",
-      "count": 23
+      "count": 22
     }
   ],
   "priorityReading": [
@@ -231,28 +231,26 @@
       "doi": "10.1016/j.jvscit.2026.102367"
     },
     {
-      "pmid": "42103080",
-      "title": "Drug-Coated Balloon Angioplasty for Femoropopliteal In-Stent Restenosis: Predictors and Outcomes from a Multicenter Study.",
+      "pmid": "42537674",
+      "title": "Sex-Related Differences and Predictors of Mortality in Patients Undergoing Major Orthopaedic Surgery: Insights from the ORTHO-START Registry.",
       "source": "PubMed",
-      "date": "2026-05-06",
-      "journal": "Journal of vascular and interventional radiology : JVIR",
+      "date": "2026-07-31",
+      "journal": "Seminars in thrombosis and hemostasis",
       "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Guideline / Consensus",
-        "China Research"
+        "Venous Disease",
+        "Antithrombotic Therapy"
       ],
       "studyTypeTags": [
+        "Clinical Trial",
         "Cohort",
         "Registry"
       ],
       "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Registry；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103080/",
-      "doi": "10.1016/j.jvir.2026.108836"
+      "score": 7,
+      "reason": "high relevance；Clinical Trial / Registry；Venous Disease；score 7",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42537674/",
+      "doi": "10.1055/a-2918-4154"
     },
     {
       "pmid": "42504240",
@@ -279,48 +277,47 @@
       "doi": "10.1002/hsr2.72906"
     },
     {
-      "pmid": "42103147",
-      "title": "Multicenter Registry Validation of the Modified Harborview Risk Score for Risk Stratification in Ruptured Abdominal Aortic Aneurysm.",
+      "pmid": "41865785",
+      "title": "The influence of reoperation on aortic arch reconstructive surgery: Evidence from a multicenter, national registry.",
       "source": "PubMed",
-      "date": "2026-05-06",
-      "journal": "Annals of vascular surgery",
+      "date": "2026-03-20",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
       "topicTags": [
         "Aortic Disease",
-        "Endovascular",
-        "Open Surgery"
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "China Research"
       ],
       "studyTypeTags": [
         "Cohort",
         "Registry"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Registry；Aortic Disease / Endovascular；score 9",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103147/",
-      "doi": "10.1016/j.avsg.2026.04.028"
+      "score": 8,
+      "reason": "high relevance；Registry；Aortic Disease / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865785/",
+      "doi": "10.1016/j.jtcvs.2026.03.572"
     },
     {
-      "pmid": "40391539",
-      "title": "The Role of Profunda Femoral Artery Retrograde Puncture in Complex Revascularization of Ileo-Femoral Chronic Total Occlusions.",
+      "pmid": "42537783",
+      "title": "Impact of Aortic Morphology on Long-Term Outcomes After TEVAR for Descending Thoracic Aortic Aneurysm: A Nationwide Registry Study.",
       "source": "PubMed",
-      "date": "2025-05-20",
-      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "date": "2026-07-31",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
       "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Aortic Disease",
+        "Endovascular"
       ],
       "studyTypeTags": [
-        "Cohort",
         "Registry"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Registry；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40391539/",
-      "doi": "10.1177/15266028251338835"
+      "score": 7,
+      "reason": "high relevance；Registry；Aortic Disease / Endovascular；score 7",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42537783/",
+      "doi": "10.1016/j.jtcvs.2026.07.015"
     }
   ],
   "priorityArticles": [
@@ -465,28 +462,26 @@
       "doi": "10.1016/j.jvscit.2026.102367"
     },
     {
-      "pmid": "42103080",
-      "title": "Drug-Coated Balloon Angioplasty for Femoropopliteal In-Stent Restenosis: Predictors and Outcomes from a Multicenter Study.",
+      "pmid": "42537674",
+      "title": "Sex-Related Differences and Predictors of Mortality in Patients Undergoing Major Orthopaedic Surgery: Insights from the ORTHO-START Registry.",
       "source": "PubMed",
-      "date": "2026-05-06",
-      "journal": "Journal of vascular and interventional radiology : JVIR",
+      "date": "2026-07-31",
+      "journal": "Seminars in thrombosis and hemostasis",
       "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Guideline / Consensus",
-        "China Research"
+        "Venous Disease",
+        "Antithrombotic Therapy"
       ],
       "studyTypeTags": [
+        "Clinical Trial",
         "Cohort",
         "Registry"
       ],
       "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Registry；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103080/",
-      "doi": "10.1016/j.jvir.2026.108836"
+      "score": 7,
+      "reason": "high relevance；Clinical Trial / Registry；Venous Disease；score 7",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42537674/",
+      "doi": "10.1055/a-2918-4154"
     },
     {
       "pmid": "42504240",
@@ -513,48 +508,47 @@
       "doi": "10.1002/hsr2.72906"
     },
     {
-      "pmid": "42103147",
-      "title": "Multicenter Registry Validation of the Modified Harborview Risk Score for Risk Stratification in Ruptured Abdominal Aortic Aneurysm.",
+      "pmid": "41865785",
+      "title": "The influence of reoperation on aortic arch reconstructive surgery: Evidence from a multicenter, national registry.",
       "source": "PubMed",
-      "date": "2026-05-06",
-      "journal": "Annals of vascular surgery",
+      "date": "2026-03-20",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
       "topicTags": [
         "Aortic Disease",
-        "Endovascular",
-        "Open Surgery"
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "China Research"
       ],
       "studyTypeTags": [
         "Cohort",
         "Registry"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Registry；Aortic Disease / Endovascular；score 9",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103147/",
-      "doi": "10.1016/j.avsg.2026.04.028"
+      "score": 8,
+      "reason": "high relevance；Registry；Aortic Disease / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865785/",
+      "doi": "10.1016/j.jtcvs.2026.03.572"
     },
     {
-      "pmid": "40391539",
-      "title": "The Role of Profunda Femoral Artery Retrograde Puncture in Complex Revascularization of Ileo-Femoral Chronic Total Occlusions.",
+      "pmid": "42537783",
+      "title": "Impact of Aortic Morphology on Long-Term Outcomes After TEVAR for Descending Thoracic Aortic Aneurysm: A Nationwide Registry Study.",
       "source": "PubMed",
-      "date": "2025-05-20",
-      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "date": "2026-07-31",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
       "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Aortic Disease",
+        "Endovascular"
       ],
       "studyTypeTags": [
-        "Cohort",
         "Registry"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Registry；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40391539/",
-      "doi": "10.1177/15266028251338835"
+      "score": 7,
+      "reason": "high relevance；Registry；Aortic Disease / Endovascular；score 7",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42537783/",
+      "doi": "10.1016/j.jtcvs.2026.07.015"
     }
   ],
   "chinaHighlights": [
@@ -583,16 +577,15 @@
       "doi": "10.1016/j.avsg.2026.03.047"
     },
     {
-      "pmid": "42103080",
-      "title": "Drug-Coated Balloon Angioplasty for Femoropopliteal In-Stent Restenosis: Predictors and Outcomes from a Multicenter Study.",
+      "pmid": "41865785",
+      "title": "The influence of reoperation on aortic arch reconstructive surgery: Evidence from a multicenter, national registry.",
       "source": "PubMed",
-      "date": "2026-05-06",
-      "journal": "Journal of vascular and interventional radiology : JVIR",
+      "date": "2026-03-20",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
       "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
+        "Aortic Disease",
+        "Open Surgery",
         "Vascular Graft / Stent / Device",
-        "Guideline / Consensus",
         "China Research"
       ],
       "studyTypeTags": [
@@ -601,10 +594,32 @@
       ],
       "relevance": "high",
       "score": 8,
-      "reason": "中国机构研究；high relevance；Registry；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "reason": "中国机构研究；high relevance；Registry；Aortic Disease / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865785/",
+      "doi": "10.1016/j.jtcvs.2026.03.572"
+    },
+    {
+      "pmid": "42392285",
+      "title": "Foot dynamic contrast-enhanced MRI for assessing microcirculatory changes after endovascular therapy in peripheral artery disease: A prospective pilot study.",
+      "source": "PubMed",
+      "date": "2026-07-02",
+      "journal": "Magnetic resonance imaging",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；PAD / CLTI / Endovascular；score 11",
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103080/",
-      "doi": "10.1016/j.jvir.2026.108836"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42392285/",
+      "doi": "10.1016/j.mri.2026.110740"
     },
     {
       "pmid": "42341612",
@@ -627,43 +642,25 @@
       "doi": "10.1016/j.jss.2026.05.046"
     },
     {
-      "pmid": "42536088",
-      "title": "Comparison of outcomes between robot-assisted and laparoscopic colorectal cancer surgery in patients with heart failure: a national readmission database analysis.",
+      "pmid": "42537768",
+      "title": "Wearable device-measured sedentary behaviour, physical activity, and incident symptomatic peripheral artery disease: a prospective cohort study of 87,490 adults.",
       "source": "PubMed",
       "date": "2026-07-31",
-      "journal": "Surgical endoscopy",
+      "journal": "Archives of physical medicine and rehabilitation",
       "topicTags": [
-        "Venous Disease",
-        "Open Surgery",
+        "PAD / CLTI",
+        "Vascular Graft / Stent / Device",
         "China Research"
       ],
       "studyTypeTags": [
         "Cohort"
       ],
       "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Venous Disease；score 8",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42536088/",
-      "doi": "10.1007/s00464-026-12931-1"
-    },
-    {
-      "pmid": "42519065",
-      "title": "Spatial transcriptomic analysis reveals spatial features in human Stanford type A aortic dissection.",
-      "source": "PubMed",
-      "date": "2026-07-16",
-      "journal": "iScience",
-      "topicTags": [
-        "Aortic Disease",
-        "China Research"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "中国机构研究；high relevance；Aortic Disease；score 7",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42519065/",
-      "doi": "10.1016/j.isci.2026.116868"
+      "score": 6,
+      "reason": "中国机构研究；high relevance；PAD / CLTI / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42537768/",
+      "doi": "10.1016/j.apmr.2026.07.023"
     }
   ],
   "chinaResearch": [
@@ -692,16 +689,15 @@
       "doi": "10.1016/j.avsg.2026.03.047"
     },
     {
-      "pmid": "42103080",
-      "title": "Drug-Coated Balloon Angioplasty for Femoropopliteal In-Stent Restenosis: Predictors and Outcomes from a Multicenter Study.",
+      "pmid": "41865785",
+      "title": "The influence of reoperation on aortic arch reconstructive surgery: Evidence from a multicenter, national registry.",
       "source": "PubMed",
-      "date": "2026-05-06",
-      "journal": "Journal of vascular and interventional radiology : JVIR",
+      "date": "2026-03-20",
+      "journal": "The Journal of thoracic and cardiovascular surgery",
       "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
+        "Aortic Disease",
+        "Open Surgery",
         "Vascular Graft / Stent / Device",
-        "Guideline / Consensus",
         "China Research"
       ],
       "studyTypeTags": [
@@ -710,10 +706,32 @@
       ],
       "relevance": "high",
       "score": 8,
-      "reason": "中国机构研究；high relevance；Registry；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "reason": "中国机构研究；high relevance；Registry；Aortic Disease / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865785/",
+      "doi": "10.1016/j.jtcvs.2026.03.572"
+    },
+    {
+      "pmid": "42392285",
+      "title": "Foot dynamic contrast-enhanced MRI for assessing microcirculatory changes after endovascular therapy in peripheral artery disease: A prospective pilot study.",
+      "source": "PubMed",
+      "date": "2026-07-02",
+      "journal": "Magnetic resonance imaging",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；PAD / CLTI / Endovascular；score 11",
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103080/",
-      "doi": "10.1016/j.jvir.2026.108836"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42392285/",
+      "doi": "10.1016/j.mri.2026.110740"
     },
     {
       "pmid": "42341612",
@@ -736,43 +754,25 @@
       "doi": "10.1016/j.jss.2026.05.046"
     },
     {
-      "pmid": "42536088",
-      "title": "Comparison of outcomes between robot-assisted and laparoscopic colorectal cancer surgery in patients with heart failure: a national readmission database analysis.",
+      "pmid": "42537768",
+      "title": "Wearable device-measured sedentary behaviour, physical activity, and incident symptomatic peripheral artery disease: a prospective cohort study of 87,490 adults.",
       "source": "PubMed",
       "date": "2026-07-31",
-      "journal": "Surgical endoscopy",
+      "journal": "Archives of physical medicine and rehabilitation",
       "topicTags": [
-        "Venous Disease",
-        "Open Surgery",
+        "PAD / CLTI",
+        "Vascular Graft / Stent / Device",
         "China Research"
       ],
       "studyTypeTags": [
         "Cohort"
       ],
       "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Venous Disease；score 8",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42536088/",
-      "doi": "10.1007/s00464-026-12931-1"
-    },
-    {
-      "pmid": "42519065",
-      "title": "Spatial transcriptomic analysis reveals spatial features in human Stanford type A aortic dissection.",
-      "source": "PubMed",
-      "date": "2026-07-16",
-      "journal": "iScience",
-      "topicTags": [
-        "Aortic Disease",
-        "China Research"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "中国机构研究；high relevance；Aortic Disease；score 7",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42519065/",
-      "doi": "10.1016/j.isci.2026.116868"
+      "score": 6,
+      "reason": "中国机构研究；high relevance；PAD / CLTI / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42537768/",
+      "doi": "10.1016/j.apmr.2026.07.023"
     }
   ],
   "trialHighlights": [
@@ -1133,20 +1133,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42267436/"
     },
     {
-      "title": "Drug-Coated Balloon Angioplasty for Femoropopliteal In-Stent Restenosis: Predictors and Outcomes from a Multicenter Study.",
-      "source": "Guidelines",
-      "date": "2026-05-06",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Guideline / Consensus",
-        "China Research"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103080/"
-    },
-    {
       "title": "Brain Frailty Rather than Age Alone Mediates the Lack of Benefit for Endovascular Thrombectomy in the Elderly Population of the RESILIENT Trial.",
       "source": "Guidelines",
       "date": "2026-05-10",
@@ -1157,6 +1143,17 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42108689/"
+    },
+    {
+      "title": "Lymphedema therapy in head & neck cancer with carotid stenosis: a systematic review and care pathway.",
+      "source": "Guidelines",
+      "date": "2026-06-30",
+      "topicTags": [
+        "Carotid Disease",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Carotid Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42378749/"
     },
     {
       "title": "Impact of Intravascular Ultrasound Guidance on Strategy and Patency in Endovascular Treatment of Peripheral Arterial Disease: A Prospective Randomized Study.",
@@ -1201,18 +1198,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42502447/"
     },
     {
-      "title": "Drug-Coated Balloon Angioplasty for Femoropopliteal In-Stent Restenosis: Predictors and Outcomes from a Multicenter Study.",
+      "title": "Adjunctive embolization of target vessel dissections to improve suitability for fenestrated-branched endovascular aortic repair.",
       "source": "Devices / Regulatory",
-      "date": "2026-05-06",
+      "date": "2026-06-20",
       "topicTags": [
-        "PAD / CLTI",
+        "Aortic Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Guideline / Consensus",
-        "China Research"
+        "Imaging / Diagnosis"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103080/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42499782/"
     },
     {
       "title": "Impact of Intravascular Ultrasound Guidance on Strategy and Patency in Endovascular Treatment of Peripheral Arterial Disease: A Prospective Randomized Study.",
@@ -1272,20 +1268,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42267436/"
     },
     {
-      "title": "Drug-Coated Balloon Angioplasty for Femoropopliteal In-Stent Restenosis: Predictors and Outcomes from a Multicenter Study.",
-      "source": "Guidelines",
-      "date": "2026-05-06",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Guideline / Consensus",
-        "China Research"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103080/"
-    },
-    {
       "title": "Brain Frailty Rather than Age Alone Mediates the Lack of Benefit for Endovascular Thrombectomy in the Elderly Population of the RESILIENT Trial.",
       "source": "Guidelines",
       "date": "2026-05-10",
@@ -1296,6 +1278,17 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42108689/"
+    },
+    {
+      "title": "Lymphedema therapy in head & neck cancer with carotid stenosis: a systematic review and care pathway.",
+      "source": "Guidelines",
+      "date": "2026-06-30",
+      "topicTags": [
+        "Carotid Disease",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Carotid Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42378749/"
     },
     {
       "title": "Impact of Intravascular Ultrasound Guidance on Strategy and Patency in Endovascular Treatment of Peripheral Arterial Disease: A Prospective Randomized Study.",
@@ -1340,18 +1333,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42502447/"
     },
     {
-      "title": "Drug-Coated Balloon Angioplasty for Femoropopliteal In-Stent Restenosis: Predictors and Outcomes from a Multicenter Study.",
+      "title": "Adjunctive embolization of target vessel dissections to improve suitability for fenestrated-branched endovascular aortic repair.",
       "source": "Devices / Regulatory",
-      "date": "2026-05-06",
+      "date": "2026-06-20",
       "topicTags": [
-        "PAD / CLTI",
+        "Aortic Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Guideline / Consensus",
-        "China Research"
+        "Imaging / Diagnosis"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42103080/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42499782/"
     },
     {
       "title": "Impact of Intravascular Ultrasound Guidance on Strategy and Patency in Endovascular Treatment of Peripheral Arterial Disease: A Prospective Randomized Study.",
