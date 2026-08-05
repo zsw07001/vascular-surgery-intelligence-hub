@@ -1,88 +1,88 @@
 {
-  "generatedAt": "2026-08-04T21:35:30.105Z",
+  "generatedAt": "2026-08-05T21:32:07.299Z",
   "period": {
-    "start": "2026-07-29",
-    "end": "2026-08-04"
+    "start": "2026-07-30",
+    "end": "2026-08-05"
   },
-  "dataUpdatedAt": "2026-08-04T21:35:30.105Z",
+  "dataUpdatedAt": "2026-08-05T21:32:07.299Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-08-04T21:35:30.105Z"
+      "updatedAt": "2026-08-05T21:32:07.299Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 733,
-      "updatedAt": "2026-08-04T21:35:30.105Z"
+      "count": 757,
+      "updatedAt": "2026-08-05T21:32:07.299Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 11,
-      "updatedAt": "2026-08-04T21:35:30.105Z"
+      "count": 10,
+      "updatedAt": "2026-08-05T21:32:07.299Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-04T21:35:30.105Z"
+      "updatedAt": "2026-08-05T21:32:07.299Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-04T21:35:30.105Z"
+      "updatedAt": "2026-08-05T21:32:07.299Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-08-04T21:35:30.105Z"
+      "updatedAt": "2026-08-05T21:32:07.299Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 91,
-    "chinaResearch": 33,
-    "clinicalTrials": 733,
-    "guidelines": 11,
+    "highImpact": 89,
+    "chinaResearch": 35,
+    "clinicalTrials": 757,
+    "guidelines": 10,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、733 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、757 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 91
+      "count": 90
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 70
+      "count": 71
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 53
+      "count": 50
     },
     {
       "tag": "Aortic Disease",
-      "count": 36
+      "count": 38
     },
     {
       "tag": "China Research",
-      "count": 33
+      "count": 35
     },
     {
       "tag": "PAD / CLTI",
-      "count": 32
+      "count": 31
     },
     {
       "tag": "Venous Disease",
-      "count": 28
+      "count": 29
     },
     {
       "tag": "Open Surgery",
@@ -228,29 +228,6 @@
       "doi": "10.1016/j.ahj.2026.107493"
     },
     {
-      "pmid": "42126945",
-      "title": "Efficacy and safety of direct oral anticoagulants versus traditional anticoagulants in cirrhotic patients with venous thromboembolism and atrial fibrillation: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-05-13",
-      "journal": "Scandinavian journal of gastroenterology",
-      "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "Real-world Evidence",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Real-world Evidence / Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42126945/",
-      "doi": "10.1080/00365521.2026.2672441"
-    },
-    {
       "pmid": "41967669",
       "title": "Endovascular Intervention Reduces Thrombosis Risk in Retrievable Inferior Vena Cava Filters: A Multicenter Propensity-Matched Analysis.",
       "source": "PubMed",
@@ -319,6 +296,27 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42546857/",
       "doi": "10.1016/j.jvs.2026.07.079"
+    },
+    {
+      "pmid": "42545517",
+      "title": "The efficacy of ERAS-related components in orthopedic trauma surgery: a systematic review and meta-analysis of randomized controlled trials.",
+      "source": "PubMed",
+      "date": "2026-08-03",
+      "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+      "topicTags": [
+        "Venous Disease"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 9",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42545517/",
+      "doi": "10.1007/s00590-026-04895-8"
     }
   ],
   "priorityArticles": [
@@ -460,29 +458,6 @@
       "doi": "10.1016/j.ahj.2026.107493"
     },
     {
-      "pmid": "42126945",
-      "title": "Efficacy and safety of direct oral anticoagulants versus traditional anticoagulants in cirrhotic patients with venous thromboembolism and atrial fibrillation: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-05-13",
-      "journal": "Scandinavian journal of gastroenterology",
-      "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "Real-world Evidence",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Real-world Evidence / Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42126945/",
-      "doi": "10.1080/00365521.2026.2672441"
-    },
-    {
       "pmid": "41967669",
       "title": "Endovascular Intervention Reduces Thrombosis Risk in Retrievable Inferior Vena Cava Filters: A Multicenter Propensity-Matched Analysis.",
       "source": "PubMed",
@@ -551,6 +526,27 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42546857/",
       "doi": "10.1016/j.jvs.2026.07.079"
+    },
+    {
+      "pmid": "42545517",
+      "title": "The efficacy of ERAS-related components in orthopedic trauma surgery: a systematic review and meta-analysis of randomized controlled trials.",
+      "source": "PubMed",
+      "date": "2026-08-03",
+      "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+      "topicTags": [
+        "Venous Disease"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 9",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42545517/",
+      "doi": "10.1007/s00590-026-04895-8"
     }
   ],
   "chinaHighlights": [
@@ -777,6 +773,23 @@
   ],
   "trialHighlights": [
     {
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-06-15",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
+    },
+    {
       "nctId": "NCT07510451",
       "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
       "source": "ClinicalTrials.gov",
@@ -857,23 +870,6 @@
       "enrollment": 122,
       "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
       "url": "https://clinicaltrials.gov/study/NCT06528873"
-    },
-    {
-      "nctId": "NCT07740018",
-      "title": "Factors Affecting Clinical and Radiological Outcome in Endovascular Management of Acute Ischemic Stroke Due to Large Vessel Occlusion",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-07-31",
-      "topicTags": [
-        "Aortic Disease",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 40,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-07-31",
-      "url": "https://clinicaltrials.gov/study/NCT07740018"
     },
     {
       "nctId": "NCT05566301",
@@ -942,6 +938,23 @@
   ],
   "clinicalTrials": [
     {
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-06-15",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
+    },
+    {
       "nctId": "NCT07510451",
       "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
       "source": "ClinicalTrials.gov",
@@ -1022,23 +1035,6 @@
       "enrollment": 122,
       "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
       "url": "https://clinicaltrials.gov/study/NCT06528873"
-    },
-    {
-      "nctId": "NCT07740018",
-      "title": "Factors Affecting Clinical and Radiological Outcome in Endovascular Management of Acute Ischemic Stroke Due to Large Vessel Occlusion",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-07-31",
-      "topicTags": [
-        "Aortic Disease",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 40,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-07-31",
-      "url": "https://clinicaltrials.gov/study/NCT07740018"
     },
     {
       "nctId": "NCT05566301",
