@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-07T20:58:32.115Z",
+  "generatedAt": "2026-08-08T20:47:37.969Z",
   "period": {
-    "start": "2026-08-01",
-    "end": "2026-08-07"
+    "start": "2026-08-02",
+    "end": "2026-08-08"
   },
-  "dataUpdatedAt": "2026-08-07T20:58:32.115Z",
+  "dataUpdatedAt": "2026-08-08T20:47:37.969Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-08-07T20:58:32.115Z"
+      "updatedAt": "2026-08-08T20:47:37.969Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 749,
-      "updatedAt": "2026-08-07T20:58:32.115Z"
+      "updatedAt": "2026-08-08T20:47:37.969Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 5,
-      "updatedAt": "2026-08-07T20:58:32.115Z"
+      "count": 4,
+      "updatedAt": "2026-08-08T20:47:37.969Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-07T20:58:32.115Z"
+      "updatedAt": "2026-08-08T20:47:37.969Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-07T20:58:32.115Z"
+      "updatedAt": "2026-08-08T20:47:37.969Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-08-07T20:58:32.115Z"
+      "updatedAt": "2026-08-08T20:47:37.969Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 84,
-    "chinaResearch": 38,
+    "highImpact": 96,
+    "chinaResearch": 34,
     "clinicalTrials": 749,
-    "guidelines": 5,
+    "guidelines": 4,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,35 +58,35 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 91
+      "count": 90
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 66
+      "count": 61
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 54
+      "count": 52
     },
     {
       "tag": "PAD / CLTI",
-      "count": 44
-    },
-    {
-      "tag": "China Research",
-      "count": 38
-    },
-    {
-      "tag": "Venous Disease",
-      "count": 38
+      "count": 40
     },
     {
       "tag": "Aortic Disease",
-      "count": 37
+      "count": 38
+    },
+    {
+      "tag": "China Research",
+      "count": 34
+    },
+    {
+      "tag": "Venous Disease",
+      "count": 34
     },
     {
       "tag": "Open Surgery",
-      "count": 21
+      "count": 25
     }
   ],
   "priorityReading": [
@@ -253,29 +253,6 @@
       "doi": "10.1002/hsr2.73000"
     },
     {
-      "pmid": "42563698",
-      "title": "[Endovascular treatment of iliofemoral venous thrombosis].",
-      "source": "PubMed",
-      "date": "2026-08-03",
-      "journal": "Ugeskrift for laeger",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；RCT / Clinical Trial；Venous Disease / Endovascular；score 7",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42563698/",
-      "doi": "10.61409/V01260049"
-    },
-    {
       "pmid": "42276366",
       "title": "Early Multicenter Experience with the Nexus Duo&#x2122; Aortic Arch Stent Graft System in the Treatment of Aneurysmatic Aortic Arch Diseases.",
       "source": "PubMed",
@@ -318,6 +295,28 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41911022/",
       "doi": "10.1056/NEJMoa2600360"
+    },
+    {
+      "pmid": "42568750",
+      "title": "Complications Related to Arthroscopic Isolated Posterior Cruciate Ligament Reconstruction: A Systematic Review and Meta-analysis of 4162 Patients.",
+      "source": "PubMed",
+      "date": "2026-08-05",
+      "journal": "Orthopaedic journal of sports medicine",
+      "topicTags": [
+        "Venous Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42568750/",
+      "doi": "10.1177/23259671261466475"
     }
   ],
   "priorityArticles": [
@@ -484,29 +483,6 @@
       "doi": "10.1002/hsr2.73000"
     },
     {
-      "pmid": "42563698",
-      "title": "[Endovascular treatment of iliofemoral venous thrombosis].",
-      "source": "PubMed",
-      "date": "2026-08-03",
-      "journal": "Ugeskrift for laeger",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；RCT / Clinical Trial；Venous Disease / Endovascular；score 7",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42563698/",
-      "doi": "10.61409/V01260049"
-    },
-    {
       "pmid": "42276366",
       "title": "Early Multicenter Experience with the Nexus Duo&#x2122; Aortic Arch Stent Graft System in the Treatment of Aneurysmatic Aortic Arch Diseases.",
       "source": "PubMed",
@@ -549,6 +525,28 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41911022/",
       "doi": "10.1056/NEJMoa2600360"
+    },
+    {
+      "pmid": "42568750",
+      "title": "Complications Related to Arthroscopic Isolated Posterior Cruciate Ligament Reconstruction: A Systematic Review and Meta-analysis of 4162 Patients.",
+      "source": "PubMed",
+      "date": "2026-08-05",
+      "journal": "Orthopaedic journal of sports medicine",
+      "topicTags": [
+        "Venous Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42568750/",
+      "doi": "10.1177/23259671261466475"
     }
   ],
   "chinaHighlights": [
@@ -1143,17 +1141,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378749/"
     },
     {
-      "title": "Optimising the management of venous disease: Expert consensus from a multinational panel of phlebology specialists.",
-      "source": "Guidelines",
-      "date": "2026-08-04",
-      "topicTags": [
-        "Venous Disease",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42551587/"
-    },
-    {
       "title": "Exercise-induced Myokines and Muscle-Vascular Crosstalk in Peripheral Artery Disease Management: From Bench to Practice.",
       "source": "Guidelines",
       "date": "2026-04-16",
@@ -1163,6 +1150,19 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42559626/"
+    },
+    {
+      "title": "Long-term antithrombotic therapy after carotid endarterectomy for symptomatic carotid disease: an international survey of practice patterns, guideline concordance and trial readiness for dual pathway inhibition.",
+      "source": "Guidelines",
+      "date": "2026-08-07",
+      "topicTags": [
+        "Carotid Disease",
+        "Open Surgery",
+        "Antithrombotic Therapy",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；Carotid Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42567311/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
@@ -1267,17 +1267,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378749/"
     },
     {
-      "title": "Optimising the management of venous disease: Expert consensus from a multinational panel of phlebology specialists.",
-      "source": "Guidelines",
-      "date": "2026-08-04",
-      "topicTags": [
-        "Venous Disease",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42551587/"
-    },
-    {
       "title": "Exercise-induced Myokines and Muscle-Vascular Crosstalk in Peripheral Artery Disease Management: From Bench to Practice.",
       "source": "Guidelines",
       "date": "2026-04-16",
@@ -1287,6 +1276,19 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42559626/"
+    },
+    {
+      "title": "Long-term antithrombotic therapy after carotid endarterectomy for symptomatic carotid disease: an international survey of practice patterns, guideline concordance and trial readiness for dual pathway inhibition.",
+      "source": "Guidelines",
+      "date": "2026-08-07",
+      "topicTags": [
+        "Carotid Disease",
+        "Open Surgery",
+        "Antithrombotic Therapy",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；Carotid Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42567311/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
