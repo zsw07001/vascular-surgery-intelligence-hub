@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-08T20:47:37.969Z",
+  "generatedAt": "2026-08-09T20:51:11.885Z",
   "period": {
-    "start": "2026-08-02",
-    "end": "2026-08-08"
+    "start": "2026-08-03",
+    "end": "2026-08-09"
   },
-  "dataUpdatedAt": "2026-08-08T20:47:37.969Z",
+  "dataUpdatedAt": "2026-08-09T20:51:11.885Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-08-08T20:47:37.969Z"
+      "updatedAt": "2026-08-09T20:51:11.885Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 749,
-      "updatedAt": "2026-08-08T20:47:37.969Z"
+      "updatedAt": "2026-08-09T20:51:11.885Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 4,
-      "updatedAt": "2026-08-08T20:47:37.969Z"
+      "count": 5,
+      "updatedAt": "2026-08-09T20:51:11.885Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-08T20:47:37.969Z"
+      "updatedAt": "2026-08-09T20:51:11.885Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-08T20:47:37.969Z"
+      "updatedAt": "2026-08-09T20:51:11.885Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-08-08T20:47:37.969Z"
+      "updatedAt": "2026-08-09T20:51:11.885Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 96,
-    "chinaResearch": 34,
+    "highImpact": 91,
+    "chinaResearch": 33,
     "clinicalTrials": 749,
-    "guidelines": 4,
+    "guidelines": 5,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -62,31 +62,31 @@
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 61
+      "count": 68
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 52
-    },
-    {
-      "tag": "PAD / CLTI",
-      "count": 40
+      "count": 47
     },
     {
       "tag": "Aortic Disease",
+      "count": 39
+    },
+    {
+      "tag": "PAD / CLTI",
       "count": 38
     },
     {
-      "tag": "China Research",
-      "count": 34
+      "tag": "Venous Disease",
+      "count": 36
     },
     {
-      "tag": "Venous Disease",
-      "count": 34
+      "tag": "China Research",
+      "count": 33
     },
     {
       "tag": "Open Surgery",
-      "count": 25
+      "count": 24
     }
   ],
   "priorityReading": [
@@ -161,27 +161,6 @@
       "doi": "10.1016/j.avsg.2026.07.053"
     },
     {
-      "pmid": "42556834",
-      "title": "Comparison of underdilated versus standard transjugular intrahepatic portosystemic shunt in preventing rebleeding from oesophagogastric varices in patients with cirrhosis in Chinese tertiary hospitals: protocol for a multicentre randomised controlled trial (UVR-TIPS trial).",
-      "source": "PubMed",
-      "date": "2026-08-05",
-      "journal": "BMJ open",
-      "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42556834/",
-      "doi": "10.1136/bmjopen-2025-115218"
-    },
-    {
       "pmid": "42562226",
       "title": "Clinical Efficacy of Different Endovascular Approaches in Femoropopliteal Artery Disease with Moderate-to-Severe Calcification: A Meta-Analysis.",
       "source": "PubMed",
@@ -317,6 +296,30 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42568750/",
       "doi": "10.1177/23259671261466475"
+    },
+    {
+      "pmid": "42559651",
+      "title": "Advances in Endovascular Therapy for Infrainguinal Peripheral Arterial Disease: Devices and Outcomes.",
+      "source": "PubMed",
+      "date": "2026-02-17",
+      "journal": "The International journal of angiology : official publication of the International College of Angiology, Inc",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Clinical Trial；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42559651/",
+      "doi": "10.1055/a-2798-9625"
     }
   ],
   "priorityArticles": [
@@ -391,27 +394,6 @@
       "doi": "10.1016/j.avsg.2026.07.053"
     },
     {
-      "pmid": "42556834",
-      "title": "Comparison of underdilated versus standard transjugular intrahepatic portosystemic shunt in preventing rebleeding from oesophagogastric varices in patients with cirrhosis in Chinese tertiary hospitals: protocol for a multicentre randomised controlled trial (UVR-TIPS trial).",
-      "source": "PubMed",
-      "date": "2026-08-05",
-      "journal": "BMJ open",
-      "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42556834/",
-      "doi": "10.1136/bmjopen-2025-115218"
-    },
-    {
       "pmid": "42562226",
       "title": "Clinical Efficacy of Different Endovascular Approaches in Femoropopliteal Artery Disease with Moderate-to-Severe Calcification: A Meta-Analysis.",
       "source": "PubMed",
@@ -547,6 +529,30 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42568750/",
       "doi": "10.1177/23259671261466475"
+    },
+    {
+      "pmid": "42559651",
+      "title": "Advances in Endovascular Therapy for Infrainguinal Peripheral Arterial Disease: Devices and Outcomes.",
+      "source": "PubMed",
+      "date": "2026-02-17",
+      "journal": "The International journal of angiology : official publication of the International College of Angiology, Inc",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Clinical Trial；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42559651/",
+      "doi": "10.1055/a-2798-9625"
     }
   ],
   "chinaHighlights": [
@@ -598,27 +604,6 @@
       "doi": "10.1016/j.avsg.2026.07.053"
     },
     {
-      "pmid": "42556834",
-      "title": "Comparison of underdilated versus standard transjugular intrahepatic portosystemic shunt in preventing rebleeding from oesophagogastric varices in patients with cirrhosis in Chinese tertiary hospitals: protocol for a multicentre randomised controlled trial (UVR-TIPS trial).",
-      "source": "PubMed",
-      "date": "2026-08-05",
-      "journal": "BMJ open",
-      "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42556834/",
-      "doi": "10.1136/bmjopen-2025-115218"
-    },
-    {
       "pmid": "42562226",
       "title": "Clinical Efficacy of Different Endovascular Approaches in Femoropopliteal Artery Disease with Moderate-to-Severe Calcification: A Meta-Analysis.",
       "source": "PubMed",
@@ -665,6 +650,30 @@
       "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42564478/",
       "doi": "10.1002/hsr2.73000"
+    },
+    {
+      "pmid": "42559202",
+      "title": "Clinical benefits and risks of the wall-push technique in endovascular repair of abdominal aortic aneurysm with severely angulated neck: a case report.",
+      "source": "PubMed",
+      "date": "2026-08-05",
+      "journal": "European heart journal. Case reports",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Case Report"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42559202/",
+      "doi": "10.1093/ehjcr/ytag555"
     }
   ],
   "chinaResearch": [
@@ -716,27 +725,6 @@
       "doi": "10.1016/j.avsg.2026.07.053"
     },
     {
-      "pmid": "42556834",
-      "title": "Comparison of underdilated versus standard transjugular intrahepatic portosystemic shunt in preventing rebleeding from oesophagogastric varices in patients with cirrhosis in Chinese tertiary hospitals: protocol for a multicentre randomised controlled trial (UVR-TIPS trial).",
-      "source": "PubMed",
-      "date": "2026-08-05",
-      "journal": "BMJ open",
-      "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42556834/",
-      "doi": "10.1136/bmjopen-2025-115218"
-    },
-    {
       "pmid": "42562226",
       "title": "Clinical Efficacy of Different Endovascular Approaches in Femoropopliteal Artery Disease with Moderate-to-Severe Calcification: A Meta-Analysis.",
       "source": "PubMed",
@@ -783,6 +771,30 @@
       "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42564478/",
       "doi": "10.1002/hsr2.73000"
+    },
+    {
+      "pmid": "42559202",
+      "title": "Clinical benefits and risks of the wall-push technique in endovascular repair of abdominal aortic aneurysm with severely angulated neck: a case report.",
+      "source": "PubMed",
+      "date": "2026-08-05",
+      "journal": "European heart journal. Case reports",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Case Report"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42559202/",
+      "doi": "10.1093/ehjcr/ytag555"
     }
   ],
   "trialHighlights": [
@@ -1141,6 +1153,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378749/"
     },
     {
+      "title": "Host-state biomarkers and clinical factors for stratification and optimization of cell therapy trials in chronic limb-threatening ischemia: A review.",
+      "source": "Guidelines",
+      "date": "2026-07-29",
+      "topicTags": [
+        "PAD / CLTI",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42571258/"
+    },
+    {
       "title": "Exercise-induced Myokines and Muscle-Vascular Crosstalk in Peripheral Artery Disease Management: From Bench to Practice.",
       "source": "Guidelines",
       "date": "2026-04-16",
@@ -1150,19 +1174,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42559626/"
-    },
-    {
-      "title": "Long-term antithrombotic therapy after carotid endarterectomy for symptomatic carotid disease: an international survey of practice patterns, guideline concordance and trial readiness for dual pathway inhibition.",
-      "source": "Guidelines",
-      "date": "2026-08-07",
-      "topicTags": [
-        "Carotid Disease",
-        "Open Surgery",
-        "Antithrombotic Therapy",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；Carotid Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42567311/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
@@ -1267,6 +1278,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378749/"
     },
     {
+      "title": "Host-state biomarkers and clinical factors for stratification and optimization of cell therapy trials in chronic limb-threatening ischemia: A review.",
+      "source": "Guidelines",
+      "date": "2026-07-29",
+      "topicTags": [
+        "PAD / CLTI",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42571258/"
+    },
+    {
       "title": "Exercise-induced Myokines and Muscle-Vascular Crosstalk in Peripheral Artery Disease Management: From Bench to Practice.",
       "source": "Guidelines",
       "date": "2026-04-16",
@@ -1276,19 +1299,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42559626/"
-    },
-    {
-      "title": "Long-term antithrombotic therapy after carotid endarterectomy for symptomatic carotid disease: an international survey of practice patterns, guideline concordance and trial readiness for dual pathway inhibition.",
-      "source": "Guidelines",
-      "date": "2026-08-07",
-      "topicTags": [
-        "Carotid Disease",
-        "Open Surgery",
-        "Antithrombotic Therapy",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；Carotid Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42567311/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
