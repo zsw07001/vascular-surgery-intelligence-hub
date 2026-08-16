@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-15T20:38:19.482Z",
+  "generatedAt": "2026-08-16T20:37:24.682Z",
   "period": {
-    "start": "2026-08-09",
-    "end": "2026-08-15"
+    "start": "2026-08-10",
+    "end": "2026-08-16"
   },
-  "dataUpdatedAt": "2026-08-15T20:38:19.482Z",
+  "dataUpdatedAt": "2026-08-16T20:37:24.682Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-08-15T20:38:19.482Z"
+      "updatedAt": "2026-08-16T20:37:24.682Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 746,
-      "updatedAt": "2026-08-15T20:38:19.482Z"
+      "updatedAt": "2026-08-16T20:37:24.682Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 10,
-      "updatedAt": "2026-08-15T20:38:19.482Z"
+      "count": 11,
+      "updatedAt": "2026-08-16T20:37:24.682Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-15T20:38:19.482Z"
+      "updatedAt": "2026-08-16T20:37:24.682Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-15T20:38:19.482Z"
+      "updatedAt": "2026-08-16T20:37:24.682Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-08-15T20:38:19.482Z"
+      "updatedAt": "2026-08-16T20:37:24.682Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
     "highImpact": 81,
-    "chinaResearch": 40,
+    "chinaResearch": 37,
     "clinicalTrials": 746,
-    "guidelines": 10,
+    "guidelines": 11,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,27 +58,27 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 96
+      "count": 94
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 84
+      "count": 83
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 51
+      "count": 52
+    },
+    {
+      "tag": "Venous Disease",
+      "count": 47
     },
     {
       "tag": "Aortic Disease",
       "count": 44
     },
     {
-      "tag": "Venous Disease",
-      "count": 44
-    },
-    {
       "tag": "China Research",
-      "count": 40
+      "count": 37
     },
     {
       "tag": "PAD / CLTI",
@@ -606,27 +606,6 @@
       "doi": "10.1080/07853890.2026.2710922"
     },
     {
-      "pmid": "42435698",
-      "title": "Deep learning-based multimodal fusion of vibrational spectroscopy and clinical data for aortic dissection diagnosis and prognosis.",
-      "source": "PubMed",
-      "date": "2026-07-11",
-      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
-      "topicTags": [
-        "Aortic Disease",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Basic Research"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "中国机构研究；high relevance；Aortic Disease；score 7",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42435698/",
-      "doi": "10.1016/j.saa.2026.128391"
-    },
-    {
       "pmid": "42577738",
       "title": "Predicting lower extremity deep vein thrombosis in elderly patients with hip fracture: A machine learning model with emphasis on diabetes as a key risk factor.",
       "source": "PubMed",
@@ -645,6 +624,26 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42577738/",
       "doi": "10.3892/etm.2026.13253"
+    },
+    {
+      "pmid": "42464685",
+      "title": "Risk Stratification and Nursing Strategy for Recurrent Readmission in Primary Venous Thromboembolism: A Study Based on NT-proBNP and Factor VIII.",
+      "source": "PubMed",
+      "date": "2026-09-01",
+      "journal": "Nursing & health sciences",
+      "topicTags": [
+        "Venous Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "中国机构研究；high relevance；Venous Disease；score 6",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42464685/",
+      "doi": "10.1111/nhs.70393"
     }
   ],
   "chinaResearch": [
@@ -712,27 +711,6 @@
       "doi": "10.1080/07853890.2026.2710922"
     },
     {
-      "pmid": "42435698",
-      "title": "Deep learning-based multimodal fusion of vibrational spectroscopy and clinical data for aortic dissection diagnosis and prognosis.",
-      "source": "PubMed",
-      "date": "2026-07-11",
-      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
-      "topicTags": [
-        "Aortic Disease",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Basic Research"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "中国机构研究；high relevance；Aortic Disease；score 7",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42435698/",
-      "doi": "10.1016/j.saa.2026.128391"
-    },
-    {
       "pmid": "42577738",
       "title": "Predicting lower extremity deep vein thrombosis in elderly patients with hip fracture: A machine learning model with emphasis on diabetes as a key risk factor.",
       "source": "PubMed",
@@ -751,6 +729,26 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42577738/",
       "doi": "10.3892/etm.2026.13253"
+    },
+    {
+      "pmid": "42464685",
+      "title": "Risk Stratification and Nursing Strategy for Recurrent Readmission in Primary Venous Thromboembolism: A Study Based on NT-proBNP and Factor VIII.",
+      "source": "PubMed",
+      "date": "2026-09-01",
+      "journal": "Nursing & health sciences",
+      "topicTags": [
+        "Venous Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "中国机构研究；high relevance；Venous Disease；score 6",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42464685/",
+      "doi": "10.1111/nhs.70393"
     }
   ],
   "trialHighlights": [
