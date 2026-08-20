@@ -191,6 +191,100 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42617135",
+    "title": "A prediction model for functional outcome following rescue therapy in patients with acute ischemic stroke undergoing endovascular treatment.",
+    "abstract": "OBJECTIVE: To evaluate the association between key preoperative and intraoperative factors and 90-day functional outcomes in acute ischemic stroke (AIS) patients undergoing endovascular treatment (EVT) with rescue therapy, and to establish a prognostic model for estimating 90-day functional outcomes. METHODS: We retrospectively enrolled AIS patients with EVT plus rescue therapy from January 2018 to December 2024. The primary endpoint was a 90-day modified Rankin Scale (mRS) score >2. Logistic regression identified predictors incorporated into a nomogram. Model performance was assessed with receiver operating characteristic (ROC) curves, the Hosmer-Lemeshow test, and decision curve analysis (DCA). Bootstrap resampling and 10-fold cross-validation assessed robustness. RESULTS: p p p p p In total, 445 individuals were analyzed (training: 312; validation: 133). Multivariable analysis identified glycated hemoglobin (HbA1c; OR = 1.345, 95% CI: 1.145-1.608,&#x2009;<&#x2009;0.001), baseline National Institutes of Health Stroke Scale (NIHSS) score (OR = 1.084, 95% CI: 1.047-1.127,&#x2009;<&#x2009;0.001), onset-to-puncture time (OPT; OR = 1.000, 95% CI: 1.000-1.000,&#x2009;=&#x2009;0.003), and puncture-to-reperfusion time (PRT; OR = 1.008, 95% CI: 1.001-1.015,&#x2009;=&#x2009;0.026) as independent predictors. The value of the area under the ROC curve (AUC) was 0.741 in the training cohort and 0.781 in the validation cohort. Calibration was adequate (Hosmer-Lemeshow&#x2009;>&#x2009;0.05 in both cohorts), and DCA demonstrated consistent clinical benefit. Bootstrap and cross-validation confirmed model reliability. CONCLUSION: Our model integrating HbA1c, NIHSS, OPT, PRT, and refractory thrombectomy demonstrated acceptable performance in predicting 90-day outcomes after rescue therapy. However, as a development-phase model, its clinical applicability should be interpreted with caution.",
+    "englishSummary": "OBJECTIVE: To evaluate the association between key preoperative and intraoperative factors and 90-day functional outcomes in acute ischemic stroke (AIS) patients undergoing endovascular treatment (EVT) with rescue therapy, and to establish a prognostic model for estimating 90-day functional outcomes. METHODS: We retrospectively enrolled AIS patients with EVT plus rescue therapy from January 2018 to December 2024. The primary endpoint was a 90-day modified Rankin Scale (mRS) score >2.",
+    "journal": "Annals of medicine",
+    "publicationDate": "2026-08-19",
+    "authors": [
+      "Wu X",
+      "Li L",
+      "Zhang M",
+      "Song K",
+      "Zhang W",
+      "Wang S",
+      "Jiang C",
+      "Wang S"
+    ],
+    "affiliations": [
+      "Stroke Center, Department of Neurology, The First Hospital of Jilin University, Changchun, China.",
+      "Department of Neurology, Affiliated Hospital of Beihua University, Jilin, China.",
+      "Department of Neurology, Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou, China."
+    ],
+    "doi": "10.1080/07853890.2026.2719889",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42617135/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 11,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42620783",
+    "title": "Development and validation of a deep learning model to predict heparin response in critically ill patients with deep vein thrombosis receiving continuous intravenous heparin infusion.",
+    "abstract": "t t R 2 Continuous intravenous heparin infusion is widely used for deep vein thrombosis (DVT) in the intensive care unit (ICU), but accurate prediction of activated partial thromboplastin time (APTT) remains challenging due to patient heterogeneity and complex drug responses. A deep learning model was developed using heparin administration data, laboratory tests, and patient history to predict future APTT values in ICU patients with DVT. Data from 796 patients receiving continuous heparin infusion were collected, including demographics, comorbidities, treatment, and laboratory information, with external validation performed on 514 patients from the Medical Information Mart for Intensive Care (MIMIC) database. A 2-layer Long Short-Term Memory model with dropout was trained and evaluated. Optimal performance was achieved with the [- 12,- 2] window, yielding a mean absolute error of 1.885, root mean square error of 4.732,of 0.945, and mean absolute percentage error of 4.433. Subgroup analyses demonstrated robust accuracy across critical APTT zones and therapeutic categories (subtherapeutic, therapeutic, supratherapeutic), with area under the curve values of 0.92, 0.81, and 0.92. The model predicted abnormal APTT values a mean of 6 hours in advance and could improve guidance over physician-led management in approximately 70% of cases. External validation confirmed good generalizability. Feature importance identified the difference between 45&#x2009;s and APTT, cumulative heparin dose, and infusion rate as the leading predictors. Collectively, this deep learning model accurately forecasts future APTT values in critically ill patients with DVT receiving intravenous heparin, supporting a shift from reactive to proactive, data-driven heparin management in the ICU with potential benefits for patient safety and treatment efficacy.",
+    "englishSummary": "t t R 2 Continuous intravenous heparin infusion is widely used for deep vein thrombosis (DVT) in the intensive care unit (ICU), but accurate prediction of activated partial thromboplastin time (APTT) remains challenging due to patient heterogeneity and complex drug responses. A deep learning model was developed using heparin administration data, laboratory tests, and patient history to predict future APTT values in ICU patients with DVT. Data from 796 patients receiving continuous heparin infusion were collected, including demographics, comorbidities, treatment, and laboratory information, with external validation performed on 514 patients from the Medical Information Mart for Intensive Care (MIMIC) database.",
+    "journal": "Blood science (Baltimore, Md.)",
+    "publicationDate": "2026-08-17",
+    "authors": [
+      "Liu S",
+      "Su L",
+      "Zhang S",
+      "Cai H",
+      "Shou W",
+      "Tang B",
+      "Wang X",
+      "Guo A",
+      "Zhu W",
+      "Long Y"
+    ],
+    "affiliations": [
+      "Department of Critical Care Medicine, State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+      "Goodwill Information Technology Co., Ltd., Beijing, China.",
+      "Department of Hematology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+      "Department of Clinical Laboratory, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+      "Department of General Medicine, Peking Union Medical College Hospital, Peking Union Medical College, Chinese Academy of Medical Sciences."
+    ],
+    "doi": "10.1097/BS9.0000000000000300",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42620783/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42574721",
     "title": "A narrative review of the epidemiological and mechanistic associations between ABO blood groups and diseases: focusing on cardiovascular diseases, cancers, diabetes, malaria, COVID-19 and rheumatic diseases.",
     "abstract": "BACKGROUND: The ABO blood group system is one of the most clinically significant human blood group systems and is closely associated with pathogenesis, progression, and prognosis of numerous diseases. This narrative review synthesizes recent epidemiological evidence and explores potential mechanisms linking ABO to cardiovascular diseases, malignancies, diabetes, Plasmodium falciparum malaria, COVID&#x2011;19, and rheumatic diseases. METHODS: We searched PubMed and CNKI up to September 2025. RESULTS: Epidemiological studies consistently show non&#x2011;O blood groups have significantly elevated cardiovascular risk, with venous thromboembolism risk about two to four times higher than in type O. In oncology, ABO influences susceptibility and prognosis in various cancers, with type A linked to increased gastric cancer risk (pooled OR&#x2248;1.2). Type O individuals show relative resistance to severe malaria. During COVID&#x2011;19, type A was linked to higher susceptibility and severity, whereas type O appeared mildly protective, though associations exhibited substantial heterogeneity across populations, viral variants, and vaccination contexts. ABO polymorphisms may also modulate risk and manifestations of rheumatic diseases such as systemic lupus erythematosus and rheumatoid arthritis. CONCLUSION: Accumulating evidence suggests ABO status is associated with susceptibility and outcomes for a range of diseases. These findings are primarily hypothesis&#x2011;generating and underscore the need for further research to elucidate causal mechanisms. The potential of ABO typing as a biomarker for risk stratification in personalized medicine warrants investigation in large, multi&#x2011;ethnic prospective studies.",
@@ -388,6 +482,67 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42532176",
+    "title": "Complementary body weight and cardiometabolic benefits of higher GLP-1 and lower GIP: genetic evidence from large-scale phenomic analyses.",
+    "abstract": "BACKGROUND: The long-term health effects of glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) remain unclear. Most importantly, it is highly controversial whether GIP agonists vs. antagonists should be developed and what their effects and/or potential side effects would be in the clinic. Further investigation is needed to explore the effects of GIP lowering alone or in combination with GLP-1 enhancing. Tree-structured phenotypic modeling (TreeWAS) and factorial Mendelian randomization (MR) analyses are valuable in this context, even though the highest circulating GLP-1 levels may reflect only a minimum activation i.e. levels achieved with pharmacological intervention with dipeptidyl peptidase 4 (DPP-4) inhibitors and not GLP-1 receptor agonists (GLP-1 RAs) which achieve much higher levels. METHODS: TreeWAS was first conducted to map associations of GLP-1 or GIP levels with a broad range of disease outcomes among 385,917 UK Biobank participants. Disease-trajectory analysis was applied to characterize temporal patterns of co-occurrence of multiple comorbidities related to GLP-1 or GIP or both. Subsequently, factorial MR was performed to investigate the joint effects of GLP-1 and GIP on the associated health outcomes. Finally, mediation analysis was employed to explore the underlying mechanisms through which GLP-1 and GIP exert their effects. RESULTS: TreeWAS analysis revealed associations of elevated genetically predicted GLP-1 levels, even within the normal range, with decreased risk of metabolic diseases (e.g. type 2 diabetes) and polyarthropathies (e.g. gout). While genetically determined low GIP levels were linked to reduced risk of obesity, metabolic diseases (e.g. disorders of lipoprotein metabolism and other lipidaemias), digestive/hepatic and cardiometabolic diseases. Consistently, disease-trajectory analysis identified four major comorbidity clusters among individuals with genetically proxied physiologically lower GLP-1 and higher GIP levels, primarily involving metabolic diseases (e.g. type 2 diabetes), musculoskeletal system diseases (e.g. gout), gastrointestinal and urinary system disorders. Furthermore, the combined exposure to genetically predicted higher GLP-1 and lower GIP levels were associated with complementary and additive reductions in the risk of obesity (HR&#xa0;=&#xa0;0.93, 95%CI: 0.88-0.99, p&#xa0;=&#xa0;0.018), CVD (HR&#xa0;=&#xa0;0.97, 95%CI: 0.94-0.99, p&#xa0;=&#xa0;0.021), venous thromboembolism (VTE) (HR&#xa0;=&#xa0;0.91, 95%CI: 0.83-1.00, p&#xa0;=&#xa0;0.039), and multiplicative effects on composite hepatic events (CHEs) (HR&#xa0;=&#xa0;0.88, 95%CI: 0.77-0.99, p&#xa0;=&#xa0;0.040). No side effects on bone metabolism were identified. Finally, mediation analysis revealed that genetically predicted lower physiological GIP levels were associated with lower risk of obesity, CVD, VTE, overall and cardiovascular-specific mortality, with body weight consistent with a potential mediating role in exploratory decomposition analyses. CONCLUSIONS: Our genetic findings are consistent with the hypothesis that GLP-1 levels in the higher physiological range and GIP levels in the lower physiological range, individually and jointly, may be associated with lower body weight and improved cardiometabolic and liver phenotypes, while these observations warrant mechanistic and clinical investigation.",
+    "englishSummary": "BACKGROUND: The long-term health effects of glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) remain unclear. Most importantly, it is highly controversial whether GIP agonists vs. antagonists should be developed and what their effects and/or potential side effects would be in the clinic.",
+    "journal": "Metabolism: clinical and experimental",
+    "publicationDate": "2026-07-30",
+    "authors": [
+      "Wang L",
+      "Jiang F",
+      "Yuan S",
+      "Sun J",
+      "Zhao J",
+      "Zhou S",
+      "Liang J",
+      "Li H",
+      "Song P",
+      "Wang S",
+      "Dong J",
+      "Zhan S",
+      "Larsson SC",
+      "Xie Y",
+      "Ding Y",
+      "Li X",
+      "Mantzoros CS"
+    ],
+    "affiliations": [
+      "The Second Affiliated Hospital, School of Public Health, Zhejiang University School of Medicine, Hangzhou, China; Centre for Global Health, Usher Institute, University of Edinburgh, Edinburgh, UK.",
+      "The Second Affiliated Hospital, School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+      "Unit of Cardiovascular and Nutritional Epidemiology, Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden.",
+      "Centre for Global Health, Usher Institute, University of Edinburgh, Edinburgh, UK.",
+      "Department of vascular surgery, The Second Affiliated Hospital of Zhejiang University School of Medicine, Hangzhou, China.",
+      "Centre of Global Health, School of Public Health, Zhejiang University School of Medicine, Hangzhou, China.",
+      "Department of Epidemiology, School of Public Health, Peking University, Beijing, China.",
+      "Department of Cardiology, Beijing AnZhen Hospital, Capital Medical University, Beijing, China.",
+      "Unit of Cardiovascular and Nutritional Epidemiology, Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden; Unit of Medical Epidemiology, Department of Surgical Sciences, Uppsala University, Uppsala, Sweden.",
+      "Department of Hepatobiliary and Pancreatic Surgery, the Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China. Electronic address: yuanding@zju.edu.cn.",
+      "The Second Affiliated Hospital, School of Public Health, Zhejiang University School of Medicine, Hangzhou, China. Electronic address: xueli157@zju.edu.cn.",
+      "Division of Endocrinology, Diabetes and Metabolism, Department of Internal Medicine, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA, USA; Section of Endocrinology, Boston VA Healthcare System, Harvard Medical School, Boston, MA, USA."
+    ],
+    "doi": "10.1016/j.metabol.2026.156711",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42532176/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 human study: clinical",
+      "+2 treatment or prognosis relevance: intervention",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42571258",
     "title": "Host-state biomarkers and clinical factors for stratification and optimization of cell therapy trials in chronic limb-threatening ischemia: A review.",
     "abstract": "BACKGROUND: Chronic limb-threatening ischemia (CLTI) is a severe manifestation of peripheral arterial disease associated with high risks of amputation and mortality. Trials of cell-based therapies in patients unsuitable for revascularization (\"no-option\" or \"poor-option\" CLTI) have produced inconsistent results, underscoring the need for improved prognostic enrichment, baseline risk balancing, and protocol-defined stratification. MAIN BODY: This structured narrative review synthesizes evidence linking host-state markers-including laboratory biomarkers, clinical host-state factors, and physiologic/perfusion indices-to clinically meaningful CLTI outcomes. Inflammatory, nutritional, renal, metabolic, lipid, coagulation-related, infection, dialysis, frailty, smoking, etiology, and perfusion-related variables may shape the regenerative microenvironment and contribute to heterogeneity in cell therapy trial outcomes. However, current evidence primarily supports prognostic risk stratification rather than validated prediction of differential treatment response. We therefore interpret treated-cohort associations and post hoc subgroup observations as hypothesis-generating candidate variables for prospective host-state &#xd7; treatment interaction testing, not as validated predictive biomarkers. We propose a conceptual trial-design framework: first, confirm no-option or poor-option CLTI through multidisciplinary review, guideline-aligned assessment, objective hemodynamic testing, vascular imaging, and multidomain assessment; second, provisionally categorize patients into favorable, intermediate, and unfavorable host-state profiles using approximate prognostic ranges for prospective validation rather than clinical eligibility cutoffs, treatment-selection rules, or gatekeeping thresholds; third, ensure clinically necessary stabilization before eligibility confirmation and treat any run-in or post-randomization optimization strategy only as an optional, secondary, protocol-justified design component; and fourth, apply stratified randomization, covariate adjustment, blinded outcome adjudication, and prespecified host-state &#xd7; treatment interaction analyses. CONCLUSIONS: Integrating host-state biomarkers and clinical factors into CLTI cell therapy trial design may support prognostic enrichment, stratified enrollment, baseline risk adjustment, and hypothesis-driven evaluation of treatment-effect heterogeneity. The proposed profiles are hypothesis-generating trial-design strata, not validated clinical eligibility criteria, treatment-selection rules, or biomarker-based gatekeeping thresholds. Prospective validation will require standardized biomarker assays, harmonized endpoints, transparent reporting of cell products and concomitant care, and randomized testing of host-state &#xd7; treatment interactions to advance precision regenerative medicine in this setting.",
@@ -485,6 +640,52 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42620734",
+    "title": "The OAT-RCT study: the obesity anticoagulation thromboprophylaxis randomized controlled trial protocol.",
+    "abstract": "BACKGROUND: Venous thromboembolism (VTE) is a recognized and serious complication following bariatric surgery, with the majority of events occurring after hospital discharge. Low-molecular-weight heparin is the most commonly used thromboprophylactic agent in this population. Both enoxaparin and tinzaparin are widely used, but existing evidence suggests a significant proportion of patients with obesity fails to achieve prophylactic anti-Xa levels with either agent. No adequately powered, prospective, head-to-head randomized trial comparing these agents has been conducted in a bariatric surgery population. METHODS/DESIGN: The OAT-RCT is a single-center, prospective, open-label, parallel-group randomized controlled trial at St Vincent's University Hospital, Dublin. Adult patients undergoing laparoscopic sleeve gastrectomy or gastric bypass will be randomly allocated in a 1:1 ratio to receive either weight-based tinzaparin (Arm A) or weight-stratified enoxaparin (Arm B) for 21&#xa0;days post-operatively. The primary endpoint is the proportion of patients achieving prophylactic anti-Xa levels (0.2-0.4 IU/mL) at 3-5&#xa0;hours after the third dose, measured on post-operative day 2. Secondary endpoints include 30-day bleeding events, VTE incidence, sub- and supra-prophylactic anti-Xa proportions, correlations between anti-Xa and body habitus, adverse drug reactions, and patient-reported treatment satisfaction using the validated TSQM-9 questionnaire at 6&#xa0;weeks. A total of 180 participants (90 per arm) are required based on a formal power calculation. DISCUSSION: The OAT-RCT is the first adequately powered head-to-head randomized controlled trial comparing anti-Xa levels of tinzaparin and enoxaparin for VTE prophylaxis in bariatric surgery. The results will provide high-quality class I evidence to inform evidence-based prescribing guidelines for this rapidly growing surgical population.",
+    "englishSummary": "BACKGROUND: Venous thromboembolism (VTE) is a recognized and serious complication following bariatric surgery, with the majority of events occurring after hospital discharge. Low-molecular-weight heparin is the most commonly used thromboprophylactic agent in this population. Both enoxaparin and tinzaparin are widely used, but existing evidence suggests a significant proportion of patients with obesity fails to achieve prophylactic anti-Xa levels with either agent.",
+    "journal": "International journal of surgery protocols",
+    "publicationDate": "2026-07-29",
+    "authors": [
+      "Kennedy C",
+      "Fearon N",
+      "Butt W",
+      "O'Shea D",
+      "Murphy K",
+      "Heneghan H"
+    ],
+    "affiliations": [
+      "Department of Upper GI and Bariatric Surgery, St Vincent's University Hospital, Dublin 4, Ireland.",
+      "School of Medicine, University College Dublin, Belfield, Dublin 4, Ireland.",
+      "Department of Endocrinology, St Vincent's University Hospital, Dublin 4, Ireland.",
+      "Department of Haematology, St Vincent's University Hospital, Dublin 4, Ireland."
+    ],
+    "doi": "10.1097/SP9.0000000000000069",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42620734/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "Open Surgery",
+      "Antithrombotic Therapy"
+    ],
+    "studyTypeTags": [
+      "RCT",
+      "Clinical Trial"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 clinical evidence design: randomized",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: treatment"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42568701",
     "title": "A combined endovascular and ultrasound approach to femoral artery pseudoaneurysm injection following transcatheter aortic valve replacement (TAVR).",
     "abstract": "Iatrogenic femoral artery pseudoaneurysm (PSA) is a known complication of groin access for endovascular procedures. For cases refractory to ultrasound-guided thrombin injection, open repair risks blood loss during proximal and distal exposure, while covered stenting may be precluded by proximity to the femoral bifurcation. We report an 87-year-old hemodynamically unstable woman on vasopressor support and dual antithrombotic therapy who developed a 2.3-cm wide-necked left common femoral artery PSA during the post-TAVR course. After bedside ultrasound-guided thrombin injection failed, and with both open repair and covered stenting judged high risk, the PSA was treated using a hybrid approach combining endovascular balloon occlusion of the PSA neck with ultrasound-guided thrombin injection. The PSA was successfully excluded with preserved flow in the superficial and deep femoral arteries; 24-hour duplex confirmed a durable seal, and the patient remained complication-free at one year. In high-risk patients with wide-necked PSAs near the femoral bifurcation, this hybrid technique offers a lower-risk alternative to covered stenting or open surgery when standard thrombin injection fails.",
@@ -525,6 +726,55 @@
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42620399",
+    "title": "A prospective cohort study protocol on sequential compression alone for the prevention of venous thromboembolism (VTE) in laparoscopic cholecystectomy.",
+    "abstract": "BACKGROUND: Venous thromboembolism (VTE) is one of the leading causes of in-hospital mortality and is responsible for significant healthcare-related costs. However, a clear thromboprophylaxis protocol does not exist in surgery. The conventional method of thromboprophylaxis in surgery includes a combination of chemical and mechanical measures. Studies have shown that the administration of a chemical prophylaxis agent intra-operatively is associated with an increased incidence of surgical bleeding in surgeries such as laparoscopic cholecystectomy (LC). There are two common forms of mechanical prophylaxis: graduated compression stockings (GCSs) and sequential calf compression devices (SCCDs). Recent evidence has suggested several unwanted effects of GCSs, including skin breakage, the development of ulcers, and necrosis. There is a paucity of evidence investigating the use of SCCDs alone intra-operatively in VTE and surgical bleeding prevention. MATERIALS AND METHODS: This study reports on a multi-center, single-arm, prospective cohort study conducted across 11 hospitals, focusing on LC to standardize the operation. The aim is to recruit 5190 patients, as determined by power calculations, to investigate the incidence of clinical VTE 30&#xa0;days after surgery. The hospitals involved already have policies in place to use SCCDs alone. All patients undergoing LC will be recruited prospectively, with a 30-day survey conducted to ascertain symptoms of VTE. Any reported symptoms will prompt appropriate radiological confirmation. The secondary outcome of bleeding or other complications arising from VTE prophylaxis will also be collected. RESULTS: Ethical approval was obtained for this study. Results will be submitted for publication in a peer-reviewed journal and disseminated through participating hospitals. CONCLUSION: This study aims to provide information on the incidence of VTE in the LC population following the use of SCCDs only at the time of surgery and to compare it to historical controls of combined SCCDs and GCSs. The benefits include economic, safety, and environmental improvements.",
+    "englishSummary": "BACKGROUND: Venous thromboembolism (VTE) is one of the leading causes of in-hospital mortality and is responsible for significant healthcare-related costs. However, a clear thromboprophylaxis protocol does not exist in surgery. The conventional method of thromboprophylaxis in surgery includes a combination of chemical and mechanical measures.",
+    "journal": "International journal of surgery protocols",
+    "publicationDate": "2026-07-27",
+    "authors": [
+      "Kao CT",
+      "Lowen D",
+      "Said S",
+      "Tacey M",
+      "Taylor D",
+      "Yeung JM",
+      "Hodgson R"
+    ],
+    "affiliations": [
+      "Division of Surgery, Northern Health, Epping, Australia.",
+      "Department of Anaesthesia & Perioperative Medicine, Northern Health, Epping, Australia.",
+      "Department of Critical Care, Melbourne Medical School, The University of Melbourne, Parkville, Australia.",
+      "Department of Intensive Care, Northern Health, Epping, Australia.",
+      "Department of Research, Northern Health, Epping, Australia.",
+      "Department of Medicine, Dentistry and Health Sciences, University of Melbourne, Parkville, Australia.",
+      "Department of Surgery, Western Health, Melbourne, Australia.",
+      "Department of Surgery, Western Precinct, University of Melbourne, St Albans, Australia.",
+      "Department of Surgery, University of Melbourne, Epping, Australia."
+    ],
+    "doi": "10.1097/SP9.0000000000000068",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42620399/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: surgery"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
     "source": "PubMed"
   },
   {
@@ -1791,152 +2041,6 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42270053",
-    "title": "Percutaneous transmural arterial bypass in routine practice: Our 2-year experience.",
-    "abstract": "OBJECTIVE: Percutaneous transmural arterial bypass (PTAB) (Endologix) integrates principles of open surgical bypass with minimally invasive endovascular techniques to treat long-segment occlusions of the superficial femoral artery and popliteal artery. DETOUR1 (DETOUR I Clinical Study for Percutaneous Femoropopliteal Bypass) demonstrated favorable 1-year patency outcomes, with a primary patency rate (PPR), primary-assisted patency rate (PAPR), and secondary patency rate (SPR) of 81 &#xb1; 4%, 82 &#xb1; 4%, and 90 &#xb1; 3%, respectively. Similarly, the following DETOUR2 trial reported acceptable 1-year patency, with a PPR of 72.1%, PAPR of 77.7%, and SPR of 89.0%. However, outcomes of PTAB outside of the DETOUR clinical trials remain limited. METHODS: A retrospective analysis of patients who underwent PTAB within our health care system was conducted from August 2023 to December 2025. Collected variables included patient demographics, perioperative details, and postoperative outcomes. Primary end points were PPR, PAPR, and SPR assessed at 1, 3, 6, 12, 18, and 24 months. RESULTS: A total of 49 PTABs were performed in 44 patients (61.4 % male; mean age, 71.0 &#xb1; 7.3 years). The mean treated superficial femoral artery occlusion length was 303.0 &#xb1; 125.1 mm. Technical success was achieved in 100% of cases, and all patients were discharged on combined oral antiplatelet and anticoagulant therapy. The mean follow-up duration was 312 days (range, 6-788 days). PPRs at 1, 3, 6, and 12 months were 97.8%, 84.6%, 60.6%, and 47.6%, respectively. Corresponding PAPRs were 100%, 87.2%, 69.7%, 71.4%, respectively, and SPRs were 100%, 100%, 90.9%, and 90.5% at the same intervals. At 18 months (n = 12), only one patient had primary patency (8.3%); the PAPRs and SPRs were 41.7% and 83.3%, respectively. Only three patients were present for the 24-month follow-up, all of whom had required intervention to maintain patency. Overall, 16 stent occlusions occurred, 20 patients required intervention, and 2 patients underwent major amputation secondary to stent occlusion. CONCLUSIONS: The PTAB device in our experience was associated with lower PPRs and PAPRs than those reported in the DETOUR trials. These findings underscore the need for close postprocedural surveillance and timely reintervention in patients who undergo PTAB.",
-    "englishSummary": "OBJECTIVE: Percutaneous transmural arterial bypass (PTAB) (Endologix) integrates principles of open surgical bypass with minimally invasive endovascular techniques to treat long-segment occlusions of the superficial femoral artery and popliteal artery. DETOUR1 (DETOUR I Clinical Study for Percutaneous Femoropopliteal Bypass) demonstrated favorable 1-year patency outcomes, with a primary patency rate (PPR), primary-assisted patency rate (PAPR), and secondary patency rate (SPR) of 81 &#xb1; 4%, 82 &#xb1; 4%, and 90 &#xb1; 3%, respectively. Similarly, the following DETOUR2 trial reported acceptable 1-year patency, with a PPR of 72.1%, PAPR of 77.7%, and SPR of 89.0%.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-06-10",
-    "authors": [
-      "Bruggeman M",
-      "Tsouknidas I",
-      "Feeney K",
-      "Fox T",
-      "Kjelstrom S",
-      "Meisner R",
-      "Hirsch H",
-      "DiGiovanni V"
-    ],
-    "affiliations": [
-      "Philadelphia College of Osteopathic Medicine, Philadelphia, PA.",
-      "Department of Surgery, Lankenau Medical Center, Wynnewood, PA.",
-      "Lankenau Institute for Medical Research, Penn Wynne, PA.",
-      "Division of Vascular and Endovascular Surgery, Main Line, Wynnewood, PA.",
-      "Division of Vascular and Endovascular Surgery, Main Line, Wynnewood, PA. Electronic address: digiovanniv@mlhs.org."
-    ],
-    "doi": "10.1016/j.jvs.2026.05.019",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42270053/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "PAD / CLTI",
-      "Endovascular",
-      "Open Surgery",
-      "Vascular Graft / Stent / Device",
-      "Antithrombotic Therapy",
-      "Imaging / Diagnosis"
-    ],
-    "studyTypeTags": [
-      "Clinical Trial"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 clinical evidence design: trial",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: intervention"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42269704",
-    "title": "Endovascular-first revascularization is as safe and efficacious as open-first revascularization for acute limb ischemia.",
-    "abstract": "BACKGROUND: The independent effect of the initial revascularization strategy-open surgery-first (OS) vs endovascular-first (EV)-on the outcomes in acute limb ischemia (ALI) remains uncertain because of limited contemporary comparative effectiveness data. We evaluated amputation-free survival (AFS) after OS vs EV revascularization and examined the clinical factors associated with the outcomes. METHODS: We performed a two-center retrospective cohort study of adults presenting with ALI. Patients were categorized according to the initial treatment strategy: OS (surgical thrombectomy with or without endarterectomy or bypass) or EV (catheter-directed thrombolysis, rheolytic thrombectomy, or vacuum-assisted aspiration thrombectomy with adjunctive angioplasty, stenting, or atherectomy). The outcomes included major amputation, mortality, and AFS at 90 days and the last follow-up. Univariable and multivariable Cox proportional hazards analyses were performed. RESULTS: Over 9 years, a total of 367 patients (394 limbs; bilateral involvement in 27 patients [7.4%]) were included in this study (median age = 65.5 years [interquartile range {IQR} = 56-75]; 55.3% male; median follow-up of 614 days [IQR = 172-1223]). Patients treated with EV revascularization (n = 186) more frequently had long-term atherosclerotic risk factors, whereas embolic etiologies were more common in the OS group (n = 181). Length of hospital stay was shorter in the EV group than in the OS group (5 days [IQR = 2-11] vs 6 days [IQR = 3-13]; P = .006). At 90 days, the outcomes in the EV vs OS groups were as follows: major amputation, 12.4% vs 15.9% (P = .32); mortality, 10.7% vs 15.4% (P = .17); and AFS, 78.9% vs 71.4% (P = .08), respectively. Reinterventions were more frequent after the EV treatment (46.6% vs 26.4%; P < .001). At the last follow-up, the EV strategy was associated with improved survival (mean = 6.2 vs 4.7 years; log-rank P = .003) and AFS (4.9 vs 3.6 years; P = .01), whereas limb loss did not differ between the strategies. In multivariable analysis, Rutherford ischemia class (hazard ratio, 2.26; 95% confidence interval, 1.48-3.48; P < .001) and congestive heart failure (hazard ratio, 1.58; 95% confidence interval, 1.00-2.49; P = .04) were independently associated with major amputation or death. Subgroup analyses revealed no differences in AFS by sex (23% vs 28%; P = .28) or by embolic vs thrombotic presentation (25% vs 25%; P = .93). Vacuum-assisted aspiration thrombectomy was associated with fewer 90-day deaths/major amputations (20.4% vs 36.7%; P = .004), whereas rheolytic thrombectomy provided no measurable benefit. CONCLUSIONS: In this contemporary, large, two-center cohort study, the OS and EV strategies demonstrated similar 90-day safety and efficacy for ALI. Although the EV strategy was associated with higher reintervention rates, it was associated with improved long-term survival and AFS. Baseline Rutherford class led to more than twofold increases in the hazard of major amputation or death. These findings support individualized treatment selection based on clinical presentation and the ischemic burden.",
-    "englishSummary": "BACKGROUND: The independent effect of the initial revascularization strategy-open surgery-first (OS) vs endovascular-first (EV)-on the outcomes in acute limb ischemia (ALI) remains uncertain because of limited contemporary comparative effectiveness data. We evaluated amputation-free survival (AFS) after OS vs EV revascularization and examined the clinical factors associated with the outcomes. METHODS: We performed a two-center retrospective cohort study of adults presenting with ALI.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-06-10",
-    "authors": [
-      "Koksoy C",
-      "Bock SC",
-      "Ruiz IT",
-      "Rao K Manikonda SP",
-      "Alsarayreh M",
-      "Mills JL",
-      "Pallister ZS",
-      "McGinigle KL",
-      "Pascarella L",
-      "Chung J"
-    ],
-    "affiliations": [
-      "Division of Vascular Surgery and Endovascular Therapy, Michael E DeBakey Department of Surgery, Baylor College of Medicine, Houston, TX.",
-      "Division of Vascular Surgery, Department of Surgery, University of North Carolina at Chapel Hill, Chapel Hill, NC.",
-      "Division of Vascular Surgery, Department of Surgery, University of North Carolina at Chapel Hill, Chapel Hill, NC. Electronic address: Jayer.Chung@bcm.edu."
-    ],
-    "doi": "10.1016/j.jvs.2026.05.010",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42269704/",
-    "publicationTypes": [
-      "Journal Article",
-      "Multicenter Study",
-      "Comparative Study"
-    ],
-    "topicTags": [
-      "PAD / CLTI",
-      "Endovascular",
-      "Open Surgery"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 9,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42269703",
-    "title": "Regional and specialty-specific Medicare reimbursement trends in open and endovascular dialysis access interventions.",
-    "abstract": "OBJECTIVE: Medicare Part B reimbursements continue to decline annually at the national level. The majority of dialysis patients qualify for Medicare regardless of their age. The objective of this study was to characterize Medicare reimbursement trends for open and endovascular dialysis access interventions stratified based on the geographic region and physician specialty. METHODS: The 2019-2023 Medicare Physician and Other Practitioners by Provider and Service data set was queried for open and endovascular procedures, including arteriovenous fistula or graft creations and endovascular maintenance/interventions. Weighted mean reimbursements were calculated. The data were stratified by practice setting (facility vs nonfacility), Centers for Medicare and Medicaid Services region, and physician specialty. All nonfacility analyses included only endovascular procedures. For open procedures, percentage changes in reimbursements were compared between vascular surgery and transplant/general surgery. For endovascular procedures, comparisons were made among vascular surgery, radiology, and nephrology. All monetary values were adjusted to the 2023 US dollars. RESULTS: In facility settings, the reimbursements declined across all regions. For open procedures, regions 7 (Central) and 3 (Mid-Atlantic) demonstrated the largest declines at -30% and -24%, respectively. For endovascular procedures, all regions showed similar decreases in reimbursement, ranging from -20% to -29%. In nonfacility locations, the average reimbursement declined in every region, with regions 8 (Mountain West) and 10 (Pacific Northwest) having the largest decreases at -46% and -40%, respectively. Facility reimbursements decreased by an average of -27.3%. Cephalic vein transposition (-22%) and basilic vein transposition (-18%) had the largest decreases with regard to open procedures. Facility-based endovascular procedures, including diagnostic fistulagram, angioplasty, stenting, and thrombectomy, demonstrated similar decreases in reimbursement, ranging from -20% to -22%. In nonfacility settings, the average reimbursement declined by -27%, with central venous angioplasty (-32%) and peripheral dialysis stent (-33%) having the largest declines. Overall, all specialties experienced a similar decrease in reimbursements for both open (P = .12) and endovascular (P = .35) interventions. CONCLUSIONS: Our analysis of dialysis access procedures billed to Medicare Part B from 2019 to 2023 demonstrated a continued decline in reimbursements regardless of physician specialty. Regional reimbursement patterns demonstrate decreased reimbursements across the board, with certain regions being disproportionately affected, including regions 7 (Central) and 3 (Mid-Atlantic) for open facility procedures and regions 8 (Mountain West) and 10 (Pacific Northwest) for endovascular nonfacility interventions.",
-    "englishSummary": "OBJECTIVE: Medicare Part B reimbursements continue to decline annually at the national level. The majority of dialysis patients qualify for Medicare regardless of their age. The objective of this study was to characterize Medicare reimbursement trends for open and endovascular dialysis access interventions stratified based on the geographic region and physician specialty.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-06-10",
-    "authors": [
-      "Koh DJ",
-      "Tao B",
-      "Farber A",
-      "Talutis S",
-      "Kalish J",
-      "King E",
-      "Siracuse JJ"
-    ],
-    "affiliations": [
-      "Division of Vascular Surgery, University of Washington School of Medicine, Seattle, WA; Division of Vascular and Endovascular Surgery, Boston University Chobanian & Avedisian School of Medicine, Boston, MA.",
-      "Division of Vascular and Endovascular Surgery, Boston University Chobanian & Avedisian School of Medicine, Boston, MA.",
-      "Division of Vascular and Endovascular Surgery, Boston University Chobanian & Avedisian School of Medicine, Boston, MA. Electronic address: Jeffrey.Siracuse@bmc.org."
-    ],
-    "doi": "10.1016/j.jvs.2026.05.015",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42269703/",
-    "publicationTypes": [
-      "Journal Article",
-      "Comparative Study"
-    ],
-    "topicTags": [
-      "Dialysis Access",
-      "Endovascular",
-      "Vascular Graft / Stent / Device"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与血管外科主题相关，建议结合原文摘要和研究设计进行人工复核。",
-    "source": "PubMed"
-  },
-  {
     "pmid": "42597540",
     "title": "Characterization of visceral branch geometry in a four-branch off-the-shelf device for endovascular repair of paravisceral and thoracoabdominal aortic aneurysms.",
     "abstract": "BACKGROUND: This study aims to evaluate visceral branch geometry, including angulation, tortuosity, and diameter, of the GORE EXCLUDER thoracoabdominal branch endoprosthesis (TAMBE) in real-world utilization. METHODS: t t All patients were identified and treated with TAMBE from June 2024 to June 2025 at a single institution. Using the first postoperative computed tomography scan, branch geometry was analyzed with three-dimensional reconstructive software including multiplanar reformats and centerline imaging. Per published guidance, centerline branch length (length 1, L1) was defined as the centerline distance from the distal edge of the portal to the end of the branch, including any covered stent but not including distal extension with an uncovered self-expanding stent. Direct length (length 2, L2) was defined as the direct distance between those two points. Tortuosity index was calculated as the ratio of L1/L2. Branch angle was measured between the portal and a line tangential to the distal end point of the branch. Branch diameter was measured at the distal end point of the stent. We used paired-test for between-branch comparisons and two-sample-test for comparisons by sex and between complex abdominal aortic aneurysm and thoracoabdominal aortic aneurysm. RESULTS: P P P A total of 29 patients were treated with TAMBE during the study period. The majority of patients were male (n = 18, 62.1%) and white (n = 27, 93.1%). The mean age was 72.6 &#xb1; 7.2 years (range, 51-81 years). A total of 25 patients had postoperative computed tomography available for analysis, with 93 visceral branches analyzed (celiac artery [CA]: n = 20, superior mesenteric artery: n = 25, right renal artery [RRA]: n = 24, and left renal artery [LRA]: n = 24). Pairwise comparisons revealed significant differences between the CA, superior mesenteric artery, and renal arteries in terms of all geometric parameters including L1, L2, tortuosity index, and distal branch diameter, but no significant difference between RRA and LRA. Between-group comparisons showed a greater degree of CA angulation in females (142 &#xb1; 23&#xb0; in females vs 113 &#xb1; 23&#xb0; in males,= .02) and significantly greater distal renal artery branch diameters in males (RRA: 6.2 &#xb1; 0.6 mm in males, 5.4 &#xb1; 0.6 mm in females,= .02; LRA: 6.2 &#xb1; 0.5 mm in males, 5.7 &#xb1; 0.5 mm in females,= .03). Between-group comparisons for the remaining branch parameters did not show a significant difference. CONCLUSIONS: We demonstrate that geometric parameters of visceral branches in TAMBE vary significantly, whereas differences in terms of sex and aneurysm extent are less common. Evaluating the impact of these differences on long-term branch outcomes may help guide device selection and optimize patient outcomes.",
@@ -2203,49 +2307,6 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42203081",
-    "title": "Impact of housing status on postoperative outcomes following endovascular and open abdominal aortic aneurysm repair.",
-    "abstract": "OBJECTIVE: Unhoused individuals face a three-fold higher risk of cardiovascular disease-related morbidity and mortality compared with housed populations. However, limited data exist on outcomes following vascular surgery in this group. This study aimed to evaluate perioperative and postoperative outcomes following infrarenal aortic aneurysm repair, comparing housed and unhoused patients. METHODS: 2 A retrospective cohort study was conducted using the Vascular Quality Initiative database from 2010 to 2020. Patients undergoing open or endovascular abdominal aortic aneurysm (AAA) repair were stratified by housing status at presentation. The primary outcome was survival, and secondary outcomes examined perioperative complications. Multivariable Cox regression and propensity score matching were used to balance groups. Statistical analyses included t-tests, &#x3c7;tests, and Kaplan-Meier survival analysis with log-rank testing. RESULTS: Over a 10-year period, 99,733 patients were identified, of whom 99,606 (99.9%) were housed and 127 (0.1%) were unhoused. Unhoused patients were significantly more likely to undergo open repair compared with housed patients (26.8% vs 18.0%; P = .015). Housed patients were older, with a mean age of 72.80 &#xb1; 0.03 years compared with 65.20 &#xb1; 0.80 years for unhoused patients (P < .001). Unhoused patients were also more likely to present with symptomatic or ruptured aneurysms (44.1% vs 17.7%; P < .001). The mean postoperative survival was significantly shorter for unhoused patients (1156.6 &#xb1; 136.52 days) compared with housed patients (1580.7 &#xb1; 5.46 days; P = .003). Adjusting for procedure type, age, preoperative characteristics, and urgency, the survival disadvantage of unhoused patients was no longer significant. Among unhoused patients aged &#x2265;65 years, 1-year survival was approximately 45% for open AAA repair compared with 85% for endovascular aneurysm repair (P = .005). CONCLUSIONS: Unhoused patients experience poorer survival compared with housed patients following infrarenal AAA repair. Despite being younger, their worse outcomes may be attributed to more urgent presentations. Notably, survival was poorest among unhoused patients aged &#x2265;65 years undergoing open repair, highlighting a particularly vulnerable population.",
-    "englishSummary": "OBJECTIVE: Unhoused individuals face a three-fold higher risk of cardiovascular disease-related morbidity and mortality compared with housed populations. However, limited data exist on outcomes following vascular surgery in this group. This study aimed to evaluate perioperative and postoperative outcomes following infrarenal aortic aneurysm repair, comparing housed and unhoused patients.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-05-26",
-    "authors": [
-      "Vi L",
-      "Eisenberg N",
-      "Witheford M"
-    ],
-    "affiliations": [
-      "Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada; Division of Vascular Surgery, Peter Munk Cardiac Centre & University Health Network, University of Toronto, Toronto, Ontario, Canada.",
-      "Division of Vascular Surgery, Peter Munk Cardiac Centre & University Health Network, University of Toronto, Toronto, Ontario, Canada.",
-      "Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada; Division of Vascular Surgery, Peter Munk Cardiac Centre & University Health Network, University of Toronto, Toronto, Ontario, Canada. Electronic address: miranda.witheford@uhn.ca."
-    ],
-    "doi": "10.1016/j.jvs.2026.04.036",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42203081/",
-    "publicationTypes": [
-      "Journal Article",
-      "Comparative Study"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Endovascular",
-      "Vascular Graft / Stent / Device"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 9,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
     "pmid": "42189244",
     "title": "Comparison of the intraoperative intra-aneurysm pressure gradients among seven off-the-shelf endovascular aneurysm repair devices.",
     "abstract": "PURPOSE: To evaluate the intra-aneurysm pressure (IAP) after the implantation of various off-the-shelf endovascular aneurysm repair (EVAR) devices and examine its clinical implications. METHODS: A retrospective review of 153 EVAR cases for infrarenal abdominal aortic aneurysm (AAA) with bilateral common iliac landings and no residual type I/III endoleaks was conducted. During EVAR, the IAP and abdominal aortic pressure (AAP) were measured, and the aorta-aneurysm systolic pressure gradient (AASPG&#x2009;=&#x2009;systolic AAP&#x2009;-&#x2009;systolic IAP) was compared among the devices and between the graft fabric materials. The associations between the AASPG and postoperative AAA shrinkage were also assessed. RESULTS: The AASPGs (mmHg) for the devices were as follows: Aorfix (34 cases), 17.8&#x2009;&#xb1;&#x2009;12.9; Endurant (32 cases), 22.3&#x2009;&#xb1;&#x2009;16.9; AFX (26 cases), 17.5&#x2009;&#xb1;&#x2009;18.0; Zenith Alpha (20 cases), 25.7&#x2009;&#xb1;&#x2009;16.3; Excluder (16 cases), 26.4&#x2009;&#xb1;&#x2009;19.7; TREO (13 cases), 30.5&#x2009;&#xb1;&#x2009;11.8; and Alto (12 cases), 37.7&#x2009;&#xb1;&#x2009;14.5 (p&#x2009;=&#x2009;0.002). Polytetrafluoroethylene grafts showed a higher AASPG than woven polyester grafts (31.3 vs. 22.5 mmHg, p&#x2009;=&#x2009;0.009). No significant association was observed between the AASPG and AAA shrinkage. CONCLUSION: The degree of IAP reduction differs according to the EVAR device and graft fabric material. These findings provide baseline data on the device-specific effects of IAP.",
@@ -2286,54 +2347,6 @@
       "+3 title vascular surgery topic: endovascular",
       "+2 human study: clinical",
       "+2 treatment or prognosis relevance: device"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42190970",
-    "title": "Long-term results of elective endovascular repair of complex aortic aneurysms by custom-made fenestrated endografts.",
-    "abstract": "OBJECTIVE: To report the outcomes of elective endovascular repair of complex aortic aneurysms (CAAAs) by custom-made fenestrated endografts (fenestrated endovascular aortic repair [FEVAR]). METHODS: This single-center, retrospective analysis included all consecutive CAAAs (juxtarenal AAAs [JAAAs]; pararenal AAAs [PAAAs], and Crawford's extent IV thoracoabdominal AAAs [TAAAs]) managed electively by FEVAR (Cook Medical) from 2014 to 2024. Outcomes were reported according to the Society for Vascular Surgery reporting standards. Target arteries (TAs) loss, spinal cord ischemia, and 30-day/in-hospital mortality rates were assessed as early outcomes. Survival, freedom from reinterventions, TA instability, and aneurysm sac changes were assessed during follow-up. RESULTS: Of 457 advanced endovascular aortic procedures, FEVAR was electively performed in 255 (56%) CAAAs (juxtarenal AAAs, 145 [57%]; PAAAs, 65 [25%]; type IV TAAAs, 45 [18%]). Endograft with two or fewer, three, and four or more fenestrations were adopted in 42 (16%), 62 (24%), and 151 (60%) cases, respectively. Overall, 872 TAs were accommodated by 8 &#xd7; 8 mm (378 [43%]) and 6 &#xd7; 6 mm/6 &#xd7; 8 mm (494 [57%]) fenestrations. Eight patients (3%) experienced loss within 30 days (8/872 TAs [1%]; renal arteries, 7; celiac trunk, 1). One case (0.4%) of spinal cord ischemia (permanent paraplegia in type IV TAAA) occurred. There were 6 deaths (2%) within 30 days or during a prolonged/complicated hospitalization. The mean follow-up was 65 &#xb1; 32 months. The estimated 5-year freedom from reinterventions and TA instability was 79% and 94%, respectively. Type IV TAAAs had lower freedom from TA instability than JAAAs/PAAAs at 5 years (type IV, 84% vs JAAAs/PAAAs, 89%; log-rank P &#x2264; .001) and it was confirmed as an independent risk factor on Cox regression analysis (P = .03; hazard ratio, 5.2; 95% confidence interval, 1.7-15.5). The estimated 5-year survival was 70%. Of 209 patients with available radiological follow-up at 1 year, aneurysm shrinkage, stability, and enlargement occurred in 117 (56%), 75 (36%), and 17 (8%) cases, respectively. Cases with shrinkage had higher follow-up survival at 5 years than cases without shrinkage (shrinkage, 75% vs no shrinkage, 61%; log-rank P = .04). Cases with TA instability had lower follow-up survival at 5 years than cases without TA instability (TA instability, 60% vs no TA instability, 70%; log-rank P = .004). TA instability was an independent risk factor for follow-up mortality on Cox regression analysis (P = .01; hazard ratio, 2.5; 95% confidence interval, 1.2-5.2). CONCLUSIONS: Elective endovascular repair of CAAAs by FEVAR is effective, with excellent early outcomes and satisfactory long-term results in terms of TA instability, reintervention, and survival. Type IV TAAA is a risk factor for TA instability, which is associated with lower late survival.",
-    "englishSummary": "OBJECTIVE: To report the outcomes of elective endovascular repair of complex aortic aneurysms (CAAAs) by custom-made fenestrated endografts (fenestrated endovascular aortic repair [FEVAR]). METHODS: This single-center, retrospective analysis included all consecutive CAAAs (juxtarenal AAAs [JAAAs]; pararenal AAAs [PAAAs], and Crawford's extent IV thoracoabdominal AAAs [TAAAs]) managed electively by FEVAR (Cook Medical) from 2014 to 2024. Outcomes were reported according to the Society for Vascular Surgery reporting standards.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-05-25",
-    "authors": [
-      "Gallitto E",
-      "Cappiello A",
-      "Faggioli GL",
-      "Poliseno C",
-      "Caputo S",
-      "Mascoli C",
-      "Spath P",
-      "Pini R",
-      "Vivek S",
-      "Vacirca A",
-      "Gargiulo M"
-    ],
-    "affiliations": [
-      "Vascular Surgery, Department of Medical and Surgical Sciences (DIMEC), University of Bologna, Bologna, Italy; Vascular Surgery Unit, IRCCS Sant'Orsola, Azienda Ospedaliero - Universitaria, Bologna, Italy. Electronic address: enrico.gallitto@gmail.com.",
-      "Vascular Surgery, Department of Medical and Surgical Sciences (DIMEC), University of Bologna, Bologna, Italy.",
-      "Vascular Surgery, Department of Medical and Surgical Sciences (DIMEC), University of Bologna, Bologna, Italy; Vascular Surgery Unit, IRCCS Sant'Orsola, Azienda Ospedaliero - Universitaria, Bologna, Italy.",
-      "Vascular Surgery Unit, IRCCS Sant'Orsola, Azienda Ospedaliero - Universitaria, Bologna, Italy."
-    ],
-    "doi": "10.1016/j.jvs.2026.05.026",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42190970/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Endovascular",
-      "Vascular Graft / Stent / Device"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery"
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
@@ -2521,6 +2534,60 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42173296",
+    "title": "Patients' pain experience in claudication: Biopsychosocial correlates of frequency, intensity, sleep interference, and chronic pain.",
+    "abstract": "Pain is the hallmark symptom of claudication, the early stage of peripheral artery disease (PAD), yet its relationship with psychological distress remains unclear. We described pain patterns and examined its association with PAD severity and psychological factors in 1263 patients initiating PAD care using the PORTRAIT registry (16 vascular centers in the U.S., the Netherlands, and Australia, 06/2011-12/2015). Pain was assessed using the Peripheral Artery Questionnaire as frequent (&#x2265;daily), intense (moderate-to-extreme), sleep-interfering (nightly), and chronic based on pain duration >6 months. PAD severity markers included resting ankle-brachial index (ABI) and Rutherford stage. Psychological factors included depressive symptoms (Patient Health Questionnaire-8; PHQ-8), anxiety (Generalized Anxiety Disorder 2-item), and perceived stress (4-item Perceived Stress Scale). Hierarchical logistic regression models estimated odds ratios (Ors) with 95% confidence interval adjusted for PAD severity, sociodemographic, and comorbidities, with psychological factors added separately. Over 80% of patients reported heightened pain, with most experiencing frequent (72.5%), intense (63.3%), or chronic pain (67.2%), while 10.8% reported sleep-interfering. Psychological factors were associated with increased likelihood of frequent, intense, and sleep-interfering pain (ORs range: 1.58-5.09) regardless of age, sex, and country. Depressive symptoms emerged as the strongest pain correlate, surpassing traditional ischemic markers. While advanced Rutherford stage (stages 2 and 3 vs. 1) was associated with more frequent and intense pain (ORs range:1.59-2.65), resting ABI showed no significant association with pain characteristics. These findings highlight that pain burden in claudication reflects both vascular and psychological dimensions, underscoring the need for integrated biopsychosocial assessment beyond traditional hemodynamic measures in claudication. PERSPECTIVE: Pain in claudication is strongly correlated with depressive symptoms, moderately with advanced Rutherford stage, and not with ankle-brachial index. Recognizing this complex interplay highlights the need for integrated care strategies that go beyond hemodynamic measures, addressing mental health alongside physical symptoms to improve outcomes for patients with peripheral artery disease.",
+    "englishSummary": "Pain is the hallmark symptom of claudication, the early stage of peripheral artery disease (PAD), yet its relationship with psychological distress remains unclear. We described pain patterns and examined its association with PAD severity and psychological factors in 1263 patients initiating PAD care using the PORTRAIT registry (16 vascular centers in the U.S., the Netherlands, and Australia, 06/2011-12/2015). Pain was assessed using the Peripheral Artery Questionnaire as frequent (&#x2265;daily), intense (moderate-to-extreme), sleep-interfering (nightly), and chronic based on pain duration >6 months.",
+    "journal": "The journal of pain",
+    "publicationDate": "2026-05-22",
+    "authors": [
+      "Romain G",
+      "Alashi A",
+      "Tapia C",
+      "Sinusas AJ",
+      "Galiana G",
+      "Barry DT",
+      "Vashist A",
+      "Lang E",
+      "Garland EL",
+      "Mena-Hurtado C",
+      "Smolderen KG"
+    ],
+    "affiliations": [
+      "Vascular Medicine Outcomes Program (VAMOS), Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, USA; Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, USA.",
+      "Vascular Medicine Outcomes Program (VAMOS), Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, USA; Department of Radiology and Biomedical Imaging, Yale School of Medicine, New Haven, CT, USA.",
+      "Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, USA; Department of Radiology and Biomedical Imaging, Yale School of Medicine, New Haven, CT, USA; Department of Biomedical Engineering, Yale University, New Haven, CT, USA.",
+      "Department of Radiology and Biomedical Imaging, Yale School of Medicine, New Haven, CT, USA; Department of Biomedical Engineering, Yale University, New Haven, CT, USA.",
+      "Department of Psychiatry, Yale School of Medicine, New Haven, CT, USA.",
+      "Vascular Medicine Outcomes Program (VAMOS), Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, USA; Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, USA; Department of Radiology and Biomedical Imaging, Yale School of Medicine, New Haven, CT, USA; VACT Healthcare System, West Haven, CT, USA.",
+      "Hypnalgesics, Comfort Talk, Brookline, MA, USA.",
+      "Sanford Institute for Empathy and Compassion and Department of Psychiatry, University of California San Diego, La Jolla, CA, USA.",
+      "Vascular Medicine Outcomes Program (VAMOS), Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, USA; Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT, USA; Department of Psychiatry, Yale School of Medicine, New Haven, CT, USA. Electronic address: kim.smolderen@yale.edu."
+    ],
+    "doi": "10.1016/j.jpain.2026.106320",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42173296/",
+    "publicationTypes": [
+      "Journal Article",
+      "Multicenter Study"
+    ],
+    "topicTags": [
+      "PAD / CLTI",
+      "Imaging / Diagnosis"
+    ],
+    "studyTypeTags": [
+      "Registry"
+    ],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 clinical evidence design: registry",
+      "+2 human study: patients"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42173294",
     "title": "A systematic review and meta-analysis of elevated lipoprotein(a) and adverse limb outcomes in peripheral artery disease after revascularization.",
     "abstract": "OBJECTIVE: Lipoprotein(a) [Lp(a)] is an atherogenic and prothrombotic lipoprotein with a well-established role in cardiovascular disease. However, its association with peripheral artery disease (PAD) prevalence and limb-related outcomes after lower-extremity revascularization remains incompletely defined. We conducted a systematic review and meta-analysis to evaluate the relationship between elevated Lp(a), PAD prevalence, and postrevascularization limb outcomes. METHODS: 2 A systematic review was performed in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. MEDLINE, Embase, CINAHL, and Web of Science were searched from January 1990 through August 2024 to identify observational studies reporting associations between Lp(a) levels and the prevalence of PAD and/or outcomes after lower-extremity revascularization. Risk of bias was assessed using the Risk of Bias in Non-randomized Studies of Exposure tool and the Revised Cochrane Risk-of-Bias tool, and certainty of evidence was graded using the Grading of Recommendations Assessment, Development and Evaluation framework. Pooled odds ratios (ORs) and mean differences were estimated using random-effects models. Between-study heterogeneity was quantified using the Istatistic; prespecified sensitivity and subgroup analyses were performed. RESULTS: 2 2 2 2 Ten observational studies comprising 5794 participants met the inclusion criteria. Elevated Lp(a) was associated with a significantly greater prevalence of PAD (pooled OR, 1.81; 95% confidence interval [CI], 1.37-2.39; P < .001), with low heterogeneity (I= 26%). This association remained consistent in prospective cohort studies (OR, 1.60; 95% CI, 1.24-2.07; I= 0%). Patients with PAD also had higher circulating Lp(a) concentrations than control participants without PAD (mean difference, 21.8 mg/dL; 95% CI, -5.5 to 49.1), although heterogeneity was substantial (I= 85%). Among patients undergoing lower-extremity revascularization, only two observational cohort studies contributed to pooled limb-outcome analyses. Within this limited evidence base, elevated Lp(a) was strongly associated with adverse limb outcomes, including repeat target-lesion revascularization (OR, 3.22; 95% CI, 2.36-4.40), major adverse limb events (OR, 5.09; 95% CI, 3.89-6.67), and major amputation (OR, 2.62; 95% CI, 1.36-5.03), with no detectable heterogeneity across these end points (I= 0%). Several included studies reported estimates adjusted for established vascular risk factors, including diabetes mellitus, smoking, hypertension, and lipid-lowering therapy; however, harmonized adjusted estimates were not available for all pooled analyses. CONCLUSIONS: Elevated Lp(a) is consistently associated with increased PAD prevalence and adverse limb-related outcomes after lower-extremity revascularization. These findings better define Lp(a) as a marker of limb-related risk and postprocedural prognosis in patients with PAD. However, the current evidence remains insufficient to conclude that Lp(a)-directed treatment improves PAD-specific outcomes.",
@@ -2577,6 +2644,49 @@
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42143789",
+    "title": "The effect of peripheral vasopressor protocols on extravasation rates: A systematic review and meta-analysis.",
+    "abstract": "BACKGROUND: Central venous catheters have been historically preferred over peripheral venous catheters for the administration of vasoactive medications in critically ill patients to reduce the risk of extravasation. Peripheral vasopressor administration is gaining attention as a strategy to expedite initiation while avoiding the procedural risks of central venous catheter placement. Although prior systematic reviews have focused on anatomical site and peripheral venous catheter gauge, the impact of implementing a peripheral vasopressor protocol on the safety profile of peripheral vasopressor administration has not been systematically evaluated. OBJECTIVE: To determine whether a peripheral vasopressor protocol influences the safety profile of peripherally administered vasopressors in critically ill patients. STUDY DESIGN AND METHODS: A comprehensive search was conducted across MEDLINE (Ovid), Embase (Ovid), the Cochrane Central Register of Controlled Trials (Ovid), and PubMed, encompassing studies published since January 2000. Statistical analysis was conducted using R (v. 4.4.3; https://www.r-project.org/), with two-tailed significance set at p&#xa0;<&#xa0;0.05. RESULTS: A total of 22 studies involving 10,983 adult patients (&#x2265;18&#xa0;years) were identified. Median extravasation rates were similar between studies using a peripheral vasopressor protocol and those not (33.5 [12.3-53.0] vs. 31.2 [12.0-39.6] per 1000 patients), with no statistically significant difference (U&#xa0;=&#xa0;68, p&#xa0;=&#xa0;0.78). CONCLUSION: This review demonstrated that peripheral vasopressor protocols did not yield statistically significant reductions in extravasation rates among patients receiving peripheral vasopressor therapy.",
+    "englishSummary": "BACKGROUND: Central venous catheters have been historically preferred over peripheral venous catheters for the administration of vasoactive medications in critically ill patients to reduce the risk of extravasation. Peripheral vasopressor administration is gaining attention as a strategy to expedite initiation while avoiding the procedural risks of central venous catheter placement. Although prior systematic reviews have focused on anatomical site and peripheral venous catheter gauge, the impact of implementing a peripheral vasopressor protocol on the safety profile of peripheral vasopressor administration has not been systematically evaluated.",
+    "journal": "Journal of critical care",
+    "publicationDate": "2026-05-17",
+    "authors": [
+      "Wiseman JF",
+      "Wiseman VH",
+      "Jawa NA",
+      "Fei LYN",
+      "Boyd JG"
+    ],
+    "affiliations": [
+      "Department of Critical Care Medicine, Queen's University, Canada. Electronic address: 8jfw2@queensu.ca.",
+      "Department of General Surgery, Queen's University, Canada.",
+      "Queen's University, School of Medicine, Canada.",
+      "Department of Critical Care Medicine, Queen's University, Canada."
+    ],
+    "doi": "10.1016/j.jcrc.2026.155613",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42143789/",
+    "publicationTypes": [
+      "Journal Article",
+      "Systematic Review",
+      "Meta-Analysis"
+    ],
+    "topicTags": [],
+    "studyTypeTags": [
+      "Systematic Review",
+      "Meta-analysis",
+      "Review"
+    ],
+    "relevance": "medium",
+    "score": 5,
+    "scoreReasons": [
+      "+3 high-value publication type: systematic review",
+      "+2 human study: patients"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
     "source": "PubMed"
   },
   {
@@ -3015,56 +3125,6 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42097337",
-    "title": "Leveraging natural language processing software to implement and execute abdominal aortic aneurysm surveillance.",
-    "abstract": "BACKGROUND: Long-term follow-up is essential for patients with abdominal aortic aneurysms (AAAs). Our health system implemented an AAA surveillance program in 2021. We sought to evaluate the program's nearly 5-year outcomes and identify the benefits and challenges in maintaining a large-scale AAA surveillance program. METHODS: A commercially available AAA-specific natural language processing algorithm (Illuminate) was applied to all electronic medical record imaging reports at a large, academic, tertiary hospital (January 1, 2010 to June 2, 2021) to identify AAAs. Beginning on June 3, 2021, imaging reports were reviewed prospectively. A nurse-navigator team utilized Society for Vascular Surgery surveillance guidelines to then interface with patient/providers to establish/re-establish care with the goal of increasing guideline adherence. The outcomes evaluated included yield of surveillance as measured by imaging, new clinic visits, AAA repairs, and the direct contribution margin among new or re-established patients. RESULTS: During the study period (January 2021-November 2025), 7,516,363 imaging reports were processed. Optimization of workflows and efficiency resulted in a reorganization from a single nurse-navigator (1.0 full-time equivalent) to a nurse-navigator team (total 0.7 full-time equivalent). After filtering for studies that included the abdominal aorta, 16,923 patients were identified. Of these, 12,952 cases (76.5%) were closed; the most common reasons for closing a case were surveillance not indicated (n = 1211), no AAA (n = 4423), or patient deceased (n = 2587), In our population of patients evaluated, 2856 patients (16.9%) with AAAs were being appropriately followed. An additional 492 patients (2.9%) were newly identified; 333 (67.6%) were never followed, and 155 (32.3%) were lost to follow-up. The program yielded 1008 new imaging studies (438 computed tomography, 43.5%; 519 ultrasound, 51.5%; 51 other, 5.1%), 1080 new clinic visits, and 47 AAA repairs, resulting in a direct contribution margin of $3,330,928. In August 2024, this program was expanded to imaging performed at a newly acquired hospital; the first 15 months yielded 22 patients, 51 clinic visits, 45 imaging studies, and 5 AAA repairs, resulting in a direct contribution margin of $321,397. CONCLUSIONS: The AAA surveillance program established aneurysm care for over 500 patients, improved system-wide monitoring for AAAs, and generated significant clinical activity and financial contribution margins, highlighting the program's value to patients and the health system. This demonstrates the potential to leverage technology to improve long-term patient care. Adjustments to the team structure ensured the program's sustainability and scalability, as evidenced by successful expansion to a newly acquired hospital.",
-    "englishSummary": "BACKGROUND: Long-term follow-up is essential for patients with abdominal aortic aneurysms (AAAs). Our health system implemented an AAA surveillance program in 2021. We sought to evaluate the program's nearly 5-year outcomes and identify the benefits and challenges in maintaining a large-scale AAA surveillance program.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-05-05",
-    "authors": [
-      "Boitano LT",
-      "Brown S",
-      "O'Neil L",
-      "O'Connell L",
-      "Okuhn S",
-      "Chute DF",
-      "Fan EY",
-      "Finnesgard E",
-      "Jones DW",
-      "Simons JP",
-      "Schanzer A"
-    ],
-    "affiliations": [
-      "UMass Chan Medical School, Worcester, MA. Electronic address: lboitano@mgb.org.",
-      "UMass Chan Medical School, Worcester, MA.",
-      "VA San Francisco Healthcare System; San Francisco, CA; Illuminate, Overland Park, KS."
-    ],
-    "doi": "10.1016/j.jvs.2026.04.029",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42097337/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Imaging / Diagnosis",
-      "Guideline / Consensus"
-    ],
-    "studyTypeTags": [
-      "Guideline"
-    ],
-    "relevance": "high",
-    "score": 9,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic aneurysm",
-      "+2 clinical evidence design: guideline",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
     "pmid": "42080918",
     "title": "Preoperative D-dimer as a predictor of venous thromboembolism after laparoscopic gastric and colorectal cancer surgery: findings from the EnoLap trial.",
     "abstract": "PURPOSE: Venous thromboembolism (VTE) is a potentially serious complication after surgery for gastrointestinal cancer; however, its risk factors following laparoscopic surgery remain unclear. This study aimed to identify the risk factors for postoperative VTE in patients undergoing laparoscopic gastrectomy or colectomy. METHODS: We analyzed data, retrospectively, from patients enrolled in the multicenter randomized EnoLap-CG trial, who underwent laparoscopic gastrectomy or colectomy. All patients underwent protocol-mandated contrast-enhanced computed tomography (CT) on postoperative day (POD) 7 to screen for VTE. RESULTS: Postoperative VTE was identified in 19 (4.6%) of 410 patients. The preoperative D-dimer level was significantly higher in the VTE group than in the no- VTE group (1.40&#xa0;&#xb5;g/mL vs. 0.76&#xa0;&#xb5;g/mL; p&#x2009;<&#x2009;0.01). The incidence of VTE was higher in women than in men (7.2% vs. 2.9%; p&#x2009;=&#x2009;0.05). Multivariate logistic regression analysis demonstrated that an elevated preoperative D-dimer level (OR, 1.89; 95% CI, 1.28-2.80; p&#x2009;<&#x2009;0.01) and female sex (OR, 2.64; 95% CI, 1.02-6.85; p&#x2009;<&#x2009;0.01) were independent risk factors for VTE. CONCLUSIONS: An elevated preoperative D-dimer level and female sex are independent risk factors for postoperative VTE after laparoscopic gastric and colorectal cancer surgery.",
@@ -3121,237 +3181,6 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42082039",
-    "title": "Nonsyndromic familial type B aortic dissection exhibits distinct clinical profiles and operative outcomes.",
-    "abstract": "BACKGROUND: Although a heritable nature of type A aortic dissection is well established, the contribution of family history to type B aortic dissection (TBAD) remains less clearly characterized. This analysis evaluates the prevalence, clinical characteristics, and outcomes of familial TBAD (FTBAD) compared with sporadic TBAD and Marfan syndrome (MFS)-related TBAD to determine whether FTBAD exhibits features consistent with increased underlying aortic vulnerability. METHODS: This is a retrospective analysis of TBAD patients enrolled in the International Registry of Acute Aortic Dissection between 1996 and 2024. Based on standardized clinical abstraction, patients were categorized as FTBAD, sporadic TBAD, or MFS-associated TBAD. Baseline characteristics, imaging features, surgical management, in-hospital outcomes, and postdischarge events across groups using bivariate and time-to-event analyses for &#x2264;4 years after discharge were compared. Time-to-event analysis included reintervention, rupture, and survival. RESULTS: Among 2726 patients (mean age, 63.0 &#xb1; 14.6 years; 64.2% male), 223 (8.2%) had FTBAD and 128 (4.7%) had MFS. Patients with FTBAD presented at a younger age than those with sporadic TBAD (60.8 years vs 64.3 years; P < .001), but were older than patients with MFS (42.4 years). Compared with patients with sporadic TBAD, patients with FTBAD were more frequently normotensive at presentation and had higher rates of prior aortic dissection and prior cardiac or aortic surgery. Patent false lumen was more frequent in patients with FTBAD (60.0%) and patients with MFS (66.7%) than in patients with sporadic TBAD (49.8%) and patients with FTBAD had more extensive dissections despite a similar aortic diameter at the time of dissection compared with patients with sporadic TBAD. The indication for endovascular intervention was more frequently visceral ischemia in FTBAD compared with sporadic TBAD (23.5% vs 10.9%; P < .05). Thoracic endovascular aortic repair was less frequently performed in FTBAD compared with sporadic TBAD (23.8% vs 29.7%; P = .081), and least common in MFS (15.6%). Postdischarge data were available for 56.9% of those discharged. The 3-year incidence of late surgical intervention was 23.78% for patients with FTBAD, higher than for patients with sporadic TBAD (15.7%; P = .023). The 1-year survival exceeded 93% in all groups, and the 4-year survival exceeded 83%. CONCLUSIONS: Nonsyndromic FTBAD is present in a meaningful proportion of patients and is associated with distinct clinical features consistent with increased underlying aortic vulnerability compared with sporadic TBAD. Systematic assessment of family history may improve risk stratification, longitudinal surveillance, and patient shared decision-making in the management of TBAD.",
-    "englishSummary": "BACKGROUND: Although a heritable nature of type A aortic dissection is well established, the contribution of family history to type B aortic dissection (TBAD) remains less clearly characterized. This analysis evaluates the prevalence, clinical characteristics, and outcomes of familial TBAD (FTBAD) compared with sporadic TBAD and Marfan syndrome (MFS)-related TBAD to determine whether FTBAD exhibits features consistent with increased underlying aortic vulnerability. METHODS: This is a retrospective analysis of TBAD patients enrolled in the International Registry of Acute Aortic Dissection between 1996 and 2024.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-05-02",
-    "authors": [
-      "Lian T",
-      "Pai CW",
-      "Woznicki E",
-      "Ouzounian M",
-      "Bossone E",
-      "Harris KM",
-      "O'Gara P",
-      "Bismuth J",
-      "Bhan A",
-      "Kaiser C",
-      "Chen EP",
-      "Nienaber C",
-      "Isselbacher E",
-      "Lindsay M",
-      "Eagle K",
-      "Evangelista A",
-      "Shalhub S"
-    ],
-    "affiliations": [
-      "Division of Vascular and Endovascular Surgery, Department of Surgery, Oregon Health and Science University, Portland, OR.",
-      "Division of Cardiovascular Medicine, Department of Internal Medicine, University of Michigan, Ann Arbor, MI.",
-      "Division of Cardiac Surgery, Toronto General Hospital, Toronto, Ontario, Canada.",
-      "Division of Cardiology, Departmentof Internal Medicine, University of Naples Federico II, Naples, Italy.",
-      "Minneapolis Heart Institute, Minneapolis, MN.",
-      "Department of Cardiology, Brigham & Women's Hospital, Boston, MA.",
-      "Division of Vascular Surgery, University of South Florida, Tampa, FL.",
-      "Department of Cardiac Surgery, Medanta the Medicity, Gurgaon, India.",
-      "Department of Cardiothoracic Surgery, St. Thomas West Hospital, Nashville, TN.",
-      "Department of Surgery, Duke University, Durham, NC.",
-      "Cardiology and Aorta Centre, The Royal Brompton & Harefield NHS Trust, London, United Kingdom.",
-      "Thoracic Aortic Center, Massachusetts General Hospital, Boston, MA.",
-      "Department of Cardiology, Hospital General Universitari Vall d'Hebron, Barcelona, Spain.",
-      "Division of Vascular and Endovascular Surgery, Department of Surgery, Oregon Health and Science University, Portland, OR; Department of Molecular and Medical Genetics, Oregon Health and Science University, Portland, OR. Electronic address: shalhub@ohsu.edu."
-    ],
-    "doi": "10.1016/j.jvs.2026.04.022",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42082039/",
-    "publicationTypes": [
-      "Journal Article",
-      "Comparative Study",
-      "Multicenter Study"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Endovascular",
-      "Vascular Graft / Stent / Device",
-      "Imaging / Diagnosis"
-    ],
-    "studyTypeTags": [
-      "Registry"
-    ],
-    "relevance": "high",
-    "score": 9,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic dissection",
-      "+2 clinical evidence design: registry",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42082038",
-    "title": "Discharge destination and one-year mortality in acute limb ischemia survivors after revascularization: A multicenter registry study.",
-    "abstract": "OBJECTIVE: Acute limb ischemia may impair functional status and hinder return home after hospitalization, even in patients who survive to discharge. However, the associations among discharge destination, clinical characteristics, and outcomes have not been fully evaluated. METHODS: Using a multicenter registry, we analyzed 769 patients with acute limb ischemia who underwent revascularization between July 2011 and March 2025 and survived to discharge. Nonhome discharge was defined as transfer to another hospital or nursing facility. Multivariable logistic regression incorporating baseline and procedural variables was performed to identify determinants of non-home discharge. One-year mortality after discharge was compared between the home and nonhome discharge groups. RESULTS: Nonhome discharge occurred in 287 patients (37.3%). Multivariable analysis demonstrated that advanced age, nonambulatory status, frailty, prior cerebrovascular disease, hypoalbuminemia, and receipt of public assistance were independently associated with nonhome discharge, as was severe ischemia (Rutherford category IIb/III). Procedural factors, including the need for surgical revascularization and inadequate distal perfusion (final Tibial Infrapopliteal Perfusion Index grade 0-1) were also associated with nonhome discharge. When stratified by cumulative risk burden (0-2, 3-5, &#x2265;6 factors), the incidence of nonhome discharge increased stepwise (18%, 50%, and 92%, respectively; P < .001). One-year mortality was significantly higher among patients with nonhome discharge than among those discharged home (21.2% vs 7.6%; log-rank P < .001). CONCLUSIONS: More than one-third of patients with acute limb ischemia were unable to return home after revascularization. Discharge destination was independently associated with baseline vulnerability, disease severity, and procedural factors, and was linked to increased 1-year mortality.",
-    "englishSummary": "OBJECTIVE: Acute limb ischemia may impair functional status and hinder return home after hospitalization, even in patients who survive to discharge. However, the associations among discharge destination, clinical characteristics, and outcomes have not been fully evaluated. METHODS: Using a multicenter registry, we analyzed 769 patients with acute limb ischemia who underwent revascularization between July 2011 and March 2025 and survived to discharge.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-05-02",
-    "authors": [
-      "Yoshioka N",
-      "Hata Y",
-      "Haraguchi T",
-      "Kojima S",
-      "Ogata K",
-      "Takei T",
-      "Iwata S",
-      "Suzuki R",
-      "Yamane H",
-      "Yoshii D",
-      "Matsuda D",
-      "Koyama E",
-      "Uchikawa T",
-      "Morita Y",
-      "Iida O",
-      "Morishima I",
-      "SAPLING-ALI Investigators"
-    ],
-    "affiliations": [
-      "Department of Cardiology, Ogaki Municipal Hospital, Ogaki, Japan. Electronic address: naoyoshimed5@gmail.com.",
-      "Cardiovascular Center, Kansai Rosai Hospital, Amagasaki, Japan.",
-      "Department of Cardiology, Asia Medical Group, Sapporo Heart Center, Sapporo, Japan.",
-      "Department of Cardiology, Tokyo Bay Medical Center, Urayasu, Japan.",
-      "Department of Cardiology, Miyazaki Medical Association Hospital, Miyazaki, Japan.",
-      "Department of Cardiology, Tenyoukai Central Hospital, Kagoshima, Japan.",
-      "Department of Cardiology, Caress Memorial Hospital, Sapporo, Japan.",
-      "Department of Cardiology, Sapporo City General Hospital, Sapporo, Japan.",
-      "Cardiovascular Division, NHO Osaka National Hospital, Osaka, Japan.",
-      "Cardiovascular Division, Osaka Keisatsu Hospital, Osaka, Japan.",
-      "Department of Vascular Surgery, Matsuyama Red Cross Hospital, Matsuyama, Japan.",
-      "Department of Cardiology, Shonan Kamakura General Hospital, Kamakura, Japan.",
-      "Division of Cardiology, Cardiovascular and Aortic Center, Saiseikai Fukuoka General Hospital, Fukuoka, Japan.",
-      "Department of Cardiology, Ogaki Municipal Hospital, Ogaki, Japan."
-    ],
-    "doi": "10.1016/j.jvs.2026.04.027",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42082038/",
-    "publicationTypes": [
-      "Journal Article",
-      "Multicenter Study",
-      "Comparative Study"
-    ],
-    "topicTags": [
-      "PAD / CLTI",
-      "Endovascular"
-    ],
-    "studyTypeTags": [
-      "Registry"
-    ],
-    "relevance": "medium",
-    "score": 4,
-    "scoreReasons": [
-      "+2 clinical evidence design: registry",
-      "+2 human study: patients"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42082037",
-    "title": "Open vs endovascular abdominal aortic aneurysm repair in standard surgical-risk patients using a Medicare-matched registry.",
-    "abstract": "OBJECTIVE: Open surgical repair (OSR) offers the most durable option for abdominal aortic aneurysm repair, yet >80% of repairs in the United States are performed using endovascular aneurysm repair (EVAR). Although EVAR suits high-risk patients, both approaches are viable for standard-risk patients, with the choice often based on operator experience and patient anatomy and preference. This study investigated which technique offers better long-term outcomes in standard-risk patients. METHODS: The Medicare-matched Vascular Implant Surveillance and Interventional Outcomes Network database was queried from 2011 to 2019 for standard-risk patients undergoing OSR or EVAR. Patients with high surgical risk features were excluded: age >70 years, body mass index >35, glomerular filtration rate <30, moderate to severe congestive heart failure, recent myocardial infarction, positive stress test, home oxygen, dialysis dependent, and patients unfit for OSR based on surgeon judgment. Patients presenting with rupture or with prior aneurysm repair were also excluded. Propensity score matching was used to match baseline characteristics (26 variables) in both groups. Cox regression analyzed mortality, aneurysm-related reintervention, and rupture up to 7 years. RESULTS: Before matching, our study included 7409 standard-risk patients (EVAR, 5933 [80.1%]; OSR, 1476 [19.9%]). Propensity score matching produced two well-balanced cohorts of 1017 pairs. There was no significant difference in 7-year mortality (HR, 1.08; 95% confidence interval [CI], 0.85-1.38; P = .511). However, EVAR was associated with a higher risk of reintervention at 7 years compared with OSR (20.8% vs 12.4%; HR, 1.56; 95% CI, 1.17-2.07; P = .002). Furthermore, the hazard of rupture was almost four-fold higher with EVAR (3.2% vs 0.4%; HR, 3.87; P = .018). CONCLUSIONS: In the current era, where EVAR is the predominant choice even in low surgical risk patients, reasons to undergo OSR are limited. However, our study demonstrates superior durability of OSR in standard-risk patients with significantly lower rates of reintervention and rupture up to 7 years. Our findings provide a strong rationale for performing OSR in physiologically fit patients.",
-    "englishSummary": "OBJECTIVE: Open surgical repair (OSR) offers the most durable option for abdominal aortic aneurysm repair, yet >80% of repairs in the United States are performed using endovascular aneurysm repair (EVAR). Although EVAR suits high-risk patients, both approaches are viable for standard-risk patients, with the choice often based on operator experience and patient anatomy and preference. This study investigated which technique offers better long-term outcomes in standard-risk patients.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-05-02",
-    "authors": [
-      "Hamouda M",
-      "Rahgozar S",
-      "Kang Sim DE",
-      "Zarrintan S",
-      "Rossi PJ",
-      "Malas MB"
-    ],
-    "affiliations": [
-      "Division of Vascular & Endovascular Surgery, Center for Learning and Excellence in Vascular and Endovascular Surgery (CLEVER), UC San Diego, La Jolla, CA.",
-      "Division of Vascular and Endovascular Surgery, Medical College of Wisconsin, Milwaukee, WI.",
-      "Division of Vascular & Endovascular Surgery, Center for Learning and Excellence in Vascular and Endovascular Surgery (CLEVER), UC San Diego, La Jolla, CA. Electronic address: mmalas@health.ucsd.edu."
-    ],
-    "doi": "10.1016/j.jvs.2026.04.025",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42082037/",
-    "publicationTypes": [
-      "Journal Article",
-      "Comparative Study"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Endovascular",
-      "Open Surgery",
-      "Vascular Graft / Stent / Device",
-      "Imaging / Diagnosis"
-    ],
-    "studyTypeTags": [
-      "Registry"
-    ],
-    "relevance": "medium",
-    "score": 5,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 human study: patients"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42067000",
-    "title": "Closed incisional negative-pressure wound therapy vs standard surgical dressing for groin incisions following arterial vascular surgery: A prospective multicenter randomized clinical trial.",
-    "abstract": "OBJECTIVE: Groin wound complications-including surgical site infections, hematomas, seroma leakage, necrosis, and wound dehiscence-are frequently reported after arterial vascular surgery and significantly impact patient morbidity and mortality. This multicenter randomized controlled trial evaluated the effectiveness of closed incisional negative-pressure wound therapy (ciNPWT) in reducing these complications. METHODS: From April 2017 to January 2023, 290 patients with peripheral arterial disease scheduled for arterial vascular surgery requiring a longitudinal groin incision were enrolled in the Netherlands. Patients were randomized to receive either ciNPWT with PREVENA or standard surgical dressing (SSD). Wounds were assessed over a 30-day period at an outpatient wound clinic. The primary outcome was the occurrence of wound complications: infection, seroma, necrosis, and dehiscence, with infections graded according to Centers for Disease Control criteria. RESULTS: A total of 275 patients were analyzed (132 in the ciNPWT group, 143 in the SSD group). Overall, 25.5% of patients experienced wound complications. There was no significant difference in the overall rate of wound complications between the ciNPWT and SSD groups (P = .37). Both groups had a median hospital stay of 4 days, and no significant difference was observed in time to complete wound healing (23.10 &#xb1; 20.78 days for ciNPWT vs 22.81 &#xb1; 20.73 days for SSD; P = .99). CONCLUSIONS: CiNPWT did not reduce the overall rate of wound complications in patients undergoing groin incisions for peripheral arterial surgery. Routine use of ciNPWT in this context is not recommended.",
-    "englishSummary": "OBJECTIVE: Groin wound complications-including surgical site infections, hematomas, seroma leakage, necrosis, and wound dehiscence-are frequently reported after arterial vascular surgery and significantly impact patient morbidity and mortality. This multicenter randomized controlled trial evaluated the effectiveness of closed incisional negative-pressure wound therapy (ciNPWT) in reducing these complications. METHODS: From April 2017 to January 2023, 290 patients with peripheral arterial disease scheduled for arterial vascular surgery requiring a longitudinal groin incision were enrolled in the Netherlands.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-04-30",
-    "authors": [
-      "Lenselink E",
-      "Ruig M",
-      "Grootendorst DC",
-      "Schepers A",
-      "Eefting D",
-      "Vascular NPWT Study Group"
-    ],
-    "affiliations": [
-      "Department of Vascular Surgery, Haaglanden Medisch Centrum, The Hague, The Netherlands. Electronic address: e.lenselink@haaglandenmc.nl.",
-      "Department of Vascular Surgery, Haaglanden Medisch Centrum, The Hague, The Netherlands.",
-      "Department of Vascular Surgery, Leiden University Medical Center, Leiden, The Netherlands; Department of Vascular Surgery, University Vascular Center Leiden, The Hague, The Netherlands.",
-      "Department of Vascular Surgery, Haaglanden Medisch Centrum, The Hague, The Netherlands; Department of Vascular Surgery, Leiden University Medical Center, Leiden, The Netherlands; Department of Vascular Surgery, University Vascular Center Leiden, The Hague, The Netherlands."
-    ],
-    "doi": "10.1016/j.jvs.2026.04.017",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42067000/",
-    "publicationTypes": [
-      "Journal Article",
-      "Multicenter Study",
-      "Randomized Controlled Trial",
-      "Comparative Study"
-    ],
-    "topicTags": [
-      "PAD / CLTI"
-    ],
-    "studyTypeTags": [
-      "RCT",
-      "Clinical Trial"
-    ],
-    "relevance": "high",
-    "score": 12,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: vascular surgery",
-      "+2 clinical evidence design: randomized",
-      "+3 high-value publication type: randomized controlled trial",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-    "source": "PubMed"
-  },
-  {
     "pmid": "42066902",
     "title": "A systematic review with meta-analysis on racial and ethnic disparities in acute venous thromboembolism diagnosis and management.",
     "abstract": "OBJECTIVE: Acute venous thromboembolism (VTE), encompassing deep vein thrombosis and pulmonary embolism, is one of the leading causes of cardiovascular mortality. Recent studies have shown racial and ethnic disparities in VTE incidence and outcomes. The objective of this review is to identify racial and ethnic disparities present in the incidence, diagnosis, and management of VTE. METHODS: A comprehensive review was conducted in PubMed and ScienceDirect using the following search terms: pulmonary embolism, deep vein thrombosis, race, ethnicity, racial disparities, ethnic disparities, and social determinants. Papers were included if they were published in English and within the years 2004 to 2024. Papers were excluded if they studied non-United States adult populations, if VTE was not a main outcome of interest, or if they focused on surgery or COVID-related VTE. The resultant papers (n = 52) included randomized clinical trials, systematic reviews, meta-analyses, and observational studies at single-center, multi-center, and national levels. Quantitative data on the use of catheter-based therapies (CBTs) by racial and ethnic groups were extracted from a subsect of papers where it was explicitly reported (n = 8). Using this data, a meta-analysis was conducted to compare the utilization of CBTs for pulmonary embolism across different racial and ethnic groups. RESULTS: Significant racial and ethnic disparities in the diagnosis and treatment of VTE were noted. Black patients had the highest disease incidence, severity, mortality, and inpatient complications. Similar inequities may exist among other racial and ethnic groups, although these remain less well-characterized due to limited ethnic representation in current VTE literature and related clinical trials. Genetic factors contribute more to VTE risk in White patients, whereas comorbidities and socioeconomic disparities have a more significant impact on non-White patients. Several studies have noted disparities in access to catheter-directed thrombolysis for non-White patients compared with White patients. Notably, racial disparities in advanced therapy usage are reduced in the context of high-risk pulmonary embolism, though ethnic disparities persist. Initial studies have suggested that Pulmonary Embolism Response Team implementation may reduce disparities in VTE management, though further research is needed to evaluate its impact on outcomes. Results of the meta-analysis further supported these findings by revealing increased CBT usage in White and non-Hispanic patients compared with Black and Hispanic patients, respectively. CONCLUSIONS: Socioeconomic vulnerability and comorbid conditions account for disparities in VTE incidence in minority populations, and poor outcomes in these groups may be tied to inequalities in access to catheter-based interventions.",
@@ -3397,57 +3226,6 @@
     ],
     "isChinaResearch": false,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42055302",
-    "title": "Vessel-level comparative analysis of 5-year renal branch performance following fenestrated-branched endovascular aortic repair using thoracoabdominal multibranched endoprostheses and physician-modified endografts.",
-    "abstract": "OBJECTIVES: Endovascular repair options for pararenal aortic aneurysms (PRAs) and thoracoabdominal aortic aneurysms (TAAAs) include physician-modified endografts (PMEGs), and thoracoabdominal multibranch endoprosthesis (TAMBE). However, long-term renal artery performance of TAMBE is unknown. Thus, we aimed to compare renal artery outcomes between TAMBE and PMEG. METHODS: Patients who received TAMBE and PMEG at two aortic centers from 2015 to 2025 were reviewed. Aneurysm extent, branch stent size, antiplatelet regimen, laterality, and relining stents were compared by vessel level analysis. Primary outcome was freedom from target vessel instability (TVI). The secondary outcomes included primary patency, freedom from branch reintervention and branch endoleak. Cox proportional hazard regression was performed comparing PMEG and TAMBE RAs for TVI. RESULTS: We included 716 patients and 1339 RAs (633 patients/1180 RAs for PMEG and 83 patients/159 RAs for TAMBE groups). RAs in PMEG had higher 5-year freedom from TVI compared with TAMBE (89.5% vs 82.7%; P = .005), driven by higher freedom from branch reintervention (90.8% vs 82.5%; P = .002) and primary patency (93.7% vs 83.3%; P < .001), albeit with similar freedom from branch endoleak (93.9% vs 98.2%; P = .3). This finding was likely due to the higher freedom from TVI in the right renal artery (91.3% vs 77.9%; P = .002), but not left renal artery (87.6% vs 87.9%; P = .375). Subgroup analysis showed similar freedom from TVI in the TAAA patients (P = .691), whereas the PRA subgroup showed significantly lower freedom from TVI in the TAMBE compared PMEG group (P < .001). Cox regression, adjusting for aneurysm extent, branch stent size, relining, and dual antiplatelets, showed that the right RAs in TAMBE were more likely to develop TVI (hazard ratio, 4.2; P < .001) than PMEG. CONCLUSIONS: The right renal artery may be the principal site of failure for TAMBE, contributing to lower 5-year freedom from TVI compared with PMEG. TAAA appears to confer protection against renal TVI in TAMBE, compared with PRA. These findings warrant revisiting anatomical criteria and further optimization of renal bridging stent design for TAMBE.",
-    "englishSummary": "OBJECTIVES: Endovascular repair options for pararenal aortic aneurysms (PRAs) and thoracoabdominal aortic aneurysms (TAAAs) include physician-modified endografts (PMEGs), and thoracoabdominal multibranch endoprosthesis (TAMBE). However, long-term renal artery performance of TAMBE is unknown. Thus, we aimed to compare renal artery outcomes between TAMBE and PMEG.",
-    "journal": "Journal of vascular surgery",
-    "publicationDate": "2026-04-27",
-    "authors": [
-      "Brinster CJ",
-      "Rengel Z",
-      "Tackett C",
-      "Tabiei A",
-      "Bae M",
-      "Han K",
-      "DeMartino R",
-      "Oderich G",
-      "Mendes BC",
-      "Han SM"
-    ],
-    "affiliations": [
-      "Division of Vascular Surgery and Endovascular Therapy, Keck Medical Center of University of Southern, Los Angeles, CA. Electronic address: claytonbrinster@gmail.com.",
-      "Division of Vascular Surgery and Endovascular Therapy, Keck Medical Center of University of Southern, Los Angeles, CA.",
-      "Division of Vascular Surgery and Endovascular Surgery, University of California, Los Angeles, CA; Division of Vascular Surgery, Mayo Clinic, Rochester, MN.",
-      "Division of Vascular Surgery and Endovascular Surgery, University of California, Los Angeles, CA.",
-      "Division of Vascular Surgery, Mayo Clinic, Rochester, MN; Division of Vascular Surgery and Endovascular Therapy, Baylor College of Medicine, Houston, TX."
-    ],
-    "doi": "10.1016/j.jvs.2026.03.793",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42055302/",
-    "publicationTypes": [
-      "Journal Article",
-      "Comparative Study",
-      "Multicenter Study"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "Endovascular",
-      "Vascular Graft / Stent / Device",
-      "Antithrombotic Therapy"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: stent"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
     "source": "PubMed"
   },
   {
