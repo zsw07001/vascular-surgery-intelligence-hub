@@ -1,55 +1,55 @@
 {
-  "generatedAt": "2026-08-21T20:40:57.884Z",
+  "generatedAt": "2026-08-22T20:39:32.765Z",
   "period": {
-    "start": "2026-08-15",
-    "end": "2026-08-21"
+    "start": "2026-08-16",
+    "end": "2026-08-22"
   },
-  "dataUpdatedAt": "2026-08-21T20:40:57.884Z",
+  "dataUpdatedAt": "2026-08-22T20:39:32.765Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-08-21T20:40:57.884Z"
+      "updatedAt": "2026-08-22T20:39:32.765Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 763,
-      "updatedAt": "2026-08-21T20:40:57.884Z"
+      "updatedAt": "2026-08-22T20:39:32.765Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 10,
-      "updatedAt": "2026-08-21T20:40:57.884Z"
+      "count": 9,
+      "updatedAt": "2026-08-22T20:39:32.765Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
-      "count": 28,
-      "updatedAt": "2026-08-21T20:40:57.884Z"
+      "count": 31,
+      "updatedAt": "2026-08-22T20:39:32.765Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-21T20:40:57.884Z"
+      "updatedAt": "2026-08-22T20:39:32.765Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-08-21T20:40:57.884Z"
+      "updatedAt": "2026-08-22T20:39:32.765Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 98,
-    "chinaResearch": 29,
+    "highImpact": 93,
+    "chinaResearch": 34,
     "clinicalTrials": 763,
-    "guidelines": 10,
-    "devices": 28,
+    "guidelines": 9,
+    "devices": 31,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
@@ -57,36 +57,36 @@
   "overviewZh": "本周自动汇总 200 篇 PubMed 文献、763 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
-      "tag": "Venous Disease",
-      "count": 77
-    },
-    {
-      "tag": "Imaging / Diagnosis",
-      "count": 75
-    },
-    {
       "tag": "Endovascular",
       "count": 73
     },
     {
-      "tag": "China Research",
-      "count": 29
+      "tag": "Imaging / Diagnosis",
+      "count": 73
     },
     {
-      "tag": "Vascular Graft / Stent / Device",
-      "count": 28
+      "tag": "Venous Disease",
+      "count": 66
+    },
+    {
+      "tag": "China Research",
+      "count": 34
     },
     {
       "tag": "Aortic Disease",
-      "count": 27
+      "count": 33
+    },
+    {
+      "tag": "Vascular Graft / Stent / Device",
+      "count": 31
+    },
+    {
+      "tag": "Antithrombotic Therapy",
+      "count": 24
     },
     {
       "tag": "PAD / CLTI",
       "count": 20
-    },
-    {
-      "tag": "Antithrombotic Therapy",
-      "count": 19
     }
   ],
   "priorityReading": [
@@ -115,6 +115,32 @@
       "doi": "10.1007/s40261-026-01583-7"
     },
     {
+      "pmid": "42627620",
+      "title": "Incidence and microbiological etiology of vascular graft and endograft infections: a systematic review and meta-analysis.",
+      "source": "PubMed",
+      "date": "2026-08-21",
+      "journal": "Infection",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Guideline",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Systematic Review / Meta-analysis / Guideline；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42627620/",
+      "doi": "10.1007/s15010-026-02908-6"
+    },
+    {
       "pmid": "42617685",
       "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
       "source": "PubMed",
@@ -184,28 +210,27 @@
       "doi": "10.1007/s10557-026-07908-0"
     },
     {
-      "pmid": "42140452",
-      "title": "Contemporary systematic review and meta-analysis of outcomes associated with femoropopliteal above-the-knee nonautologous surgical bypass.",
+      "pmid": "42628686",
+      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
       "source": "PubMed",
-      "date": "2026-05-14",
-      "journal": "Journal of vascular surgery",
+      "date": "2026-08-21",
+      "journal": "Annals of vascular surgery",
       "topicTags": [
-        "PAD / CLTI",
+        "Aortic Disease",
         "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "China Research"
       ],
       "studyTypeTags": [
         "Systematic Review",
-        "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
       "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42140452/",
-      "doi": "10.1016/j.jvs.2026.05.013"
+      "reason": "high relevance；Systematic Review；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/",
+      "doi": "10.1016/j.avsg.2026.08.018"
     },
     {
       "pmid": "42617073",
@@ -297,27 +322,6 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42613745/",
       "doi": "10.1177/02683555261478716"
-    },
-    {
-      "pmid": "42283700",
-      "title": "Levels of hypothermia and clinical outcomes in acute type a aortic dissection surgery with circulatory arrest and antegrade cerebral perfusion: A systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-06-12",
-      "journal": "Perfusion",
-      "topicTags": [
-        "Aortic Disease"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 12,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease；score 12",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42283700/",
-      "doi": "10.1177/02676591261460650"
     }
   ],
   "priorityArticles": [
@@ -346,6 +350,32 @@
       "doi": "10.1007/s40261-026-01583-7"
     },
     {
+      "pmid": "42627620",
+      "title": "Incidence and microbiological etiology of vascular graft and endograft infections: a systematic review and meta-analysis.",
+      "source": "PubMed",
+      "date": "2026-08-21",
+      "journal": "Infection",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Guideline",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Systematic Review / Meta-analysis / Guideline；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42627620/",
+      "doi": "10.1007/s15010-026-02908-6"
+    },
+    {
       "pmid": "42617685",
       "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
       "source": "PubMed",
@@ -415,28 +445,27 @@
       "doi": "10.1007/s10557-026-07908-0"
     },
     {
-      "pmid": "42140452",
-      "title": "Contemporary systematic review and meta-analysis of outcomes associated with femoropopliteal above-the-knee nonautologous surgical bypass.",
+      "pmid": "42628686",
+      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
       "source": "PubMed",
-      "date": "2026-05-14",
-      "journal": "Journal of vascular surgery",
+      "date": "2026-08-21",
+      "journal": "Annals of vascular surgery",
       "topicTags": [
-        "PAD / CLTI",
+        "Aortic Disease",
         "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "China Research"
       ],
       "studyTypeTags": [
         "Systematic Review",
-        "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
       "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42140452/",
-      "doi": "10.1016/j.jvs.2026.05.013"
+      "reason": "high relevance；Systematic Review；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/",
+      "doi": "10.1016/j.avsg.2026.08.018"
     },
     {
       "pmid": "42617073",
@@ -528,27 +557,6 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42613745/",
       "doi": "10.1177/02683555261478716"
-    },
-    {
-      "pmid": "42283700",
-      "title": "Levels of hypothermia and clinical outcomes in acute type a aortic dissection surgery with circulatory arrest and antegrade cerebral perfusion: A systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-06-12",
-      "journal": "Perfusion",
-      "topicTags": [
-        "Aortic Disease"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 12,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease；score 12",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42283700/",
-      "doi": "10.1177/02676591261460650"
     }
   ],
   "chinaHighlights": [
@@ -575,6 +583,29 @@
       "doi": "10.1007/s10557-026-07908-0"
     },
     {
+      "pmid": "42628686",
+      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
+      "source": "PubMed",
+      "date": "2026-08-21",
+      "journal": "Annals of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "中国机构研究；high relevance；Systematic Review；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/",
+      "doi": "10.1016/j.avsg.2026.08.018"
+    },
+    {
       "pmid": "42623267",
       "title": "Carotid Artery Stenting in Symptomatic Carotid Stenosis With Chronic Kidney Disease: A Single-Center Retrospective Study.",
       "source": "PubMed",
@@ -619,44 +650,25 @@
       "doi": "10.1177/02683555261478716"
     },
     {
-      "pmid": "42618625",
-      "title": "Author's reply to the letter to the editor entitled \"Comment on: Impact of stent materials and hemodynamic changes after endovascular aneurysm repair for abdominal aortic aneurysm\".",
+      "pmid": "42629703",
+      "title": "Safety and efficacy of direct acting oral anticoagulants in the treatment of patients with morbid obesity with venous thromboembolism: A meta-analysis.",
       "source": "PubMed",
-      "date": "2026-08-19",
-      "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+      "date": "2026-08-21",
+      "journal": "Medicine",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 7",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42618625/",
-      "doi": "10.1038/s41440-026-02751-0"
-    },
-    {
-      "pmid": "42619040",
-      "title": "Machine learning-derived serum carbon dioxide trajectories in predicting prognosis of patients with acute aortic dissection.",
-      "source": "PubMed",
-      "date": "2026-08-19",
-      "journal": "Medical gas research",
-      "topicTags": [
-        "Aortic Disease",
+        "Venous Disease",
+        "Antithrombotic Therapy",
         "China Research"
       ],
       "studyTypeTags": [
-        "Cohort"
+        "Meta-analysis"
       ],
       "relevance": "high",
       "score": 11,
-      "reason": "中国机构研究；high relevance；Aortic Disease；score 11",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42619040/",
-      "doi": "10.4103/mgr.MEDGASRES-D-25-00361"
+      "reason": "中国机构研究；high relevance；Meta-analysis；Venous Disease；score 11",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42629703/",
+      "doi": "10.1097/MD.0000000000050355"
     }
   ],
   "chinaResearch": [
@@ -683,6 +695,29 @@
       "doi": "10.1007/s10557-026-07908-0"
     },
     {
+      "pmid": "42628686",
+      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
+      "source": "PubMed",
+      "date": "2026-08-21",
+      "journal": "Annals of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "中国机构研究；high relevance；Systematic Review；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/",
+      "doi": "10.1016/j.avsg.2026.08.018"
+    },
+    {
       "pmid": "42623267",
       "title": "Carotid Artery Stenting in Symptomatic Carotid Stenosis With Chronic Kidney Disease: A Single-Center Retrospective Study.",
       "source": "PubMed",
@@ -727,44 +762,25 @@
       "doi": "10.1177/02683555261478716"
     },
     {
-      "pmid": "42618625",
-      "title": "Author's reply to the letter to the editor entitled \"Comment on: Impact of stent materials and hemodynamic changes after endovascular aneurysm repair for abdominal aortic aneurysm\".",
+      "pmid": "42629703",
+      "title": "Safety and efficacy of direct acting oral anticoagulants in the treatment of patients with morbid obesity with venous thromboembolism: A meta-analysis.",
       "source": "PubMed",
-      "date": "2026-08-19",
-      "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+      "date": "2026-08-21",
+      "journal": "Medicine",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "中国机构研究；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 7",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42618625/",
-      "doi": "10.1038/s41440-026-02751-0"
-    },
-    {
-      "pmid": "42619040",
-      "title": "Machine learning-derived serum carbon dioxide trajectories in predicting prognosis of patients with acute aortic dissection.",
-      "source": "PubMed",
-      "date": "2026-08-19",
-      "journal": "Medical gas research",
-      "topicTags": [
-        "Aortic Disease",
+        "Venous Disease",
+        "Antithrombotic Therapy",
         "China Research"
       ],
       "studyTypeTags": [
-        "Cohort"
+        "Meta-analysis"
       ],
       "relevance": "high",
       "score": 11,
-      "reason": "中国机构研究；high relevance；Aortic Disease；score 11",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42619040/",
-      "doi": "10.4103/mgr.MEDGASRES-D-25-00361"
+      "reason": "中国机构研究；high relevance；Meta-analysis；Venous Disease；score 11",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42629703/",
+      "doi": "10.1097/MD.0000000000050355"
     }
   ],
   "trialHighlights": [
@@ -1099,6 +1115,20 @@
   ],
   "manualReview": [
     {
+      "title": "Incidence and microbiological etiology of vascular graft and endograft infections: a systematic review and meta-analysis.",
+      "source": "Guidelines",
+      "date": "2026-08-21",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42627620/"
+    },
+    {
       "title": "Centralized Digital Surveillance for Abdominal Aortic Aneurysm Detection, Longitudinal Tracking, and Management Within an Integrated Health System: Retrospective Cohort Study.",
       "source": "Guidelines",
       "date": "2026-08-19",
@@ -1137,17 +1167,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42625087/"
     },
     {
-      "title": "Common femoral artery access in emergency medicine.",
-      "source": "Guidelines",
-      "date": "2026-08-20",
-      "topicTags": [
-        "Endovascular",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41161703/"
-    },
-    {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
       "source": "Devices / Regulatory",
       "date": "2026-06-25",
@@ -1160,21 +1179,9 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42349637/"
     },
     {
-      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
+      "title": "Non-Contrast Magnetic Resonance Angiography for Endovascular Aneurysm Repair Planning in Abdominal Aortic Aneurysms: Acquisition Development and Comparison to Contrast-Enhanced Computed Tomography Angiography.",
       "source": "Devices / Regulatory",
-      "date": "2026-08-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
-    },
-    {
-      "title": "Characterization of visceral branch geometry in a four-branch off-the-shelf device for endovascular repair of paravisceral and thoracoabdominal aortic aneurysms.",
-      "source": "Devices / Regulatory",
-      "date": "2026-06-03",
+      "date": "2026-08-21",
       "topicTags": [
         "Aortic Disease",
         "Endovascular",
@@ -1182,20 +1189,32 @@
         "Imaging / Diagnosis"
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42597540/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42629616/"
     },
     {
-      "title": "Contemporary systematic review and meta-analysis of outcomes associated with femoropopliteal above-the-knee nonautologous surgical bypass.",
+      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
       "source": "Devices / Regulatory",
-      "date": "2026-05-14",
+      "date": "2026-08-21",
       "topicTags": [
-        "PAD / CLTI",
+        "Aortic Disease",
         "Endovascular",
-        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/"
+    },
+    {
+      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
+      "source": "Devices / Regulatory",
+      "date": "2026-08-19",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
         "Vascular Graft / Stent / Device"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42140452/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
@@ -1210,20 +1229,35 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42349637/"
     },
     {
-      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
+      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
       "source": "Safety",
-      "date": "2026-08-19",
+      "date": "2026-08-21",
       "topicTags": [
         "Aortic Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "China Research"
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/"
     }
   ],
   "reviewQueue": [
     {
+      "title": "Incidence and microbiological etiology of vascular graft and endograft infections: a systematic review and meta-analysis.",
+      "source": "Guidelines",
+      "date": "2026-08-21",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42627620/"
+    },
+    {
       "title": "Centralized Digital Surveillance for Abdominal Aortic Aneurysm Detection, Longitudinal Tracking, and Management Within an Integrated Health System: Retrospective Cohort Study.",
       "source": "Guidelines",
       "date": "2026-08-19",
@@ -1262,17 +1296,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42625087/"
     },
     {
-      "title": "Common femoral artery access in emergency medicine.",
-      "source": "Guidelines",
-      "date": "2026-08-20",
-      "topicTags": [
-        "Endovascular",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41161703/"
-    },
-    {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
       "source": "Devices / Regulatory",
       "date": "2026-06-25",
@@ -1285,21 +1308,9 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42349637/"
     },
     {
-      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
+      "title": "Non-Contrast Magnetic Resonance Angiography for Endovascular Aneurysm Repair Planning in Abdominal Aortic Aneurysms: Acquisition Development and Comparison to Contrast-Enhanced Computed Tomography Angiography.",
       "source": "Devices / Regulatory",
-      "date": "2026-08-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
-    },
-    {
-      "title": "Characterization of visceral branch geometry in a four-branch off-the-shelf device for endovascular repair of paravisceral and thoracoabdominal aortic aneurysms.",
-      "source": "Devices / Regulatory",
-      "date": "2026-06-03",
+      "date": "2026-08-21",
       "topicTags": [
         "Aortic Disease",
         "Endovascular",
@@ -1307,20 +1318,32 @@
         "Imaging / Diagnosis"
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42597540/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42629616/"
     },
     {
-      "title": "Contemporary systematic review and meta-analysis of outcomes associated with femoropopliteal above-the-knee nonautologous surgical bypass.",
+      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
       "source": "Devices / Regulatory",
-      "date": "2026-05-14",
+      "date": "2026-08-21",
       "topicTags": [
-        "PAD / CLTI",
+        "Aortic Disease",
         "Endovascular",
-        "Open Surgery",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/"
+    },
+    {
+      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
+      "source": "Devices / Regulatory",
+      "date": "2026-08-19",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
         "Vascular Graft / Stent / Device"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42140452/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
@@ -1335,16 +1358,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42349637/"
     },
     {
-      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
+      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
       "source": "Safety",
-      "date": "2026-08-19",
+      "date": "2026-08-21",
       "topicTags": [
         "Aortic Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "China Research"
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/"
     }
   ],
   "note": "规则生成周报：基于 PubMed、ClinicalTrials.gov 和派生提醒数据按相关性、研究类型、主题、招募状态和更新时间排序，不调用 AI。"
