@@ -1010,6 +1010,53 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42633429",
+    "title": "Explainable Machine Learning for Predicting Deep Vein Thrombosis in Critically Ill Patients with COPD: Development and Multicenter External Validation.",
+    "abstract": "BACKGROUND: Deep vein thrombosis (DVT) is a frequent yet underrecognized complication in critically ill patients with chronic obstructive pulmonary disease (COPD). Existing risk assessment tools are not specifically tailored to this high-risk population. We aimed to develop and externally validate an interpretable machine-learning model for early prediction of DVT in ICU-admitted COPD patients. METHODS: Adult COPD patients admitted to the ICU were identified from the MIMIC-IV database and randomly divided into training and internal validation cohorts. Eight machine-learning algorithms were constructed and compared. The best-performing model was externally validated in MIMIC-III and eICU cohorts. Model discrimination, calibration, and clinical utility were assessed using AUC, calibration plots, decision-curve analysis (DCA), and Brier scores. SHAP analysis was applied for global and individual interpretability. A web-based calculator was developed for clinical application. RESULTS: 2 Among 6,672 ICU patients with COPD, 462 (6.9%) developed DVT. XGBoost showed the best overall performance, with an AUC of 0.840 (95% CI 0.812-0.868) in the internal validation cohort and good calibration. External validation confirmed stable discrimination in both MIMIC-III and eICU cohorts. Model interpretation identified prolonged PTT, elevated RDW, reduced SpO, and increased respiratory rate as important contributors to DVT risk. Decision-curve analysis suggested potential clinical benefit across relevant risk thresholds. CONCLUSION: We developed and externally validated an explainable machine-learning model for early prediction of DVT in ICU patients with COPD. By providing individualized risk estimates and interpretable explanations, this tool may help clinicians identify high-risk patients earlier and support more targeted thromboprophylaxis and imaging surveillance strategies.",
+    "englishSummary": "BACKGROUND: Deep vein thrombosis (DVT) is a frequent yet underrecognized complication in critically ill patients with chronic obstructive pulmonary disease (COPD). Existing risk assessment tools are not specifically tailored to this high-risk population. We aimed to develop and externally validate an interpretable machine-learning model for early prediction of DVT in ICU-admitted COPD patients.",
+    "journal": "International journal of chronic obstructive pulmonary disease",
+    "publicationDate": "2026-08-18",
+    "authors": [
+      "Wang G",
+      "Liu T",
+      "Ji W",
+      "Li T",
+      "Wang Z",
+      "Hu T",
+      "Wang X",
+      "Shi Z"
+    ],
+    "affiliations": [
+      "Department of Respiratory and Critical Care Medicine, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, People's Republic of China.",
+      "Department of Respiratory and Critical Care Medicine, Xi'an Chang'an District Hospital, Xi'an, Shaanxi, 710100, People's Republic of China."
+    ],
+    "doi": "10.2147/COPD.S609203",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42633429/",
+    "publicationTypes": [
+      "Journal Article",
+      "Validation Study",
+      "Multicenter Study"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42613745",
     "title": "Association of clinical frailty with the development and adverse outcomes of venous diseases: A systematic review and meta-analysis.",
     "abstract": "p p p p p BackgroundClinical frailty is an emerging health problem and a risk factor for venous disease and its adverse outcomes. This review and meta-analysis will determine the association of frailty in the development of venous diseases and related adverse outcomes.Materials and methodsA literature review was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. Searches were done in PubMed and Embase, from 1 January 2007 to 1 January 2025. Articles that were not related to frailty and venous disease were excluded. References from review papers were further screened following the same inclusion and exclusion criteria. R studio was used for the meta-analysis of the studies on non-postoperative venous thromboembolism (VTE) and pulmonary embolism (PE).ResultsA total of 1338 articles were retrieved, and 72 papers, involving 6,407,901 patients, were included in the final review. Sixty-one studies assessed frailty and postoperative complications, and 65% reported that frail patients had a higher risk of postoperative VTE (< 0.05). Spinal, neurosurgical, abdominal, and orthopaedic patients exhibited the highest rates across surgical specialties. Meta-analysis of six studies demonstrated that frailty was associated with an increased risk of non-postoperative VTE (OR 1.91, 95% CI 1.15-3.18,= 0.012). Three papers showed that high frailty risk was associated with greater odds of mortality in patients with PE (Pooled OR 9.95, 95% CI 6.32-15.67,< 0.0001). Of the remaining two studies, one found that frail patients were more likely to have ulcer recurrence than non-frail patients (< 0.001). The other reported that frail patients had a higher risk of varicose veins than non-frail patients (= 0.01).ConclusionClinical frailty is associated with an increased risk of VTE and adverse outcomes in venous disease, although the certainty of evidence is limited by substantial heterogeneity and methodological differences among studies.",
@@ -1050,154 +1097,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42613014",
-    "title": "External validation of the AAA+ survival model in a large Chinese cohort with essential thrombocythaemia.",
-    "abstract": "Triple A Plus (AAA+) is a recently proposed survival prediction model for essential thrombocythaemia (ET) intended for settings in which next-generation sequencing is unavailable. However, independent validation in non-Western populations remains limited. A retrospective cohort of 995 consecutive patients diagnosed with ET at a single centre between 2001 and 2022 was screened. Primary external validation was performed in 850 patients who had complete baseline variables required for the original AAA+ calculation. In the external-validation cohort (n&#x2009;=&#x2009;850; deaths&#x2009;=&#x2009;116), AAA+ demonstrated strong discrimination for overall survival (C-index 0.892, 95% confidence interval 0.866-0.917). Time-dependent analyses indicated superior discrimination across follow-up, with 5- and 10-year area under the curve values of 0.902 and 0.912, respectively, exceeding those of AAA (0.873 and 0.894) and International Prognostic Score for Essential Thrombocythemia (0.759 and 0.857). For 10-year all-cause mortality, decision-curve analysis based on locally recalibrated absolute risks showed that AAA+ provided favourable net benefit across most clinically relevant thresholds. Diagnostic period-adjusted analyses showed higher hazards of death in intermediate- and high-risk patients than in low-risk patients, with no clear evidence of temporal heterogeneity or monotonic attenuation of the AAA+ risk gradient over time. AAA+ exhibited robust risk stratification and good discrimination for overall survival in this large Chinese ET cohort.",
-    "englishSummary": "Triple A Plus (AAA+) is a recently proposed survival prediction model for essential thrombocythaemia (ET) intended for settings in which next-generation sequencing is unavailable. However, independent validation in non-Western populations remains limited. A retrospective cohort of 995 consecutive patients diagnosed with ET at a single centre between 2001 and 2022 was screened.",
-    "journal": "British journal of haematology",
-    "publicationDate": "2026-08-18",
-    "authors": [
-      "Zhang L",
-      "Gu W",
-      "Dong H",
-      "Liu X",
-      "Xue F",
-      "Chen Y",
-      "Liu W",
-      "Ju M",
-      "Sun T",
-      "Dai X",
-      "Xu Y",
-      "Zhang A",
-      "Qu X",
-      "Ma S",
-      "Yang R",
-      "Fu R",
-      "Zhang L"
-    ],
-    "affiliations": [
-      "State Key Laboratory of Experimental Hematology, Haihe Laboratory of Cell Ecosystem, Tianjin Key Laboratory of Gene Therapy for Blood Diseases, National Clinical Research Center for Blood Diseases, Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin, China.",
-      "Tianjin Institutes of Health Science, Tianjin, China.",
-      "School of Population Medicine and Public Health, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, China."
-    ],
-    "doi": "10.1111/bjh.70764",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42613014/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort",
-      "Basic Research"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42612202",
-    "title": "Risk Factors of Arteriovenous Fistula Stenosis in Hemodialysis Patients Using Electronic Stethoscope Monitoring: Prospective Pilot Cohort Study.",
-    "abstract": "BACKGROUND: Arteriovenous fistula (AVF) stenosis is an important complication of hemodialysis that may impair dialysis adequacy and patient outcomes. Conventional AVF monitoring relies largely on subjective physical assessment and may delay recognition of abnormal vascular access findings. OBJECTIVE: This prospective pilot study aimed to assess the feasibility of serial electronic stethoscope monitoring for detecting abnormal AVF sounds before routine nursing assessment, and explore factors associated with a high-risk AVF phenotype, defined as percutaneous transluminal angioplasty within the preceding 3 years. METHODS: We conducted a 3-month prospective study at the National Taiwan University Hospital Yunlin Branch Hemodialysis Center from March to June 2023. Thirty adults receiving maintenance hemodialysis through a functional AVF were enrolled; 29 completed follow-up and generated 1462 acoustic recordings. AVF sounds were recorded 2-6 times weekly at 2 standardized sites: approximately 3 cm proximal to the anastomosis and the arterial needle insertion site. Signals were analyzed using short-time Fourier transform and expressed as decibels relative to full scale. Clinical, demographic, laboratory, and dialysis-related data were collected. Because recordings were clustered within patients, risk-factor analyses were performed at the patient level. Associations with the prespecified high-risk AVF phenotype were explored using Fisher exact tests and Firth penalized logistic regression because only 9 patients met the high-risk definition. RESULTS: P P P P An exploratory in-sample candidate threshold for abnormal AVF sounds was derived at <-28.59 decibels relative to full scale using a 3SD rule. Because the threshold was developed, refined, and evaluated within the same small dataset, it requires independent external validation. One participant had stenosis confirmed by duplex Doppler before acoustic monitoring began. In this illustrative case, the acoustic signal remained abnormal and was recognized approximately 1 month before routine bedside nursing assessment, although not before imaging. All stenotic recordings originated from this single participant and therefore do not constitute independent evidence of diagnostic performance. In exploratory patient-level analyses, the high-risk phenotype was associated with diabetes mellitus (odds ratio [OR] 12.6, 95% CI 2.2-138.1;=.005), hypertension (OR 12.9, 95% CI 1.3-31.7;=.033), and BMI &#x2264;25 kg/m&#xb2; (OR 19.0, 95% CI 2.0-2568;=.011). Fresenius FX-series dialyzer use was not significant on exact testing (OR 4.4, 95% CI 0.9-28.5;=.11). Estimates were imprecise because of the limited number of high-risk patients. CONCLUSIONS: Serial electronic stethoscope monitoring was feasible. In one illustrative patient with Doppler-confirmed stenosis, persistent acoustic abnormalities were recognized before routine nursing assessment but not before imaging. The candidate acoustic threshold and exploratory correlates of high-risk AVF status require confirmation in larger, externally validated prospective cohorts before clinical implementation.",
-    "englishSummary": "BACKGROUND: Arteriovenous fistula (AVF) stenosis is an important complication of hemodialysis that may impair dialysis adequacy and patient outcomes. Conventional AVF monitoring relies largely on subjective physical assessment and may delay recognition of abnormal vascular access findings. OBJECTIVE: This prospective pilot study aimed to assess the feasibility of serial electronic stethoscope monitoring for detecting abnormal AVF sounds before routine nursing assessment, and explore factors associated with a high-risk AVF phenotype, defined as percutaneous transluminal angioplasty within the preceding 3 years.",
-    "journal": "JMIR formative research",
-    "publicationDate": "2026-08-18",
-    "authors": [
-      "Li WY",
-      "Wu YC",
-      "Cheng BW",
-      "Yang FJ"
-    ],
-    "affiliations": [
-      "Division of Nephrology, Department of Internal Medicine, National Taiwan University Hospital, Yunlin Branch, Douliu, Taiwan.",
-      "National Taiwan University College of Medicine, Taipei, Taiwan.",
-      "Department of Industrial Engineering and Management, National Yunlin University of Science and Technology, Douliu, Taiwan.",
-      "Department of Medical Genetics, National Taiwan University Hospital, Children's Hospital Building, 8 Chung-Shan South Road, Taipei, 10041, Taiwan, 886-2-23123456.",
-      "Division of Nephrology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan."
-    ],
-    "doi": "10.2196/97202",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42612202/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Dialysis Access",
-      "Endovascular",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "medium",
-    "score": 4,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 China affiliation: Taiwan"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42611794",
-    "title": "A Multidisciplinary Team-Based Large Language Model Framework for Predicting Postoperative Neurological Complications in Acute Type A Aortic Dissection: Model Development and Validation Study.",
-    "abstract": "BACKGROUND: Postoperative neurological complications (PNCs) after acute type A aortic dissection (ATAAD) surgery are clinically emergent and require multidimensional perioperative risk assessment. Large language models (LLMs) have shown potential in clinical prediction, but the incremental value of structured multiagent collaboration remains unclear. OBJECTIVE: This study aimed to develop and validate a multidisciplinary team (MDT)-based LLM framework for predicting PNC after ATAAD surgery and to compare its performance with that of traditional machine learning (ML) models and single-agent LLM settings. METHODS: P F 1 A retrospective cohort from January 2020 to June 2024 (N=763) was randomly divided into a training set (n=533) and an internal validation set (n=230). A prospective cohort from July 2024 to June 2025 (n=120) was used for prospective validation. The outcome was PNC, defined as stroke, cerebral hemorrhage, paraplegia, or coma. Population-level in-context learning used outcome-stratified summary statistics from the training cohort, including predictor distributions in patients with and without PNC and between-groupvalues. Two LLMs (DeepSeek-V3 and ChatGPT [GPT-5]) were evaluated under 4 settings: no MDT without in-context learning, MDT without in-context learning, no MDT with in-context learning, and MDT with in-context learning. Model performance was assessed using the area under the receiver operating characteristic curve (AUC), sensitivity, specificity, accuracy,-score, and Brier score. RESULTS: P P PNC occurred in 13.0% (99/763) of patients in the retrospective cohort and 15.8% (19/120) in the prospective cohort. Among the ML models, the random forest achieved the highest AUC in the internal validation set (AUC 0.7857, 95% CI 0.6945-0.8768). Among the LLM configurations, GPT-5 with MDT and in-context learning achieved the highest AUC (AUC 0.8419, 95% CI 0.7398-0.9440), with a sensitivity of 80.00%, specificity of 87.00%, and Brier score of 0.0876. Although this configuration showed a significantly higher AUC than the fully unaided GPT-5 baseline (=.006), this improvement reflected the combined effect of MDT and in-context learning, as adding the MDT framework within matched settings did not significantly improve AUC over corresponding single-agent settings in either cohort. The AUC of GPT-5 with MDT and in-context learning was also not significantly higher than that of the random forest model (=.18). Word frequency analysis showed that the generated rationales following in-context learning more frequently mentioned variables that were statistically significant in the provided context. CONCLUSIONS: The GPT-5 configuration combining MDT-style collaboration with population-level in-context learning showed promising discrimination for PNC prediction after ATAAD surgery. However, the MDT layer did not produce a statistically significant incremental improvement in AUC over the corresponding single-agent settings, and its predictive contribution remains to be confirmed. The framework generated structured, role-specific rationales, supporting its further evaluation as a proof-of-concept approach for postoperative risk stratification. Larger multicenter studies are required before routine clinical implementation.",
-    "englishSummary": "BACKGROUND: Postoperative neurological complications (PNCs) after acute type A aortic dissection (ATAAD) surgery are clinically emergent and require multidimensional perioperative risk assessment. Large language models (LLMs) have shown potential in clinical prediction, but the incremental value of structured multiagent collaboration remains unclear. OBJECTIVE: This study aimed to develop and validate a multidisciplinary team (MDT)-based LLM framework for predicting PNC after ATAAD surgery and to compare its performance with that of traditional machine learning (ML) models and single-agent LLM settings.",
-    "journal": "Journal of medical Internet research",
-    "publicationDate": "2026-08-18",
-    "authors": [
-      "Li J",
-      "Zhang J",
-      "Tao X",
-      "Chen Y",
-      "Xun S",
-      "Qin G",
-      "Diao K",
-      "Qin C"
-    ],
-    "affiliations": [
-      "Department of Thoracic Surgery and Institute of Thoracic Oncology, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
-      "Department of Cardiovascular Surgery and Cardiovascular Surgery Research Laboratory, West China Hospital, Sichuan University, No. 37, Guoxue Alley, Chengdu, Sichuan, 610041, China, 86 028 85422897.",
-      "West China School of Medicine, West China Hospital, Sichuan University, Chengdu, Sichuan, China.",
-      "School of Computer Science, Shanghai Jiao Tong University, Shanghai, China.",
-      "Department of Radiology, West China Hospital, Sichuan University, Chengdu, Sichuan, China."
-    ],
-    "doi": "10.2196/91257",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42611794/",
-    "publicationTypes": [
-      "Journal Article",
-      "Validation Study"
-    ],
-    "topicTags": [
-      "Aortic Disease",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 11,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: aortic dissection",
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -1286,44 +1185,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42598566",
-    "title": "Endovascular treatment of an inaccessible aneurysm in moyamoya&#x2011;like vessels using the floating&#x2011;coil technique.",
-    "abstract": "In moyamoya disease (MMD), moyamoya&#x2011;like vessels develop at the base of the brain. A ruptured aneurysm originating from these vessels is challenging to manage with endovascular treatment (EVT). When direct catheterization is infeasible, parent artery occlusion (PAO) may be the last resort. However, if liquid embolic agents are unsafe due to a short reflux distance, deploying floating coils into the parent artery to occlude or trap the aneurysm offers a viable alternative. This maneuver, termed the \"floating&#x2011;coil technique,\" has not been previously described. A 60&#x2011;year&#x2011;old man with subarachnoid hemorrhage (Hunt-Hess grade II) had MMD and an aneurysm in moyamoya-like vessels arising from the posterior cerebral artery. During EVT, neither the Marathon nor the Echelon&#x2011;10 microcatheter could be navigated into the parent artery because of an acute angulation. The floating-coil technique was used: first, an Axium Prime 1 mm &#xd7; 2 cm coil was pushed out, detached, and floated into the parent artery. Then, 3 Axium Prime 1 mm &#xd7; 1 cm coils were similarly deployed to occlude the parent artery of the aneurysm. Post&#x2011;EVT angiography showed disappearance of the aneurysm and occlusion of moyamoya&#x2011;like vessels. The patient had no new deficits and recovered well, with a modified Rankin Scale score of 0 at the 2&#x2011;month follow&#x2011;up. Thus, the \"floating&#x2011;coil technique\" is a valid choice for inaccessible aneurysms in moyamoya&#x2011;like vessels.",
-    "englishSummary": "In moyamoya disease (MMD), moyamoya&#x2011;like vessels develop at the base of the brain. A ruptured aneurysm originating from these vessels is challenging to manage with endovascular treatment (EVT). When direct catheterization is infeasible, parent artery occlusion (PAO) may be the last resort.",
-    "journal": "Radiology case reports",
-    "publicationDate": "2026-08-04",
-    "authors": [
-      "Yu J"
-    ],
-    "affiliations": [
-      "Department of Neurosurgery, The First Hospital of Jilin University, Changchun, China."
-    ],
-    "doi": "10.1016/j.radcr.2026.07.077",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42598566/",
-    "publicationTypes": [
-      "Case Reports",
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Endovascular",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Case Report"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China",
-      "-1 case report: case reports"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
@@ -1550,49 +1411,6 @@
       "+2 human study: patients",
       "+2 treatment or prognosis relevance: treatment",
       "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42597522",
-    "title": "Delamination of a Flixene early cannulation arteriovenous graft.",
-    "abstract": "Arteriovenous graft wall delamination is a rare complication that can compromise vascular patency. Definitive consensus on optimal management strategies for this condition is lacking, and existing strategies are largely empirical. We report the case of a 55-year-old man with end-stage renal disease who presented with upper-extremity early-cannulated arteriovenous graft thrombosis 6 months after implantation. Color Doppler ultrasound study revealed graft wall delamination and false lumen formation. The patient underwent thrombectomy, ultrasound-guided needle aspiration for false lumen volume reduction, and angioplasty. Unobstructed graft function was maintained at the 6-month follow-up. Improper cannulation may cause this structural injury; endovascular angioplasty combined with false lumen reduction yields favorable midterm efficacy.",
-    "englishSummary": "Arteriovenous graft wall delamination is a rare complication that can compromise vascular patency. Definitive consensus on optimal management strategies for this condition is lacking, and existing strategies are largely empirical. We report the case of a 55-year-old man with end-stage renal disease who presented with upper-extremity early-cannulated arteriovenous graft thrombosis 6 months after implantation.",
-    "journal": "Journal of vascular surgery cases and innovative techniques",
-    "publicationDate": "2026-07-03",
-    "authors": [
-      "Zeng Y",
-      "Wang Y",
-      "Cui R"
-    ],
-    "affiliations": [
-      "Department of Nephrology, Beijing Haidian Hospital, Haidian Section of Peking University Third Hospital, Beijing, China."
-    ],
-    "doi": "10.1016/j.jvscit.2026.102389",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42597522/",
-    "publicationTypes": [
-      "Case Reports",
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Endovascular",
-      "Vascular Graft / Stent / Device",
-      "Imaging / Diagnosis",
-      "Guideline / Consensus",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Case Report"
-    ],
-    "relevance": "medium",
-    "score": 5,
-    "scoreReasons": [
-      "+2 clinical evidence design: consensus",
-      "+2 treatment or prognosis relevance: graft",
-      "+2 China affiliation: China",
-      "-1 case report: case reports"
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",

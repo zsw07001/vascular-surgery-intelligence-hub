@@ -1,55 +1,55 @@
 {
-  "generatedAt": "2026-08-22T20:39:32.765Z",
+  "generatedAt": "2026-08-23T20:38:28.216Z",
   "period": {
-    "start": "2026-08-16",
-    "end": "2026-08-22"
+    "start": "2026-08-17",
+    "end": "2026-08-23"
   },
-  "dataUpdatedAt": "2026-08-22T20:39:32.765Z",
+  "dataUpdatedAt": "2026-08-23T20:38:28.216Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-08-22T20:39:32.765Z"
+      "updatedAt": "2026-08-23T20:38:28.216Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 763,
-      "updatedAt": "2026-08-22T20:39:32.765Z"
+      "updatedAt": "2026-08-23T20:38:28.216Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 9,
-      "updatedAt": "2026-08-22T20:39:32.765Z"
+      "count": 11,
+      "updatedAt": "2026-08-23T20:38:28.216Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
-      "count": 31,
-      "updatedAt": "2026-08-22T20:39:32.765Z"
+      "count": 32,
+      "updatedAt": "2026-08-23T20:38:28.216Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-22T20:39:32.765Z"
+      "updatedAt": "2026-08-23T20:38:28.216Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-08-22T20:39:32.765Z"
+      "updatedAt": "2026-08-23T20:38:28.216Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
     "highImpact": 93,
-    "chinaResearch": 34,
+    "chinaResearch": 30,
     "clinicalTrials": 763,
-    "guidelines": 9,
-    "devices": 31,
+    "guidelines": 11,
+    "devices": 32,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
@@ -58,19 +58,15 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 73
+      "count": 78
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 73
+      "count": 76
     },
     {
       "tag": "Venous Disease",
-      "count": 66
-    },
-    {
-      "tag": "China Research",
-      "count": 34
+      "count": 67
     },
     {
       "tag": "Aortic Disease",
@@ -78,15 +74,19 @@
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 31
+      "count": 32
+    },
+    {
+      "tag": "China Research",
+      "count": 30
     },
     {
       "tag": "Antithrombotic Therapy",
-      "count": 24
+      "count": 23
     },
     {
       "tag": "PAD / CLTI",
-      "count": 20
+      "count": 18
     }
   ],
   "priorityReading": [
@@ -1142,6 +1142,19 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42617073/"
     },
     {
+      "title": "Autonomous Vascular Access Devices: Current Solutions and Future Challenges.",
+      "source": "Guidelines",
+      "date": "2026-08-22",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42632640/"
+    },
+    {
       "title": "Sex Differences in Peripheral Arterial Disease: Presentation, Treatment, and Outcomes.",
       "source": "Guidelines",
       "date": "2026-06-11",
@@ -1155,16 +1168,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42603072/"
     },
     {
-      "title": "Potential Role of Circulating Biomarkers in Peripheral Artery Disease.",
-      "source": "Guidelines",
-      "date": "2026-08-21",
+      "title": "Concurrent Peripheral Arterial Disease Predicts Re-Intervention Following Abdominal Aortic Aneurysm Repair: A Single-Centre Propensity Matched Retrospective Study.",
+      "source": "Devices / Regulatory",
+      "date": "2026-08-22",
       "topicTags": [
         "PAD / CLTI",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42625087/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42631450/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
@@ -1205,16 +1220,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/"
     },
     {
-      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-08-19",
+      "title": "Concurrent Peripheral Arterial Disease Predicts Re-Intervention Following Abdominal Aortic Aneurysm Repair: A Single-Centre Propensity Matched Retrospective Study.",
+      "source": "Safety",
+      "date": "2026-08-22",
       "topicTags": [
+        "PAD / CLTI",
         "Aortic Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42631450/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
@@ -1227,19 +1244,6 @@
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42349637/"
-    },
-    {
-      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
-      "source": "Safety",
-      "date": "2026-08-21",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/"
     }
   ],
   "reviewQueue": [
@@ -1271,6 +1275,19 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42617073/"
     },
     {
+      "title": "Autonomous Vascular Access Devices: Current Solutions and Future Challenges.",
+      "source": "Guidelines",
+      "date": "2026-08-22",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42632640/"
+    },
+    {
       "title": "Sex Differences in Peripheral Arterial Disease: Presentation, Treatment, and Outcomes.",
       "source": "Guidelines",
       "date": "2026-06-11",
@@ -1284,16 +1301,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42603072/"
     },
     {
-      "title": "Potential Role of Circulating Biomarkers in Peripheral Artery Disease.",
-      "source": "Guidelines",
-      "date": "2026-08-21",
+      "title": "Concurrent Peripheral Arterial Disease Predicts Re-Intervention Following Abdominal Aortic Aneurysm Repair: A Single-Centre Propensity Matched Retrospective Study.",
+      "source": "Devices / Regulatory",
+      "date": "2026-08-22",
       "topicTags": [
         "PAD / CLTI",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42625087/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42631450/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
@@ -1334,16 +1353,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/"
     },
     {
-      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-08-19",
+      "title": "Concurrent Peripheral Arterial Disease Predicts Re-Intervention Following Abdominal Aortic Aneurysm Repair: A Single-Centre Propensity Matched Retrospective Study.",
+      "source": "Safety",
+      "date": "2026-08-22",
       "topicTags": [
+        "PAD / CLTI",
         "Aortic Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；PAD / CLTI / Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42631450/"
     },
     {
       "title": "Hospital Volume and Outcomes after Elective Abdominal Aortic Aneurysm Repair: A Systematic Review and Dose-Response Meta-Analysis.",
@@ -1356,19 +1377,6 @@
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42349637/"
-    },
-    {
-      "title": "Triple-Branched Stent-Grafts for Total Endovascular Repair of Aortic Arch Pathologies: A Systematic Review: Triple-Branched TEVAR of Aortic Arch.",
-      "source": "Safety",
-      "date": "2026-08-21",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42628686/"
     }
   ],
   "note": "规则生成周报：基于 PubMed、ClinicalTrials.gov 和派生提醒数据按相关性、研究类型、主题、招募状态和更新时间排序，不调用 AI。"
