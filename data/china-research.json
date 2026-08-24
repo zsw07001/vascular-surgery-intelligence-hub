@@ -1,5 +1,284 @@
 [
   {
+    "pmid": "42635076",
+    "title": "Deciphering ribosomal frameshifting determinants across species with a semi-supervised hybrid learning framework.",
+    "abstract": "Programmed ribosomal frameshifting (PRF) is a conserved translational recoding mechanism that expands proteome diversity and regulates important biological processes across viruses, prokaryotes, and eukaryotes. However, existing predictors are often limited by their reliance on extensive annotated data, poor performance in non-model organisms, and restricted applicability across species or frameshift types. Here, we present FScanpy, a hybrid machine-learning model integrating histogram-based gradient boosting (HistGB) and a bidirectional long short-term memory-convolutional neural network (BiLSTM-CNN) architecture for cross-species PRF prediction. The model integrates short-range codon-position features associated with ribosomal pausing and long-range sequence contexts that reflect structural constraints around candidate shift sites. Using semi-supervised learning on 8 049 candidate sequences, FScanpy reduces reliance on manual annotation and improves model generalization. Across multiple datasets, it achieved an area under the receiver operating characteristic curve (AUC) of 0.951, and it also performed well on euplotid protists (AUC=0.877), supporting its utility in non-model systems with non-canonical recoding patterns. Feature interpretation further showed that AAA and GGG motifs, together with mRNA secondary-structure stability, as major determinants across datasets, highlighting conserved features of PRF from viruses to eukaryotes. These insights not only validate the model's accuracy but also deepen understanding of PRF's conserved biological roles. FScanpy establishes a novel and effective computational framework for PRF analysis by resolving challenges in feature representation and species generalizability, enabling the study of frameshifting sites and accelerating discovery of evolutionarily divergent recoding events.",
+    "englishSummary": "Programmed ribosomal frameshifting (PRF) is a conserved translational recoding mechanism that expands proteome diversity and regulates important biological processes across viruses, prokaryotes, and eukaryotes. However, existing predictors are often limited by their reliance on extensive annotated data, poor performance in non-model organisms, and restricted applicability across species or frameshift types. Here, we present FScanpy, a hybrid machine-learning model integrating histogram-based gradient boosting (HistGB) and a bidirectional long short-term memory-convolutional neural network (BiLSTM-CNN) architecture for cross-species PRF prediction.",
+    "journal": "Zoological research",
+    "publicationDate": "2026-09-18",
+    "authors": [
+      "Yang Y",
+      "Yang J",
+      "Liu Z",
+      "Li Y",
+      "Song W",
+      "Stover NA",
+      "Chen X"
+    ],
+    "affiliations": [
+      "SDU-ANU Joint Science College, Shandong University, Weihai, Shandong 264209, China.",
+      "Marine College, Shandong University, Weihai, Shandong 264209, China.",
+      "Institute of Evolution and Marine Biodiversity, Ocean University of China, Qingdao, Shandong 266003, China.",
+      "Department of Biology, Bradley University, Peoria 61625, USA.",
+      "Marine College, Shandong University, Weihai, Shandong 264209, China. E-mail: xc@sdu.edu.cn."
+    ],
+    "doi": "10.24272/j.issn.2095-8137.2025.648",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42635076/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "review",
+    "score": 0,
+    "scoreReasons": [
+      "+2 China affiliation: China",
+      "-2 basic mechanism without clinical relevance: mechanism"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42635106",
+    "title": "Post-procedural access blood flow and repeat endovascular intervention in hemodialysis vascular access: a recurrent-event cohort study.",
+    "abstract": "p p The prognostic value of access blood flow (Qa) measured after endovascular intervention is uncertain. We performed an episode-based recurrent-event cohort study of maintenance hemodialysis patients undergoing endovascular intervention for arteriovenous access dysfunction. The primary exposure was post-procedural Qa modeled continuously per 100&#x2009;mL/min higher Qa; post-procedural Qa <1000&#x2009;mL/min was examined as a secondary clinically interpretable threshold. The outcome was time to the next access intervention, analyzed using an Andersen-Gill counting-process Cox model with patient-level cluster-robust variance. A total of 131 patients contributed 382 intervention episodes, and post-procedural Qa was available for 315 episodes. Median time to repeat intervention was shorter for Qa <1000&#x2009;mL/min than for Qa &#x2265;1000&#x2009;mL/min. In the primary adjusted model, each 100&#x2009;mL/min higher post-procedural Qa was associated with a lower hazard of repeat intervention (aHR 0.941, 95% CI 0.896-0.990,&#x2009;=&#x2009;0.018). In the secondary threshold-based analysis, post-procedural Qa <1000&#x2009;mL/min was associated with a higher hazard of repeat intervention (aHR 2.005, 95% CI 1.351-2.974,&#x2009;<&#x2009;0.001). Findings were generally consistent across sensitivity analyses, including IPW for missing post-procedural Qa, exclusion of occlusion episodes, shared-frailty modeling, adjustment for available pre-procedural Qa, and cause-specific terminal-event analysis. Lower post-procedural Qa may serve as a practical hemodynamic marker for post-procedural risk stratification after endovascular intervention.",
+    "englishSummary": "p p The prognostic value of access blood flow (Qa) measured after endovascular intervention is uncertain. We performed an episode-based recurrent-event cohort study of maintenance hemodialysis patients undergoing endovascular intervention for arteriovenous access dysfunction. The primary exposure was post-procedural Qa modeled continuously per 100&#x2009;mL/min higher Qa; post-procedural Qa <1000&#x2009;mL/min was examined as a secondary clinically interpretable threshold.",
+    "journal": "Renal failure",
+    "publicationDate": "2026-08-24",
+    "authors": [
+      "Shih HM",
+      "Lin CJ",
+      "Chuang SM",
+      "Chang KS",
+      "Wu CJ",
+      "Pan CF"
+    ],
+    "affiliations": [
+      "Division of Nephrology, Department of Internal Medicine, MacKay Memorial Hospital, Taipei, Taiwan.",
+      "School of Medicine, College of Medicine, MacKay Medical University, Taipei, Taiwan.",
+      "Graduate Institute of Physiology, College of Medicine, National Taiwan University, Taipei, Taiwan.",
+      "Nursing and Management, MacKay Junior College of Medicine, Taipei, Taiwan.",
+      "Division of Endocrinology and Metabolism, Department of Internal Medicine, MacKay Memorial Hospital, Taipei, Taiwan.",
+      "Department of Medical Research, China Medical University Hospital, China Medical University, Taichung, Taiwan."
+    ],
+    "doi": "10.1080/0886022X.2026.2697399",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42635106/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Endovascular",
+      "Vascular Graft / Stent / Device",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 11,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: intervention",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42635091",
+    "title": "Early balloon-assisted-maturation does not reduce patency of mature arteriovenous fistulae.",
+    "abstract": "st st p p p p While balloon-assisted maturation (BAM) is increasingly used to promote arteriovenous fistulae (AVF) maturation, its effects on post-maturation patency remain unclear. This study investigates the patency of BAM-matured AVF at 1&#x2009;year in hemodialysis patients. This retrospective cohort study collected data from patients with AVF created between January 1, 2017, and December 31, 2021, with subsequent maturation and follow-up at a medical center in Taiwan. Patients were classified as BAM or non-BAM. The group receiving BAM was further stratified into early and late BAM by the median time of balloon catheter cannulation (55&#x2009;days from AVF creation). Outcomes included primary intervention for mature AVF, including percutaneous transluminal angioplasty and thrombectomy, and patency at 1&#x2009;year after maturation. Of the 129 eligible patients, 74 (57.36%) received BAM and 55 (42.64%) did not, with comparable baseline characteristics observed between the early- and late-BAM groups. Kaplan-Meier analysis shows comparably sustained post-maturation patency between the BAM and non-BAM (&#x2009;=&#x2009;0.238) and early- and late-BAM groups (&#x2009;=&#x2009;0.116). The risk of primary intervention was similar between the BAM and non-BAM groups (adjusted hazard ratio (aHR), 1.25; 95% confidence interval (CI), 0.78-2.01,&#x2009;=&#x2009;0.346) and the early-BAM and late-BAM groups (aHR, 0.64; 95% CI, 0.32-1.26,&#x2009;=&#x2009;0.194) at 1&#x2009;year by regression analysis. The patency of mature AVF was comparable between patients with and without BAM. Early BAM did not significantly increase the risk of primary intervention at 1&#x2009;year and may be considered for slow-to-mature AVF.",
+    "englishSummary": "st st p p p p While balloon-assisted maturation (BAM) is increasingly used to promote arteriovenous fistulae (AVF) maturation, its effects on post-maturation patency remain unclear. This study investigates the patency of BAM-matured AVF at 1&#x2009;year in hemodialysis patients. This retrospective cohort study collected data from patients with AVF created between January 1, 2017, and December 31, 2021, with subsequent maturation and follow-up at a medical center in Taiwan.",
+    "journal": "Renal failure",
+    "publicationDate": "2026-08-24",
+    "authors": [
+      "Wu CK",
+      "Tseng WC",
+      "Lin CH"
+    ],
+    "affiliations": [
+      "Division of Nephrology, Department of Internal Medicine, Shin-Kong Wu Ho-Su Memorial Hospital, Taipei, Taiwan.",
+      "Dialysis Access Management Center, Shin Kong Wu Ho Su Memorial Hospital, Taipei, Taiwan.",
+      "School of Medicine, Fu-Jen Catholic University, New Taipei, Taiwan.",
+      "Division of Nephrology, Department of Medicine, Taipei Veterans General Hospital, Taipei, Taiwan.",
+      "School of Medicine, College of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+      "Division of Cardiovascular Surgery, Department of Surgery, Shin Kong Wu Ho Su Memorial Hospital, Taipei, Taiwan."
+    ],
+    "doi": "10.1080/0886022X.2026.2679293",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42635091/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Dialysis Access",
+      "Endovascular",
+      "Vascular Graft / Stent / Device",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 8,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: intervention",
+      "+2 China affiliation: Taiwan"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42634889",
+    "title": "Geographic miss and stent graft restenosis in hemodialysis access.",
+    "abstract": "Stent grafts are widely used to treat dysfunctional hemodialysis vascular access, yet restenosis remains common and its predictors are incompletely understood. We analyzed 203 unique patients who underwent stent graft implantation between 2018 and 2022 from a prospectively maintained database. Geographic miss was defined as inadequate lesion coverage or suboptimal stent sizing; longitudinal geographic miss (LGM) was defined as residual stenosis >30% within 5&#x2009;mm of either stent edge. The outcomes were loss of stent graft patency and access primary patency, assessed using Kaplan-Meier analysis and Cox regression models. Among 203 patients, 81% had arteriovenous grafts and 19% had arteriovenous fistulas. One-year stent graft patency and access primary patency were 63.1% and 22.7%, respectively. In the primary exploratory multivariable model, LGM was associated with both loss of stent graft patency (HR 2.62, 95% CI 1.34-5.12) and loss of access primary patency (HR 2.76, 95% CI 1.50-5.05). Other factors associated with patency outcomes included diabetes mellitus, thrombosis presentation, vessel rupture or dissection, smaller stent diameter, and stent graft length. LGM remained associated with both outcomes in an additional clinically adjusted model. These findings suggest that LGM may represent a potentially modifiable procedural target, although prospective studies with standardized imaging follow-up and prospective validation are needed.",
+    "englishSummary": "Stent grafts are widely used to treat dysfunctional hemodialysis vascular access, yet restenosis remains common and its predictors are incompletely understood. We analyzed 203 unique patients who underwent stent graft implantation between 2018 and 2022 from a prospectively maintained database. Geographic miss was defined as inadequate lesion coverage or suboptimal stent sizing; longitudinal geographic miss (LGM) was defined as residual stenosis >30% within 5&#x2009;mm of either stent edge.",
+    "journal": "Renal failure",
+    "publicationDate": "2026-08-24",
+    "authors": [
+      "Lien CW",
+      "Hsieh MC",
+      "Hsieh MY",
+      "Chen MK",
+      "Wu CC"
+    ],
+    "affiliations": [
+      "Cardiovascular Center, National Taiwan University Hospital, Hsin-Chu Hospital, Hsin-Chu, Taiwan.",
+      "Department of Radiology, National Taiwan University Hospital, Hsin-Chu Hospital, Hsin-Chu, Taiwan.",
+      "College of Medicine, National Taiwan University, Taipei, Taiwan.",
+      "Department of Family Medicine, National Taiwan University Hospital, Hsin-Chu Hospital, Hsin-Chu, Taiwan.",
+      "Institute of Biomedical Engineering, National Tsing-Hua University, Hsin-Chu, Taiwan.",
+      "Institute of Cellular and System Medicine, National Health Research Institutes, Zhunan, Taiwan."
+    ],
+    "doi": "10.1080/0886022X.2026.2717813",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42634889/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Dialysis Access",
+      "Vascular Graft / Stent / Device",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: stent",
+      "+2 China affiliation: Taiwan"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42635018",
+    "title": "Clinical Outcomes with Therapeutic Cerebrospinal Fluid Drainage for Spinal Cord Ischemia in Complex Endovascular Aortic Repair Using Fenestrated and Branched Stent-Grafts.",
+    "abstract": "PURPOSE: Spinal cord ischemia (SCI) remains a major concern following thoracoabdominal aortic aneurysm (TAAA) repair, even with advances in endovascular techniques. The clinical efficacy of selective therapeutic cerebrospinal fluid drainage (CSFD) over routine prophylactic strategies for managing postprocedural SCI remains to be fully elucidated. This study evaluated outcomes of fenestrated and branched endovascular aortic repair (F/B-EVAR) using the Zenith t-Branch device and assessed the neurological outcomes of therapeutic CSFD in patients who developed postoperative SCI. MATERIALS AND METHODS: A single-center retrospective observational cohort study was conducted at a tertiary academic medical center between January 2017 and January 2022, including 17 patients who underwent total endovascular repair for Crawford type I-V TAAA or pararenal AAA using the t-Branch device. The primary outcome was neurological recovery following therapeutic CSFD, assessed using the modified Tarlov scale. Secondary outcomes included technical success, in-hospital mortality, and aneurysm sac regression during follow-up. A standardized, multidisciplinary spinal cord protection protocol was followed, and therapeutic CSFD was initiated within 1 hour of confirmed SCI. RESULTS: Technical success was achieved in 59 of 62 planned target vessels (95%). Five patients (29%) developed SCI, all of whom underwent therapeutic CSFD. Median time from confirmed SCI to drain placement was 46 minutes (range 31-51). Median Tarlov scale score improved from 1 (range 0-2) at SCI onset to 4 (range 3-5) at discharge. One patient achieved complete neurological recovery (Tarlov 5); 4 had residual mild-to-moderate motor deficits. In-hospital mortality was 12% (2/17), both from nonaortic causes. During a median follow-up of 13 months (IQR 9-24), all surviving patients demonstrated aneurysm sac regression, and no secondary interventions were required. CONCLUSIONS: Therapeutic CSFD, implemented within a structured multidisciplinary protocol, was associated with neurological improvement in our small cohort, although the majority of patients retained residual mild-to-moderate deficits at discharge. These findings support a symptom-triggered, protocol-based CSFD strategy as a feasible rescue strategy that warrants cautious interpretation given its observational nature, and further validation through larger multicenter studies is required.",
+    "englishSummary": "PURPOSE: Spinal cord ischemia (SCI) remains a major concern following thoracoabdominal aortic aneurysm (TAAA) repair, even with advances in endovascular techniques. The clinical efficacy of selective therapeutic cerebrospinal fluid drainage (CSFD) over routine prophylactic strategies for managing postprocedural SCI remains to be fully elucidated. This study evaluated outcomes of fenestrated and branched endovascular aortic repair (F/B-EVAR) using the Zenith t-Branch device and assessed the neurological outcomes of therapeutic CSFD in patients who developed postoperative SCI.",
+    "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+    "publicationDate": "2026-08-24",
+    "authors": [
+      "Liu MY",
+      "Chi NH",
+      "Yu HY",
+      "Chen YS",
+      "Huang SC",
+      "Wu IH"
+    ],
+    "affiliations": [
+      "Department of Cardiovascular Surgery, National Taiwan University Hospital, College of Medicine, National Taiwan University, Taipei, Taiwan.",
+      "Graduate Institute of Clinical Medicine, College of Medicine, National Taiwan University, Taipei, Taiwan.",
+      "Department of Traumatology, National Taiwan University Hospital, Taipei, Taiwan."
+    ],
+    "doi": "10.1177/15266028261479536",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42635018/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "Endovascular",
+      "Vascular Graft / Stent / Device",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 11,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: endovascular",
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: device",
+      "+2 China affiliation: Taiwan"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42634254",
+    "title": "Recanalization of complete central venous occlusion using the kissing-wire and wire tensioning techniques: A case report.",
+    "abstract": "Central venous occlusion (CVO) is a common and serious complication in patients undergoing maintenance hemodialysis (MHD). A 62-year-old male on maintenance hemodialysis for 20&#x2009;years was admitted with right upper limb swelling that had persisted for 2&#x2009;years and had markedly worsened over the preceding 2&#x2009;months. Physical examination revealed pronounced swelling of the right upper limb, accompanied by localized skin hyperpigmentation. Computed tomography angiography (CTA) and digital subtraction angiography (DSA) of the right upper extremity demonstrated complete occlusion of the right subclavian and innominate veins, with an occlusion length of approximately 6.5&#x2009;cm. The occluded segment was successfully crossed using the kissing-wire and wire tensioning techniques. Subsequently, sequential balloon dilation was performed, followed by implantation of a 10&#x2009;mm&#x2009;&#xd7;&#x2009;100&#x2009;mm covered stent (Bard, Fluency Plus). Postoperative angiography demonstrated complete recanalization of the occluded vessel, with marked improvement in arteriovenous fistula blood flow. At the 3-month follow-up, no restenosis was observed. This case demonstrates that the combined use of kissing-wire and wire tensioning techniques for hemodialysis-related central venous occlusion is feasible and provides a valuable technical option for the endovascular management of complex central venous occlusions.",
+    "englishSummary": "Central venous occlusion (CVO) is a common and serious complication in patients undergoing maintenance hemodialysis (MHD). A 62-year-old male on maintenance hemodialysis for 20&#x2009;years was admitted with right upper limb swelling that had persisted for 2&#x2009;years and had markedly worsened over the preceding 2&#x2009;months. Physical examination revealed pronounced swelling of the right upper limb, accompanied by localized skin hyperpigmentation.",
+    "journal": "The journal of vascular access",
+    "publicationDate": "2026-08-23",
+    "authors": [
+      "Li L",
+      "Du J",
+      "Wen P",
+      "Jiang X",
+      "Xia Q",
+      "Yao J",
+      "Wu M"
+    ],
+    "affiliations": [
+      "Department of Nephrology, Affiliated Hospital of Jiujiang University, Jiujiang, Jiangxi, China.",
+      "Department of Dermatology, Affiliated Hospital of Jiujiang University, Jiujiang, Jiangxi, China.",
+      "Department of Cardiology, Affiliated Hospital of Jiujiang University, Jiujiang, Jiangxi, China."
+    ],
+    "doi": "10.1177/11297298261477789",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42634254/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Dialysis Access",
+      "Endovascular",
+      "Vascular Graft / Stent / Device",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Case Report"
+    ],
+    "relevance": "medium",
+    "score": 5,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 treatment or prognosis relevance: stent",
+      "+2 China affiliation: China",
+      "-1 case report: case report"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42630133",
     "title": "Chitosan Nanoparticles for the Treatment of Ischemia-Reperfusion Injury: Mechanisms, Preclinical Evidence, Challenges, and Future Perspectives.",
     "abstract": "Ischemia-reperfusion injury (IRI) is a complex pathological process involved in conditions such as organ transplantation, trauma, vascular surgery, myocardial infarction, and stroke. Although reperfusion is essential for restoring oxygen and nutrients to ischemic tissues, it can paradoxically worsen tissue damage through oxidative stress, mitochondrial dysfunction, endothelial injury, inflammation, immune-cell infiltration, microvascular dysfunction, and regulated cell death. The multifactorial and rapidly evolving nature of IRI limits the effectiveness of traditional therapeutic approaches. Therefore, there is a strong need for strategies capable of simultaneously targeting multiple pathological pathways. Chitosan nanoparticles have emerged as promising nanocarriers for IRI therapy due to their biocompatibility, biodegradability, low toxicity, and ability to be chemically modified. They can encapsulate diverse therapeutic agents, including antioxidants, anti-inflammatory compounds, proteins, peptides, and nucleic acids, thereby improving drug stability, bioavailability, tissue retention, and enabling controlled or stimuli-responsive release. This review summarizes current knowledge on IRI pathophysiology and highlights the therapeutic mechanisms of chitosan nanoparticles, particularly their effects on oxidative stress, inflammation, mitochondrial dysfunction, endothelial injury, and apoptosis. In addition, recent preclinical studies applying chitosan-based nanocarriers in cerebral, hepatic, renal, cardiac, and intestinal IRI are discussed.",
@@ -966,140 +1245,6 @@
     "source": "PubMed"
   },
   {
-    "pmid": "42616327",
-    "title": "Risk Factors for Deep Vein Thrombosis After Surgery in Patients with Gastric or Colorectal Cancer Receiving Anticoagulant Prophylaxis.",
-    "abstract": "OBJECTIVE: Our objective was to identify perioperative predictors of early postoperative lower-extremity deep vein thrombosis (DVT) in patients undergoing surgery for gastric or colorectal cancer who received routine pharmacologic thromboprophylaxis and to develop a nomogram for postoperative risk stratification. METHODS: This retrospective study included patients with gastric or colorectal cancer undergoing surgery from December 2020 to October 2023. All received postoperative low-molecular-weight heparin prophylaxis, and DVT was screened by ultrasonography on postoperative day 3. Predictors were identified by logistic regression and incorporated into a nomogram. RESULTS: A total of 388 eligible patients were included, among whom 124 (32.0%) had screening-detected postoperative lower-extremity DVT. Among patients with DVT, 118 (95.2%) had distal-only DVT and 114 (91.9%) were asymptomatic. Multivariable logistic regression identified age, activated partial thromboplastin time, prothrombin time, and postoperative day 1 D-dimer as independent predictors of postoperative DVT. The nomogram showed acceptable discrimination, with area under the receiver operating characteristic curve values of 0.787 (95% confidence interval 0.731-0.844) in the training cohort and 0.854 (95% confidence interval 0.774-0.934) in the validation cohort. Calibration curves showed good agreement between predicted and observed risks. In decision curve analysis, the nomogram provided greater net benefit for risk classification than strategies classifying all or no patients as high risk. CONCLUSION: Age, activated partial thromboplastin time, prothrombin time, and postoperative day 1 D-dimer were independently associated with screening-detected early postoperative DVT. The resulting nomogram may help postoperative risk stratification and closer surveillance; however, external validation is required before routine clinical application.",
-    "englishSummary": "OBJECTIVE: Our objective was to identify perioperative predictors of early postoperative lower-extremity deep vein thrombosis (DVT) in patients undergoing surgery for gastric or colorectal cancer who received routine pharmacologic thromboprophylaxis and to develop a nomogram for postoperative risk stratification. METHODS: This retrospective study included patients with gastric or colorectal cancer undergoing surgery from December 2020 to October 2023. All received postoperative low-molecular-weight heparin prophylaxis, and DVT was screened by ultrasonography on postoperative day 3.",
-    "journal": "Annals of surgical oncology",
-    "publicationDate": "2026-08-19",
-    "authors": [
-      "Ma Y",
-      "Sun X",
-      "Wang Q"
-    ],
-    "affiliations": [
-      "Department of Clinical Laboratory, Shaoxing People's Hospital (The First Affiliated Hospital, Shaoxing University), Shaoxing, China.",
-      "School of Medicine, Shaoxing University, Shaoxing, China.",
-      "Department of Gastrointestinal Surgery, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
-      "Department of Clinical Laboratory, Shaoxing People's Hospital (The First Affiliated Hospital, Shaoxing University), Shaoxing, China. nancy2023123@163.com.",
-      "School of Medicine, Shaoxing University, Shaoxing, China. nancy2023123@163.com."
-    ],
-    "doi": "10.1245/s10434-026-20424-7",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42616327/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 8,
-    "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: surgery",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42633429",
-    "title": "Explainable Machine Learning for Predicting Deep Vein Thrombosis in Critically Ill Patients with COPD: Development and Multicenter External Validation.",
-    "abstract": "BACKGROUND: Deep vein thrombosis (DVT) is a frequent yet underrecognized complication in critically ill patients with chronic obstructive pulmonary disease (COPD). Existing risk assessment tools are not specifically tailored to this high-risk population. We aimed to develop and externally validate an interpretable machine-learning model for early prediction of DVT in ICU-admitted COPD patients. METHODS: Adult COPD patients admitted to the ICU were identified from the MIMIC-IV database and randomly divided into training and internal validation cohorts. Eight machine-learning algorithms were constructed and compared. The best-performing model was externally validated in MIMIC-III and eICU cohorts. Model discrimination, calibration, and clinical utility were assessed using AUC, calibration plots, decision-curve analysis (DCA), and Brier scores. SHAP analysis was applied for global and individual interpretability. A web-based calculator was developed for clinical application. RESULTS: 2 Among 6,672 ICU patients with COPD, 462 (6.9%) developed DVT. XGBoost showed the best overall performance, with an AUC of 0.840 (95% CI 0.812-0.868) in the internal validation cohort and good calibration. External validation confirmed stable discrimination in both MIMIC-III and eICU cohorts. Model interpretation identified prolonged PTT, elevated RDW, reduced SpO, and increased respiratory rate as important contributors to DVT risk. Decision-curve analysis suggested potential clinical benefit across relevant risk thresholds. CONCLUSION: We developed and externally validated an explainable machine-learning model for early prediction of DVT in ICU patients with COPD. By providing individualized risk estimates and interpretable explanations, this tool may help clinicians identify high-risk patients earlier and support more targeted thromboprophylaxis and imaging surveillance strategies.",
-    "englishSummary": "BACKGROUND: Deep vein thrombosis (DVT) is a frequent yet underrecognized complication in critically ill patients with chronic obstructive pulmonary disease (COPD). Existing risk assessment tools are not specifically tailored to this high-risk population. We aimed to develop and externally validate an interpretable machine-learning model for early prediction of DVT in ICU-admitted COPD patients.",
-    "journal": "International journal of chronic obstructive pulmonary disease",
-    "publicationDate": "2026-08-18",
-    "authors": [
-      "Wang G",
-      "Liu T",
-      "Ji W",
-      "Li T",
-      "Wang Z",
-      "Hu T",
-      "Wang X",
-      "Shi Z"
-    ],
-    "affiliations": [
-      "Department of Respiratory and Critical Care Medicine, The First Affiliated Hospital of Xi'an Jiaotong University, Xi'an, Shaanxi, 710061, People's Republic of China.",
-      "Department of Respiratory and Critical Care Medicine, Xi'an Chang'an District Hospital, Xi'an, Shaanxi, 710100, People's Republic of China."
-    ],
-    "doi": "10.2147/COPD.S609203",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42633429/",
-    "publicationTypes": [
-      "Journal Article",
-      "Validation Study",
-      "Multicenter Study"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "Imaging / Diagnosis",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Cohort"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 clinical evidence design: cohort",
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42613745",
-    "title": "Association of clinical frailty with the development and adverse outcomes of venous diseases: A systematic review and meta-analysis.",
-    "abstract": "p p p p p BackgroundClinical frailty is an emerging health problem and a risk factor for venous disease and its adverse outcomes. This review and meta-analysis will determine the association of frailty in the development of venous diseases and related adverse outcomes.Materials and methodsA literature review was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. Searches were done in PubMed and Embase, from 1 January 2007 to 1 January 2025. Articles that were not related to frailty and venous disease were excluded. References from review papers were further screened following the same inclusion and exclusion criteria. R studio was used for the meta-analysis of the studies on non-postoperative venous thromboembolism (VTE) and pulmonary embolism (PE).ResultsA total of 1338 articles were retrieved, and 72 papers, involving 6,407,901 patients, were included in the final review. Sixty-one studies assessed frailty and postoperative complications, and 65% reported that frail patients had a higher risk of postoperative VTE (< 0.05). Spinal, neurosurgical, abdominal, and orthopaedic patients exhibited the highest rates across surgical specialties. Meta-analysis of six studies demonstrated that frailty was associated with an increased risk of non-postoperative VTE (OR 1.91, 95% CI 1.15-3.18,= 0.012). Three papers showed that high frailty risk was associated with greater odds of mortality in patients with PE (Pooled OR 9.95, 95% CI 6.32-15.67,< 0.0001). Of the remaining two studies, one found that frail patients were more likely to have ulcer recurrence than non-frail patients (< 0.001). The other reported that frail patients had a higher risk of varicose veins than non-frail patients (= 0.01).ConclusionClinical frailty is associated with an increased risk of VTE and adverse outcomes in venous disease, although the certainty of evidence is limited by substantial heterogeneity and methodological differences among studies.",
-    "englishSummary": "p p p p p BackgroundClinical frailty is an emerging health problem and a risk factor for venous disease and its adverse outcomes. This review and meta-analysis will determine the association of frailty in the development of venous diseases and related adverse outcomes.Materials and methodsA literature review was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. Searches were done in PubMed and Embase, from 1 January 2007 to 1 January 2025.",
-    "journal": "Phlebology",
-    "publicationDate": "2026-08-18",
-    "authors": [
-      "Ho CYA",
-      "Chan YC",
-      "Cheung GC"
-    ],
-    "affiliations": [
-      "School of Clinical Medicine, Faculty of Medicine and Health, University of New South Wales, Sydney, NSW, Australia.",
-      "Division of Vascular & Endovascular Surgery, Department of Surgery, University of Hong Kong Medical Centre, Hong Kong SAR, China."
-    ],
-    "doi": "10.1177/02683555261478716",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42613745/",
-    "publicationTypes": [
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "Venous Disease",
-      "Endovascular",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Systematic Review",
-      "Meta-analysis",
-      "Review"
-    ],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 clinical evidence design: meta-analysis",
-      "+2 human study: patients",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-    "source": "PubMed"
-  },
-  {
     "pmid": "42620783",
     "title": "Development and validation of a deep learning model to predict heparin response in critically ill patients with deep vein thrombosis receiving continuous intravenous heparin infusion.",
     "abstract": "t t R 2 Continuous intravenous heparin infusion is widely used for deep vein thrombosis (DVT) in the intensive care unit (ICU), but accurate prediction of activated partial thromboplastin time (APTT) remains challenging due to patient heterogeneity and complex drug responses. A deep learning model was developed using heparin administration data, laboratory tests, and patient history to predict future APTT values in ICU patients with DVT. Data from 796 patients receiving continuous heparin infusion were collected, including demographics, comorbidities, treatment, and laboratory information, with external validation performed on 514 patients from the Medical Information Mart for Intensive Care (MIMIC) database. A 2-layer Long Short-Term Memory model with dropout was trained and evaluated. Optimal performance was achieved with the [- 12,- 2] window, yielding a mean absolute error of 1.885, root mean square error of 4.732,of 0.945, and mean absolute percentage error of 4.433. Subgroup analyses demonstrated robust accuracy across critical APTT zones and therapeutic categories (subtherapeutic, therapeutic, supratherapeutic), with area under the curve values of 0.92, 0.81, and 0.92. The model predicted abnormal APTT values a mean of 6 hours in advance and could improve guidance over physician-led management in approximately 70% of cases. External validation confirmed good generalizability. Feature importance identified the difference between 45&#x2009;s and APTT, cumulative heparin dose, and infusion rate as the leading predictors. Collectively, this deep learning model accurately forecasts future APTT values in critically ill patients with DVT receiving intravenous heparin, supporting a shift from reactive to proactive, data-driven heparin management in the ICU with potential benefits for patient safety and treatment efficacy.",
@@ -1185,44 +1330,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42602250",
-    "title": "Retrospective comparision of embolization and conservative therapy for pulmonary artery pseudoaneurysm.",
-    "abstract": "OBJECTIVE: To compare the efficacy and prognosis of endovascular treatments (support auxiliary spring coil embolization (SASCE) and coil embolization alone) versus medical therapy for pulmonary artery pseudoaneurysm (PAP), and to provide optimized treatment and management strategies for clinical practice. METHODS: Data from PAP patients who received endovascular or medical therapy at our hospital between 2016 and 2022 were retrospectively collected. Univariate and multivariate binary logistic regression analyses were performed; forest plots and Kaplan-Meier survival curves were generated to illustrate differences between groups. RESULTS: n n n n n P P P P A total of 148 PAP patients (90 males, 58 females; mean age 59.60&#xa0;&#xb1;&#xa0;12.60&#xa0;years) were enrolled. Underlying diseases: pulmonary tuberculosis (&#xa0;=&#xa0;98), pulmonary infection (&#xa0;=&#xa0;46), lung cancer (n&#xa0;=&#xa0;4). Treatment modalities: SASCE (&#xa0;=&#xa0;22), coil embolization (&#xa0;=&#xa0;100), medical therapy (&#xa0;=&#xa0;26). During follow-up, the recurrence rate was 39.18% and the mortality rate 18.91%. Age, underlying disease, pseudoaneurysm morphology, and surgical procedure (&#xa0;<&#xa0;0.05) were independent influencing factors for PAP recurrence. Both SASCE and coil embolization were associated with better prognosis than medical therapy (HR&#xa0;=&#xa0;0.13 and 0.20, respectively;&#xa0;<&#xa0;0.05). Recurrent massive hemoptysis was associated with a significantly higher mortality (HR&#xa0;=&#xa0;5.89,&#xa0;<&#xa0;0.05). Subgroup analysis suggested that SASCE was numerically superior to coil embolization alone, but the difference was not statistically significant (HR&#xa0;=&#xa0;0.46,&#xa0;>&#xa0;0.05). CONCLUSION: Compared with medical therapy, endovascular embolization shows potential advantages in improving progression-free survival (PFS) and reducing the risk of hemoptysis recurrence and death. SASCE appeared numerically better than coil embolization alone, but the difference was not statistically significant.",
-    "englishSummary": "OBJECTIVE: To compare the efficacy and prognosis of endovascular treatments (support auxiliary spring coil embolization (SASCE) and coil embolization alone) versus medical therapy for pulmonary artery pseudoaneurysm (PAP), and to provide optimized treatment and management strategies for clinical practice. METHODS: Data from PAP patients who received endovascular or medical therapy at our hospital between 2016 and 2022 were retrospectively collected. Univariate and multivariate binary logistic regression analyses were performed; forest plots and Kaplan-Meier survival curves were generated to illustrate differences between groups.",
-    "journal": "American heart journal plus : cardiology research and practice",
-    "publicationDate": "2026-08-04",
-    "authors": [
-      "Fan W",
-      "Zhang W",
-      "Su D",
-      "Wang W"
-    ],
-    "affiliations": [
-      "The First Hospital of Lanzhou University, Lanzhou, China.",
-      "Wuwei Liangzhou Hospital, Wuwei, China."
-    ],
-    "doi": "10.1016/j.ahjo.2026.100850",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42602250/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Endovascular",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 6,
-    "scoreReasons": [
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
