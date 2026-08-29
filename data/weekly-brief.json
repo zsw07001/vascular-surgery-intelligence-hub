@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-29T02:48:59.368Z",
+  "generatedAt": "2026-08-29T22:39:33.678Z",
   "period": {
     "start": "2026-08-23",
     "end": "2026-08-29"
   },
-  "dataUpdatedAt": "2026-08-29T02:48:59.368Z",
+  "dataUpdatedAt": "2026-08-29T22:39:33.678Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-08-29T02:48:59.368Z"
+      "updatedAt": "2026-08-29T22:39:33.678Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 755,
-      "updatedAt": "2026-08-29T02:48:59.368Z"
+      "updatedAt": "2026-08-29T22:39:33.678Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 7,
-      "updatedAt": "2026-08-29T02:48:59.368Z"
+      "count": 8,
+      "updatedAt": "2026-08-29T22:39:33.678Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-29T02:48:59.368Z"
+      "updatedAt": "2026-08-29T22:39:33.678Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-29T02:48:59.368Z"
+      "updatedAt": "2026-08-29T22:39:33.678Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-08-29T02:48:59.368Z"
+      "updatedAt": "2026-08-29T22:39:33.678Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 84,
-    "chinaResearch": 22,
+    "highImpact": 83,
+    "chinaResearch": 28,
     "clinicalTrials": 755,
-    "guidelines": 7,
+    "guidelines": 8,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -66,11 +66,11 @@
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 49
+      "count": 52
     },
     {
       "tag": "Venous Disease",
-      "count": 46
+      "count": 47
     },
     {
       "tag": "Aortic Disease",
@@ -78,11 +78,11 @@
     },
     {
       "tag": "China Research",
-      "count": 22
+      "count": 28
     },
     {
       "tag": "Open Surgery",
-      "count": 20
+      "count": 16
     },
     {
       "tag": "PAD / CLTI",
@@ -113,27 +113,6 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42140452/",
       "doi": "10.1016/j.jvs.2026.05.013"
-    },
-    {
-      "pmid": "42283700",
-      "title": "Levels of hypothermia and clinical outcomes in acute type a aortic dissection surgery with circulatory arrest and antegrade cerebral perfusion: A systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-06-12",
-      "journal": "Perfusion",
-      "topicTags": [
-        "Aortic Disease"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 12,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease；score 12",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42283700/",
-      "doi": "10.1177/02676591261460650"
     },
     {
       "pmid": "42283085",
@@ -204,6 +183,28 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42173294/",
       "doi": "10.1016/j.jvs.2026.05.016"
+    },
+    {
+      "pmid": "42598780",
+      "title": "Structured exercise improves vascular access and functional outcomes in hemodialysis patients: a randomized controlled trial.",
+      "source": "PubMed",
+      "date": "2026-08-28",
+      "journal": "Journal of nephrology",
+      "topicTags": [
+        "Dialysis Access",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42598780/",
+      "doi": "10.1093/joneph/aajaf070"
     },
     {
       "pmid": "42297210",
@@ -341,27 +342,6 @@
       "doi": "10.1016/j.jvs.2026.05.013"
     },
     {
-      "pmid": "42283700",
-      "title": "Levels of hypothermia and clinical outcomes in acute type a aortic dissection surgery with circulatory arrest and antegrade cerebral perfusion: A systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-06-12",
-      "journal": "Perfusion",
-      "topicTags": [
-        "Aortic Disease"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 12,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease；score 12",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42283700/",
-      "doi": "10.1177/02676591261460650"
-    },
-    {
       "pmid": "42283085",
       "title": "Uncomplicated type B aortic dissection with high-risk features are complicated.",
       "source": "PubMed",
@@ -430,6 +410,28 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42173294/",
       "doi": "10.1016/j.jvs.2026.05.016"
+    },
+    {
+      "pmid": "42598780",
+      "title": "Structured exercise improves vascular access and functional outcomes in hemodialysis patients: a randomized controlled trial.",
+      "source": "PubMed",
+      "date": "2026-08-28",
+      "journal": "Journal of nephrology",
+      "topicTags": [
+        "Dialysis Access",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42598780/",
+      "doi": "10.1093/joneph/aajaf070"
     },
     {
       "pmid": "42297210",
@@ -607,6 +609,28 @@
       "doi": "10.1007/s00586-026-10321-8"
     },
     {
+      "pmid": "42667317",
+      "title": "From Barrier Disruption and Immune Dysregulation to Targeted Therapies in Atopic Dermatitis.",
+      "source": "PubMed",
+      "date": "2026-08-29",
+      "journal": "Clinical reviews in allergy & immunology",
+      "topicTags": [
+        "Venous Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Real-world Evidence",
+        "Basic Research",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "中国机构研究；high relevance；Real-world Evidence；Venous Disease；score 6",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42667317/",
+      "doi": "10.1007/s12016-026-09198-8"
+    },
+    {
       "pmid": "42635091",
       "title": "Early balloon-assisted-maturation does not reduce patency of mature arteriovenous fistulae.",
       "source": "PubMed",
@@ -627,28 +651,6 @@
       "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42635091/",
       "doi": "10.1080/0886022X.2026.2679293"
-    },
-    {
-      "pmid": "42643846",
-      "title": "Staged Endovascular Intervention for Axillary Artery Aneurysm Complicated by Recurrent Upper Limb Arterial Embolism: A Case Report.",
-      "source": "PubMed",
-      "date": "2026-08-24",
-      "journal": "Clinical case reports",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Case Report"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "中国机构研究；high relevance；Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42643846/",
-      "doi": "10.1002/ccr3.73333"
     }
   ],
   "chinaResearch": [
@@ -717,6 +719,28 @@
       "doi": "10.1007/s00586-026-10321-8"
     },
     {
+      "pmid": "42667317",
+      "title": "From Barrier Disruption and Immune Dysregulation to Targeted Therapies in Atopic Dermatitis.",
+      "source": "PubMed",
+      "date": "2026-08-29",
+      "journal": "Clinical reviews in allergy & immunology",
+      "topicTags": [
+        "Venous Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Real-world Evidence",
+        "Basic Research",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "中国机构研究；high relevance；Real-world Evidence；Venous Disease；score 6",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42667317/",
+      "doi": "10.1007/s12016-026-09198-8"
+    },
+    {
       "pmid": "42635091",
       "title": "Early balloon-assisted-maturation does not reduce patency of mature arteriovenous fistulae.",
       "source": "PubMed",
@@ -737,28 +761,6 @@
       "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42635091/",
       "doi": "10.1080/0886022X.2026.2679293"
-    },
-    {
-      "pmid": "42643846",
-      "title": "Staged Endovascular Intervention for Axillary Artery Aneurysm Complicated by Recurrent Upper Limb Arterial Embolism: A Case Report.",
-      "source": "PubMed",
-      "date": "2026-08-24",
-      "journal": "Clinical case reports",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Case Report"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "中国机构研究；high relevance；Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42643846/",
-      "doi": "10.1002/ccr3.73333"
     }
   ],
   "trialHighlights": [
@@ -1167,6 +1169,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42635106/"
     },
     {
+      "title": "Fig-based phantom materials for benchtop evaluation of endovascular devices in chronic post-thrombotic venous obstruction.",
+      "source": "Devices / Regulatory",
+      "date": "2026-08-28",
+      "topicTags": [
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42664992/"
+    },
+    {
       "title": "The role of visceral debranching in hybrid thoracoabdominal aortic aneurysm repair: A narrative review of indications, techniques, and outcomes.",
       "source": "Devices / Regulatory",
       "date": "2026-08-13",
@@ -1179,18 +1193,6 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42593274/"
-    },
-    {
-      "title": "Impact of Zone 2 preemptive TEVAR on treatment strategy in uncomplicated type B aortic dissection: a 10-year outcome, study of 29 cases with Zone 2 placement.",
-      "source": "Devices / Regulatory",
-      "date": "2026-03-27",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41894096/"
     },
     {
       "title": "Contemporary systematic review and meta-analysis of outcomes associated with femoropopliteal above-the-knee nonautologous surgical bypass.",
@@ -1296,6 +1298,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42635106/"
     },
     {
+      "title": "Fig-based phantom materials for benchtop evaluation of endovascular devices in chronic post-thrombotic venous obstruction.",
+      "source": "Devices / Regulatory",
+      "date": "2026-08-28",
+      "topicTags": [
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42664992/"
+    },
+    {
       "title": "The role of visceral debranching in hybrid thoracoabdominal aortic aneurysm repair: A narrative review of indications, techniques, and outcomes.",
       "source": "Devices / Regulatory",
       "date": "2026-08-13",
@@ -1308,18 +1322,6 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42593274/"
-    },
-    {
-      "title": "Impact of Zone 2 preemptive TEVAR on treatment strategy in uncomplicated type B aortic dissection: a 10-year outcome, study of 29 cases with Zone 2 placement.",
-      "source": "Devices / Regulatory",
-      "date": "2026-03-27",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41894096/"
     },
     {
       "title": "Contemporary systematic review and meta-analysis of outcomes associated with femoropopliteal above-the-knee nonautologous surgical bypass.",
