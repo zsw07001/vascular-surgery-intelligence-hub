@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-29T22:39:33.678Z",
+  "generatedAt": "2026-08-30T22:44:06.923Z",
   "period": {
-    "start": "2026-08-23",
-    "end": "2026-08-29"
+    "start": "2026-08-24",
+    "end": "2026-08-30"
   },
-  "dataUpdatedAt": "2026-08-29T22:39:33.678Z",
+  "dataUpdatedAt": "2026-08-30T22:44:06.923Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-08-29T22:39:33.678Z"
+      "updatedAt": "2026-08-30T22:44:06.923Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 755,
-      "updatedAt": "2026-08-29T22:39:33.678Z"
+      "updatedAt": "2026-08-30T22:44:06.923Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 8,
-      "updatedAt": "2026-08-29T22:39:33.678Z"
+      "count": 7,
+      "updatedAt": "2026-08-30T22:44:06.923Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-29T22:39:33.678Z"
+      "updatedAt": "2026-08-30T22:44:06.923Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-08-29T22:39:33.678Z"
+      "updatedAt": "2026-08-30T22:44:06.923Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-08-29T22:39:33.678Z"
+      "updatedAt": "2026-08-30T22:44:06.923Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 83,
-    "chinaResearch": 28,
+    "highImpact": 82,
+    "chinaResearch": 27,
     "clinicalTrials": 755,
-    "guidelines": 8,
+    "guidelines": 7,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,11 +58,11 @@
   "topicTrends": [
     {
       "tag": "Imaging / Diagnosis",
-      "count": 70
+      "count": 71
     },
     {
       "tag": "Endovascular",
-      "count": 67
+      "count": 64
     },
     {
       "tag": "Vascular Graft / Stent / Device",
@@ -70,7 +70,7 @@
     },
     {
       "tag": "Venous Disease",
-      "count": 47
+      "count": 49
     },
     {
       "tag": "Aortic Disease",
@@ -78,14 +78,14 @@
     },
     {
       "tag": "China Research",
-      "count": 28
-    },
-    {
-      "tag": "Open Surgery",
-      "count": 16
+      "count": 27
     },
     {
       "tag": "PAD / CLTI",
+      "count": 17
+    },
+    {
+      "tag": "Open Surgery",
       "count": 16
     }
   ],
@@ -229,28 +229,6 @@
       "doi": "10.1016/j.jvsv.2026.102553"
     },
     {
-      "pmid": "41576221",
-      "title": "Patterns of recurrent varicose veins after surgery (REVAS): A systematic review and network meta-analysis of randomized trials.",
-      "source": "PubMed",
-      "date": "2026-01-23",
-      "journal": "Phlebology",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Endovascular；score 7",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41576221/",
-      "doi": "10.1177/02683555261418937"
-    },
-    {
       "pmid": "41397418",
       "title": "Central Venous Access Device Complications in Children With Leukemia: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -314,6 +292,28 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41224211/",
       "doi": "10.1055/a-2724-4458"
+    },
+    {
+      "pmid": "41020563",
+      "title": "Anticoagulant and anti-inflammatory effects of fondaparinux sodium during anterior cruciate ligament reconstruction in high risk VTE patients: A randomised controlled, triple blinded, prospective study.",
+      "source": "PubMed",
+      "date": "2025-09-29",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "topicTags": [
+        "Venous Disease",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 7,
+      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 7",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41020563/",
+      "doi": "10.1002/ksa.70081"
     }
   ],
   "priorityArticles": [
@@ -456,28 +456,6 @@
       "doi": "10.1016/j.jvsv.2026.102553"
     },
     {
-      "pmid": "41576221",
-      "title": "Patterns of recurrent varicose veins after surgery (REVAS): A systematic review and network meta-analysis of randomized trials.",
-      "source": "PubMed",
-      "date": "2026-01-23",
-      "journal": "Phlebology",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Endovascular；score 7",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41576221/",
-      "doi": "10.1177/02683555261418937"
-    },
-    {
       "pmid": "41397418",
       "title": "Central Venous Access Device Complications in Children With Leukemia: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -541,6 +519,28 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41224211/",
       "doi": "10.1055/a-2724-4458"
+    },
+    {
+      "pmid": "41020563",
+      "title": "Anticoagulant and anti-inflammatory effects of fondaparinux sodium during anterior cruciate ligament reconstruction in high risk VTE patients: A randomised controlled, triple blinded, prospective study.",
+      "source": "PubMed",
+      "date": "2025-09-29",
+      "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+      "topicTags": [
+        "Venous Disease",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 7,
+      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 7",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41020563/",
+      "doi": "10.1002/ksa.70081"
     }
   ],
   "chinaHighlights": [
