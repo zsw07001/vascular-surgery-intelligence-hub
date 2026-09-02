@@ -1,76 +1,76 @@
 {
-  "generatedAt": "2026-09-01T22:36:37.728Z",
+  "generatedAt": "2026-09-02T22:39:02.829Z",
   "period": {
-    "start": "2026-08-26",
-    "end": "2026-09-01"
+    "start": "2026-08-27",
+    "end": "2026-09-02"
   },
-  "dataUpdatedAt": "2026-09-01T22:36:37.728Z",
+  "dataUpdatedAt": "2026-09-02T22:39:02.829Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-09-01T22:36:37.728Z"
+      "updatedAt": "2026-09-02T22:39:02.829Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 756,
-      "updatedAt": "2026-09-01T22:36:37.728Z"
+      "count": 748,
+      "updatedAt": "2026-09-02T22:39:02.829Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 9,
-      "updatedAt": "2026-09-01T22:36:37.728Z"
+      "count": 11,
+      "updatedAt": "2026-09-02T22:39:02.829Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-01T22:36:37.728Z"
+      "updatedAt": "2026-09-02T22:39:02.829Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-01T22:36:37.728Z"
+      "updatedAt": "2026-09-02T22:39:02.829Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-09-01T22:36:37.728Z"
+      "updatedAt": "2026-09-02T22:39:02.829Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 91,
-    "chinaResearch": 29,
-    "clinicalTrials": 756,
-    "guidelines": 9,
+    "highImpact": 88,
+    "chinaResearch": 33,
+    "clinicalTrials": 748,
+    "guidelines": 11,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、756 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、748 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 88
-    },
-    {
-      "tag": "Vascular Graft / Stent / Device",
-      "count": 68
+      "count": 79
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 64
+      "count": 65
+    },
+    {
+      "tag": "Vascular Graft / Stent / Device",
+      "count": 63
     },
     {
       "tag": "Aortic Disease",
-      "count": 39
+      "count": 34
     },
     {
       "tag": "PAD / CLTI",
@@ -78,15 +78,15 @@
     },
     {
       "tag": "China Research",
-      "count": 29
+      "count": 33
     },
     {
       "tag": "Venous Disease",
-      "count": 23
+      "count": 27
     },
     {
       "tag": "Open Surgery",
-      "count": 21
+      "count": 19
     }
   ],
   "priorityReading": [
@@ -141,28 +141,6 @@
       "doi": "10.1007/s40261-026-01583-7"
     },
     {
-      "pmid": "42678271",
-      "title": "Viabahn balloon expandable outcomes as bridging covered stent in fenestrated and branched endovascular aortic repair.",
-      "source": "PubMed",
-      "date": "2026-09-01",
-      "journal": "The Journal of cardiovascular surgery",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42678271/",
-      "doi": "10.23736/S0021-9509.26.13667-2"
-    },
-    {
       "pmid": "42362017",
       "title": "Physician-Modified Fenestrated Stent-Grafts Planned Using Three-Dimensional Techniques for Complex Aortic Pathology: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -208,6 +186,28 @@
       "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42349639/",
       "doi": "10.1016/j.avsg.2026.06.013"
+    },
+    {
+      "pmid": "42678271",
+      "title": "Viabahn balloon expandable outcomes as bridging covered stent in fenestrated and branched endovascular aortic repair.",
+      "source": "PubMed",
+      "date": "2026-09-01",
+      "journal": "The Journal of cardiovascular surgery",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42678271/",
+      "doi": "10.23736/S0021-9509.26.13667-2"
     },
     {
       "pmid": "42448029",
@@ -302,27 +302,25 @@
       "doi": "10.1016/j.avsg.2026.06.040"
     },
     {
-      "pmid": "42276366",
-      "title": "Early Multicenter Experience with the Nexus Duo&#x2122; Aortic Arch Stent Graft System in the Treatment of Aneurysmatic Aortic Arch Diseases.",
+      "pmid": "42637497",
+      "title": "Patients' experiences with nursing care undergoing open abdominal aortic aneurysm repair: A qualitative systematic review and meta-synthesis.",
       "source": "PubMed",
-      "date": "2026-06-11",
-      "journal": "Annals of vascular surgery",
+      "date": "2026-05-30",
+      "journal": "Journal of vascular nursing : official publication of the Society for Peripheral Vascular Nursing",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
+        "Aortic Disease"
       ],
       "studyTypeTags": [
-        "Registry",
-        "Real-world Evidence"
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Registry / Real-world Evidence；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42276366/",
-      "doi": "10.1016/j.avsg.2026.05.095"
+      "score": 12,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease；score 12",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42637497/",
+      "doi": "10.1016/j.jvn.2026.05.002"
     }
   ],
   "priorityArticles": [
@@ -377,28 +375,6 @@
       "doi": "10.1007/s40261-026-01583-7"
     },
     {
-      "pmid": "42678271",
-      "title": "Viabahn balloon expandable outcomes as bridging covered stent in fenestrated and branched endovascular aortic repair.",
-      "source": "PubMed",
-      "date": "2026-09-01",
-      "journal": "The Journal of cardiovascular surgery",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42678271/",
-      "doi": "10.23736/S0021-9509.26.13667-2"
-    },
-    {
       "pmid": "42362017",
       "title": "Physician-Modified Fenestrated Stent-Grafts Planned Using Three-Dimensional Techniques for Complex Aortic Pathology: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -444,6 +420,28 @@
       "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42349639/",
       "doi": "10.1016/j.avsg.2026.06.013"
+    },
+    {
+      "pmid": "42678271",
+      "title": "Viabahn balloon expandable outcomes as bridging covered stent in fenestrated and branched endovascular aortic repair.",
+      "source": "PubMed",
+      "date": "2026-09-01",
+      "journal": "The Journal of cardiovascular surgery",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42678271/",
+      "doi": "10.23736/S0021-9509.26.13667-2"
     },
     {
       "pmid": "42448029",
@@ -538,27 +536,25 @@
       "doi": "10.1016/j.avsg.2026.06.040"
     },
     {
-      "pmid": "42276366",
-      "title": "Early Multicenter Experience with the Nexus Duo&#x2122; Aortic Arch Stent Graft System in the Treatment of Aneurysmatic Aortic Arch Diseases.",
+      "pmid": "42637497",
+      "title": "Patients' experiences with nursing care undergoing open abdominal aortic aneurysm repair: A qualitative systematic review and meta-synthesis.",
       "source": "PubMed",
-      "date": "2026-06-11",
-      "journal": "Annals of vascular surgery",
+      "date": "2026-05-30",
+      "journal": "Journal of vascular nursing : official publication of the Society for Peripheral Vascular Nursing",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
+        "Aortic Disease"
       ],
       "studyTypeTags": [
-        "Registry",
-        "Real-world Evidence"
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Registry / Real-world Evidence；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42276366/",
-      "doi": "10.1016/j.avsg.2026.05.095"
+      "score": 12,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease；score 12",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42637497/",
+      "doi": "10.1016/j.jvn.2026.05.002"
     }
   ],
   "chinaHighlights": [
@@ -787,6 +783,23 @@
   ],
   "trialHighlights": [
     {
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-06-15",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
+    },
+    {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
       "source": "ClinicalTrials.gov",
@@ -931,26 +944,27 @@
       "enrollment": 1140,
       "reason": "正在招募；主题：Carotid Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1140；最近更新 2026-07-02",
       "url": "https://clinicaltrials.gov/study/NCT05566301"
-    },
-    {
-      "nctId": "NCT02050113",
-      "title": "Complex Aortic Aneurysm Repair Using Physician Modified Endografts and Custom Made Devices",
-      "source": "ClinicalTrials.gov",
-      "date": "2025-10-22",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 600,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
-      "url": "https://clinicaltrials.gov/study/NCT02050113"
     }
   ],
   "clinicalTrials": [
     {
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-06-15",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
+    },
+    {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
       "source": "ClinicalTrials.gov",
@@ -1095,22 +1109,6 @@
       "enrollment": 1140,
       "reason": "正在招募；主题：Carotid Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1140；最近更新 2026-07-02",
       "url": "https://clinicaltrials.gov/study/NCT05566301"
-    },
-    {
-      "nctId": "NCT02050113",
-      "title": "Complex Aortic Aneurysm Repair Using Physician Modified Endografts and Custom Made Devices",
-      "source": "ClinicalTrials.gov",
-      "date": "2025-10-22",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 600,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
-      "url": "https://clinicaltrials.gov/study/NCT02050113"
     }
   ],
   "manualReview": [
