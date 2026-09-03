@@ -1,92 +1,92 @@
 {
-  "generatedAt": "2026-09-02T22:39:02.829Z",
+  "generatedAt": "2026-09-03T22:39:22.399Z",
   "period": {
-    "start": "2026-08-27",
-    "end": "2026-09-02"
+    "start": "2026-08-28",
+    "end": "2026-09-03"
   },
-  "dataUpdatedAt": "2026-09-02T22:39:02.829Z",
+  "dataUpdatedAt": "2026-09-03T22:39:22.399Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-09-02T22:39:02.829Z"
+      "updatedAt": "2026-09-03T22:39:22.399Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 748,
-      "updatedAt": "2026-09-02T22:39:02.829Z"
+      "count": 755,
+      "updatedAt": "2026-09-03T22:39:22.399Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 11,
-      "updatedAt": "2026-09-02T22:39:02.829Z"
+      "count": 10,
+      "updatedAt": "2026-09-03T22:39:22.399Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-02T22:39:02.829Z"
+      "updatedAt": "2026-09-03T22:39:22.399Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-02T22:39:02.829Z"
+      "updatedAt": "2026-09-03T22:39:22.399Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-09-02T22:39:02.829Z"
+      "updatedAt": "2026-09-03T22:39:22.399Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 88,
-    "chinaResearch": 33,
-    "clinicalTrials": 748,
-    "guidelines": 11,
+    "highImpact": 86,
+    "chinaResearch": 41,
+    "clinicalTrials": 755,
+    "guidelines": 10,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、748 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、755 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 79
+      "count": 84
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 65
+      "count": 67
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 63
+      "count": 52
+    },
+    {
+      "tag": "China Research",
+      "count": 41
     },
     {
       "tag": "Aortic Disease",
+      "count": 37
+    },
+    {
+      "tag": "Venous Disease",
       "count": 34
     },
     {
       "tag": "PAD / CLTI",
-      "count": 34
-    },
-    {
-      "tag": "China Research",
       "count": 33
     },
     {
-      "tag": "Venous Disease",
-      "count": 27
-    },
-    {
-      "tag": "Open Surgery",
-      "count": 19
+      "tag": "Antithrombotic Therapy",
+      "count": 17
     }
   ],
   "priorityReading": [
@@ -117,30 +117,6 @@
       "doi": "10.1016/j.avsg.2026.06.049"
     },
     {
-      "pmid": "42449091",
-      "title": "JAK Inhibitors in Inflammatory Skin Diseases: A 15,427-Patient Systematic Review and Meta-analysis of Clinical Trial and Real-World Outcomes.",
-      "source": "PubMed",
-      "date": "2026-07-14",
-      "journal": "Clinical drug investigation",
-      "topicTags": [
-        "Venous Disease"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Real-world Evidence",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Clinical Trial / Real-world Evidence / Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42449091/",
-      "doi": "10.1007/s40261-026-01583-7"
-    },
-    {
       "pmid": "42362017",
       "title": "Physician-Modified Fenestrated Stent-Grafts Planned Using Three-Dimensional Techniques for Complex Aortic Pathology: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -256,6 +232,28 @@
       "doi": "10.1016/j.avsg.2026.07.016"
     },
     {
+      "pmid": "41527456",
+      "title": "Risk factors of venous thromboembolism in ICU patients: a systematic review and meta-analysis.",
+      "source": "PubMed",
+      "date": "2026-01-13",
+      "journal": "Annals of medicine",
+      "topicTags": [
+        "Venous Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 11",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41527456/",
+      "doi": "10.1080/07853890.2026.2614222"
+    },
+    {
       "pmid": "42678497",
       "title": "Intermittent Pneumatic Compression for Preventing Lower Extremity Deep Vein Thrombosis in Patients with Severe Acute Pancreatitis: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -276,6 +274,28 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42678497/",
       "doi": "10.1007/s10620-026-10194-3"
+    },
+    {
+      "pmid": "42691470",
+      "title": "Carotid Artery Stenting Is Now an Evidence-Based Adjunct to Intensive Medical Therapy for Stroke Prevention.",
+      "source": "PubMed",
+      "date": "2026-09-03",
+      "journal": "Neurology",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Real-world Evidence",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Clinical Trial / Real-world Evidence；Carotid Disease / Endovascular；score 6",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42691470/",
+      "doi": "10.1212/WNL.0000000000218441"
     },
     {
       "pmid": "42364765",
@@ -300,27 +320,6 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42364765/",
       "doi": "10.1016/j.avsg.2026.06.040"
-    },
-    {
-      "pmid": "42637497",
-      "title": "Patients' experiences with nursing care undergoing open abdominal aortic aneurysm repair: A qualitative systematic review and meta-synthesis.",
-      "source": "PubMed",
-      "date": "2026-05-30",
-      "journal": "Journal of vascular nursing : official publication of the Society for Peripheral Vascular Nursing",
-      "topicTags": [
-        "Aortic Disease"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 12,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease；score 12",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42637497/",
-      "doi": "10.1016/j.jvn.2026.05.002"
     }
   ],
   "priorityArticles": [
@@ -351,30 +350,6 @@
       "doi": "10.1016/j.avsg.2026.06.049"
     },
     {
-      "pmid": "42449091",
-      "title": "JAK Inhibitors in Inflammatory Skin Diseases: A 15,427-Patient Systematic Review and Meta-analysis of Clinical Trial and Real-World Outcomes.",
-      "source": "PubMed",
-      "date": "2026-07-14",
-      "journal": "Clinical drug investigation",
-      "topicTags": [
-        "Venous Disease"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Real-world Evidence",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Clinical Trial / Real-world Evidence / Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42449091/",
-      "doi": "10.1007/s40261-026-01583-7"
-    },
-    {
       "pmid": "42362017",
       "title": "Physician-Modified Fenestrated Stent-Grafts Planned Using Three-Dimensional Techniques for Complex Aortic Pathology: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -490,6 +465,28 @@
       "doi": "10.1016/j.avsg.2026.07.016"
     },
     {
+      "pmid": "41527456",
+      "title": "Risk factors of venous thromboembolism in ICU patients: a systematic review and meta-analysis.",
+      "source": "PubMed",
+      "date": "2026-01-13",
+      "journal": "Annals of medicine",
+      "topicTags": [
+        "Venous Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 11",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41527456/",
+      "doi": "10.1080/07853890.2026.2614222"
+    },
+    {
       "pmid": "42678497",
       "title": "Intermittent Pneumatic Compression for Preventing Lower Extremity Deep Vein Thrombosis in Patients with Severe Acute Pancreatitis: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -510,6 +507,28 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42678497/",
       "doi": "10.1007/s10620-026-10194-3"
+    },
+    {
+      "pmid": "42691470",
+      "title": "Carotid Artery Stenting Is Now an Evidence-Based Adjunct to Intensive Medical Therapy for Stroke Prevention.",
+      "source": "PubMed",
+      "date": "2026-09-03",
+      "journal": "Neurology",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Real-world Evidence",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Clinical Trial / Real-world Evidence；Carotid Disease / Endovascular；score 6",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42691470/",
+      "doi": "10.1212/WNL.0000000000218441"
     },
     {
       "pmid": "42364765",
@@ -534,27 +553,6 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42364765/",
       "doi": "10.1016/j.avsg.2026.06.040"
-    },
-    {
-      "pmid": "42637497",
-      "title": "Patients' experiences with nursing care undergoing open abdominal aortic aneurysm repair: A qualitative systematic review and meta-synthesis.",
-      "source": "PubMed",
-      "date": "2026-05-30",
-      "journal": "Journal of vascular nursing : official publication of the Society for Peripheral Vascular Nursing",
-      "topicTags": [
-        "Aortic Disease"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 12,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease；score 12",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42637497/",
-      "doi": "10.1016/j.jvn.2026.05.002"
     }
   ],
   "chinaHighlights": [
@@ -582,6 +580,28 @@
       "doi": "10.1016/j.avsg.2026.07.016"
     },
     {
+      "pmid": "41527456",
+      "title": "Risk factors of venous thromboembolism in ICU patients: a systematic review and meta-analysis.",
+      "source": "PubMed",
+      "date": "2026-01-13",
+      "journal": "Annals of medicine",
+      "topicTags": [
+        "Venous Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Venous Disease；score 11",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41527456/",
+      "doi": "10.1080/07853890.2026.2614222"
+    },
+    {
       "pmid": "42678497",
       "title": "Intermittent Pneumatic Compression for Preventing Lower Extremity Deep Vein Thrombosis in Patients with Severe Acute Pancreatitis: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -646,27 +666,6 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42342205/",
       "doi": "10.1016/j.avsg.2026.06.009"
-    },
-    {
-      "pmid": "42462904",
-      "title": "Prognostic Value of Serum Erythropoietin Levels in Acute Aortic Syndrome: A Real-World Analysis.",
-      "source": "PubMed",
-      "date": "2026-07-16",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Real-world Evidence"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Real-world Evidence；Aortic Disease / Endovascular；score 8",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42462904/",
-      "doi": "10.1016/j.avsg.2026.07.012"
     }
   ],
   "chinaResearch": [
@@ -694,6 +693,28 @@
       "doi": "10.1016/j.avsg.2026.07.016"
     },
     {
+      "pmid": "41527456",
+      "title": "Risk factors of venous thromboembolism in ICU patients: a systematic review and meta-analysis.",
+      "source": "PubMed",
+      "date": "2026-01-13",
+      "journal": "Annals of medicine",
+      "topicTags": [
+        "Venous Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Venous Disease；score 11",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41527456/",
+      "doi": "10.1080/07853890.2026.2614222"
+    },
+    {
       "pmid": "42678497",
       "title": "Intermittent Pneumatic Compression for Preventing Lower Extremity Deep Vein Thrombosis in Patients with Severe Acute Pancreatitis: A Systematic Review and Meta-Analysis.",
       "source": "PubMed",
@@ -758,48 +779,10 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42342205/",
       "doi": "10.1016/j.avsg.2026.06.009"
-    },
-    {
-      "pmid": "42462904",
-      "title": "Prognostic Value of Serum Erythropoietin Levels in Acute Aortic Syndrome: A Real-World Analysis.",
-      "source": "PubMed",
-      "date": "2026-07-16",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Real-world Evidence"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Real-world Evidence；Aortic Disease / Endovascular；score 8",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42462904/",
-      "doi": "10.1016/j.avsg.2026.07.012"
     }
   ],
   "trialHighlights": [
     {
-      "nctId": "NCT07322913",
-      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-06-15",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1200,
-      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
-      "url": "https://clinicaltrials.gov/study/NCT07322913"
-    },
-    {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
       "source": "ClinicalTrials.gov",
@@ -865,23 +848,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
-    },
-    {
       "nctId": "NCT04545502",
       "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
       "source": "ClinicalTrials.gov",
@@ -944,27 +910,42 @@
       "enrollment": 1140,
       "reason": "正在招募；主题：Carotid Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1140；最近更新 2026-07-02",
       "url": "https://clinicaltrials.gov/study/NCT05566301"
+    },
+    {
+      "nctId": "NCT02050113",
+      "title": "Complex Aortic Aneurysm Repair Using Physician Modified Endografts and Custom Made Devices",
+      "source": "ClinicalTrials.gov",
+      "date": "2025-10-22",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 600,
+      "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
+      "url": "https://clinicaltrials.gov/study/NCT02050113"
+    },
+    {
+      "nctId": "NCT01538056",
+      "title": "Physician Modified Endovascular Grafts for the Treatment of Elective, Symptomatic or Ruptured Juxtarenal Aortic Aneurysm: An Investigator Initiated Study",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-01-12",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 500；最近更新 2026-01-12",
+      "url": "https://clinicaltrials.gov/study/NCT01538056"
     }
   ],
   "clinicalTrials": [
     {
-      "nctId": "NCT07322913",
-      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-06-15",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1200,
-      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-06-15",
-      "url": "https://clinicaltrials.gov/study/NCT07322913"
-    },
-    {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
       "source": "ClinicalTrials.gov",
@@ -1030,23 +1011,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
-    },
-    {
       "nctId": "NCT04545502",
       "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
       "source": "ClinicalTrials.gov",
@@ -1109,6 +1073,38 @@
       "enrollment": 1140,
       "reason": "正在招募；主题：Carotid Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1140；最近更新 2026-07-02",
       "url": "https://clinicaltrials.gov/study/NCT05566301"
+    },
+    {
+      "nctId": "NCT02050113",
+      "title": "Complex Aortic Aneurysm Repair Using Physician Modified Endografts and Custom Made Devices",
+      "source": "ClinicalTrials.gov",
+      "date": "2025-10-22",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 600,
+      "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 600；最近更新 2025-10-22",
+      "url": "https://clinicaltrials.gov/study/NCT02050113"
+    },
+    {
+      "nctId": "NCT01538056",
+      "title": "Physician Modified Endovascular Grafts for the Treatment of Elective, Symptomatic or Ruptured Juxtarenal Aortic Aneurysm: An Investigator Initiated Study",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-01-12",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 500；最近更新 2026-01-12",
+      "url": "https://clinicaltrials.gov/study/NCT01538056"
     }
   ],
   "manualReview": [
