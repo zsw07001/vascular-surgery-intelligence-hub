@@ -576,6 +576,49 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42731247",
+    "title": "Residual VTE risk after early ICU thromboprophylaxis: risk stratification in MIMIC-IV and an imaging-follow-up cohort.",
+    "abstract": "BACKGROUND/OBJECTIVES: Pharmacological thromboprophylaxis reduces but does not eliminate venous thromboembolism (VTE) risk in critically ill patients. We assessed whether early routine ICU data stratify clinically recognized VTE risk among patients receiving early pharmacological thromboprophylaxis. PATIENTS/METHODS: We performed a retrospective 24-hour landmark prediction-model study using MIMIC-IV v3.1. Adult ICU stays with pharmacological thromboprophylaxis within 24&#x202f;h were included. The primary endpoint was clinically recognized VTE before hospital exit, defined by the VTE diagnosis phenotype and temporally anchored to the first positive radiology evidence; death was not included in the endpoint. Six models were compared using fold-contained preprocessing, five-fold outer cross-validation and three-fold inner tuning. Conventional multivariable logistic regression, cause-specific Cox regression and Fine-Gray competing-risk regression were used to identify independent determinants; VTE-free hospital exit was treated as the competing event in time-to-event analyses. A prospective observational hospital imaging-follow-up cohort provided descriptive imaging results, exploratory local classification and a landmark-aligned independent validation subset for the frozen MIMIC model. RESULTS: The MIMIC-IV cohort included 5702 ICU stays and 174 VTE events (3.1%). Elastic net achieved AUROC 0.709, average precision 0.083 and Brier score 0.029. The highest-risk 20% captured 48.3% of events (event rate 7.36%; sensitivity 48.3%; specificity 80.9%; positive predictive value 7.4%). Among patients without preceding VTE, 717 deaths and 4811 discharges were treated as competing hospital exits. Estimated cumulative VTE incidence was 1.58% at day 7 and 2.24% at day 14. Fine-Gray regression identified invasive ventilation (adjusted subdistribution hazard ratio [sHR] 1.82, 95% CI 1.28-2.60), vasopressor/inotrope use (adjusted sHR 2.02, 95% CI 1.40-2.93) and renal replacement therapy (adjusted sHR 1.92, 95% CI 1.03-3.60) as independent determinants. In the hospital cohort, 25 of 138 patients had imaging-confirmed PE (18.1%). The landmark-aligned validation subset included 96 patients and 36 post-landmark imaging-confirmed VTE events; the frozen common-variable MIMIC model yielded AUROC 0.581 and average precision 0.461. CONCLUSIONS: Early routine ICU data stratified clinically recognized VTE risk after early prophylaxis exposure. At the 4.33% threshold, the highest-risk 20% contained nearly half of recognized VTE events. This fixed threshold provides a candidate entry rule for prospective evaluation of structured reassessment and imaging-priority strategies.",
+    "englishSummary": "BACKGROUND/OBJECTIVES: Pharmacological thromboprophylaxis reduces but does not eliminate venous thromboembolism (VTE) risk in critically ill patients. We assessed whether early routine ICU data stratify clinically recognized VTE risk among patients receiving early pharmacological thromboprophylaxis. PATIENTS/METHODS: We performed a retrospective 24-hour landmark prediction-model study using MIMIC-IV v3.1.",
+    "journal": "Thrombosis research",
+    "publicationDate": "2026-09-09",
+    "authors": [
+      "Fu Y",
+      "Chen X",
+      "Li S",
+      "Li X",
+      "Fang Z",
+      "Wan X"
+    ],
+    "affiliations": [
+      "Department of Critical Care Medicine, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China.",
+      "Department of Critical Care Medicine, The First Affiliated Hospital of Dalian Medical University, Dalian, Liaoning, China. Electronic address: 13322210199@163.com."
+    ],
+    "doi": "10.1016/j.thromres.2026.109834",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42731247/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort"
+    ],
+    "relevance": "high",
+    "score": 6,
+    "scoreReasons": [
+      "+2 clinical evidence design: cohort",
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42717540",
     "title": "Patent Foramen Ovale Closure Following Cryptogenic Embolism: Very Long-Term Follow-Up of a Historical Cohort.",
     "abstract": "BACKGROUND: Patent foramen ovale (PFO) has been identified as a conduit for paradoxical embolism causing stroke or transient ischemic attack (TIA). Long-term data of PFO closure beyond 10 years are rare. AIMS: We aimed to report the very long-term outcomes of PFO closure and compare the efficacy of different post?procedural antithrombotic treatment (AT). METHODS: Very long-term outcomes of a previously reported cohort of patients undergoing PFO closure between May 2004 and January 2013 were reviewed. Outcomes, including recurrent stroke or TIA, bleeding, venous thromboembolism (VTE), newly diagnosed atrial fibrillation (AF), and all-cause death, were adjudicated. The cohort was further stratified into short- and long-term post-procedural AT groups. Propensity-score matching was performed to adjust for differences in baseline characteristics across subgroups. RESULTS: Three hundred and one patients were included in the analysis. Median follow-up duration was 15.0 [95% confidence interval 14.7-15.3] years. Stroke and TIA occurred in 3.4% (0.27 per 100 patient-year) and 6.2% (0.46 per 100 patient-year), respectively. Bleeding and VTE were noted in 3.8% and 6.5%. 9.6% of patients (0.71 per 100 patient-year) developed AF. Thirty patients (0.70 per 100 patient-year) died. Patients receiving long-term AT (a single antiplatelet in >&#x2009;85% of the population) experienced more bleeding and major bleeding events (log-rank p&#x2009;=&#x2009;0.03 and 0.02, respectively), and had a tendency toward more frequent bleeding after propensity score matching (p&#x2009;=&#x2009;0.09). Other outcome events were similar between subgroups. CONCLUSION: Benefits from PFO closure persist over the long term. A limited post-closure AT regimen is equally effective in preventing recurrent embolic events and is associated with potentially less bleeding.",
@@ -811,6 +854,88 @@
     "source": "PubMed"
   },
   {
+    "pmid": "42730739",
+    "title": "Reconstructing Type B Aortic Dissection Care With Artificial Intelligence.",
+    "abstract": "",
+    "englishSummary": "",
+    "journal": "JACC. Asia",
+    "publicationDate": "2026-09-08",
+    "authors": [
+      "Wang L",
+      "Hu Y",
+      "Zhang H"
+    ],
+    "affiliations": [
+      "Department of Vascular Surgery, The First Affiliated Hospital of Zhejiang University School of Medicine, Hangzhou, China.",
+      "Department of Vascular Surgery, The First Affiliated Hospital of Zhejiang University School of Medicine, Hangzhou, China. Electronic address: 1198050@zju.edu.cn."
+    ],
+    "doi": "10.1016/j.jacasi.2026.07.042",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42730739/",
+    "publicationTypes": [
+      "Editorial"
+    ],
+    "topicTags": [
+      "Aortic Disease",
+      "China Research"
+    ],
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 5,
+    "scoreReasons": [
+      "+3 title vascular surgery topic: aortic dissection",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42730281",
+    "title": "Long-term glycemic variability and risk of peripheral artery disease: a systematic review and meta-analysis of cohort studies.",
+    "abstract": "BACKGROUND: A systematic review and meta-analysis to evaluate the impact of long-term glucose variability (GV) on the risk of developing peripheral artery disease (PAD). METHODS: The protocol was prospectively registered in PROSPERO (ID: CRD420251148763). Relevant longitudinal studies were identified through comprehensive searches of PubMed, Embase, and Web of Science. The primary outcome was the risk ratio (RR) of PAD comparing participants with high versus low GV. Summary effect sizes were calculated using a random-effects model to account for between-study heterogeneity. RESULTS: p I vs. p vs. p 2 Eleven cohorts were included. Higher GV showed a positive association with PAD risk (RR: 1.42; 95% CI [1.21-1.66]&#xa0;<&#xa0;0.001), although substantial heterogeneity was present (&#xa0;=&#xa0;91%). This association was consistent across subgroups defined by region (AsianWestern), study design, diabetic status, GV metrics, PAD diagnostic methods, and adjustment for HbA1c (allfor subgroup differences > 0.05), except for follow-up duration. Studies with follow-up < 8 years showed a stronger association than those with &#x2265; 8 years (RR: 1.641.19;for subgroup difference = 0.006). CONCLUSIONS: Elevated long-term GV appears to be associated with an increased risk of PAD. However, substantial heterogeneity across studies suggests that the magnitude of this association should be interpreted with caution.",
+    "englishSummary": "BACKGROUND: A systematic review and meta-analysis to evaluate the impact of long-term glucose variability (GV) on the risk of developing peripheral artery disease (PAD). METHODS: The protocol was prospectively registered in PROSPERO (ID: CRD420251148763). Relevant longitudinal studies were identified through comprehensive searches of PubMed, Embase, and Web of Science.",
+    "journal": "PeerJ",
+    "publicationDate": "2026-09-08",
+    "authors": [
+      "Xia J",
+      "Peng Q",
+      "Chen L",
+      "Liu C",
+      "Zhu T"
+    ],
+    "affiliations": [
+      "School of Medicine, Hunan Polytechnic of Environment and Biology, Hengyang, China."
+    ],
+    "doi": "10.7717/peerj.21686",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42730281/",
+    "publicationTypes": [
+      "Systematic Review",
+      "Journal Article",
+      "Meta-Analysis"
+    ],
+    "topicTags": [
+      "PAD / CLTI",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Cohort",
+      "Systematic Review",
+      "Meta-analysis",
+      "Review"
+    ],
+    "relevance": "high",
+    "score": 9,
+    "scoreReasons": [
+      "+2 clinical evidence design: meta-analysis",
+      "+3 high-value publication type: systematic review",
+      "+2 treatment or prognosis relevance: outcome",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+    "source": "PubMed"
+  },
+  {
     "pmid": "42721543",
     "title": "Direct oral anticoagulants versus low-molecular-weight heparin in Asian patients with cancer-associated venous thromboembolism: A systematic review and meta-analysis.",
     "abstract": "BACKGROUND: Direct oral anticoagulants (DOACs) are increasingly used as an alternative to low-molecular-weight heparin (LMWH) for cancer-associated venous thromboembolism (VTE), but evidence in Asian patients remains limited. METHODS: We searched PubMed, Embase, Web of Science, and the Cochrane Library for randomized or comparative observational studies comparing DOACs with LMWH for cancer-associated VTE in Asian patients. Primary outcomes were recurrent VTE and major bleeding. Weighted hazard ratios (wHR) were pooled as the primary analysis; subdistribution hazard ratios (sHRs) from competing-risk models were pooled as a sensitivity analysis. RESULTS: Seven observational studies comprising 13,387 patients were included; one early-terminated randomized trial was included in sensitivity analyses. In the primary analysis, DOACs were associated with lower recurrent VTE than LMWH (wHR 0.71, 95% CI 0.54-0.93), with similar major bleeding (wHR 0.85, 95% CI 0.70-1.04). All-cause mortality was lower with DOAC (wHR 0.66, 95% CI 0.60-0.71). After accounting for competing mortality, associations were attenuated for recurrent VTE (sHR 0.95, 95% CI 0.67-1.33) and shifted upward for major bleeding (sHR 1.09, 95% CI 0.95-1.26). In subgroup analyses, major bleeding was higher with a DOAC switching strategy (sHR 1.19, 95% CI 1.01-1.41); and in an exploratory competing-risk analysis, gastrointestinal bleeding was higher among patients with gastrointestinal cancer (p for subgroup difference&#x202f;=&#x202f;0.041). CONCLUSIONS: In Asian patients with cancer-associated VTE, DOACs showed favorable associations in weighted analyses, but these were attenuated after accounting for competing mortality. Given the observational nature of the available evidence and marked mortality imbalance between treatment groups, these findings should be considered hypothesis-generating.",
@@ -894,155 +1019,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42709742",
-    "title": "Etiology Matters: A Systematic Review and Meta-Analysis of Incidence and Outcomes in Abdominal Compartment Syndrome.",
-    "abstract": "ObjectiveTo determine if abdominal compartment syndrome (ACS) is a homogenous clinical entity, or if incidence and outcomes after ACS differ by precipitating cause.Data SourcesMEDLINE, Cochrane Reviews, Science Direct, and relevant articles identified through citation matching from January 2018 to January 2026.Study SelectionAdult patients (&#x2265;18 years old) diagnosed with ACS. For the metaanalysis, outcomes were compared between those with ACS (experimental group) and those without ACS (controls).Data ExtractionThis study was conducted in accordance with PRISMA guidelines. Dual independent review was conducted to screen studies at the abstract, full text, then outcome extraction level. After completion, all data was validated by a senior reviewer to ensure alignment with criteria.Data SynthesisA total of 100 manuscripts met inclusion criteria for data extraction, 33 reporting mortality, 90 reporting incidence of ACS, and a total of 21 studies included for meta-analysis of mortality. Total incidence of ACS was 0.05% across 1,176,638 unique patients, ranging from 15.16% in patients with moderate/severe pancreatitis to 0.22% in trauma patients.The unadjusted association between ACS and mortality varied by pathology, ranging from no observed association in ECMO patients to a moderate association in trauma patients (odds ratio [OR] 3.15; 95% CI 2.24, 4.43) and large association in nontrauma patients (OR 8.60; 95% CI 4.60, 16.07).ConclusionsCurrent literature related to ACS suggests that despite a similar underlying pathophysiology, ACS is a unique entity varying by precipitating cause. Future research should identify if treatment algorithms should consider the underlying disease state when managing ACS.",
-    "englishSummary": "ObjectiveTo determine if abdominal compartment syndrome (ACS) is a homogenous clinical entity, or if incidence and outcomes after ACS differ by precipitating cause.Data SourcesMEDLINE, Cochrane Reviews, Science Direct, and relevant articles identified through citation matching from January 2018 to January 2026.Study SelectionAdult patients (&#x2265;18 years old) diagnosed with ACS. For the metaanalysis, outcomes were compared between those with ACS (experimental group) and those without ACS (controls).Data ExtractionThis study was conducted in accordance with PRISMA guidelines. Dual independent review was conducted to screen studies at the abstract, full text, then outcome extraction level.",
-    "journal": "Journal of intensive care medicine",
-    "publicationDate": "2026-09-08",
-    "authors": [
-      "Larson NJ",
-      "Kosmach J",
-      "Attarian C",
-      "Rogers FB",
-      "Berndt K",
-      "Blondeau B",
-      "Ho KM"
-    ],
-    "affiliations": [
-      "Department of Surgery, Regions Hospital, Saint Paul, MN, USA.",
-      "University of Minnesota Medical School, Minneapolis, MN, USA.",
-      "Department of Anesthesia and Intensive Care, The Chinese University of Hong Kong, Shatin, NT, Hong Kong SAR, The People's Republic of China."
-    ],
-    "doi": "10.1177/08850666261479996",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42709742/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Systematic Review",
-      "Meta-analysis",
-      "Review"
-    ],
-    "relevance": "high",
-    "score": 8,
-    "scoreReasons": [
-      "+2 clinical evidence design: meta-analysis",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42708209",
-    "title": "The Leak-Loop Technique for In Situ Fenestrated Thoracic Endovascular Arch Repair in Extensive Aortic Intramural Haematoma With Zone 0 Involvement: A Case Report.",
-    "abstract": "PURPOSE: To report the first application of the Leak-Loop Technique (LLT) that combines controlled endoleak and dual guidewire loop stabilization to address cerebral perfusion maintenance and endograft malpositioning during in situ fenestrated thoracic endovascular arch repair (fTEVAR) under urgent resource-limited setting. CASE REPORT: A 52-year-old man presented with acute progressive chest pain. Computed tomographic angiography identified an extensive subacute intramural haematoma (IMH) with penetrating atherosclerotic ulcer (PAU). In the absence of open surgical infrastructure and a customized device, in situ fTEVAR using the LLT was performed. Dual U-shaped guidewire loops created via same-sheath snare capture at each carotid access site anchored the proximal endograft and prevented rotational displacement during deployment. A pre-positioned balloon inflated at zone 0 prior to endograft deployment created a controlled gutter between the balloon shaft and aortic wall, maintaining antegrade supra-aortic branch perfusion throughout the fenestration interval. Sequential in situ fenestration and supra-aortic branch reconstruction were completed without complications. At 6-month follow-up, all branch stents were patent and the endograft was stable without endoleak. CONCLUSIONS: The LLT maintained cerebral perfusion through a self-limited controlled gutter and prevented endograft malpositioning during in situ arch fTEVAR for extensive subacute IMH with PAU. Six-month branch patency supports technical feasibility pending prospective validation.Clinical ImpactThe Leak-Loop Technique provides a reproducible, fully endovascular solution to cerebral perfusion maintenance and endograft malpositioning during in situ fenestrated thoracic endovascular arch repair (fTEVAR) using only commercially available equipment, making it particularly applicable in urgent or resource-limited settings where custom devices and open surgical infrastructure are unavailable. The 6-month outcomes suggest its potential as a viable approach in this challenging clinical scenario pending prospective validation.",
-    "englishSummary": "PURPOSE: To report the first application of the Leak-Loop Technique (LLT) that combines controlled endoleak and dual guidewire loop stabilization to address cerebral perfusion maintenance and endograft malpositioning during in situ fenestrated thoracic endovascular arch repair (fTEVAR) under urgent resource-limited setting. CASE REPORT: A 52-year-old man presented with acute progressive chest pain. Computed tomographic angiography identified an extensive subacute intramural haematoma (IMH) with penetrating atherosclerotic ulcer (PAU).",
-    "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
-    "publicationDate": "2026-09-08",
-    "authors": [
-      "Tian Y",
-      "Kwan KJS",
-      "Li J",
-      "Yeerbao ZY",
-      "Mu M",
-      "Li XX",
-      "Tang JD"
-    ],
-    "affiliations": [
-      "Department of Vascular and Thyroid Surgery, The First Affiliated Hospital of Xinjiang Medical University, Urumqi, China.",
-      "Department of Vascular Surgery, Shanghai Key Laboratory of Vascular Lesions Regulation and Remodeling, Shanghai Pudong Hospital, Fudan University Pudong Medical Center, China.",
-      "Department of Anesthesiology, The First Affiliated Hospital of Xinjiang Medical University, Urumqi, China.",
-      "Department of Interventional Radiology, The First Affiliated Hospital of Xinjiang Medical University, Urumqi, China."
-    ],
-    "doi": "10.1177/15266028261485140",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42708209/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Endovascular",
-      "Vascular Graft / Stent / Device",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Case Report"
-    ],
-    "relevance": "high",
-    "score": 8,
-    "scoreReasons": [
-      "+3 title vascular surgery topic: endovascular",
-      "+2 human study: clinical",
-      "+2 treatment or prognosis relevance: device",
-      "+2 China affiliation: China",
-      "-1 case report: case report"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究来自中国机构，建议纳入中国研究追踪。",
-    "source": "PubMed"
-  },
-  {
-    "pmid": "42707800",
-    "title": "Radial Versus Femoral Access for Carotid Artery Stenting in Patients With Carotid Artery Stenosis: Protocol of the Multicenter RACE-CAS Randomized Trial.",
-    "abstract": "BACKGROUND: Carotid artery stenting (CAS) is conventionally performed via transfemoral access (TFA), which requires prolonged postoperative immobilization and is associated with access-site complications. Transradial access (TRA) has emerged as an alternative to TFA for suitable vessel caliber and improved patient comfort. However, high-quality evidence directly comparing TRA and TFA for CAS in patients with carotid artery stenosis is still lacking. This trial aims to determine whether TRA is noninferior to TFA in patients treated with CAS due to carotid artery stenosis. METHODS: The RACE-CAS (Radial Versus Femoral Access for Carotid Artery Stenting in Patients With Carotid-Artery Stenosis) is a prospective, randomized, open-label, blinded-end point, multicenter trial. Up to 3000 patients with carotid artery stenosis will be randomly assigned in a 1:1 ratio to receive CAS treatment via either TRA or TFA across 70 centers in China. RESULTS: The primary end point is the incidence of death, new-onset stroke, myocardial infarction, or severe hemorrhage events within 30 days post-procedure, analyzed in the full analysis set using risk differences with 2-sided 95% CIs for noninferiority testing. Key secondary outcomes include the successful rate of CAS and angiography, patient comfort, and each individual component of the primary end point within 48 hours or 30 days post-procedure. Safety outcomes include all adverse events and severe adverse events. The RACE-CAS trial enrolled its first patient on July 3, 2022, and recruitment is ongoing. At the time of manuscript submission, the sample size required for the first planned interim analysis had been completed. CONCLUSIONS: The RACE-CAS trial will provide definitive, high-level evidence on the comparative efficacy and safety of TRA versus TFA for carotid artery stenting in patients with carotid artery stenosis, with the goal of guiding clinical practice. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT05416853.",
-    "englishSummary": "BACKGROUND: Carotid artery stenting (CAS) is conventionally performed via transfemoral access (TFA), which requires prolonged postoperative immobilization and is associated with access-site complications. Transradial access (TRA) has emerged as an alternative to TFA for suitable vessel caliber and improved patient comfort. However, high-quality evidence directly comparing TRA and TFA for CAS in patients with carotid artery stenosis is still lacking.",
-    "journal": "Stroke (Hoboken, N.J.)",
-    "publicationDate": "2026-09-08",
-    "authors": [
-      "Liu R",
-      "Yuan K",
-      "Liu X",
-      "Sun W",
-      "Huang X",
-      "Wang H",
-      "Yi T",
-      "Liu X",
-      "Yin Q",
-      "Ye R",
-      "Ma M",
-      "Zhu W",
-      "Liu X"
-    ],
-    "affiliations": [
-      "Division of Life Sciences and Medicine, Department of Neurology, The First Affiliated Hospital of University of Science and Technology of China (USTC), USTC, Hefei (R.L., Xuehan Liu, W.S., Xinfeng Liu).",
-      "Department of Neurology, Affiliated Jinling Hospital, Medical School of Nanjing University, China (R.L., K.Y., Q.Y., R.Y., M.M., W.Z., Xinfeng Liu).",
-      "Department of Neurology, The First Affiliated Hospital of Wannan Medical College, Wuhu, China (X.H.).",
-      "Department of Neurology, Linyi People's Hospital, Affiliated Hospital of Shandong Second Medical University, Shandong Provincial Clinical Research Center for Geriatric Diseases, China (H.W.).",
-      "Department of Neurointervention, Zhangzhou Municipal Hospital, Fujian Medical University, China (T.Y.).",
-      "Department of Neurology, Zoucheng People's Hospital, China (Xin Liu)."
-    ],
-    "doi": "10.1161/SVIN.126.002482",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42707800/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Carotid Disease",
-      "Endovascular",
-      "China Research"
-    ],
-    "studyTypeTags": [
-      "Clinical Trial"
-    ],
-    "relevance": "high",
-    "score": 8,
-    "scoreReasons": [
-      "+2 clinical evidence design: randomized",
-      "+2 human study: patients",
-      "+2 treatment or prognosis relevance: treatment",
-      "+2 China affiliation: China"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
     "source": "PubMed"
   },
   {
@@ -1147,6 +1123,44 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+    "source": "PubMed"
+  },
+  {
+    "pmid": "42730163",
+    "title": "A Mitochondrial-Related Gene Signature for Diagnosis and Immune Microenvironment Modulation in Lung Cancer and Venous Thromboembolism.",
+    "abstract": "BACKGROUND: Lung cancer (LC) and venous thromboembolism (VTE) are closely associated, with VTE contributing to morbidity and mortality among patients with LC. We aimed to identify and characterize a mitochondrial-related transcriptomic signature shared between LC and VTE and to explore its association with immune microenvironment features. METHODS: We applied a multiomics approach focused on mitochondrial-related signaling pathways. Publicly available transcriptomic datasets were analyzed using differential expression profiling and weighted gene co-expression network analysis to identify key regulatory genes. These genes were intersected with a mitochondrial gene set and subjected to functional enrichment analysis. Least absolute shrinkage and selection operator (LASSO) regression was used to identify candidate diagnostic genes validation. Immune cell infiltration was quantified, and associated regulatory mechanisms were explored. RESULTS: ACAA1 HSD17B10 MTIF2 THOP1 PDE2A Thirty-nine shared crosstalk genes were identified and were primarily enriched in mitochondrial metabolic processes. LASSO regression identified a five-gene candidate signature (,,,, and). The model exhibited promising discriminatory performance (area under the curve > 0.9 in LC dataset and 0.7-0.9 in VTE dataset). These genes were significantly dysregulated and were associated with altered immune cell infiltration, particularly in dendritic cell and T cell subsets. CONCLUSION: We identified a mitochondrial-related gene signature reflecting shared transcriptomic correlates between LC and VTE. The signature showed variable performance across disease contexts and correlative associations with immune features, supporting its role as a candidate biomarker for further investigation. Prospective validation in independent clinical cohorts is required before any translational application.",
+    "englishSummary": "BACKGROUND: Lung cancer (LC) and venous thromboembolism (VTE) are closely associated, with VTE contributing to morbidity and mortality among patients with LC. We aimed to identify and characterize a mitochondrial-related transcriptomic signature shared between LC and VTE and to explore its association with immune microenvironment features. METHODS: We applied a multiomics approach focused on mitochondrial-related signaling pathways.",
+    "journal": "World journal of oncology",
+    "publicationDate": "2026-09-04",
+    "authors": [
+      "Zhang XL",
+      "Gao AL",
+      "Liu ZJ"
+    ],
+    "affiliations": [
+      "Department of Respiratory and Critical Care Medicine, Beijing Shunyi Hospital, Beijing 101300, China."
+    ],
+    "doi": "10.14740/wjon2815",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42730163/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Venous Disease",
+      "Imaging / Diagnosis",
+      "China Research"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "medium",
+    "score": 4,
+    "scoreReasons": [
+      "+2 human study: patients",
+      "+2 China affiliation: China"
+    ],
+    "isChinaResearch": true,
+    "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
     "source": "PubMed"
   },
   {
