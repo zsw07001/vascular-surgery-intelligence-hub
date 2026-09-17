@@ -1,92 +1,92 @@
 {
-  "generatedAt": "2026-09-16T22:56:08.699Z",
+  "generatedAt": "2026-09-17T22:50:56.305Z",
   "period": {
-    "start": "2026-09-10",
-    "end": "2026-09-16"
+    "start": "2026-09-11",
+    "end": "2026-09-17"
   },
-  "dataUpdatedAt": "2026-09-16T22:56:08.699Z",
+  "dataUpdatedAt": "2026-09-17T22:50:56.305Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-09-16T22:56:08.699Z"
+      "updatedAt": "2026-09-17T22:50:56.305Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 770,
-      "updatedAt": "2026-09-16T22:56:08.699Z"
+      "count": 765,
+      "updatedAt": "2026-09-17T22:50:56.305Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 14,
-      "updatedAt": "2026-09-16T22:56:08.699Z"
+      "count": 11,
+      "updatedAt": "2026-09-17T22:50:56.305Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-16T22:56:08.699Z"
+      "updatedAt": "2026-09-17T22:50:56.305Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-16T22:56:08.699Z"
+      "updatedAt": "2026-09-17T22:50:56.305Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-09-16T22:56:08.699Z"
+      "updatedAt": "2026-09-17T22:50:56.305Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 118,
-    "chinaResearch": 44,
-    "clinicalTrials": 770,
-    "guidelines": 14,
+    "highImpact": 116,
+    "chinaResearch": 39,
+    "clinicalTrials": 765,
+    "guidelines": 11,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、770 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、765 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 133
+      "count": 122
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 85
+      "count": 82
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 70
+      "count": 75
     },
     {
       "tag": "Aortic Disease",
-      "count": 62
+      "count": 54
     },
     {
       "tag": "China Research",
-      "count": 44
+      "count": 39
     },
     {
       "tag": "PAD / CLTI",
-      "count": 37
+      "count": 34
     },
     {
       "tag": "Open Surgery",
-      "count": 25
+      "count": 24
     },
     {
       "tag": "Venous Disease",
-      "count": 18
+      "count": 20
     }
   ],
   "priorityReading": [
@@ -795,6 +795,23 @@
   ],
   "trialHighlights": [
     {
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-09-11",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-09-11",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
+    },
+    {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
       "source": "ClinicalTrials.gov",
@@ -809,23 +826,6 @@
       "enrollment": 760,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 760；最近更新 2026-08-27",
       "url": "https://clinicaltrials.gov/study/NCT02089607"
-    },
-    {
-      "nctId": "NCT07510451",
-      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-07-14",
-      "topicTags": [
-        "Aortic Disease",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 200,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-07-14",
-      "url": "https://clinicaltrials.gov/study/NCT07510451"
     },
     {
       "nctId": "NCT05378347",
@@ -960,6 +960,23 @@
   ],
   "clinicalTrials": [
     {
+      "nctId": "NCT07322913",
+      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-09-11",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 1200,
+      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-09-11",
+      "url": "https://clinicaltrials.gov/study/NCT07322913"
+    },
+    {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
       "source": "ClinicalTrials.gov",
@@ -974,23 +991,6 @@
       "enrollment": 760,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 760；最近更新 2026-08-27",
       "url": "https://clinicaltrials.gov/study/NCT02089607"
-    },
-    {
-      "nctId": "NCT07510451",
-      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-07-14",
-      "topicTags": [
-        "Aortic Disease",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 200,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-07-14",
-      "url": "https://clinicaltrials.gov/study/NCT07510451"
     },
     {
       "nctId": "NCT05378347",
@@ -1204,19 +1204,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40079708/"
     },
     {
-      "title": "Impact of Chronic Kidney Disease Severity and Drug-Coated Devices on 2-Year Clinically Driven Target Lesion Revascularization After Femoropopliteal Endovascular Intervention.",
-      "source": "Devices / Regulatory",
-      "date": "2026-06-24",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42342205/"
-    },
-    {
       "title": "Mid-Term Outcomes Following Endovascular Aneurysm Repair Using the INCRAFT Stent-Graft System.",
       "source": "Devices / Regulatory",
       "date": "2026-02-23",
@@ -1229,6 +1216,19 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41729864/"
+    },
+    {
+      "title": "Aortic Coarctation With Type B Aortic Dissection: A Systematic Review and Report of 2 Cases.",
+      "source": "Devices / Regulatory",
+      "date": "2025-06-16",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40519007/"
     },
     {
       "title": "The Fate of False Lumen in Type B and Residual Type A Aortic Dissection Using the Candy-Plug Technique: A Systematic Review and Meta-Analysis.",
@@ -1336,19 +1336,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40079708/"
     },
     {
-      "title": "Impact of Chronic Kidney Disease Severity and Drug-Coated Devices on 2-Year Clinically Driven Target Lesion Revascularization After Femoropopliteal Endovascular Intervention.",
-      "source": "Devices / Regulatory",
-      "date": "2026-06-24",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42342205/"
-    },
-    {
       "title": "Mid-Term Outcomes Following Endovascular Aneurysm Repair Using the INCRAFT Stent-Graft System.",
       "source": "Devices / Regulatory",
       "date": "2026-02-23",
@@ -1361,6 +1348,19 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41729864/"
+    },
+    {
+      "title": "Aortic Coarctation With Type B Aortic Dissection: A Systematic Review and Report of 2 Cases.",
+      "source": "Devices / Regulatory",
+      "date": "2025-06-16",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40519007/"
     },
     {
       "title": "The Fate of False Lumen in Type B and Residual Type A Aortic Dissection Using the Candy-Plug Technique: A Systematic Review and Meta-Analysis.",
