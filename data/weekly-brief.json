@@ -1,76 +1,76 @@
 {
-  "generatedAt": "2026-09-22T22:57:01.226Z",
+  "generatedAt": "2026-09-23T22:57:12.261Z",
   "period": {
-    "start": "2026-09-16",
-    "end": "2026-09-22"
+    "start": "2026-09-17",
+    "end": "2026-09-23"
   },
-  "dataUpdatedAt": "2026-09-22T22:57:01.226Z",
+  "dataUpdatedAt": "2026-09-23T22:57:12.261Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-09-22T22:57:01.226Z"
+      "updatedAt": "2026-09-23T22:57:12.261Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 771,
-      "updatedAt": "2026-09-22T22:57:01.226Z"
+      "count": 772,
+      "updatedAt": "2026-09-23T22:57:12.261Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 10,
-      "updatedAt": "2026-09-22T22:57:01.226Z"
+      "count": 7,
+      "updatedAt": "2026-09-23T22:57:12.261Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-22T22:57:01.226Z"
+      "updatedAt": "2026-09-23T22:57:12.261Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-22T22:57:01.226Z"
+      "updatedAt": "2026-09-23T22:57:12.261Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-09-22T22:57:01.226Z"
+      "updatedAt": "2026-09-23T22:57:12.261Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 105,
-    "chinaResearch": 30,
-    "clinicalTrials": 771,
-    "guidelines": 10,
+    "highImpact": 99,
+    "chinaResearch": 27,
+    "clinicalTrials": 772,
+    "guidelines": 7,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、771 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、772 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 111
-    },
-    {
-      "tag": "Vascular Graft / Stent / Device",
-      "count": 78
+      "count": 112
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 74
+      "count": 76
+    },
+    {
+      "tag": "Vascular Graft / Stent / Device",
+      "count": 76
     },
     {
       "tag": "Aortic Disease",
-      "count": 47
+      "count": 50
     },
     {
       "tag": "PAD / CLTI",
@@ -78,15 +78,15 @@
     },
     {
       "tag": "China Research",
-      "count": 30
+      "count": 27
     },
     {
       "tag": "Venous Disease",
-      "count": 29
+      "count": 27
     },
     {
       "tag": "Open Surgery",
-      "count": 22
+      "count": 21
     }
   ],
   "priorityReading": [
@@ -185,49 +185,29 @@
       "doi": "10.1177/15266028251325430"
     },
     {
-      "pmid": "42361291",
-      "title": "API-CAT investigators' decisions on anticoagulation following extended treatment for cancer-associated thrombosis.",
+      "pmid": "42774315",
+      "title": "Short-term safety outcomes of carotid artery stenting with double-layer stents: a systematic review.",
       "source": "PubMed",
-      "date": "2026-09-22",
-      "journal": "European heart journal. Cardiovascular pharmacotherapy",
+      "date": "2026-07-18",
+      "journal": "Indian journal of thoracic and cardiovascular surgery",
       "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial",
-        "Real-world Evidence"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial / Real-world Evidence；Venous Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42361291/",
-      "doi": "10.1093/ehjcvp/pvag046"
-    },
-    {
-      "pmid": "42323113",
-      "title": "Five-year outcomes of the GORE EXCLUDER Iliac Branch Endoprosthesis in real-world registry settings.",
-      "source": "PubMed",
-      "date": "2026-06-20",
-      "journal": "Journal of vascular surgery",
-      "topicTags": [
-        "Aortic Disease",
+        "Carotid Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
+        "Cohort",
         "Registry",
-        "Real-world Evidence"
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
       ],
       "relevance": "high",
       "score": 6,
-      "reason": "high relevance；Clinical Trial / Registry / Real-world Evidence；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42323113/",
-      "doi": "10.1016/j.jvs.2026.06.062"
+      "reason": "high relevance；Registry / Systematic Review / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42774315/",
+      "doi": "10.1007/s12055-026-02234-4"
     },
     {
       "pmid": "42003784",
@@ -277,27 +257,6 @@
       "doi": "10.1177/15266028251359499"
     },
     {
-      "pmid": "42723205",
-      "title": "A 7-mm Covered TIPS Reduces&#xa0;Hepatic Encephalopathy Without Increasing Rebleeding in Cirrhotic Patients With Small Liver: A Randomized Study.",
-      "source": "PubMed",
-      "date": "2026-10-01",
-      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
-      "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42723205/",
-      "doi": "10.1111/liv.70875"
-    },
-    {
       "pmid": "42556521",
       "title": "Efficacy and safety of revascularization in patients with chronic limb-threatening ischemia by kidney function.",
       "source": "PubMed",
@@ -317,6 +276,52 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42556521/",
       "doi": "10.1016/j.ahj.2026.107550"
+    },
+    {
+      "pmid": "42366790",
+      "title": "Long-Term Efficacy of Lutonix in a Real-World Femoropopliteal Patients With Peripheral Arterial Disease: Insights From the SAFE-DCB US Registry.",
+      "source": "PubMed",
+      "date": "2026-06-29",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Registry",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Registry / Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42366790/",
+      "doi": "10.1177/15266028261453224"
+    },
+    {
+      "pmid": "40542821",
+      "title": "A Systematic Review and Meta-Analysis of Outcome After Repeat Revascularization for Primary Carotid Artery Restenosis.",
+      "source": "PubMed",
+      "date": "2025-06-21",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Open Surgery"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Carotid Disease / Endovascular；score 9",
+      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40542821/",
+      "doi": "10.1177/15266028251325054"
     }
   ],
   "priorityArticles": [
@@ -415,49 +420,29 @@
       "doi": "10.1177/15266028251325430"
     },
     {
-      "pmid": "42361291",
-      "title": "API-CAT investigators' decisions on anticoagulation following extended treatment for cancer-associated thrombosis.",
+      "pmid": "42774315",
+      "title": "Short-term safety outcomes of carotid artery stenting with double-layer stents: a systematic review.",
       "source": "PubMed",
-      "date": "2026-09-22",
-      "journal": "European heart journal. Cardiovascular pharmacotherapy",
+      "date": "2026-07-18",
+      "journal": "Indian journal of thoracic and cardiovascular surgery",
       "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial",
-        "Real-world Evidence"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial / Real-world Evidence；Venous Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42361291/",
-      "doi": "10.1093/ehjcvp/pvag046"
-    },
-    {
-      "pmid": "42323113",
-      "title": "Five-year outcomes of the GORE EXCLUDER Iliac Branch Endoprosthesis in real-world registry settings.",
-      "source": "PubMed",
-      "date": "2026-06-20",
-      "journal": "Journal of vascular surgery",
-      "topicTags": [
-        "Aortic Disease",
+        "Carotid Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
+        "Cohort",
         "Registry",
-        "Real-world Evidence"
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
       ],
       "relevance": "high",
       "score": 6,
-      "reason": "high relevance；Clinical Trial / Registry / Real-world Evidence；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42323113/",
-      "doi": "10.1016/j.jvs.2026.06.062"
+      "reason": "high relevance；Registry / Systematic Review / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42774315/",
+      "doi": "10.1007/s12055-026-02234-4"
     },
     {
       "pmid": "42003784",
@@ -507,27 +492,6 @@
       "doi": "10.1177/15266028251359499"
     },
     {
-      "pmid": "42723205",
-      "title": "A 7-mm Covered TIPS Reduces&#xa0;Hepatic Encephalopathy Without Increasing Rebleeding in Cirrhotic Patients With Small Liver: A Randomized Study.",
-      "source": "PubMed",
-      "date": "2026-10-01",
-      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
-      "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42723205/",
-      "doi": "10.1111/liv.70875"
-    },
-    {
       "pmid": "42556521",
       "title": "Efficacy and safety of revascularization in patients with chronic limb-threatening ischemia by kidney function.",
       "source": "PubMed",
@@ -547,6 +511,52 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42556521/",
       "doi": "10.1016/j.ahj.2026.107550"
+    },
+    {
+      "pmid": "42366790",
+      "title": "Long-Term Efficacy of Lutonix in a Real-World Femoropopliteal Patients With Peripheral Arterial Disease: Insights From the SAFE-DCB US Registry.",
+      "source": "PubMed",
+      "date": "2026-06-29",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Registry",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Registry / Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42366790/",
+      "doi": "10.1177/15266028261453224"
+    },
+    {
+      "pmid": "40542821",
+      "title": "A Systematic Review and Meta-Analysis of Outcome After Repeat Revascularization for Primary Carotid Artery Restenosis.",
+      "source": "PubMed",
+      "date": "2025-06-21",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Open Surgery"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Carotid Disease / Endovascular；score 9",
+      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40542821/",
+      "doi": "10.1177/15266028251325054"
     }
   ],
   "chinaHighlights": [
@@ -600,27 +610,6 @@
       "doi": "10.1177/15266028251359499"
     },
     {
-      "pmid": "42723205",
-      "title": "A 7-mm Covered TIPS Reduces&#xa0;Hepatic Encephalopathy Without Increasing Rebleeding in Cirrhotic Patients With Small Liver: A Randomized Study.",
-      "source": "PubMed",
-      "date": "2026-10-01",
-      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
-      "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42723205/",
-      "doi": "10.1111/liv.70875"
-    },
-    {
       "pmid": "41222305",
       "title": "Midterm Outcomes of In Situ and In Vitro Fenestrated Stent-Grafts for Endovascular Repair of Aortic Arch Pathologies.",
       "source": "PubMed",
@@ -662,6 +651,26 @@
       "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40650600/",
       "doi": "10.1177/15266028251352799"
+    },
+    {
+      "pmid": "42619040",
+      "title": "Machine learning-derived serum carbon dioxide trajectories in predicting prognosis of patients with acute aortic dissection.",
+      "source": "PubMed",
+      "date": "2026-08-19",
+      "journal": "Medical gas research",
+      "topicTags": [
+        "Aortic Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；Aortic Disease；score 11",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42619040/",
+      "doi": "10.4103/mgr.MEDGASRES-D-25-00361"
     }
   ],
   "chinaResearch": [
@@ -715,27 +724,6 @@
       "doi": "10.1177/15266028251359499"
     },
     {
-      "pmid": "42723205",
-      "title": "A 7-mm Covered TIPS Reduces&#xa0;Hepatic Encephalopathy Without Increasing Rebleeding in Cirrhotic Patients With Small Liver: A Randomized Study.",
-      "source": "PubMed",
-      "date": "2026-10-01",
-      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
-      "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 11",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42723205/",
-      "doi": "10.1111/liv.70875"
-    },
-    {
       "pmid": "41222305",
       "title": "Midterm Outcomes of In Situ and In Vitro Fenestrated Stent-Grafts for Endovascular Repair of Aortic Arch Pathologies.",
       "source": "PubMed",
@@ -777,6 +765,26 @@
       "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40650600/",
       "doi": "10.1177/15266028251352799"
+    },
+    {
+      "pmid": "42619040",
+      "title": "Machine learning-derived serum carbon dioxide trajectories in predicting prognosis of patients with acute aortic dissection.",
+      "source": "PubMed",
+      "date": "2026-08-19",
+      "journal": "Medical gas research",
+      "topicTags": [
+        "Aortic Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；Aortic Disease；score 11",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42619040/",
+      "doi": "10.4103/mgr.MEDGASRES-D-25-00361"
     }
   ],
   "trialHighlights": [
@@ -846,22 +854,6 @@
       "url": "https://clinicaltrials.gov/study/NCT07556887"
     },
     {
-      "nctId": "NCT07613840",
-      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-09-11",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 484,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
-      "url": "https://clinicaltrials.gov/study/NCT07613840"
-    },
-    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -893,6 +885,23 @@
       "enrollment": 122,
       "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
       "url": "https://clinicaltrials.gov/study/NCT06528873"
+    },
+    {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
     },
     {
       "nctId": "NCT04545502",
@@ -1010,22 +1019,6 @@
       "url": "https://clinicaltrials.gov/study/NCT07556887"
     },
     {
-      "nctId": "NCT07613840",
-      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-09-11",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 484,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
-      "url": "https://clinicaltrials.gov/study/NCT07613840"
-    },
-    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -1057,6 +1050,23 @@
       "enrollment": 122,
       "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
       "url": "https://clinicaltrials.gov/study/NCT06528873"
+    },
+    {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
     },
     {
       "nctId": "NCT04545502",
@@ -1200,9 +1210,9 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40079708/"
     },
     {
-      "title": "Postdissection thoracoabdominal aortic aneurysm presenting with narrow true lumen: Outcomes after fenestrated and branched endovascular repair from the international multicenter NArrow-true-lumen DIssection Registry (NADIR) study group.",
+      "title": "Impact of lumen origin and gap distance on target vessel outcomes following fenestrated-branched endovascular aortic repair of postdissection thoracoabdominal aortic aneurysms.",
       "source": "Devices / Regulatory",
-      "date": "2026-06-12",
+      "date": "2026-06-04",
       "topicTags": [
         "Aortic Disease",
         "Endovascular",
@@ -1210,7 +1220,7 @@
         "Imaging / Diagnosis"
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42285180/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42248489/"
     },
     {
       "title": "Systematic Review, Meta-analysis and Meta-regression on the Prognostic Impact of Narrow Aortic Bifurcation on Outcomes of Endovascular Aneurysm Repair.",
@@ -1330,9 +1340,9 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40079708/"
     },
     {
-      "title": "Postdissection thoracoabdominal aortic aneurysm presenting with narrow true lumen: Outcomes after fenestrated and branched endovascular repair from the international multicenter NArrow-true-lumen DIssection Registry (NADIR) study group.",
+      "title": "Impact of lumen origin and gap distance on target vessel outcomes following fenestrated-branched endovascular aortic repair of postdissection thoracoabdominal aortic aneurysms.",
       "source": "Devices / Regulatory",
-      "date": "2026-06-12",
+      "date": "2026-06-04",
       "topicTags": [
         "Aortic Disease",
         "Endovascular",
@@ -1340,7 +1350,7 @@
         "Imaging / Diagnosis"
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42285180/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42248489/"
     },
     {
       "title": "Systematic Review, Meta-analysis and Meta-regression on the Prognostic Impact of Narrow Aortic Bifurcation on Outcomes of Endovascular Aneurysm Repair.",
