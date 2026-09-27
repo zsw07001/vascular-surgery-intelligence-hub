@@ -1,52 +1,52 @@
 {
-  "generatedAt": "2026-09-26T22:50:09.634Z",
+  "generatedAt": "2026-09-27T23:02:48.665Z",
   "period": {
-    "start": "2026-09-20",
-    "end": "2026-09-26"
+    "start": "2026-09-21",
+    "end": "2026-09-27"
   },
-  "dataUpdatedAt": "2026-09-26T22:50:09.634Z",
+  "dataUpdatedAt": "2026-09-27T23:02:48.665Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-09-26T22:50:09.634Z"
+      "updatedAt": "2026-09-27T23:02:48.665Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 775,
-      "updatedAt": "2026-09-26T22:50:09.634Z"
+      "updatedAt": "2026-09-27T23:02:48.665Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 5,
-      "updatedAt": "2026-09-26T22:50:09.634Z"
+      "updatedAt": "2026-09-27T23:02:48.665Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-26T22:50:09.634Z"
+      "updatedAt": "2026-09-27T23:02:48.665Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-09-26T22:50:09.634Z"
+      "updatedAt": "2026-09-27T23:02:48.665Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-09-26T22:50:09.634Z"
+      "updatedAt": "2026-09-27T23:02:48.665Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 88,
-    "chinaResearch": 28,
+    "highImpact": 93,
+    "chinaResearch": 27,
     "clinicalTrials": 775,
     "guidelines": 5,
     "devices": 40,
@@ -58,31 +58,31 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 80
+      "count": 81
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 63
+      "count": 60
     },
     {
       "tag": "Venous Disease",
-      "count": 49
+      "count": 48
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 43
+      "count": 42
     },
     {
       "tag": "Aortic Disease",
-      "count": 31
+      "count": 30
     },
     {
       "tag": "China Research",
-      "count": 28
+      "count": 27
     },
     {
       "tag": "PAD / CLTI",
-      "count": 22
+      "count": 20
     },
     {
       "tag": "Antithrombotic Therapy",
@@ -208,6 +208,28 @@
       "doi": "10.1515/jom-2025-0210"
     },
     {
+      "pmid": "42801481",
+      "title": "Simultaneous Versus Staged Surgery for Concomitant Abdominal Aortic Aneurysm and Gastrointestinal Malignancy: A Systematic Review With Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2026-09-27",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42801481/",
+      "doi": "10.1177/15266028261487352"
+    },
+    {
       "pmid": "42556521",
       "title": "Efficacy and safety of revascularization in patients with chronic limb-threatening ischemia by kidney function.",
       "source": "PubMed",
@@ -274,48 +296,27 @@
       "doi": "10.1177/15266028251325054"
     },
     {
-      "pmid": "42757819",
-      "title": "Transcatheter aortic valve implantation in patients with tricuspid, bicuspid and bioprosthetic valves: observations from COMPARE-TAVI 1.",
+      "pmid": "42799675",
+      "title": "Percutaneous decannulation with a suture-mediated closure device versus open surgical repair for peripheral veno-arterial extracorporeal membrane oxygenation: A systematic review and meta-analysis.",
       "source": "PubMed",
-      "date": "2026-09-21",
-      "journal": "Scandinavian cardiovascular journal : SCJ",
+      "date": "2026-09-26",
+      "journal": "Interdisciplinary cardiovascular and thoracic surgery",
       "topicTags": [
+        "Endovascular",
+        "Open Surgery",
         "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
-        "RCT",
-        "Clinical Trial",
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42757819/",
-      "doi": "10.1080/14017431.2026.2704938"
-    },
-    {
-      "pmid": "42448302",
-      "title": "Recurrent VTE in patients with thrombophilia after stopping anticoagulation: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-10-13",
-      "journal": "Blood advances",
-      "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "Cohort",
         "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42448302/",
-      "doi": "10.1182/bloodadvances.2026020623"
+      "score": 6,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42799675/",
+      "doi": "10.1093/icvts/ivag274"
     }
   ],
   "priorityArticles": [
@@ -437,6 +438,28 @@
       "doi": "10.1515/jom-2025-0210"
     },
     {
+      "pmid": "42801481",
+      "title": "Simultaneous Versus Staged Surgery for Concomitant Abdominal Aortic Aneurysm and Gastrointestinal Malignancy: A Systematic Review With Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2026-09-27",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42801481/",
+      "doi": "10.1177/15266028261487352"
+    },
+    {
       "pmid": "42556521",
       "title": "Efficacy and safety of revascularization in patients with chronic limb-threatening ischemia by kidney function.",
       "source": "PubMed",
@@ -503,48 +526,27 @@
       "doi": "10.1177/15266028251325054"
     },
     {
-      "pmid": "42757819",
-      "title": "Transcatheter aortic valve implantation in patients with tricuspid, bicuspid and bioprosthetic valves: observations from COMPARE-TAVI 1.",
+      "pmid": "42799675",
+      "title": "Percutaneous decannulation with a suture-mediated closure device versus open surgical repair for peripheral veno-arterial extracorporeal membrane oxygenation: A systematic review and meta-analysis.",
       "source": "PubMed",
-      "date": "2026-09-21",
-      "journal": "Scandinavian cardiovascular journal : SCJ",
+      "date": "2026-09-26",
+      "journal": "Interdisciplinary cardiovascular and thoracic surgery",
       "topicTags": [
+        "Endovascular",
+        "Open Surgery",
         "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
-        "RCT",
-        "Clinical Trial",
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial；Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42757819/",
-      "doi": "10.1080/14017431.2026.2704938"
-    },
-    {
-      "pmid": "42448302",
-      "title": "Recurrent VTE in patients with thrombophilia after stopping anticoagulation: a systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-10-13",
-      "journal": "Blood advances",
-      "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "Cohort",
         "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42448302/",
-      "doi": "10.1182/bloodadvances.2026020623"
+      "score": 6,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42799675/",
+      "doi": "10.1093/icvts/ivag274"
     }
   ],
   "chinaHighlights": [
@@ -571,6 +573,28 @@
       "doi": "10.1016/j.pmn.2026.04.007"
     },
     {
+      "pmid": "42799726",
+      "title": "Risk Assessment, Prophylaxis, and Treatment Among Hospital-Acquired VTE in China: A Nationwide, Multicenter Cohort Study.",
+      "source": "PubMed",
+      "date": "2026-09-24",
+      "journal": "JACC. Asia",
+      "topicTags": [
+        "Venous Disease",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；Real-world Evidence；Venous Disease；score 8",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42799726/",
+      "doi": "10.1016/j.jacasi.2026.07.049"
+    },
+    {
       "pmid": "42778759",
       "title": "Post-marketing safety profile of Myfembree in approved gynecologic indications: a disproportionality analysis based on the FAERS database.",
       "source": "PubMed",
@@ -630,26 +654,6 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42791427/",
       "doi": "10.1007/s10143-026-04510-8"
-    },
-    {
-      "pmid": "42790679",
-      "title": "Risk factors and clinical outcomes for acute kidney injury after surgery for primary spinal and pelvic bone tumours: analysis of the US Nationwide Inpatient Sample 2005 to 2020.",
-      "source": "PubMed",
-      "date": "2026-09-25",
-      "journal": "Clinical medicine (London, England)",
-      "topicTags": [
-        "Venous Disease",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Venous Disease；score 8",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42790679/",
-      "doi": "10.1016/j.clinme.2026.100651"
     }
   ],
   "chinaResearch": [
@@ -676,6 +680,28 @@
       "doi": "10.1016/j.pmn.2026.04.007"
     },
     {
+      "pmid": "42799726",
+      "title": "Risk Assessment, Prophylaxis, and Treatment Among Hospital-Acquired VTE in China: A Nationwide, Multicenter Cohort Study.",
+      "source": "PubMed",
+      "date": "2026-09-24",
+      "journal": "JACC. Asia",
+      "topicTags": [
+        "Venous Disease",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；Real-world Evidence；Venous Disease；score 8",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42799726/",
+      "doi": "10.1016/j.jacasi.2026.07.049"
+    },
+    {
       "pmid": "42778759",
       "title": "Post-marketing safety profile of Myfembree in approved gynecologic indications: a disproportionality analysis based on the FAERS database.",
       "source": "PubMed",
@@ -735,26 +761,6 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42791427/",
       "doi": "10.1007/s10143-026-04510-8"
-    },
-    {
-      "pmid": "42790679",
-      "title": "Risk factors and clinical outcomes for acute kidney injury after surgery for primary spinal and pelvic bone tumours: analysis of the US Nationwide Inpatient Sample 2005 to 2020.",
-      "source": "PubMed",
-      "date": "2026-09-25",
-      "journal": "Clinical medicine (London, England)",
-      "topicTags": [
-        "Venous Disease",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Venous Disease；score 8",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42790679/",
-      "doi": "10.1016/j.clinme.2026.100651"
     }
   ],
   "trialHighlights": [
