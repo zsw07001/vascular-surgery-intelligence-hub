@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T23:03:58.590Z",
+  "lastUpdated": "2026-10-04T23:09:41.730Z",
   "mode": "pubmed",
   "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
@@ -8,8 +8,8 @@
       "status": "success",
       "count": 200,
       "message": "Fetched 200 articles from PubMed.",
-      "startedAt": "2026-10-03T23:03:50.670Z",
-      "finishedAt": "2026-10-03T23:03:53.797Z"
+      "startedAt": "2026-10-04T23:09:35.292Z",
+      "finishedAt": "2026-10-04T23:09:38.006Z"
     },
     {
       "name": "ClinicalTrials.gov",
@@ -22,7 +22,7 @@
     {
       "name": "Guidelines and device regulatory",
       "status": "success",
-      "count": 39,
+      "count": 38,
       "message": "Generated from current PubMed JSON."
     },
     {
@@ -36,7 +36,7 @@
       "status": "success",
       "count": 35,
       "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
-      "finishedAt": "2026-10-03T23:03:58.590Z"
+      "finishedAt": "2026-10-04T23:09:41.730Z"
     }
   ],
   "pubmed": {
@@ -47,8 +47,8 @@
     "counts": {
       "total": 200,
       "high": 83,
-      "medium": 66,
-      "low": 31,
+      "medium": 63,
+      "low": 34,
       "review": 20,
       "china": 27,
       "highImpact": 92
@@ -59,7 +59,7 @@
   "errors": [],
   "manualReview": [
     "有 20 篇文献被标记为 review，建议人工确认是否纳入。",
-    "有 31 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
+    "有 34 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
     "有 27 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
   ],
   "configPreview": {

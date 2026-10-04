@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-10-03T23:03:58.358Z",
+  "generatedAt": "2026-10-04T23:09:41.549Z",
   "period": {
-    "start": "2026-09-27",
-    "end": "2026-10-03"
+    "start": "2026-09-28",
+    "end": "2026-10-04"
   },
-  "dataUpdatedAt": "2026-10-03T23:03:58.358Z",
+  "dataUpdatedAt": "2026-10-04T23:09:41.549Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-10-03T23:03:58.358Z"
+      "updatedAt": "2026-10-04T23:09:41.549Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 772,
-      "updatedAt": "2026-10-03T23:03:58.358Z"
+      "updatedAt": "2026-10-04T23:09:41.549Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 8,
-      "updatedAt": "2026-10-03T23:03:58.358Z"
+      "updatedAt": "2026-10-04T23:09:41.549Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
-      "count": 31,
-      "updatedAt": "2026-10-03T23:03:58.358Z"
+      "count": 30,
+      "updatedAt": "2026-10-04T23:09:41.549Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-03T23:03:58.358Z"
+      "updatedAt": "2026-10-04T23:09:41.549Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-10-03T23:03:58.358Z"
+      "updatedAt": "2026-10-04T23:09:41.549Z"
     }
   ],
   "counts": {
@@ -49,7 +49,7 @@
     "chinaResearch": 27,
     "clinicalTrials": 772,
     "guidelines": 8,
-    "devices": 31,
+    "devices": 30,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
@@ -58,31 +58,31 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 61
+      "count": 56
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 57
+      "count": 56
     },
     {
       "tag": "Venous Disease",
-      "count": 47
-    },
-    {
-      "tag": "Vascular Graft / Stent / Device",
-      "count": 29
+      "count": 46
     },
     {
       "tag": "China Research",
       "count": 27
     },
     {
-      "tag": "Open Surgery",
-      "count": 20
+      "tag": "Vascular Graft / Stent / Device",
+      "count": 27
     },
     {
       "tag": "PAD / CLTI",
-      "count": 20
+      "count": 22
+    },
+    {
+      "tag": "Open Surgery",
+      "count": 21
     },
     {
       "tag": "Aortic Disease",
@@ -293,25 +293,26 @@
       "doi": "10.1097/HCO.0000000000001337"
     },
     {
-      "pmid": "42827154",
-      "title": "Two-year clinical outcomes of jetstream atherectomy followed by drug-coated balloon angioplasty for severely calcified femoropopliteal lesions.",
+      "pmid": "42151017",
+      "title": "Physical Therapy for Arteriovenous Fistula Pain: A Systematic Review and Network Meta-Analysis.",
       "source": "PubMed",
-      "date": "2026-10-03",
-      "journal": "Heart and vessels",
+      "date": "2026-05-18",
+      "journal": "Pain management nursing : official journal of the American Society of Pain Management Nurses",
       "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Dialysis Access",
+        "China Research"
       ],
       "studyTypeTags": [
-        "Real-world Evidence"
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42827154/",
-      "doi": "10.1007/s00380-026-02760-6"
+      "score": 11,
+      "reason": "high relevance；Systematic Review / Meta-analysis；score 11",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42151017/",
+      "doi": "10.1016/j.pmn.2026.04.007"
     }
   ],
   "priorityArticles": [
@@ -518,25 +519,26 @@
       "doi": "10.1097/HCO.0000000000001337"
     },
     {
-      "pmid": "42827154",
-      "title": "Two-year clinical outcomes of jetstream atherectomy followed by drug-coated balloon angioplasty for severely calcified femoropopliteal lesions.",
+      "pmid": "42151017",
+      "title": "Physical Therapy for Arteriovenous Fistula Pain: A Systematic Review and Network Meta-Analysis.",
       "source": "PubMed",
-      "date": "2026-10-03",
-      "journal": "Heart and vessels",
+      "date": "2026-05-18",
+      "journal": "Pain management nursing : official journal of the American Society of Pain Management Nurses",
       "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Dialysis Access",
+        "China Research"
       ],
       "studyTypeTags": [
-        "Real-world Evidence"
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
       ],
       "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42827154/",
-      "doi": "10.1007/s00380-026-02760-6"
+      "score": 11,
+      "reason": "high relevance；Systematic Review / Meta-analysis；score 11",
+      "summaryZh": "该研究为系统综述或 Meta 分析，适合优先阅读。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42151017/",
+      "doi": "10.1016/j.pmn.2026.04.007"
     }
   ],
   "chinaHighlights": [
@@ -584,6 +586,26 @@
       "doi": "10.1016/j.pmn.2026.04.007"
     },
     {
+      "pmid": "42829984",
+      "title": "Readiness for Hospital Discharge and Quality of Life Among Patients Undergoing Surgery for Type A Aortic Dissection: A Prospective Observational Cohort Study.",
+      "source": "PubMed",
+      "date": "2026-10-01",
+      "journal": "Nursing open",
+      "topicTags": [
+        "Aortic Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；Aortic Disease；score 11",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42829984/",
+      "doi": "10.1002/nop2.70888"
+    },
+    {
       "pmid": "42420144",
       "title": "Final Postprocedural DSA Intrahepatic Branch Patency Predicts Outcomes After Endovascular Recanalization for Acute Non-cirrhotic Portal Vein Thrombosis.",
       "source": "PubMed",
@@ -623,27 +645,6 @@
       "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42481369/",
       "doi": "10.1016/j.acra.2026.06.066"
-    },
-    {
-      "pmid": "42822621",
-      "title": "Recent progress in the biomarkers of peripheral artery disease.",
-      "source": "PubMed",
-      "date": "2026-10-01",
-      "journal": "Clinica chimica acta; international journal of clinical chemistry",
-      "topicTags": [
-        "PAD / CLTI",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "中国机构研究；high relevance；PAD / CLTI；score 6",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42822621/",
-      "doi": "10.1016/j.cca.2026.122864"
     }
   ],
   "chinaResearch": [
@@ -691,6 +692,26 @@
       "doi": "10.1016/j.pmn.2026.04.007"
     },
     {
+      "pmid": "42829984",
+      "title": "Readiness for Hospital Discharge and Quality of Life Among Patients Undergoing Surgery for Type A Aortic Dissection: A Prospective Observational Cohort Study.",
+      "source": "PubMed",
+      "date": "2026-10-01",
+      "journal": "Nursing open",
+      "topicTags": [
+        "Aortic Disease",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 11,
+      "reason": "中国机构研究；high relevance；Aortic Disease；score 11",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42829984/",
+      "doi": "10.1002/nop2.70888"
+    },
+    {
       "pmid": "42420144",
       "title": "Final Postprocedural DSA Intrahepatic Branch Patency Predicts Outcomes After Endovascular Recanalization for Acute Non-cirrhotic Portal Vein Thrombosis.",
       "source": "PubMed",
@@ -730,27 +751,6 @@
       "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42481369/",
       "doi": "10.1016/j.acra.2026.06.066"
-    },
-    {
-      "pmid": "42822621",
-      "title": "Recent progress in the biomarkers of peripheral artery disease.",
-      "source": "PubMed",
-      "date": "2026-10-01",
-      "journal": "Clinica chimica acta; international journal of clinical chemistry",
-      "topicTags": [
-        "PAD / CLTI",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "中国机构研究；high relevance；PAD / CLTI；score 6",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42822621/",
-      "doi": "10.1016/j.cca.2026.122864"
     }
   ],
   "trialHighlights": [
