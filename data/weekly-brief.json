@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-10T00:02:10.431Z",
+  "generatedAt": "2026-10-10T23:33:24.089Z",
   "period": {
     "start": "2026-10-04",
     "end": "2026-10-10"
   },
-  "dataUpdatedAt": "2026-10-10T00:02:10.431Z",
+  "dataUpdatedAt": "2026-10-10T23:33:24.089Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-10-10T00:02:10.431Z"
+      "updatedAt": "2026-10-10T23:33:24.089Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 770,
-      "updatedAt": "2026-10-10T00:02:10.431Z"
+      "updatedAt": "2026-10-10T23:33:24.089Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 6,
-      "updatedAt": "2026-10-10T00:02:10.431Z"
+      "count": 8,
+      "updatedAt": "2026-10-10T23:33:24.089Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-10T00:02:10.431Z"
+      "updatedAt": "2026-10-10T23:33:24.089Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-10T00:02:10.431Z"
+      "updatedAt": "2026-10-10T23:33:24.089Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-10-10T00:02:10.431Z"
+      "updatedAt": "2026-10-10T23:33:24.089Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 84,
-    "chinaResearch": 33,
+    "highImpact": 87,
+    "chinaResearch": 32,
     "clinicalTrials": 770,
-    "guidelines": 6,
+    "guidelines": 8,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,35 +58,35 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 89
+      "count": 90
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 65
+      "count": 67
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 56
-    },
-    {
-      "tag": "Aortic Disease",
-      "count": 38
+      "count": 57
     },
     {
       "tag": "Venous Disease",
-      "count": 34
+      "count": 38
+    },
+    {
+      "tag": "Aortic Disease",
+      "count": 35
     },
     {
       "tag": "China Research",
-      "count": 33
-    },
-    {
-      "tag": "Open Surgery",
-      "count": 27
+      "count": 32
     },
     {
       "tag": "PAD / CLTI",
-      "count": 25
+      "count": 24
+    },
+    {
+      "tag": "Antithrombotic Therapy",
+      "count": 23
     }
   ],
   "priorityReading": [
@@ -253,49 +253,6 @@
       "doi": "10.1177/00033197251392660"
     },
     {
-      "pmid": "42833587",
-      "title": "Inflammatory and Hemostatic Biomarker Response After Endovenous Laser Ablation Versus High Ligation and Stripping: A Randomized Controlled Trial.",
-      "source": "PubMed",
-      "date": "2026-10-05",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；RCT / Clinical Trial；Venous Disease / Endovascular；score 6",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42833587/",
-      "doi": "10.1016/j.avsg.2026.09.048"
-    },
-    {
-      "pmid": "42833295",
-      "title": "Heparin Management and Coagulation in Acute Aortic Dissection Surgery: A Randomised Controlled Trial.",
-      "source": "PubMed",
-      "date": "2026-10-05",
-      "journal": "Journal of thrombosis and haemostasis : JTH",
-      "topicTags": [
-        "Aortic Disease",
-        "Open Surgery",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial；Aortic Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42833295/",
-      "doi": "10.1016/j.jtha.2026.09.036"
-    },
-    {
       "pmid": "42448302",
       "title": "Recurrent VTE in patients with thrombophilia after stopping anticoagulation: a systematic review and meta-analysis.",
       "source": "PubMed",
@@ -317,6 +274,49 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42448302/",
       "doi": "10.1182/bloodadvances.2026020623"
+    },
+    {
+      "pmid": "38814082",
+      "title": "Comparison of Outcomes Between Right and Left Upper Extremity Access in Endovascular Aortic Repair for Patients with Thoracoabdominal and Abdominal Aortic Aneurysms: A Systematic Review and Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2024-05-30",
+      "journal": "Cardiology in review",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular；score 8",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38814082/",
+      "doi": "10.1097/CRD.0000000000000734"
+    },
+    {
+      "pmid": "42670975",
+      "title": "Tricuspid-Valve Intervention in Heart Failure.",
+      "source": "PubMed",
+      "date": "2026-08-30",
+      "journal": "The New England journal of medicine",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 7,
+      "reason": "high relevance；RCT / Clinical Trial；Endovascular / Vascular Graft / Stent / Device；score 7",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42670975/",
+      "doi": "10.1056/NEJMoa2606934"
     }
   ],
   "priorityArticles": [
@@ -483,49 +483,6 @@
       "doi": "10.1177/00033197251392660"
     },
     {
-      "pmid": "42833587",
-      "title": "Inflammatory and Hemostatic Biomarker Response After Endovenous Laser Ablation Versus High Ligation and Stripping: A Randomized Controlled Trial.",
-      "source": "PubMed",
-      "date": "2026-10-05",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；RCT / Clinical Trial；Venous Disease / Endovascular；score 6",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42833587/",
-      "doi": "10.1016/j.avsg.2026.09.048"
-    },
-    {
-      "pmid": "42833295",
-      "title": "Heparin Management and Coagulation in Acute Aortic Dissection Surgery: A Randomised Controlled Trial.",
-      "source": "PubMed",
-      "date": "2026-10-05",
-      "journal": "Journal of thrombosis and haemostasis : JTH",
-      "topicTags": [
-        "Aortic Disease",
-        "Open Surgery",
-        "Antithrombotic Therapy"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial；Aortic Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42833295/",
-      "doi": "10.1016/j.jtha.2026.09.036"
-    },
-    {
       "pmid": "42448302",
       "title": "Recurrent VTE in patients with thrombophilia after stopping anticoagulation: a systematic review and meta-analysis.",
       "source": "PubMed",
@@ -547,6 +504,49 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42448302/",
       "doi": "10.1182/bloodadvances.2026020623"
+    },
+    {
+      "pmid": "38814082",
+      "title": "Comparison of Outcomes Between Right and Left Upper Extremity Access in Endovascular Aortic Repair for Patients with Thoracoabdominal and Abdominal Aortic Aneurysms: A Systematic Review and Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2024-05-30",
+      "journal": "Cardiology in review",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular；score 8",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38814082/",
+      "doi": "10.1097/CRD.0000000000000734"
+    },
+    {
+      "pmid": "42670975",
+      "title": "Tricuspid-Valve Intervention in Heart Failure.",
+      "source": "PubMed",
+      "date": "2026-08-30",
+      "journal": "The New England journal of medicine",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 7,
+      "reason": "high relevance；RCT / Clinical Trial；Endovascular / Vascular Graft / Stent / Device；score 7",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42670975/",
+      "doi": "10.1056/NEJMoa2606934"
     }
   ],
   "chinaHighlights": [
@@ -1111,6 +1111,18 @@
   ],
   "manualReview": [
     {
+      "title": "Optimizing management strategies for T4b esophageal cancer: the role of TEVAR in multimodal treatment approaches.",
+      "source": "Guidelines",
+      "date": "2026-10-10",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42856077/"
+    },
+    {
       "title": "EACTS Expert Consensus Document on aortic valve repair and valve-sparing aortic root replacement procedures.",
       "source": "Guidelines",
       "date": "2026-10-07",
@@ -1136,26 +1148,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42838480/"
     },
     {
-      "title": "Hospital resources to manage pulmonary embolism and the establishment of pulmonary embolism response teams: Many models of care.",
+      "title": "[Chinese guideline for the laboratory diagnosis of venous thromboembolism (2026 edition)].",
       "source": "Guidelines",
-      "date": "2026-10-09",
-      "topicTags": [
-        "Endovascular",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42851067/"
-    },
-    {
-      "title": "Reflecting on Quality-of-Care Delivery in Inflammatory Bowel Disease Pregnancy: The (Pause and Reflect) PAUSA Study.",
-      "source": "Guidelines",
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "topicTags": [
         "Venous Disease",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
         "Guideline / Consensus"
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42844504/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42855768/"
     },
     {
       "title": "Low-Profile Versus Standard-Profile Endograft for Thoracoabdominal and Complex Abdominal Endovascular Aortic Treatment-Multicenter Cohort Study.",
@@ -1236,6 +1239,18 @@
   ],
   "reviewQueue": [
     {
+      "title": "Optimizing management strategies for T4b esophageal cancer: the role of TEVAR in multimodal treatment approaches.",
+      "source": "Guidelines",
+      "date": "2026-10-10",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42856077/"
+    },
+    {
       "title": "EACTS Expert Consensus Document on aortic valve repair and valve-sparing aortic root replacement procedures.",
       "source": "Guidelines",
       "date": "2026-10-07",
@@ -1261,26 +1276,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42838480/"
     },
     {
-      "title": "Hospital resources to manage pulmonary embolism and the establishment of pulmonary embolism response teams: Many models of care.",
+      "title": "[Chinese guideline for the laboratory diagnosis of venous thromboembolism (2026 edition)].",
       "source": "Guidelines",
-      "date": "2026-10-09",
-      "topicTags": [
-        "Endovascular",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42851067/"
-    },
-    {
-      "title": "Reflecting on Quality-of-Care Delivery in Inflammatory Bowel Disease Pregnancy: The (Pause and Reflect) PAUSA Study.",
-      "source": "Guidelines",
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "topicTags": [
         "Venous Disease",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
         "Guideline / Consensus"
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42844504/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42855768/"
     },
     {
       "title": "Low-Profile Versus Standard-Profile Endograft for Thoracoabdominal and Complex Abdominal Endovascular Aortic Treatment-Multicenter Cohort Study.",
