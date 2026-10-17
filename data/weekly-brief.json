@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-16T22:51:39.415Z",
+  "generatedAt": "2026-10-17T22:17:58.787Z",
   "period": {
-    "start": "2026-10-10",
-    "end": "2026-10-16"
+    "start": "2026-10-11",
+    "end": "2026-10-17"
   },
-  "dataUpdatedAt": "2026-10-16T22:51:39.415Z",
+  "dataUpdatedAt": "2026-10-17T22:17:58.787Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-10-16T22:51:39.415Z"
+      "updatedAt": "2026-10-17T22:17:58.787Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 774,
-      "updatedAt": "2026-10-16T22:51:39.415Z"
+      "updatedAt": "2026-10-17T22:17:58.787Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 13,
-      "updatedAt": "2026-10-16T22:51:39.415Z"
+      "count": 12,
+      "updatedAt": "2026-10-17T22:17:58.787Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-16T22:51:39.415Z"
+      "updatedAt": "2026-10-17T22:17:58.787Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-16T22:51:39.415Z"
+      "updatedAt": "2026-10-17T22:17:58.787Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-10-16T22:51:39.415Z"
+      "updatedAt": "2026-10-17T22:17:58.787Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 104,
-    "chinaResearch": 34,
+    "highImpact": 99,
+    "chinaResearch": 32,
     "clinicalTrials": 774,
-    "guidelines": 13,
+    "guidelines": 12,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,15 +58,15 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 91
+      "count": 92
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 63
+      "count": 61
     },
     {
       "tag": "Venous Disease",
-      "count": 55
+      "count": 59
     },
     {
       "tag": "Vascular Graft / Stent / Device",
@@ -74,19 +74,19 @@
     },
     {
       "tag": "Aortic Disease",
-      "count": 40
+      "count": 33
     },
     {
       "tag": "China Research",
-      "count": 34
+      "count": 32
     },
     {
       "tag": "PAD / CLTI",
-      "count": 28
+      "count": 26
     },
     {
-      "tag": "Open Surgery",
-      "count": 24
+      "tag": "Antithrombotic Therapy",
+      "count": 19
     }
   ],
   "priorityReading": [
@@ -115,52 +115,6 @@
       "doi": "10.1016/j.jvs.2026.05.053"
     },
     {
-      "pmid": "42874860",
-      "title": "Artificial Intelligence for Predicting Amputation and Related Outcomes in Peripheral Artery Disease: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-10-14",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "PAD / CLTI",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Registry",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Registry / Systematic Review / Meta-analysis；PAD / CLTI；score 8",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42874860/",
-      "doi": "10.1016/j.avsg.2026.10.003"
-    },
-    {
-      "pmid": "42697514",
-      "title": "Effect of fenofibrate on diabetic retinopathy progression: an RCT-Only systematic review and meta-analysis incorporating the LENS trial.",
-      "source": "PubMed",
-      "date": "2026-09-04",
-      "journal": "Diabetes research and clinical practice",
-      "topicTags": [
-        "Venous Disease"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；RCT / Clinical Trial / Systematic Review / Meta-analysis；Venous Disease；score 7",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42697514/",
-      "doi": "10.1016/j.diabres.2026.113543"
-    },
-    {
       "pmid": "42612727",
       "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
       "source": "PubMed",
@@ -208,30 +162,6 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42880395/",
       "doi": "10.1016/j.ejvs.2026.10.005"
-    },
-    {
-      "pmid": "41388683",
-      "title": "Open Surgical Versus Endovascular Repair for Type B Aortic Dissection: Umbrella Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2025-12-12",
-      "journal": "Angiology",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41388683/",
-      "doi": "10.1177/00033197251392660"
     },
     {
       "pmid": "42644221",
@@ -300,26 +230,92 @@
       "doi": "10.2106/JBJS.OA.26.00282"
     },
     {
-      "pmid": "42874861",
-      "title": "Distinct Temporal Patterns of Limb Loss and Mortality After Transcatheter Arterialization of the Deep Veins for No-Option CLTI.",
+      "pmid": "42556521",
+      "title": "Efficacy and safety of revascularization in patients with chronic limb-threatening ischemia by kidney function.",
       "source": "PubMed",
-      "date": "2026-10-14",
-      "journal": "Annals of vascular surgery",
+      "date": "2026-08-05",
+      "journal": "American heart journal",
       "topicTags": [
         "PAD / CLTI",
         "Endovascular"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Registry"
+        "RCT",
+        "Clinical Trial"
       ],
       "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；Clinical Trial / Registry；PAD / CLTI / Endovascular；score 7",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI / Endovascular；score 9",
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42874861/",
-      "doi": "10.1016/j.avsg.2026.10.002"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42556521/",
+      "doi": "10.1016/j.ahj.2026.107550"
+    },
+    {
+      "pmid": "42498186",
+      "title": "Society for Vascular Surgery Vascular Quality Initiative Contemporary Benchmarks: Endovascular Abdominal Aortic Aneurysms.",
+      "source": "PubMed",
+      "date": "2026-07-25",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Registry",
+        "Guideline"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Registry / Guideline；Aortic Disease / Endovascular；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42498186/",
+      "doi": "10.1016/j.jvs.2026.07.074"
+    },
+    {
+      "pmid": "42879766",
+      "title": "The Moderating Effects of Race and Ethnicity on a Motivational Interviewing Intervention for Improving Physical Health Among Patients With Peripheral Artery Disease: Secondary Analysis of a Pilot Randomized Trial.",
+      "source": "PubMed",
+      "date": "2026-10-15",
+      "journal": "JMIR formative research",
+      "topicTags": [
+        "PAD / CLTI"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42879766/",
+      "doi": "10.2196/82926"
+    },
+    {
+      "pmid": "42448157",
+      "title": "Open- versus closed-cell stents in transfemoral carotid artery stenting for carotid bifurcation disease: a target trial emulation.",
+      "source": "PubMed",
+      "date": "2026-07-14",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Basic Research"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "high relevance；Clinical Trial；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42448157/",
+      "doi": "10.1016/j.jvs.2026.07.008"
     }
   ],
   "priorityArticles": [
@@ -348,52 +344,6 @@
       "doi": "10.1016/j.jvs.2026.05.053"
     },
     {
-      "pmid": "42874860",
-      "title": "Artificial Intelligence for Predicting Amputation and Related Outcomes in Peripheral Artery Disease: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-10-14",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "PAD / CLTI",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Registry",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Registry / Systematic Review / Meta-analysis；PAD / CLTI；score 8",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42874860/",
-      "doi": "10.1016/j.avsg.2026.10.003"
-    },
-    {
-      "pmid": "42697514",
-      "title": "Effect of fenofibrate on diabetic retinopathy progression: an RCT-Only systematic review and meta-analysis incorporating the LENS trial.",
-      "source": "PubMed",
-      "date": "2026-09-04",
-      "journal": "Diabetes research and clinical practice",
-      "topicTags": [
-        "Venous Disease"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；RCT / Clinical Trial / Systematic Review / Meta-analysis；Venous Disease；score 7",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42697514/",
-      "doi": "10.1016/j.diabres.2026.113543"
-    },
-    {
       "pmid": "42612727",
       "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
       "source": "PubMed",
@@ -441,30 +391,6 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42880395/",
       "doi": "10.1016/j.ejvs.2026.10.005"
-    },
-    {
-      "pmid": "41388683",
-      "title": "Open Surgical Versus Endovascular Repair for Type B Aortic Dissection: Umbrella Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2025-12-12",
-      "journal": "Angiology",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41388683/",
-      "doi": "10.1177/00033197251392660"
     },
     {
       "pmid": "42644221",
@@ -533,53 +459,96 @@
       "doi": "10.2106/JBJS.OA.26.00282"
     },
     {
-      "pmid": "42874861",
-      "title": "Distinct Temporal Patterns of Limb Loss and Mortality After Transcatheter Arterialization of the Deep Veins for No-Option CLTI.",
+      "pmid": "42556521",
+      "title": "Efficacy and safety of revascularization in patients with chronic limb-threatening ischemia by kidney function.",
       "source": "PubMed",
-      "date": "2026-10-14",
-      "journal": "Annals of vascular surgery",
+      "date": "2026-08-05",
+      "journal": "American heart journal",
       "topicTags": [
         "PAD / CLTI",
         "Endovascular"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Registry"
+        "RCT",
+        "Clinical Trial"
       ],
       "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；Clinical Trial / Registry；PAD / CLTI / Endovascular；score 7",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI / Endovascular；score 9",
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42874861/",
-      "doi": "10.1016/j.avsg.2026.10.002"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42556521/",
+      "doi": "10.1016/j.ahj.2026.107550"
+    },
+    {
+      "pmid": "42498186",
+      "title": "Society for Vascular Surgery Vascular Quality Initiative Contemporary Benchmarks: Endovascular Abdominal Aortic Aneurysms.",
+      "source": "PubMed",
+      "date": "2026-07-25",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Registry",
+        "Guideline"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Registry / Guideline；Aortic Disease / Endovascular；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42498186/",
+      "doi": "10.1016/j.jvs.2026.07.074"
+    },
+    {
+      "pmid": "42879766",
+      "title": "The Moderating Effects of Race and Ethnicity on a Motivational Interviewing Intervention for Improving Physical Health Among Patients With Peripheral Artery Disease: Secondary Analysis of a Pilot Randomized Trial.",
+      "source": "PubMed",
+      "date": "2026-10-15",
+      "journal": "JMIR formative research",
+      "topicTags": [
+        "PAD / CLTI"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；PAD / CLTI；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42879766/",
+      "doi": "10.2196/82926"
+    },
+    {
+      "pmid": "42448157",
+      "title": "Open- versus closed-cell stents in transfemoral carotid artery stenting for carotid bifurcation disease: a target trial emulation.",
+      "source": "PubMed",
+      "date": "2026-07-14",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Basic Research"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "high relevance；Clinical Trial；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42448157/",
+      "doi": "10.1016/j.jvs.2026.07.008"
     }
   ],
   "chinaHighlights": [
     {
-      "pmid": "42874860",
-      "title": "Artificial Intelligence for Predicting Amputation and Related Outcomes in Peripheral Artery Disease: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-10-14",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "PAD / CLTI",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Registry",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Registry / Systematic Review / Meta-analysis；PAD / CLTI；score 8",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42874860/",
-      "doi": "10.1016/j.avsg.2026.10.003"
-    },
-    {
       "pmid": "42612727",
       "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
       "source": "PubMed",
@@ -670,33 +639,33 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42857797/",
       "doi": "10.2106/JBJS.OA.26.00282"
+    },
+    {
+      "pmid": "42448157",
+      "title": "Open- versus closed-cell stents in transfemoral carotid artery stenting for carotid bifurcation disease: a target trial emulation.",
+      "source": "PubMed",
+      "date": "2026-07-14",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Basic Research"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；Clinical Trial；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42448157/",
+      "doi": "10.1016/j.jvs.2026.07.008"
     }
   ],
   "chinaResearch": [
     {
-      "pmid": "42874860",
-      "title": "Artificial Intelligence for Predicting Amputation and Related Outcomes in Peripheral Artery Disease: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-10-14",
-      "journal": "Annals of vascular surgery",
-      "topicTags": [
-        "PAD / CLTI",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Registry",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；Registry / Systematic Review / Meta-analysis；PAD / CLTI；score 8",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42874860/",
-      "doi": "10.1016/j.avsg.2026.10.003"
-    },
-    {
       "pmid": "42612727",
       "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
       "source": "PubMed",
@@ -787,6 +756,29 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42857797/",
       "doi": "10.2106/JBJS.OA.26.00282"
+    },
+    {
+      "pmid": "42448157",
+      "title": "Open- versus closed-cell stents in transfemoral carotid artery stenting for carotid bifurcation disease: a target trial emulation.",
+      "source": "PubMed",
+      "date": "2026-07-14",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Basic Research"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；Clinical Trial；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42448157/",
+      "doi": "10.1016/j.jvs.2026.07.008"
     }
   ],
   "trialHighlights": [
