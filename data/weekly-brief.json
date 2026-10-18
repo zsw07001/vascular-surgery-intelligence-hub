@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-17T22:17:58.787Z",
+  "generatedAt": "2026-10-18T22:25:35.900Z",
   "period": {
-    "start": "2026-10-11",
-    "end": "2026-10-17"
+    "start": "2026-10-12",
+    "end": "2026-10-18"
   },
-  "dataUpdatedAt": "2026-10-17T22:17:58.787Z",
+  "dataUpdatedAt": "2026-10-18T22:25:35.900Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-10-17T22:17:58.787Z"
+      "updatedAt": "2026-10-18T22:25:35.900Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 774,
-      "updatedAt": "2026-10-17T22:17:58.787Z"
+      "updatedAt": "2026-10-18T22:25:35.900Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 12,
-      "updatedAt": "2026-10-17T22:17:58.787Z"
+      "count": 11,
+      "updatedAt": "2026-10-18T22:25:35.900Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-17T22:17:58.787Z"
+      "updatedAt": "2026-10-18T22:25:35.900Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-17T22:17:58.787Z"
+      "updatedAt": "2026-10-18T22:25:35.900Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-10-17T22:17:58.787Z"
+      "updatedAt": "2026-10-18T22:25:35.900Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 99,
-    "chinaResearch": 32,
+    "highImpact": 97,
+    "chinaResearch": 37,
     "clinicalTrials": 774,
-    "guidelines": 12,
+    "guidelines": 11,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,27 +58,27 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 92
+      "count": 98
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 61
+      "count": 64
     },
     {
       "tag": "Venous Disease",
-      "count": 59
+      "count": 55
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 42
-    },
-    {
-      "tag": "Aortic Disease",
-      "count": 33
+      "count": 46
     },
     {
       "tag": "China Research",
-      "count": 32
+      "count": 37
+    },
+    {
+      "tag": "Aortic Disease",
+      "count": 34
     },
     {
       "tag": "PAD / CLTI",
@@ -86,7 +86,7 @@
     },
     {
       "tag": "Antithrombotic Therapy",
-      "count": 19
+      "count": 20
     }
   ],
   "priorityReading": [
@@ -209,27 +209,6 @@
       "doi": "10.1016/j.jvsv.2026.102599"
     },
     {
-      "pmid": "42857797",
-      "title": "Efficacy and Safety of Intraosseous Regional Versus Intravenous Tranexamic Acid in Total Knee Arthroplasty: A Randomized Controlled Trial.",
-      "source": "PubMed",
-      "date": "2026-10-15",
-      "journal": "JB & JS open access",
-      "topicTags": [
-        "Venous Disease",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42857797/",
-      "doi": "10.2106/JBJS.OA.26.00282"
-    },
-    {
       "pmid": "42556521",
       "title": "Efficacy and safety of revascularization in patients with chronic limb-threatening ischemia by kidney function.",
       "source": "PubMed",
@@ -316,6 +295,26 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42448157/",
       "doi": "10.1016/j.jvs.2026.07.008"
+    },
+    {
+      "pmid": "42637071",
+      "title": "Laser cryo-sclerotherapy versus conventional sclerotherapy for reticular veins and telangiectasias: A randomized controlled trial.",
+      "source": "PubMed",
+      "date": "2026-09-15",
+      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "topicTags": [
+        "Venous Disease"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42637071/",
+      "doi": "10.1016/j.jvsv.2026.102605"
     }
   ],
   "priorityArticles": [
@@ -438,27 +437,6 @@
       "doi": "10.1016/j.jvsv.2026.102599"
     },
     {
-      "pmid": "42857797",
-      "title": "Efficacy and Safety of Intraosseous Regional Versus Intravenous Tranexamic Acid in Total Knee Arthroplasty: A Randomized Controlled Trial.",
-      "source": "PubMed",
-      "date": "2026-10-15",
-      "journal": "JB & JS open access",
-      "topicTags": [
-        "Venous Disease",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42857797/",
-      "doi": "10.2106/JBJS.OA.26.00282"
-    },
-    {
       "pmid": "42556521",
       "title": "Efficacy and safety of revascularization in patients with chronic limb-threatening ischemia by kidney function.",
       "source": "PubMed",
@@ -545,6 +523,26 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42448157/",
       "doi": "10.1016/j.jvs.2026.07.008"
+    },
+    {
+      "pmid": "42637071",
+      "title": "Laser cryo-sclerotherapy versus conventional sclerotherapy for reticular veins and telangiectasias: A randomized controlled trial.",
+      "source": "PubMed",
+      "date": "2026-09-15",
+      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "topicTags": [
+        "Venous Disease"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42637071/",
+      "doi": "10.1016/j.jvsv.2026.102605"
     }
   ],
   "chinaHighlights": [
@@ -620,27 +618,6 @@
       "doi": "10.1002/ajh.70481"
     },
     {
-      "pmid": "42857797",
-      "title": "Efficacy and Safety of Intraosseous Regional Versus Intravenous Tranexamic Acid in Total Knee Arthroplasty: A Randomized Controlled Trial.",
-      "source": "PubMed",
-      "date": "2026-10-15",
-      "journal": "JB & JS open access",
-      "topicTags": [
-        "Venous Disease",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；RCT / Clinical Trial；Venous Disease；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42857797/",
-      "doi": "10.2106/JBJS.OA.26.00282"
-    },
-    {
       "pmid": "42448157",
       "title": "Open- versus closed-cell stents in transfemoral carotid artery stenting for carotid bifurcation disease: a target trial emulation.",
       "source": "PubMed",
@@ -662,6 +639,29 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42448157/",
       "doi": "10.1016/j.jvs.2026.07.008"
+    },
+    {
+      "pmid": "42887644",
+      "title": "Cilostazol and Risk of Major Adverse Limb and Cardiovascular Events after Revascularisation for Peripheral Artery Disease.",
+      "source": "PubMed",
+      "date": "2026-10-16",
+      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Antithrombotic Therapy",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "中国机构研究；high relevance；Real-world Evidence；PAD / CLTI / Endovascular；score 6",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42887644/",
+      "doi": "10.1016/j.ejvs.2026.10.012"
     }
   ],
   "chinaResearch": [
@@ -737,27 +737,6 @@
       "doi": "10.1002/ajh.70481"
     },
     {
-      "pmid": "42857797",
-      "title": "Efficacy and Safety of Intraosseous Regional Versus Intravenous Tranexamic Acid in Total Knee Arthroplasty: A Randomized Controlled Trial.",
-      "source": "PubMed",
-      "date": "2026-10-15",
-      "journal": "JB & JS open access",
-      "topicTags": [
-        "Venous Disease",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "RCT",
-        "Clinical Trial"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "中国机构研究；high relevance；RCT / Clinical Trial；Venous Disease；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42857797/",
-      "doi": "10.2106/JBJS.OA.26.00282"
-    },
-    {
       "pmid": "42448157",
       "title": "Open- versus closed-cell stents in transfemoral carotid artery stenting for carotid bifurcation disease: a target trial emulation.",
       "source": "PubMed",
@@ -779,6 +758,29 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42448157/",
       "doi": "10.1016/j.jvs.2026.07.008"
+    },
+    {
+      "pmid": "42887644",
+      "title": "Cilostazol and Risk of Major Adverse Limb and Cardiovascular Events after Revascularisation for Peripheral Artery Disease.",
+      "source": "PubMed",
+      "date": "2026-10-16",
+      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Antithrombotic Therapy",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "中国机构研究；high relevance；Real-world Evidence；PAD / CLTI / Endovascular；score 6",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42887644/",
+      "doi": "10.1016/j.ejvs.2026.10.012"
     }
   ],
   "trialHighlights": [
@@ -1173,19 +1175,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42320804/"
     },
     {
-      "title": "Identification of perioperative risk factors for retrograde type A dissection after thoracic endovascular aortic repair for type B dissection.",
-      "source": "Devices / Regulatory",
-      "date": "2026-10-15",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42876259/"
-    },
-    {
       "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
       "source": "Devices / Regulatory",
       "date": "2026-08-18",
@@ -1212,6 +1201,17 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42498187/"
+    },
+    {
+      "title": "Procedural outcomes and follow-up of endovascular treatment for extracranial carotid artery aneurysms: A systematic review.",
+      "source": "Devices / Regulatory",
+      "date": "2026-07-01",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42386086/"
     },
     {
       "title": "Systematic review and meta-analysis on the outcomes after fenestrated-branched endovascular repair in post-dissection thoracoabdominal aortic aneurysms.",
@@ -1304,19 +1304,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42320804/"
     },
     {
-      "title": "Identification of perioperative risk factors for retrograde type A dissection after thoracic endovascular aortic repair for type B dissection.",
-      "source": "Devices / Regulatory",
-      "date": "2026-10-15",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42876259/"
-    },
-    {
       "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
       "source": "Devices / Regulatory",
       "date": "2026-08-18",
@@ -1343,6 +1330,17 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42498187/"
+    },
+    {
+      "title": "Procedural outcomes and follow-up of endovascular treatment for extracranial carotid artery aneurysms: A systematic review.",
+      "source": "Devices / Regulatory",
+      "date": "2026-07-01",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42386086/"
     },
     {
       "title": "Systematic review and meta-analysis on the outcomes after fenestrated-branched endovascular repair in post-dissection thoracoabdominal aortic aneurysms.",
