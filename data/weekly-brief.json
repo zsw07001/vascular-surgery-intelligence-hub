@@ -1,55 +1,55 @@
 {
-  "generatedAt": "2026-10-23T23:08:21.314Z",
+  "generatedAt": "2026-10-24T22:28:07.123Z",
   "period": {
-    "start": "2026-10-17",
-    "end": "2026-10-23"
+    "start": "2026-10-18",
+    "end": "2026-10-24"
   },
-  "dataUpdatedAt": "2026-10-23T23:08:21.314Z",
+  "dataUpdatedAt": "2026-10-24T22:28:07.123Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-10-23T23:08:21.314Z"
+      "updatedAt": "2026-10-24T22:28:07.123Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 784,
-      "updatedAt": "2026-10-23T23:08:21.314Z"
+      "updatedAt": "2026-10-24T22:28:07.123Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 10,
-      "updatedAt": "2026-10-23T23:08:21.314Z"
+      "count": 14,
+      "updatedAt": "2026-10-24T22:28:07.123Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
-      "count": 40,
-      "updatedAt": "2026-10-23T23:08:21.314Z"
+      "count": 37,
+      "updatedAt": "2026-10-24T22:28:07.123Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-23T23:08:21.314Z"
+      "updatedAt": "2026-10-24T22:28:07.123Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-10-23T23:08:21.314Z"
+      "updatedAt": "2026-10-24T22:28:07.123Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 85,
-    "chinaResearch": 39,
+    "highImpact": 80,
+    "chinaResearch": 36,
     "clinicalTrials": 784,
-    "guidelines": 10,
-    "devices": 40,
+    "guidelines": 14,
+    "devices": 37,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
@@ -58,62 +58,87 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 81
+      "count": 82
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 81
+      "count": 80
     },
     {
       "tag": "Venous Disease",
-      "count": 46
+      "count": 43
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 40
+      "count": 37
     },
     {
       "tag": "China Research",
-      "count": 39
+      "count": 36
     },
     {
       "tag": "Aortic Disease",
-      "count": 30
+      "count": 29
     },
     {
       "tag": "Antithrombotic Therapy",
-      "count": 20
+      "count": 23
     },
     {
-      "tag": "Open Surgery",
-      "count": 14
+      "tag": "PAD / CLTI",
+      "count": 18
     }
   ],
   "priorityReading": [
     {
-      "pmid": "42612727",
-      "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
+      "pmid": "42759285",
+      "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
       "source": "PubMed",
-      "date": "2026-08-18",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "date": "2026-09-09",
+      "journal": "European journal of radiology",
       "topicTags": [
-        "Venous Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy",
-        "China Research"
+        "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
+        "RCT",
+        "Clinical Trial",
+        "Registry",
         "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42612727/",
-      "doi": "10.1016/j.jvsv.2026.102601"
+      "score": 12,
+      "reason": "high relevance；RCT / Clinical Trial / Registry / Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 12",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42759285/",
+      "doi": "10.1016/j.ejrad.2026.113230"
+    },
+    {
+      "pmid": "42679415",
+      "title": "Deep learning versus radiologists for acute aortic dissection on CT: A systematic review and network meta-analysis.",
+      "source": "PubMed",
+      "date": "2026-08-25",
+      "journal": "European journal of radiology",
+      "topicTags": [
+        "Aortic Disease",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 10,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Vascular Graft / Stent / Device；score 10",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42679415/",
+      "doi": "10.1016/j.ejrad.2026.113189"
     },
     {
       "pmid": "42910756",
@@ -138,118 +163,47 @@
       "doi": "10.1024/0301-1526/a001310"
     },
     {
-      "pmid": "42896733",
-      "title": "Systematic Review of Devices, Designs, and Trials for the Treatment of Deep Venous Reflux.",
+      "pmid": "42532302",
+      "title": "Drug-Eluting Stents versus Drug-Coated Balloons Plus Bare-Metal Stents for the Treatment of Femoropopliteal Artery Lesions: 2-Year Outcomes from the TALENT Study.",
       "source": "PubMed",
-      "date": "2026-10-19",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "date": "2026-07-30",
+      "journal": "Journal of vascular and interventional radiology : JVIR",
       "topicTags": [
-        "Venous Disease",
+        "PAD / CLTI",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Systematic Review",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Clinical Trial / Systematic Review；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42896733/",
-      "doi": "10.1016/j.jvsv.2026.102643"
-    },
-    {
-      "pmid": "42571790",
-      "title": "Pelvic vein embolization using different embolic agents for the treatment of pelvic venous insufficiency: A systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-08-09",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 7",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42571790/",
-      "doi": "10.1016/j.jvsv.2026.102599"
-    },
-    {
-      "pmid": "42895027",
-      "title": "Initial Direct Oral Anticoagulants Versus Warfarin After Cerebral Venous Thrombosis: A Target Trial Emulation.",
-      "source": "PubMed",
-      "date": "2026-10-19",
-      "journal": "Stroke",
-      "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy",
-        "Imaging / Diagnosis",
         "China Research"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
-        "Registry"
+        "Real-world Evidence"
       ],
       "relevance": "high",
       "score": 8,
-      "reason": "high relevance；Clinical Trial / Registry；Venous Disease；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895027/",
-      "doi": "10.1161/STROKEAHA.126.057578"
+      "reason": "high relevance；Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42532302/",
+      "doi": "10.1016/j.jvir.2026.108987"
     },
     {
-      "pmid": "42896747",
-      "title": "Percutaneous approach to aortic disease: EVAR, TEVAR and newer techniques for more proximal disease.",
+      "pmid": "42919641",
+      "title": "Comparative Safety and Efficacy of Apixaban and Rivaroxaban During Extended Anticoagulation for Venous Thromboembolism: A Non-randomised Post Hoc Comparison Within the RENOVE Trial.",
       "source": "PubMed",
-      "date": "2026-10-19",
-      "journal": "Progress in cardiovascular diseases",
+      "date": "2026-10-23",
+      "journal": "The European respiratory journal",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "studyTypeTags": [
-        "Guideline",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；Guideline；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 7",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42896747/",
-      "doi": "10.1016/j.pcad.2026.10.005"
-    },
-    {
-      "pmid": "42637071",
-      "title": "Laser cryo-sclerotherapy versus conventional sclerotherapy for reticular veins and telangiectasias: A randomized controlled trial.",
-      "source": "PubMed",
-      "date": "2026-09-15",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
-      "topicTags": [
-        "Venous Disease"
+        "Venous Disease",
+        "Antithrombotic Therapy"
       ],
       "studyTypeTags": [
         "RCT",
         "Clinical Trial"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 9",
+      "score": 6,
+      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 6",
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42637071/",
-      "doi": "10.1016/j.jvsv.2026.102605"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42919641/",
+      "doi": "10.1183/13993003.00968-2026"
     },
     {
       "pmid": "42910607",
@@ -315,33 +269,103 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/",
       "doi": "10.1080/0886022X.2026.2742581"
+    },
+    {
+      "pmid": "42893492",
+      "title": "Use of vaginal estrogens in urogynecology: current evidence, controversies and clinical applications.",
+      "source": "PubMed",
+      "date": "2026-10-20",
+      "journal": "Current opinion in obstetrics & gynecology",
+      "topicTags": [
+        "Venous Disease",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Cohort",
+        "Guideline",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Clinical Trial / Guideline；Venous Disease；score 6",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42893492/",
+      "doi": "10.1097/GCO.0000000000001157"
+    },
+    {
+      "pmid": "42901252",
+      "title": "Early and follow-up results of reinterventions for type 2 endoleak following endovascular repair of abdominal aortic aneurysm (EVAR): the multicenter REinterventions for Type 2 Endoleak (RETE) study.",
+      "source": "PubMed",
+      "date": "2026-10-20",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42901252/",
+      "doi": "10.1016/j.jvs.2026.09.049"
     }
   ],
   "priorityArticles": [
     {
-      "pmid": "42612727",
-      "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
+      "pmid": "42759285",
+      "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
       "source": "PubMed",
-      "date": "2026-08-18",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "date": "2026-09-09",
+      "journal": "European journal of radiology",
       "topicTags": [
-        "Venous Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy",
-        "China Research"
+        "Vascular Graft / Stent / Device"
       ],
       "studyTypeTags": [
+        "RCT",
+        "Clinical Trial",
+        "Registry",
         "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42612727/",
-      "doi": "10.1016/j.jvsv.2026.102601"
+      "score": 12,
+      "reason": "high relevance；RCT / Clinical Trial / Registry / Systematic Review / Meta-analysis；Endovascular / Vascular Graft / Stent / Device；score 12",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42759285/",
+      "doi": "10.1016/j.ejrad.2026.113230"
+    },
+    {
+      "pmid": "42679415",
+      "title": "Deep learning versus radiologists for acute aortic dissection on CT: A systematic review and network meta-analysis.",
+      "source": "PubMed",
+      "date": "2026-08-25",
+      "journal": "European journal of radiology",
+      "topicTags": [
+        "Aortic Disease",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 10,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Vascular Graft / Stent / Device；score 10",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42679415/",
+      "doi": "10.1016/j.ejrad.2026.113189"
     },
     {
       "pmid": "42910756",
@@ -366,118 +390,47 @@
       "doi": "10.1024/0301-1526/a001310"
     },
     {
-      "pmid": "42896733",
-      "title": "Systematic Review of Devices, Designs, and Trials for the Treatment of Deep Venous Reflux.",
+      "pmid": "42532302",
+      "title": "Drug-Eluting Stents versus Drug-Coated Balloons Plus Bare-Metal Stents for the Treatment of Femoropopliteal Artery Lesions: 2-Year Outcomes from the TALENT Study.",
       "source": "PubMed",
-      "date": "2026-10-19",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "date": "2026-07-30",
+      "journal": "Journal of vascular and interventional radiology : JVIR",
       "topicTags": [
-        "Venous Disease",
+        "PAD / CLTI",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Systematic Review",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Clinical Trial / Systematic Review；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 6",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42896733/",
-      "doi": "10.1016/j.jvsv.2026.102643"
-    },
-    {
-      "pmid": "42571790",
-      "title": "Pelvic vein embolization using different embolic agents for the treatment of pelvic venous insufficiency: A systematic review and meta-analysis.",
-      "source": "PubMed",
-      "date": "2026-08-09",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 7",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42571790/",
-      "doi": "10.1016/j.jvsv.2026.102599"
-    },
-    {
-      "pmid": "42895027",
-      "title": "Initial Direct Oral Anticoagulants Versus Warfarin After Cerebral Venous Thrombosis: A Target Trial Emulation.",
-      "source": "PubMed",
-      "date": "2026-10-19",
-      "journal": "Stroke",
-      "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy",
-        "Imaging / Diagnosis",
         "China Research"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
-        "Registry"
+        "Real-world Evidence"
       ],
       "relevance": "high",
       "score": 8,
-      "reason": "high relevance；Clinical Trial / Registry；Venous Disease；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895027/",
-      "doi": "10.1161/STROKEAHA.126.057578"
+      "reason": "high relevance；Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42532302/",
+      "doi": "10.1016/j.jvir.2026.108987"
     },
     {
-      "pmid": "42896747",
-      "title": "Percutaneous approach to aortic disease: EVAR, TEVAR and newer techniques for more proximal disease.",
+      "pmid": "42919641",
+      "title": "Comparative Safety and Efficacy of Apixaban and Rivaroxaban During Extended Anticoagulation for Venous Thromboembolism: A Non-randomised Post Hoc Comparison Within the RENOVE Trial.",
       "source": "PubMed",
-      "date": "2026-10-19",
-      "journal": "Progress in cardiovascular diseases",
+      "date": "2026-10-23",
+      "journal": "The European respiratory journal",
       "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "studyTypeTags": [
-        "Guideline",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "high relevance；Guideline；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 7",
-      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42896747/",
-      "doi": "10.1016/j.pcad.2026.10.005"
-    },
-    {
-      "pmid": "42637071",
-      "title": "Laser cryo-sclerotherapy versus conventional sclerotherapy for reticular veins and telangiectasias: A randomized controlled trial.",
-      "source": "PubMed",
-      "date": "2026-09-15",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
-      "topicTags": [
-        "Venous Disease"
+        "Venous Disease",
+        "Antithrombotic Therapy"
       ],
       "studyTypeTags": [
         "RCT",
         "Clinical Trial"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 9",
+      "score": 6,
+      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 6",
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42637071/",
-      "doi": "10.1016/j.jvsv.2026.102605"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42919641/",
+      "doi": "10.1183/13993003.00968-2026"
     },
     {
       "pmid": "42910607",
@@ -543,56 +496,100 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/",
       "doi": "10.1080/0886022X.2026.2742581"
+    },
+    {
+      "pmid": "42893492",
+      "title": "Use of vaginal estrogens in urogynecology: current evidence, controversies and clinical applications.",
+      "source": "PubMed",
+      "date": "2026-10-20",
+      "journal": "Current opinion in obstetrics & gynecology",
+      "topicTags": [
+        "Venous Disease",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Cohort",
+        "Guideline",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "high relevance；Clinical Trial / Guideline；Venous Disease；score 6",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42893492/",
+      "doi": "10.1097/GCO.0000000000001157"
+    },
+    {
+      "pmid": "42901252",
+      "title": "Early and follow-up results of reinterventions for type 2 endoleak following endovascular repair of abdominal aortic aneurysm (EVAR): the multicenter REinterventions for Type 2 Endoleak (RETE) study.",
+      "source": "PubMed",
+      "date": "2026-10-20",
+      "journal": "Journal of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42901252/",
+      "doi": "10.1016/j.jvs.2026.09.049"
     }
   ],
   "chinaHighlights": [
     {
-      "pmid": "42612727",
-      "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
+      "pmid": "42679415",
+      "title": "Deep learning versus radiologists for acute aortic dissection on CT: A systematic review and network meta-analysis.",
       "source": "PubMed",
-      "date": "2026-08-18",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "date": "2026-08-25",
+      "journal": "European journal of radiology",
       "topicTags": [
-        "Venous Disease",
-        "Endovascular",
+        "Aortic Disease",
         "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
         "China Research"
       ],
       "studyTypeTags": [
+        "Cohort",
         "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42612727/",
-      "doi": "10.1016/j.jvsv.2026.102601"
+      "score": 10,
+      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Aortic Disease / Vascular Graft / Stent / Device；score 10",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42679415/",
+      "doi": "10.1016/j.ejrad.2026.113189"
     },
     {
-      "pmid": "42895027",
-      "title": "Initial Direct Oral Anticoagulants Versus Warfarin After Cerebral Venous Thrombosis: A Target Trial Emulation.",
+      "pmid": "42532302",
+      "title": "Drug-Eluting Stents versus Drug-Coated Balloons Plus Bare-Metal Stents for the Treatment of Femoropopliteal Artery Lesions: 2-Year Outcomes from the TALENT Study.",
       "source": "PubMed",
-      "date": "2026-10-19",
-      "journal": "Stroke",
+      "date": "2026-07-30",
+      "journal": "Journal of vascular and interventional radiology : JVIR",
       "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy",
-        "Imaging / Diagnosis",
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
         "China Research"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
-        "Registry"
+        "Real-world Evidence"
       ],
       "relevance": "high",
       "score": 8,
-      "reason": "中国机构研究；high relevance；Clinical Trial / Registry；Venous Disease；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895027/",
-      "doi": "10.1161/STROKEAHA.126.057578"
+      "reason": "中国机构研究；high relevance；Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42532302/",
+      "doi": "10.1016/j.jvir.2026.108987"
     },
     {
       "pmid": "42910607",
@@ -661,52 +658,51 @@
   ],
   "chinaResearch": [
     {
-      "pmid": "42612727",
-      "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
+      "pmid": "42679415",
+      "title": "Deep learning versus radiologists for acute aortic dissection on CT: A systematic review and network meta-analysis.",
       "source": "PubMed",
-      "date": "2026-08-18",
-      "journal": "Journal of vascular surgery. Venous and lymphatic disorders",
+      "date": "2026-08-25",
+      "journal": "European journal of radiology",
       "topicTags": [
-        "Venous Disease",
-        "Endovascular",
+        "Aortic Disease",
         "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
         "China Research"
       ],
       "studyTypeTags": [
+        "Cohort",
         "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42612727/",
-      "doi": "10.1016/j.jvsv.2026.102601"
+      "score": 10,
+      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；Aortic Disease / Vascular Graft / Stent / Device；score 10",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42679415/",
+      "doi": "10.1016/j.ejrad.2026.113189"
     },
     {
-      "pmid": "42895027",
-      "title": "Initial Direct Oral Anticoagulants Versus Warfarin After Cerebral Venous Thrombosis: A Target Trial Emulation.",
+      "pmid": "42532302",
+      "title": "Drug-Eluting Stents versus Drug-Coated Balloons Plus Bare-Metal Stents for the Treatment of Femoropopliteal Artery Lesions: 2-Year Outcomes from the TALENT Study.",
       "source": "PubMed",
-      "date": "2026-10-19",
-      "journal": "Stroke",
+      "date": "2026-07-30",
+      "journal": "Journal of vascular and interventional radiology : JVIR",
       "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy",
-        "Imaging / Diagnosis",
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
         "China Research"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
-        "Registry"
+        "Real-world Evidence"
       ],
       "relevance": "high",
       "score": 8,
-      "reason": "中国机构研究；high relevance；Clinical Trial / Registry；Venous Disease；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895027/",
-      "doi": "10.1161/STROKEAHA.126.057578"
+      "reason": "中国机构研究；high relevance；Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 8",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42532302/",
+      "doi": "10.1016/j.jvir.2026.108987"
     },
     {
       "pmid": "42910607",
@@ -1103,32 +1099,6 @@
   ],
   "manualReview": [
     {
-      "title": "Percutaneous approach to aortic disease: EVAR, TEVAR and newer techniques for more proximal disease.",
-      "source": "Guidelines",
-      "date": "2026-10-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42896747/"
-    },
-    {
-      "title": "Optimizing the management of venous disease: Expert consensus from a multinational panel of phlebology specialists.",
-      "source": "Guidelines",
-      "date": "2026-08-04",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42551587/"
-    },
-    {
       "title": "The START-SIAPAV-PAD Registry - Rationale, study design, and baseline characteristics of an ongoing Italian multicentre registry.",
       "source": "Guidelines",
       "date": "2026-10-22",
@@ -1152,6 +1122,30 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42909762/"
     },
     {
+      "title": "Clinician adherence to peri-procedural warfarin bridging guidelines for patients with atrial fibrillation enrolled in an anticoagulation management service.",
+      "source": "Guidelines",
+      "date": "2026-10-22",
+      "topicTags": [
+        "Venous Disease",
+        "Antithrombotic Therapy",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42912128/"
+    },
+    {
+      "title": "Renal trauma: an overview of current management.",
+      "source": "Guidelines",
+      "date": "2026-10-22",
+      "topicTags": [
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42911242/"
+    },
+    {
       "title": "Early and follow-up results of reinterventions for type 2 endoleak following endovascular repair of abdominal aortic aneurysm (EVAR): the multicenter REinterventions for Type 2 Endoleak (RETE) study.",
       "source": "Devices / Regulatory",
       "date": "2026-10-20",
@@ -1165,18 +1159,15 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42901252/"
     },
     {
-      "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
+      "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
       "source": "Devices / Regulatory",
-      "date": "2026-08-18",
+      "date": "2026-09-09",
       "topicTags": [
-        "Venous Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy",
-        "China Research"
+        "Vascular Graft / Stent / Device"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42612727/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42759285/"
     },
     {
       "title": "Long-term outcome of stenting for the iliac vein stenosis with ipsilateral arterio-venous graft;&#xa0;a case series.",
@@ -1194,18 +1185,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/"
     },
     {
-      "title": "Collapse and Thrombosis of an Iliac Branch Endovascular Device Following Blunt Force Trauma.",
+      "title": "Drug-Eluting Stents versus Drug-Coated Balloons Plus Bare-Metal Stents for the Treatment of Femoropopliteal Artery Lesions: 2-Year Outcomes from the TALENT Study.",
       "source": "Devices / Regulatory",
-      "date": "2026-10-19",
+      "date": "2026-07-30",
       "topicTags": [
-        "Aortic Disease",
+        "PAD / CLTI",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy",
-        "Imaging / Diagnosis"
+        "China Research"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895371/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42532302/"
     },
     {
       "title": "Early and follow-up results of reinterventions for type 2 endoleak following endovascular repair of abdominal aortic aneurysm (EVAR): the multicenter REinterventions for Type 2 Endoleak (RETE) study.",
@@ -1221,49 +1211,19 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42901252/"
     },
     {
-      "title": "Long-term outcome of stenting for the iliac vein stenosis with ipsilateral arterio-venous graft;&#xa0;a case series.",
+      "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
       "source": "Safety",
-      "date": "2026-10-20",
+      "date": "2026-09-09",
       "topicTags": [
-        "Venous Disease",
-        "Dialysis Access",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "China Research"
+        "Vascular Graft / Stent / Device"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42759285/"
     }
   ],
   "reviewQueue": [
     {
-      "title": "Percutaneous approach to aortic disease: EVAR, TEVAR and newer techniques for more proximal disease.",
-      "source": "Guidelines",
-      "date": "2026-10-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42896747/"
-    },
-    {
-      "title": "Optimizing the management of venous disease: Expert consensus from a multinational panel of phlebology specialists.",
-      "source": "Guidelines",
-      "date": "2026-08-04",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42551587/"
-    },
-    {
       "title": "The START-SIAPAV-PAD Registry - Rationale, study design, and baseline characteristics of an ongoing Italian multicentre registry.",
       "source": "Guidelines",
       "date": "2026-10-22",
@@ -1287,6 +1247,30 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42909762/"
     },
     {
+      "title": "Clinician adherence to peri-procedural warfarin bridging guidelines for patients with atrial fibrillation enrolled in an anticoagulation management service.",
+      "source": "Guidelines",
+      "date": "2026-10-22",
+      "topicTags": [
+        "Venous Disease",
+        "Antithrombotic Therapy",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42912128/"
+    },
+    {
+      "title": "Renal trauma: an overview of current management.",
+      "source": "Guidelines",
+      "date": "2026-10-22",
+      "topicTags": [
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42911242/"
+    },
+    {
       "title": "Early and follow-up results of reinterventions for type 2 endoleak following endovascular repair of abdominal aortic aneurysm (EVAR): the multicenter REinterventions for Type 2 Endoleak (RETE) study.",
       "source": "Devices / Regulatory",
       "date": "2026-10-20",
@@ -1300,18 +1284,15 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42901252/"
     },
     {
-      "title": "Factors associated with patency loss after iliocaval and iliofemoral venous stenting.",
+      "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
       "source": "Devices / Regulatory",
-      "date": "2026-08-18",
+      "date": "2026-09-09",
       "topicTags": [
-        "Venous Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy",
-        "China Research"
+        "Vascular Graft / Stent / Device"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42612727/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42759285/"
     },
     {
       "title": "Long-term outcome of stenting for the iliac vein stenosis with ipsilateral arterio-venous graft;&#xa0;a case series.",
@@ -1329,18 +1310,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/"
     },
     {
-      "title": "Collapse and Thrombosis of an Iliac Branch Endovascular Device Following Blunt Force Trauma.",
+      "title": "Drug-Eluting Stents versus Drug-Coated Balloons Plus Bare-Metal Stents for the Treatment of Femoropopliteal Artery Lesions: 2-Year Outcomes from the TALENT Study.",
       "source": "Devices / Regulatory",
-      "date": "2026-10-19",
+      "date": "2026-07-30",
       "topicTags": [
-        "Aortic Disease",
+        "PAD / CLTI",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Antithrombotic Therapy",
-        "Imaging / Diagnosis"
+        "China Research"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895371/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42532302/"
     },
     {
       "title": "Early and follow-up results of reinterventions for type 2 endoleak following endovascular repair of abdominal aortic aneurysm (EVAR): the multicenter REinterventions for Type 2 Endoleak (RETE) study.",
@@ -1356,19 +1336,15 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42901252/"
     },
     {
-      "title": "Long-term outcome of stenting for the iliac vein stenosis with ipsilateral arterio-venous graft;&#xa0;a case series.",
+      "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
       "source": "Safety",
-      "date": "2026-10-20",
+      "date": "2026-09-09",
       "topicTags": [
-        "Venous Disease",
-        "Dialysis Access",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "China Research"
+        "Vascular Graft / Stent / Device"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42759285/"
     }
   ],
   "note": "规则生成周报：基于 PubMed、ClinicalTrials.gov 和派生提醒数据按相关性、研究类型、主题、招募状态和更新时间排序，不调用 AI。"
