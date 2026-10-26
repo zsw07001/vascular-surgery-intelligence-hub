@@ -1,60 +1,60 @@
 {
-  "generatedAt": "2026-10-25T22:32:53.020Z",
+  "generatedAt": "2026-10-26T23:52:50.153Z",
   "period": {
-    "start": "2026-10-19",
-    "end": "2026-10-25"
+    "start": "2026-10-20",
+    "end": "2026-10-26"
   },
-  "dataUpdatedAt": "2026-10-25T22:32:53.020Z",
+  "dataUpdatedAt": "2026-10-26T23:52:50.153Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-10-25T22:32:53.020Z"
+      "updatedAt": "2026-10-26T23:52:50.153Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 784,
-      "updatedAt": "2026-10-25T22:32:53.020Z"
+      "count": 775,
+      "updatedAt": "2026-10-26T23:52:50.153Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 15,
-      "updatedAt": "2026-10-25T22:32:53.020Z"
+      "updatedAt": "2026-10-26T23:52:50.153Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
-      "count": 40,
-      "updatedAt": "2026-10-25T22:32:53.020Z"
+      "count": 39,
+      "updatedAt": "2026-10-26T23:52:50.153Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-25T22:32:53.020Z"
+      "updatedAt": "2026-10-26T23:52:50.153Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-10-25T22:32:53.020Z"
+      "updatedAt": "2026-10-26T23:52:50.153Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
     "highImpact": 82,
-    "chinaResearch": 30,
-    "clinicalTrials": 784,
+    "chinaResearch": 28,
+    "clinicalTrials": 775,
     "guidelines": 15,
-    "devices": 40,
+    "devices": 39,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、784 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 200 篇 PubMed 文献、775 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Imaging / Diagnosis",
@@ -70,23 +70,23 @@
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 40
+      "count": 39
     },
     {
       "tag": "China Research",
-      "count": 30
+      "count": 28
     },
     {
       "tag": "Aortic Disease",
-      "count": 26
-    },
-    {
-      "tag": "Antithrombotic Therapy",
-      "count": 20
+      "count": 24
     },
     {
       "tag": "PAD / CLTI",
-      "count": 19
+      "count": 18
+    },
+    {
+      "tag": "Antithrombotic Therapy",
+      "count": 17
     }
   ],
   "priorityReading": [
@@ -188,6 +188,47 @@
       "doi": "10.1024/0301-1526/a001310"
     },
     {
+      "pmid": "42734077",
+      "title": "Transcarotid Artery Revascularization Versus Carotid Artery Stenting for Asymptomatic Carotid Stenosis.",
+      "source": "PubMed",
+      "date": "2026-09-14",
+      "journal": "Stroke",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Clinical Trial / Real-world Evidence；Carotid Disease / Endovascular；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42734077/",
+      "doi": "10.1161/STROKEAHA.126.055324"
+    },
+    {
+      "pmid": "42928572",
+      "title": "Efficacy and Safety of Apixaban Thromboprophylaxis According to Baseline Chemotherapy Class in High-Risk Ambulatory Cancer Patients: A Post Hoc Analysis of the AVERT Trial.",
+      "source": "PubMed",
+      "date": "2026-11-01",
+      "journal": "Cancer medicine",
+      "topicTags": [
+        "Venous Disease"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928572/",
+      "doi": "10.1002/cam4.72423"
+    },
+    {
       "pmid": "42532302",
       "title": "Drug-Eluting Stents versus Drug-Coated Balloons Plus Bare-Metal Stents for the Treatment of Femoropopliteal Artery Lesions: 2-Year Outcomes from the TALENT Study.",
       "source": "PubMed",
@@ -271,51 +312,6 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42910607/",
       "doi": "10.1177/10430342261498529"
-    },
-    {
-      "pmid": "42910429",
-      "title": "Comparison of DOAC Versus VKA for Cerebral Venous Thrombosis: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-10-22",
-      "journal": "Stroke",
-      "topicTags": [
-        "Venous Disease"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 6",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42910429/",
-      "doi": "10.1161/STROKEAHA.126.056198"
-    },
-    {
-      "pmid": "42902602",
-      "title": "Long-term outcome of stenting for the iliac vein stenosis with ipsilateral arterio-venous graft;&#xa0;a case series.",
-      "source": "PubMed",
-      "date": "2026-10-20",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Venous Disease",
-        "Dialysis Access",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/",
-      "doi": "10.1080/0886022X.2026.2742581"
     }
   ],
   "priorityArticles": [
@@ -417,6 +413,47 @@
       "doi": "10.1024/0301-1526/a001310"
     },
     {
+      "pmid": "42734077",
+      "title": "Transcarotid Artery Revascularization Versus Carotid Artery Stenting for Asymptomatic Carotid Stenosis.",
+      "source": "PubMed",
+      "date": "2026-09-14",
+      "journal": "Stroke",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Clinical Trial",
+        "Real-world Evidence"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；Clinical Trial / Real-world Evidence；Carotid Disease / Endovascular；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42734077/",
+      "doi": "10.1161/STROKEAHA.126.055324"
+    },
+    {
+      "pmid": "42928572",
+      "title": "Efficacy and Safety of Apixaban Thromboprophylaxis According to Baseline Chemotherapy Class in High-Risk Ambulatory Cancer Patients: A Post Hoc Analysis of the AVERT Trial.",
+      "source": "PubMed",
+      "date": "2026-11-01",
+      "journal": "Cancer medicine",
+      "topicTags": [
+        "Venous Disease"
+      ],
+      "studyTypeTags": [
+        "RCT",
+        "Clinical Trial"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "high relevance；RCT / Clinical Trial；Venous Disease；score 9",
+      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928572/",
+      "doi": "10.1002/cam4.72423"
+    },
+    {
       "pmid": "42532302",
       "title": "Drug-Eluting Stents versus Drug-Coated Balloons Plus Bare-Metal Stents for the Treatment of Femoropopliteal Artery Lesions: 2-Year Outcomes from the TALENT Study.",
       "source": "PubMed",
@@ -500,51 +537,6 @@
       "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42910607/",
       "doi": "10.1177/10430342261498529"
-    },
-    {
-      "pmid": "42910429",
-      "title": "Comparison of DOAC Versus VKA for Cerebral Venous Thrombosis: A Systematic Review and Meta-Analysis.",
-      "source": "PubMed",
-      "date": "2026-10-22",
-      "journal": "Stroke",
-      "topicTags": [
-        "Venous Disease"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 6,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Venous Disease；score 6",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42910429/",
-      "doi": "10.1161/STROKEAHA.126.056198"
-    },
-    {
-      "pmid": "42902602",
-      "title": "Long-term outcome of stenting for the iliac vein stenosis with ipsilateral arterio-venous graft;&#xa0;a case series.",
-      "source": "PubMed",
-      "date": "2026-10-20",
-      "journal": "Renal failure",
-      "topicTags": [
-        "Venous Disease",
-        "Dialysis Access",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Cohort"
-      ],
-      "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/",
-      "doi": "10.1080/0886022X.2026.2742581"
     }
   ],
   "chinaHighlights": [
@@ -890,23 +882,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
-    },
-    {
       "nctId": "NCT04545502",
       "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
       "source": "ClinicalTrials.gov",
@@ -937,6 +912,22 @@
       "enrollment": 1500,
       "reason": "正在招募；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1500；最近更新 2026-08-19",
       "url": "https://clinicaltrials.gov/study/NCT06658730"
+    },
+    {
+      "nctId": "NCT04261478",
+      "title": "A Multi-centre, Prospective, Randomized, Open-label, Blinded Endpoint (PROBE) Controlled Trial Comparing Cervical Internal Carotid Artery Stenting to no Stenting During Thrombectomy for Tandem Occlusion Stroke",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-08-14",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 458,
+      "reason": "正在招募；介入性研究；主题：Carotid Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 458；最近更新 2026-08-14",
+      "url": "https://clinicaltrials.gov/study/NCT04261478"
     }
   ],
   "clinicalTrials": [
@@ -1054,23 +1045,6 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
-    },
-    {
       "nctId": "NCT04545502",
       "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
       "source": "ClinicalTrials.gov",
@@ -1101,6 +1075,22 @@
       "enrollment": 1500,
       "reason": "正在招募；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1500；最近更新 2026-08-19",
       "url": "https://clinicaltrials.gov/study/NCT06658730"
+    },
+    {
+      "nctId": "NCT04261478",
+      "title": "A Multi-centre, Prospective, Randomized, Open-label, Blinded Endpoint (PROBE) Controlled Trial Comparing Cervical Internal Carotid Artery Stenting to no Stenting During Thrombectomy for Tandem Occlusion Stroke",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-08-14",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 458,
+      "reason": "正在招募；介入性研究；主题：Carotid Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 458；最近更新 2026-08-14",
+      "url": "https://clinicaltrials.gov/study/NCT04261478"
     }
   ],
   "manualReview": [
