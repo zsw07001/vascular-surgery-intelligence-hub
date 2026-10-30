@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-10-29T23:56:39.865Z",
+  "generatedAt": "2026-10-30T23:46:06.452Z",
   "period": {
-    "start": "2026-10-23",
-    "end": "2026-10-29"
+    "start": "2026-10-24",
+    "end": "2026-10-30"
   },
-  "dataUpdatedAt": "2026-10-29T23:56:39.865Z",
+  "dataUpdatedAt": "2026-10-30T23:46:06.452Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
       "count": 200,
-      "updatedAt": "2026-10-29T23:56:39.865Z"
+      "updatedAt": "2026-10-30T23:46:06.452Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 771,
-      "updatedAt": "2026-10-29T23:56:39.865Z"
+      "updatedAt": "2026-10-30T23:46:06.452Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
-      "count": 15,
-      "updatedAt": "2026-10-29T23:56:39.865Z"
+      "count": 16,
+      "updatedAt": "2026-10-30T23:46:06.452Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-29T23:56:39.865Z"
+      "updatedAt": "2026-10-30T23:46:06.452Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-10-29T23:56:39.865Z"
+      "updatedAt": "2026-10-30T23:46:06.452Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-10-29T23:56:39.865Z"
+      "updatedAt": "2026-10-30T23:46:06.452Z"
     }
   ],
   "counts": {
     "latestResearch": 200,
-    "highImpact": 81,
-    "chinaResearch": 36,
+    "highImpact": 85,
+    "chinaResearch": 33,
     "clinicalTrials": 771,
-    "guidelines": 15,
+    "guidelines": 16,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
@@ -58,35 +58,35 @@
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 76
+      "count": 78
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 70
+      "count": 68
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 45
-    },
-    {
-      "tag": "China Research",
-      "count": 36
+      "count": 47
     },
     {
       "tag": "Venous Disease",
       "count": 35
     },
     {
+      "tag": "China Research",
+      "count": 33
+    },
+    {
       "tag": "Aortic Disease",
-      "count": 32
+      "count": 31
     },
     {
       "tag": "PAD / CLTI",
-      "count": 29
+      "count": 25
     },
     {
-      "tag": "Open Surgery",
-      "count": 17
+      "tag": "Guideline / Consensus",
+      "count": 16
     }
   ],
   "priorityReading": [
@@ -116,50 +116,53 @@
       "doi": "10.1016/j.ejrad.2026.113230"
     },
     {
-      "pmid": "42951050",
-      "title": "Carotid Endarterectomy Versus Trans-Carotid Artery Revascularisation (TCAR) for Asymptomatic Carotid Stenosis A Systematic Review and Meta-Analysis.",
+      "pmid": "42960701",
+      "title": "A Systematic Review and Meta-Analysis of Determinants of Bowel Ischemia and Associated Risk After Elective Endovascular Abdominal Aortic Aneurysm Repair.",
       "source": "PubMed",
-      "date": "2026-10-28",
-      "journal": "Journal of vascular surgery",
+      "date": "2026-10-30",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
       "topicTags": [
-        "Carotid Disease",
+        "Aortic Disease",
         "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
       "studyTypeTags": [
+        "Cohort",
+        "Registry",
         "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42951050/",
-      "doi": "10.1016/j.jvs.2026.10.052"
+      "score": 7,
+      "reason": "high relevance；Registry / Systematic Review / Meta-analysis；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 7",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42960701/",
+      "doi": "10.1177/15266028261494956"
     },
     {
-      "pmid": "42955565",
-      "title": "Characteristics of treatment responses to physical exercise and diet in diabetic peripheral artery disease patients: a systematic review.",
+      "pmid": "42961070",
+      "title": "Five-Year Prognostic Outcomes After Paclitaxel-Coated Balloon Treatment According to Chronic Limb-Threatening Ischaemia Status: Insights From the BIOLUX P-III Registry.",
       "source": "PubMed",
-      "date": "2026-10-29",
-      "journal": "Endocrine",
+      "date": "2026-10-30",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
       "topicTags": [
         "PAD / CLTI",
-        "China Research"
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
       "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
+        "Registry",
+        "Real-world Evidence"
       ],
       "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；Systematic Review / Meta-analysis；PAD / CLTI；score 11",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42955565/",
-      "doi": "10.1007/s12020-026-04836-9"
+      "score": 6,
+      "reason": "high relevance；Registry / Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961070/",
+      "doi": "10.1177/15266028261495344"
     },
     {
       "pmid": "42679415",
@@ -341,50 +344,53 @@
       "doi": "10.1016/j.ejrad.2026.113230"
     },
     {
-      "pmid": "42951050",
-      "title": "Carotid Endarterectomy Versus Trans-Carotid Artery Revascularisation (TCAR) for Asymptomatic Carotid Stenosis A Systematic Review and Meta-Analysis.",
+      "pmid": "42960701",
+      "title": "A Systematic Review and Meta-Analysis of Determinants of Bowel Ischemia and Associated Risk After Elective Endovascular Abdominal Aortic Aneurysm Repair.",
       "source": "PubMed",
-      "date": "2026-10-28",
-      "journal": "Journal of vascular surgery",
+      "date": "2026-10-30",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
       "topicTags": [
-        "Carotid Disease",
+        "Aortic Disease",
         "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
       "studyTypeTags": [
+        "Cohort",
+        "Registry",
         "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Systematic Review / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 9",
-      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42951050/",
-      "doi": "10.1016/j.jvs.2026.10.052"
+      "score": 7,
+      "reason": "high relevance；Registry / Systematic Review / Meta-analysis；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 7",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42960701/",
+      "doi": "10.1177/15266028261494956"
     },
     {
-      "pmid": "42955565",
-      "title": "Characteristics of treatment responses to physical exercise and diet in diabetic peripheral artery disease patients: a systematic review.",
+      "pmid": "42961070",
+      "title": "Five-Year Prognostic Outcomes After Paclitaxel-Coated Balloon Treatment According to Chronic Limb-Threatening Ischaemia Status: Insights From the BIOLUX P-III Registry.",
       "source": "PubMed",
-      "date": "2026-10-29",
-      "journal": "Endocrine",
+      "date": "2026-10-30",
+      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
       "topicTags": [
         "PAD / CLTI",
-        "China Research"
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
       "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
+        "Registry",
+        "Real-world Evidence"
       ],
       "relevance": "high",
-      "score": 11,
-      "reason": "high relevance；Systematic Review / Meta-analysis；PAD / CLTI；score 11",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42955565/",
-      "doi": "10.1007/s12020-026-04836-9"
+      "score": 6,
+      "reason": "high relevance；Registry / Real-world Evidence；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；score 6",
+      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961070/",
+      "doi": "10.1177/15266028261495344"
     },
     {
       "pmid": "42679415",
@@ -541,28 +547,6 @@
   ],
   "chinaHighlights": [
     {
-      "pmid": "42955565",
-      "title": "Characteristics of treatment responses to physical exercise and diet in diabetic peripheral artery disease patients: a systematic review.",
-      "source": "PubMed",
-      "date": "2026-10-29",
-      "journal": "Endocrine",
-      "topicTags": [
-        "PAD / CLTI",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；PAD / CLTI；score 11",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42955565/",
-      "doi": "10.1007/s12020-026-04836-9"
-    },
-    {
       "pmid": "42679415",
       "title": "Deep learning versus radiologists for acute aortic dissection on CT: A systematic review and network meta-analysis.",
       "source": "PubMed",
@@ -654,32 +638,34 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/",
       "doi": "10.1080/0886022X.2026.2742581"
+    },
+    {
+      "pmid": "42961251",
+      "title": "Controversies and reappraisal in the management of distal deep vein thrombosis: From evidence-based discrepancies to risk-stratified individualized strategies.",
+      "source": "PubMed",
+      "date": "2026-10-30",
+      "journal": "Phlebology",
+      "topicTags": [
+        "Venous Disease",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Guideline",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；Guideline；Venous Disease；score 8",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961251/",
+      "doi": "10.1177/02683555261503887"
     }
   ],
   "chinaResearch": [
     {
-      "pmid": "42955565",
-      "title": "Characteristics of treatment responses to physical exercise and diet in diabetic peripheral artery disease patients: a systematic review.",
-      "source": "PubMed",
-      "date": "2026-10-29",
-      "journal": "Endocrine",
-      "topicTags": [
-        "PAD / CLTI",
-        "China Research"
-      ],
-      "studyTypeTags": [
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 11,
-      "reason": "中国机构研究；high relevance；Systematic Review / Meta-analysis；PAD / CLTI；score 11",
-      "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42955565/",
-      "doi": "10.1007/s12020-026-04836-9"
-    },
-    {
       "pmid": "42679415",
       "title": "Deep learning versus radiologists for acute aortic dissection on CT: A systematic review and network meta-analysis.",
       "source": "PubMed",
@@ -771,27 +757,34 @@
       "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42902602/",
       "doi": "10.1080/0886022X.2026.2742581"
+    },
+    {
+      "pmid": "42961251",
+      "title": "Controversies and reappraisal in the management of distal deep vein thrombosis: From evidence-based discrepancies to risk-stratified individualized strategies.",
+      "source": "PubMed",
+      "date": "2026-10-30",
+      "journal": "Phlebology",
+      "topicTags": [
+        "Venous Disease",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus",
+        "China Research"
+      ],
+      "studyTypeTags": [
+        "Guideline",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 8,
+      "reason": "中国机构研究；high relevance；Guideline；Venous Disease；score 8",
+      "summaryZh": "该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。 该研究来自中国机构，建议纳入中国研究追踪。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961251/",
+      "doi": "10.1177/02683555261503887"
     }
   ],
   "trialHighlights": [
     {
-      "nctId": "NCT07322913",
-      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-09-11",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1200,
-      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-09-11",
-      "url": "https://clinicaltrials.gov/study/NCT07322913"
-    },
-    {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
       "source": "ClinicalTrials.gov",
@@ -856,6 +849,22 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-09-11",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
+    },
+    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -889,6 +898,23 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
+    },
+    {
       "nctId": "NCT04545502",
       "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
       "source": "ClinicalTrials.gov",
@@ -919,43 +945,10 @@
       "enrollment": 1500,
       "reason": "正在招募；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1500；最近更新 2026-08-19",
       "url": "https://clinicaltrials.gov/study/NCT06658730"
-    },
-    {
-      "nctId": "NCT04261478",
-      "title": "A Multi-centre, Prospective, Randomized, Open-label, Blinded Endpoint (PROBE) Controlled Trial Comparing Cervical Internal Carotid Artery Stenting to no Stenting During Thrombectomy for Tandem Occlusion Stroke",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-08-14",
-      "topicTags": [
-        "Carotid Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 458,
-      "reason": "正在招募；介入性研究；主题：Carotid Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 458；最近更新 2026-08-14",
-      "url": "https://clinicaltrials.gov/study/NCT04261478"
     }
   ],
   "clinicalTrials": [
     {
-      "nctId": "NCT07322913",
-      "title": "Post-Market Clinical Follow-up Registry to Evaluate the Safety and Performance of the Intervascular Vascular Grafts and Patches in Patients Undergoing Bypass, Replacement, or Repair of Aortic, Peripheral, or Carotid Arteries",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-09-11",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1200,
-      "reason": "正在招募；主题：PAD / CLTI / Aortic Disease / Carotid Disease；计划入组 1200；最近更新 2026-09-11",
-      "url": "https://clinicaltrials.gov/study/NCT07322913"
-    },
-    {
       "nctId": "NCT02089607",
       "title": "Clinical Outcomes and Quality of Life Measures in Patients Treated for Complex Abdominal, Thoracoabdominal and Aortic Arch Aneurysms or Dissections With Fenestrated and Branched Stent Grafts",
       "source": "ClinicalTrials.gov",
@@ -1020,6 +1013,22 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-09-11",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
+    },
+    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -1053,6 +1062,23 @@
       "url": "https://clinicaltrials.gov/study/NCT06528873"
     },
     {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
+    },
+    {
       "nctId": "NCT04545502",
       "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
       "source": "ClinicalTrials.gov",
@@ -1083,36 +1109,22 @@
       "enrollment": 1500,
       "reason": "正在招募；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1500；最近更新 2026-08-19",
       "url": "https://clinicaltrials.gov/study/NCT06658730"
-    },
-    {
-      "nctId": "NCT04261478",
-      "title": "A Multi-centre, Prospective, Randomized, Open-label, Blinded Endpoint (PROBE) Controlled Trial Comparing Cervical Internal Carotid Artery Stenting to no Stenting During Thrombectomy for Tandem Occlusion Stroke",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-08-14",
-      "topicTags": [
-        "Carotid Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 458,
-      "reason": "正在招募；介入性研究；主题：Carotid Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 458；最近更新 2026-08-14",
-      "url": "https://clinicaltrials.gov/study/NCT04261478"
     }
   ],
   "manualReview": [
     {
-      "title": "Guideline-to-Practice Gap in Ankle-Brachial Index Screening Among Inpatients with Newly Documented Lower Extremity Wounds.",
+      "title": "Utilizing evidence-based diagnosis and treatment for central venous thrombosis: closing the gaps where guidelines fail.",
       "source": "Guidelines",
-      "date": "2026-10-28",
+      "date": "2026-10-30",
       "topicTags": [
-        "PAD / CLTI",
+        "Venous Disease",
         "Endovascular",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
         "Guideline / Consensus"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42951199/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961133/"
     },
     {
       "title": "Optimizing the management of venous disease: Expert consensus from a multinational panel of phlebology specialists.",
@@ -1138,15 +1150,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42951699/"
     },
     {
-      "title": "[The Heart Team as a multidisciplinary approach to the management of patients eligible for surgical and transcatheter treatment of aortic valve disease - Consensus document].",
+      "title": "Controversies and reappraisal in the management of distal deep vein thrombosis: From evidence-based discrepancies to risk-stratified individualized strategies.",
       "source": "Guidelines",
-      "date": "2026-11-01",
+      "date": "2026-10-30",
       "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "Guideline / Consensus"
+        "Venous Disease",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus",
+        "China Research"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42937175/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961251/"
     },
     {
       "title": "Clinical Outcomes of Santreva-ATK Endovascular Revascularization Catheter in Patients With Claudication and Critical Limb-Threatening Ischemia.",
@@ -1161,17 +1176,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42692127/"
     },
     {
-      "title": "Carotid Endarterectomy Versus Trans-Carotid Artery Revascularisation (TCAR) for Asymptomatic Carotid Stenosis A Systematic Review and Meta-Analysis.",
+      "title": "Preoperative Imaging-Derived Factors Associated With Spinal Cord Ischemia After Fenestrated and Branched Endovascular Aortic Repair-A Scoping Review.",
       "source": "Devices / Regulatory",
-      "date": "2026-10-28",
+      "date": "2026-10-30",
       "topicTags": [
-        "Carotid Disease",
+        "Aortic Disease",
         "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42951050/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42960850/"
     },
     {
       "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
@@ -1212,29 +1227,33 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42692127/"
     },
     {
-      "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
+      "title": "Preoperative Imaging-Derived Factors Associated With Spinal Cord Ischemia After Fenestrated and Branched Endovascular Aortic Repair-A Scoping Review.",
       "source": "Safety",
-      "date": "2026-09-09",
+      "date": "2026-10-30",
       "topicTags": [
+        "Aortic Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42759285/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42960850/"
     }
   ],
   "reviewQueue": [
     {
-      "title": "Guideline-to-Practice Gap in Ankle-Brachial Index Screening Among Inpatients with Newly Documented Lower Extremity Wounds.",
+      "title": "Utilizing evidence-based diagnosis and treatment for central venous thrombosis: closing the gaps where guidelines fail.",
       "source": "Guidelines",
-      "date": "2026-10-28",
+      "date": "2026-10-30",
       "topicTags": [
-        "PAD / CLTI",
+        "Venous Disease",
         "Endovascular",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
         "Guideline / Consensus"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42951199/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961133/"
     },
     {
       "title": "Optimizing the management of venous disease: Expert consensus from a multinational panel of phlebology specialists.",
@@ -1260,15 +1279,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42951699/"
     },
     {
-      "title": "[The Heart Team as a multidisciplinary approach to the management of patients eligible for surgical and transcatheter treatment of aortic valve disease - Consensus document].",
+      "title": "Controversies and reappraisal in the management of distal deep vein thrombosis: From evidence-based discrepancies to risk-stratified individualized strategies.",
       "source": "Guidelines",
-      "date": "2026-11-01",
+      "date": "2026-10-30",
       "topicTags": [
-        "Vascular Graft / Stent / Device",
-        "Guideline / Consensus"
+        "Venous Disease",
+        "Antithrombotic Therapy",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus",
+        "China Research"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42937175/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42961251/"
     },
     {
       "title": "Clinical Outcomes of Santreva-ATK Endovascular Revascularization Catheter in Patients With Claudication and Critical Limb-Threatening Ischemia.",
@@ -1283,17 +1305,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42692127/"
     },
     {
-      "title": "Carotid Endarterectomy Versus Trans-Carotid Artery Revascularisation (TCAR) for Asymptomatic Carotid Stenosis A Systematic Review and Meta-Analysis.",
+      "title": "Preoperative Imaging-Derived Factors Associated With Spinal Cord Ischemia After Fenestrated and Branched Endovascular Aortic Repair-A Scoping Review.",
       "source": "Devices / Regulatory",
-      "date": "2026-10-28",
+      "date": "2026-10-30",
       "topicTags": [
-        "Carotid Disease",
+        "Aortic Disease",
         "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42951050/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42960850/"
     },
     {
       "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
@@ -1334,15 +1356,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42692127/"
     },
     {
-      "title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
+      "title": "Preoperative Imaging-Derived Factors Associated With Spinal Cord Ischemia After Fenestrated and Branched Endovascular Aortic Repair-A Scoping Review.",
       "source": "Safety",
-      "date": "2026-09-09",
+      "date": "2026-10-30",
       "topicTags": [
+        "Aortic Disease",
         "Endovascular",
-        "Vascular Graft / Stent / Device"
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42759285/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42960850/"
     }
   ],
   "note": "规则生成周报：基于 PubMed、ClinicalTrials.gov 和派生提醒数据按相关性、研究类型、主题、招募状态和更新时间排序，不调用 AI。"
