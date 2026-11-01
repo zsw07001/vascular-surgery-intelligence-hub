@@ -8,7 +8,7 @@
       content="血管外科情报中枢，聚合文献、临床试验、指南共识、器械监管和中国研究。"
     />
     <title>血管外科情报中枢 | Vascular Surgery Intelligence Hub</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20261101-topics" />
   </head>
   <body data-page="home">
     <header class="site-header">
@@ -70,6 +70,14 @@
 
       <div class="update-strip" id="home-pubmed-update" aria-live="polite">正在核对本次文献更新...</div>
 
+      <section class="topics-band" aria-labelledby="home-topics-title">
+        <div class="section-heading section-heading-row">
+          <div><p class="eyebrow">Research Group</p><h2 id="home-topics-title">课题组研究专题</h2></div>
+          <a class="text-link" href="pages/topics.html">全部专题 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a>
+        </div>
+        <div class="topic-directory" id="home-topics" aria-live="polite"><p class="status-loading">正在加载课题组专题...</p></div>
+      </section>
+
       <div class="home-workspace">
         <div class="workspace-main">
       <section class="content-band">
@@ -128,6 +136,6 @@
       <p>仅作为情报聚合和阅读辅助，不构成医学建议。正式判断应回到原始论文、指南和监管文件。</p>
     </footer>
 
-    <script src="app.js" defer></script>
+    <script src="app.js?v=20261101-topics" defer></script>
   </body>
 </html>

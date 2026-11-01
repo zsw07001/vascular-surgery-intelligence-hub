@@ -7,6 +7,7 @@ import { updatePubMed } from "./update-pubmed.mjs";
 import { updateClinicalTrials } from "./update-clinicaltrials.mjs";
 import { updateDerivedInsights } from "./update-derived-insights.mjs";
 import { updateWeeklyBrief } from "./update-weekly-brief.mjs";
+import { updateResearchDirections } from "./update-research-directions.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -28,6 +29,7 @@ async function main() {
   const effectiveCounts = pubmedResult.ok ? pubmedResult.counts : existingCounts;
   const clinicalTrialsResult = await runClinicalTrialsSafely();
   const derivedResult = await runDerivedInsightsSafely();
+  const researchDirectionsResult = await runResearchDirectionsSafely();
   const weeklyBriefResult = await runWeeklyBriefSafely();
 
   const updateStatus = {
@@ -76,7 +78,8 @@ async function main() {
         count: weeklyBriefResult.count,
         message: weeklyBriefResult.ok ? "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON." : weeklyBriefResult.error,
         finishedAt: weeklyBriefResult.finishedAt || null
-      }
+      },
+      ...researchDirectionsResult.sources
     ],
     pubmed: {
       lookbackDays: pubmedResult.ok ? pubmedConfig.lookbackDays : previousStatus.pubmed?.lookbackDays ?? pubmedConfig.lookbackDays,
@@ -95,7 +98,8 @@ async function main() {
       pubmedResult.ok ? "" : pubmedResult.error,
       clinicalTrialsResult.ok ? "" : clinicalTrialsResult.error,
       derivedResult.ok ? "" : derivedResult.error,
-      weeklyBriefResult.ok ? "" : weeklyBriefResult.error
+      weeklyBriefResult.ok ? "" : weeklyBriefResult.error,
+      ...researchDirectionsResult.errors
     ].filter(Boolean),
     manualReview: buildManualReviewItems(pubmedResult, effectiveCounts),
     configPreview: {
@@ -142,6 +146,24 @@ async function runPubMedSafely() {
       chinaResearch: [],
       counts: await readExistingPubMedCounts()
     };
+  }
+}
+
+async function runResearchDirectionsSafely() {
+  try {
+    const result = await updateResearchDirections({ rootDir, dataDir });
+    return {
+      sources: result.directions.map((direction) => ({
+        name: `课题组专题 · ${direction.title}`,
+        status: direction.status,
+        count: direction.count,
+        finishedAt: direction.lastSuccessfulUpdate,
+        message: direction.error || `近 ${direction.lookbackDays} 天完整收录 ${direction.count} 篇，不使用血管外科排除规则。`
+      })),
+      errors: result.errors
+    };
+  } catch (error) {
+    return { sources: [{ name: "课题组研究专题", status: "error", count: 0, message: error.message }], errors: [error.message] };
   }
 }
 

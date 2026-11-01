@@ -6,6 +6,7 @@ const DATA_FILES = {
   guidelines: "guidelines.json",
   deviceRegulatory: "device-regulatory.json",
   safety: "safety.json",
+  researchDirections: "research-directions.json",
   weeklyBrief: "weekly-brief.json",
   updateStatus: "update-status.json"
 };
@@ -26,6 +27,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function initPage() {
   const page = document.body.dataset.page || "home";
+  const nav = document.querySelector(".top-nav");
+  if (nav && !nav.querySelector("[data-topics-link]")) {
+    const link = document.createElement("a");
+    link.href = window.location.pathname.includes("/pages/") ? "topics.html" : "pages/topics.html";
+    link.dataset.topicsLink = "true";
+    link.textContent = "课题组专题";
+    if (page === "topics" || new URLSearchParams(window.location.search).has("topic")) {
+      nav.querySelector("[aria-current='page']")?.removeAttribute("aria-current");
+      link.setAttribute("aria-current", "page");
+    }
+    nav.prepend(link);
+  }
+
+  if (page === "topics") {
+    const directions = await loadJson(DATA_FILES.researchDirections, {});
+    renderTopicDirectory(document.querySelector("#topic-directory"), directions);
+    return;
+  }
 
   if (page === "home") {
     await initHome();
@@ -75,7 +94,7 @@ async function loadJson(fileName, fallback = []) {
 }
 
 async function initHome() {
-  const [latest, highImpact, china, trials, guidelines, devices, safety, weeklyBrief, status] = await Promise.all([
+  const [latest, highImpact, china, trials, guidelines, devices, safety, weeklyBrief, status, directions] = await Promise.all([
     loadJson(DATA_FILES.latestResearch),
     loadJson(DATA_FILES.highImpactResearch),
     loadJson(DATA_FILES.chinaResearch),
@@ -84,7 +103,8 @@ async function initHome() {
     loadJson(DATA_FILES.deviceRegulatory),
     loadJson(DATA_FILES.safety),
     loadJson(DATA_FILES.weeklyBrief, {}),
-    loadJson(DATA_FILES.updateStatus, {})
+    loadJson(DATA_FILES.updateStatus, {}),
+    loadJson(DATA_FILES.researchDirections, {})
   ]);
 
   setText("[data-stat='latestCount']", formatNumber(latest.length));
@@ -114,6 +134,27 @@ async function initHome() {
     emptyTitle: "暂无重点研究"
   });
   renderWeeklyBrief(document.querySelector("#home-weekly-brief"), weeklyBrief, { compact: true });
+  renderTopicDirectory(document.querySelector("#home-topics"), directions);
+}
+
+function renderTopicDirectory(container, data) {
+  if (!container) return;
+  const directions = Array.isArray(data?.directions) ? data.directions : [];
+  if (!directions.length) {
+    renderEmpty(container, "专题文献正在准备", "完成下一次数据同步后，将显示各研究方向的文献。"
+    );
+    return;
+  }
+  const prefix = window.location.pathname.includes("/pages/") ? "" : "pages/";
+  container.innerHTML = directions.map((direction) => `
+    <article class="topic-entry">
+      <a class="topic-entry-link" href="${prefix}research.html?topic=${encodeURIComponent(direction.id)}">
+        <div class="topic-entry-top">${renderIcon(direction.icon || "book-open")}<span>${escapeHtml(direction.lookbackDays || 30)} 天 · ${escapeHtml(formatNumber(direction.count))} 篇</span>${renderIcon("arrow-up-right")}</div>
+        <h3>${escapeHtml(direction.title)}</h3>
+        <p>${escapeHtml(direction.description || "")}</p>
+        <small class="${statusClass(direction.status)}">${escapeHtml(statusLabel(direction.status))}</small><small>${direction.lastSuccessfulUpdate ? ` · ${escapeHtml(formatDateTime(direction.lastSuccessfulUpdate))}` : " · 暂无成功同步记录"}</small>
+      </a>
+    </article>`).join("");
 }
 
 function renderHomeStatus(container, status, counts) {
@@ -215,12 +256,29 @@ function sourceCount(source, fallback) {
 async function initResearchPage() {
   const params = new URLSearchParams(window.location.search);
   const requestedDataset = params.get("dataset");
+  const requestedTopic = params.get("topic");
+  let direction = null;
+  if (requestedTopic) {
+    const directory = await loadJson(DATA_FILES.researchDirections, {});
+    direction = (directory.directions || []).find((item) => item.id === requestedTopic);
+    if (!direction) {
+      setText("#research-page-title", "专题暂未就绪");
+      renderEmpty(document.querySelector("#research-list"), "暂无此专题数据", "请从课题组专题目录选择研究方向，或等待下一次同步。");
+      return;
+    }
+  }
   const bodyDataset = document.body.dataset.dataset || "latest-research";
   const datasetKey = requestedDataset === "high-impact" ? "high-impact-research" : bodyDataset;
-  const title = datasetKey === "high-impact-research" ? "重点研究" : datasetKey === "china-research" ? "中国研究" : "最新文献";
+  const title = direction?.title || (datasetKey === "high-impact-research" ? "重点研究" : datasetKey === "china-research" ? "中国研究" : "最新文献");
   setText("#research-page-title", title);
 
-  const fileName = `${datasetKey}.json`;
+  if (direction) {
+    setText(".page-title .eyebrow", "Research Group / 课题组专题");
+    setText(".page-title p:not(.eyebrow)", direction.description);
+    const titleElement = document.querySelector("#research-page-title");
+    if (titleElement) document.title = `${direction.title} | 血管外科情报中枢`;
+  }
+  const fileName = direction?.fileName || `${datasetKey}.json`;
   const [articles, status] = await Promise.all([loadJson(fileName), loadJson(DATA_FILES.updateStatus, {})]);
   const list = document.querySelector("#research-list");
   const meta = document.querySelector("#result-meta");
@@ -237,8 +295,16 @@ async function initResearchPage() {
   const pager = createPagination(list);
   const windowNote = document.createElement("p");
   windowNote.className = "research-window-note";
-  windowNote.textContent = `近 ${status.pubmed?.lookbackDays || 7} 天按 PubMed 记录更新日期纳入；下方日期为论文发表日期。`;
+  windowNote.textContent = `近 ${direction?.lookbackDays || status.pubmed?.lookbackDays || 7} 天按 PubMed 记录更新日期纳入；下方日期为论文发表日期。${direction ? "优先展示专题匹配度较高的研究，包含动物、体外与跨学科证据。" : ""}`;
   document.querySelector(".page-title")?.append(windowNote);
+  if (direction) {
+    const freshness = document.createElement("p");
+    freshness.className = "research-window-note";
+    freshness.textContent = direction.status === "success"
+      ? `最近同步：${formatDateTime(direction.lastSuccessfulUpdate)} · 实际命中 ${formatNumber(direction.matchedCount)} 篇，完整入库 ${formatNumber(direction.count)} 篇。`
+      : `本次未刷新，保留上次数据。${direction.error || ""}`;
+    document.querySelector(".page-title")?.append(freshness);
+  }
 
   populateSelect("#topic-filter", collectTopicTags(articles), "全部主题");
   populateSelect("#study-type-filter", collectStudyTypeTags(articles), "全部类型");

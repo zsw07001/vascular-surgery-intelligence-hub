@@ -23,6 +23,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Validate update logic
+        run: npm test
+
       - name: Update data
         env:
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}

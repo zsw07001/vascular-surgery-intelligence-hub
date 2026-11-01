@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T05:18:05.774Z",
+  "lastUpdated": "2026-11-01T05:27:21.752Z",
   "mode": "pubmed",
   "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
@@ -8,9 +8,9 @@
       "status": "success",
       "count": 1750,
       "message": "PubMed 近 7 天命中 1750 篇，完整入库 1750 篇。",
-      "startedAt": "2026-11-01T05:17:31.121Z",
-      "finishedAt": "2026-11-01T05:17:59.283Z",
-      "lastSuccessfulUpdate": "2026-11-01T05:17:59.283Z"
+      "startedAt": "2026-11-01T05:25:58.719Z",
+      "finishedAt": "2026-11-01T05:26:36.233Z",
+      "lastSuccessfulUpdate": "2026-11-01T05:26:36.233Z"
     },
     {
       "name": "ClinicalTrials.gov",
@@ -37,7 +37,35 @@
       "status": "success",
       "count": 35,
       "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
-      "finishedAt": "2026-11-01T05:18:05.774Z"
+      "finishedAt": "2026-11-01T05:27:21.752Z"
+    },
+    {
+      "name": "课题组专题 · 氢气治疗与脑缺血再灌注",
+      "status": "success",
+      "count": 1123,
+      "finishedAt": "2026-11-01T05:27:14.674Z",
+      "message": "近 30 天完整收录 1123 篇，不使用血管外科排除规则。"
+    },
+    {
+      "name": "课题组专题 · 血流震颤与血管功能检测",
+      "status": "success",
+      "count": 91,
+      "finishedAt": "2026-11-01T05:27:17.404Z",
+      "message": "近 30 天完整收录 91 篇，不使用血管外科排除规则。"
+    },
+    {
+      "name": "课题组专题 · 可降解支架",
+      "status": "success",
+      "count": 86,
+      "finishedAt": "2026-11-01T05:27:19.545Z",
+      "message": "近 30 天完整收录 86 篇，不使用血管外科排除规则。"
+    },
+    {
+      "name": "课题组专题 · 神经与血管电信号互调",
+      "status": "success",
+      "count": 55,
+      "finishedAt": "2026-11-01T05:27:21.577Z",
+      "message": "近 30 天完整收录 55 篇，不使用血管外科排除规则。"
     }
   ],
   "pubmed": {
@@ -64,14 +92,14 @@
     },
     "changes": {
       "comparable": true,
-      "comparedWith": "2026-11-01T05:12:31.984Z",
+      "comparedWith": "2026-11-01T05:17:59.283Z",
       "added": 0,
       "updated": 0,
       "removedFromWindow": 0,
       "unchanged": 1750,
       "note": "与上次完整同步比较；新入库指新增到本站的 PMID，内容变更指同一 PMID 的原始文献字段变化。移出窗口不代表论文被撤回。"
     },
-    "lastSuccessfulUpdate": "2026-11-01T05:17:59.283Z",
+    "lastSuccessfulUpdate": "2026-11-01T05:26:36.233Z",
     "highImpactCount": 715,
     "chinaResearchCount": 329
   },

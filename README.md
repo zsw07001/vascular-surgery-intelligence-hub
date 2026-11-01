@@ -109,6 +109,19 @@ data/update-status.json
 
 参数依据：[NCBI E-utilities 参数说明](https://www.ncbi.nlm.nih.gov/sites/books/NBK25499/)。可运行 `npm test` 验证多页抓取、零结果、失败保留与更新计数。
 
+## 课题组研究专题
+
+首页和 `pages/topics.html` 提供四个独立方向，详情复用文献页的搜索、主题/研究类型筛选、相关性筛选和分页：
+
+- 氢气治疗与脑缺血再灌注：纳入两个主题及其交叉研究，可用主题标签分开查看。
+- 血流震颤与血管功能检测：血流诱导振动、血管壁运动、声学/振动检测、体外血流模型及功能评价；这里不是血管内冲击波治疗。
+- 可降解支架：可吸收/可降解支架、镁锌铁与聚合物材料，覆盖冠脉、外周、其他应用和基础材料证据。
+- 神经与血管电信号互调：神经、内皮、平滑肌、周细胞、电生理、离子通道与信号耦联。
+
+检索式、主题标签和专题匹配评分集中在 `scripts/config.mjs` 的 `researchDirectionsConfig`。默认窗口是近 30 天（`mdat`），随每日 Actions 更新，完整分页抓取，不使用血管外科主检索式的冠脉/脑血管/动物排除规则。专题高相关只代表主题匹配度，不代表临床证据等级。
+
+`scripts/update-research-directions.mjs` 写入 `data/research-directions.json` 和四个 `data/topic-*.json`。每个方向单独处理错误并保留旧数据，实际命中数、入库数、最后成功时间和错误也会进入数据状态页。专题之间可能包含同一 PMID，单个专题内部去重。
+
 ## NCBI 配置
 
 接入 PubMed E-utilities 时，复制 `.env.example` 为 `.env` 并填写：

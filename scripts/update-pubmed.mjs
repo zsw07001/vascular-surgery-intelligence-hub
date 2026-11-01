@@ -47,8 +47,7 @@ export async function updatePubMed(options = {}) {
   const startedAt = new Date().toISOString();
   const previous = ensureArray(await readJsonFile(join(dataDir, "latest-research.json"), []));
   const previousStatus = await readJsonFile(join(dataDir, "update-status.json"), {});
-  const search = await searchPubMedIds(query, runtime);
-  const records = await fetchPubMedArticles(search.ids, runtime);
+  const { search, records } = await retrievePubMedRecords(query, { rootDir });
   const articles = records
     .map(enrichArticle)
     .sort((a, b) => sortDate(b.publicationDate) - sortDate(a.publicationDate));
@@ -100,15 +99,28 @@ function getRuntimeConfig() {
   };
 }
 
-async function searchPubMedIds(query, runtime) {
+export async function retrievePubMedRecords(query, options = {}) {
+  await loadDotEnv(options.rootDir || defaultRootDir);
+  const runtime = getRuntimeConfig();
+  if (!runtime.email) throw new Error("NCBI_EMAIL is not configured; existing topic data was preserved.");
+  const search = await searchPubMedIds(query, runtime, options);
+  const records = dedupeByPmid(await fetchPubMedArticles(search.ids, runtime));
+  const expected = new Set(search.ids);
+  if (records.length !== search.matchedCount || records.some((article) => !expected.has(article.pmid))) {
+    throw new Error("PubMed returned incomplete records; existing data was preserved.");
+  }
+  return { search, records };
+}
+
+async function searchPubMedIds(query, runtime, options = {}) {
   const url = new URL(`${pubmedConfig.eutilsBase}/esearch.fcgi`);
   url.searchParams.set("db", pubmedConfig.database);
   url.searchParams.set("term", query);
   url.searchParams.set("retmode", "json");
   url.searchParams.set("retmax", String(pubmedConfig.searchPageSize));
   url.searchParams.set("usehistory", "y");
-  url.searchParams.set("datetype", pubmedConfig.dateType);
-  url.searchParams.set("reldate", String(pubmedConfig.lookbackDays));
+  url.searchParams.set("datetype", options.dateType || pubmedConfig.dateType);
+  url.searchParams.set("reldate", String(options.lookbackDays ?? pubmedConfig.lookbackDays));
   url.searchParams.set("sort", "pub date");
   url.searchParams.set("tool", runtime.tool);
   url.searchParams.set("email", runtime.email);
@@ -470,7 +482,7 @@ function getTopicTags(article, isChinaResearch) {
   return [...new Set(tags)];
 }
 
-function getStudyTypeTags(article) {
+export function getStudyTypeTags(article) {
   const text = articleSearchText(article);
   return [
     ...new Set(
@@ -492,7 +504,7 @@ function isHighImpactArticle(article) {
   return hasHighValueType && article.score >= highImpactConfig.minimumScoreForHighValueStudyType;
 }
 
-function hasChinaAffiliation(affiliations) {
+export function hasChinaAffiliation(affiliations) {
   const haystack = affiliations.join(" ").toLowerCase();
   return chinaAffiliationKeywords.some((keyword) => haystack.includes(keyword.toLowerCase()));
 }

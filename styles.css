@@ -216,6 +216,20 @@ h3 {
 .update-strip strong { color: var(--ink); font-weight: 600; }
 .update-strip .update-counts { display: inline-flex; flex-wrap: wrap; gap: 12px; }
 .home-workspace { display: grid; grid-template-columns: minmax(0, 1fr) 292px; gap: 32px; margin: 28px 0 48px; }
+.topics-band { padding: 24px 0; border-bottom: 1px solid var(--line); }
+.topic-directory { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.topic-directory-full { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.topic-entry { min-width: 0; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+.topic-entry:hover { border-color: #9fc9c0; }
+.topic-entry-link { display: block; height: 100%; padding: 16px; }
+.topic-entry-top { display: flex; align-items: center; gap: 10px; color: var(--teal); font-size: 12px; }
+.topic-entry-top span { flex: 1; color: var(--muted); }
+.topic-entry h3 { margin: 12px 0 8px; font-size: 16px; }
+.topic-entry p { margin: 0 0 12px; color: var(--muted); font-size: 12px; line-height: 1.65; }
+.topic-entry small { font-size: 11px; }
+.topic-directory-full .topic-entry-link { padding: 24px; }
+.topic-directory-full .topic-entry h3 { font-size: 20px; }
+.topic-directory-full .topic-entry p { font-size: 14px; }
 .workspace-main, .workspace-aside { min-width: 0; }
 .workspace-aside { border-left: 1px solid var(--line); padding-left: 24px; }
 .aside-section + .aside-section { margin-top: 30px; }
@@ -873,6 +887,7 @@ h3 {
 }
 
 @media (max-width: 1040px) {
+  .topic-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .stat-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -889,6 +904,12 @@ h3 {
 }
 
 @media (max-width: 760px) {
+  .topic-directory-full { grid-template-columns: 1fr; }
+  .topic-entry-link { padding: 13px; }
+  .topic-entry h3 { font-size: 14px; }
+  .topic-entry-top { flex-wrap: wrap; gap: 6px; }
+  .topic-entry-top .icon:last-child { display: none; }
+  .topic-entry p { font-size: 11px; }
   .site-header {
     position: static;
     display: grid;
@@ -896,7 +917,9 @@ h3 {
 
   .top-nav {
     justify-content: flex-start;
+    gap: 2px;
   }
+  .top-nav a { padding: 6px; font-size: 13px; }
 
   .two-column,
   .home-workspace {
