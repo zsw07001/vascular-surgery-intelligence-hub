@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T05:12:44.360Z",
+  "lastUpdated": "2026-11-01T05:18:05.774Z",
   "mode": "pubmed",
   "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
@@ -8,9 +8,9 @@
       "status": "success",
       "count": 1750,
       "message": "PubMed 近 7 天命中 1750 篇，完整入库 1750 篇。",
-      "startedAt": "2026-11-01T05:12:01.418Z",
-      "finishedAt": "2026-11-01T05:12:31.984Z",
-      "lastSuccessfulUpdate": "2026-11-01T05:12:31.984Z"
+      "startedAt": "2026-11-01T05:17:31.121Z",
+      "finishedAt": "2026-11-01T05:17:59.283Z",
+      "lastSuccessfulUpdate": "2026-11-01T05:17:59.283Z"
     },
     {
       "name": "ClinicalTrials.gov",
@@ -37,7 +37,7 @@
       "status": "success",
       "count": 35,
       "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
-      "finishedAt": "2026-11-01T05:12:44.360Z"
+      "finishedAt": "2026-11-01T05:18:05.774Z"
     }
   ],
   "pubmed": {
@@ -64,14 +64,14 @@
     },
     "changes": {
       "comparable": true,
-      "comparedWith": "2026-11-01T05:08:57.884Z",
+      "comparedWith": "2026-11-01T05:12:31.984Z",
       "added": 0,
       "updated": 0,
       "removedFromWindow": 0,
       "unchanged": 1750,
       "note": "与上次完整同步比较；新入库指新增到本站的 PMID，内容变更指同一 PMID 的原始文献字段变化。移出窗口不代表论文被撤回。"
     },
-    "lastSuccessfulUpdate": "2026-11-01T05:12:31.984Z",
+    "lastSuccessfulUpdate": "2026-11-01T05:17:59.283Z",
     "highImpactCount": 715,
     "chinaResearchCount": 329
   },
