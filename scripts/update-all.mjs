@@ -21,6 +21,7 @@ const supportArrayFiles = [
   "conference-news.json"
 ];
 async function main() {
+  const previousStatus = await readJsonFile(join(dataDir, "update-status.json"), {});
   const supportResults = await validateSupportData();
   const existingCounts = await readExistingPubMedCounts();
   const pubmedResult = await runPubMedSafely();
@@ -41,10 +42,11 @@ async function main() {
         status: pubmedResult.ok ? "success" : pubmedResult.skipped ? "skipped" : "error",
         count: effectiveCounts.total,
         message: pubmedResult.ok
-          ? `Fetched ${pubmedResult.articles.length} articles from PubMed.`
+          ? `PubMed 近 ${pubmedConfig.lookbackDays} 天命中 ${pubmedResult.retrieval.matchedCount} 篇，完整入库 ${pubmedResult.articles.length} 篇。`
           : pubmedResult.error,
         startedAt: pubmedResult.startedAt || null,
-        finishedAt: pubmedResult.finishedAt || null
+        finishedAt: pubmedResult.finishedAt || null,
+        lastSuccessfulUpdate: pubmedResult.ok ? pubmedResult.finishedAt : previousStatus.pubmed?.lastSuccessfulUpdate || null
       },
       {
         name: "ClinicalTrials.gov",
@@ -77,11 +79,15 @@ async function main() {
       }
     ],
     pubmed: {
-      lookbackDays: pubmedConfig.lookbackDays,
-      dateType: pubmedConfig.dateType,
-      maxRecords: pubmedConfig.maxRecords,
-      query: buildPubMedQuery(),
+      lookbackDays: pubmedResult.ok ? pubmedConfig.lookbackDays : previousStatus.pubmed?.lookbackDays ?? pubmedConfig.lookbackDays,
+      dateType: pubmedResult.ok ? pubmedConfig.dateType : previousStatus.pubmed?.dateType || pubmedConfig.dateType,
+      searchPageSize: pubmedConfig.searchPageSize,
+      fetchBatchSize: pubmedConfig.fetchBatchSize,
+      query: pubmedResult.ok ? buildPubMedQuery() : previousStatus.pubmed?.query || buildPubMedQuery(),
       counts: effectiveCounts,
+      retrieval: pubmedResult.ok ? pubmedResult.retrieval : previousStatus.pubmed?.retrieval || null,
+      changes: pubmedResult.ok ? pubmedResult.changes : null,
+      lastSuccessfulUpdate: pubmedResult.ok ? pubmedResult.finishedAt : previousStatus.pubmed?.lastSuccessfulUpdate || null,
       highImpactCount: pubmedResult.ok ? pubmedResult.highImpact.length : existingCounts.highImpact,
       chinaResearchCount: pubmedResult.ok ? pubmedResult.chinaResearch.length : existingCounts.china
     },
@@ -121,12 +127,15 @@ async function main() {
 }
 
 async function runPubMedSafely() {
+  const startedAt = new Date().toISOString();
   try {
     return await updatePubMed({ rootDir, dataDir });
   } catch (error) {
     return {
       ok: false,
       skipped: false,
+      startedAt,
+      finishedAt: new Date().toISOString(),
       error: error.message,
       articles: [],
       highImpact: [],

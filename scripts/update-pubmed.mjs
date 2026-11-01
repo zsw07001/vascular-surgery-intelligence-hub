@@ -1,4 +1,4 @@
-import { XMLParser } from "fast-xml-parser";
+import { XMLParser, XMLValidator } from "fast-xml-parser";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import {
@@ -10,7 +10,7 @@ import {
   studyTypeTagRules,
   topicTagRules
 } from "./config.mjs";
-import { loadDotEnv, summarizeWithRules, writeJsonFile } from "./utils.mjs";
+import { ensureArray, loadDotEnv, readJsonFile, summarizeWithRules, writeJsonFile } from "./utils.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -45,39 +45,32 @@ export async function updatePubMed(options = {}) {
 
   const query = buildPubMedQuery();
   const startedAt = new Date().toISOString();
-  const ids = await searchPubMedIds(query, runtime);
-  const uniqueIds = [...new Set(ids)];
-
-  if (uniqueIds.length === 0) {
-    const empty = [];
-    if (shouldWrite) {
-      await writePubMedOutputs(dataDir, empty, empty, empty);
-    }
-    return {
-      ok: true,
-      skipped: false,
-      error: null,
-      startedAt,
-      finishedAt: new Date().toISOString(),
-      articles: empty,
-      highImpact: empty,
-      chinaResearch: empty,
-      counts: emptyCounts(),
-      query
-    };
-  }
-
-  const xml = await fetchPubMedXml(uniqueIds, runtime);
-  const articles = parsePubMedXml(xml)
+  const previous = ensureArray(await readJsonFile(join(dataDir, "latest-research.json"), []));
+  const previousStatus = await readJsonFile(join(dataDir, "update-status.json"), {});
+  const search = await searchPubMedIds(query, runtime);
+  const records = await fetchPubMedArticles(search.ids, runtime);
+  const articles = records
     .map(enrichArticle)
     .sort((a, b) => sortDate(b.publicationDate) - sortDate(a.publicationDate));
 
   const deduped = dedupeByPmid(articles);
+  const requested = new Set(search.ids);
+  if (deduped.length !== search.matchedCount || deduped.some((article) => !requested.has(article.pmid))) {
+    throw new Error(`PubMed returned incomplete records (${deduped.length}/${search.matchedCount}); existing data was preserved.`);
+  }
   const highImpact = deduped.filter(isHighImpactArticle);
   const chinaResearch = deduped.filter((article) => article.isChinaResearch);
   const counts = countByRelevance(deduped);
   counts.highImpact = highImpact.length;
   counts.china = chinaResearch.length;
+  const retrieval = {
+    matchedCount: search.matchedCount,
+    fetchedCount: deduped.length,
+    complete: true,
+    searchPages: search.pages,
+    fetchBatches: Math.ceil(search.ids.length / pubmedConfig.fetchBatchSize)
+  };
+  const changes = compareSnapshots(previous, deduped, previousStatus, query);
 
   if (shouldWrite) {
     await writePubMedOutputs(dataDir, deduped, highImpact, chinaResearch);
@@ -89,12 +82,14 @@ export async function updatePubMed(options = {}) {
     error: null,
     startedAt,
     finishedAt: new Date().toISOString(),
-    pmids: uniqueIds,
+    pmids: search.ids,
     articles: deduped,
     highImpact,
     chinaResearch,
     counts,
-    query
+    query,
+    retrieval,
+    changes
   };
 }
 
@@ -110,25 +105,75 @@ async function searchPubMedIds(query, runtime) {
   url.searchParams.set("db", pubmedConfig.database);
   url.searchParams.set("term", query);
   url.searchParams.set("retmode", "json");
-  url.searchParams.set("retmax", String(pubmedConfig.maxRecords));
+  url.searchParams.set("retmax", String(pubmedConfig.searchPageSize));
+  url.searchParams.set("usehistory", "y");
   url.searchParams.set("datetype", pubmedConfig.dateType);
   url.searchParams.set("reldate", String(pubmedConfig.lookbackDays));
   url.searchParams.set("sort", "pub date");
   url.searchParams.set("tool", runtime.tool);
   url.searchParams.set("email", runtime.email);
 
-  const data = await fetchJson(url);
-  return data?.esearchresult?.idlist || [];
+  const first = validateSearchResult(await fetchJson(url));
+  const matchedCount = Number(first.count);
+  // PubMed ESearch cannot page beyond 9,999 IDs. Never publish a silently truncated set.
+  if (matchedCount > 9999) {
+    throw new Error(`PubMed matched ${matchedCount} records, exceeding the ESearch 9,999-ID limit. Narrow the date window or query; existing data was preserved.`);
+  }
+  const ids = [...first.idlist];
+  let pages = 1;
+  if (matchedCount > ids.length && (!first.webenv || !first.querykey || !ids.length)) {
+    throw new Error("PubMed did not return a complete search snapshot; existing data was preserved.");
+  }
+
+  for (let offset = ids.length; offset < matchedCount;) {
+    await sleep(pubmedConfig.requestDelayMs);
+    const pageUrl = new URL(`${pubmedConfig.eutilsBase}/esearch.fcgi`);
+    pageUrl.search = new URLSearchParams({
+      db: pubmedConfig.database,
+      term: `#${first.querykey}`,
+      WebEnv: first.webenv,
+      usehistory: "y",
+      retmode: "json",
+      sort: "pub date",
+      retstart: String(offset),
+      retmax: String(Math.min(pubmedConfig.searchPageSize, matchedCount - offset)),
+      tool: runtime.tool,
+      email: runtime.email
+    });
+    const page = validateSearchResult(await fetchJson(pageUrl));
+    if (Number(page.count) !== matchedCount || !page.idlist.length) {
+      throw new Error("PubMed search pagination was incomplete; existing data was preserved.");
+    }
+    ids.push(...page.idlist);
+    offset += page.idlist.length;
+    pages += 1;
+  }
+
+  const uniqueIds = [...new Set(ids)];
+  if (uniqueIds.length !== matchedCount) {
+    throw new Error(`PubMed search returned ${uniqueIds.length}/${matchedCount} unique IDs; existing data was preserved.`);
+  }
+  console.log(`PubMed search: ${matchedCount} matches across ${pages} page(s).`);
+  return { ids: uniqueIds, matchedCount, pages };
 }
 
-async function fetchPubMedXml(ids, runtime) {
-  const chunks = chunk(ids, 100);
-  const xmlParts = [];
+function validateSearchResult(data) {
+  const result = data?.esearchresult;
+  if (data?.error || result?.ERROR || result?.errorlist || !/^\d+$/.test(String(result?.count)) || !Array.isArray(result?.idlist)) {
+    throw new Error("PubMed returned an invalid search result; existing data was preserved.");
+  }
+  if (result.idlist.some((id) => !/^\d+$/.test(id))) {
+    throw new Error("PubMed returned invalid PMID values; existing data was preserved.");
+  }
+  return result;
+}
+
+async function fetchPubMedArticles(ids, runtime) {
+  const chunks = chunk(ids, pubmedConfig.fetchBatchSize);
+  const articles = [];
 
   for (let index = 0; index < chunks.length; index += 1) {
-    if (index > 0) {
-      await sleep(pubmedConfig.requestDelayMs);
-    }
+    await sleep(pubmedConfig.requestDelayMs);
 
     const url = new URL(`${pubmedConfig.eutilsBase}/efetch.fcgi`);
     url.searchParams.set("db", pubmedConfig.database);
@@ -137,10 +182,16 @@ async function fetchPubMedXml(ids, runtime) {
     url.searchParams.set("tool", runtime.tool);
     url.searchParams.set("email", runtime.email);
 
-    xmlParts.push(await fetchText(url));
+    const batch = parsePubMedXml(await fetchText(url));
+    const expected = new Set(chunks[index]);
+    const actual = new Set(batch.map((article) => article.pmid));
+    if (actual.size !== expected.size || [...actual].some((pmid) => !expected.has(pmid))) {
+      throw new Error(`PubMed EFetch batch ${index + 1} was incomplete; existing data was preserved.`);
+    }
+    articles.push(...batch);
   }
 
-  return `<PubmedArticleSet>${xmlParts.map(stripPubmedArticleSet).join("")}</PubmedArticleSet>`;
+  return articles;
 }
 
 async function fetchJson(url) {
@@ -230,9 +281,75 @@ function retryDelayMs(attempt) {
 }
 
 function parsePubMedXml(xml) {
+  if (XMLValidator.validate(xml) !== true) {
+    throw new Error("PubMed returned malformed XML; existing data was preserved.");
+  }
   const parsed = parser.parse(xml);
+  if (!parsed?.PubmedArticleSet || parsed.ERROR || parsed.PubmedArticleSet.ERROR) {
+    throw new Error("PubMed returned an invalid EFetch response; existing data was preserved.");
+  }
   const articles = arrayify(parsed?.PubmedArticleSet?.PubmedArticle);
-  return articles.map(normalizePubMedArticle).filter((article) => article.pmid);
+  const books = arrayify(parsed?.PubmedArticleSet?.PubmedBookArticle);
+  return [
+    ...articles.map(normalizePubMedArticle),
+    ...books.map(normalizePubMedBook)
+  ].filter((article) => article.pmid);
+}
+
+function normalizePubMedBook(record) {
+  const doc = record.BookDocument || {};
+  const book = doc.Book || {};
+  return normalizePubMedArticle({
+    MedlineCitation: {
+      PMID: doc.PMID,
+      Article: {
+        ...doc,
+        ArticleTitle: doc.ArticleTitle || book.BookTitle,
+        AuthorList: doc.AuthorList || book.AuthorList,
+        Journal: { Title: book.BookTitle, JournalIssue: { PubDate: book.PubDate } },
+        PublicationTypeList: { PublicationType: "Book Chapter" }
+      }
+    },
+    PubmedData: { ArticleIdList: doc.ArticleIdList }
+  });
+}
+
+export function compareSnapshots(previous, current, status, query) {
+  const meta = status?.pubmed;
+  const comparable = meta?.retrieval?.complete === true && meta?.counts?.total === previous.length &&
+    meta?.query === query && meta?.lookbackDays === pubmedConfig.lookbackDays && meta?.dateType === pubmedConfig.dateType;
+  const base = {
+    comparable,
+    comparedWith: meta?.lastSuccessfulUpdate || null,
+    added: null,
+    updated: null,
+    removedFromWindow: null,
+    unchanged: null
+  };
+  if (!comparable) return { ...base, note: "本次建立完整数据基线；后续显示相较上次成功同步的新入库和内容变更。" };
+
+  const before = new Map(previous.map((article) => [article.pmid, article]));
+  const after = new Set(current.map((article) => article.pmid));
+  let added = 0;
+  let updated = 0;
+  for (const article of current) {
+    const old = before.get(article.pmid);
+    if (!old) added += 1;
+    else if (articleFingerprint(old) !== articleFingerprint(article)) updated += 1;
+  }
+  return {
+    ...base,
+    added,
+    updated,
+    removedFromWindow: previous.filter((article) => !after.has(article.pmid)).length,
+    unchanged: current.length - added - updated,
+    note: "与上次完整同步比较；新入库指新增到本站的 PMID，内容变更指同一 PMID 的原始文献字段变化。移出窗口不代表论文被撤回。"
+  };
+}
+
+function articleFingerprint(article) {
+  const fields = ["title", "abstract", "journal", "publicationDate", "authors", "affiliations", "doi", "publicationTypes"];
+  return JSON.stringify(fields.map((field) => article[field] ?? null));
 }
 
 function normalizePubMedArticle(record) {
@@ -557,14 +674,6 @@ async function writePubMedOutputs(dataDir, latest, highImpact, chinaResearch) {
     writeJsonFile(join(dataDir, "high-impact-research.json"), highImpact),
     writeJsonFile(join(dataDir, "china-research.json"), chinaResearch)
   ]);
-}
-
-function stripPubmedArticleSet(xml) {
-  return xml
-    .replace(/<\?xml[^>]*>/g, "")
-    .replace(/<!DOCTYPE[^>]*>/g, "")
-    .replace(/<\/?PubmedArticleSet[^>]*>/g, "")
-    .trim();
 }
 
 function textValue(value) {

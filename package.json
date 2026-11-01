@@ -6,6 +6,7 @@
   "description": "Static intelligence dashboard for vascular surgery literature, trials, guidelines, and regulatory signals.",
   "scripts": {
     "dev": "node scripts/dev-server.mjs",
+    "test": "node --test tests/*.test.mjs",
     "update": "node scripts/update-all.mjs"
   },
   "engines": {

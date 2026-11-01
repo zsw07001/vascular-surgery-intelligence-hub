@@ -29,96 +29,63 @@
     </header>
 
     <main>
-      <section class="hero dashboard-hero">
+      <section class="dashboard-hero">
         <div class="hero-copy">
-          <p class="eyebrow">Clinical · Research · Med Affairs · Market Intelligence</p>
+          <p class="eyebrow">Vascular Intelligence / 血管外科专题工作台</p>
           <h1>血管外科情报中枢</h1>
           <p class="hero-subtitle">Vascular Surgery Intelligence Hub</p>
           <p class="hero-text">
-            面向血管外科临床、科研、医学事务和产业情报的专题工作台，聚合最新文献、临床试验、器械/药物动态、指南共识和中国研究。
+            追踪最新证据、临床试验与中国研究，为临床、科研和医学事务提供阅读线索。
           </p>
         </div>
-        <div class="hero-panel" aria-label="情报概览">
-          <div class="home-status-header">
-            <div>
-              <small>自动更新状态</small>
-              <strong id="home-updated">等待数据</strong>
-            </div>
-            <a href="pages/data-status.html">查看详情</a>
-          </div>
-          <div class="home-status-list" id="home-status-panel">
-            <div class="status-loading">正在加载数据源状态...</div>
-          </div>
+        <div class="hero-sync">
+          <span class="sync-label"><span class="status-dot"></span>每日自动同步</span>
+          <span>最近运行 <time id="home-updated">正在加载...</time></span>
+          <a class="text-link" href="pages/data-status.html">查看数据状态 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a>
         </div>
       </section>
 
       <section class="stat-grid" aria-label="核心统计">
         <article class="stat-card">
-          <span>过去 7 天 PubMed 新增/更新文献</span>
-          <strong data-stat="latestCount">0</strong>
+          <span>近 7 天更新文献 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#book-open"></use></svg></span>
+          <strong data-stat="latestCount">...</strong>
+          <small>PubMed 更新日期口径</small>
         </article>
         <article class="stat-card">
-          <span>高相关临床研究</span>
-          <strong data-stat="highImpactCount">0</strong>
+          <span>优先阅读文献 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#file-check-2"></use></svg></span>
+          <strong data-stat="highImpactCount">...</strong>
+          <small>高相关或高价值研究类型</small>
         </article>
         <article class="stat-card">
-          <span>中国机构相关研究</span>
-          <strong data-stat="chinaCount">0</strong>
+          <span>中国机构研究 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#globe"></use></svg></span>
+          <strong data-stat="chinaCount">...</strong>
+          <small>根据作者机构识别</small>
         </article>
         <article class="stat-card">
-          <span>进行中/招募中的临床试验</span>
-          <strong data-stat="activeTrialCount">0</strong>
+          <span>进行中 / 招募中试验 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#flask-conical"></use></svg></span>
+          <strong data-stat="activeTrialCount">...</strong>
+          <small>ClinicalTrials.gov</small>
         </article>
       </section>
 
-      <section class="module-grid" aria-label="情报模块">
-        <a class="module-card" href="pages/research.html">
-          <span>Latest Research</span>
-          <strong>最新文献</strong>
-        </a>
-        <a class="module-card" href="pages/research.html?dataset=high-impact">
-          <span>High Impact</span>
-          <strong>重点研究</strong>
-        </a>
-        <a class="module-card" href="pages/trials.html">
-          <span>Clinical Trials</span>
-          <strong>临床试验</strong>
-        </a>
-        <a class="module-card" href="pages/guidelines.html">
-          <span>Guidelines</span>
-          <strong>指南与共识</strong>
-        </a>
-        <a class="module-card" href="pages/devices.html">
-          <span>Devices & Regulatory</span>
-          <strong>器械与监管</strong>
-        </a>
-        <a class="module-card" href="pages/china.html">
-          <span>China Research</span>
-          <strong>中国研究</strong>
-        </a>
-        <a class="module-card" href="pages/safety.html">
-          <span>Safety</span>
-          <strong>安全性与不良事件</strong>
-        </a>
-        <a class="module-card" href="pages/conference-news.html">
-          <span>Conference / News</span>
-          <strong>会议与热点</strong>
-        </a>
-        <a class="module-card" href="pages/data-status.html">
-          <span>Data Status</span>
-          <strong>数据状态</strong>
-        </a>
-        <a class="module-card" href="pages/weekly-brief.html">
-          <span>Weekly Brief</span>
-          <strong>每周精选</strong>
-        </a>
+      <div class="update-strip" id="home-pubmed-update" aria-live="polite">正在核对本次文献更新...</div>
+
+      <div class="home-workspace">
+        <div class="workspace-main">
+      <section class="content-band">
+        <div class="section-heading section-heading-row">
+          <div><p class="eyebrow">Weekly Brief</p><h2>本周重点速览</h2></div>
+          <a class="text-link" href="pages/weekly-brief.html">完整简报 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a>
+        </div>
+        <div class="weekly-panel" id="home-weekly-brief"></div>
       </section>
 
-      <section class="content-band two-column">
+      <section class="content-band two-column home-research">
         <div>
           <div class="section-heading">
             <p class="eyebrow">Research Watch</p>
-            <h2>最新文献摘要</h2>
+            <h2>最新文献</h2>
+            <a class="text-link" href="pages/research.html">浏览全部 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a>
           </div>
           <div class="item-list compact-list" id="home-latest-list" data-limit="3"></div>
         </div>
@@ -126,18 +93,35 @@
           <div class="section-heading">
             <p class="eyebrow">Priority Reading</p>
             <h2>重点研究</h2>
+            <a class="text-link" href="pages/research.html?dataset=high-impact">更多重点研究 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a>
           </div>
           <div class="item-list compact-list" id="home-high-list" data-limit="3"></div>
         </div>
       </section>
-
-      <section class="content-band">
-        <div class="section-heading">
-          <p class="eyebrow">Weekly Brief</p>
-          <h2>每周精选</h2>
         </div>
-        <div class="weekly-panel" id="home-weekly-brief"></div>
+
+        <aside class="workspace-aside" aria-label="情报导航与来源">
+      <section class="aside-section">
+        <div class="section-heading"><p class="eyebrow">Explore</p><h2>情报目录</h2></div>
+        <nav class="module-grid" aria-label="情报模块">
+          <a class="module-card" href="pages/research.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#book-open"></use></svg><span>最新文献</span></a>
+          <a class="module-card" href="pages/research.html?dataset=high-impact"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#file-check-2"></use></svg><span>重点研究</span></a>
+          <a class="module-card" href="pages/china.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#globe"></use></svg><span>中国研究</span></a>
+          <a class="module-card" href="pages/trials.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#flask-conical"></use></svg><span>临床试验</span></a>
+          <a class="module-card" href="pages/guidelines.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#file-text"></use></svg><span>指南与共识</span></a>
+          <a class="module-card" href="pages/devices.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#shield-check"></use></svg><span>器械与监管</span></a>
+          <a class="module-card" href="pages/safety.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#shield-alert"></use></svg><span>安全性</span></a>
+          <a class="module-card" href="pages/conference-news.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#calendar-days"></use></svg><span>会议与热点</span></a>
+          <a class="module-card" href="pages/weekly-brief.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#notebook-pen"></use></svg><span>每周精选</span></a>
+          <a class="module-card" href="pages/data-status.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#activity"></use></svg><span>数据状态</span></a>
+        </nav>
       </section>
+      <section class="aside-section" aria-labelledby="home-sources-title">
+        <div class="home-status-header"><h2 id="home-sources-title">自动更新状态</h2><a class="text-link" href="pages/data-status.html">详情</a></div>
+        <div class="home-status-list" id="home-status-panel" aria-live="polite"><div class="status-loading">正在加载数据源状态...</div></div>
+      </section>
+        </aside>
+      </div>
     </main>
 
     <footer class="site-footer">

@@ -96,6 +96,19 @@ data/update-status.json
 
 不要把检索式或排除规则写进页面文件。
 
+## PubMed 数量与更新口径
+
+首页“近 7 天更新文献”是当前检索式按 PubMed `mdat`（记录修改日期）命中的完整结果，不是每天新增论文数；其中可能包含早先发表、近期被 PubMed 修改的论文。列表上的日期仍是论文发表日期。
+
+- 原先的 `maxRecords: 200` 已移除。`searchPageSize` 和 `fetchBatchSize` 仅控制单次请求大小，不限制总收录数。
+- ESearch 使用 History 快照、相同排序和 `retstart` 逐页读取 PMID，再分批 EFetch。只有全部 PMID 与解析后的文献逐一核对完整，才替换现有 JSON。
+- `data/update-status.json` 的 `pubmed.retrieval` 记录实际命中数、入库数和是否完整；`pubmed.lastSuccessfulUpdate` 记录最后成功同步时间。
+- “本次新入库 / 内容变更”与上一次成功的完整快照比较。新入库指首次进入本站当前窗口的 PMID，内容变更指同一 PMID 的标题、摘要、期刊、日期、作者、机构、DOI 或 publication type 发生变化；评分或标签规则调整不计为原文变更。
+- 首次从旧版 200 条上限迁移，或检索式/窗口发生变化时，先建立基线，不把补抓的旧论文误称为当天新增。移出 7 天窗口也不代表论文被撤回。
+- 真正的零命中会显示 0 和空状态；API 错误、分页缺失或不完整 XML 会保留上次成功数据并显示错误。PubMed ESearch 单次查询有 9,999 个 PMID 的限制，超出时会明确报错并保留旧数据，需缩小窗口/检索范围。
+
+参数依据：[NCBI E-utilities 参数说明](https://www.ncbi.nlm.nih.gov/sites/books/NBK25499/)。可运行 `npm test` 验证多页抓取、零结果、失败保留与更新计数。
+
 ## NCBI 配置
 
 接入 PubMed E-utilities 时，复制 `.env.example` 为 `.env` 并填写：

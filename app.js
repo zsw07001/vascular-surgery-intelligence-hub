@@ -65,7 +65,9 @@ async function loadJson(fileName, fallback = []) {
     if (!response.ok) {
       return fallback;
     }
-    return response.json();
+    const data = await response.json();
+    if (Array.isArray(fallback) && !Array.isArray(data)) return fallback;
+    return data && typeof data === "object" ? data : fallback;
   } catch (error) {
     console.warn(`Unable to load ${fileName}`, error);
     return fallback;
@@ -85,13 +87,15 @@ async function initHome() {
     loadJson(DATA_FILES.updateStatus, {})
   ]);
 
-  setText("[data-stat='latestCount']", latest.length);
-  setText("[data-stat='highImpactCount']", highImpact.length);
-  setText("[data-stat='chinaCount']", china.length);
-  setText("[data-stat='activeTrialCount']", countActiveTrials(trials));
+  setText("[data-stat='latestCount']", formatNumber(latest.length));
+  setText("[data-stat='highImpactCount']", formatNumber(highImpact.length));
+  setText("[data-stat='chinaCount']", formatNumber(china.length));
+  setText("[data-stat='activeTrialCount']", formatNumber(countActiveTrials(trials)));
 
   const updated = status.lastUpdated ? formatDateTime(status.lastUpdated) : "等待数据";
   setText("#home-updated", updated);
+  const updateStrip = document.querySelector("#home-pubmed-update");
+  if (updateStrip) updateStrip.innerHTML = renderPubMedSync(status);
   renderHomeStatus(document.querySelector("#home-status-panel"), status, {
     pubmed: latest.length,
     clinicalTrials: trials.length,
@@ -127,7 +131,7 @@ function renderHomeStatus(container, status, counts) {
       label: "PubMed",
       source: pubmedSource,
       count: sourceCount(pubmedSource, counts.pubmed),
-      time: pubmedSource?.finishedAt || status.lastUpdated
+      time: status.pubmed?.lastSuccessfulUpdate || pubmedSource?.lastSuccessfulUpdate || pubmedSource?.finishedAt || status.lastUpdated
     },
     {
       label: "ClinicalTrials.gov",
@@ -175,12 +179,25 @@ function renderHomeStatusCard(card) {
     <article class="home-source-card">
       <div>
         <strong>${escapeHtml(card.label)}</strong>
-        <span class="${statusClass(status)}">${escapeHtml(status)}</span>
+        <span>${escapeHtml(countText)}</span>
       </div>
-      <p>数量：${escapeHtml(countText)}</p>
-      <p>更新：${escapeHtml(updatedText)}</p>
+      <p><span class="${statusClass(status)}">${escapeHtml(statusLabel(status))}</span> · ${escapeHtml(updatedText)}</p>
     </article>
   `;
+}
+
+function renderPubMedSync(status) {
+  const meta = status?.pubmed || {};
+  const source = findStatusSource(status, ["PubMed"]);
+  if (!source) return "暂无文献同步记录";
+  if (source.status !== "success") {
+    return `<span class="status-warning">本次 PubMed 未刷新</span><span>保留上次数据 ${escapeHtml(formatNumber(source.count || 0))} 篇</span><span>上次成功：${escapeHtml(formatDateTime(meta.lastSuccessfulUpdate))}</span>`;
+  }
+  if (!meta.retrieval?.complete) return `<span>当前收录 ${escapeHtml(formatNumber(source.count || 0))} 篇；等待下一次完整同步。</span>`;
+  const result = `<strong>PubMed 近 ${escapeHtml(String(meta.lookbackDays || 7))} 天</strong><span>命中 ${escapeHtml(formatNumber(meta.retrieval.matchedCount))} / 入库 ${escapeHtml(formatNumber(meta.retrieval.fetchedCount))} 篇</span>`;
+  const changes = meta.changes;
+  if (!changes?.comparable) return `${result}<span>本次已建立完整基线，下次起显示新增与变更</span>`;
+  return `${result}<span class="update-counts"><span>本次新入库 <strong>${escapeHtml(formatNumber(changes.added))}</strong></span><span>内容变更 <strong>${escapeHtml(formatNumber(changes.updated))}</strong></span><span>移出窗口 ${escapeHtml(formatNumber(changes.removedFromWindow))}</span></span>`;
 }
 
 function findStatusSource(status, patterns) {
@@ -204,17 +221,24 @@ async function initResearchPage() {
   setText("#research-page-title", title);
 
   const fileName = `${datasetKey}.json`;
-  const articles = await loadJson(fileName);
+  const [articles, status] = await Promise.all([loadJson(fileName), loadJson(DATA_FILES.updateStatus, {})]);
   const list = document.querySelector("#research-list");
   const meta = document.querySelector("#result-meta");
   const state = {
     articles,
+    page: 1,
+    pageSize: 20,
     query: "",
     topic: "",
     studyType: "",
     relevance: "",
     chinaOnly: document.body.dataset.forceChina === "true"
   };
+  const pager = createPagination(list);
+  const windowNote = document.createElement("p");
+  windowNote.className = "research-window-note";
+  windowNote.textContent = `近 ${status.pubmed?.lookbackDays || 7} 天按 PubMed 记录更新日期纳入；下方日期为论文发表日期。`;
+  document.querySelector(".page-title")?.append(windowNote);
 
   populateSelect("#topic-filter", collectTopicTags(articles), "全部主题");
   populateSelect("#study-type-filter", collectStudyTypeTags(articles), "全部类型");
@@ -232,33 +256,47 @@ async function initResearchPage() {
 
   const render = () => {
     const filtered = filterArticles(state);
+    const pageCount = Math.max(1, Math.ceil(filtered.length / state.pageSize));
+    state.page = Math.min(state.page, pageCount);
+    const start = (state.page - 1) * state.pageSize;
     if (meta) {
-      meta.textContent = `显示 ${filtered.length} / ${articles.length} 条`;
+      meta.textContent = `共 ${formatNumber(articles.length)} 篇 · 匹配 ${formatNumber(filtered.length)} 篇 · 当前 ${filtered.length ? start + 1 : 0}–${Math.min(start + state.pageSize, filtered.length)}`;
     }
-    renderArticleList(list, filtered, {
+    renderArticleList(list, filtered.slice(start, start + state.pageSize), {
       emptyTitle: "暂无匹配文献",
       emptyText: "可以调整关键词或筛选条件。"
+    });
+    renderPagination(pager, state, pageCount, filtered.length, (page, pageSize) => {
+      state.page = page;
+      state.pageSize = pageSize;
+      render();
+      meta?.scrollIntoView({ block: "start" });
     });
   };
 
   searchInput?.addEventListener("input", (event) => {
     state.query = event.target.value.trim().toLowerCase();
+    state.page = 1;
     render();
   });
   topicFilter?.addEventListener("change", (event) => {
     state.topic = event.target.value;
+    state.page = 1;
     render();
   });
   studyTypeFilter?.addEventListener("change", (event) => {
     state.studyType = event.target.value;
+    state.page = 1;
     render();
   });
   relevanceFilter?.addEventListener("change", (event) => {
     state.relevance = event.target.value;
+    state.page = 1;
     render();
   });
   chinaFilter?.addEventListener("change", (event) => {
     state.chinaOnly = event.target.checked;
+    state.page = 1;
     render();
   });
 
@@ -270,18 +308,55 @@ async function initTrialsPage() {
   const list = document.querySelector("#trial-list");
   const meta = document.querySelector("#result-meta");
   const searchInput = document.querySelector("#search-input");
+  const state = { page: 1, pageSize: 20 };
+  const pager = createPagination(list);
 
   const render = () => {
     const query = searchInput?.value.trim().toLowerCase() || "";
     const filtered = trials.filter((trial) => trialMatchesQuery(trial, query));
+    const pageCount = Math.max(1, Math.ceil(filtered.length / state.pageSize));
+    state.page = Math.min(state.page, pageCount);
+    const start = (state.page - 1) * state.pageSize;
     if (meta) {
-      meta.textContent = `显示 ${filtered.length} / ${trials.length} 项试验`;
+      meta.textContent = `共 ${formatNumber(trials.length)} 项试验 · 匹配 ${formatNumber(filtered.length)} 项 · 当前 ${filtered.length ? start + 1 : 0}–${Math.min(start + state.pageSize, filtered.length)}`;
     }
-    renderTrialList(list, filtered);
+    renderTrialList(list, filtered.slice(start, start + state.pageSize));
+    renderPagination(pager, state, pageCount, filtered.length, (page, pageSize) => {
+      state.page = page;
+      state.pageSize = pageSize;
+      render();
+      meta?.scrollIntoView({ block: "start" });
+    });
   };
 
-  searchInput?.addEventListener("input", render);
+  searchInput?.addEventListener("input", () => { state.page = 1; render(); });
   render();
+}
+
+function createPagination(list) {
+  const pager = document.createElement("nav");
+  pager.className = "pagination";
+  pager.setAttribute("aria-label", "结果分页");
+  list?.after(pager);
+  return pager;
+}
+
+function renderPagination(container, state, pageCount, total, onChange) {
+  container.innerHTML = `
+    <label class="page-size">每页 <select aria-label="每页条数">${[20, 50, 100].map((size) => `<option value="${size}"${state.pageSize === size ? " selected" : ""}>${size}</option>`).join("")}</select><span>共 ${escapeHtml(formatNumber(total))} 条</span></label>
+    <div class="page-controls">
+      <button type="button" data-direction="previous" aria-label="上一页" title="上一页"${state.page <= 1 ? " disabled" : ""}>${renderIcon("chevron-left")}</button>
+      <span>第 ${state.page} / ${pageCount} 页</span>
+      <button type="button" data-direction="next" aria-label="下一页" title="下一页"${state.page >= pageCount ? " disabled" : ""}>${renderIcon("chevron-right")}</button>
+    </div>`;
+  container.querySelector("select").addEventListener("change", (event) => onChange(1, Number(event.target.value)));
+  container.querySelector("[data-direction='previous']").addEventListener("click", () => onChange(state.page - 1, state.pageSize));
+  container.querySelector("[data-direction='next']").addEventListener("click", () => onChange(state.page + 1, state.pageSize));
+}
+
+function renderIcon(name) {
+  const prefix = window.location.pathname.includes("/pages/") ? "../" : "";
+  return `<svg class="icon" aria-hidden="true"><use href="${prefix}assets/icons.svg#${name}"></use></svg>`;
 }
 
 async function initStatusPage() {
@@ -347,7 +422,8 @@ function renderArticleCard(article, options = {}) {
   const pubmedUrl = article.pubmedUrl || (article.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${article.pmid}/` : "");
   const title = escapeHtml(article.title || "Untitled article");
   const summary = escapeHtml(article.summaryZh || "暂无中文辅助说明。");
-  const englishSummary = article.englishSummary ? `<p class="english-summary">${escapeHtml(article.englishSummary)}</p>` : "";
+  const abstract = article.abstract || article.englishSummary;
+  const englishSummary = abstract && !options.compact ? `<details class="article-abstract"><summary>查看原文摘要</summary><p class="english-summary">${escapeHtml(abstract)}</p></details>` : "";
   const compactClass = options.compact ? " compact" : "";
   const scoreText = typeof article.score === "number" ? `<span>Score ${escapeHtml(String(article.score))}</span>` : "";
 
@@ -398,6 +474,15 @@ function renderWeeklyBrief(container, brief, options = {}) {
 
   const maxTrend = Math.max(...trends.map((item) => item.count), 1);
   const compact = options.compact;
+  if (compact) {
+    container.innerHTML = `
+      <div class="weekly-digest-meta"><p>精选 ${priority.length} 篇文献 · ${china.length} 篇中国研究 · ${trials.length} 项试验</p><span>${escapeHtml(formatBriefPeriod(brief.period))}</span></div>
+      <div class="brief-grid">
+        <section class="brief-card"><div class="section-heading tight"><h3>优先阅读</h3></div>${renderBriefSection(priority.slice(0, 1), "暂无重点文献", "等待下一次数据更新。")}</section>
+        <section class="brief-card"><div class="section-heading tight"><h3>试验追踪</h3></div>${renderBriefSection(trials.slice(0, 1), "暂无重点试验", "等待下一次数据更新。")}</section>
+      </div>`;
+    return;
+  }
   const priorityLimit = compact ? 3 : 10;
   const trialLimit = compact ? 2 : 10;
 
@@ -624,6 +709,12 @@ function renderStatus(container, status) {
       <span>运行模式：${escapeHtml(status.mode || "unknown")}</span>
       <span>说明：${escapeHtml(status.note || "暂无说明")}</span>
     </div>
+    <section class="pubmed-detail" aria-label="PubMed 完整性与更新统计">
+      <strong>PubMed 完整性与更新统计</strong>
+      <div class="update-strip">${renderPubMedSync(status)}</div>
+      <p>最后成功同步：${escapeHtml(formatDateTime(status.pubmed?.lastSuccessfulUpdate))}</p>
+      <p>${escapeHtml(status.pubmed?.changes?.note || "新入库和内容变更按相邻两次完整同步比较，近 7 天总数并非每日新增数。")}</p>
+    </section>
     <div class="status-grid">
       ${sources
         .map(
@@ -759,6 +850,14 @@ function statusClass(status) {
   return "status-error";
 }
 
+function statusLabel(status) {
+  return { success: "已更新", skipped: "已跳过", not_run: "待维护", error: "更新失败" }[status] || status || "暂无状态";
+}
+
+function formatNumber(value) {
+  return new Intl.NumberFormat("zh-CN").format(Number(value) || 0);
+}
+
 function formatDate(value) {
   if (!value) return "日期待补充";
   const date = new Date(value);
@@ -775,6 +874,7 @@ function formatDateTime(value) {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return value;
   return new Intl.DateTimeFormat("zh-CN", {
+    timeZone: "Asia/Shanghai",
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
