@@ -1,52 +1,52 @@
 {
-  "generatedAt": "2026-11-01T05:31:37.154Z",
+  "generatedAt": "2026-11-01T23:36:05.713Z",
   "period": {
     "start": "2026-10-26",
     "end": "2026-11-01"
   },
-  "dataUpdatedAt": "2026-11-01T05:31:37.154Z",
+  "dataUpdatedAt": "2026-11-01T23:36:05.713Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
-      "count": 1750,
-      "updatedAt": "2026-11-01T05:31:37.154Z"
+      "count": 2149,
+      "updatedAt": "2026-11-01T23:36:05.713Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 771,
-      "updatedAt": "2026-11-01T05:31:37.154Z"
+      "updatedAt": "2026-11-01T23:36:05.713Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 30,
-      "updatedAt": "2026-11-01T05:31:37.154Z"
+      "updatedAt": "2026-11-01T23:36:05.713Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-01T05:31:37.154Z"
+      "updatedAt": "2026-11-01T23:36:05.713Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-01T05:31:37.154Z"
+      "updatedAt": "2026-11-01T23:36:05.713Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-11-01T05:31:37.154Z"
+      "updatedAt": "2026-11-01T23:36:05.713Z"
     }
   ],
   "counts": {
-    "latestResearch": 1750,
-    "highImpact": 715,
-    "chinaResearch": 329,
+    "latestResearch": 2149,
+    "highImpact": 864,
+    "chinaResearch": 413,
     "clinicalTrials": 771,
     "guidelines": 30,
     "devices": 40,
@@ -54,39 +54,39 @@
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 1750 篇 PubMed 文献、771 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 2149 篇 PubMed 文献、771 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
-      "tag": "Endovascular",
-      "count": 608
+      "tag": "Imaging / Diagnosis",
+      "count": 732
     },
     {
-      "tag": "Imaging / Diagnosis",
-      "count": 605
+      "tag": "Endovascular",
+      "count": 728
     },
     {
       "tag": "Venous Disease",
-      "count": 413
+      "count": 499
     },
     {
       "tag": "China Research",
-      "count": 329
+      "count": 413
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 314
+      "count": 372
     },
     {
       "tag": "Aortic Disease",
-      "count": 240
-    },
-    {
-      "tag": "PAD / CLTI",
-      "count": 161
+      "count": 272
     },
     {
       "tag": "Antithrombotic Therapy",
-      "count": 151
+      "count": 182
+    },
+    {
+      "tag": "PAD / CLTI",
+      "count": 177
     }
   ],
   "priorityReading": [
@@ -314,11 +314,11 @@
       "doi": "10.1007/s11239-026-03420-2"
     },
     {
-      "pmid": "42956396",
-      "title": "Comparative evaluation of carotid artery stent designs through a strict randomized evidence synthesis and assessment of local vascular responses.",
+      "pmid": "38904782",
+      "title": "Acute carotid stenting versus non-stenting treatment of acute ischemic stroke due to tandem lesions: a systematic review and meta-analysis.",
       "source": "PubMed",
-      "date": "2026-10-29",
-      "journal": "Journal of biomaterials applications",
+      "date": "2024-06-21",
+      "journal": "Journal of neurology",
       "topicTags": [
         "Carotid Disease",
         "Endovascular",
@@ -326,16 +326,16 @@
         "China Research"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
+        "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Clinical Trial / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42956396/",
-      "doi": "10.1177/08853282261501990"
+      "score": 11,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 11",
+      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38904782/",
+      "doi": "10.1007/s00415-024-12497-9"
     }
   ],
   "priorityArticles": [
@@ -563,11 +563,11 @@
       "doi": "10.1007/s11239-026-03420-2"
     },
     {
-      "pmid": "42956396",
-      "title": "Comparative evaluation of carotid artery stent designs through a strict randomized evidence synthesis and assessment of local vascular responses.",
+      "pmid": "38904782",
+      "title": "Acute carotid stenting versus non-stenting treatment of acute ischemic stroke due to tandem lesions: a systematic review and meta-analysis.",
       "source": "PubMed",
-      "date": "2026-10-29",
-      "journal": "Journal of biomaterials applications",
+      "date": "2024-06-21",
+      "journal": "Journal of neurology",
       "topicTags": [
         "Carotid Disease",
         "Endovascular",
@@ -575,16 +575,16 @@
         "China Research"
       ],
       "studyTypeTags": [
-        "Clinical Trial",
+        "Systematic Review",
         "Meta-analysis",
         "Review"
       ],
       "relevance": "high",
-      "score": 8,
-      "reason": "high relevance；Clinical Trial / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 8",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42956396/",
-      "doi": "10.1177/08853282261501990"
+      "score": 11,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Carotid Disease / Endovascular / Vascular Graft / Stent / Device；score 11",
+      "summaryZh": "该研究与颈动脉疾病相关，建议关注卒中、再狭窄和围手术期风险。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38904782/",
+      "doi": "10.1007/s00415-024-12497-9"
     }
   ],
   "chinaHighlights": [
@@ -1180,6 +1180,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42964791/"
     },
     {
+      "title": "Surgery versus endovascular treatment for spinal dural arteriovenous fistulas: a multicenter experience and systematic literature review.",
+      "source": "Guidelines",
+      "date": "2024-05-07",
+      "topicTags": [
+        "Dialysis Access",
+        "Endovascular",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38713376/"
+    },
+    {
       "title": "Endovascular revascularization of critical limb ischemia: the role of ultrasound-guided popliteal sciatic nerve block for the procedural pain management.",
       "source": "Guidelines",
       "date": "2023-07-29",
@@ -1205,18 +1217,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42941619/"
-    },
-    {
-      "title": "An Algorithm for Inferior Vena Cava Filter Placement in Severely Injured Patients: A Systematic Review-Based Consensus and Guidelines by SMA-VS.",
-      "source": "Guidelines",
-      "date": "2026-09-10",
-      "topicTags": [
-        "Venous Disease",
-        "Guideline / Consensus",
-        "China Research"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42812097/"
     },
     {
       "title": "Clinical Outcomes of Santreva-ATK Endovascular Revascularization Catheter in Patients With Claudication and Critical Limb-Threatening Ischemia.",
@@ -1312,6 +1312,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42964791/"
     },
     {
+      "title": "Surgery versus endovascular treatment for spinal dural arteriovenous fistulas: a multicenter experience and systematic literature review.",
+      "source": "Guidelines",
+      "date": "2024-05-07",
+      "topicTags": [
+        "Dialysis Access",
+        "Endovascular",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38713376/"
+    },
+    {
       "title": "Endovascular revascularization of critical limb ischemia: the role of ultrasound-guided popliteal sciatic nerve block for the procedural pain management.",
       "source": "Guidelines",
       "date": "2023-07-29",
@@ -1337,18 +1349,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42941619/"
-    },
-    {
-      "title": "An Algorithm for Inferior Vena Cava Filter Placement in Severely Injured Patients: A Systematic Review-Based Consensus and Guidelines by SMA-VS.",
-      "source": "Guidelines",
-      "date": "2026-09-10",
-      "topicTags": [
-        "Venous Disease",
-        "Guideline / Consensus",
-        "China Research"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42812097/"
     },
     {
       "title": "Clinical Outcomes of Santreva-ATK Endovascular Revascularization Catheter in Patients With Claudication and Critical Limb-Threatening Ischemia.",
