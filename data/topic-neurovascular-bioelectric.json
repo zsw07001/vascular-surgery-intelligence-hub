@@ -333,58 +333,6 @@
     "researchDirection": "neurovascular-bioelectric"
   },
   {
-    "pmid": "42811508",
-    "title": "Astrocytes Coordinate Neurovascular Coupling During Prolonged Sensory Demand via AQP4/TRPA1/BEST1/D-Serine Signaling.",
-    "abstract": "2+ 2+ Astrocytes are recognized as key components of neurovascular coupling (NVC), yet whether and how astrocytic engagement in NVC depends on sensory stimulus duration remains unclear. Here, we investigated a duration-dependent astrocytic mechanism underlying cerebral blood volume (CBV) modulation by comparing neurovascular responses to brief (5 s) and prolonged (20 s) sensory stimulation, using in vivo intrinsic optical signal (IOS) imaging and two-photon microscopy combined with electrophysiology and vascular cannulation. We show that prolonged stimulation selectively recruits an integrated astrocytic signaling cascade involving aquaporin-4 (AQP4)-mediated volume changes, Cainflux through mechanosensitive transient receptor potential ankyrin 1 (TRPA1), and D-serine release through the Ca-dependent Bestrophin-1 (BEST1) channel. This signaling cascade drives sustained neuronal activity, leading to CBV modulation and sensory perception. Genetic ablation of each component in this pathway selectively impairs CBV responses, neuronal activity, and sensory behavior during prolonged stimulation, while exogenous D-serine fully restores these deficits. We further demonstrate that tonic astrocytic D-serine release via BEST1 directly regulates the basal tone of penetrating arterioles. These findings together identify astrocytic D-serine as one of the key gliotransmitters that modulate CBV and neuronal activity during prolonged sensory demand and fine-tune vascular tone in resting states.",
-    "englishSummary": "2+ 2+ Astrocytes are recognized as key components of neurovascular coupling (NVC), yet whether and how astrocytic engagement in NVC depends on sensory stimulus duration remains unclear. Here, we investigated a duration-dependent astrocytic mechanism underlying cerebral blood volume (CBV) modulation by comparing neurovascular responses to brief (5 s) and prolonged (20 s) sensory stimulation, using in vivo intrinsic optical signal (IOS) imaging and two-photon microscopy combined with electrophysiology and vascular cannulation. We show that prolonged stimulation selectively recruits an integrated astrocytic signaling cascade involving aquaporin-4 (AQP4)-mediated volume changes, Cainflux through mechanosensitive transient receptor potential ankyrin 1 (TRPA1), and D-serine release through the Ca-dependent Bestrophin-1 (BEST1) channel.",
-    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
-    "publicationDate": "2026-09-29",
-    "authors": [
-      "Han K",
-      "Jang MW",
-      "Park T",
-      "Kim KJ",
-      "Drew VJ",
-      "Kim S",
-      "Kim TY",
-      "Park MG",
-      "Kim M",
-      "Chung SW",
-      "Suh M",
-      "Lee CJ"
-    ],
-    "affiliations": [
-      "Center for Neuroscience Imaging Research, Institute for Basic Science (IBS), Suwon, Republic of Korea.",
-      "Biomedical Institute for Convergence at SKKU (BICS), Sungkyunkwan University, Suwon, Republic of Korea.",
-      "Center for Memory and Glioscience, Institute for Basic Science (IBS), Daejeon, Republic of Korea.",
-      "Department of Biomedical Engineering, Sungkyunkwan University, Suwon, Republic of Korea.",
-      "Department of Intelligent Precision Healthcare Convergence (IPHC), Sungkyunkwan University, Suwon, Republic of Korea."
-    ],
-    "doi": "10.1002/advs.77878",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42811508/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Neurovascular Interaction",
-      "Bioelectric Signaling"
-    ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+2 专题匹配: Neurovascular Interaction",
-      "+2 专题匹配: Bioelectric Signaling",
-      "+3 标题命中专题词"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "涉及神经与血管相互作用，建议确认研究涉及的细胞类型和调控方向。 涉及电活动或离子通道信号，建议关注电生理证据及其与血管反应的关联。",
-    "source": "PubMed",
-    "researchDirection": "neurovascular-bioelectric"
-  },
-  {
     "pmid": "42747031",
     "title": "Aspiration Patch Proteomics Enables CE-ESI-MS Proteotyping of Identified Single Neurons in Intact Brain Tissue.",
     "abstract": "Direct proteome analysis of identified neurons in intact brain tissue remains limited by the difficulty of recovering intracellular material while preserving native tissue context and avoiding physical extraction of the intact soma. Here, we establish aspiration patch proteomics as a mass spectrometry (MS)-compatible microsampling strategy for proteome-level analysis of somal cytoplasmic aspirates from fluorescently identified neurons in acute mouse brain slices. The workflow combines patch-pipet aspiration, volatile internal-solution chemistry, minimal-loss bottom-up proteomics, and high-sensitivity capillary electrophoresis (CE)-electrospray ionization (ESI)-MS on a timsTOF platform. Optimization of the patch internal solution revealed a strong trade-off between electrophysiological compatibility and proteomic depth, identifying ammonium bicarbonate as an enabling volatile electrolyte for downstream CE-ESI-MS analysis. Applied to dopaminergic, parvalbumin, and serotonergic neurons, the method identified hundreds to >1000 proteins from optimized single-neuron somal cytoplasmic aspirate measurements while analyzing only &#x223c;0.4% of the processed digest per CE-ESI-MS run. Across neuronal classes, 1894 protein entries were identified and 1703 were quantified, yielding reproducible label-free profiles sufficient to separate biological replicates by neuronal phenotype and distinguish neuronal classes from protein expression alone. These results show that aspiration-based recovery of somal cytoplasm yields sufficient proteomic information for subtype-level single-neuron proteotyping while maintaining intact-tissue targeting and avoiding cell dissociation or physical extraction of the intact soma. Aspiration patch proteomics therefore provides a chemically compatible sampling front end for MS-based analysis of identified neurons in native brain tissue.",
@@ -762,6 +710,72 @@
     "researchDirection": "neurovascular-bioelectric"
   },
   {
+    "pmid": "32958958",
+    "title": "Epineural optogenetic activation of nociceptors initiates and amplifies inflammation.",
+    "abstract": "1,2 Activation of nociceptor sensory neurons by noxious stimuli both triggers pain and increases capillary permeability and blood flow to produce neurogenic inflammation, but whether nociceptors also interact with the immune system remains poorly understood. Here we report a neurotechnology for selective epineural optogenetic neuromodulation of nociceptors and demonstrate that nociceptor activation drives both protective pain behavior and inflammation. The wireless optoelectronic system consists of sub-millimeter-scale light-emitting diodes embedded in a soft, circumneural sciatic nerve implant, powered and driven by a miniaturized head-mounted control unit. Photostimulation of axons in freely moving mice that express channelrhodopsin only in nociceptors resulted in behaviors characteristic of pain, reflecting orthodromic input to the spinal cord. It also led to immune reactions in the skin in the absence of inflammation and potentiation of established inflammation, a consequence of the antidromic activation of nociceptor peripheral terminals. These results reveal a link between nociceptors and immune cells, which might have implications for the treatment of inflammation.",
+    "englishSummary": "1,2 Activation of nociceptor sensory neurons by noxious stimuli both triggers pain and increases capillary permeability and blood flow to produce neurogenic inflammation, but whether nociceptors also interact with the immune system remains poorly understood. Here we report a neurotechnology for selective epineural optogenetic neuromodulation of nociceptors and demonstrate that nociceptor activation drives both protective pain behavior and inflammation. The wireless optoelectronic system consists of sub-millimeter-scale light-emitting diodes embedded in a soft, circumneural sciatic nerve implant, powered and driven by a miniaturized head-mounted control unit.",
+    "journal": "Nature biotechnology",
+    "publicationDate": "2020-09-21",
+    "authors": [
+      "Michoud F",
+      "Seehus C",
+      "Sch&#xf6;nle P",
+      "Brun N",
+      "Taub D",
+      "Zhang Z",
+      "Jain A",
+      "Furfaro I",
+      "Akouissi O",
+      "Moon R",
+      "Meier P",
+      "Galan K",
+      "Doyle B",
+      "Tetreault M",
+      "Talbot S",
+      "Browne LE",
+      "Huang Q",
+      "Woolf CJ",
+      "Lacour SP"
+    ],
+    "affiliations": [
+      "Laboratory for Soft Bioelectronics Interface, Institute of Microengineering, Institute of Bioengineering, Centre for Neuroprosthetics, Ecole Polytechnique F&#xe9;d&#xe9;rale de Lausanne (EPFL), Geneva, Switzerland.",
+      "Department of Neurobiology, Harvard Medical School, Boston, MA, USA.",
+      "F.M. Kirby Neurobiology Center, Boston Children's Hospital, Boston, MA, USA.",
+      "Integrated Systems Laboratory, Department of Information Technology and Electrical Engineering, Swiss Institute of Technology Zurich (ETHZ), Zurich, Switzerland.",
+      "D&#xe9;partement de Pharmacologie et Physiologie, Facult&#xe9; de M&#xe9;decine, Universit&#xe9; de Montr&#xe9;al, Montreal, Quebec, Canada.",
+      "Wolfson Institute for Biomedical Research, University College London, London, UK.",
+      "Integrated Systems Laboratory, Department of Information Technology and Electrical Engineering, Swiss Institute of Technology Zurich (ETHZ), Zurich, Switzerland. huang@iis.ee.ethz.ch.",
+      "Department of Neurobiology, Harvard Medical School, Boston, MA, USA. clifford.woolf@childrens.harvard.edu.",
+      "F.M. Kirby Neurobiology Center, Boston Children's Hospital, Boston, MA, USA. clifford.woolf@childrens.harvard.edu.",
+      "Laboratory for Soft Bioelectronics Interface, Institute of Microengineering, Institute of Bioengineering, Centre for Neuroprosthetics, Ecole Polytechnique F&#xe9;d&#xe9;rale de Lausanne (EPFL), Geneva, Switzerland. stephanie.lacour@epfl.ch."
+    ],
+    "doi": "10.1038/s41587-020-0673-2",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/32958958/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "topicTags": [
+      "Neurovascular Interaction",
+      "Bioelectric Signaling"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "high",
+    "score": 7,
+    "scoreReasons": [
+      "+2 专题匹配: Neurovascular Interaction",
+      "+2 专题匹配: Bioelectric Signaling",
+      "+3 标题命中专题词"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及神经与血管相互作用，建议确认研究涉及的细胞类型和调控方向。 涉及电活动或离子通道信号，建议关注电生理证据及其与血管反应的关联。",
+    "source": "PubMed",
+    "researchDirection": "neurovascular-bioelectric"
+  },
+  {
     "pmid": "28623618",
     "title": "B Endothelin-1 Decreases Excitability of the Dorsal Root Ganglion Neurons via ETReceptor.",
     "abstract": "threshold threshold Na KT Na KT B A B Na 50 Na KT B Endothelin-1 (ET-1) has been demonstrated to be a pro-nociceptive as well as an anti-nociceptive agent. However, underlying molecular mechanisms for these pain modulatory actions remain unclear. In the present study, we evaluated the ability of ET-1 to alter the nociceptor excitability using a patch clamp technique in acutely dissociated rat dorsal root ganglion (DRG) neurons. ET-1 produced an increase in threshold current to evoke an action potential (I) and hyperpolarization of resting membrane potential (RMP) indicating decreased excitability of DRG neurons. Iincreased from 0.25&#xa0;&#xb1;&#xa0;0.08 to 0.33&#xa0;&#xb1;&#xa0;0.07&#xa0;nA and hyperpolarized RMP from -57.51&#xa0;&#xb1;&#xa0;1.70 to -67.41&#xa0;&#xb1;&#xa0;2.92&#xa0;mV by ET-1 (100&#xa0;nM). The hyperpolarizing effect of ET-1 appears to be orchestrated via modulation of membrane conductances, namely voltage-gated sodium current (I) and outward transient potassium current (I). ET-1, 30 and 100&#xa0;nM, decreased the peak Iby 41.3&#xa0;&#xb1;&#xa0;6.8 and 74&#xa0;&#xb1;&#xa0;15.2%, respectively. Additionally, ET-1 (100&#xa0;nM) significantly potentiated the transient component (I) of the potassium currents. ET-1-induced effects were largely attenuated by BQ-788, a selective ETR blocker. However, a selective ETR blocker BQ-123 did not alter the effects of ET-1. A selective ETR agonist, IRL-1620, mimicked the effect of ET-1 on Iin a concentration-dependent manner (IC159.5&#xa0;&#xb1;&#xa0;92.6&#xa0;&#x3bc;M). In conclusion, our results demonstrate that ET-1 hyperpolarizes nociceptors by blocking Iand potentiating Ithrough selective activation of ETR, which may represent one of the underlying mechanisms for reported anti-nociceptive effects of ET-1.",
@@ -792,6 +806,97 @@
     ],
     "studyTypeTags": [
       "Basic Research"
+    ],
+    "relevance": "high",
+    "score": 7,
+    "scoreReasons": [
+      "+2 专题匹配: Neurovascular Interaction",
+      "+2 专题匹配: Bioelectric Signaling",
+      "+3 标题命中专题词"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及神经与血管相互作用，建议确认研究涉及的细胞类型和调控方向。 涉及电活动或离子通道信号，建议关注电生理证据及其与血管反应的关联。",
+    "source": "PubMed",
+    "researchDirection": "neurovascular-bioelectric"
+  },
+  {
+    "pmid": "23371009",
+    "title": "Electrophysiological characteristics of enteric neurons isolated from the immortomouse.",
+    "abstract": "BACKGROUND: Recently, two enteric neuronal cell lines, one fetal and the other post-natal (IM-PEN), have been developed from the H-2K(b)-tsA58 transgenic mouse (immortomouse). However, their electrophysiological properties are not known. The goal of this study was to determine the electrical excitability and ionic conductance of the immortalized postnatal enteric neuronal (IM-PEN) cell line. METHODS: Whole cell patch clamp studies, immunohistochemistry and RT-PCR were performed on differentiated IM-PEN cells following propagation at 33 &#xb0;C and differentiation at 37 &#xb0;C. RESULTS: Differentiated IM-PEN cells stained positively for the neuron specific markers &#x3b2;III-tubulin and PGP9.5. The mRNA for several ion channels expressed in enteric neurons were detected by RT-PCR. In current clamp, the resting membrane potential was -24.6 &#xb1; 2.1 mV (n = 6) for IM-FEN and -29.8 &#xb1; 0.9 mV (n = 30) for IM-PEN. Current injections from Vh -80 mV resulted in passive responses but not action potentials. Depolarizing pulses in the whole cell voltage clamp configuration from Vh -80 mV elicited small nifedipine-sensitive inward currents. Additionally, outward currents with slow deactivating tail currents were blocked by niflumic acid and low chloride solution. A volume-regulated anion current was elicited by hypo-osmotic solution and inhibited by 10 &#x3bc;M DCPIB. Growth with rabbit gastrointestinal smooth muscle did not yield significant differences in the active properties of the IM-PEN cell line. Transient expression of L-type Ca(2+) channels produced large inward currents demonstrating a working mechanism for protein folding and transport. CONCLUSION: The electrophysiological characteristics of IM-PEN cells suggest that chloride channels in IM-PEN cells play an important role in their resting state, and membrane trafficking of some of the ion channels may preclude their electrical excitability.",
+    "englishSummary": "BACKGROUND: Recently, two enteric neuronal cell lines, one fetal and the other post-natal (IM-PEN), have been developed from the H-2K(b)-tsA58 transgenic mouse (immortomouse). However, their electrophysiological properties are not known. The goal of this study was to determine the electrical excitability and ionic conductance of the immortalized postnatal enteric neuronal (IM-PEN) cell line.",
+    "journal": "Digestive diseases and sciences",
+    "publicationDate": "2013-01-31",
+    "authors": [
+      "Hawkins EG",
+      "Dewey WL",
+      "Anitha M",
+      "Srinivasan S",
+      "Grider JR",
+      "Akbarali HI"
+    ],
+    "affiliations": [
+      "Department of Pharmacology and Toxicology, Medical College of Virginia Campus, Virginia Commonwealth University, 1112 E, Clay Street, McGuire Hall 317, Richmond, VA 23298, USA."
+    ],
+    "doi": "10.1007/s10620-013-2557-5",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23371009/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "topicTags": [
+      "Neurovascular Interaction",
+      "Bioelectric Signaling"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "high",
+    "score": 7,
+    "scoreReasons": [
+      "+2 专题匹配: Neurovascular Interaction",
+      "+2 专题匹配: Bioelectric Signaling",
+      "+3 标题命中专题词"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及神经与血管相互作用，建议确认研究涉及的细胞类型和调控方向。 涉及电活动或离子通道信号，建议关注电生理证据及其与血管反应的关联。",
+    "source": "PubMed",
+    "researchDirection": "neurovascular-bioelectric"
+  },
+  {
+    "pmid": "22438035",
+    "title": "The role of gap junction channels during physiologic and pathologic conditions of the human central nervous system.",
+    "abstract": "Gap junctions (GJs) are expressed in most cell types of the nervous system, including neuronal stem cells, neurons, astrocytes, oligodendrocytes, cells of the blood brain barrier (endothelial cells and astrocytes) and under inflammatory conditions in microglia/macrophages. GJs connect cells by the docking of two hemichannels, one from each cell with each hemichannel being formed by 6 proteins named connexins (Cx). Unapposed hemichannels (uHC) also can be open on the surface of the cells allowing the release of different intracellular factors to the extracellular space. GJs provide a mechanism of cell-to-cell communication between adjacent cells that enables the direct exchange of intracellular messengers, such as calcium, nucleotides, IP(3), and diverse metabolites, as well as electrical signals that ultimately coordinate tissue homeostasis, proliferation, differentiation, metabolism, cell survival and death. Despite their essential functions in physiological conditions, relatively little is known about the role of GJs and uHC in human diseases, especially within the nervous system. The focus of this review is to summarize recent findings related to the role of GJs and uHC in physiologic and pathologic conditions of the central nervous system.",
+    "englishSummary": "Gap junctions (GJs) are expressed in most cell types of the nervous system, including neuronal stem cells, neurons, astrocytes, oligodendrocytes, cells of the blood brain barrier (endothelial cells and astrocytes) and under inflammatory conditions in microglia/macrophages. GJs connect cells by the docking of two hemichannels, one from each cell with each hemichannel being formed by 6 proteins named connexins (Cx). Unapposed hemichannels (uHC) also can be open on the surface of the cells allowing the release of different intracellular factors to the extracellular space.",
+    "journal": "Journal of neuroimmune pharmacology : the official journal of the Society on NeuroImmune Pharmacology",
+    "publicationDate": "2012-03-23",
+    "authors": [
+      "Eugenin EA",
+      "Basilio D",
+      "S&#xe1;ez JC",
+      "Orellana JA",
+      "Raine CS",
+      "Bukauskas F",
+      "Bennett MV",
+      "Berman JW"
+    ],
+    "affiliations": [
+      "Department of Pathology, F727, Albert Einstein College of Medicine, 1300 Morris Park Ave., Bronx, NY 10461, USA. eliseo.eugenin@einstein.yu.edu"
+    ],
+    "doi": "10.1007/s11481-012-9352-5",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/22438035/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Review"
+    ],
+    "topicTags": [
+      "Neurovascular Interaction",
+      "Bioelectric Signaling"
+    ],
+    "studyTypeTags": [
+      "Basic Research",
+      "Review"
     ],
     "relevance": "high",
     "score": 7,
@@ -1394,40 +1499,6 @@
     "researchDirection": "neurovascular-bioelectric"
   },
   {
-    "pmid": "42818916",
-    "title": "The Primo Vascular System as a Biophysical Network: A Theoretical Framework for Meridian Function and Autonomic Regulation.",
-    "abstract": "The primo vascular system (PVS) has been proposed as a distinct anatomical network composed of primo vessels and primo nodes distributed within and around blood vessels, lymphatic structures, organs, and connective tissues. Although its biological significance remains incompletely established, experimental observations have raised the possibility that the PVS may participate in forms of interstitial, cellular, or biophysical communication. This technical report presents a conceptual framework integrating the PVS with connective tissue and extracellular matrix organization, interstitial fluid dynamics, and bioelectrical phenomena. Within the proposed model, mechanical or acupuncture-related stimulation may induce local tissue deformation, ionic redistribution, fluid shifts, and changes in electrical properties. These effects could propagate preferentially through anatomically and biophysically heterogeneous tissues, while the PVS is considered as a possible, but currently unconfirmed, coupling substrate. The framework further explores the hypothesis that such preferential pathways could support oscillatory or standing-wave-like behavior and examines whether this concept may contribute to future mechanistic interpretations of meridian organization and acupuncture-point phenomena. Importantly, the model does not establish an anatomical equivalence between the PVS and traditional meridians, nor does it demonstrate that standing-wave phenomena occur within the PVS. Rather, these relationships are presented as testable hypotheses. The framework generates experimentally accessible predictions involving tissue electrical properties, impedance, interstitial dynamics, spatial signal propagation, and autonomic or neurovascular responses. This model is intended to provide a structured basis for experimental investigation of the PVS and its potential role in integrative biophysical communication.",
-    "englishSummary": "The primo vascular system (PVS) has been proposed as a distinct anatomical network composed of primo vessels and primo nodes distributed within and around blood vessels, lymphatic structures, organs, and connective tissues. Although its biological significance remains incompletely established, experimental observations have raised the possibility that the PVS may participate in forms of interstitial, cellular, or biophysical communication. This technical report presents a conceptual framework integrating the PVS with connective tissue and extracellular matrix organization, interstitial fluid dynamics, and bioelectrical phenomena.",
-    "journal": "Cureus",
-    "publicationDate": "2026-08-30",
-    "authors": [
-      "Gramolelli D"
-    ],
-    "affiliations": [
-      "Osteopathic Medicine, Istituto Europeo per la Medicina Osteopatica, Genova, ITA."
-    ],
-    "doi": "10.7759/cureus.115471",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42818916/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Neurovascular Interaction",
-      "Bioelectric Signaling"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 4,
-    "scoreReasons": [
-      "+2 专题匹配: Neurovascular Interaction",
-      "+2 专题匹配: Bioelectric Signaling"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "涉及神经与血管相互作用，建议确认研究涉及的细胞类型和调控方向。 涉及电活动或离子通道信号，建议关注电生理证据及其与血管反应的关联。",
-    "source": "PubMed",
-    "researchDirection": "neurovascular-bioelectric"
-  },
-  {
     "pmid": "42645769",
     "title": "Citronellal Alleviates Cognitive Impairment by Inhibiting NHE1-Mediated Mitochondrial Damage in Vascular Dementia.",
     "abstract": "The present study aimed to explore the protective effect of citronellal (CT) on cognitive impairment and its underlying mechanism involving NHE1&#x2011;dependent mitochondrial damage both in vivo and in vitro. In vivo, a total of 36 rats (n&#x2009;=&#x2009;6 per group) were randomly assigned to six groups: Sham, VaD, Sham&#x2009;+&#x2009;CT, Sham+LiCl, VaD&#x2009;+&#x2009;CT, and VaD&#x2009;+&#x2009;CT+LiCl. The VaD model was established by permanent bilateral common carotid artery occlusion. Learning and memory were evaluated using the Morris water maze test. Histopathological changes in the hippocampal CA3 region were examined by Hematoxylin and eosin, Neuronal Nuclei (NeuN), and Golgi-Cox staining. Apoptosis and proliferation were detected by Terminal deoxynucleotidyl transferase-mediated dUTP nick-end labeling (TUNEL) staining and 5-Ethynyl-2'-deoxyuridine (EdU) staining, respectively. Mitochondrial ultrastructure and membrane potential were assessed by Transmission electron microscope and JC-1 staining. The reactive oxygen species (ROS), nitric oxide (NO), superoxide dismutase (SOD) and malondialdehyde (MDA) levels were measured by dihydroethidium staining, water-soluble tetrazolium, thiobarbituric acid, and nitrate reductase methods, respectively. Protein expression was determined by immunohistochemistry, immunofluorescence, and Western blot. In vitro, Mouse hippocampal neuronal cells were treated with H&#x2082;O&#x2082; or CT at 25-400 &#xb5;M or 1-20 &#xb5;g/L. Cell viability, mRNA levels, mitochondrial respiratory efficiency, membrane potential, and ROS levels were measured by reverse transcription quantitative polymerase chain reaction (RT-qPCR), JC-1, and Mito-SOX staining. Protein expression was detected by immunofluorescence and Western blot. In vivo findings demonstrated that CT alleviates cognitive impairment and regulated the expression of proteins within the NHE1/PI3K/AKT signaling axis (F (5, 12)&#x2009;=&#x2009;203.3, P&#x2009;<&#x2009;0.01). In vitro, H&#x2082;O&#x2082; impaired mitochondrial function and dysregulated apoptosis- and NHE1-related signaling in HT-22 cells, while CT treatment significantly reversed these alterations (F (3, 20)&#x2009;=&#x2009;93.02, P&#x2009;<&#x2009;0.05). CT prevented mitochondrial dysfunction, mitochondrial apoptosis and oxidative injury both in vitro and in vivo by regulating the NHE1/PI3K/AKT signaling axis.",
@@ -1931,41 +2002,68 @@
     "researchDirection": "neurovascular-bioelectric"
   },
   {
-    "pmid": "35307504",
-    "title": "Intranasal delivery of SARS-CoV-2 spike protein is sufficient to cause olfactory damage, inflammation and olfactory dysfunction in zebrafish.",
-    "abstract": "regs Anosmia, loss of smell, is a prevalent symptom of SARS-CoV-2 infection. Anosmia may be explained by several mechanisms driven by infection of non-neuronal cells and damage in the nasal epithelium rather than direct infection of olfactory sensory neurons (OSNs). Previously, we showed that viral proteins are sufficient to cause neuroimmune responses in the teleost olfactory organ (OO). We hypothesize that SARS-CoV-2 spike (S) protein is sufficient to cause olfactory damage and olfactory dysfunction. Using an adult zebrafish model, we report that intranasally delivered SARS-CoV-2 S RBD mostly binds to the non-sensory epithelium of the olfactory organ and causes severe olfactory histopathology characterized by loss of cilia, hemorrhages and edema. Electrophysiological recordings reveal impaired olfactory function to both food and bile odorants in animals treated intranasally with SARS-CoV-2 S RBD. However, no loss of behavioral preference for food was detected in SARS-CoV-2 S RBD treated fish. Single cell RNA-Seq of the adult zebrafish olfactory organ indicated widespread loss of olfactory receptor expression and inflammatory responses in sustentacular, endothelial, and myeloid cell clusters along with reduced numbers of T. Combined, our results demonstrate that intranasal SARS-CoV-2 S RBD is sufficient to cause structural and functional damage to the zebrafish olfactory system. These findings may have implications for intranasally delivered vaccines against SARS-CoV-2.",
-    "englishSummary": "regs Anosmia, loss of smell, is a prevalent symptom of SARS-CoV-2 infection. Anosmia may be explained by several mechanisms driven by infection of non-neuronal cells and damage in the nasal epithelium rather than direct infection of olfactory sensory neurons (OSNs). Previously, we showed that viral proteins are sufficient to cause neuroimmune responses in the teleost olfactory organ (OO).",
-    "journal": "Brain, behavior, and immunity",
-    "publicationDate": "2022-03-17",
+    "pmid": "36922596",
+    "title": "Fast and sensitive GCaMP calcium indicators for imaging neural populations.",
+    "abstract": "1,2 3-8 Calcium imaging with protein-based indicatorsis widely used to follow neural activity in intact nervous systems, but current protein sensors report neural activity at timescales much slower than electrical signalling and are limited by trade-offs between sensitivity and kinetics. Here we used large-scale screening and structure-guided mutagenesis to develop and optimize several fast and sensitive GCaMP-type indicators. The resulting 'jGCaMP8' sensors, based on the calcium-binding protein calmodulin and a fragment of endothelial nitric oxide synthase, have ultra-fast kinetics (half-rise times of 2&#x2009;ms) and the highest sensitivity for neural activity reported for a protein-based calcium sensor. jGCaMP8 sensors will allow tracking of large populations of neurons on timescales relevant to neural computation.",
+    "englishSummary": "1,2 3-8 Calcium imaging with protein-based indicatorsis widely used to follow neural activity in intact nervous systems, but current protein sensors report neural activity at timescales much slower than electrical signalling and are limited by trade-offs between sensitivity and kinetics. Here we used large-scale screening and structure-guided mutagenesis to develop and optimize several fast and sensitive GCaMP-type indicators. The resulting 'jGCaMP8' sensors, based on the calcium-binding protein calmodulin and a fragment of endothelial nitric oxide synthase, have ultra-fast kinetics (half-rise times of 2&#x2009;ms) and the highest sensitivity for neural activity reported for a protein-based calcium sensor.",
+    "journal": "Nature",
+    "publicationDate": "2023-03-15",
     "authors": [
-      "Kraus A",
-      "Huertas M",
-      "Ellis L",
-      "Boudinot P",
-      "Levraud JP",
-      "Salinas I"
+      "Zhang Y",
+      "R&#xf3;zsa M",
+      "Liang Y",
+      "Bushey D",
+      "Wei Z",
+      "Zheng J",
+      "Reep D",
+      "Broussard GJ",
+      "Tsang A",
+      "Tsegaye G",
+      "Narayan S",
+      "Obara CJ",
+      "Lim JX",
+      "Patel R",
+      "Zhang R",
+      "Ahrens MB",
+      "Turner GC",
+      "Wang SS",
+      "Korff WL",
+      "Schreiter ER",
+      "Svoboda K",
+      "Hasseman JP",
+      "Kolb I",
+      "Looger LL"
     ],
     "affiliations": [
-      "Center of Evolutionary and Theoretical Immunology, Biology Department, University of New Mexico, NM, USA.",
-      "Department of Biology, Texas State University, San Marcos, TX, USA.",
-      "Universit&#xe9; Paris-Saclay, INRAE, UVSQ, VIM, 78350 Jouy-en-Josas, France.",
-      "Unit&#xe9; Macrophages et D&#xe9;veloppement de l'Immunit&#xe9;, Institut Pasteur, CNRS UMR3637, Paris, France.",
-      "Center of Evolutionary and Theoretical Immunology, Biology Department, University of New Mexico, NM, USA. Electronic address: isalinas@unm.edu."
+      "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+      "Allen Institute for Neural Dynamics, Seattle, WA, USA.",
+      "Genetically Encoded Neural Indicator and Effector (GENIE) Project, Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+      "Department of Diagnostic Radiology and Nuclear Medicine, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "Neuroscience Institute, Princeton University, Princeton, NJ, USA.",
+      "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA. turnerg@hhmi.org.",
+      "Genetically Encoded Neural Indicator and Effector (GENIE) Project, Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA. turnerg@hhmi.org.",
+      "Neuroscience Institute, Princeton University, Princeton, NJ, USA. sswang@princeton.edu.",
+      "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA. karel.svoboda@alleninstitute.org.",
+      "Allen Institute for Neural Dynamics, Seattle, WA, USA. karel.svoboda@alleninstitute.org.",
+      "Genetically Encoded Neural Indicator and Effector (GENIE) Project, Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA. karel.svoboda@alleninstitute.org.",
+      "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA. hassemanj@hhmi.org.",
+      "Genetically Encoded Neural Indicator and Effector (GENIE) Project, Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA. hassemanj@hhmi.org.",
+      "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA. loogerl@hhmi.org.",
+      "Genetically Encoded Neural Indicator and Effector (GENIE) Project, Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA. loogerl@hhmi.org.",
+      "Department of Neurosciences, University of California, San Diego, La Jolla, CA, USA. loogerl@hhmi.org."
     ],
-    "doi": "10.1016/j.bbi.2022.03.006",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35307504/",
+    "doi": "10.1038/s41586-023-05828-9",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36922596/",
     "publicationTypes": [
       "Journal Article",
-      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Research Support, N.I.H., Extramural",
       "Research Support, Non-U.S. Gov't"
     ],
     "topicTags": [
       "Neurovascular Interaction",
       "Bioelectric Signaling"
     ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
+    "studyTypeTags": [],
     "relevance": "high",
     "score": 4,
     "scoreReasons": [
@@ -2201,6 +2299,65 @@
     ],
     "doi": "10.1111/bph.14529",
     "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30367728/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "topicTags": [
+      "Neurovascular Interaction",
+      "Bioelectric Signaling"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "high",
+    "score": 4,
+    "scoreReasons": [
+      "+2 专题匹配: Neurovascular Interaction",
+      "+2 专题匹配: Bioelectric Signaling"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及神经与血管相互作用，建议确认研究涉及的细胞类型和调控方向。 涉及电活动或离子通道信号，建议关注电生理证据及其与血管反应的关联。",
+    "source": "PubMed",
+    "researchDirection": "neurovascular-bioelectric"
+  },
+  {
+    "pmid": "29236684",
+    "title": "Cryo-EM structures of the TMEM16A calcium-activated chloride channel.",
+    "abstract": "2+ 2+ 2+ 2+ Calcium-activated chloride channels (CaCCs) encoded by TMEM16A control neuronal signalling, smooth muscle contraction, airway and exocrine gland secretion, and rhythmic movements of the gastrointestinal system. To understand how CaCCs mediate and control anion permeation to fulfil these physiological functions, knowledge of the mammalian TMEM16A structure and identification of its pore-lining residues are essential. TMEM16A forms a dimer with two pores. Previous CaCC structural analyses have relied on homology modelling of a homologue (nhTMEM16) from the fungus Nectria haematococca that functions primarily as a lipid scramblase, as well as subnanometre-resolution electron cryo-microscopy. Here we present de novo atomic structures of the transmembrane domains of mouse TMEM16A in nanodiscs and in lauryl maltose neopentyl glycol as determined by single-particle electron cryo-microscopy. These structures reveal the ion permeation pore and represent different functional states. The structure in lauryl maltose neopentyl glycol has one Caion resolved within each monomer with a constricted pore; this is likely to correspond to a closed state, because a CaCC with a single Caoccupancy requires membrane depolarization in order to open (C.J.P. et al., manuscript submitted). The structure in nanodiscs has two Caions per monomer and its pore is in a closed conformation; this probably reflects channel rundown, which is the gradual loss of channel activity that follows prolonged CaCC activation in 1&#x2009;mM Ca. Our mutagenesis and electrophysiological studies, prompted by analyses of the structures, identified ten residues distributed along the pore that interact with permeant anions and affect anion selectivity, as well as seven pore-lining residues that cluster near pore constrictions and regulate channel gating. Together, these results clarify the basis of CaCC anion conduction.",
+    "englishSummary": "2+ 2+ 2+ 2+ Calcium-activated chloride channels (CaCCs) encoded by TMEM16A control neuronal signalling, smooth muscle contraction, airway and exocrine gland secretion, and rhythmic movements of the gastrointestinal system. To understand how CaCCs mediate and control anion permeation to fulfil these physiological functions, knowledge of the mammalian TMEM16A structure and identification of its pore-lining residues are essential. TMEM16A forms a dimer with two pores.",
+    "journal": "Nature",
+    "publicationDate": "2017-12-13",
+    "authors": [
+      "Dang S",
+      "Feng S",
+      "Tien J",
+      "Peters CJ",
+      "Bulkley D",
+      "Lolicato M",
+      "Zhao J",
+      "Zuberb&#xfc;hler K",
+      "Ye W",
+      "Qi L",
+      "Chen T",
+      "Craik CS",
+      "Jan YN",
+      "Minor DL",
+      "Cheng Y",
+      "Jan LY"
+    ],
+    "affiliations": [
+      "Department of Biochemistry and Biophysics, University of California, San Francisco, California 94158, USA.",
+      "Department of Physiology, University of California, San Francisco, California 94158, USA.",
+      "Cardiovascular Research Institute, University of California, San Francisco, California 94158, USA.",
+      "Department of Pharmaceutical Chemistry, University of California, San Francisco, California 94158, USA.",
+      "Howard Hughes Medical Institute, University of California, San Francisco, California 94158, USA.",
+      "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, California 94158, USA.",
+      "Molecular Biophysics and Integrated Bio-imaging Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA."
+    ],
+    "doi": "10.1038/nature25024",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29236684/",
     "publicationTypes": [
       "Journal Article",
       "Research Support, N.I.H., Extramural",
