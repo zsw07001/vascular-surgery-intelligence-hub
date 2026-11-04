@@ -1,24 +1,24 @@
 {
-  "lastUpdated": "2026-11-03T02:18:40.866Z",
+  "lastUpdated": "2026-11-04T00:36:50.826Z",
   "mode": "pubmed",
   "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
     {
       "name": "PubMed ESearch/EFetch",
       "status": "success",
-      "count": 2399,
-      "message": "PubMed 近 7 天命中 2399 篇，完整入库 2399 篇。",
-      "startedAt": "2026-11-03T02:17:42.854Z",
-      "finishedAt": "2026-11-03T02:18:15.234Z",
-      "lastSuccessfulUpdate": "2026-11-03T02:18:15.234Z"
+      "count": 2750,
+      "message": "PubMed 近 7 天命中 2750 篇，完整入库 2750 篇。",
+      "startedAt": "2026-11-04T00:35:37.515Z",
+      "finishedAt": "2026-11-04T00:36:19.935Z",
+      "lastSuccessfulUpdate": "2026-11-04T00:36:19.935Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 774,
-      "message": "Fetched 774 active/recruiting trials from ClinicalTrials.gov API v2.",
+      "count": 779,
+      "message": "Fetched 779 active/recruiting trials from ClinicalTrials.gov API v2.",
       "apiVersion": "2.0.5",
-      "dataTimestamp": "2026-11-02T10:00:05"
+      "dataTimestamp": "2026-11-03T10:00:05"
     },
     {
       "name": "Guidelines and device regulatory",
@@ -37,35 +37,35 @@
       "status": "success",
       "count": 35,
       "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
-      "finishedAt": "2026-11-03T02:18:40.866Z"
+      "finishedAt": "2026-11-04T00:36:50.826Z"
     },
     {
       "name": "课题组专题 · 氢气治疗与脑缺血再灌注",
       "status": "success",
-      "count": 1151,
-      "finishedAt": "2026-11-03T02:18:36.573Z",
-      "message": "近 30 天完整收录 1151 篇，不使用血管外科排除规则。"
+      "count": 1170,
+      "finishedAt": "2026-11-04T00:36:45.335Z",
+      "message": "近 30 天完整收录 1170 篇，不使用血管外科排除规则。"
     },
     {
       "name": "课题组专题 · 血流震颤与血管功能检测",
       "status": "success",
-      "count": 95,
-      "finishedAt": "2026-11-03T02:18:38.058Z",
-      "message": "近 30 天完整收录 95 篇，不使用血管外科排除规则。"
+      "count": 96,
+      "finishedAt": "2026-11-04T00:36:46.980Z",
+      "message": "近 30 天完整收录 96 篇，不使用血管外科排除规则。"
     },
     {
       "name": "课题组专题 · 可降解支架",
       "status": "success",
-      "count": 89,
-      "finishedAt": "2026-11-03T02:18:39.422Z",
-      "message": "近 30 天完整收录 89 篇，不使用血管外科排除规则。"
+      "count": 94,
+      "finishedAt": "2026-11-04T00:36:48.959Z",
+      "message": "近 30 天完整收录 94 篇，不使用血管外科排除规则。"
     },
     {
       "name": "课题组专题 · 神经与血管电信号互调",
       "status": "success",
-      "count": 57,
-      "finishedAt": "2026-11-03T02:18:40.571Z",
-      "message": "近 30 天完整收录 57 篇，不使用血管外科排除规则。"
+      "count": 56,
+      "finishedAt": "2026-11-04T00:36:50.470Z",
+      "message": "近 30 天完整收录 56 篇，不使用血管外科排除规则。"
     }
   ],
   "pubmed": {
@@ -75,39 +75,39 @@
     "fetchBatchSize": 100,
     "query": "(\"vascular surgery\"[Title/Abstract]\nOR \"Vascular Surgical Procedures\"[MeSH Terms]\nOR \"peripheral arterial disease\"[Title/Abstract]\nOR \"peripheral artery disease\"[Title/Abstract]\nOR \"critical limb ischemia\"[Title/Abstract]\nOR \"chronic limb-threatening ischemia\"[Title/Abstract]\nOR \"CLTI\"[Title/Abstract]\nOR \"abdominal aortic aneurysm\"[Title/Abstract]\nOR \"AAA\"[Title/Abstract]\nOR \"EVAR\"[Title/Abstract]\nOR \"TEVAR\"[Title/Abstract]\nOR \"aortic aneurysm\"[Title/Abstract]\nOR \"aortic dissection\"[Title/Abstract]\nOR \"carotid stenosis\"[Title/Abstract]\nOR \"carotid endarterectomy\"[Title/Abstract]\nOR \"carotid artery stenting\"[Title/Abstract]\nOR \"deep vein thrombosis\"[Title/Abstract]\nOR \"venous thromboembolism\"[Title/Abstract]\nOR \"varicose veins\"[Title/Abstract]\nOR \"hemodialysis access\"[Title/Abstract]\nOR \"arteriovenous fistula\"[Title/Abstract]\nOR \"endovascular\"[Title/Abstract])\nNOT (\"coronary\"[Title/Abstract]\nOR \"intracranial\"[Title/Abstract]\nOR \"cerebral aneurysm\"[Title/Abstract]\nOR \"animal model\"[Title/Abstract]\nOR \"mouse\"[Title/Abstract]\nOR \"mice\"[Title/Abstract]\nOR \"rat\"[Title/Abstract])",
     "counts": {
-      "total": 2399,
-      "high": 858,
-      "medium": 804,
-      "low": 452,
-      "review": 285,
-      "china": 436,
-      "highImpact": 948
+      "total": 2750,
+      "high": 1009,
+      "medium": 917,
+      "low": 501,
+      "review": 323,
+      "china": 527,
+      "highImpact": 1108
     },
     "retrieval": {
-      "matchedCount": 2399,
-      "fetchedCount": 2399,
+      "matchedCount": 2750,
+      "fetchedCount": 2750,
       "complete": true,
-      "searchPages": 5,
-      "fetchBatches": 24
+      "searchPages": 6,
+      "fetchBatches": 28
     },
     "changes": {
       "comparable": true,
-      "comparedWith": "2026-11-01T23:35:35.020Z",
-      "added": 301,
-      "updated": 4,
-      "removedFromWindow": 51,
-      "unchanged": 2094,
+      "comparedWith": "2026-11-03T02:18:15.234Z",
+      "added": 436,
+      "updated": 6,
+      "removedFromWindow": 85,
+      "unchanged": 2308,
       "note": "与上次完整同步比较；新入库指新增到本站的 PMID，内容变更指同一 PMID 的原始文献字段变化。移出窗口不代表论文被撤回。"
     },
-    "lastSuccessfulUpdate": "2026-11-03T02:18:15.234Z",
-    "highImpactCount": 948,
-    "chinaResearchCount": 436
+    "lastSuccessfulUpdate": "2026-11-04T00:36:19.935Z",
+    "highImpactCount": 1108,
+    "chinaResearchCount": 527
   },
   "errors": [],
   "manualReview": [
-    "有 285 篇文献被标记为 review，建议人工确认是否纳入。",
-    "有 452 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
-    "有 436 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
+    "有 323 篇文献被标记为 review，建议人工确认是否纳入。",
+    "有 501 篇文献为低相关，建议抽样检查排除规则是否需要收紧。",
+    "有 527 篇文献命中中国机构 affiliation，建议抽样核对机构字段。"
   ],
   "configPreview": {
     "pubmedQuery": "(\"vascular surgery\"[Title/Abstract]\nOR \"Vascular Surgical Procedures\"[MeSH Terms]\nOR \"peripheral arterial disease\"[Title/Abstract]\nOR \"peripheral artery disease\"[Title/Abstract]\nOR \"critical limb ischemia\"[Title/Abstract]\nOR \"chronic limb-threatening ischemia\"[Title/Abstract]\nOR \"CLTI\"[Title/Abstract]\nOR \"abdominal aortic aneurysm\"[Title/Abstract]\nOR \"AAA\"[Title/Abstract]\nOR \"EVAR\"[Title/Abstract]\nOR \"TEVAR\"[Title/Abstract]\nOR \"aortic aneurysm\"[Title/Abstract]\nOR \"aortic dissection\"[Title/Abstract]\nOR \"carotid stenosis\"[Title/Abstract]\nOR \"carotid endarterectomy\"[Title/Abstract]\nOR \"carotid artery stenting\"[Title/Abstract]\nOR \"deep vein thrombosis\"[Title/Abstract]\nOR \"venous thromboembolism\"[Title/Abstract]\nOR \"varicose veins\"[Title/Abstract]\nOR \"hemodialysis access\"[Title/Abstract]\nOR \"arteriovenous fistula\"[Title/Abstract]\nOR \"endovascular\"[Title/Abstract])\nNOT (\"coronary\"[Title/Abstract]\nOR \"intracranial\"[Title/Abstract]\nOR \"cerebral aneurysm\"[Title/Abstract]\nOR \"animal model\"[Title/Abstract]\nOR \"mouse\"[Title/Abstract]\nOR \"mice\"[Title/Abstract]\nOR \"rat\"[Title/Abstract])",
