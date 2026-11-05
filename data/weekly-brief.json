@@ -1,92 +1,92 @@
 {
-  "generatedAt": "2026-11-04T00:36:50.596Z",
+  "generatedAt": "2026-11-05T00:54:54.504Z",
   "period": {
-    "start": "2026-10-29",
-    "end": "2026-11-04"
+    "start": "2026-10-30",
+    "end": "2026-11-05"
   },
-  "dataUpdatedAt": "2026-11-04T00:36:50.596Z",
+  "dataUpdatedAt": "2026-11-05T00:54:54.504Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
-      "count": 2750,
-      "updatedAt": "2026-11-04T00:36:50.596Z"
+      "count": 2762,
+      "updatedAt": "2026-11-05T00:54:54.504Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 779,
-      "updatedAt": "2026-11-04T00:36:50.596Z"
+      "count": 781,
+      "updatedAt": "2026-11-05T00:54:54.504Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 30,
-      "updatedAt": "2026-11-04T00:36:50.596Z"
+      "updatedAt": "2026-11-05T00:54:54.504Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-04T00:36:50.596Z"
+      "updatedAt": "2026-11-05T00:54:54.504Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-04T00:36:50.596Z"
+      "updatedAt": "2026-11-05T00:54:54.504Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-11-04T00:36:50.596Z"
+      "updatedAt": "2026-11-05T00:54:54.504Z"
     }
   ],
   "counts": {
-    "latestResearch": 2750,
-    "highImpact": 1108,
-    "chinaResearch": 527,
-    "clinicalTrials": 779,
+    "latestResearch": 2762,
+    "highImpact": 1122,
+    "chinaResearch": 531,
+    "clinicalTrials": 781,
     "guidelines": 30,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 2750 篇 PubMed 文献、779 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 2762 篇 PubMed 文献、781 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Imaging / Diagnosis",
-      "count": 940
+      "count": 945
     },
     {
       "tag": "Endovascular",
-      "count": 925
+      "count": 920
     },
     {
       "tag": "Venous Disease",
-      "count": 615
+      "count": 623
     },
     {
       "tag": "China Research",
-      "count": 527
+      "count": 531
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 486
+      "count": 511
     },
     {
       "tag": "Aortic Disease",
-      "count": 352
+      "count": 362
     },
     {
       "tag": "Antithrombotic Therapy",
-      "count": 240
+      "count": 244
     },
     {
       "tag": "PAD / CLTI",
-      "count": 222
+      "count": 226
     }
   ],
   "priorityReading": [
@@ -874,6 +874,23 @@
       "url": "https://clinicaltrials.gov/study/NCT02089607"
     },
     {
+      "nctId": "NCT07510451",
+      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-10-20",
+      "topicTags": [
+        "Aortic Disease",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 200,
+      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-10-20",
+      "url": "https://clinicaltrials.gov/study/NCT07510451"
+    },
+    {
       "nctId": "NCT05378347",
       "title": "Endurant Stent Graft System vs Excluder Endoprothesis: A Global, Prospective, Randomized Clinical Trial in Sac Regression",
       "source": "ClinicalTrials.gov",
@@ -986,22 +1003,6 @@
       "enrollment": 2000,
       "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
       "url": "https://clinicaltrials.gov/study/NCT04545502"
-    },
-    {
-      "nctId": "NCT06658730",
-      "title": "Long-term Characterization of GORE® TAG® Conformable Thoracic Stent Graft With ACTIVE CONTROL System Performance",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-08-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1500,
-      "reason": "正在招募；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1500；最近更新 2026-08-19",
-      "url": "https://clinicaltrials.gov/study/NCT06658730"
     }
   ],
   "clinicalTrials": [
@@ -1039,6 +1040,23 @@
       "url": "https://clinicaltrials.gov/study/NCT02089607"
     },
     {
+      "nctId": "NCT07510451",
+      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-10-20",
+      "topicTags": [
+        "Aortic Disease",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 200,
+      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-10-20",
+      "url": "https://clinicaltrials.gov/study/NCT07510451"
+    },
+    {
       "nctId": "NCT05378347",
       "title": "Endurant Stent Graft System vs Excluder Endoprothesis: A Global, Prospective, Randomized Clinical Trial in Sac Regression",
       "source": "ClinicalTrials.gov",
@@ -1151,22 +1169,6 @@
       "enrollment": 2000,
       "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
       "url": "https://clinicaltrials.gov/study/NCT04545502"
-    },
-    {
-      "nctId": "NCT06658730",
-      "title": "Long-term Characterization of GORE® TAG® Conformable Thoracic Stent Graft With ACTIVE CONTROL System Performance",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-08-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1500,
-      "reason": "正在招募；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1500；最近更新 2026-08-19",
-      "url": "https://clinicaltrials.gov/study/NCT06658730"
     }
   ],
   "manualReview": [
