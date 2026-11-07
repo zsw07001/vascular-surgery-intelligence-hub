@@ -1925,45 +1925,6 @@
     "researchDirection": "vascular-flow-vibration"
   },
   {
-    "pmid": "42775652",
-    "title": "Photoplethysmographic signal analysis for vascular ageing assessment.",
-    "abstract": "Objective in vitro in vivo Approach In vitro in vivo In vitro in vivo Main results In vitro in vivo Significance . Vascular ageing (VA) is an age-related process characterised by vessel stiffening and altered endothelial function. Recognised as a major predictor of cardiovascular events, VA remains under-assessed in clinical practice due to limitations of current measurement systems. Photoplethysmography (PPG) emerges as a promising non-invasive, cost-effective tool, but its application to VA is hindered by signal complexity and lack of standardisation. This study investigated the relationship between VA and PPG waveform morphology through combinedandanalyses.., PPG signals were acquired from vascular phantoms with 3 stiffness levels., PPG signals from 31 healthy subjects in two age groups (years andyears) were analysed, assuming increased stiffness with age. A novel skew-Gaussian decomposition model was developed to reconstruct pulses and extract morphological features.feature differences were assessed using the Kruskal-Wallis test;data were analysed with an XGBoost classifier to discriminate age groups.. The skew-Gaussian model exhibited excellent waveform reconstruction ()., 23 of 60 features differed significantly across stiffness levels, particularly between the stiffest phantom and the others. Amplitude and energy parameters correlated negatively with stiffness, indicating reduced vascular compliance. Temporal features related to wave reflection correlated positively, suggesting altered signal dynamics., the XGBoost classifier achieved 87% mean accuracy, with 83% sensitivity and 92% specificity in differentiating age groups.. Feature relevance analysis confirmed the physiological significance of the extracted parameters, supporting the potential of PPG as a non-invasive and scalable technology for monitoring VA.",
-    "englishSummary": "Objective in vitro in vivo Approach In vitro in vivo In vitro in vivo Main results In vitro in vivo Significance . Vascular ageing (VA) is an age-related process characterised by vessel stiffening and altered endothelial function. Recognised as a major predictor of cardiovascular events, VA remains under-assessed in clinical practice due to limitations of current measurement systems.",
-    "journal": "Physiological measurement",
-    "publicationDate": "2026-10-06",
-    "authors": [
-      "Lombardi S",
-      "Karimpour P",
-      "Bocchi L",
-      "May J",
-      "Kyriacou P"
-    ],
-    "affiliations": [
-      "Department of Information Engineering, University of Florence, Via di S. Marta 3, 50139 Florence, Italy.",
-      "Research Centre for Biomedical Engineering, City St George's, University of London, Northampton Square, EC1V 0HB London, United Kingdom."
-    ],
-    "doi": "10.1088/1361-6579/aeab64",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42775652/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Vascular Function / Sensing"
-    ],
-    "studyTypeTags": [
-      "Basic Research"
-    ],
-    "relevance": "medium",
-    "score": 2,
-    "scoreReasons": [
-      "+2 专题匹配: Vascular Function / Sensing"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
-    "source": "PubMed",
-    "researchDirection": "vascular-flow-vibration"
-  },
-  {
     "pmid": "42890525",
     "title": "NADPH oxidase 4 as a source of hydrogen peroxide can regulate norepinephrine levels and vascular contraction.",
     "abstract": "INTRODUCTION: The adrenal glands play a pivotal role in maintaining physiological homeostasis, and disturbance in their function can lead to significant clinical disorders, including hypertension, and adrenal insufficiency. Reactive oxygen species (ROS), once considered merely byproducts of cellular metabolism, are now recognized as critical signaling molecules within the adrenal cortex and medulla. Among the major enzymatic sources of ROS are NADPH oxidases (Nox). Dysregulation of Nox-derived ROS has been linked to altered steroidogenesis, oxidative stress- mediated adrenal damage, and tumorigenic processes. We aimed to elucidate the role of Nox4 on adrenal function under healthy conditions. METHODS: Using Nox4-knockout mouse model, adrenal effects were assessed by histological analysis, real-time PCR, and cathecholamine quantification using HPLC-ECD and LC-MS/MS. Cardiovascular function was evaluated by echocardiography, blood pressure measurements, and ex vivo vascular function analysis. RESULTS: -/- -/- Here, we demonstrated that Nox4 is expressed in the mouse adrenal gland, and its deletion led to decreased hydrogen peroxide production, diminished dopamine beta-hydroxylase mRNA expression, and reduced norepinephrine levels. In chromaffin cells, treatment with hydrogen peroxide stimulated catecholamine release and increased dopamine beta-hydroxylase expression, indicating a regulatory role of hydrogen peroxide in catecholamine synthesis and secretion. Further analysis of the physiological consequences of reduced norepinephrine levels in Nox4mice revealed decreased alpha-1 adrenergic receptor expression and impaired adrenergic vascular contraction, while cardiac function remained unaffected. In a model of physical activity, Nox4 depletion resulted in smaller adrenal glands and lower urinary norepinephrine concentrations, further explaining diminished physical activity of Nox4mice. CONCLUSION: 2 2 Our findings provide evidence that Nox4-derived HOplays a role in norepinephrine release and norepinephrine-mediated functions. Hence, loss of Nox4 impairs vascular contractility and reduces physical activity performance, highlighting the physiological importance of Nox4 in adrenal function.",
