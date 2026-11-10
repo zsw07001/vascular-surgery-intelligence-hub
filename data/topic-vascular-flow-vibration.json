@@ -48,60 +48,6 @@
     "researchDirection": "vascular-flow-vibration"
   },
   {
-    "pmid": "42412266",
-    "title": "Effects of vibroacoustic stimulation on hypertension: a pilot cross-over experimental study.",
-    "abstract": "BACKGROUND: Arterial hypertension is a frequent condition, affecting up to one-quarter of the global adult population. Both pharmacological and non-pharmacological treatments are recommended for hypertension management. Among the latter, recent studies have shown the positive effects of music therapy; however, evidence on the impact of vibroacoustic stimulation (VAS) is still limited. OBJECTIVE: This pilot study aimed to explore the feasibility and effects of a VAS intervention on blood pressure (BP) and other cardiopulmonary and stress-related parameters in patients with hypertension. METHODS: A pilot single-sequence cross-over experimental study was conducted on 11 male adults with mild to moderate hypertension. Patients underwent two sessions: on Day 1, they lay for 30&#xa0;min without any vibratory or musical stimuli. On Day 2, they were placed on the vibroacoustic bed delivering 40&#xa0;Hz vibration for 30&#xa0;min, followed by 7&#xa0;min of vibration combined with relaxing music. Physiological and stress-related parameters were measured at multiple time points during both sessions. RESULTS: Preliminary analysis showed no statistically significant differences between sessions. However, on Day 2, a more pronounced trend toward reductions in systolic and diastolic BP, heart and respiratory rate, and perceived stress was observed. A higher heart rate variability was recorded on Day 1 compared to Day 2. CONCLUSION: The VAS intervention appears feasible and may influence cardiovascular health parameters. Further studies with larger sample sizes are necessary to confirm these effects.",
-    "englishSummary": "BACKGROUND: Arterial hypertension is a frequent condition, affecting up to one-quarter of the global adult population. Both pharmacological and non-pharmacological treatments are recommended for hypertension management. Among the latter, recent studies have shown the positive effects of music therapy; however, evidence on the impact of vibroacoustic stimulation (VAS) is still limited.",
-    "journal": "Aging clinical and experimental research",
-    "publicationDate": "2026-07-07",
-    "authors": [
-      "Saller S",
-      "Fornasini F",
-      "Balzani I",
-      "Ceccato F",
-      "Limongi F",
-      "Franz L",
-      "Maggi S",
-      "Molinari L",
-      "Noale M",
-      "Bernardini N",
-      "Trevisan C",
-      "Saller A"
-    ],
-    "affiliations": [
-      "Department of Medical Sciences, University of Ferrara, Ferrara, Italy. sophie.saller@edu.unife.it.",
-      "Associazione Italiana di Medicina Termale (AMIITTF), Bologna, Italy.",
-      "General Medicine, Sant'Antonio Hospital, Padua, Italy.",
-      "Endocrinology Unit, University of Padua, Padua, Italy.",
-      "National Research Council (CNR), Aging Branch - Institute of Neuroscience, Padua, Italy.",
-      "Department of Neurosciences, Otolaryngology Section, University of Padua, Padua, Italy.",
-      "Emergency Medicine, Sant'Antonio Hospital, Padua, Italy.",
-      "Santa Cecilia Conservatory of Music, Rome, Italy.",
-      "Department of Medical Sciences, University of Ferrara, Ferrara, Italy."
-    ],
-    "doi": "10.1007/s40520-026-03447-8",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42412266/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Flow Vibration / Thrill",
-      "Vascular Function / Sensing"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+2 专题匹配: Flow Vibration / Thrill",
-      "+2 专题匹配: Vascular Function / Sensing",
-      "+3 标题命中专题词"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "涉及血流或血管壁振动信号，建议核对信号来源和血流动力学条件。 涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
-    "source": "PubMed",
-    "researchDirection": "vascular-flow-vibration"
-  },
-  {
     "pmid": "39760966",
     "title": "Machine learning models based on FEM simulation of hoop mode vibrations to enable ultrasonic cuffless measurement of blood pressure.",
     "abstract": "Blood pressure (BP) is one of the vital physiological parameters, and its measurement is done routinely for almost all patients who visit hospitals. Cuffless BP measurement has been of great research interest over the last few years. In this paper, we aim to establish a method for cuffless measurement of BP using ultrasound. In this method, the arterial wall is pushed with an acoustic radiation force impulse (ARFI). After the completion of the ARFI pulse, the artery undergoes impulsive unloading which stimulates a hoop mode vibration. We designed two machine learning (ML) models which make it possible to estimate the internal pressure of the artery using ultrasonically measurable parameters. To generate the training data for the ML models, we did extensive finite element method (FEM) eigen frequency simulations for different tubes under pressure by sweeping through a range of values for inner lumen diameter (ILD), tube density (TD), elastic modulus, internal pressure (IP), tube length, and Poisson's ratio. Through image processing applied on images of different eigen modes supported for each simulated case, we identified its hoop mode frequency (HMF). Two different ML models were designed based on the simulated data. One is a four-parameter model (FPM) that takes tube thickness (TT), TD, ILD, and HMF as the inputs and gives out IP as output. Second is a three-parameter model (TPM) that takes TT, ILD, and HMF as inputs and IP as output. The accuracy of these models was assessed using simulated data, and their performance was confirmed through experimental verification on two arterial phantoms across a range of pressure values. The first prediction model (FPM) exhibited a mean absolute percentage error (MAPE) of 5.63% for the simulated data and 3.68% for the experimental data. The second prediction model (TPM) demonstrated a MAPE of 6.5% for simulated data and 8.73% for experimental data. We were able to create machine learning models that can measure pressure within an elastic tube through ultrasonically measurable parameters and verified their performance to be adequate for BP measurement applications. This work establishes a pathway for cuffless, continuous, real-time, and non-invasive measurement of BP using ultrasound.",
@@ -1099,6 +1045,163 @@
     "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30123369/",
     "publicationTypes": [
       "Journal Article"
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "high",
+    "score": 5,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing",
+      "+3 标题命中专题词"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
+    "pmid": "29502102",
+    "title": "Combined Angiotensin Receptor-Neprilysin Inhibitors Improve Cardiac and Vascular Function Via Increased NO Bioavailability in Heart Failure.",
+    "abstract": "BACKGROUND: There is a paucity of data about the mechanisms by which sacubitril/valsartan (also known as LCZ696) improves outcomes in patients with heart failure. Specifically, the effects of sacubitril/valsartan on vascular function and NO bioavailability have not been investigated. We hypothesized that sacubitril/valsartan therapy increases circulating NO levels and improves vascular function in the setting of heart failure. METHODS AND RESULTS: Male spontaneously hypertensive rats underwent myocardial ischemia/reperfusion surgery to induce heart failure and were followed for up to 12&#xa0;weeks with serial echocardiography. Rats received sacubitril/valsartan (68&#xa0;mg/kg), valsartan (31&#xa0;mg/kg), or vehicle starting at 4&#xa0;weeks after reperfusion. At 8 or 12&#xa0;weeks of reperfusion, animals were euthanized and tissues were collected for ex&#xa0;vivo analyses of NO bioavailability, aortic vascular reactivity, myocardial and vascular histology, and cardiac molecular assays. Left ventricular structure and function were improved by both valsartan and sacubitril/valsartan compared with vehicle. Sacubitril/valsartan resulted in superior cardiovascular benefits, as evidenced by sustained improvements in left ventricular ejection fraction and end-diastolic pressure. Ex vivo vascular function, as measured by aortic vasorelaxation responses to acetylcholine and sodium nitroprusside, was significantly improved by valsartan and sacubitril/valsartan, with more sustained improvements afforded by sacubitril/valsartan. Furthermore, myocardial NO bioavailability was significantly enhanced in animals receiving sacubitril/valsartan therapy. CONCLUSIONS: Sacubitril/valsartan offers superior cardiovascular protection in heart failure and improves vascular function to a greater extent than valsartan alone. Sacubitril/valsartan-mediated improvements in cardiac and vascular function are likely related to increases in NO bioavailability and explain, in part, the benefits beyond angiotensin receptor blockade.",
+    "englishSummary": "BACKGROUND: There is a paucity of data about the mechanisms by which sacubitril/valsartan (also known as LCZ696) improves outcomes in patients with heart failure. Specifically, the effects of sacubitril/valsartan on vascular function and NO bioavailability have not been investigated. We hypothesized that sacubitril/valsartan therapy increases circulating NO levels and improves vascular function in the setting of heart failure.",
+    "journal": "Journal of the American Heart Association",
+    "publicationDate": "2018-03-03",
+    "authors": [
+      "Trivedi RK",
+      "Polhemus DJ",
+      "Li Z",
+      "Yoo D",
+      "Koiwaya H",
+      "Scarborough A",
+      "Goodchild TT",
+      "Lefer DJ"
+    ],
+    "affiliations": [
+      "Cardiovascular Center of Excellence, Louisiana State University Health Sciences Center, New Orleans, LA.",
+      "Department of Pharmacology, Louisiana State University Health Sciences Center, New Orleans, LA.",
+      "Cardiovascular Center of Excellence, Louisiana State University Health Sciences Center, New Orleans, LA dlefe1@lsuhsc.edu."
+    ],
+    "doi": "10.1161/JAHA.117.008268",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29502102/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 5,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing",
+      "+3 标题命中专题词"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
+    "pmid": "29097631",
+    "title": "Chronic exposure to electronic cigarettes results in impaired cardiovascular function in mice.",
+    "abstract": "Proponents for electronic cigarettes (E-cigs) claim that they are a safe alternative to tobacco-based cigarettes; however, little is known about the long-term effects of exposure to E-cig vapor on vascular function. The purpose of this study was to determine the cardiovascular consequences of chronic E-cig exposure. Female mice (C57BL/6 background strain) were randomly assigned to chronic daily exposure to E-cig vapor, standard (3R4F reference) cigarette smoke, or filtered air ( n = 15/group). Respective whole body exposures consisted of four 1-h-exposure time blocks, separated by 30-min intervals of fresh air breaks, resulting in intermittent daily exposure for a total of 4 h/day, 5 days/wk for 8 mo. Noninvasive ultrasonography was used to assess cardiac function and aortic arterial stiffness (AS), measured as pulse wave velocity, at three times points (before, during, and after chronic exposure). Upon completion of the 8-mo exposure, ex vivo wire tension myography and force transduction were used to measure changes in thoracic aortic tension in response to vasoactive-inducing compounds. AS increased 2.5- and 2.8-fold in E-cig- and 3R4F-exposed mice, respectively, compared with air-exposed control mice ( P < 0.05). The maximal aortic relaxation to methacholine was 24% and 33% lower in E-cig- and 3R4F-exposed mice, respectively, than in controls ( P < 0.05). No differences were noted in sodium nitroprusside dilation between the groups. 3R4F exposure altered cardiac function by reducing fractional shortening and ejection fraction after 8 mo ( P < 0.05). A similar, although not statistically significant, tendency was also observed with E-cig exposure ( P < 0.10). Histological and respiratory function data support emphysema-associated changes in 3R4F-exposed, but not E-cig-exposed, mice. Chronic exposure to E-cig vapor accelerates AS, significantly impairs aortic endothelial function, and may lead to impaired cardiac function. The clinical implication from this study is that chronic use of E-cigs, even at relatively low exposure levels, induces cardiovascular dysfunction. NEW & NOTEWORTHY Electronic cigarettes (E-cigs) are marketed as safe, but there has been insufficient long-term exposure to humans to justify these claims. This is the first study to report the long-term in vivo vascular consequences of 8 mo of exposure to E-cig vapor in mice (equivalent to ~25 yr of exposure in humans). We report that E-cig exposure increases arterial stiffness and impairs normal vascular reactivity responses, similar to other risk factors, including cigarette smoking, which contribute to the development of cardiovascular disease.",
+    "englishSummary": "Proponents for electronic cigarettes (E-cigs) claim that they are a safe alternative to tobacco-based cigarettes; however, little is known about the long-term effects of exposure to E-cig vapor on vascular function. The purpose of this study was to determine the cardiovascular consequences of chronic E-cig exposure. Female mice (C57BL/6 background strain) were randomly assigned to chronic daily exposure to E-cig vapor, standard (3R4F reference) cigarette smoke, or filtered air ( n = 15/group).",
+    "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+    "publicationDate": "2017-11-02",
+    "authors": [
+      "Olfert IM",
+      "DeVallance E",
+      "Hoskinson H",
+      "Branyan KW",
+      "Clayton S",
+      "Pitzer CR",
+      "Sullivan DP",
+      "Breit MJ",
+      "Wu Z",
+      "Klinkhachorn P",
+      "Mandler WK",
+      "Erdreich BH",
+      "Ducatman BS",
+      "Bryner RW",
+      "Dasgupta P",
+      "Chantler PD"
+    ],
+    "affiliations": [
+      "Division of Exercise Physiology, School of Medicine, West Virginia University , Morgantown, West Virginia.",
+      "Department of Physiology, Pharmacology, and Neurosciences, School of Medicine, West Virginia University , Morgantown, West Virginia.",
+      "Robert C. Byrd Health Science Center, West Virginia Clinical and Translational Sciences Institute , Morgantown, West Virginia.",
+      "Department of Anatomy and Neurobiology, School of Medicine, West Virginia University , Morgantown, West Virginia.",
+      "Lane Department of Computer Science and Electrical Engineering, School of Engineering, West Virginia University , Morgantown, West Virginia.",
+      "Department of Internal Medicine, School of Medicine, West Virginia University , Morgantown, West Virginia.",
+      "Department of Pathology, School of Medicine, West Virginia University , Morgantown, West Virginia.",
+      "Department of Pharmacology, Physiology, and Toxicology, School of Medicine, Marshall University, Huntington, West Virginia."
+    ],
+    "doi": "10.1152/japplphysiol.00713.2017",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29097631/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "high",
+    "score": 5,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing",
+      "+3 标题命中专题词"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
+    "pmid": "28655717",
+    "title": "Deletion of UCP1 enhances ex vivo aortic vasomotor function in female but not male mice despite similar susceptibility to metabolic dysfunction.",
+    "abstract": "1 2 3 Females are typically more insulin sensitive than males, which may be partly attributed to greater brown adipose tissue (BAT) activity and uncoupling protein 1 (UCP1) content. Accordingly, we tested the hypothesis that UCP1 deletion would abolish sex differences in insulin sensitivity and that whitening of thoracic periaortic BAT caused by UCP1 loss would be accompanied with impaired thoracic aortic function. Furthermore, because UCP1 exerts antioxidant effects, we examined whether UCP1 deficiency-induced metabolic dysfunction was mediated by oxidative stress. Compared with males, female mice had lower HOMA- and AT-insulin resistance (IR) despite no significant differences in BAT UCP1 content. UCP1 ablation increased HOMA-IR, AT-IR, and whitening of BAT in both sexes. Expression of UCP1 in thoracic aorta was greater in wild-type females compared with males. Importantly, deletion of UCP1 enhanced aortic vasomotor function in females only. UCP1 ablation did not promote oxidative stress in interscapular BAT. Furthermore, daily administration of the free radical scavenger tempol for 8 wk did not abrogate UCP1 deficiency-induced increases in adiposity, hyperinsulinemia, or liver steatosis. Collectively, we report that) in normal chow-fed mice housed at 25&#xb0;C, aortic UCP1 content was greater in females than males and its deletion improved ex vivo aortic vasomotor function in females only;) constitutive UCP1 content in BAT was similar between females and males and loss of UCP1 did not abolish sex differences in insulin sensitivity; and) the metabolic disruptions caused by UCP1 ablation did not appear to be contingent upon increased oxidative stress in mice under normal dietary conditions.",
+    "englishSummary": "1 2 3 Females are typically more insulin sensitive than males, which may be partly attributed to greater brown adipose tissue (BAT) activity and uncoupling protein 1 (UCP1) content. Accordingly, we tested the hypothesis that UCP1 deletion would abolish sex differences in insulin sensitivity and that whitening of thoracic periaortic BAT caused by UCP1 loss would be accompanied with impaired thoracic aortic function. Furthermore, because UCP1 exerts antioxidant effects, we examined whether UCP1 deficiency-induced metabolic dysfunction was mediated by oxidative stress.",
+    "journal": "American journal of physiology. Endocrinology and metabolism",
+    "publicationDate": "2017-06-27",
+    "authors": [
+      "Winn NC",
+      "Grunewald ZI",
+      "Gastecki ML",
+      "Woodford ML",
+      "Welly RJ",
+      "Clookey SL",
+      "Ball JR",
+      "Gaines TL",
+      "Karasseva NG",
+      "Kanaley JA",
+      "Sacks HS",
+      "Vieira-Potter VJ",
+      "Padilla J"
+    ],
+    "affiliations": [
+      "Nutrition and Exercise Physiology, University of Missouri, Columbia, Missouri.",
+      "Transgenic Animal Core, University of Missouri, Columbia, Missouri.",
+      "Endocrine and Diabetes Division, Veterans Affairs Greater Los Angeles Healthcare System and Department of Medicine, David Geffen School of Medicine, UCLA, Los Angeles, California.",
+      "Nutrition and Exercise Physiology, University of Missouri, Columbia, Missouri; padillaja@missouri.edu.",
+      "Dalton Cardiovascular Research Center, University of Missouri, Columbia, Missouri; and.",
+      "Child Health, University of Missouri, Columbia, Missouri."
+    ],
+    "doi": "10.1152/ajpendo.00096.2017",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28655717/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
     ],
     "topicTags": [
       "Vascular Function / Sensing"
@@ -3977,6 +4080,58 @@
     "researchDirection": "vascular-flow-vibration"
   },
   {
+    "pmid": "29610439",
+    "title": "Soluble TNF&#x3b1; Signaling within the Spinal Cord Contributes to the Development of Autonomic Dysreflexia and Ensuing Vascular and Immune Dysfunction after Spinal Cord Injury.",
+    "abstract": "ex vivo SIGNIFICANCE STATEMENT Cardiovascular disease and susceptibility to infection are leading causes of morbidity and mortality for individuals with spinal cord injury (SCI). A major contributor to these is autonomic dysreflexia (AD), an amplified reaction of the autonomic nervous system (hallmarked by severe hypertension) in response to sensory stimuli below the injury. Maladaptive plasticity of the spinal sympathetic reflex circuit below the SCI results in AD intensification over time. Mechanisms underlying this maladaptive plasticity are poorly understood, restricting the identification of treatments. Thus, no preventative treatments are currently available. Neuroinflammation has been implicated in other pathologies associated with hyperexcitable neural circuits. Specifically, the soluble form of TNF&#x3b1; (sTNF&#x3b1;) is known to play a role in neuroplasticity. We hypothesize that persistent expression of sTNF&#x3b1; in spinal cord underlies AD exacerbation. To test this, we intrathecally administered XPro1595, a biologic that renders sTNF&#x3b1; nonfunctional, after complete, high-level SCI in female rats. This dramatically attenuated the intensification of colorectal distension-induced and naturally occurring AD events. This improvement is mediated via decreased sprouting of nociceptive primary afferents and activation of the spinal sympathetic reflex circuit. We also examined peripheral vascular function usingpressurized arterial preparations and immune function via flow cytometric analysis of splenocytes. Diminishing AD via pharmacological inhibition of sTNF&#x3b1; mitigated ensuing vascular hypersensitivity and immune dysfunction. This is the first demonstration that neuroinflammation-induced sTNF&#x3b1; is critical for altering the spinal sympathetic reflex circuit, elucidating a novel mechanism for AD. Importantly, we identify the first potential pharmacological, prophylactic treatment for this life-threatening syndrome.Autonomic dysreflexia (AD), a disorder that develops after spinal cord injury (SCI) and is hallmarked by sudden, extreme hypertension, contributes to cardiovascular disease and susceptibility to infection, respectively, two leading causes of mortality and morbidity in SCI patients. We demonstrate that neuroinflammation-induced expression of soluble TNF&#x3b1; plays a critical role in AD, elucidating a novel underlying mechanism. We found that intrathecal administration after SCI of a biologic that inhibits soluble TNF&#x3b1; signaling dramatically attenuates AD and significantly reduces AD-associated peripheral vascular and immune dysfunction. We identified mechanisms behind diminished plasticity of neuronal populations within the spinal sympathetic reflex circuit. This study is the first to pinpoint a potential pharmacological, prophylactic strategy to attenuate AD and ensuing cardiovascular and immune dysfunction.",
+    "englishSummary": "ex vivo SIGNIFICANCE STATEMENT Cardiovascular disease and susceptibility to infection are leading causes of morbidity and mortality for individuals with spinal cord injury (SCI). A major contributor to these is autonomic dysreflexia (AD), an amplified reaction of the autonomic nervous system (hallmarked by severe hypertension) in response to sensory stimuli below the injury. Maladaptive plasticity of the spinal sympathetic reflex circuit below the SCI results in AD intensification over time.",
+    "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+    "publicationDate": "2018-04-02",
+    "authors": [
+      "Mironets E",
+      "Osei-Owusu P",
+      "Bracchi-Ricard V",
+      "Fischer R",
+      "Owens EA",
+      "Ricard J",
+      "Wu D",
+      "Saltos T",
+      "Collyer E",
+      "Hou S",
+      "Bethea JR",
+      "Tom VJ"
+    ],
+    "affiliations": [
+      "Department of Neurobiology and Anatomy, Drexel University College of Medicine, Philadelphia, Pennsylvania 19129.",
+      "Department of Pharmacology and Physiology, Drexel University College of Medicine, Philadelphia, Pennsylvania 19102, and.",
+      "Department of Biology, Drexel University, Philadelphia, Pennsylvania 19104.",
+      "Department of Biology, Drexel University, Philadelphia, Pennsylvania 19104 jrb445@drexel.edu veronica.tom@drexelmed.edu.",
+      "Department of Neurobiology and Anatomy, Drexel University College of Medicine, Philadelphia, Pennsylvania 19129, jrb445@drexel.edu veronica.tom@drexelmed.edu."
+    ],
+    "doi": "10.1523/JNEUROSCI.2376-17.2018",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29610439/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "medium",
+    "score": 2,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
     "pmid": "29572498",
     "title": "A single high-fat meal provokes pathological erythrocyte remodeling and increases myeloperoxidase levels: implications for acute coronary syndrome.",
     "abstract": "High-fat meal (HFM) consumption can produce acute lipemia and trigger myocardial infarction in patients with atherosclerosis, but the mechanisms are poorly understood. Erythrocytes (red blood cells, RBCs) intimately interact with inflammatory cells and blood vessels and play a complex role in regulating vascular function. Chronic high-fat feeding in mice induces pathological RBC remodeling, suggesting a novel link between HFM, RBCs, and vascular dysfunction. However, whether acute HFM can induce RBC remodeling in humans is unknown. Ten healthy individuals were subjected to biochemical testing and assessment of endothelial-dependent flow-mediated dilation (FMD) before and after a single HFM or iso-caloric meal (ICM). Following the HFM, triglyceride, cholesterol, and free fatty acid levels were all significantly increased, in conjunction with impaired post-prandial FMD. Additionally, peripheral blood smears demonstrated microcytes, remodeled RBCs, and fatty monocytes. Increased intracellular ROS and nitration of protein band 3 was detected in RBCs following the HFM. The HFM elevated plasma and RBC-bound myeloperoxidase (MPO), which was associated with impaired FMD and oxidation of HDL. Monocytic cells exposed to lipid in vitro released MPO, while porcine coronary arteries exposed to fatty acids ex vivo took up MPO. We demonstrate in humans that a single HFM induces pathological RBC remodeling and concurrently elevates MPO, which can potentially enter the blood vessel wall to trigger oxidative stress and destabilize vulnerable plaques. These novel findings may have implications for the short-term risk of HFM consumption and alimentary lipemia in patients with atherosclerosis.",
@@ -4113,6 +4268,183 @@
     "researchDirection": "vascular-flow-vibration"
   },
   {
+    "pmid": "27836897",
+    "title": "Positive versus negative effects of VEGF165 on Ca2+ signaling and NO production in human endothelial cells.",
+    "abstract": "UNLABELLED: 165 165 165 165 165 165 165 2+ 2+ 2+ 2+ 2+ 2+ 2+ 2+ The role increased vascular endothelial growth factor (VEGF) plays in vascular function during normal vs. preeclamptic pregnancy has been a source of some controversy of late. In this study, we seek to understand how VEGFinfluences vasodilator production via Casignaling mechanisms in human endothelial cells. We utilize human umbilical vein endothelial cells (HUVEC) as well as intact ex vivo human umbilical vein (HUV Endo) to address direct stimulation of Caand NO by VEGFalone, as well as the effect of VEGFon subsequent ATP-stimulated Casignaling and NO production. We show that VEGFstimulates Caresponses in both HUVEC and HUV Endo, which results in a corresponding increase in NO production in HUV Endo. Longer-term VEGFpretreatment then inhibits sustained Caburst responses to ATP in HUVEC and HUV Endo. This is paralleled by a corresponding drop in ATP-stimulated NO production in HUV Endo, likely through inhibition of Cx43 gap-junction function. Thus, although VEGFmakes a small initial positive impact on vasodilator production via direct stimulation of Caresponses, this is outweighed by the greater subsequent negative impact on Cabursts and vasodilator production promoted by more potent agonists such as ATP. Overall, elevated levels of VEGFassociated with preeclampsia could contribute to the endothelial dysfunction by preventing Cabursts to other agonists including but not limited to ATP. NEW & NOTEWORTHY: In this manuscript, we show that VEGF levels associated with preeclampsia are a net negative contributor to potential vasodilator production in both a human ex vivo and in vitro endothelial cell model. Therefore, pharmacological targeting of VEGF-stimulated signaling pathways could be a novel treatment modality for preeclampsia-related hypertension.",
+    "englishSummary": "UNLABELLED: 165 165 165 165 165 165 165 2+ 2+ 2+ 2+ 2+ 2+ 2+ 2+ The role increased vascular endothelial growth factor (VEGF) plays in vascular function during normal vs. preeclamptic pregnancy has been a source of some controversy of late. In this study, we seek to understand how VEGFinfluences vasodilator production via Casignaling mechanisms in human endothelial cells.",
+    "journal": "American journal of physiology. Heart and circulatory physiology",
+    "publicationDate": "2016-11-11",
+    "authors": [
+      "Boeldt DS",
+      "Krupp J",
+      "Yi FX",
+      "Khurshid N",
+      "Shah DM",
+      "Bird IM"
+    ],
+    "affiliations": [
+      "Perinatal Research Laboratories, Department of Obstetrics and Gynecology, School of Medicine and Public Health, University of Wisconsin-Madison, Madison, Wisconsin; and.",
+      "Division Maternal Fetal Medicine, Department of Obstetrics and Gynecology, School Medicine and Public Health, University of Wisconsin-Madison, Madison, Wisconsin.",
+      "Perinatal Research Laboratories, Department of Obstetrics and Gynecology, School of Medicine and Public Health, University of Wisconsin-Madison, Madison, Wisconsin; and imbird@wisc.edu."
+    ],
+    "doi": "10.1152/ajpheart.00924.2015",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27836897/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "medium",
+    "score": 2,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
+    "pmid": "26935764",
+    "title": "Enhanced Re-Endothelialization of Decellularized Rat Lungs.",
+    "abstract": "Decellularized lung tissue has been recognized as a potential platform to engineer whole lung organs suitable for transplantation or for modeling a variety of lung diseases. However, many technical hurdles remain before this potential may be fully realized. Inability to efficiently re-endothelialize the pulmonary vasculature with a functional endothelium appears to be the primary cause of failure of recellularized lung scaffolds in early transplant studies. Here, we present an optimized approach for enhanced re-endothelialization of decellularized rodent lung scaffolds with rat lung microvascular endothelial cells (ECs). This was achieved by adjusting the posture of the lung to a supine position during cell seeding through the pulmonary artery. The supine position allowed for significantly more homogeneous seeding and better cell retention in the apex regions of all lobes than the traditional upright position, especially in the right upper and left lobes. Additionally, the supine position allowed for greater cell retention within large diameter vessels (proximal 100-5000&#x2009;&#x3bc;m) than the upright position, with little to no difference in the small diameter distal vessels. EC adhesion in the proximal regions of the pulmonary vasculature in the decellularized lung was dependent on the binding of EC integrins, specifically &#x3b1;1&#x3b2;1, &#x3b1;2&#x3b2;1, and &#x3b1;5&#x3b2;1 integrins to, respectively, collagen type-I, type-IV, and fibronectin in the residual extracellular matrix. Following in vitro maturation of the seeded constructs under perfusion culture, the seeded ECs spread along the vascular wall, leading to a partial reestablishment of endothelial barrier function as inferred from a custom-designed leakage assay. Our results suggest that attention to cellular distribution within the whole organ is of paramount importance for restoring proper vascular function.",
+    "englishSummary": "Decellularized lung tissue has been recognized as a potential platform to engineer whole lung organs suitable for transplantation or for modeling a variety of lung diseases. However, many technical hurdles remain before this potential may be fully realized. Inability to efficiently re-endothelialize the pulmonary vasculature with a functional endothelium appears to be the primary cause of failure of recellularized lung scaffolds in early transplant studies.",
+    "journal": "Tissue engineering. Part C, Methods",
+    "publicationDate": "2016-04-01",
+    "authors": [
+      "Stabler CT",
+      "Caires LC",
+      "Mondrinos MJ",
+      "Marcinkiewicz C",
+      "Lazarovici P",
+      "Wolfson MR",
+      "Lelkes PI"
+    ],
+    "affiliations": [
+      "1 Department of Bioengineering, College of Engineering, Temple University , Philadelphia, Pennsylvania.",
+      "2 Department of Biology, Institute of Biological Sciences, Federal University of Juiz de Fora, MG, Brazil .",
+      "3 Department of Physiology, Department of Thoracic Medicine and Surgery, Lewis Katz School of Medicine, Temple University, Philadelphia, Pennsylvania."
+    ],
+    "doi": "10.1089/ten.TEC.2016.0012",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/26935764/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "medium",
+    "score": 2,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
+    "pmid": "26475592",
+    "title": "Metabolic syndrome impairs reactivity and wall mechanics of cerebral resistance arteries in obese Zucker rats.",
+    "abstract": "The metabolic syndrome (MetS) is highly prevalent in the North American population and is associated with increased risk for development of cerebrovascular disease. This study determined the structural and functional changes in the middle cerebral arteries (MCA) during the progression of MetS and the effects of chronic pharmacological interventions on mitigating vascular alterations in obese Zucker rats (OZR), a translationally relevant model of MetS. The reactivity and wall mechanics of ex vivo pressurized MCA from lean Zucker rats (LZR) and OZR were determined at 7-8, 12-13, and 16-17 wk of age under control conditions and following chronic treatment with pharmacological agents targeting specific systemic pathologies. With increasing age, control OZR demonstrated reduced nitric oxide bioavailability, impaired dilator (acetylcholine) reactivity, elevated myogenic properties, structural narrowing, and wall stiffening compared with LZR. Antihypertensive therapy (e.g., captopril or hydralazine) starting at 7-8 wk of age blunted the progression of arterial stiffening compared with OZR controls, while treatments that reduced inflammation and oxidative stress (e.g., atorvastatin, rosiglitazone, and captopril) improved NO bioavailability and vascular reactivity compared with OZR controls and had mixed effects on structural remodeling. These data identify specific functional and structural cerebral adaptations that limit cerebrovascular blood flow in MetS patients, contributing to increased risk of cognitive decline, cerebral hypoperfusion, and ischemic stroke; however, these pathological adaptations could potentially be blunted if treated early in the progression of MetS.",
+    "englishSummary": "The metabolic syndrome (MetS) is highly prevalent in the North American population and is associated with increased risk for development of cerebrovascular disease. This study determined the structural and functional changes in the middle cerebral arteries (MCA) during the progression of MetS and the effects of chronic pharmacological interventions on mitigating vascular alterations in obese Zucker rats (OZR), a translationally relevant model of MetS. The reactivity and wall mechanics of ex vivo pressurized MCA from lean Zucker rats (LZR) and OZR were determined at 7-8, 12-13, and 16-17 wk of age under control conditions and following chronic treatment with pharmacological agents targeting specific systemic pathologies.",
+    "journal": "American journal of physiology. Heart and circulatory physiology",
+    "publicationDate": "2015-10-16",
+    "authors": [
+      "Brooks SD",
+      "DeVallance E",
+      "d'Audiffret AC",
+      "Frisbee SJ",
+      "Tabone LE",
+      "Shrader CD",
+      "Frisbee JC",
+      "Chantler PD"
+    ],
+    "affiliations": [
+      "Department of Physiology and Pharmacology, West Virginia University Health Sciences Center, Morgantown, West Virginia; Center for Cardiovascular and Respiratory Sciences, West Virginia University Health Sciences Center, Morgantown, West Virginia.",
+      "Division of Exercise Physiology, West Virginia University Health Sciences Center, Morgantown, West Virginia; Center for Cardiovascular and Respiratory Sciences, West Virginia University Health Sciences Center, Morgantown, West Virginia.",
+      "Department of Surgery, West Virginia University Health Sciences Center, Morgantown, West Virginia; Center for Cardiovascular and Respiratory Sciences, West Virginia University Health Sciences Center, Morgantown, West Virginia.",
+      "Center for Basic and Translational Stroke Research, West Virginia University Health Sciences Center, Morgantown, West Virginia; and Center for Cardiovascular and Respiratory Sciences, West Virginia University Health Sciences Center, Morgantown, West Virginia jefrisbee@hsc.wvu.edu.",
+      "Department of Family Medicine, West Virginia University Health Sciences Center, Morgantown, West Virginia; Center for Cardiovascular and Respiratory Sciences, West Virginia University Health Sciences Center, Morgantown, West Virginia.",
+      "Department of Physiology and Pharmacology, West Virginia University Health Sciences Center, Morgantown, West Virginia; Center for Basic and Translational Stroke Research, West Virginia University Health Sciences Center, Morgantown, West Virginia; and Center for Cardiovascular and Respiratory Sciences, West Virginia University Health Sciences Center, Morgantown, West Virginia.",
+      "Division of Exercise Physiology, West Virginia University Health Sciences Center, Morgantown, West Virginia; Center for Basic and Translational Stroke Research, West Virginia University Health Sciences Center, Morgantown, West Virginia; and Center for Cardiovascular and Respiratory Sciences, West Virginia University Health Sciences Center, Morgantown, West Virginia."
+    ],
+    "doi": "10.1152/ajpheart.00691.2015",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/26475592/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 2,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
+    "pmid": "26183312",
+    "title": "Cooperative Role of Mineralocorticoid Receptor and Caveolin-1 in Regulating the Vascular Response to Low Nitric Oxide-High Angiotensin II-Induced Cardiovascular Injury.",
+    "abstract": "Aldosterone interacts with mineralocorticoid receptor (MR) to stimulate sodium reabsorption in renal tubules and may also affect the vasculature. Caveolin-1 (cav-1), an anchoring protein in plasmalemmal caveolae, binds steroid receptors and also endothelial nitric oxide synthase, thus limiting its translocation and activation. To test for potential MR/cav-1 interaction in the vasculature, we investigated if MR blockade in cav-1-replete or -deficient states would alter vascular function in a mouse model of low nitric oxide (NO)-high angiotensin II (AngII)-induced cardiovascular injury. Wild-type (WT) and cav-1 knockout mice (cav-1(-/-)) consuming a high salt diet (4% NaCl) received N&#x3c9;-nitro-l-arginine methyl ester (L-NAME) (0.1-0.2 mg/ml in drinking water at days 1-11) plus AngII (0.7-2.8 mg/kg per day via an osmotic minipump at days 8-11) &#xb1; MR antagonist eplerenone (EPL) 100 mg/kg per day in food. In both genotypes, blood pressure increased with L-NAME + AngII. EPL minimally changed blood pressure, although its dose was sufficient to block MR and reverse cardiac expression of the injury markers cluster of differentiation 68 and plasminogen activator inhibitor-1 in L-NAME+AngII treated mice. In aortic rings, phenylephrine and KCl contraction was enhanced with EPL in L-NAME+AngII treated WT mice, but not cav-1(-/-) mice. AngII-induced contraction was not different, and angiotensin type 1 receptor expression was reduced in L-NAME + AngII treated WT and cav-1(-/-) mice. In WT mice, acetylcholine-induced relaxation was enhanced with L-NAME + AngII treatment and reversed with EPL. Acetylcholine relaxation in cav-1(-/-) mice was greater than in WT mice, not modified by L-NAME + AngII or EPL, and blocked by ex vivo L-NAME, 1H-(1,2,4)oxadiazolo(4,3-a)quinoxalin-1-one (ODQ), or endothelium removal, suggesting the role of NO-cGMP. Cardiac endothelial NO synthase was increased in cav-1(-/-) versus WT mice, further increased with L-NAME + AngII, and not affected by EPL. Vascular relaxation to the NO donor sodium nitroprusside was increased with L-NAME + AngII in WT mice but not in cav-1(-/-) mice. Plasma aldosterone levels increased and cardiac MR expression decreased in L-NAME + AngII treated WT and cav-1(-/-) mice and did not change with EPL. Thus, during L-NAME + AngII induced hypertension, MR blockade increases contraction and alters vascular relaxation via NO-cGMP, and these changes are absent in cav-1 deficiency states. The data suggest a cooperative role of MR and cav-1 in regulating vascular contraction and NO-cGMP-mediated relaxation during low NO-high AngII-dependent cardiovascular injury.",
+    "englishSummary": "Aldosterone interacts with mineralocorticoid receptor (MR) to stimulate sodium reabsorption in renal tubules and may also affect the vasculature. Caveolin-1 (cav-1), an anchoring protein in plasmalemmal caveolae, binds steroid receptors and also endothelial nitric oxide synthase, thus limiting its translocation and activation. To test for potential MR/cav-1 interaction in the vasculature, we investigated if MR blockade in cav-1-replete or -deficient states would alter vascular function in a mouse model of low nitric oxide (NO)-high angiotensin II (AngII)-induced cardiovascular injury.",
+    "journal": "The Journal of pharmacology and experimental therapeutics",
+    "publicationDate": "2015-07-16",
+    "authors": [
+      "Pojoga LH",
+      "Yao TM",
+      "Opsasnick LA",
+      "Siddiqui WT",
+      "Reslan OM",
+      "Adler GK",
+      "Williams GH",
+      "Khalil RA"
+    ],
+    "affiliations": [
+      "Cardiovascular Endocrinology Section, Endocrinology, Diabetes, and Hypertension Division (L.H.P., T.M.Y., G.K.A., G.H.W.), and Division of Vascular and Endovascular Surgery (L.A.O., W.T.S., O.M.R., R.A.K.), Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts.",
+      "Cardiovascular Endocrinology Section, Endocrinology, Diabetes, and Hypertension Division (L.H.P., T.M.Y., G.K.A., G.H.W.), and Division of Vascular and Endovascular Surgery (L.A.O., W.T.S., O.M.R., R.A.K.), Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts raouf_khalil@hms.harvard.edu."
+    ],
+    "doi": "10.1124/jpet.115.226043",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/26183312/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "medium",
+    "score": 2,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
     "pmid": "26092984",
     "title": "Regional variation in arterial stiffening and dysfunction in Western diet-induced obesity.",
     "abstract": "Increased central vascular stiffening, assessed in vivo by determination of pulse wave velocity (PWV), is an independent predictor of cardiovascular event risk. Recent evidence demonstrates that accelerated aortic stiffening occurs in obesity; however, little is known regarding stiffening of other disease-relevant arteries or whether regional variation in arterial stiffening occurs in this setting. We addressed this gap in knowledge by assessing femoral PWV in vivo in conjunction with ex vivo analyses of femoral and coronary structure and function in a mouse model of Western diet (WD; high-fat/high-sugar)-induced obesity and insulin resistance. WD feeding resulted in increased femoral PWV in vivo. Ex vivo analysis of femoral arteries revealed a leftward shift in the strain-stress relationship, increased modulus of elasticity, and decreased compliance indicative of increased stiffness following WD feeding. Confocal and multiphoton fluorescence microscopy revealed increased femoral stiffness involving decreased elastin/collagen ratio in conjunction with increased femoral transforming growth factor-&#x3b2; (TGF-&#x3b2;) content in WD-fed mice. Further analysis of the femoral internal elastic lamina (IEL) revealed a significant reduction in the number and size of fenestrae with WD feeding. Coronary artery stiffness and structure was unchanged by WD feeding. Functionally, femoral, but not coronary, arteries exhibited endothelial dysfunction, whereas coronary arteries exhibited increased vasoconstrictor responsiveness not present in femoral arteries. Taken together, our data highlight important regional variations in the development of arterial stiffness and dysfunction associated with WD feeding. Furthermore, our results suggest TGF-&#x3b2; signaling and IEL fenestrae remodeling as potential contributors to femoral artery stiffening in obesity.",
@@ -4150,6 +4482,50 @@
     "studyTypeTags": [
       "Basic Research"
     ],
+    "relevance": "medium",
+    "score": 2,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "涉及功能检测或体外模型，建议关注信号与流量、顺应性等功能指标的对应关系。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
+    "pmid": "25957218",
+    "title": "Sustained release nitrite therapy results in myocardial protection in a porcine model of metabolic syndrome with peripheral vascular disease.",
+    "abstract": "Metabolic syndrome (MetS) reduces endothelial nitric oxide (NO) bioavailability and exacerbates vascular dysfunction in patients with preexisting vascular diseases. Nitrite, a storage form of NO, can mediate vascular function during pathological conditions when endogenous NO is reduced. The aims of the present study were to characterize the effects of severe MetS and obesity on dyslipidemia, myocardial oxidative stress, and endothelial NO synthase (eNOS) regulation in the obese Ossabaw swine (OS) model and to examine the effects of a novel, sustained-release formulation of sodium nitrite (SR-nitrite) on coronary vascular reactivity and myocardial redox status in obese OS subjected to critical limb ischemia (CLI). After 6 mo of an atherogenic diet, obese OS displayed a MetS phenotype. Obese OS had decreased eNOS functionality and NO bioavailability. In addition, obese OS exhibited increased oxidative stress and a significant reduction in antioxidant enzymes. The efficacy of SR-nitrite therapy was examined in obese OS subjected to CLI. After 3 wk of treatment, SR-nitrite (80 mg &#xb7; kg(-1) &#xb7; day(-1) bid po) increased myocardial nitrite levels and eNOS function. Treatment with SR-nitrite reduced myocardial oxidative stress while increasing myocardial antioxidant capacity. Ex vivo assessment of vascular reactivity of left anterior descending coronary artery segments demonstrated marked improvement in vasoreactivity to sodium nitroprusside but not to substance P and bradykinin in SR-nitrite-treated animals compared with placebo-treated animals. In conclusion, in a clinically relevant, large-animal model of MetS and CLI, treatment with SR-nitrite enhanced myocardial NO bioavailability, attenuated oxidative stress, and improved ex vivo coronary artery vasorelaxation.",
+    "englishSummary": "Metabolic syndrome (MetS) reduces endothelial nitric oxide (NO) bioavailability and exacerbates vascular dysfunction in patients with preexisting vascular diseases. Nitrite, a storage form of NO, can mediate vascular function during pathological conditions when endogenous NO is reduced. The aims of the present study were to characterize the effects of severe MetS and obesity on dyslipidemia, myocardial oxidative stress, and endothelial NO synthase (eNOS) regulation in the obese Ossabaw swine (OS) model and to examine the effects of a novel, sustained-release formulation of sodium nitrite (SR-nitrite) on coronary vascular reactivity and myocardial redox status in obese OS subjected to critical limb ischemia (CLI).",
+    "journal": "American journal of physiology. Heart and circulatory physiology",
+    "publicationDate": "2015-05-08",
+    "authors": [
+      "Bradley JM",
+      "Islam KN",
+      "Polhemus DJ",
+      "Donnarumma E",
+      "Brewster LP",
+      "Tao YX",
+      "Goodchild TT",
+      "Lefer DJ"
+    ],
+    "affiliations": [
+      "Cardiovascular Center of Excellence and Department of Pharmacology, Louisiana State University Health Sciences Center, New Orleans, Louisiana;",
+      "Department of Surgery, Emory University School of Medicine, Atlanta, Georgia; Surgery and Research Services, Atlanta Veterans Affairs Medical Center, Decatur, Georgia; Parker H. Petit Institute for Bioengineering and Bioscience, Georgia Institute of Technology, Atlanta, Georgia; and.",
+      "Department of Anatomy, Physiology, and Pharmacology, Auburn University College of Veterinary Medicine, Auburn, Alabama.",
+      "Cardiovascular Center of Excellence and Department of Pharmacology, Louisiana State University Health Sciences Center, New Orleans, Louisiana; dlefe1@lsuhsc.edu."
+    ],
+    "doi": "10.1152/ajpheart.00163.2015",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25957218/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [],
     "relevance": "medium",
     "score": 2,
     "scoreReasons": [
@@ -4877,6 +5253,44 @@
       "血流震颤与血管功能检测"
     ],
     "studyTypeTags": [],
+    "relevance": "medium",
+    "score": 0,
+    "scoreReasons": [],
+    "isChinaResearch": false,
+    "summaryZh": "该文献由“血流震颤与血管功能检测”独立检索式收录，建议结合原文确认相关性。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
+    "pmid": "27875805",
+    "title": "Voluntary aerobic exercise increases arterial resilience and mitochondrial health with aging in mice.",
+    "abstract": "Ex-vivo ex-vivo Mitochondrial dysregulation and associated excessive reactive oxygen species (mtROS) production is a key source of oxidative stress in aging arteries that reduces baseline function and may influence resilience (ability to withstand stress). We hypothesized that voluntary aerobic exercise would increase arterial resilience in old mice. An acute mitochondrial stressor (rotenone) caused greater (further) impairment in peak carotid EDD in old (~27 mo., OC, n=12; -32.5&#xb1;-10.5%) versus young (~7 mo., YC n=11; -5.4&#xb1;- 3.7%) control male mice, whereas arteries from young and old exercising (YVR n=10 and OVR n=11, 10-wk voluntary running; -0.8&#xb1;-2.1% and -8.0&#xb1;4.9%, respectively) mice were protected.simulated Western diet (WD, high glucose and palmitate) caused greater impairment in EDD in OC (-28.5&#xb1;8.6%) versus YC (-16.9&#xb1;5.2%) and YVR (-15.3&#xb1;2.3%), whereas OVR (-8.9&#xb1;3.9%) were more resilient (not different versus YC). Simultaneoustreatment with mitochondria-specific antioxidant MitoQ attenuated WD-induced impairments in YC and OC, but not YVR or OVR, suggesting that exercise improved resilience to mtROS-mediated stress. Exercise normalized age-related alterations in aortic mitochondrial protein markers PGC-1&#x3b1;, SIRT-3 and Fis1 and augmented cellular antioxidant and stress response proteins. Our results indicate that arterial aging is accompanied by reduced resilience and mitochondrial health, which are restored by voluntary aerobic exercise.",
+    "englishSummary": "Ex-vivo ex-vivo Mitochondrial dysregulation and associated excessive reactive oxygen species (mtROS) production is a key source of oxidative stress in aging arteries that reduces baseline function and may influence resilience (ability to withstand stress). We hypothesized that voluntary aerobic exercise would increase arterial resilience in old mice. An acute mitochondrial stressor (rotenone) caused greater (further) impairment in peak carotid EDD in old (~27 mo., OC, n=12; -32.5&#xb1;-10.5%) versus young (~7 mo., YC n=11; -5.4&#xb1;- 3.7%) control male mice, whereas arteries from young and old exercising (YVR n=10 and OVR n=11, 10-wk voluntary running; -0.8&#xb1;-2.1% and -8.0&#xb1;4.9%, respectively) mice were protected.simulated Western diet (WD, high glucose and palmitate) caused greater impairment in EDD in OC (-28.5&#xb1;8.6%) versus YC (-16.9&#xb1;5.2%) and YVR (-15.3&#xb1;2.3%), whereas OVR (-8.9&#xb1;3.9%) were more resilient (not different versus YC).",
+    "journal": "Aging",
+    "publicationDate": "2016-11-22",
+    "authors": [
+      "Gioscia-Ryan RA",
+      "Battson ML",
+      "Cuevas LM",
+      "Zigler MC",
+      "Sindler AL",
+      "Seals DR"
+    ],
+    "affiliations": [
+      "Department of Integrative Physiology, University of Colorado Boulder, Boulder, CO 80309, USA."
+    ],
+    "doi": "10.18632/aging.101099",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27875805/",
+    "publicationTypes": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "topicTags": [
+      "血流震颤与血管功能检测"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
     "relevance": "medium",
     "score": 0,
     "scoreReasons": [],
