@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T00:40:25.291Z",
+  "updatedAt": "2026-11-12T01:54:44.940Z",
   "lookbackDays": 30,
   "directions": [
     {
@@ -11,12 +11,12 @@
       "lookbackDays": 30,
       "dateType": "mdat",
       "query": "(\n        ((\"molecular hydrogen\"[Title/Abstract] OR \"hydrogen therapy\"[Title/Abstract]\n          OR \"hydrogen-rich\"[Title/Abstract] OR \"hydrogen inhalation\"[Title/Abstract]\n          OR \"hydrogen gas\"[Title/Abstract])\n          AND (therap*[Title/Abstract] OR treatment[Title/Abstract] OR neuroprotect*[Title/Abstract]\n          OR injur*[Title/Abstract] OR ischemi*[Title/Abstract] OR ischaemi*[Title/Abstract]\n          OR reperfusion[Title/Abstract] OR disease*[Title/Abstract] OR patient*[Title/Abstract]\n          OR mice[Title/Abstract] OR rats[Title/Abstract] OR animal*[Title/Abstract]\n          OR antioxidant*[Title/Abstract]))\n        OR ((\"cerebral ischemia\"[Title/Abstract] OR \"brain ischemia\"[Title/Abstract]\n          OR \"ischemic stroke\"[Title/Abstract] OR \"ischaemic stroke\"[Title/Abstract])\n          AND (reperfusion[Title/Abstract] OR \"ischemia-reperfusion\"[Title/Abstract]\n          OR \"ischaemia-reperfusion\"[Title/Abstract]))\n      )",
-      "lastAttemptAt": "2026-11-11T00:40:02.700Z",
+      "lastAttemptAt": "2026-11-12T01:54:21.858Z",
       "status": "success",
-      "count": 1055,
-      "matchedCount": 1055,
+      "count": 1010,
+      "matchedCount": 1010,
       "complete": true,
-      "lastSuccessfulUpdate": "2026-11-11T00:40:20.814Z",
+      "lastSuccessfulUpdate": "2026-11-12T01:54:39.461Z",
       "error": null
     },
     {
@@ -28,12 +28,12 @@
       "lookbackDays": 30,
       "dateType": "mdat",
       "query": "(\n        \"flow-induced vibration\"[Title/Abstract] OR \"vascular vibration\"[Title/Abstract]\n        OR \"arterial wall vibration\"[Title/Abstract] OR \"vascular thrill\"[Title/Abstract]\n        OR ((vascular[Title/Abstract] OR arterial[Title/Abstract] OR \"blood flow\"[Title/Abstract]\n          OR \"arteriovenous fistula\"[Title/Abstract])\n          AND (vibration[Title/Abstract] OR vibrometry[Title/Abstract] OR vibroacoustic[Title/Abstract]\n          OR thrill[Title/Abstract] OR bruit[Title/Abstract] OR \"acoustic sensing\"[Title/Abstract]))\n        OR ((\"arterial stiffness\"[Title/Abstract] OR \"vascular compliance\"[Title/Abstract]\n          OR \"vascular function\"[Title/Abstract])\n          AND (\"in vitro\"[Title/Abstract] OR \"ex vivo\"[Title/Abstract]\n          OR benchtop[Title/Abstract] OR \"flow phantom\"[Title/Abstract] OR oscillation[Title/Abstract]))\n      )",
-      "lastAttemptAt": "2026-11-11T00:40:20.814Z",
+      "lastAttemptAt": "2026-11-12T01:54:39.461Z",
       "status": "success",
-      "count": 99,
-      "matchedCount": 99,
+      "count": 90,
+      "matchedCount": 90,
       "complete": true,
-      "lastSuccessfulUpdate": "2026-11-11T00:40:22.360Z",
+      "lastSuccessfulUpdate": "2026-11-12T01:54:42.140Z",
       "error": null
     },
     {
@@ -45,12 +45,12 @@
       "lookbackDays": 30,
       "dateType": "mdat",
       "query": "(\n        (stent*[Title/Abstract] OR \"vascular scaffold\"[Title/Abstract] OR \"coronary scaffold\"[Title/Abstract])\n        AND (biodegrad*[Title/Abstract] OR bioresorb*[Title/Abstract] OR bioabsorb*[Title/Abstract]\n          OR degradable[Title/Abstract] OR \"magnesium-based\"[Title/Abstract]\n          OR \"zinc-based\"[Title/Abstract] OR \"iron-based\"[Title/Abstract]\n          OR ((magnesium[Title/Abstract] OR zinc[Title/Abstract] OR iron[Title/Abstract])\n          AND (corrosion[Title/Abstract] OR degradation[Title/Abstract] OR alloy[Title/Abstract])))\n      )",
-      "lastAttemptAt": "2026-11-11T00:40:22.360Z",
+      "lastAttemptAt": "2026-11-12T01:54:42.141Z",
       "status": "success",
-      "count": 90,
-      "matchedCount": 90,
+      "count": 82,
+      "matchedCount": 82,
       "complete": true,
-      "lastSuccessfulUpdate": "2026-11-11T00:40:23.805Z",
+      "lastSuccessfulUpdate": "2026-11-12T01:54:43.447Z",
       "error": null
     },
     {
@@ -62,12 +62,12 @@
       "lookbackDays": 30,
       "dateType": "mdat",
       "query": "(\n        (neurovascular[Title/Abstract] OR neuron*[Title/Abstract]\n          OR \"perivascular nerves\"[Title/Abstract] OR \"vascular innervation\"[Title/Abstract]\n          OR \"sympathetic innervation\"[Title/Abstract])\n        AND (vascular[Title/Abstract] OR endotheli*[Title/Abstract] OR arteriole*[Title/Abstract]\n          OR capillar*[Title/Abstract] OR pericyte*[Title/Abstract] OR \"smooth muscle\"[Title/Abstract])\n        AND (bioelectric*[Title/Abstract] OR electrophysiolog*[Title/Abstract]\n          OR \"electrical signaling\"[Title/Abstract] OR \"electrical signalling\"[Title/Abstract]\n          OR \"membrane potential\"[Title/Abstract] OR \"action potential\"[Title/Abstract]\n          OR \"ion channel\"[Title/Abstract] OR \"potassium channel\"[Title/Abstract]\n          OR \"gap junction\"[Title/Abstract] OR electrotonic[Title/Abstract]\n          OR optogenetic*[Title/Abstract])\n      )",
-      "lastAttemptAt": "2026-11-11T00:40:23.805Z",
+      "lastAttemptAt": "2026-11-12T01:54:43.447Z",
       "status": "success",
-      "count": 68,
-      "matchedCount": 68,
+      "count": 64,
+      "matchedCount": 64,
       "complete": true,
-      "lastSuccessfulUpdate": "2026-11-11T00:40:25.291Z",
+      "lastSuccessfulUpdate": "2026-11-12T01:54:44.940Z",
       "error": null
     }
   ]
