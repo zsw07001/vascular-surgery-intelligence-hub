@@ -1,92 +1,92 @@
 {
-  "generatedAt": "2026-11-13T01:05:43.304Z",
+  "generatedAt": "2026-11-14T00:53:49.034Z",
   "period": {
-    "start": "2026-11-07",
-    "end": "2026-11-13"
+    "start": "2026-11-08",
+    "end": "2026-11-14"
   },
-  "dataUpdatedAt": "2026-11-13T01:05:43.304Z",
+  "dataUpdatedAt": "2026-11-14T00:53:49.034Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
-      "count": 2381,
-      "updatedAt": "2026-11-13T01:05:43.304Z"
+      "count": 2022,
+      "updatedAt": "2026-11-14T00:53:49.034Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 776,
-      "updatedAt": "2026-11-13T01:05:43.304Z"
+      "count": 773,
+      "updatedAt": "2026-11-14T00:53:49.034Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 30,
-      "updatedAt": "2026-11-13T01:05:43.304Z"
+      "updatedAt": "2026-11-14T00:53:49.034Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-13T01:05:43.304Z"
+      "updatedAt": "2026-11-14T00:53:49.034Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-13T01:05:43.304Z"
+      "updatedAt": "2026-11-14T00:53:49.034Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 35,
-      "updatedAt": "2026-11-13T01:05:43.304Z"
+      "updatedAt": "2026-11-14T00:53:49.034Z"
     }
   ],
   "counts": {
-    "latestResearch": 2381,
-    "highImpact": 995,
-    "chinaResearch": 378,
-    "clinicalTrials": 776,
+    "latestResearch": 2022,
+    "highImpact": 799,
+    "chinaResearch": 266,
+    "clinicalTrials": 773,
     "guidelines": 30,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 35
   },
-  "overviewZh": "本周自动汇总 2381 篇 PubMed 文献、776 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
+  "overviewZh": "本周自动汇总 2022 篇 PubMed 文献、773 项进行中/招募中临床试验，并筛出 35 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Imaging / Diagnosis",
-      "count": 790
+      "count": 697
     },
     {
       "tag": "Endovascular",
-      "count": 772
+      "count": 653
     },
     {
       "tag": "Venous Disease",
-      "count": 481
+      "count": 411
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 423
-    },
-    {
-      "tag": "China Research",
-      "count": 378
+      "count": 357
     },
     {
       "tag": "Aortic Disease",
-      "count": 322
+      "count": 294
     },
     {
       "tag": "PAD / CLTI",
-      "count": 291
+      "count": 280
+    },
+    {
+      "tag": "China Research",
+      "count": 266
     },
     {
       "tag": "Open Surgery",
-      "count": 197
+      "count": 164
     }
   ],
   "priorityReading": [
@@ -265,30 +265,6 @@
       "doi": "10.1007/s12055-025-02044-0"
     },
     {
-      "pmid": "42449091",
-      "title": "JAK Inhibitors in Inflammatory Skin Diseases: A 15,427-Patient Systematic Review and Meta-analysis of Clinical Trial and Real-World Outcomes.",
-      "source": "PubMed",
-      "date": "2026-07-14",
-      "journal": "Clinical drug investigation",
-      "topicTags": [
-        "Venous Disease"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Real-world Evidence",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Clinical Trial / Real-world Evidence / Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42449091/",
-      "doi": "10.1007/s40261-026-01583-7"
-    },
-    {
       "pmid": "41460644",
       "title": "Endovascular vs Medical Treatment of Basilar Artery Occlusion: 3-Year Outcomes of the ATTENTION Randomized Clinical Trial.",
       "source": "PubMed",
@@ -333,6 +309,30 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41577087/",
       "doi": "10.1016/j.jvs.2025.12.355"
+    },
+    {
+      "pmid": "42617685",
+      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2026-08-19",
+      "journal": "Annals of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 12,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 12",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/",
+      "doi": "10.1016/j.avsg.2026.08.015"
     }
   ],
   "priorityArticles": [
@@ -511,30 +511,6 @@
       "doi": "10.1007/s12055-025-02044-0"
     },
     {
-      "pmid": "42449091",
-      "title": "JAK Inhibitors in Inflammatory Skin Diseases: A 15,427-Patient Systematic Review and Meta-analysis of Clinical Trial and Real-World Outcomes.",
-      "source": "PubMed",
-      "date": "2026-07-14",
-      "journal": "Clinical drug investigation",
-      "topicTags": [
-        "Venous Disease"
-      ],
-      "studyTypeTags": [
-        "Clinical Trial",
-        "Cohort",
-        "Real-world Evidence",
-        "Systematic Review",
-        "Meta-analysis",
-        "Review"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "high relevance；Clinical Trial / Real-world Evidence / Systematic Review / Meta-analysis；Venous Disease；score 9",
-      "summaryZh": "该研究为临床试验相关证据，建议重点关注研究设计和终点。 该研究与静脉疾病相关，建议关注抗栓、再干预和症状改善证据。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42449091/",
-      "doi": "10.1007/s40261-026-01583-7"
-    },
-    {
       "pmid": "41460644",
       "title": "Endovascular vs Medical Treatment of Basilar Artery Occlusion: 3-Year Outcomes of the ATTENTION Randomized Clinical Trial.",
       "source": "PubMed",
@@ -579,6 +555,30 @@
       "summaryZh": "该研究与下肢动脉疾病/CLTI 相关，可能涉及治疗或预后证据。 该研究为系统综述或 Meta 分析，适合优先阅读。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41577087/",
       "doi": "10.1016/j.jvs.2025.12.355"
+    },
+    {
+      "pmid": "42617685",
+      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-Analysis.",
+      "source": "PubMed",
+      "date": "2026-08-19",
+      "journal": "Annals of vascular surgery",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "studyTypeTags": [
+        "Cohort",
+        "Systematic Review",
+        "Meta-analysis",
+        "Review"
+      ],
+      "relevance": "high",
+      "score": 12,
+      "reason": "high relevance；Systematic Review / Meta-analysis；Aortic Disease / Endovascular / Vascular Graft / Stent / Device；score 12",
+      "summaryZh": "该研究与主动脉疾病相关，建议关注治疗方式、影像随访和结局指标。 该研究为系统综述或 Meta 分析，适合优先阅读。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/",
+      "doi": "10.1016/j.avsg.2026.08.015"
     }
   ],
   "chinaHighlights": [
@@ -922,22 +922,6 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
-      "nctId": "NCT07613840",
-      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-09-11",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 484,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
-      "url": "https://clinicaltrials.gov/study/NCT07613840"
-    },
-    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -986,6 +970,22 @@
       "enrollment": 500,
       "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
       "url": "https://clinicaltrials.gov/study/NCT06687590"
+    },
+    {
+      "nctId": "NCT04545502",
+      "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-08-20",
+      "topicTags": [
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 2000,
+      "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
+      "url": "https://clinicaltrials.gov/study/NCT04545502"
     }
   ],
   "clinicalTrials": [
@@ -1087,22 +1087,6 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
-      "nctId": "NCT07613840",
-      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-09-11",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 484,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
-      "url": "https://clinicaltrials.gov/study/NCT07613840"
-    },
-    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -1151,6 +1135,22 @@
       "enrollment": 500,
       "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
       "url": "https://clinicaltrials.gov/study/NCT06687590"
+    },
+    {
+      "nctId": "NCT04545502",
+      "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-08-20",
+      "topicTags": [
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 2000,
+      "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
+      "url": "https://clinicaltrials.gov/study/NCT04545502"
     }
   ],
   "manualReview": [
@@ -1195,17 +1195,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41644017/"
     },
     {
-      "title": "Promising role of drug-coated balloons in the tibial vessels?",
+      "title": "Rapid Endovascular Hemorrhage Control in Trauma: Joint Position Statement from the American College of Surgeons Committee on Trauma and the Society of Interventional Radiology.",
       "source": "Guidelines",
-      "date": "2016-10-01",
+      "date": "2026-07-24",
       "topicTags": [
-        "PAD / CLTI",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
         "Guideline / Consensus"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27465390/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42492772/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
@@ -1325,17 +1324,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41644017/"
     },
     {
-      "title": "Promising role of drug-coated balloons in the tibial vessels?",
+      "title": "Rapid Endovascular Hemorrhage Control in Trauma: Joint Position Statement from the American College of Surgeons Committee on Trauma and the Society of Interventional Radiology.",
       "source": "Guidelines",
-      "date": "2016-10-01",
+      "date": "2026-07-24",
       "topicTags": [
-        "PAD / CLTI",
         "Endovascular",
-        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
         "Guideline / Consensus"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/27465390/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42492772/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
