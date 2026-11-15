@@ -179,6 +179,8 @@ NCBI_TOOL=vascular-surgery-intelligence-hub
 4. 目录选择 `/root`。
 5. 保存后访问 GitHub Pages URL。
 
+当前使用 `main` 根目录的分支型 Pages。更新 workflow 会在提交数据后显式请求 Pages 重建，并仅增加 `pages: write` 权限；不需要另存个人访问令牌。这一步确保自动更新后的 JSON 能同步到网站，因为内置 `GITHUB_TOKEN` 的提交不会自行触发 Pages 构建，参见 [GitHub 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。请先启用 Pages，再运行更新 workflow。
+
 如果后续改成 GitHub Actions 发布，也可以保留静态文件结构，无需后端服务。
 
 ## GitHub Actions 自动更新

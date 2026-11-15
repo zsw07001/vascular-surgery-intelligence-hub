@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   update-data:
@@ -43,3 +44,8 @@ jobs:
           else
             echo "No data changes to commit."
           fi
+
+      - name: Rebuild GitHub Pages with refreshed data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
