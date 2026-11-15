@@ -7,9 +7,15 @@ const DATA_FILES = {
   deviceRegulatory: "device-regulatory.json",
   safety: "safety.json",
   researchDirections: "research-directions.json",
+  readingDigest: "reading-digest.json",
+  readingCandidates: "reading-candidates.json",
+  journalMetrics: "journal-metrics.json",
   weeklyBrief: "weekly-brief.json",
   updateStatus: "update-status.json"
 };
+
+let journalRegistry = {};
+let resolveJournalMetrics = () => ({ impactFactor: null, cas: null });
 
 const RELEVANCE_LABELS = {
   high: "高相关",
@@ -27,6 +33,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function initPage() {
   const page = document.body.dataset.page || "home";
+  if (["home", "research", "topics", "weekly"].includes(page)) {
+    journalRegistry = await loadJson(DATA_FILES.journalMetrics, {});
+    const metricsModule = await import("./lib/journal-metrics.js?v=20261101-jcr");
+    const cache = new Map();
+    resolveJournalMetrics = (article) => {
+      const key = `${article.journal || ""}|${(article.journalIssns || []).join(",")}`;
+      if (!cache.has(key)) cache.set(key, metricsModule.resolveJournalMetrics(article, journalRegistry));
+      return cache.get(key);
+    };
+  }
   const nav = document.querySelector(".top-nav");
   if (nav && !nav.querySelector("[data-topics-link]")) {
     const link = document.createElement("a");
@@ -41,8 +57,8 @@ async function initPage() {
   }
 
   if (page === "topics") {
-    const directions = await loadJson(DATA_FILES.researchDirections, {});
-    renderTopicDirectory(document.querySelector("#topic-directory"), directions);
+    const [directions, digest] = await Promise.all([loadJson(DATA_FILES.researchDirections, {}), loadJson(DATA_FILES.readingDigest, {})]);
+    renderTopicDirectory(document.querySelector("#topic-directory"), directions, digest);
     return;
   }
 
@@ -94,50 +110,139 @@ async function loadJson(fileName, fallback = []) {
 }
 
 async function initHome() {
-  const [latest, highImpact, china, trials, guidelines, devices, safety, weeklyBrief, status, directions] = await Promise.all([
-    loadJson(DATA_FILES.latestResearch),
-    loadJson(DATA_FILES.highImpactResearch),
-    loadJson(DATA_FILES.chinaResearch),
-    loadJson(DATA_FILES.clinicalTrials),
-    loadJson(DATA_FILES.guidelines),
-    loadJson(DATA_FILES.deviceRegulatory),
-    loadJson(DATA_FILES.safety),
+  const [weeklyBrief, status, directions, digest] = await Promise.all([
     loadJson(DATA_FILES.weeklyBrief, {}),
     loadJson(DATA_FILES.updateStatus, {}),
-    loadJson(DATA_FILES.researchDirections, {})
+    loadJson(DATA_FILES.researchDirections, {}),
+    loadJson(DATA_FILES.readingDigest, {})
   ]);
-
-  setText("[data-stat='latestCount']", formatNumber(latest.length));
-  setText("[data-stat='highImpactCount']", formatNumber(highImpact.length));
-  setText("[data-stat='chinaCount']", formatNumber(china.length));
-  setText("[data-stat='activeTrialCount']", formatNumber(countActiveTrials(trials)));
+  const briefCounts = weeklyBrief.counts || {};
+  const latestCount = status.pubmed?.counts?.total ?? findStatusSource(status, ["PubMed"])?.count ?? briefCounts.latestResearch ?? 0;
+  const chinaCount = status.pubmed?.chinaResearchCount ?? status.pubmed?.counts?.china ?? briefCounts.chinaResearch ?? 0;
+  const trialSource = findStatusSource(status, ["ClinicalTrials.gov"]);
+  const trialCount = trialSource?.count ?? briefCounts.clinicalTrials ?? 0;
+  const derived = findStatusSource(status, ["Guidelines and device regulatory"])?.counts || {};
+  setText("[data-stat='latestCount']", formatNumber(latestCount));
+  setText("[data-stat='highImpactCount']", formatNumber(digest.groups?.find((group) => group.id === "vascular")?.periods?.[30]?.stats?.eligible || 0));
+  setText("[data-stat='chinaCount']", formatNumber(chinaCount));
+  setText("[data-stat='activeTrialCount']", formatNumber(trialSource?.activeCount ?? trialCount));
 
   const updated = status.lastUpdated ? formatDateTime(status.lastUpdated) : "等待数据";
   setText("#home-updated", updated);
   const updateStrip = document.querySelector("#home-pubmed-update");
   if (updateStrip) updateStrip.innerHTML = renderPubMedSync(status);
   renderHomeStatus(document.querySelector("#home-status-panel"), status, {
-    pubmed: latest.length,
-    clinicalTrials: trials.length,
-    guidelines: guidelines.length,
-    devices: devices.length,
-    safety: safety.length,
+    pubmed: latestCount,
+    clinicalTrials: trialCount,
+    guidelines: derived.guidelines ?? briefCounts.guidelines ?? 0,
+    devices: derived.devices ?? briefCounts.devices ?? 0,
+    safety: findStatusSource(status, ["Safety"])?.count ?? briefCounts.safety ?? 0,
     weeklyBrief: countWeeklyBriefItems(weeklyBrief)
   });
 
-  renderArticleList(document.querySelector("#home-latest-list"), latest.slice(0, 3), {
-    compact: true,
-    emptyTitle: "暂无最新文献"
-  });
-  renderArticleList(document.querySelector("#home-high-list"), highImpact.slice(0, 3), {
-    compact: true,
-    emptyTitle: "暂无重点研究"
-  });
+  renderReadingDigest(document.querySelector("#home-reading-digest"), digest);
+  initHomeReadingViews(digest, directions);
   renderWeeklyBrief(document.querySelector("#home-weekly-brief"), weeklyBrief, { compact: true });
-  renderTopicDirectory(document.querySelector("#home-topics"), directions);
+  renderTopicDirectory(document.querySelector("#home-topics"), directions, digest);
 }
 
-function renderTopicDirectory(container, data) {
+function initHomeReadingViews(digest, directions) {
+  const tabs = [...document.querySelectorAll("[data-reading-view]")];
+  const selectedPanel = document.querySelector("#home-reading-digest");
+  const fullPanel = document.querySelector("#home-full-library");
+  let fullPromise;
+  const show = async (view) => {
+    tabs.forEach((tab) => {
+      const active = tab.dataset.readingView === view;
+      tab.setAttribute("aria-selected", String(active));
+      tab.tabIndex = active ? 0 : -1;
+    });
+    selectedPanel.hidden = view !== "selected";
+    fullPanel.hidden = view !== "all";
+    if (view === "all" && !fullPromise) {
+      fullPanel.innerHTML = '<p class="status-loading">正在加载完整文献库...</p>';
+      fullPromise = initHomeLibrary(fullPanel, digest, directions).catch(() => renderEmpty(fullPanel, "文献库暂时无法加载", "请稍后刷新；精选速览仍可查阅。"));
+    }
+    if (view === "all") await fullPromise;
+  };
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => show(tab.dataset.readingView));
+    tab.addEventListener("keydown", (event) => {
+      if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+      event.preventDefault();
+      const next = event.key === "Home" ? 0 : event.key === "End" ? tabs.length - 1 : (index + (event.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length;
+      tabs[next].focus();
+      show(tabs[next].dataset.readingView);
+    });
+  });
+}
+
+async function initHomeLibrary(container, digest, directions) {
+  const definitions = digest.groups?.length ? digest.groups : [{ id: "vascular", title: "血管外科", fileName: DATA_FILES.latestResearch }, ...(directions.directions || [])];
+  const results = await Promise.all(definitions.map((group) => loadJson(group.fileName)));
+  const candidates = await loadJson(DATA_FILES.readingCandidates, {});
+  const buckets = definitions.map((group, index) => {
+    const recent = candidates.sources?.find((source) => source.id === group.id)?.articles || [];
+    return { ...group, articles: [...new Map([...results[index], ...recent].filter((article) => article?.pmid).map((article) => [article.pmid, article])).values()] };
+  });
+  const merged = new Map();
+  for (const group of buckets) {
+    for (const article of group.articles) {
+      const old = merged.get(article.pmid);
+      const levels = { high: 4, medium: 3, low: 2, review: 1 };
+      const preferred = !old || levels[getRelevance(article)] > levels[getRelevance(old)] ? article : old;
+      merged.set(article.pmid, { ...preferred, matchedDirections: [...new Set([...(old?.matchedDirections || []), group.title])] });
+    }
+  }
+  const all = [...merged.values()];
+  const state = { articles: all, page: 1, pageSize: 20, query: "", topic: "", studyType: "", relevance: "", jcr: "", chinaOnly: false, publicationDays: 30, hideReviews: false, sort: "date" };
+  container.innerHTML = `
+    <div class="reading-heading"><div><p class="eyebrow">Research Library</p><h2>全部文献</h2><p class="reading-caption">血管外科与课题组专题 · PMID 去重 ${formatNumber(all.length)} 篇</p></div></div>
+    <section class="toolbar home-library-toolbar" aria-label="首页完整文献筛选">
+      <label class="search-field"><span>搜索</span><input id="home-library-search" type="search" placeholder="标题、摘要、期刊、作者" autocomplete="off"></label>
+      <label><span>研究方向</span><select id="home-library-scope"><option value="all">全部方向</option>${buckets.map((group) => `<option value="${escapeAttribute(group.id)}">${escapeHtml(group.title)}</option>`).join("")}</select></label>
+      <label><span>发表时间</span><select id="home-library-days"><option value="30">近30天</option><option value="7">近7天</option><option value="0">全部发表日期</option></select></label>
+    </section>
+    <details class="library-advanced"><summary>更多筛选</summary><section class="toolbar home-library-advanced" aria-label="文献高级筛选">
+      <label><span>主题</span><select id="home-library-topic"></select></label>
+      <label><span>研究类型</span><select id="home-library-type"></select></label>
+      <label><span>相关性</span><select id="home-library-relevance"><option value="">全部相关性</option><option value="high">高相关</option><option value="medium">中相关</option><option value="low">低相关</option><option value="review">待复核</option></select></label>
+      <label><span>JCR 分区</span><select id="home-library-jcr"><option value="">全部期刊</option><option value="Q1">JCR Q1</option><option value="pending">分区 / IF 待核实</option></select></label>
+      <label><span>排序</span><select id="home-library-sort"><option value="date">发表日期从新到旧</option><option value="impact">影响因子从高到低</option><option value="relevance">相关性优先</option></select></label>
+      <label class="check-row"><input id="home-library-china" type="checkbox"><span>仅中国研究</span></label>
+      <label class="check-row"><input id="home-library-reviews" type="checkbox"><span>隐藏综述</span></label>
+    </section></details>
+    <p class="research-window-note">完整结果包含血管外科与专题记录更新窗口及近期发表补检；上方“发表时间”按论文日期筛选。相关性为各方向的自动匹配分级，不代表证据质量。</p>
+    <div class="result-meta" id="home-library-meta" aria-live="polite"></div><div class="item-list" id="home-library-list"></div>`;
+  const list = container.querySelector("#home-library-list");
+  const meta = container.querySelector("#home-library-meta");
+  const pager = createPagination(list);
+  const updateOptions = () => {
+    populateSelect("#home-library-topic", collectTopicTags(state.articles), "全部主题");
+    populateSelect("#home-library-type", collectStudyTypeTags(state.articles), "全部类型");
+  };
+  updateOptions();
+  const render = () => {
+    const filtered = filterArticles(state).sort((a, b) => state.sort === "impact"
+      ? (resolveJournalMetrics(b).impactFactor?.value ?? -1) - (resolveJournalMetrics(a).impactFactor?.value ?? -1) || String(b.publicationDate).localeCompare(String(a.publicationDate))
+      : state.sort === "relevance" ? ({ high: 4, medium: 3, low: 2, review: 1 }[getRelevance(b)] || 0) - ({ high: 4, medium: 3, low: 2, review: 1 }[getRelevance(a)] || 0) || String(b.publicationDate).localeCompare(String(a.publicationDate))
+      : String(b.publicationDate).localeCompare(String(a.publicationDate)));
+    const pageCount = Math.max(1, Math.ceil(filtered.length / state.pageSize));
+    state.page = Math.min(state.page, pageCount);
+    const start = (state.page - 1) * state.pageSize;
+    meta.textContent = `当前方向 ${formatNumber(state.articles.length)} 篇 · 筛选匹配 ${formatNumber(filtered.length)} 篇 · 显示 ${filtered.length ? start + 1 : 0}–${Math.min(start + state.pageSize, filtered.length)}`;
+    renderArticleList(list, filtered.slice(start, start + state.pageSize), { emptyTitle: "暂无匹配文献", emptyText: "可以调整研究方向、发表时间或其他筛选条件。" });
+    renderPagination(pager, state, pageCount, filtered.length, (page, pageSize) => { state.page = page; state.pageSize = pageSize; render(); meta.scrollIntoView({ block: "start" }); });
+  };
+  const bind = (id, key, transform = (value) => value) => container.querySelector(id).addEventListener("change", (event) => { state[key] = transform(event.target.type === "checkbox" ? event.target.checked : event.target.value); state.page = 1; render(); });
+  container.querySelector("#home-library-search").addEventListener("input", (event) => { state.query = event.target.value.trim().toLowerCase(); state.page = 1; render(); });
+  container.querySelector("#home-library-scope").addEventListener("change", (event) => { state.articles = event.target.value === "all" ? all : buckets.find((group) => group.id === event.target.value)?.articles || []; state.topic = ""; state.studyType = ""; state.page = 1; updateOptions(); render(); });
+  bind("#home-library-days", "publicationDays", Number);
+  bind("#home-library-topic", "topic"); bind("#home-library-type", "studyType"); bind("#home-library-relevance", "relevance"); bind("#home-library-jcr", "jcr"); bind("#home-library-sort", "sort"); bind("#home-library-china", "chinaOnly"); bind("#home-library-reviews", "hideReviews");
+  render();
+}
+
+function renderTopicDirectory(container, data, digest = {}) {
   if (!container) return;
   const directions = Array.isArray(data?.directions) ? data.directions : [];
   if (!directions.length) {
@@ -146,15 +251,72 @@ function renderTopicDirectory(container, data) {
     return;
   }
   const prefix = window.location.pathname.includes("/pages/") ? "" : "pages/";
-  container.innerHTML = directions.map((direction) => `
+  container.innerHTML = directions.map((direction) => {
+    const group = (digest.groups || []).find((item) => item.id === direction.id);
+    const selected = group?.periods?.[30]?.articles || [];
+    const href = `${prefix}research.html?topic=${encodeURIComponent(direction.id)}`;
+    return `
     <article class="topic-entry">
-      <a class="topic-entry-link" href="${prefix}research.html?topic=${encodeURIComponent(direction.id)}">
-        <div class="topic-entry-top">${renderIcon(direction.icon || "book-open")}<span>${escapeHtml(direction.lookbackDays || 30)} 天 · ${escapeHtml(formatNumber(direction.count))} 篇</span>${renderIcon("arrow-up-right")}</div>
+      <a class="topic-entry-link" href="${href}">
+        <div class="topic-entry-top">${renderIcon(direction.icon || "book-open")}<span>30 天 · JCR Q1 精选 ${selected.length} 篇</span>${renderIcon("arrow-up-right")}</div>
         <h3>${escapeHtml(direction.title)}</h3>
         <p>${escapeHtml(direction.description || "")}</p>
-        <small class="${statusClass(direction.status)}">${escapeHtml(statusLabel(direction.status))}</small><small>${direction.lastSuccessfulUpdate ? ` · ${escapeHtml(formatDateTime(direction.lastSuccessfulUpdate))}` : " · 暂无成功同步记录"}</small>
+        <small>${selected.length ? "近期发表 · 高相关 · 原始研究优先" : "暂无满足严格条件的精选，不用旧文凑数"}</small>
       </a>
-    </article>`).join("");
+      <div class="topic-library-link"><a href="${href}&view=all">完整检索 ${escapeHtml(formatNumber(direction.count))} 篇 ${renderIcon("arrow-up-right")}</a></div>
+    </article>`;
+  }).join("");
+}
+
+function renderJournalMetrics(article) {
+  const { impactFactor: impact, jcr } = resolveJournalMetrics(article, journalRegistry);
+  return `<span class="journal-metrics">${impact
+    ? `<a href="${escapeAttribute(impact.sourceUrl)}" target="_blank" rel="noopener" title="${escapeAttribute(impact.sourceLabel)}">IF ${escapeHtml(impact.value.toFixed(1))} <small>(${impact.year})</small></a>`
+    : `<span class="metric-pending">IF 待核实</span>`}
+    ${jcr ? `<a class="jcr-zone${jcr.quartile === "Q1" ? " jcr-one" : ""}" href="${escapeAttribute(jcr.sourceUrl)}" target="_blank" rel="noopener" title="${escapeAttribute(jcr.sourceLabel)}">JCR ${escapeHtml(jcr.quartile)} <small>(${jcr.year})</small></a>` : `<span class="metric-pending">JCR 分区待核实</span>`}</span>`;
+}
+
+function renderReadingDigest(container, digest, options = {}) {
+  if (!container) return;
+  if (!Array.isArray(digest.groups) || !digest.groups.length) {
+    renderEmpty(container, "精选暂未生成", "完整检索结果仍可查阅；待期刊分区、影响因子与发表日期核实后纳入精选。");
+    return;
+  }
+  let days = Number(new URLSearchParams(window.location.search).get("days")) === 7 ? 7 : 30;
+  let groupId = options.groupId || "all";
+  let visibleLimit = digest.defaultVisibleItems || 10;
+  const render = () => {
+    const group = digest.groups.find((item) => item.id === groupId);
+    const section = (group || digest).periods?.[days] || {};
+    const today = new Date().toISOString().slice(0, 10);
+    const cutoff = new Date(Date.parse(`${today}T00:00:00Z`) - (days - 1) * 86400000).toISOString().slice(0, 10);
+    const available = (options.chinaOnly ? section.chinaArticles || [] : section.articles || []).filter((article) => article.publicationDate >= cutoff && article.publicationDate <= today);
+    const articles = available.slice(0, visibleLimit);
+    container.innerHTML = `
+      <div class="reading-heading">
+        <div><p class="eyebrow">Essential Reading</p><h2>JCR Q1 论文速览</h2><p class="reading-caption">近 ${days} 天发表 · 展示 ${articles.length} / ${available.length} 篇精选 · 原始研究优先</p></div>
+        <div class="reading-controls">
+          ${!options.groupId ? `<label class="reading-scope"><span class="sr-only">研究方向</span><select aria-label="研究方向" data-reading-scope><option value="all">全部方向</option>${digest.groups.map((item) => `<option value="${escapeAttribute(item.id)}"${groupId === item.id ? " selected" : ""}>${escapeHtml(item.title)}</option>`).join("")}</select></label>` : ""}
+          <label class="reading-limit"><span class="sr-only">精选篇数</span><select aria-label="精选篇数" data-reading-limit>${(digest.visibleItemOptions || [5, 10, 20]).map((value) => `<option value="${value}"${visibleLimit === value ? " selected" : ""}>${value} 篇</option>`).join("")}</select></label>
+          <fieldset class="segmented"><legend class="sr-only">发表时间</legend>${[7, 30].map((value) => `<label><input type="radio" name="${container.id}-window" value="${value}"${days === value ? " checked" : ""}><span>近 ${value} 天</span></label>`).join("")}</fieldset>
+        </div>
+      </div>
+      <p class="reading-provenance">JCR ${escapeHtml(digest.jcrYear || "已核实")} Q1 · IF 与分区均标明数据年份 · 精选生成 ${escapeHtml(formatDateTime(digest.generatedAt))}</p>
+      ${group?.sourceStatus === "error" || (groupId === "all" && digest.errors?.length) ? `<p class="status-warning reading-note">近期检索未能完全刷新，以下为保留数据中仍符合日期的条目；详情见数据状态。</p>` : ""}
+      ${articles.length ? `<ol class="reading-list">${articles.map((article, index) => `
+        <li class="reading-item"><span class="reading-number">${String(index + 1).padStart(2, "0")}</span><div>
+          <div class="reading-item-meta"><time>${escapeHtml(article.publicationDate)}</time><span>${escapeHtml(article.digestKind || "研究论文")}</span>${!options.groupId ? `<span>${escapeHtml(digest.groups.find((item) => item.id === article.digestGroup)?.title || "")}</span>` : ""}</div>
+          <h3><a href="${escapeAttribute(article.pubmedUrl)}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a></h3>
+          <div class="reading-journal"><strong>${escapeHtml(article.journal)}</strong>${renderJournalMetrics(article)}</div>
+          <p class="reading-reason">入选理由：${escapeHtml(article.selectionReason || article.summaryZh || "高相关近期研究，建议回到原文复核。")}</p>
+        </div><a class="reading-source" href="${escapeAttribute(article.pubmedUrl)}" target="_blank" rel="noopener" aria-label="打开 PubMed：${escapeAttribute(article.title)}" title="打开 PubMed">${renderIcon("arrow-up-right")}</a></li>`).join("")}</ol>`
+        : `<div class="reading-empty"><strong>近 ${days} 天暂无满足条件的 JCR Q1 精选</strong><p>完整结果仍可查阅；未用旧文或低相关条目凑数。${section.stats?.metricsPending ? `有 ${section.stats.metricsPending} 篇高相关近期候选的期刊指标待核实。` : ""}</p></div>`}
+      <details class="reading-method"><summary>筛选口径与覆盖范围</summary><p>${escapeHtml(digest.note || "")}</p><p>当前核对 ${escapeHtml(digest.metrics?.journalCount || 0)} 本期刊，其中 ${escapeHtml(digest.metrics?.verifiedJcrOneCount || 0)} 本在来源表中为 JCR Q1。指标缺失不代表非Q1；普通综述不入选，人工确认的优质综述每组最多1篇。影响因子是期刊指标，不是单篇论文质量评分。</p></details>`;
+    container.querySelector("[data-reading-scope]")?.addEventListener("change", (event) => { groupId = event.target.value; render(); });
+    container.querySelector("[data-reading-limit]")?.addEventListener("change", (event) => { visibleLimit = Number(event.target.value); render(); });
+    container.querySelectorAll("input[type='radio']").forEach((input) => input.addEventListener("change", (event) => { days = Number(event.target.value); render(); }));
+  };
+  render();
 }
 
 function renderHomeStatus(container, status, counts) {
@@ -270,13 +432,32 @@ async function initResearchPage() {
   const bodyDataset = document.body.dataset.dataset || "latest-research";
   const datasetKey = requestedDataset === "high-impact" ? "high-impact-research" : bodyDataset;
   const title = direction?.title || (datasetKey === "high-impact-research" ? "重点研究" : datasetKey === "china-research" ? "中国研究" : "最新文献");
-  setText("#research-page-title", title);
+  setText(".page-title h1", title);
 
   if (direction) {
     setText(".page-title .eyebrow", "Research Group / 课题组专题");
     setText(".page-title p:not(.eyebrow)", direction.description);
     const titleElement = document.querySelector("#research-page-title");
     if (titleElement) document.title = `${direction.title} | 血管外科情报中枢`;
+  }
+  const allResults = params.get("view") === "all";
+  const viewNav = document.createElement("nav");
+  viewNav.className = "research-view-nav";
+  viewNav.setAttribute("aria-label", "文献视图");
+  const briefParams = new URLSearchParams(params);
+  briefParams.delete("view");
+  const allParams = new URLSearchParams(params);
+  allParams.set("view", "all");
+  viewNav.innerHTML = `<a href="?${escapeAttribute(briefParams.toString())}"${!allResults ? ' aria-current="page"' : ""}>精选速览</a><a href="?${escapeAttribute(allParams.toString())}"${allResults ? ' aria-current="page"' : ""}>全部检索结果</a>`;
+  document.querySelector(".page-title")?.after(viewNav);
+  if (!allResults) {
+    document.querySelector(".toolbar")?.setAttribute("hidden", "");
+    document.querySelector("#result-meta")?.setAttribute("hidden", "");
+    const panel = document.querySelector("#research-list");
+    panel.className = "reading-digest-panel";
+    const digest = await loadJson(DATA_FILES.readingDigest, {});
+    renderReadingDigest(panel, digest, { groupId: direction?.id || "vascular", chinaOnly: document.body.dataset.forceChina === "true" });
+    return;
   }
   const fileName = direction?.fileName || `${datasetKey}.json`;
   const [articles, status] = await Promise.all([loadJson(fileName), loadJson(DATA_FILES.updateStatus, {})]);
@@ -290,6 +471,7 @@ async function initResearchPage() {
     topic: "",
     studyType: "",
     relevance: "",
+    jcr: "",
     chinaOnly: document.body.dataset.forceChina === "true"
   };
   const pager = createPagination(list);
@@ -308,6 +490,10 @@ async function initResearchPage() {
 
   populateSelect("#topic-filter", collectTopicTags(articles), "全部主题");
   populateSelect("#study-type-filter", collectStudyTypeTags(articles), "全部类型");
+  const jcrLabel = document.createElement("label");
+  jcrLabel.innerHTML = `<span>JCR 分区 / 指标</span><select id="journal-filter"><option value="">全部期刊</option><option value="Q1">JCR ${escapeHtml(journalRegistry.jcrYear || "已核实")} Q1</option><option value="pending">指标待核实</option></select>`;
+  document.querySelector(".toolbar")?.append(jcrLabel);
+  document.querySelector("#journal-filter")?.addEventListener("change", (event) => { state.jcr = event.target.value; state.page = 1; render(); });
 
   const searchInput = document.querySelector("#search-input");
   const topicFilter = document.querySelector("#topic-filter");
@@ -467,6 +653,15 @@ function filterArticles(state) {
     if (state.studyType && !studyTypes.includes(state.studyType)) return false;
     if (state.relevance && relevance !== state.relevance) return false;
     if (state.chinaOnly && !article.isChinaResearch) return false;
+    const metrics = resolveJournalMetrics(article, journalRegistry);
+    if (state.jcr === "Q1" && !(metrics.jcr?.quartile === "Q1" && metrics.jcr.year === journalRegistry.jcrYear)) return false;
+    if (state.jcr === "pending" && metrics.jcr && metrics.impactFactor) return false;
+    if (state.publicationDays) {
+      const today = new Date().toISOString().slice(0, 10);
+      const cutoff = new Date(Date.parse(`${today}T00:00:00Z`) - (state.publicationDays - 1) * 86400000).toISOString().slice(0, 10);
+      if (article.publicationDatePrecision !== "day" || article.publicationDate < cutoff || article.publicationDate > today) return false;
+    }
+    if (state.hideReviews && ((article.publicationTypes || []).some((type) => /review|meta.analysis/i.test(type)) || /\b(?:review|meta.analysis)\b/i.test(article.title || ""))) return false;
     return true;
   });
 }
@@ -499,6 +694,7 @@ function renderArticleCard(article, options = {}) {
         <span>${escapeHtml(article.journal || "Unknown journal")}</span>
         <span class="badge ${relevance}">${RELEVANCE_LABELS[relevance] || "待复核"}</span>
       </div>
+      <div class="article-journal-metrics">${renderJournalMetrics(article)}</div>
       <h3>${pubmedUrl ? `<a href="${escapeAttribute(pubmedUrl)}" target="_blank" rel="noopener">${title}</a>` : title}</h3>
       <div class="meta-row">
         <span>${formatDate(article.publicationDate)}</span>
@@ -649,6 +845,7 @@ function renderBriefItem(item) {
         <span>${escapeHtml(formatDate(date))}</span>
       </div>
       <h4>${url ? `<a href="${escapeAttribute(url)}" target="_blank" rel="noopener">${escapeHtml(item.title || "Untitled item")}</a>` : escapeHtml(item.title || "Untitled item")}</h4>
+      ${item.journal ? `<div class="reading-journal"><strong>${escapeHtml(item.journal)}</strong>${renderJournalMetrics(item)}</div>` : ""}
       <p class="brief-reason">${escapeHtml(item.reason || item.summaryZh || "入选理由待补充。")}</p>
       <div class="tag-row">
         ${tags.slice(0, 6).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
@@ -956,6 +1153,10 @@ function formatBriefPeriod(period) {
 
 function escapeHtml(value) {
   return String(value ?? "")
+    .replace(/&#(x[0-9a-f]+|\d+);/gi, (entity, code) => {
+      const point = code[0].toLowerCase() === "x" ? Number.parseInt(code.slice(1), 16) : Number(code);
+      return point > 0 && point <= 0x10ffff && !(point >= 0xd800 && point <= 0xdfff) ? String.fromCodePoint(point) : entity;
+    })
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")

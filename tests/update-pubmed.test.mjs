@@ -4,7 +4,7 @@ import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { pubmedConfig, buildPubMedQuery } from "../scripts/config.mjs";
-import { updatePubMed, compareSnapshots } from "../scripts/update-pubmed.mjs";
+import { updatePubMed, compareSnapshots, retrievePubMedRecords } from "../scripts/update-pubmed.mjs";
 
 async function setup(t, fetcher) {
   const dir = await mkdtemp(join(tmpdir(), "vsih-pubmed-"));
@@ -24,32 +24,37 @@ async function setup(t, fetcher) {
 }
 
 function searchResponse(ids, count = ids.length) {
-  return Response.json({ esearchresult: { count: String(count), idlist: ids, webenv: "test-snapshot", querykey: "1" } });
+  return Response.json({ esearchresult: { count: String(count), idlist: ids, webenv: "test-snapshot", querykey: "1", errorlist: { phrasesnotfound: [], fieldsnotfound: [] } } });
 }
 
 function articleXml(id) {
   return `<PubmedArticle><MedlineCitation><PMID>${id}</PMID><Article><ArticleTitle>Endovascular aortic aneurysm repair ${id}</ArticleTitle><Journal><Title>Vascular Journal</Title><JournalIssue><PubDate><Year>2026</Year></PubDate></JournalIssue></Journal><Abstract><AbstractText>Clinical trial in patients.</AbstractText></Abstract><PublicationTypeList><PublicationType>Clinical Trial</PublicationType></PublicationTypeList></Article></MedlineCitation></PubmedArticle>`;
 }
 
+function requestParams(input, init) {
+  return init?.method === "POST" ? new URLSearchParams(init.body) : new URL(input).searchParams;
+}
+
 test("retrieves every search page and EFetch batch beyond 200 records", async (t) => {
   const ids = Array.from({ length: 503 }, (_, i) => String(100000 + i));
   const offsets = [];
   let batches = 0;
-  const dir = await setup(t, async (input) => {
+  const dir = await setup(t, async (input, init) => {
     const url = new URL(input);
+    const params = requestParams(input, init);
     if (url.pathname.endsWith("esearch.fcgi")) {
-      const start = Number(url.searchParams.get("retstart") || 0);
-      const size = Number(url.searchParams.get("retmax"));
+      const start = Number(params.get("retstart") || 0);
+      const size = Number(params.get("retmax"));
       offsets.push(start);
       if (start) {
-        assert.equal(url.searchParams.get("sort"), "pub date");
-        assert.equal(url.searchParams.get("term"), "#1");
-        assert.equal(url.searchParams.get("WebEnv"), "test-snapshot");
+        assert.equal(params.get("sort"), "pub date");
+        assert.equal(params.get("term"), "#1");
+        assert.equal(params.get("WebEnv"), "test-snapshot");
       }
       return searchResponse(ids.slice(start, start + size), ids.length);
     }
     batches += 1;
-    return new Response(`<PubmedArticleSet>${url.searchParams.get("id").split(",").map(articleXml).join("")}</PubmedArticleSet>`);
+    return new Response(`<PubmedArticleSet>${params.get("id").split(",").map(articleXml).join("")}</PubmedArticleSet>`);
   });
   const result = await updatePubMed({ rootDir: dir, dataDir: dir });
   assert.deepEqual(offsets, [0, 500]);
@@ -59,6 +64,42 @@ test("retrieves every search page and EFetch batch beyond 200 records", async (t
   assert.equal(result.retrieval.complete, true);
   assert.equal(result.changes.comparable, false);
   assert.equal(JSON.parse(await readFile(join(dir, "latest-research.json"), "utf8")).length, 503);
+});
+
+test("long ESearch queries use form POST and preserve their body across retries and history pagination", async (t) => {
+  const query = Array.from({ length: 150 }, (_, index) => `"Journal ${index}"[Journal]`).join(" OR ");
+  const ids = ["11", "12", "13"];
+  let posts = 0;
+  let pages = 0;
+  const dir = await setup(t, async (input, init) => {
+    const url = new URL(input);
+    const params = requestParams(input, init);
+    if (url.pathname.endsWith("esearch.fcgi")) {
+      if (params.get("retstart")) {
+        pages += 1;
+        assert.equal(params.get("WebEnv"), "test-snapshot");
+        assert.equal(params.get("term"), "#1");
+        return searchResponse(["13"], 3);
+      }
+      posts += 1;
+      assert.equal(init.method, "POST");
+      assert.equal(init.headers["Content-Type"], "application/x-www-form-urlencoded");
+      assert.equal(url.search, "");
+      assert.equal(params.get("term"), query);
+      assert.equal(params.get("datetype"), "pdat");
+      assert.equal(params.get("reldate"), "30");
+      return posts === 1 ? new Response("Temporary failure", { status: 500 }) : searchResponse(ids.slice(0, 2), 3);
+    }
+    return new Response(`<PubmedArticleSet>${params.get("id").split(",").map(articleXml).join("")}</PubmedArticleSet>`);
+  });
+  pubmedConfig.searchPageSize = 2;
+  pubmedConfig.requestRetryCount = 1;
+  pubmedConfig.requestRetryBaseDelayMs = 1;
+  const result = await retrievePubMedRecords(query, { rootDir: dir, dateType: "pdat", lookbackDays: 30 });
+  assert.equal(posts, 2);
+  assert.equal(pages, 1);
+  assert.deepEqual(result.search.ids, ids);
+  assert.equal(result.records.length, 3);
 });
 
 test("a partial EFetch response preserves all existing data files", async (t) => {
@@ -73,6 +114,11 @@ test("a partial EFetch response preserves all existing data files", async (t) =>
 
 test("an API error returned with HTTP 200 is not mistaken for zero results", async (t) => {
   const dir = await setup(t, async () => Response.json({ error: "Temporary backend failure" }));
+  await assert.rejects(updatePubMed({ rootDir: dir, dataDir: dir }), /invalid search/);
+});
+
+test("nonempty ESearch error lists are rejected even when the HTTP status and count look valid", async (t) => {
+  const dir = await setup(t, async () => Response.json({ esearchresult: { count: "0", idlist: [], errorlist: { phrasesnotfound: [], fieldsnotfound: ["invalid-field"] } } }));
   await assert.rejects(updatePubMed({ rootDir: dir, dataDir: dir }), /invalid search/);
 });
 
@@ -105,4 +151,16 @@ test("snapshot differences distinguish new IDs, edited content and window expiry
   assert.equal(changes.updated, 1);
   assert.equal(changes.removedFromWindow, 1);
   assert.equal(changes.unchanged, 1);
+});
+
+test("a transient ESearch backend error inside HTTP 200 is retried, not treated as no results", async (t) => {
+  let attempts = 0;
+  const dir = await setup(t, async () => ++attempts === 1
+    ? Response.json({ esearchresult: { ERROR: "Search Backend failed: the address table is empty." } })
+    : searchResponse([]));
+  pubmedConfig.requestRetryCount = 1;
+  pubmedConfig.requestRetryBaseDelayMs = 1;
+  const result = await updatePubMed({ rootDir: dir, dataDir: dir });
+  assert.equal(attempts, 2);
+  assert.equal(result.ok, true);
 });

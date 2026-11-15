@@ -8,6 +8,7 @@ import { updateClinicalTrials } from "./update-clinicaltrials.mjs";
 import { updateDerivedInsights } from "./update-derived-insights.mjs";
 import { updateWeeklyBrief } from "./update-weekly-brief.mjs";
 import { updateResearchDirections } from "./update-research-directions.mjs";
+import { updateReadingDigest } from "./update-reading-digest.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -30,6 +31,7 @@ async function main() {
   const clinicalTrialsResult = await runClinicalTrialsSafely();
   const derivedResult = await runDerivedInsightsSafely();
   const researchDirectionsResult = await runResearchDirectionsSafely();
+  const digestResult = await runReadingDigestSafely();
   const weeklyBriefResult = await runWeeklyBriefSafely();
 
   const updateStatus = {
@@ -54,6 +56,7 @@ async function main() {
         name: "ClinicalTrials.gov",
         status: clinicalTrialsResult.ok ? "success" : "error",
         count: clinicalTrialsResult.count,
+        activeCount: clinicalTrialsResult.activeCount,
         message: clinicalTrialsResult.ok
           ? `Fetched ${clinicalTrialsResult.count} active/recruiting trials from ClinicalTrials.gov API v2.`
           : clinicalTrialsResult.error,
@@ -64,6 +67,7 @@ async function main() {
         name: "Guidelines and device regulatory",
         status: derivedResult.ok ? "success" : statusForSupport(supportResults),
         count: derivedResult.guidelines + derivedResult.devices,
+        counts: { guidelines: derivedResult.guidelines, devices: derivedResult.devices },
         message: derivedResult.ok ? "Generated from current PubMed JSON." : derivedResult.error
       },
       {
@@ -78,6 +82,13 @@ async function main() {
         count: weeklyBriefResult.count,
         message: weeklyBriefResult.ok ? "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON." : weeklyBriefResult.error,
         finishedAt: weeklyBriefResult.finishedAt || null
+      },
+      {
+        name: "Reading Digest / JCR Q1 速览",
+        status: digestResult.ok ? "success" : "error",
+        count: digestResult.count,
+        message: digestResult.ok ? "按发表日期与已核实JCR Q1生成精选；首页可自由切换精选/全部文献。" : digestResult.error,
+        finishedAt: digestResult.finishedAt
       },
       ...researchDirectionsResult.sources
     ],
@@ -99,6 +110,7 @@ async function main() {
       clinicalTrialsResult.ok ? "" : clinicalTrialsResult.error,
       derivedResult.ok ? "" : derivedResult.error,
       weeklyBriefResult.ok ? "" : weeklyBriefResult.error,
+      digestResult.ok ? "" : digestResult.error,
       ...researchDirectionsResult.errors
     ].filter(Boolean),
     manualReview: buildManualReviewItems(pubmedResult, effectiveCounts),
@@ -127,6 +139,17 @@ async function main() {
   }
   if (clinicalTrialsResult.ok) {
     console.log(`ClinicalTrials.gov update complete: ${clinicalTrialsResult.count} trials.`);
+  }
+}
+
+async function runReadingDigestSafely() {
+  try {
+    const digest = await updateReadingDigest({ rootDir, dataDir });
+    const count = new Set(digest.groups.flatMap((group) => group.periods[30].articles.map((article) => article.pmid))).size;
+    console.log(`Reading digest: ${count} selected across ${digest.groups.length} groups.`);
+    return { ok: digest.errors.length === 0, count, error: digest.errors.join("; "), finishedAt: digest.generatedAt };
+  } catch (error) {
+    return { ok: false, count: 0, error: error.message, finishedAt: null };
   }
 }
 
@@ -202,17 +225,21 @@ async function validateSupportData() {
 async function runClinicalTrialsSafely() {
   try {
     const result = await updateClinicalTrials({ dataDir });
+    const trials = result.ok ? result.trials : ensureArray(await readJsonFile(join(dataDir, "clinical-trials.json"), []));
     return {
       ok: result.ok,
-      count: result.ok ? result.trials.length : ensureArray(await readJsonFile(join(dataDir, "clinical-trials.json"), [])).length,
+      count: trials.length,
+      activeCount: trials.filter((trial) => clinicalTrialsConfig.activeStatuses.includes(trial.status)).length,
       error: result.error,
       version: result.version,
       topicResults: result.topicResults
     };
   } catch (error) {
+    const trials = ensureArray(await readJsonFile(join(dataDir, "clinical-trials.json"), []));
     return {
       ok: false,
-      count: ensureArray(await readJsonFile(join(dataDir, "clinical-trials.json"), [])).length,
+      count: trials.length,
+      activeCount: trials.filter((trial) => clinicalTrialsConfig.activeStatuses.includes(trial.status)).length,
       error: error.message,
       version: null,
       topicResults: []

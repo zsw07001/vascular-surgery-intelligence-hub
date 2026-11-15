@@ -58,6 +58,9 @@ data/safety.json
 data/conference-news.json
 data/weekly-brief.json
 data/update-status.json
+data/journal-metrics.json
+data/reading-candidates.json
+data/reading-digest.json
 ```
 
 文献对象应至少包含：
@@ -81,6 +84,8 @@ data/update-status.json
 - `englishSummary`
 - `isChinaResearch`
 - `source`
+
+可选源字段包括 `journalIssns` 与 `publicationDatePrecision`（day/month/year/unknown）；精选不把缺少日精度的出版日期伪装成最近7天/30天。
 
 ## 修改检索式
 
@@ -121,6 +126,37 @@ data/update-status.json
 检索式、主题标签和专题匹配评分集中在 `scripts/config.mjs` 的 `researchDirectionsConfig`。默认窗口是近 30 天（`mdat`），随每日 Actions 更新，完整分页抓取，不使用血管外科主检索式的冠脉/脑血管/动物排除规则。专题高相关只代表主题匹配度，不代表临床证据等级。
 
 `scripts/update-research-directions.mjs` 写入 `data/research-directions.json` 和四个 `data/topic-*.json`。每个方向单独处理错误并保留旧数据，实际命中数、入库数、最后成功时间和错误也会进入数据状态页。专题之间可能包含同一 PMID，单个专题内部去重。
+
+## 首页文献工作台与 JCR Q1 速览
+
+首页可直接切换“精选速览/全部文献”，不必跳转页面。精选默认显示10篇，可自由选择5/10/20篇、研究方向与近7天/30天。完整文献按需加载，可选研究方向、发表时间（7天/30天/全部），搜索标题/摘要/期刊/作者；更多筛选中包含主题、研究类型、相关性、JCR分区、中国研究、隐藏综述和排序。按PMID去重并分页，每页20/50/100篇。专题二级页面也保留“精选速览/全部检索结果”。
+
+- 时间按论文**实际发表日期**，可切换近7天/30天；不把 `mdat` 更新当成新发表。缺少日精度、未来日期、旧文不进精选。
+- 每组最多保留20篇精选，默认展示10篇；首页跨方向最多20篇且同一方向最多10篇，避免单个方向占满。符合条件不足就按真实数量显示，不用旧文凑数；所有候选仍可在首页“全部文献”自由筛选。
+- 精选只纳入 `high` 且标题/摘要直接符合专题规则、有来源JIF和已核实 **JCR 2025 Q1（2026发布版）** 的研究。此前的中科院分区门槛已撤下；中科院1区、JCR Q1、SJR Q1与新锐分区不可互换。
+- 普通综述默认不入选；特别值得读的综述可在 `readingDigestConfig.exceptionalReviewPmids` 人工确认后加入，每组最多1篇，并受JIF、日期与相关性条件约束。病例、方案、社论、更正、撤稿等不入选。
+- 研究类型先看 PubMed publication types，综述提及 RCT 不会因此作为 RCT 排到首位。课题组专题允许直接相关的基础、动物和体外研究，不强行按临床价值打分。
+
+`scripts/update-reading-digest.mjs` 在每日更新中，额外对**已核实JCR Q1期刊**按 `pdat` 检索30天候选，因此不局限于原来的7天记录修改窗口。写入 `reading-candidates.json` 缓存，再与现有完整列表按PMID合并，生成 `reading-digest.json`。某方向网络失败会保留候选及上次成功时间、记录错误；页面明显提示未完全刷新，仍剔除已过期论文。长检索自动使用表单POST，避免URL过长；PubMed HTTP 200中的临时后端错误会有限重试，空错误列表不会被误判为失败。原完整JSON不被精选规则删减。
+
+不联网重算精选：`npm run digest`。刷新近期候选：`node scripts/update-reading-digest.mjs --refresh`。全部筛选、数量与优质综述例外规则集中在 `scripts/config.mjs` 的 `readingDigestConfig`。周报的文献部分复用7天精选，临床试验规则不变。
+
+### 期刊指标维护
+
+`data/journal-metrics.json` 是**当前专题相关期刊的有限指标表，不是完整JCR数据库**。JCR/IF依据[尼古拉耶夫无机化学研究所公开JCR表](https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf)，只核对现有近期专题涉及的期刊，记录ISSN、来源页码、JIF与 `JIF Quartile` 列。该来源按发布年命名：`JIF 2026` 列对应2025统计值；[大学图书馆发布说明](https://pg.edu.pl/en/gdansk-tech-library/2026-06/new-editions-journal-citation-reports-and-citescore)与[出版商数据](https://www.nature.com/ncomms/?hl=en-US)可核对统计年与发布年的区别。源表没有逐学科分区明细，页面不虚构学科或跨学科最优分位，正式使用请回到原始JCR。
+
+保留的中科院2025大类分区来自[豫北医学院图书馆公开资料](https://lib.sqmc.edu.cn/2025/0902/c4233a126337/pagem.htm)，仅作参考，不再用于当前精选门槛。每条指标保留年份与具体来源，未知显示“待核实”。公开仓库不镜像整份指标数据库或原始附件。
+
+新增期刊时，用准确刊名、别名或ISSN匹配，禁止模糊包含匹配（例如不能把 Biomaterials Advances 当成 Biomaterials）。记录格式参考已有条目：
+
+- `impactFactor`: `value`、JIF统计年份 `year`、`sourceId`；数值必须来自可核对来源，不拿CiteScore、SJR或OpenAlex两年均引冒充。
+- `jcr`: `quartile`（Q1/Q2/Q3/Q4）、指标年份 `year`、发布年份 `releaseYear`、`verified`、`sourceId`、可选来源页码 `page`。只有当前配置年份的已核实Q1进入精选，不从中科院分区推断。
+- `cas`: 保留历史参考的分区、版本、范围和来源，与 `jcr` 独立，缺少也不影响JCR精选。
+- `sources`: 与 `sourceId` 对应的公开来源名称、HTTP(S)链接；不要加入个人邮箱、账号或授权下载凭证。
+
+未收录的期刊仍显示刊名，JIF/JCR分区标为“待核实”，**不推断为非Q1**，也不会伪造数值。若要提高覆盖率，应根据有权使用及公开的期刊信息补充所需条目；不要把机构限制传播的整表直接上传公开仓库。
+
+分区版本依据及服务变更可参见[菏泽学院科研处2026年说明](https://kyc.hezeu.edu.cn/info/1040/4015.htm)。期刊指标只是阅读线索，不能保证单篇论文质量，正式判断仍需核对研究方法、原文和本机构认可的分区。
 
 ## NCBI 配置
 

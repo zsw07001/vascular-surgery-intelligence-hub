@@ -171,7 +171,8 @@ async function searchPubMedIds(query, runtime, options = {}) {
 
 function validateSearchResult(data) {
   const result = data?.esearchresult;
-  if (data?.error || result?.ERROR || result?.errorlist || !/^\d+$/.test(String(result?.count)) || !Array.isArray(result?.idlist)) {
+  const hasSearchErrors = Object.values(result?.errorlist || {}).some((value) => Array.isArray(value) ? value.length > 0 : Boolean(value));
+  if (data?.error || data?.ERROR || result?.ERROR || hasSearchErrors || !/^\d+$/.test(String(result?.count)) || !Array.isArray(result?.idlist)) {
     throw new Error("PubMed returned an invalid search result; existing data was preserved.");
   }
   if (result.idlist.some((id) => !/^\d+$/.test(id))) {
@@ -207,11 +208,15 @@ async function fetchPubMedArticles(ids, runtime) {
 }
 
 async function fetchJson(url) {
-  const response = await fetchWithRetry(url);
-  if (!response.ok) {
-    throw new Error(`PubMed request failed: ${response.status} ${response.statusText}`);
+  for (let attempt = 0; attempt <= pubmedConfig.requestRetryCount; attempt += 1) {
+    const response = await fetchWithRetry(url);
+    if (!response.ok) throw new Error(`PubMed request failed: ${response.status} ${response.statusText}`);
+    const data = await response.json();
+    const message = String(data?.error || data?.ERROR || data?.esearchresult?.ERROR || "").toLowerCase();
+    if (!pubmedConfig.retryablePayloadPatterns.some((pattern) => message.includes(pattern))) return data;
+    if (attempt === pubmedConfig.requestRetryCount) throw new Error("PubMed ESearch backend is temporarily unavailable; existing data was preserved.");
+    await waitBeforeRetry(attempt + 1, pubmedConfig.requestRetryCount + 1, "PubMed ESearch temporary backend error (HTTP 200)");
   }
-  return response.json();
 }
 
 async function fetchText(url) {
@@ -251,9 +256,18 @@ async function fetchWithRetry(url) {
 async function fetchWithTimeout(url) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), pubmedConfig.requestTimeoutMs);
+  const target = new URL(url);
+  const init = { signal: controller.signal };
+  // E-utilities accepts form POSTs for queries that exceed safe URL lengths.
+  if (target.href.length > pubmedConfig.postThreshold) {
+    init.method = "POST";
+    init.headers = { "Content-Type": "application/x-www-form-urlencoded" };
+    init.body = target.searchParams.toString();
+    target.search = "";
+  }
 
   try {
-    return await fetch(url, { signal: controller.signal });
+    return await fetch(target, init);
   } catch (error) {
     if (error.name === "AbortError") {
       throw new Error(`PubMed request timed out after ${pubmedConfig.requestTimeoutMs} ms`);
@@ -385,7 +399,9 @@ function normalizePubMedArticle(record) {
     title: cleanText(textValue(article.ArticleTitle)),
     abstract,
     journal: cleanText(textValue(journal.Title || journal.ISOAbbreviation)),
+    journalIssns: [...new Set([textValue(journal.ISSN), textValue(citation.MedlineJournalInfo?.ISSNLinking)].filter(Boolean))],
     publicationDate: normalizePublicationDate(article, journal),
+    publicationDatePrecision: publicationDatePrecision(article, journal),
     authors,
     affiliations,
     doi,
@@ -395,7 +411,7 @@ function normalizePubMedArticle(record) {
   };
 }
 
-function enrichArticle(article) {
+export function enrichArticle(article) {
   const isChinaResearch = hasChinaAffiliation(article.affiliations);
   const topicTags = getTopicTags(article, isChinaResearch);
   const studyTypeTags = getStudyTypeTags(article);
@@ -414,7 +430,9 @@ function enrichArticle(article) {
     abstract: article.abstract,
     englishSummary: summary.englishSummary,
     journal: article.journal,
+    journalIssns: article.journalIssns || [],
     publicationDate: article.publicationDate,
+    publicationDatePrecision: article.publicationDatePrecision || "unknown",
     authors: article.authors,
     affiliations: article.affiliations,
     doi: article.doi,
@@ -606,6 +624,13 @@ function normalizePublicationDate(article, journal) {
   const medlineDate = textValue(pubDate.MedlineDate);
   const year = medlineDate.match(/\d{4}/)?.[0];
   return year ? `${year}-01-01` : "";
+}
+
+function publicationDatePrecision(article, journal) {
+  const date = arrayify(article?.ArticleDate)[0] || journal?.JournalIssue?.PubDate || {};
+  if (!textValue(date.Year)) return "unknown";
+  if (!normalizeMonth(textValue(date.Month))) return "year";
+  return normalizeDay(textValue(date.Day)) ? "day" : "month";
 }
 
 function composeDate(yearValue, monthValue, dayValue) {

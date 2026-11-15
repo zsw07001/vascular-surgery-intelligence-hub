@@ -6,8 +6,10 @@ export const pubmedConfig = {
   fetchBatchSize: 100,
   requestDelayMs: 400,
   requestTimeoutMs: 30000,
+  postThreshold: 1800,
   requestRetryCount: 3,
   requestRetryBaseDelayMs: 1000,
+  retryablePayloadPatterns: ["search backend failed", "address table is empty", "temporarily unavailable", "internal server error"],
   dateType: "mdat",
   defaultTool: "vascular-surgery-intelligence-hub",
   emailEnvVar: "NCBI_EMAIL",
@@ -503,6 +505,67 @@ export const researchDirectionsConfig = {
       ]
     }
   ]
+};
+
+export const readingDigestConfig = {
+  windows: [7, 30],
+  defaultWindow: 30,
+  maxItems: 20,
+  defaultVisibleItems: 10,
+  visibleItemOptions: [5, 10, 20],
+  maxReviews: 1,
+  maxPerGroupOnHome: 10,
+  exceptionalReviewPmids: [],
+  minimumAbstractLength: 100,
+  jcrYear: 2025,
+  reviewMinimumImpactFactor: 10,
+  excludedPublicationTypes: ["Case Reports", "Clinical Trial Protocol", "Editorial", "Comment", "Letter", "Published Erratum", "Retracted Publication", "Retraction of Publication", "Preprint"],
+  excludedTitlePatterns: ["case report", "case series", "study protocol", "trial protocol", "protocol for", "correction to", "retraction", "corrigendum", "erratum"],
+  reviewTypes: ["Review", "Systematic Review", "Meta-Analysis", "Scoping Review"],
+  reviewTitlePatterns: ["review", "meta-analysis", "meta analysis", "bibliometric"],
+  priorityTypes: [
+    { label: "RCT", patterns: ["Randomized Controlled Trial"], points: 12 },
+    { label: "Clinical Trial", patterns: ["Clinical Trial", "Clinical Trial, Phase III", "Clinical Trial, Phase IV", "Controlled Clinical Trial", "Pragmatic Clinical Trial"], points: 9 },
+    { label: "Guideline", patterns: ["Guideline", "Practice Guideline", "Consensus Development Conference"], points: 8 }
+  ],
+  observationalTypes: [
+    { label: "Registry", patterns: ["registry", "registries"], points: 7 },
+    { label: "Real-world Evidence", patterns: ["real-world", "real world"], points: 6 },
+    { label: "Cohort", patterns: ["cohort"], points: 5 }
+  ],
+  designSectionLabels: ["METHODS", "MATERIALS AND METHODS", "METHODS AND RESULTS", "DESIGN"],
+  designSectionStops: ["RESULTS", "CONCLUSION", "CONCLUSIONS", "DISCUSSION", "FINDINGS"],
+  // Each group must match; title signals keep broad abstract-only hits out of the digest.
+  profiles: {
+    vascular: {
+      titleAny: ["vascular surgery", "endovascular", "peripheral arterial", "peripheral artery", "limb ischemia", "limb ischaemia", "CLTI", "aortic aneurysm", "aortic dissection", "aortic repair", "carotid stenosis", "carotid endarterectomy", "carotid artery stenting", "deep vein thrombosis", "venous thromboembolism", "venous insufficiency", "varicose", "dialysis access", "hemodialysis access", "arteriovenous fistula", "EVAR", "TEVAR"],
+      requiredGroups: [["peripheral arterial", "peripheral artery", "limb ischemia", "limb ischaemia", "CLTI", "aortic aneurysm", "aortic dissection", "aortic repair", "carotid stenosis", "carotid endarterectomy", "carotid artery stenting", "deep vein thrombosis", "venous thromboembolism", "venous insufficiency", "varicose", "dialysis access", "hemodialysis", "haemodialysis", "vascular surgery", "EVAR", "TEVAR"]],
+      note: "标题直接涉及血管外科核心疾病或治疗。"
+    },
+    "hydrogen-brain-iri": {
+      alternatives: [
+        { titleAny: ["molecular hydrogen", "hydrogen therapy", "hydrogen-rich", "hydrogen inhalation", "hydrogen gas"], requiredGroups: [["therapy", "therapeutic", "treatment", "protect", "injury", "ischemia", "ischaemia", "reperfusion"]], note: "氢气干预研究，标题直接命中该方向。" },
+        { titleAny: ["cerebral ischemia", "cerebral ischaemia", "brain ischemia", "brain ischaemia", "ischemic stroke", "ischaemic stroke"], requiredGroups: [["reperfusion"]], note: "脑缺血/再灌注研究，标题与摘要直接匹配。" }
+      ],
+      bonusGroups: [["molecular hydrogen", "hydrogen-rich", "hydrogen therapy", "hydrogen inhalation", "hydrogen gas"], ["cerebral ischemia", "cerebral ischaemia", "ischemic stroke", "ischaemic stroke"]],
+      note: "直接涉及氢气干预或脑缺血再灌注，基础与动物研究可入选。"
+    },
+    "vascular-flow-vibration": {
+      titleAny: ["vibration", "vibrometry", "vibroacoustic", "thrill", "bruit", "vascular function", "arterial stiffness", "vascular compliance", "arterial wall motion", "flow phantom"],
+      requiredGroups: [["vascular", "arterial", "artery", "blood flow", "arteriovenous"], ["vibration", "vibrometry", "vibroacoustic", "thrill", "bruit", "acoustic", "oscillation", "in vitro", "ex vivo", "benchtop", "phantom"]],
+      note: "直接涉及血流震颤/振动检测或血管功能实验，不指血管内冲击波。"
+    },
+    "biodegradable-stents": {
+      titleAny: ["stent", "scaffold", "biodegradable", "bioresorbable", "bioabsorbable", "degradable", "alloy"],
+      requiredGroups: [["stent", "vascular scaffold", "coronary scaffold"], ["biodegradable", "bioresorbable", "bioabsorbable", "degradable", "degradation", "corrosion"]],
+      note: "直接涉及可降解支架及其材料、性能或应用证据。"
+    },
+    "neurovascular-bioelectric": {
+      titleAny: ["electrical", "bioelectric", "electrophysiolog", "membrane potential", "action potential", "ion channel", "potassium channel", "gap junction", "electrotonic", "optogenetic", "neurovascular coupling"],
+      requiredGroups: [["neurovascular", "neuron", "nerve", "innervation"], ["vascular", "endotheli", "arteriole", "capillar", "pericyte", "smooth muscle"], ["bioelectric", "electrophysiolog", "electrical signal", "membrane potential", "action potential", "ion channel", "potassium channel", "gap junction", "electrotonic", "optogenetic"]],
+      note: "直接涉及神经血管互作与电活动/离子通道证据。"
+    }
+  }
 };
 
 export function buildPubMedQuery() {

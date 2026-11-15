@@ -13,6 +13,7 @@ const mimeTypes = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
+  ".mjs": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".svg": "image/svg+xml",
   ".png": "image/png",
@@ -26,6 +27,11 @@ function createStaticServer(port) {
     const url = new URL(request.url || "/", `http://localhost:${port}`);
     const requestedPath = url.pathname === "/" ? "/index.html" : decodeURIComponent(url.pathname);
     const safePath = normalize(requestedPath).replace(/^(\.\.[/\\])+/, "");
+    if (safePath.split(/[/\\]/).some((part) => part.startsWith(".") || ["work", "node_modules"].includes(part))) {
+      response.writeHead(403);
+      response.end("Forbidden");
+      return;
+    }
     let filePath = join(rootDir, safePath);
 
     if (!filePath.startsWith(rootDir)) {
@@ -64,7 +70,7 @@ function listen(port, attemptsLeft = 10) {
     throw error;
   });
 
-  server.listen(port, () => {
+  server.listen(port, "127.0.0.1", () => {
     console.log(`Vascular Surgery Intelligence Hub running at http://localhost:${port}`);
   });
 }

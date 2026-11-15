@@ -71,6 +71,10 @@
 - 不依赖构建工具即可在 GitHub Pages 运行。
 - 所有链接打开原始来源，例如 PubMed、DOI、ClinicalTrials.gov。
 - 新页面应复用 `app.js` 里的数据加载、空状态和卡片模式。
+- 首页提供“精选速览/全部文献”两个可切换视图；精选默认10篇，可选5/10/20篇，完整结果按需加载并可搜索、筛选、分页。专题页面也保留 `view=all`。
+- 精选规则集中在 `scripts/config.mjs` 的 `readingDigestConfig`，与完整抓取分离；按实际发表日期，不按记录修改日期冒充近期发表。
+- JIF和分区统一维护在 `data/journal-metrics.json`，保留年份、口径和来源；默认精选使用已核实JCR Q1，不再用中科院分区作为门槛，两者不可互换。未知留空，不用SJR/CiteScore或估算值冒充JIF/JCR。
+- 期刊匹配复用 `lib/journal-metrics.js`，不做刊名模糊包含匹配，不公开机构限制传播的指标整表。
 
 ## 医学免责声明
 

@@ -16,25 +16,6 @@ const PRIORITY_TOPIC_TAGS = new Set([
   "Vascular Graft / Stent / Device"
 ]);
 
-const SPECIFIC_VASCULAR_TOPIC_TAGS = new Set([
-  "PAD / CLTI",
-  "Aortic Disease",
-  "Carotid Disease",
-  "Venous Disease",
-  "Dialysis Access",
-  "Vascular Graft / Stent / Device"
-]);
-
-const PRIORITY_STUDY_TYPES = new Set([
-  "RCT",
-  "Clinical Trial",
-  "Guideline",
-  "Systematic Review",
-  "Meta-analysis",
-  "Registry",
-  "Real-world Evidence"
-]);
-
 const TRIAL_ACTIVE_STATUSES = new Set(["RECRUITING", "NOT_YET_RECRUITING", "ACTIVE_NOT_RECRUITING"]);
 
 const TRIAL_TOPIC_RULES = [
@@ -57,13 +38,15 @@ export async function updateWeeklyBrief(options = {}) {
   const devices = ensureArray(await readJsonFile(join(targetDataDir, "device-regulatory.json"), []));
   const safety = ensureArray(await readJsonFile(join(targetDataDir, "safety.json"), []));
   const conferenceNews = ensureArray(await readJsonFile(join(targetDataDir, "conference-news.json"), []));
+  const digest = await readJsonFile(join(targetDataDir, "reading-digest.json"), {});
 
   const now = new Date();
   const weekStart = new Date(now);
   weekStart.setDate(now.getDate() - 6);
 
-  const priorityReading = selectPriorityArticles(latest, highImpact, 10);
-  const chinaHighlights = selectChinaArticles(chinaResearch, 5);
+  const vascular = digest.groups?.find((group) => group.id === "vascular");
+  const priorityReading = (vascular?.periods?.[7]?.articles || []).slice(0, 10).map(articleToBriefItem);
+  const chinaHighlights = (vascular?.periods?.[7]?.chinaArticles || []).slice(0, 5).map((article) => articleToBriefItem(article, { reasonPrefix: "中国机构研究" }));
   const trialHighlights = selectTrialHighlights(trials, 10);
   const manualReview = buildManualReviewItems({ guidelines, devices, safety, conferenceNews });
   const topicTrends = buildTopicTrends(latest);
@@ -98,38 +81,11 @@ export async function updateWeeklyBrief(options = {}) {
     clinicalTrials: trialHighlights,
     manualReview,
     reviewQueue: manualReview,
-    note: "规则生成周报：基于 PubMed、ClinicalTrials.gov 和派生提醒数据按相关性、研究类型、主题、招募状态和更新时间排序，不调用 AI。"
+    note: "文献采用近7天实际发表、高相关、已核实JCR Q1的精选；不以旧文、未知分区或普通综述凑数。试验与人工复核提醒沿用原规则，不调用AI。"
   };
 
   await writeJsonFile(join(targetDataDir, "weekly-brief.json"), brief);
   return brief;
-}
-
-function selectPriorityArticles(latest, highImpact, limit) {
-  const byPmid = new Map();
-
-  for (const article of [...highImpact, ...latest]) {
-    if (!article?.pmid || article.relevance === "low") continue;
-    byPmid.set(article.pmid, article);
-  }
-
-  return [...byPmid.values()]
-    .filter((article) => hasSpecificVascularTopic(article) && (article.relevance === "high" || hasPriorityStudyType(article) || hasPriorityTopic(article)))
-    .sort((a, b) => articleRank(b) - articleRank(a) || dateValue(b.publicationDate) - dateValue(a.publicationDate))
-    .slice(0, limit)
-    .map(articleToBriefItem);
-}
-
-function selectChinaArticles(chinaResearch, limit) {
-  return [...chinaResearch]
-    .filter((article) => article.relevance !== "low" && hasSpecificVascularTopic(article))
-    .sort((a, b) => articleRank(b) - articleRank(a) || dateValue(b.publicationDate) - dateValue(a.publicationDate))
-    .slice(0, limit)
-    .map((article) =>
-      articleToBriefItem(article, {
-        reasonPrefix: "中国机构研究"
-      })
-    );
 }
 
 function selectTrialHighlights(trials, limit) {
@@ -177,7 +133,7 @@ function selectReviewSignals(items, limit, sourceName, fallbackReason) {
 }
 
 function articleToBriefItem(article, options = {}) {
-  const reason = buildArticleReason(article, options.reasonPrefix);
+  const reason = [options.reasonPrefix, article.selectionReason || "近期高相关一区研究，建议核对研究方法与原文。"].filter(Boolean).join("；");
 
   return {
     pmid: article.pmid || "",
@@ -185,6 +141,7 @@ function articleToBriefItem(article, options = {}) {
     source: article.source || "PubMed",
     date: article.publicationDate || "",
     journal: article.journal || "",
+    journalMetrics: article.journalMetrics || null,
     topicTags: article.topicTags || [],
     studyTypeTags: article.studyTypeTags || [],
     relevance: article.relevance || "review",
@@ -235,15 +192,6 @@ function buildTopicTrends(articles) {
     .slice(0, 8);
 }
 
-function articleRank(article) {
-  const relevanceBonus = { high: 18, medium: 7, review: 1, low: -20 };
-  const typeScore = (article.studyTypeTags || []).filter((tag) => PRIORITY_STUDY_TYPES.has(tag)).length * 5;
-  const topicScore = (article.topicTags || []).filter((tag) => PRIORITY_TOPIC_TAGS.has(tag)).length * 3;
-  const chinaScore = article.isChinaResearch ? 2 : 0;
-  const recencyScore = recencyBonus(article.publicationDate, 60);
-  return (article.score || 0) + (relevanceBonus[article.relevance] || 0) + typeScore + topicScore + chinaScore + recencyScore;
-}
-
 function trialRank(trial) {
   const statusScore = { RECRUITING: 14, NOT_YET_RECRUITING: 10, ACTIVE_NOT_RECRUITING: 8 };
   const topicScore = inferTrialTopicTags(trial).filter((tag) => PRIORITY_TOPIC_TAGS.has(tag)).length * 4;
@@ -257,30 +205,6 @@ function signalRank(item) {
   const topicScore = (item.topicTags || []).filter((tag) => PRIORITY_TOPIC_TAGS.has(tag)).length * 3;
   const relevanceScore = { high: 6, medium: 3, low: -2, review: 0 }[item.relevance] || 0;
   return (item.score || 0) + topicScore + relevanceScore;
-}
-
-function hasPriorityStudyType(article) {
-  return (article.studyTypeTags || []).some((tag) => PRIORITY_STUDY_TYPES.has(tag));
-}
-
-function hasPriorityTopic(article) {
-  return (article.topicTags || []).some((tag) => PRIORITY_TOPIC_TAGS.has(tag));
-}
-
-function hasSpecificVascularTopic(article) {
-  return (article.topicTags || []).some((tag) => SPECIFIC_VASCULAR_TOPIC_TAGS.has(tag));
-}
-
-function buildArticleReason(article, prefix = "") {
-  const parts = [
-    prefix,
-    article.relevance === "high" ? "high relevance" : "",
-    priorityMatches(article.studyTypeTags, PRIORITY_STUDY_TYPES).join(" / "),
-    priorityMatches(article.topicTags, PRIORITY_TOPIC_TAGS).join(" / "),
-    article.score ? `score ${article.score}` : ""
-  ].filter(Boolean);
-
-  return parts.join("；") || "与血管外科主题相关，建议快速浏览摘要和原文。";
 }
 
 function buildSignalReason(item, fallbackReason) {

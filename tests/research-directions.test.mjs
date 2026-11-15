@@ -38,10 +38,11 @@ test("one topic failure preserves its data and allows other 30-day topics to upd
   const original = '[{"pmid":"123","title":"Previous safe data"}]\n';
   const oldFile = join(dir, "topic-hydrogen-brain-iri.json");
   await writeFile(oldFile, original);
-  t.mock.method(globalThis, "fetch", async (input) => {
+  t.mock.method(globalThis, "fetch", async (input, init) => {
     const url = new URL(input);
-    assert.equal(url.searchParams.get("reldate"), "30");
-    return url.searchParams.get("term").includes("molecular hydrogen")
+    const params = init?.method === "POST" ? new URLSearchParams(init.body) : url.searchParams;
+    assert.equal(params.get("reldate"), "30");
+    return params.get("term").includes("molecular hydrogen")
       ? Response.json({ error: "Temporary failure" })
       : Response.json({ esearchresult: { count: "0", idlist: [] } });
   });
