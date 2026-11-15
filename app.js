@@ -16,6 +16,7 @@ const DATA_FILES = {
 
 let journalRegistry = {};
 let resolveJournalMetrics = () => ({ impactFactor: null, cas: null });
+let describeArticle = (article) => article.summaryZh || "暂无内容概述，请查阅原文摘要。";
 
 const RELEVANCE_LABELS = {
   high: "高相关",
@@ -36,6 +37,8 @@ async function initPage() {
   if (["home", "research", "topics", "weekly"].includes(page)) {
     journalRegistry = await loadJson(DATA_FILES.journalMetrics, {});
     const metricsModule = await import("./lib/journal-metrics.js?v=20261101-jcr");
+    const overviewModule = await import("./lib/article-overview.js?v=20261115-overview");
+    describeArticle = (article) => overviewModule.summarizeArticle(article).summaryZh;
     const cache = new Map();
     resolveJournalMetrics = (article) => {
       const key = `${article.journal || ""}|${(article.journalIssns || []).join(",")}`;
@@ -308,10 +311,12 @@ function renderReadingDigest(container, digest, options = {}) {
           <div class="reading-item-meta"><time>${escapeHtml(article.publicationDate)}</time><span>${escapeHtml(article.digestKind || "研究论文")}</span>${!options.groupId ? `<span>${escapeHtml(digest.groups.find((item) => item.id === article.digestGroup)?.title || "")}</span>` : ""}</div>
           <h3><a href="${escapeAttribute(article.pubmedUrl)}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a></h3>
           <div class="reading-journal"><strong>${escapeHtml(article.journal)}</strong>${renderJournalMetrics(article)}</div>
+          <p class="reading-summary"><span class="summary-label">内容概述</span>${escapeHtml(describeArticle(article))}</p>
           <p class="reading-reason">入选理由：${escapeHtml(article.selectionReason || article.summaryZh || "高相关近期研究，建议回到原文复核。")}</p>
+          ${article.abstract ? `<details class="article-abstract"><summary>查看原文摘要</summary><p class="english-summary">${escapeHtml(article.abstract)}</p></details>` : ""}
         </div><a class="reading-source" href="${escapeAttribute(article.pubmedUrl)}" target="_blank" rel="noopener" aria-label="打开 PubMed：${escapeAttribute(article.title)}" title="打开 PubMed">${renderIcon("arrow-up-right")}</a></li>`).join("")}</ol>`
         : `<div class="reading-empty"><strong>近 ${days} 天暂无满足条件的 JCR Q1 精选</strong><p>完整结果仍可查阅；未用旧文或低相关条目凑数。${section.stats?.metricsPending ? `有 ${section.stats.metricsPending} 篇高相关近期候选的期刊指标待核实。` : ""}</p></div>`}
-      <details class="reading-method"><summary>筛选口径与覆盖范围</summary><p>${escapeHtml(digest.note || "")}</p><p>当前核对 ${escapeHtml(digest.metrics?.journalCount || 0)} 本期刊，其中 ${escapeHtml(digest.metrics?.verifiedJcrOneCount || 0)} 本在来源表中为 JCR Q1。指标缺失不代表非Q1；普通综述不入选，人工确认的优质综述每组最多1篇。影响因子是期刊指标，不是单篇论文质量评分。</p></details>`;
+      <details class="reading-method"><summary>筛选口径与覆盖范围</summary><p>${escapeHtml(digest.note || "")}</p><p>内容概述按题名与摘要研究目的中的词句生成，说明研究关注什么，不自动翻译研究结论、不推断疗效或显著性。方法与结果请核对原文摘要。</p><p>当前核对 ${escapeHtml(digest.metrics?.journalCount || 0)} 本期刊，其中 ${escapeHtml(digest.metrics?.verifiedJcrOneCount || 0)} 本在来源表中为 JCR Q1。指标缺失不代表非Q1；普通综述不入选，人工确认的优质综述每组最多1篇。影响因子是期刊指标，不是单篇论文质量评分。</p></details>`;
     container.querySelector("[data-reading-scope]")?.addEventListener("change", (event) => { groupId = event.target.value; render(); });
     container.querySelector("[data-reading-limit]")?.addEventListener("change", (event) => { visibleLimit = Number(event.target.value); render(); });
     container.querySelectorAll("input[type='radio']").forEach((input) => input.addEventListener("change", (event) => { days = Number(event.target.value); render(); }));
@@ -682,7 +687,7 @@ function renderArticleCard(article, options = {}) {
   const studyTypes = getStudyTypeTags(article);
   const pubmedUrl = article.pubmedUrl || (article.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${article.pmid}/` : "");
   const title = escapeHtml(article.title || "Untitled article");
-  const summary = escapeHtml(article.summaryZh || "暂无中文辅助说明。");
+  const summary = escapeHtml(describeArticle(article));
   const abstract = article.abstract || article.englishSummary;
   const englishSummary = abstract && !options.compact ? `<details class="article-abstract"><summary>查看原文摘要</summary><p class="english-summary">${escapeHtml(abstract)}</p></details>` : "";
   const compactClass = options.compact ? " compact" : "";
@@ -701,7 +706,7 @@ function renderArticleCard(article, options = {}) {
         <span>${escapeHtml((article.authors || []).slice(0, 3).join(", ") || "作者信息待补充")}</span>
         ${scoreText}
       </div>
-      <p class="summary">${summary}</p>
+      <p class="summary"><span class="summary-label">内容概述</span>${summary}</p>
       ${englishSummary}
       <div class="tag-row">
         ${topics.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
@@ -846,6 +851,7 @@ function renderBriefItem(item) {
       </div>
       <h4>${url ? `<a href="${escapeAttribute(url)}" target="_blank" rel="noopener">${escapeHtml(item.title || "Untitled item")}</a>` : escapeHtml(item.title || "Untitled item")}</h4>
       ${item.journal ? `<div class="reading-journal"><strong>${escapeHtml(item.journal)}</strong>${renderJournalMetrics(item)}</div>` : ""}
+      ${item.pmid ? `<p class="reading-summary"><span class="summary-label">内容概述</span>${escapeHtml(item.summaryZh || describeArticle(item))}</p>` : ""}
       <p class="brief-reason">${escapeHtml(item.reason || item.summaryZh || "入选理由待补充。")}</p>
       <div class="tag-row">
         ${tags.slice(0, 6).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}

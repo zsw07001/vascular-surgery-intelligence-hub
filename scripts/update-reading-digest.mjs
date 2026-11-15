@@ -1,7 +1,7 @@
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { buildPubMedQuery, readingDigestConfig as config, researchDirectionsConfig } from "./config.mjs";
-import { readJsonFile, writeJsonFile } from "./utils.mjs";
+import { readJsonFile, summarizeWithRules, writeJsonFile } from "./utils.mjs";
 import { retrievePubMedRecords, enrichArticle } from "./update-pubmed.mjs";
 import { decorateDirectionArticle } from "./update-research-directions.mjs";
 import { isVerifiedJcrOne, resolveJournalMetrics } from "../lib/journal-metrics.js";
@@ -74,6 +74,7 @@ export function buildDigestSection(articles, groupId, registry, days, now = new 
   const assessed = recent.map((article) => ({ article, ...assessDigestArticle(article, groupId, registry) }));
   const ranked = assessed.filter((item) => item.eligible).map((item) => ({
     ...item.article,
+    ...summarizeWithRules(item.article),
     journalMetrics: item.metrics,
     digestGroup: groupId,
     digestKind: item.kind,

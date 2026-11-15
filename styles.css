@@ -666,7 +666,9 @@ h3 {
 .journal-metrics small { color: var(--muted); font-size: 10px; }
 .jcr-one { color: var(--teal); font-weight: 600; }
 .metric-pending { color: var(--muted); }
-.reading-reason { margin: 9px 0 0; color: #596877; font-size: 12px; line-height: 1.7; }
+.reading-summary { margin: 10px 0 0; color: var(--ink); font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.summary-label { margin-right: 8px; color: var(--teal); font-size: 12px; font-weight: 700; }
+.reading-reason { margin: 6px 0 0; color: #596877; font-size: 12px; line-height: 1.7; }
 .reading-source { padding-top: 24px; color: var(--blue); }
 .reading-method { padding: 12px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .reading-method summary { cursor: pointer; width: fit-content; }

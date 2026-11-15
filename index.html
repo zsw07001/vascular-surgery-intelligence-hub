@@ -8,7 +8,7 @@
       content="血管外科情报中枢，聚合文献、临床试验、指南共识、器械监管和中国研究。"
     />
     <title>血管外科情报中枢 | Vascular Surgery Intelligence Hub</title>
-    <link rel="stylesheet" href="styles.css?v=20261101-jcr" />
+    <link rel="stylesheet" href="styles.css?v=20261115-overview" />
   </head>
   <body data-page="home">
     <header class="site-header">
@@ -45,15 +45,6 @@
         </div>
       </section>
 
-      <section class="home-reading-band" aria-label="首页文献工作台">
-        <div class="reading-mode-tabs" role="tablist" aria-label="文献视图">
-          <button type="button" role="tab" id="home-selected-tab" aria-selected="true" aria-controls="home-reading-digest" data-reading-view="selected">精选速览</button>
-          <button type="button" role="tab" id="home-all-tab" aria-selected="false" aria-controls="home-full-library" tabindex="-1" data-reading-view="all">全部文献</button>
-        </div>
-        <div id="home-reading-digest" role="tabpanel" aria-labelledby="home-selected-tab" aria-live="polite"><p class="status-loading">正在筛选近期 JCR Q1 论文...</p></div>
-        <div id="home-full-library" role="tabpanel" aria-labelledby="home-all-tab" hidden></div>
-      </section>
-
       <section class="stat-grid" aria-label="核心统计">
         <article class="stat-card">
           <span>近 7 天更新文献 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#book-open"></use></svg></span>
@@ -85,6 +76,15 @@
           <a class="text-link" href="pages/topics.html">全部专题 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a>
         </div>
         <div class="topic-directory" id="home-topics" aria-live="polite"><p class="status-loading">正在加载课题组专题...</p></div>
+      </section>
+
+      <section class="home-reading-band" aria-label="首页文献工作台">
+        <div class="reading-mode-tabs" role="tablist" aria-label="文献视图">
+          <button type="button" role="tab" id="home-selected-tab" aria-selected="true" aria-controls="home-reading-digest" data-reading-view="selected">精选速览</button>
+          <button type="button" role="tab" id="home-all-tab" aria-selected="false" aria-controls="home-full-library" tabindex="-1" data-reading-view="all">全部文献</button>
+        </div>
+        <div id="home-reading-digest" role="tabpanel" aria-labelledby="home-selected-tab" aria-live="polite"><p class="status-loading">正在筛选近期 JCR Q1 论文...</p></div>
+        <div id="home-full-library" role="tabpanel" aria-labelledby="home-all-tab" hidden></div>
       </section>
 
       <div class="home-workspace">
@@ -131,6 +131,6 @@
       <p>仅作为情报聚合和阅读辅助，不构成医学建议。正式判断应回到原始论文、指南和监管文件。</p>
     </footer>
 
-    <script src="app.js?v=20261101-jcr" defer></script>
+    <script src="app.js?v=20261115-overview" defer></script>
   </body>
 </html>

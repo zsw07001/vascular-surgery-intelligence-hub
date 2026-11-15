@@ -1,7 +1,7 @@
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { researchDirectionsConfig } from "./config.mjs";
-import { ensureArray, readJsonFile, writeJsonFile } from "./utils.mjs";
+import { ensureArray, readJsonFile, summarizeWithRules, writeJsonFile } from "./utils.mjs";
 import { retrievePubMedRecords, getStudyTypeTags, hasChinaAffiliation } from "./update-pubmed.mjs";
 
 const rootDir = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -56,11 +56,12 @@ export function decorateDirectionArticle(article, direction) {
   const rules = researchDirectionsConfig.scoring;
   const score = groups.length * rules.groupMatch + (titleMatch ? rules.titleMatch : 0);
   const isChinaResearch = hasChinaAffiliation(article.affiliations || []);
+  const summary = summarizeWithRules(article);
   return {
     pmid: article.pmid,
     title: article.title,
     abstract: article.abstract,
-    englishSummary: article.abstract.split(/(?<=[.!?])\s+/).slice(0, 3).join(" "),
+    englishSummary: summary.englishSummary,
     journal: article.journal,
     journalIssns: article.journalIssns || [],
     publicationDate: article.publicationDate,
@@ -76,7 +77,7 @@ export function decorateDirectionArticle(article, direction) {
     score,
     scoreReasons: [...groups.map((group) => `+${rules.groupMatch} 专题匹配: ${group.tag}`), ...(titleMatch ? [`+${rules.titleMatch} 标题命中专题词`] : [])],
     isChinaResearch,
-    summaryZh: groups.map((group) => group.note).slice(0, 2).join(" ") || `该文献由“${direction.title}”独立检索式收录，建议结合原文确认相关性。`,
+    summaryZh: summary.summaryZh,
     source: "PubMed",
     researchDirection: direction.id
   };
