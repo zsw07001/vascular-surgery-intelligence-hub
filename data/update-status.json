@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T11:14:34.606Z",
+  "lastUpdated": "2026-11-15T11:18:01.387Z",
   "mode": "pubmed",
   "note": "PubMed 已接入真实 ESearch/EFetch；ClinicalTrials.gov 已接入 API v2。",
   "sources": [
@@ -8,9 +8,9 @@
       "status": "success",
       "count": 1935,
       "message": "PubMed 近 7 天命中 1935 篇，完整入库 1935 篇。",
-      "startedAt": "2026-11-15T11:13:03.033Z",
-      "finishedAt": "2026-11-15T11:13:37.707Z",
-      "lastSuccessfulUpdate": "2026-11-15T11:13:37.707Z"
+      "startedAt": "2026-11-15T11:16:55.980Z",
+      "finishedAt": "2026-11-15T11:17:27.745Z",
+      "lastSuccessfulUpdate": "2026-11-15T11:17:27.745Z"
     },
     {
       "name": "ClinicalTrials.gov",
@@ -42,48 +42,48 @@
       "status": "success",
       "count": 25,
       "message": "Weekly brief generated from current PubMed and ClinicalTrials.gov JSON.",
-      "finishedAt": "2026-11-15T11:14:34.606Z"
+      "finishedAt": "2026-11-15T11:18:01.387Z"
     },
     {
       "name": "Reading Digest / JCR Q1 速览",
       "status": "success",
       "count": 42,
       "message": "按发表日期与已核实JCR Q1生成精选；首页可自由切换精选/全部文献。",
-      "finishedAt": "2026-11-15T11:14:20.379Z"
+      "finishedAt": "2026-11-15T11:17:51.842Z"
     },
     {
       "name": "中文详读整理稿",
       "status": "success",
       "count": 42,
       "message": "可用 42 篇；当前精选待整理 0 篇。AI辅助整理，未经医学审校；新增或原文变化时显示完整英文摘要，不自动翻译。",
-      "finishedAt": "2026-11-15T11:14:34.433Z"
+      "finishedAt": "2026-11-15T11:18:01.175Z"
     },
     {
       "name": "课题组专题 · 氢气治疗与脑缺血再灌注",
       "status": "success",
       "count": 1018,
-      "finishedAt": "2026-11-15T11:14:13.211Z",
+      "finishedAt": "2026-11-15T11:17:47.207Z",
       "message": "近 30 天完整收录 1018 篇，不使用血管外科排除规则。"
     },
     {
       "name": "课题组专题 · 血流震颤与血管功能检测",
       "status": "success",
       "count": 92,
-      "finishedAt": "2026-11-15T11:14:15.955Z",
+      "finishedAt": "2026-11-15T11:17:48.830Z",
       "message": "近 30 天完整收录 92 篇，不使用血管外科排除规则。"
     },
     {
       "name": "课题组专题 · 可降解支架",
       "status": "success",
       "count": 85,
-      "finishedAt": "2026-11-15T11:14:18.134Z",
+      "finishedAt": "2026-11-15T11:17:50.133Z",
       "message": "近 30 天完整收录 85 篇，不使用血管外科排除规则。"
     },
     {
       "name": "课题组专题 · 神经与血管电信号互调",
       "status": "success",
       "count": 61,
-      "finishedAt": "2026-11-15T11:14:20.378Z",
+      "finishedAt": "2026-11-15T11:17:51.841Z",
       "message": "近 30 天完整收录 61 篇，不使用血管外科排除规则。"
     }
   ],
@@ -111,15 +111,15 @@
       "fetchBatches": 20
     },
     "changes": {
-      "comparable": false,
-      "comparedWith": "2026-11-15T11:09:55.427Z",
-      "added": null,
-      "updated": null,
-      "removedFromWindow": null,
-      "unchanged": null,
-      "note": "本次建立完整数据基线；后续显示相较上次成功同步的新入库和内容变更。"
+      "comparable": true,
+      "comparedWith": "2026-11-15T11:13:37.707Z",
+      "added": 0,
+      "updated": 0,
+      "removedFromWindow": 0,
+      "unchanged": 1935,
+      "note": "与上次完整同步比较；新入库指新增到本站的 PMID，内容变更指同一 PMID 的原始文献字段变化。移出窗口不代表论文被撤回。"
     },
-    "lastSuccessfulUpdate": "2026-11-15T11:13:37.707Z",
+    "lastSuccessfulUpdate": "2026-11-15T11:17:27.745Z",
     "highImpactCount": 747,
     "chinaResearchCount": 245
   },
