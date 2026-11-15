@@ -4,7 +4,7 @@ import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { pubmedConfig, buildPubMedQuery } from "../scripts/config.mjs";
-import { updatePubMed, compareSnapshots, retrievePubMedRecords } from "../scripts/update-pubmed.mjs";
+import { updatePubMed, compareSnapshots, retrievePubMedRecords, parsePubMedXml } from "../scripts/update-pubmed.mjs";
 
 async function setup(t, fetcher) {
   const dir = await mkdtemp(join(tmpdir(), "vsih-pubmed-"));
@@ -145,12 +145,31 @@ test("temporary HTTP 500 is retried before data is replaced", async (t) => {
 test("snapshot differences distinguish new IDs, edited content and window expiry", () => {
   const before = [{ pmid: "1", title: "Old" }, { pmid: "2", title: "Same", score: 4 }, { pmid: "3", title: "Expired" }];
   const after = [{ pmid: "1", title: "Revised" }, { pmid: "2", title: "Same", score: 8 }, { pmid: "4", title: "New" }];
-  const status = { pubmed: { retrieval: { complete: true }, counts: { total: 3 }, query: buildPubMedQuery(), lookbackDays: pubmedConfig.lookbackDays, dateType: pubmedConfig.dateType } };
+  const status = { pubmed: { retrieval: { complete: true, contentParserVersion: pubmedConfig.contentParserVersion }, counts: { total: 3 }, query: buildPubMedQuery(), lookbackDays: pubmedConfig.lookbackDays, dateType: pubmedConfig.dateType } };
   const changes = compareSnapshots(before, after, status, buildPubMedQuery());
   assert.equal(changes.added, 1);
   assert.equal(changes.updated, 1);
   assert.equal(changes.removedFromWindow, 1);
   assert.equal(changes.unchanged, 1);
+});
+
+test("abstract and title inline markup preserve sentence order, labels and numbers", () => {
+  const xml = '<PubmedArticleSet><PubmedArticle><MedlineCitation><PMID>123</PMID><Article><ArticleTitle>Effects of <i>p</i>53 and H<sub>2</sub></ArticleTitle><Abstract><AbstractText Label="RESULTS">The <i>p</i> value was 0.03; <b>52</b> of 4231 (1.23%) had events.</AbstractText><AbstractText Label="CONCLUSIONS">H<sub>2</sub> did <i>not</i> improve survival.</AbstractText></Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet>';
+  const [article] = parsePubMedXml(xml);
+  assert.equal(article.title, "Effects of p53 and H2");
+  assert.equal(article.abstract, "RESULTS: The p value was 0.03; 52 of 4231 (1.23%) had events.\n\nCONCLUSIONS: H2 did not improve survival.");
+});
+
+test("numeric XML entities are decoded without changing mathematical comparisons or inline order", () => {
+  const xml = '<PubmedArticleSet><PubmedArticle><MedlineCitation><PMID>124</PMID><Article><ArticleTitle>A &amp; B &#x3b2;</ArticleTitle><Abstract><AbstractText Label="RESULTS">x &#x2265; 2; <i>p</i> &lt; .05; &#945; &#x00b1; 1.</AbstractText></Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet>';
+  const [article] = parsePubMedXml(xml);
+  assert.equal(article.title, "A & B β");
+  assert.equal(article.abstract, "RESULTS: x ≥ 2; p < .05; α ± 1.");
+});
+
+test("a parser revision rebuilds the comparison baseline instead of reporting formatting fixes as new literature", () => {
+  const status = { pubmed: { retrieval: { complete: true, contentParserVersion: 1 }, counts: { total: 0 }, query: buildPubMedQuery(), lookbackDays: pubmedConfig.lookbackDays, dateType: pubmedConfig.dateType } };
+  assert.equal(compareSnapshots([], [], status, buildPubMedQuery()).comparable, false);
 });
 
 test("a transient ESearch backend error inside HTTP 200 is retried, not treated as no results", async (t) => {

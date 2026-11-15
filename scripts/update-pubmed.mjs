@@ -11,6 +11,7 @@ import {
   topicTagRules
 } from "./config.mjs";
 import { ensureArray, loadDotEnv, readJsonFile, summarizeWithRules, writeJsonFile } from "./utils.mjs";
+import { normalizeAbstract } from "../lib/abstract-content.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -20,8 +21,10 @@ const parser = new XMLParser({
   attributeNamePrefix: "@_",
   textNodeName: "#text",
   parseTagValue: false,
+  stopNodes: ["*.ArticleTitle", "*.AbstractText"],
   trimValues: true
 });
+const richTextParser = new XMLParser({ preserveOrder: true, ignoreAttributes: true, parseTagValue: false, trimValues: false });
 
 export async function updatePubMed(options = {}) {
   const rootDir = options.rootDir || defaultRootDir;
@@ -63,6 +66,7 @@ export async function updatePubMed(options = {}) {
   counts.highImpact = highImpact.length;
   counts.china = chinaResearch.length;
   const retrieval = {
+    contentParserVersion: pubmedConfig.contentParserVersion,
     matchedCount: search.matchedCount,
     fetchedCount: deduped.length,
     complete: true,
@@ -306,7 +310,7 @@ function retryDelayMs(attempt) {
   return baseDelay * 2 ** (attempt - 1) + jitter;
 }
 
-function parsePubMedXml(xml) {
+export function parsePubMedXml(xml) {
   if (XMLValidator.validate(xml) !== true) {
     throw new Error("PubMed returned malformed XML; existing data was preserved.");
   }
@@ -343,6 +347,7 @@ function normalizePubMedBook(record) {
 export function compareSnapshots(previous, current, status, query) {
   const meta = status?.pubmed;
   const comparable = meta?.retrieval?.complete === true && meta?.counts?.total === previous.length &&
+    meta?.retrieval?.contentParserVersion === pubmedConfig.contentParserVersion &&
     meta?.query === query && meta?.lookbackDays === pubmedConfig.lookbackDays && meta?.dateType === pubmedConfig.dateType;
   const base = {
     comparable,
@@ -396,7 +401,7 @@ function normalizePubMedArticle(record) {
 
   return {
     pmid,
-    title: cleanText(textValue(article.ArticleTitle)),
+    title: richTextValue(article.ArticleTitle),
     abstract,
     journal: cleanText(textValue(journal.Title || journal.ISOAbbreviation)),
     journalIssns: [...new Set([textValue(journal.ISSN), textValue(citation.MedlineJournalInfo?.ISSNLinking)].filter(Boolean))],
@@ -590,13 +595,22 @@ function extractAbstract(article) {
   const abstractText = arrayify(article?.Abstract?.AbstractText)
     .map((part) => {
       const label = textValue(part?.["@_Label"]);
-      const text = cleanText(textValue(part));
+      const text = richTextValue(part);
       if (!text) return "";
       return label ? `${label}: ${text}` : text;
     })
     .filter(Boolean);
 
-  return abstractText.join(" ");
+  return abstractText.join("\n\n");
+}
+
+function richTextValue(value) {
+  const raw = typeof value === "object" && value !== null ? value["#text"] ?? textValue(value) : textValue(value);
+  // Inline italics, superscripts and numeric entities must retain their position in the source sentence.
+  const flatten = (nodes) => nodes.map((node) => Object.entries(node).map(([key, child]) =>
+    key === "#text" ? String(child) : Array.isArray(child) ? flatten(child) : ""
+  ).join("")).join("");
+  return normalizeAbstract(flatten(richTextParser.parse(`<fragment>${raw}</fragment>`)));
 }
 
 function extractMeshTerms(citation) {

@@ -4,6 +4,7 @@ export const pubmedConfig = {
   lookbackDays: 7,
   searchPageSize: 500,
   fetchBatchSize: 100,
+  contentParserVersion: 3,
   requestDelayMs: 400,
   requestTimeoutMs: 30000,
   postThreshold: 1800,

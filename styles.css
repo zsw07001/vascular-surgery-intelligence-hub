@@ -667,6 +667,27 @@ h3 {
 .jcr-one { color: var(--teal); font-weight: 600; }
 .metric-pending { color: var(--muted); }
 .reading-summary { margin: 10px 0 0; color: var(--ink); font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.abstract-expand { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.abstract-reader { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.abstract-reader > summary { color: var(--teal); font-weight: 600; font-size: 13px; cursor: pointer; overflow-wrap: anywhere; }
+.abstract-mode { display: flex; flex-wrap: wrap; gap: 0; margin: 12px 0 8px; border-bottom: 1px solid var(--line); }
+.abstract-mode button { border: 0; border-bottom: 2px solid transparent; background: transparent; padding: 8px 12px; color: var(--muted); font: inherit; font-size: 12px; cursor: pointer; }
+.abstract-mode button[aria-pressed="true"] { border-bottom-color: var(--teal); color: var(--teal); font-weight: 700; }
+.abstract-mode button:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+.abstract-disclaimer, .abstract-missing { color: var(--muted); font-size: 11px; line-height: 1.7; margin: 8px 0 12px; overflow-wrap: anywhere; }
+.abstract-panes { min-width: 0; }
+.abstract-reader[data-mode="parallel"] .abstract-panes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; }
+.abstract-pane { min-width: 0; }
+.abstract-section { padding: 0; margin: 0 0 14px; }
+.abstract-section h4 { margin: 0 0 4px; color: var(--teal); font-size: 12px; font-weight: 700; }
+.abstract-section p { margin: 0; color: #344454; font-size: 14px; line-height: 1.95; overflow-wrap: anywhere; white-space: normal; }
+.abstract-pane[lang="en"] p { line-height: 1.85; }
+@media (max-width: 700px) {
+  .abstract-reader[data-mode="parallel"] .abstract-panes { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .abstract-reader[data-mode="parallel"] .abstract-pane[lang="en"] { padding-top: 14px; border-top: 1px solid var(--line); }
+  .abstract-section p { font-size: 13px; }
+  .abstract-mode button { padding: 8px 10px; }
+}
 .summary-label { margin-right: 8px; color: var(--teal); font-size: 12px; font-weight: 700; }
 .reading-reason { margin: 6px 0 0; color: #596877; font-size: 12px; line-height: 1.7; }
 .reading-source { padding-top: 24px; color: var(--blue); }

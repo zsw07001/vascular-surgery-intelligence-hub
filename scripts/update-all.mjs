@@ -9,6 +9,7 @@ import { updateDerivedInsights } from "./update-derived-insights.mjs";
 import { updateWeeklyBrief } from "./update-weekly-brief.mjs";
 import { updateResearchDirections } from "./update-research-directions.mjs";
 import { updateReadingDigest } from "./update-reading-digest.mjs";
+import { updateDetailedAbstracts } from "./update-detailed-abstracts.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -32,6 +33,7 @@ async function main() {
   const derivedResult = await runDerivedInsightsSafely();
   const researchDirectionsResult = await runResearchDirectionsSafely();
   const digestResult = await runReadingDigestSafely();
+  const detailedResult = await runDetailedAbstractsSafely();
   const weeklyBriefResult = await runWeeklyBriefSafely();
 
   const updateStatus = {
@@ -90,6 +92,13 @@ async function main() {
         message: digestResult.ok ? "按发表日期与已核实JCR Q1生成精选；首页可自由切换精选/全部文献。" : digestResult.error,
         finishedAt: digestResult.finishedAt
       },
+      {
+        name: "中文详读整理稿",
+        status: detailedResult.ok ? "success" : "error",
+        count: detailedResult.count,
+        message: detailedResult.ok ? `可用 ${detailedResult.count} 篇；当前精选待整理 ${detailedResult.pending} 篇。AI辅助整理，未经医学审校；新增或原文变化时显示完整英文摘要，不自动翻译。` : detailedResult.error,
+        finishedAt: detailedResult.finishedAt
+      },
       ...researchDirectionsResult.sources
     ],
     pubmed: {
@@ -111,9 +120,12 @@ async function main() {
       derivedResult.ok ? "" : derivedResult.error,
       weeklyBriefResult.ok ? "" : weeklyBriefResult.error,
       digestResult.ok ? "" : digestResult.error,
+      detailedResult.ok ? "" : detailedResult.error,
       ...researchDirectionsResult.errors
     ].filter(Boolean),
-    manualReview: buildManualReviewItems(pubmedResult, effectiveCounts),
+    manualReview: [...buildManualReviewItems(pubmedResult, effectiveCounts), detailedResult.ok
+      ? `中文详读未经医学审校；当前精选 ${detailedResult.pending} 篇待整理，${detailedResult.stale} 篇旧稿因原文变化已停用。请核对效应量、否定句及动物/临床证据边界。`
+      : "中文详读校验失败，已保留旧文件；请核对原文，页面仅使用与当前摘要一致的稿件。"],
     configPreview: {
       pubmedQuery: buildPubMedQuery(),
       clinicalTrialTopics: clinicalTrialsConfig.topics
@@ -139,6 +151,17 @@ async function main() {
   }
   if (clinicalTrialsResult.ok) {
     console.log(`ClinicalTrials.gov update complete: ${clinicalTrialsResult.count} trials.`);
+  }
+}
+
+async function runDetailedAbstractsSafely() {
+  try {
+    const result = await updateDetailedAbstracts({ dataDir });
+    console.log(`Detailed abstracts: ${result.counts.available} available, ${result.counts.pendingSelected} selected pending.`);
+    return { ok: true, count: result.counts.available, pending: result.counts.pendingSelected, stale: result.staleNotes.length, finishedAt: result.generatedAt };
+  } catch (error) {
+    const old = await readJsonFile(join(dataDir, "detailed-abstracts.json"), {}).catch(() => ({}));
+    return { ok: false, count: Object.keys(old.records || {}).length, error: error.message, finishedAt: old.generatedAt || null };
   }
 }
 

@@ -8,6 +8,7 @@
     "dev": "node scripts/dev-server.mjs",
     "test": "node --test tests/*.test.mjs",
     "digest": "node scripts/update-reading-digest.mjs",
+    "abstracts": "node scripts/update-detailed-abstracts.mjs",
     "update": "node scripts/update-all.mjs"
   },
   "engines": {

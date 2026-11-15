@@ -138,6 +138,8 @@ function articleToBriefItem(article, options = {}) {
   return {
     pmid: article.pmid || "",
     title: article.title || "Untitled article",
+    abstract: article.abstract || "",
+    journalIssns: article.journalIssns || [],
     source: article.source || "PubMed",
     date: article.publicationDate || "",
     journal: article.journal || "",
