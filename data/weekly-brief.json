@@ -1,92 +1,92 @@
 {
-  "generatedAt": "2026-11-15T23:58:46.178Z",
+  "generatedAt": "2026-11-17T02:56:27.282Z",
   "period": {
-    "start": "2026-11-09",
-    "end": "2026-11-15"
+    "start": "2026-11-11",
+    "end": "2026-11-17"
   },
-  "dataUpdatedAt": "2026-11-15T23:58:46.178Z",
+  "dataUpdatedAt": "2026-11-17T02:56:27.282Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
-      "count": 1950,
-      "updatedAt": "2026-11-15T23:58:46.178Z"
+      "count": 1602,
+      "updatedAt": "2026-11-17T02:56:27.282Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 773,
-      "updatedAt": "2026-11-15T23:58:46.178Z"
+      "count": 776,
+      "updatedAt": "2026-11-17T02:56:27.282Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 30,
-      "updatedAt": "2026-11-15T23:58:46.178Z"
+      "updatedAt": "2026-11-17T02:56:27.282Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-15T23:58:46.178Z"
+      "updatedAt": "2026-11-17T02:56:27.282Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-15T23:58:46.178Z"
+      "updatedAt": "2026-11-17T02:56:27.282Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
-      "count": 25,
-      "updatedAt": "2026-11-15T23:58:46.178Z"
+      "count": 23,
+      "updatedAt": "2026-11-17T02:56:27.282Z"
     }
   ],
   "counts": {
-    "latestResearch": 1950,
-    "highImpact": 752,
-    "chinaResearch": 246,
-    "clinicalTrials": 773,
+    "latestResearch": 1602,
+    "highImpact": 687,
+    "chinaResearch": 250,
+    "clinicalTrials": 776,
     "guidelines": 30,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
-    "totalBriefItems": 25
+    "totalBriefItems": 23
   },
-  "overviewZh": "本周自动汇总 1950 篇 PubMed 文献、773 项进行中/招募中临床试验，并筛出 25 条重点简报条目。",
+  "overviewZh": "本周自动汇总 1602 篇 PubMed 文献、776 项进行中/招募中临床试验，并筛出 23 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Imaging / Diagnosis",
-      "count": 665
+      "count": 604
     },
     {
       "tag": "Endovascular",
-      "count": 618
+      "count": 579
     },
     {
       "tag": "Venous Disease",
-      "count": 393
+      "count": 318
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 341
-    },
-    {
-      "tag": "Aortic Disease",
-      "count": 262
-    },
-    {
-      "tag": "PAD / CLTI",
-      "count": 249
+      "count": 309
     },
     {
       "tag": "China Research",
-      "count": 246
+      "count": 250
+    },
+    {
+      "tag": "Aortic Disease",
+      "count": 224
+    },
+    {
+      "tag": "PAD / CLTI",
+      "count": 179
     },
     {
       "tag": "Open Surgery",
-      "count": 176
+      "count": 149
     }
   ],
   "priorityReading": [
@@ -150,66 +150,6 @@
       "doi": "10.1056/NEJMoa2602435"
     },
     {
-      "pmid": "43008844",
-      "title": "The IMA-PLUS Score for Predicting Type 2 Endoleak After Endovascular Repair: Development and External Validation in European and Japanese Cohorts.",
-      "abstract": "OBJECTIVE: Prophylactic embolisation of infrarenal branch vessels has been investigated to prevent type 2 endoleak (EL2) following endovascular repair (EVAR) of abdominal aortic aneurysms (AAA), but patient selection is poorly defined. In this study, a computed tomography angiography (CTA) based risk score was developed and validated to predict EL2 after EVAR.\n\nMETHODS: This multicentre, retrospective diagnostic study used prospectively collected data from the Zenith alpha for aneurysm Repair Registry (ZEPHYR) as the development cohort. Eligible patients underwent standard EVAR with pre-operative arterial phase CTA and at least one post-operative delayed phase CTA. The model was converted into a numerical score (\"IMA-PLUS Score\") and validated in two retrospective cohorts. Discrimination, calibration, and risk group thresholds were assessed. In validation cohorts, freedom from AAA expansion and EL2 associated reinterventions up to 5 years were analysed.\n\nRESULTS: Data from 245 patients of the ZEPHYR registry were included. EL2 occurred in 96 patients (39.2%). The IMA-PLUS Score includes inferior mesenteric artery diameter, number of infrarenal renal pole arteries, number of patent lumbar arteries, and median sacral artery patency, achieving a crossvalidated area under the curve (AUC) of 0.78. Using prespecified thresholds (low < 128, medium 128 - 200, high > 200), observed EL2 incidences in ZEPHYR were 19%, 59%, and 74%. In the Heidelberg cohort (n = 134; EL2 44%), AUC was 0.77 (95% confidence intervals [CI] 0.69 - 0.85) with EL2 incidences of 24%, 60%, and 89% across risk groups with good calibration; interobserver agreement for total score was high (intraclass correlation coefficient of 0.95). In the Tokyo cohort (n = 123; EL2 52.8%) AUC was 0.75 (95% CI 0.67 - 0.84); EL2 incidences were 36%, 76%, and 80%, with higher observed incidence than predicted. In validation cohorts, the IMA-PLUS Score was associated with AAA expansion and reduced freedom from EL2 associated reinterventions.\n\nCONCLUSION: The IMA-PLUS Score may support selection of patients for future studies on preventive management strategies.",
-      "journalIssns": [
-        "1532-2165",
-        "1078-5884"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-10",
-      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-      "journalMetrics": {
-        "journalId": "ejves",
-        "impactFactor": {
-          "value": 8.5,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 1,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "pvd-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [
-        "Cohort",
-        "Registry"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦腹主动脉瘤。主要内容涉及血管腔内修复、风险预测模型或评分、II型内漏的预测或管理。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008844/",
-      "doi": "10.1016/j.ejvs.2026.11.003"
-    },
-    {
       "pmid": "43018065",
       "title": "Predictors of Clinically Meaningful 1-Year Health Status Improvements Following Endovascular or Surgical Revascularization: Insights From the BEST-CLI Trial.",
       "abstract": "BACKGROUND: Despite efforts to promote limb salvage in chronic limb-threatening ischemia (CLTI), the factors associated with meaningful health status improvement after revascularization remain poorly understood. We examined predictors of meaningful 1-year health status improvement following revascularization for CLTI.\n\nMETHODS: We pooled endovascular and surgical arms from the BEST-CLI (Best Endovascular Versus Best Surgical Therapy in Patients With CLTI) randomized controlled trial, including patients with CLTI (150 international sites, 2014-2019). Health status was assessed at baseline and 1 year using the peripheral artery disease-specific Vascular Quality of Life questionnaire, the generic European Quality-of-Life 5 Dimensions, and the Short Form-12 Physical and Mental Component Summary. Distribution-based minimal clinically important difference thresholds were defined as 0.5 SD of baseline health status scores. Multivariable logistic regression identified predictors of no meaningful 1-year improvement (same/worsened versus improved).\n\nRESULTS: Among 1017 patients (72.0% men, mean age 66.8±9.7 years), clinically meaningful improvements were reported by 76.5% for Vascular Quality of Life, 52.8% European Quality-of-Life 5 Dimensions, 56.7% for Short Form-12 Physical Component Summary, and 42.1% for Short Form-12 Mental Component Summary, regardless of revascularization type (surgical versus endovascular). Cardiometabolic risk factors and higher preprocedural health status increased the odds of no meaningful improvement. Revascularization type was not associated with Vascular Quality of Life improvement (odds ratio, 1.059 [95% CI, 0.91-1.23]; P=0.445; C statistic=0.77).\n\nCONCLUSIONS: One-year postrevascularization, over three-fourths of individuals with CLTI perceived meaningful improvements in peripheral artery disease-specific health, and over half improved overall physical health, regardless of procedure type. Cardiometabolic risk factors and higher preprocedural health status predicted 1-year health status response. REGISTRATION: URL: https://clinicaltrials.gov; Unique identifier: NCT02060630.",
@@ -321,65 +261,6 @@
       "summaryZh": "这篇文献聚焦血管疾病及其治疗。主要内容涉及培训与测量表现。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43014502/",
       "doi": "10.1016/j.ejvs.2026.11.018"
-    },
-    {
-      "pmid": "43003250",
-      "title": "Prognosis of Patients with Delayed Abdominal Aortic Aneurysm Rupture after Endovascular Aortic Repair: A Multicentre Retrospective Study in France.",
-      "abstract": "OBJECTIVE: The majority of patients with abdominal aortic aneurysm (AAA) undergo endovascular aortic repair (EVAR). Despite its high overall success rate, EVAR does not eliminate the risk of aneurysm rupture. This study aimed to evaluate the prognosis of patients undergoing surgical management for post-EVAR rupture.\n\nMETHODS: A multicentre retrospective study of patients who presented with ruptured AAA after successful EVAR between 2007 and 2022 at 22 academic hospitals was conducted. The index EVAR procedures were performed between 2002 and 2020. Data were extracted from electronic hospital records and computed tomography scans. Death during follow up was ascertained using the French register of deceased persons. Survival probabilities at 30, 90, and 365 days were estimated with Kaplan-Meier estimators. Cox proportional hazards survival regression was used to identify determinants associated with increased risk of death.\n\nRESULTS: One hundred and nine patients (96 men) were included, with a mean age of 79.1 ± 9 years at the time of rupture. The median time from index EVAR to rupture was 50 months (range 0 - 179 months). Sixty-seven patients had open surgery (of which 37% underwent suprarenal cross clamping), 39 received endovascular treatment, and three underwent hybrid repair. Overall mortality was 26.6% at thirty days, increasing to 33.9% at ninety days, and 41.3% at 1 year. Neither the type of endoleak nor the type of repair was significantly associated with risk of death during follow up. Post-operative complications were frequent, including renal complications (44.0%), major haemorrhage (22.9%), respiratory distress (19.3%), and mesenteric ischaemia (6%).\n\nCONCLUSION: This study presented a large multicentre series of patients treated for ruptured AAA after EVAR. Despite considerable progress in stent graft technology, EVAR offers little protection in the event of late rupture, even among patients with type II endoleak only. The mortality rate in this study is within the range of those published based on de novo AAA rupture.",
-      "journalIssns": [
-        "1532-2165",
-        "1078-5884"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-09",
-      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-      "journalMetrics": {
-        "journalId": "ejves",
-        "impactFactor": {
-          "value": 8.5,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 1,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "pvd-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦腹主动脉瘤。主要内容涉及血管腔内修复。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43003250/",
-      "doi": "10.1016/j.ejvs.2026.11.014"
     }
   ],
   "priorityArticles": [
@@ -443,66 +324,6 @@
       "doi": "10.1056/NEJMoa2602435"
     },
     {
-      "pmid": "43008844",
-      "title": "The IMA-PLUS Score for Predicting Type 2 Endoleak After Endovascular Repair: Development and External Validation in European and Japanese Cohorts.",
-      "abstract": "OBJECTIVE: Prophylactic embolisation of infrarenal branch vessels has been investigated to prevent type 2 endoleak (EL2) following endovascular repair (EVAR) of abdominal aortic aneurysms (AAA), but patient selection is poorly defined. In this study, a computed tomography angiography (CTA) based risk score was developed and validated to predict EL2 after EVAR.\n\nMETHODS: This multicentre, retrospective diagnostic study used prospectively collected data from the Zenith alpha for aneurysm Repair Registry (ZEPHYR) as the development cohort. Eligible patients underwent standard EVAR with pre-operative arterial phase CTA and at least one post-operative delayed phase CTA. The model was converted into a numerical score (\"IMA-PLUS Score\") and validated in two retrospective cohorts. Discrimination, calibration, and risk group thresholds were assessed. In validation cohorts, freedom from AAA expansion and EL2 associated reinterventions up to 5 years were analysed.\n\nRESULTS: Data from 245 patients of the ZEPHYR registry were included. EL2 occurred in 96 patients (39.2%). The IMA-PLUS Score includes inferior mesenteric artery diameter, number of infrarenal renal pole arteries, number of patent lumbar arteries, and median sacral artery patency, achieving a crossvalidated area under the curve (AUC) of 0.78. Using prespecified thresholds (low < 128, medium 128 - 200, high > 200), observed EL2 incidences in ZEPHYR were 19%, 59%, and 74%. In the Heidelberg cohort (n = 134; EL2 44%), AUC was 0.77 (95% confidence intervals [CI] 0.69 - 0.85) with EL2 incidences of 24%, 60%, and 89% across risk groups with good calibration; interobserver agreement for total score was high (intraclass correlation coefficient of 0.95). In the Tokyo cohort (n = 123; EL2 52.8%) AUC was 0.75 (95% CI 0.67 - 0.84); EL2 incidences were 36%, 76%, and 80%, with higher observed incidence than predicted. In validation cohorts, the IMA-PLUS Score was associated with AAA expansion and reduced freedom from EL2 associated reinterventions.\n\nCONCLUSION: The IMA-PLUS Score may support selection of patients for future studies on preventive management strategies.",
-      "journalIssns": [
-        "1532-2165",
-        "1078-5884"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-10",
-      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-      "journalMetrics": {
-        "journalId": "ejves",
-        "impactFactor": {
-          "value": 8.5,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 1,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "pvd-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [
-        "Cohort",
-        "Registry"
-      ],
-      "relevance": "high",
-      "score": 7,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦腹主动脉瘤。主要内容涉及血管腔内修复、风险预测模型或评分、II型内漏的预测或管理。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008844/",
-      "doi": "10.1016/j.ejvs.2026.11.003"
-    },
-    {
       "pmid": "43018065",
       "title": "Predictors of Clinically Meaningful 1-Year Health Status Improvements Following Endovascular or Surgical Revascularization: Insights From the BEST-CLI Trial.",
       "abstract": "BACKGROUND: Despite efforts to promote limb salvage in chronic limb-threatening ischemia (CLTI), the factors associated with meaningful health status improvement after revascularization remain poorly understood. We examined predictors of meaningful 1-year health status improvement following revascularization for CLTI.\n\nMETHODS: We pooled endovascular and surgical arms from the BEST-CLI (Best Endovascular Versus Best Surgical Therapy in Patients With CLTI) randomized controlled trial, including patients with CLTI (150 international sites, 2014-2019). Health status was assessed at baseline and 1 year using the peripheral artery disease-specific Vascular Quality of Life questionnaire, the generic European Quality-of-Life 5 Dimensions, and the Short Form-12 Physical and Mental Component Summary. Distribution-based minimal clinically important difference thresholds were defined as 0.5 SD of baseline health status scores. Multivariable logistic regression identified predictors of no meaningful 1-year improvement (same/worsened versus improved).\n\nRESULTS: Among 1017 patients (72.0% men, mean age 66.8±9.7 years), clinically meaningful improvements were reported by 76.5% for Vascular Quality of Life, 52.8% European Quality-of-Life 5 Dimensions, 56.7% for Short Form-12 Physical Component Summary, and 42.1% for Short Form-12 Mental Component Summary, regardless of revascularization type (surgical versus endovascular). Cardiometabolic risk factors and higher preprocedural health status increased the odds of no meaningful improvement. Revascularization type was not associated with Vascular Quality of Life improvement (odds ratio, 1.059 [95% CI, 0.91-1.23]; P=0.445; C statistic=0.77).\n\nCONCLUSIONS: One-year postrevascularization, over three-fourths of individuals with CLTI perceived meaningful improvements in peripheral artery disease-specific health, and over half improved overall physical health, regardless of procedure type. Cardiometabolic risk factors and higher preprocedural health status predicted 1-year health status response. REGISTRATION: URL: https://clinicaltrials.gov; Unique identifier: NCT02060630.",
@@ -614,65 +435,6 @@
       "summaryZh": "这篇文献聚焦血管疾病及其治疗。主要内容涉及培训与测量表现。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43014502/",
       "doi": "10.1016/j.ejvs.2026.11.018"
-    },
-    {
-      "pmid": "43003250",
-      "title": "Prognosis of Patients with Delayed Abdominal Aortic Aneurysm Rupture after Endovascular Aortic Repair: A Multicentre Retrospective Study in France.",
-      "abstract": "OBJECTIVE: The majority of patients with abdominal aortic aneurysm (AAA) undergo endovascular aortic repair (EVAR). Despite its high overall success rate, EVAR does not eliminate the risk of aneurysm rupture. This study aimed to evaluate the prognosis of patients undergoing surgical management for post-EVAR rupture.\n\nMETHODS: A multicentre retrospective study of patients who presented with ruptured AAA after successful EVAR between 2007 and 2022 at 22 academic hospitals was conducted. The index EVAR procedures were performed between 2002 and 2020. Data were extracted from electronic hospital records and computed tomography scans. Death during follow up was ascertained using the French register of deceased persons. Survival probabilities at 30, 90, and 365 days were estimated with Kaplan-Meier estimators. Cox proportional hazards survival regression was used to identify determinants associated with increased risk of death.\n\nRESULTS: One hundred and nine patients (96 men) were included, with a mean age of 79.1 ± 9 years at the time of rupture. The median time from index EVAR to rupture was 50 months (range 0 - 179 months). Sixty-seven patients had open surgery (of which 37% underwent suprarenal cross clamping), 39 received endovascular treatment, and three underwent hybrid repair. Overall mortality was 26.6% at thirty days, increasing to 33.9% at ninety days, and 41.3% at 1 year. Neither the type of endoleak nor the type of repair was significantly associated with risk of death during follow up. Post-operative complications were frequent, including renal complications (44.0%), major haemorrhage (22.9%), respiratory distress (19.3%), and mesenteric ischaemia (6%).\n\nCONCLUSION: This study presented a large multicentre series of patients treated for ruptured AAA after EVAR. Despite considerable progress in stent graft technology, EVAR offers little protection in the event of late rupture, even among patients with type II endoleak only. The mortality rate in this study is within the range of those published based on de novo AAA rupture.",
-      "journalIssns": [
-        "1532-2165",
-        "1078-5884"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-09",
-      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-      "journalMetrics": {
-        "journalId": "ejves",
-        "impactFactor": {
-          "value": 8.5,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 1,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "pvd-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦腹主动脉瘤。主要内容涉及血管腔内修复。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43003250/",
-      "doi": "10.1016/j.ejvs.2026.11.014"
     }
   ],
   "chinaHighlights": [],
@@ -712,6 +474,40 @@
       "url": "https://clinicaltrials.gov/study/NCT02089607"
     },
     {
+      "nctId": "NCT07510451",
+      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-10-20",
+      "topicTags": [
+        "Aortic Disease",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 200,
+      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-10-20",
+      "url": "https://clinicaltrials.gov/study/NCT07510451"
+    },
+    {
+      "nctId": "NCT06528873",
+      "title": "NAZARÉ: Concurrent Optical and Magnetic Stimulation (COMS) for Treatment of Patients With Chronic Ulcers of Vascular Origin in a Real-world Setting Including Care at Patient's Home, a Prospective Randomized, Controlled, Assessor Blinded, Phase IV, Clinical Trial",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-11-16",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 122,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-11-16",
+      "url": "https://clinicaltrials.gov/study/NCT06528873"
+    },
+    {
       "nctId": "NCT05378347",
       "title": "Endurant Stent Graft System vs Excluder Endoprothesis: A Global, Prospective, Randomized Clinical Trial in Sac Regression",
       "source": "ClinicalTrials.gov",
@@ -776,6 +572,22 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-09-11",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
+    },
+    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -790,56 +602,6 @@
       "enrollment": 450,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 450；最近更新 2026-09-09",
       "url": "https://clinicaltrials.gov/study/NCT05064540"
-    },
-    {
-      "nctId": "NCT06528873",
-      "title": "NAZARÉ: Concurrent Optical and Magnetic Stimulation (COMS) for Treatment of Patients With Chronic Ulcers of Vascular Origin in a Real-world Setting Including Care at Patient's Home, a Prospective Randomized, Controlled, Assessor Blinded, Phase IV, Clinical Trial",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-08",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 122,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
-      "url": "https://clinicaltrials.gov/study/NCT06528873"
-    },
-    {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
-    },
-    {
-      "nctId": "NCT04545502",
-      "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-08-20",
-      "topicTags": [
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 2000,
-      "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
-      "url": "https://clinicaltrials.gov/study/NCT04545502"
     }
   ],
   "clinicalTrials": [
@@ -877,6 +639,40 @@
       "url": "https://clinicaltrials.gov/study/NCT02089607"
     },
     {
+      "nctId": "NCT07510451",
+      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-10-20",
+      "topicTags": [
+        "Aortic Disease",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 200,
+      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-10-20",
+      "url": "https://clinicaltrials.gov/study/NCT07510451"
+    },
+    {
+      "nctId": "NCT06528873",
+      "title": "NAZARÉ: Concurrent Optical and Magnetic Stimulation (COMS) for Treatment of Patients With Chronic Ulcers of Vascular Origin in a Real-world Setting Including Care at Patient's Home, a Prospective Randomized, Controlled, Assessor Blinded, Phase IV, Clinical Trial",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-11-16",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 122,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-11-16",
+      "url": "https://clinicaltrials.gov/study/NCT06528873"
+    },
+    {
       "nctId": "NCT05378347",
       "title": "Endurant Stent Graft System vs Excluder Endoprothesis: A Global, Prospective, Randomized Clinical Trial in Sac Regression",
       "source": "ClinicalTrials.gov",
@@ -941,6 +737,22 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-09-11",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
+    },
+    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -955,59 +767,21 @@
       "enrollment": 450,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 450；最近更新 2026-09-09",
       "url": "https://clinicaltrials.gov/study/NCT05064540"
-    },
-    {
-      "nctId": "NCT06528873",
-      "title": "NAZARÉ: Concurrent Optical and Magnetic Stimulation (COMS) for Treatment of Patients With Chronic Ulcers of Vascular Origin in a Real-world Setting Including Care at Patient's Home, a Prospective Randomized, Controlled, Assessor Blinded, Phase IV, Clinical Trial",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-08",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 122,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Venous Disease / Endovascular；最近更新 2026-05-08",
-      "url": "https://clinicaltrials.gov/study/NCT06528873"
-    },
-    {
-      "nctId": "NCT06687590",
-      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-05-07",
-      "topicTags": [
-        "PAD / CLTI",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 500,
-      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
-      "url": "https://clinicaltrials.gov/study/NCT06687590"
-    },
-    {
-      "nctId": "NCT04545502",
-      "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-08-20",
-      "topicTags": [
-        "Aortic Disease",
-        "Carotid Disease",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 2000,
-      "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
-      "url": "https://clinicaltrials.gov/study/NCT04545502"
     }
   ],
   "manualReview": [
+    {
+      "title": "Updated systematic review and meta-analysis comparing Myval versus Sapien 3 transcatheter heart valves in severe aortic stenosis: focus on early and one-year mortality.",
+      "source": "Guidelines",
+      "date": "2026-10-12",
+      "topicTags": [
+        "Vascular Graft / Stent / Device",
+        "Guideline / Consensus",
+        "China Research"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42862939/"
+    },
     {
       "title": "Rapid Endovascular Hemorrhage Control in Trauma: Joint Position Statement from the American College of Surgeons Committee on Trauma and the Society of Interventional Radiology.",
       "source": "Guidelines",
@@ -1042,19 +816,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Carotid Disease",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42229997/"
-    },
-    {
-      "title": "AI Applications in Aortic and Peripheral Artery Disease: Risk Prediction, Imaging, Procedural Support, and Longitudinal Surveillance.",
-      "source": "Guidelines",
-      "date": "2026-11-10",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Aortic Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43032703/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
@@ -1134,6 +895,18 @@
   ],
   "reviewQueue": [
     {
+      "title": "Updated systematic review and meta-analysis comparing Myval versus Sapien 3 transcatheter heart valves in severe aortic stenosis: focus on early and one-year mortality.",
+      "source": "Guidelines",
+      "date": "2026-10-12",
+      "topicTags": [
+        "Vascular Graft / Stent / Device",
+        "Guideline / Consensus",
+        "China Research"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42862939/"
+    },
+    {
       "title": "Rapid Endovascular Hemorrhage Control in Trauma: Joint Position Statement from the American College of Surgeons Committee on Trauma and the Society of Interventional Radiology.",
       "source": "Guidelines",
       "date": "2026-07-24",
@@ -1167,19 +940,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Carotid Disease",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42229997/"
-    },
-    {
-      "title": "AI Applications in Aortic and Peripheral Artery Disease: Risk Prediction, Imaging, Procedural Support, and Longitudinal Surveillance.",
-      "source": "Guidelines",
-      "date": "2026-11-10",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Aortic Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43032703/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",

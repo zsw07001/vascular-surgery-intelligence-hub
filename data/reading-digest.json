@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T23:58:35.558Z",
+  "generatedAt": "2026-11-17T02:56:15.045Z",
   "defaultWindow": 30,
   "rankingSystem": "JCR",
   "jcrYear": 2025,
@@ -22,17 +22,17 @@
       "id": "vascular",
       "title": "血管外科",
       "fileName": "latest-research.json",
-      "libraryCount": 1950,
+      "libraryCount": 1602,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-15T23:58:35.558Z",
+      "lastSuccessfulUpdate": "2026-11-17T02:56:15.045Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 159,
-            "directHighRelevance": 25,
-            "metricsPending": 14,
-            "eligible": 5
+            "recentPublications": 112,
+            "directHighRelevance": 16,
+            "metricsPending": 12,
+            "eligible": 3
           },
           "articles": [
             {
@@ -182,99 +182,6 @@
               "digestRank": 41,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。RCT；建议重点核对方法与终点。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "43008844",
-              "title": "The IMA-PLUS Score for Predicting Type 2 Endoleak After Endovascular Repair: Development and External Validation in European and Japanese Cohorts.",
-              "abstract": "OBJECTIVE: Prophylactic embolisation of infrarenal branch vessels has been investigated to prevent type 2 endoleak (EL2) following endovascular repair (EVAR) of abdominal aortic aneurysms (AAA), but patient selection is poorly defined. In this study, a computed tomography angiography (CTA) based risk score was developed and validated to predict EL2 after EVAR.\n\nMETHODS: This multicentre, retrospective diagnostic study used prospectively collected data from the Zenith alpha for aneurysm Repair Registry (ZEPHYR) as the development cohort. Eligible patients underwent standard EVAR with pre-operative arterial phase CTA and at least one post-operative delayed phase CTA. The model was converted into a numerical score (\"IMA-PLUS Score\") and validated in two retrospective cohorts. Discrimination, calibration, and risk group thresholds were assessed. In validation cohorts, freedom from AAA expansion and EL2 associated reinterventions up to 5 years were analysed.\n\nRESULTS: Data from 245 patients of the ZEPHYR registry were included. EL2 occurred in 96 patients (39.2%). The IMA-PLUS Score includes inferior mesenteric artery diameter, number of infrarenal renal pole arteries, number of patent lumbar arteries, and median sacral artery patency, achieving a crossvalidated area under the curve (AUC) of 0.78. Using prespecified thresholds (low < 128, medium 128 - 200, high > 200), observed EL2 incidences in ZEPHYR were 19%, 59%, and 74%. In the Heidelberg cohort (n = 134; EL2 44%), AUC was 0.77 (95% confidence intervals [CI] 0.69 - 0.85) with EL2 incidences of 24%, 60%, and 89% across risk groups with good calibration; interobserver agreement for total score was high (intraclass correlation coefficient of 0.95). In the Tokyo cohort (n = 123; EL2 52.8%) AUC was 0.75 (95% CI 0.67 - 0.84); EL2 incidences were 36%, 76%, and 80%, with higher observed incidence than predicted. In validation cohorts, the IMA-PLUS Score was associated with AAA expansion and reduced freedom from EL2 associated reinterventions.\n\nCONCLUSION: The IMA-PLUS Score may support selection of patients for future studies on preventive management strategies.",
-              "englishSummary": "OBJECTIVE: Prophylactic embolisation of infrarenal branch vessels has been investigated to prevent type 2 endoleak (EL2) following endovascular repair (EVAR) of abdominal aortic aneurysms (AAA), but patient selection is poorly defined. In this study, a computed tomography angiography (CTA) based risk score was developed and validated to predict EL2 after EVAR. METHODS: This multicentre, retrospective diagnostic study used prospectively collected data from the Zenith alpha for aneurysm Repair Registry (ZEPHYR) as the development cohort.",
-              "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-              "journalIssns": [
-                "1532-2165",
-                "1078-5884"
-              ],
-              "publicationDate": "2026-11-10",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Hatzl J",
-                "El-Sanosy E",
-                "Kilian S",
-                "Barb A",
-                "Bornhak L",
-                "Ozawa H",
-                "Ohki T",
-                "B&#xf6;ckler D",
-                "ZEPHYR Study Group collaborators"
-              ],
-              "affiliations": [
-                "Department of Vascular and Endovascular Surgery, University Hospital Heidelberg, Heidelberg, Germany. Electronic address: johannes.hatzl@med.uni-heidelberg.de.",
-                "Department of Vascular and Endovascular Surgery, University Hospital Heidelberg, Heidelberg, Germany.",
-                "Institute of Medical Biometry, University of Heidelberg, Heidelberg, Germany.",
-                "Division of Vascular Surgery, Department of Surgery, The Jikei University School of Medicine, Tokyo, Japan."
-              ],
-              "doi": "10.1016/j.ejvs.2026.11.003",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43008844/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Aortic Disease",
-                "Endovascular",
-                "Imaging / Diagnosis"
-              ],
-              "studyTypeTags": [
-                "Cohort",
-                "Registry"
-              ],
-              "relevance": "high",
-              "score": 7,
-              "scoreReasons": [
-                "+3 title vascular surgery topic: endovascular",
-                "+2 clinical evidence design: cohort",
-                "+2 human study: patients"
-              ],
-              "isChinaResearch": false,
-              "summaryZh": "这篇文献聚焦腹主动脉瘤。主要内容涉及血管腔内修复、风险预测模型或评分、II型内漏的预测或管理。",
-              "source": "PubMed",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "ejves",
-                "impactFactor": {
-                  "value": 8.5,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 31,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 31,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 1,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "pvd-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "vascular",
-              "digestKind": "Registry（标题/方法线索）",
-              "digestRank": 34,
-              "digestIsReview": false,
-              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
             },
             {
               "pmid": "43018065",
@@ -475,97 +382,6 @@
               "digestRank": 30,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "43003250",
-              "title": "Prognosis of Patients with Delayed Abdominal Aortic Aneurysm Rupture after Endovascular Aortic Repair: A Multicentre Retrospective Study in France.",
-              "abstract": "OBJECTIVE: The majority of patients with abdominal aortic aneurysm (AAA) undergo endovascular aortic repair (EVAR). Despite its high overall success rate, EVAR does not eliminate the risk of aneurysm rupture. This study aimed to evaluate the prognosis of patients undergoing surgical management for post-EVAR rupture.\n\nMETHODS: A multicentre retrospective study of patients who presented with ruptured AAA after successful EVAR between 2007 and 2022 at 22 academic hospitals was conducted. The index EVAR procedures were performed between 2002 and 2020. Data were extracted from electronic hospital records and computed tomography scans. Death during follow up was ascertained using the French register of deceased persons. Survival probabilities at 30, 90, and 365 days were estimated with Kaplan-Meier estimators. Cox proportional hazards survival regression was used to identify determinants associated with increased risk of death.\n\nRESULTS: One hundred and nine patients (96 men) were included, with a mean age of 79.1 ± 9 years at the time of rupture. The median time from index EVAR to rupture was 50 months (range 0 - 179 months). Sixty-seven patients had open surgery (of which 37% underwent suprarenal cross clamping), 39 received endovascular treatment, and three underwent hybrid repair. Overall mortality was 26.6% at thirty days, increasing to 33.9% at ninety days, and 41.3% at 1 year. Neither the type of endoleak nor the type of repair was significantly associated with risk of death during follow up. Post-operative complications were frequent, including renal complications (44.0%), major haemorrhage (22.9%), respiratory distress (19.3%), and mesenteric ischaemia (6%).\n\nCONCLUSION: This study presented a large multicentre series of patients treated for ruptured AAA after EVAR. Despite considerable progress in stent graft technology, EVAR offers little protection in the event of late rupture, even among patients with type II endoleak only. The mortality rate in this study is within the range of those published based on de novo AAA rupture.",
-              "englishSummary": "OBJECTIVE: The majority of patients with abdominal aortic aneurysm (AAA) undergo endovascular aortic repair (EVAR). Despite its high overall success rate, EVAR does not eliminate the risk of aneurysm rupture. This study aimed to evaluate the prognosis of patients undergoing surgical management for post-EVAR rupture.",
-              "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-              "journalIssns": [
-                "1532-2165",
-                "1078-5884"
-              ],
-              "publicationDate": "2026-11-09",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Bartlomiejczyk S",
-                "Salomon C",
-                "Morin L",
-                "Bamd&#xe9; CC",
-                "Steinmetz E",
-                "Settembre N",
-                "Malikov S"
-              ],
-              "affiliations": [
-                "Department of Vascular and Endovascular Surgery, Nancy University Hospital, Nancy, France.",
-                "INSERM U1018, High-Dimensional Biostatistics for Pharmacoepidemiology and Genomics, Center for Epidemiology and Population Health, Paris, France.",
-                "Department of Vascular Surgery, Dijon University Hospital, Dijon, France.",
-                "Department of Vascular and Endovascular Surgery, Nancy University Hospital, Nancy, France; INSERM UMRS 1116 DCAC, University of Lorraine, Nancy, France. Electronic address: nicla.settembre@univ-lorraine.fr.",
-                "Department of Vascular and Endovascular Surgery, Nancy University Hospital, Nancy, France; INSERM UMRS 1116 DCAC, University of Lorraine, Nancy, France."
-              ],
-              "doi": "10.1016/j.ejvs.2026.11.014",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43003250/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Aortic Disease",
-                "Endovascular",
-                "Open Surgery",
-                "Vascular Graft / Stent / Device",
-                "Imaging / Diagnosis"
-              ],
-              "studyTypeTags": [],
-              "relevance": "high",
-              "score": 7,
-              "scoreReasons": [
-                "+3 title vascular surgery topic: endovascular",
-                "+2 human study: patients",
-                "+2 treatment or prognosis relevance: treatment"
-              ],
-              "isChinaResearch": false,
-              "summaryZh": "这篇文献聚焦腹主动脉瘤。主要内容涉及血管腔内修复。",
-              "source": "PubMed",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "ejves",
-                "impactFactor": {
-                  "value": 8.5,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 31,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 31,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 1,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "pvd-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "vascular",
-              "digestKind": "研究论文",
-              "digestRank": 30,
-              "digestIsReview": false,
-              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             }
           ],
           "chinaArticles": []
@@ -573,10 +389,10 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 440,
-            "directHighRelevance": 67,
-            "metricsPending": 25,
-            "eligible": 21
+            "recentPublications": 450,
+            "directHighRelevance": 65,
+            "metricsPending": 23,
+            "eligible": 20
           },
           "articles": [
             {
@@ -1398,89 +1214,6 @@
               "digestRank": 33,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42941603",
-              "title": "Clinical Risk Factors and Inflammatory Markers as Predictors of Postoperative Delirium in Patients Undergoing Acute Type A Aortic Dissection Surgery.",
-              "abstract": "Background: Postoperative delirium (POD) is a common and serious neurological complication following acute type A aortic dissection (ATAAD) repair, contributing to increased morbidity and mortality. Given the critical role of systemic inflammation in POD pathogenesis, this study aimed to evaluate perioperative inflammatory profiles in patients undergoing ATAAD repair and to develop a predictive nomogram for early POD risk stratification. Methods: This retrospective, single-center study included 355 patients who underwent total arch replacement for ATAAD. Serial inflammatory markers were assessed across multiple perioperative time points. A two-stage variable selection process, incorporating variance inflation factor (VIF) and the Boruta algorithm, was utilized to identify robust predictors. A predictive nomogram was constructed via multivariable logistic regression. Model performance was assessed using the area under the receiver operating characteristic curve (AUC), calibration plots, and decision curve analysis (DCA). Internal validation was performed using 1000 bootstrap resamples. Results: POD occurred in 29.86% of the cohort. Patients who developed POD had higher inflammatory marker levels at several individual postoperative time points compared to the non-delirium group. The final predictive model integrated 11 key variables: age, EuroSCORE I, CPB time, SIRI_6h, PLR_6h, IL-10_6h, IL-8_6h, IL-8_pre, IL-6_6h, IL-6_pre, and PCT_6h. The nomogram demonstrated acceptable internal discrimination with an AUC of 0.835 (95% CI: 0.794-0.876) and an optimism-corrected AUC of 0.811. Notably, IL-6_6h and PCT_6h emerged as strong independent risk factors, while SIRI_6h demonstrated an inverse association with POD. Calibration and DCA analyses confirmed the model's acceptable performance and potential clinical utility, though independent external validation remains essential prior to any clinical translation. An exploratory, web-based risk calculator was developed to facilitate bedside implementation. Conclusions: This study develops and internally validates an exploratory biomarker-based prediction model for POD in ATAAD patients. By integrating early inflammatory profiles with established clinical variables, this preliminary model provides a preliminary foundation for early risk stratification, though rigorous prospective multicenter external validation is required before real-world clinical implementation can be considered.",
-              "englishSummary": "Background: Postoperative delirium (POD) is a common and serious neurological complication following acute type A aortic dissection (ATAAD) repair, contributing to increased morbidity and mortality. Given the critical role of systemic inflammation in POD pathogenesis, this study aimed to evaluate perioperative inflammatory profiles in patients undergoing ATAAD repair and to develop a predictive nomogram for early POD risk stratification. Methods: This retrospective, single-center study included 355 patients who underwent total arch replacement for ATAAD.",
-              "journal": "Journal of clinical medicine",
-              "journalIssns": [
-                "2077-0383"
-              ],
-              "publicationDate": "2026-10-18",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Cao X",
-                "Wang B",
-                "Yang H",
-                "Wu Y",
-                "Zhang Y",
-                "Zhong L",
-                "Ma T",
-                "Shi T",
-                "Zhang Z"
-              ],
-              "affiliations": [
-                "Department of Cardiovascular Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an 710061, China.",
-                "Department of Emergency Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an 710061, China."
-              ],
-              "doi": "10.3390/jcm15208090",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42941603/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Aortic Disease",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Cohort",
-                "Real-world Evidence"
-              ],
-              "relevance": "high",
-              "score": 11,
-              "scoreReasons": [
-                "+3 title vascular surgery topic: aortic dissection",
-                "+2 clinical evidence design: cohort",
-                "+2 human study: patients",
-                "+2 treatment or prognosis relevance: surgery",
-                "+2 China affiliation: China"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦急性A型主动脉夹层。主要内容涉及炎症指标、风险预测模型或评分、术后谵妄风险。",
-              "source": "PubMed",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "jcr-2077-0383",
-                "impactFactor": {
-                  "value": 3.3,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 170,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=170",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 170,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=170",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": null
-              },
-              "digestGroup": "vascular",
-              "digestKind": "研究论文",
-              "digestRank": 33,
-              "digestIsReview": false,
-              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
             {
               "pmid": "42951329",
@@ -2442,6 +2175,96 @@
               "digestRank": 30,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "42933654",
+              "title": "JTH in Clinic: Venous Thromboembolism (VTE) Prophylaxis of Pediatric Patients at Risk of VTE.",
+              "abstract": "As the incidence of venous thromboembolism (VTE) increases in hospitalized children, there is an urgent need to improve VTE prevention strategies in this population. Implementation of thromboprophylaxis, which includes mechanical and pharmacological interventions, varies in practice due to limited pediatric-specific data and, until recently, a lack of evidence-based guidelines. However, recent randomized clinical trials and well-designed multicenter observational studies have provided improved evidence on the safety and efficacy of anticoagulants for VTE prevention in specific pediatric subpopulations supporting the development of risk assessment models to help identify subgroups of children at high risk for VTE. Based on these data, the American Society of Hematology and International Society on Thrombosis and Haemostasis recently developed the first evidence-based guideline for anticoagulant prophylaxis in children at risk of VTE. While this guideline is an exciting step towards preventing VTE-associated harm, VTE prevention remains complex due to unique pediatric risk factors and changing physiology with age, resulting in heterogeneous VTE and bleeding risk profiles. In this case-based review, we apply the new guideline and supporting evidence to guide decisions regarding the use of thromboprophylaxis in pediatric cases commonly encountered in clinical practice, highlighting the nuances of VTE prevention in critically ill children. We review the complex decision-making process required prior to initiation of pharmacologic prophylaxis, including assessment of VTE risk, bleeding risk, and shared decision-making with families. Additionally, we highlight the importance of multidisciplinary teams in VTE prevention and anticoagulant stewardship, as well as the similarities and differences in pediatric versus adult practice.",
+              "englishSummary": "As the incidence of venous thromboembolism (VTE) increases in hospitalized children, there is an urgent need to improve VTE prevention strategies in this population. Implementation of thromboprophylaxis, which includes mechanical and pharmacological interventions, varies in practice due to limited pediatric-specific data and, until recently, a lack of evidence-based guidelines. However, recent randomized clinical trials and well-designed multicenter observational studies have provided improved evidence on the safety and efficacy of anticoagulants for VTE prevention in specific pediatric subpopulations supporting the development of risk assessment models to help identify subgroups of children at high risk for VTE.",
+              "journal": "Journal of thrombosis and haemostasis : JTH",
+              "journalIssns": [
+                "1538-7836"
+              ],
+              "publicationDate": "2026-10-26",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Whitworth H",
+                "Connor SM",
+                "Gilmore H",
+                "Kiskaddon AL",
+                "Monagle P",
+                "Betensky M"
+              ],
+              "affiliations": [
+                "Department of Pediatrics, Division of Hematology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+                "Mater Misericordiae University Hospital, Eccles St, Dublin 07, Ireland.",
+                "Department of Clinical Haematology, The Royal Children's Hospital, Parkville, VIC, Australia.",
+                "Institute of Clinical and Translational Research, Johns Hopkins All Children's Hospital, St. Petersburg, FL, USA; Department of Pediatrics, Divisions of Hematology and Cardiology, Johns Hopkins School of Medicine, Baltimore, MD, USA; Department of Pharmacy, Johns Hopkins All Children's Hospital, St. Petersburg, FL, USA; Heart Institute, Johns Hopkins All Children's Hospital, St. Petersburg, FL, USA.",
+                "Department of Clinical Haematology, The Royal Children's Hospital, Parkville, VIC, Australia; Department of Paediatrics, University of Melbourne, Parkville, Victoria, Australia; Murdoch Children's Research Institute, Parkville, Victoria, Australia.",
+                "Department of Pediatrics, Division of Hematology, Johns Hopkins School of Medicine, Baltimore, MD, USA; Cancer and Blood Disorders Institute, Johns Hopkins All Children's Hospital, St. Petersburg, FL, USA. Electronic address: marisol.betensky@jhmi.edu."
+              ],
+              "doi": "10.1016/j.jtha.2026.10.013",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42933654/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Venous Disease",
+                "Guideline / Consensus"
+              ],
+              "studyTypeTags": [
+                "Guideline",
+                "Review"
+              ],
+              "relevance": "high",
+              "score": 6,
+              "scoreReasons": [
+                "+2 clinical evidence design: randomized",
+                "+2 human study: clinical",
+                "+2 treatment or prognosis relevance: guideline"
+              ],
+              "isChinaResearch": false,
+              "summaryZh": "这篇文献聚焦静脉血栓栓塞。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jth",
+                "impactFactor": {
+                  "value": 5.2,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 79,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=79",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 79,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=79",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": {
+                  "zone": 1,
+                  "year": 2025,
+                  "scope": "major",
+                  "verified": true,
+                  "sourceId": "pvd-2025",
+                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+                }
+              },
+              "digestGroup": "vascular",
+              "digestKind": "研究论文",
+              "digestRank": 29,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             }
           ],
           "chinaArticles": [
@@ -2692,89 +2515,6 @@
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
             },
             {
-              "pmid": "42941603",
-              "title": "Clinical Risk Factors and Inflammatory Markers as Predictors of Postoperative Delirium in Patients Undergoing Acute Type A Aortic Dissection Surgery.",
-              "abstract": "Background: Postoperative delirium (POD) is a common and serious neurological complication following acute type A aortic dissection (ATAAD) repair, contributing to increased morbidity and mortality. Given the critical role of systemic inflammation in POD pathogenesis, this study aimed to evaluate perioperative inflammatory profiles in patients undergoing ATAAD repair and to develop a predictive nomogram for early POD risk stratification. Methods: This retrospective, single-center study included 355 patients who underwent total arch replacement for ATAAD. Serial inflammatory markers were assessed across multiple perioperative time points. A two-stage variable selection process, incorporating variance inflation factor (VIF) and the Boruta algorithm, was utilized to identify robust predictors. A predictive nomogram was constructed via multivariable logistic regression. Model performance was assessed using the area under the receiver operating characteristic curve (AUC), calibration plots, and decision curve analysis (DCA). Internal validation was performed using 1000 bootstrap resamples. Results: POD occurred in 29.86% of the cohort. Patients who developed POD had higher inflammatory marker levels at several individual postoperative time points compared to the non-delirium group. The final predictive model integrated 11 key variables: age, EuroSCORE I, CPB time, SIRI_6h, PLR_6h, IL-10_6h, IL-8_6h, IL-8_pre, IL-6_6h, IL-6_pre, and PCT_6h. The nomogram demonstrated acceptable internal discrimination with an AUC of 0.835 (95% CI: 0.794-0.876) and an optimism-corrected AUC of 0.811. Notably, IL-6_6h and PCT_6h emerged as strong independent risk factors, while SIRI_6h demonstrated an inverse association with POD. Calibration and DCA analyses confirmed the model's acceptable performance and potential clinical utility, though independent external validation remains essential prior to any clinical translation. An exploratory, web-based risk calculator was developed to facilitate bedside implementation. Conclusions: This study develops and internally validates an exploratory biomarker-based prediction model for POD in ATAAD patients. By integrating early inflammatory profiles with established clinical variables, this preliminary model provides a preliminary foundation for early risk stratification, though rigorous prospective multicenter external validation is required before real-world clinical implementation can be considered.",
-              "englishSummary": "Background: Postoperative delirium (POD) is a common and serious neurological complication following acute type A aortic dissection (ATAAD) repair, contributing to increased morbidity and mortality. Given the critical role of systemic inflammation in POD pathogenesis, this study aimed to evaluate perioperative inflammatory profiles in patients undergoing ATAAD repair and to develop a predictive nomogram for early POD risk stratification. Methods: This retrospective, single-center study included 355 patients who underwent total arch replacement for ATAAD.",
-              "journal": "Journal of clinical medicine",
-              "journalIssns": [
-                "2077-0383"
-              ],
-              "publicationDate": "2026-10-18",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Cao X",
-                "Wang B",
-                "Yang H",
-                "Wu Y",
-                "Zhang Y",
-                "Zhong L",
-                "Ma T",
-                "Shi T",
-                "Zhang Z"
-              ],
-              "affiliations": [
-                "Department of Cardiovascular Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an 710061, China.",
-                "Department of Emergency Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an 710061, China."
-              ],
-              "doi": "10.3390/jcm15208090",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42941603/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Aortic Disease",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Cohort",
-                "Real-world Evidence"
-              ],
-              "relevance": "high",
-              "score": 11,
-              "scoreReasons": [
-                "+3 title vascular surgery topic: aortic dissection",
-                "+2 clinical evidence design: cohort",
-                "+2 human study: patients",
-                "+2 treatment or prognosis relevance: surgery",
-                "+2 China affiliation: China"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦急性A型主动脉夹层。主要内容涉及炎症指标、风险预测模型或评分、术后谵妄风险。",
-              "source": "PubMed",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "jcr-2077-0383",
-                "impactFactor": {
-                  "value": 3.3,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 170,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=170",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 170,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=170",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": null
-              },
-              "digestGroup": "vascular",
-              "digestKind": "研究论文",
-              "digestRank": 33,
-              "digestIsReview": false,
-              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
               "pmid": "42935188",
               "title": "Cross-elbow stent placement for refractory arteriovenous fistula stenosis and chronic total occlusion in hemodialysis patients: a single-center retrospective cohort of 42 cases.",
               "abstract": "Cross-elbow stent placement in hemodialysis arteriovenous fistulas (AVFs) has been avoided due to risks of fracture, kinking, deformation, migration, and infection. However, elbow lesions may be refractory to angioplasty and progress to chronic total occlusion (CTO). We evaluated the safety, feasibility, and patency of cross-elbow stenting for AVF salvage. Consecutive adult hemodialysis patients who received cross-elbow stents for clinically significant AVF stenosis or CTO (September 2021 - March 2026) at a single center were retrospectively analyzed. Primary outcomes were target lesion primary patency (TLPP), access circuit primary patency (ACPP), access circuit secondary patency, and access circuit assisted primary patency, estimated by Kaplan-Meier. Technical and clinical success and complications were recorded. Forty-two patients were included; 45.2% had CTO and 57.1% had prior PTA. Eluvia-based stents were used in 83.3%. Technical and clinical success were both 100%. Mean access flow increased from 407 ± 267 to 839 ± 188 mL/min. TLPP at 3, 6, 12, and 24 months was 90.1%, 84.4%, 76.9%, and 76.9%, respectively. No stent fracture, migration, kinking, or infection occurred. Cross-elbow stenting was technically feasible and provided favorable short- to mid-term patency without device-related complications, supporting its use as a salvage option for selected refractory AVF lesions and CTOs.",
@@ -2939,19 +2679,106 @@
       "id": "hydrogen-brain-iri",
       "title": "氢气治疗与脑缺血再灌注",
       "fileName": "topic-hydrogen-brain-iri.json",
-      "libraryCount": 1019,
+      "libraryCount": 1010,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-15T23:58:35.558Z",
+      "lastSuccessfulUpdate": "2026-11-17T02:56:15.045Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 21,
+            "recentPublications": 15,
             "directHighRelevance": 9,
-            "metricsPending": 3,
-            "eligible": 1
+            "metricsPending": 2,
+            "eligible": 2
           },
           "articles": [
+            {
+              "pmid": "43036015",
+              "title": "Targeting Fibroblast Foxc2 Promotes Neurovascular Recovery by Suppressing Sdc4 After Ischemic Stroke.",
+              "abstract": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction. Mechanistically, YZD-27 directly binds forkhead box protein C2 (Foxc2), enhances its protein stability by limiting proteasomal degradation, and increases its occupancy at the Sdc4 promoter, thereby repressing Sdc4 transcription in fibroblast. Fibroblast-conditioned medium experiments further supported a role for Foxc2/Sdc4 regulation in modulating endothelial barrier-related protein expression. These findings identify Foxc2/Sdc4 signaling as a regulatory mechanism associated with the therapeutic effects of YZD-27, and establish YZD-27 as a promising neurovascular therapeutic candidate for ischemic stroke.",
+              "englishSummary": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction.",
+              "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+              "journalIssns": [
+                "2198-3844"
+              ],
+              "publicationDate": "2026-11-15",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Jiang Y",
+                "Han B",
+                "Jin J",
+                "Jiang R",
+                "Pang L",
+                "Zhang L",
+                "Lin J",
+                "Chen H",
+                "Luan X",
+                "Yao H",
+                "Zhang W"
+              ],
+              "affiliations": [
+                "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+                "Department of Pharmacology, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Medicine, Southeast University, Nanjing, Jiangsu, China.",
+                "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research and Shuguang Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+                "School of Pharmacy, Naval Medical University, Shanghai, China.",
+                "Institute of Life Sciences, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, Jiangsu, China.",
+                "Nanjing Pukou People's Hospital, Liangjiang Hospital, Southeast University, Nanjing, Jiangsu, China.",
+                "Co-innovation Center of Neuroregeneration, Nantong University, Nantong, Jiangsu, China."
+              ],
+              "doi": "10.1002/advs.78768",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43036015/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及功能恢复。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-2198-3844",
+                "impactFactor": {
+                  "value": 14.1,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 12,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 12,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
             {
               "pmid": "43018062",
               "title": "Effects of Exercise Preconditioning on Promoting Endogenous Recovery Responses After Ischemic Stroke in Late-Adult Mice.",
@@ -3041,15 +2868,103 @@
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             }
           ],
-          "chinaArticles": []
+          "chinaArticles": [
+            {
+              "pmid": "43036015",
+              "title": "Targeting Fibroblast Foxc2 Promotes Neurovascular Recovery by Suppressing Sdc4 After Ischemic Stroke.",
+              "abstract": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction. Mechanistically, YZD-27 directly binds forkhead box protein C2 (Foxc2), enhances its protein stability by limiting proteasomal degradation, and increases its occupancy at the Sdc4 promoter, thereby repressing Sdc4 transcription in fibroblast. Fibroblast-conditioned medium experiments further supported a role for Foxc2/Sdc4 regulation in modulating endothelial barrier-related protein expression. These findings identify Foxc2/Sdc4 signaling as a regulatory mechanism associated with the therapeutic effects of YZD-27, and establish YZD-27 as a promising neurovascular therapeutic candidate for ischemic stroke.",
+              "englishSummary": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction.",
+              "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+              "journalIssns": [
+                "2198-3844"
+              ],
+              "publicationDate": "2026-11-15",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Jiang Y",
+                "Han B",
+                "Jin J",
+                "Jiang R",
+                "Pang L",
+                "Zhang L",
+                "Lin J",
+                "Chen H",
+                "Luan X",
+                "Yao H",
+                "Zhang W"
+              ],
+              "affiliations": [
+                "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+                "Department of Pharmacology, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Medicine, Southeast University, Nanjing, Jiangsu, China.",
+                "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research and Shuguang Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+                "School of Pharmacy, Naval Medical University, Shanghai, China.",
+                "Institute of Life Sciences, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, Jiangsu, China.",
+                "Nanjing Pukou People's Hospital, Liangjiang Hospital, Southeast University, Nanjing, Jiangsu, China.",
+                "Co-innovation Center of Neuroregeneration, Nantong University, Nantong, Jiangsu, China."
+              ],
+              "doi": "10.1002/advs.78768",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43036015/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及功能恢复。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-2198-3844",
+                "impactFactor": {
+                  "value": 14.1,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 12,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 12,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            }
+          ]
         },
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 119,
-            "directHighRelevance": 67,
-            "metricsPending": 12,
-            "eligible": 20
+            "recentPublications": 120,
+            "directHighRelevance": 69,
+            "metricsPending": 13,
+            "eligible": 21
           },
           "articles": [
             {
@@ -3156,6 +3071,93 @@
               "digestRank": 37,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。RCT；建议重点核对方法与终点。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43036015",
+              "title": "Targeting Fibroblast Foxc2 Promotes Neurovascular Recovery by Suppressing Sdc4 After Ischemic Stroke.",
+              "abstract": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction. Mechanistically, YZD-27 directly binds forkhead box protein C2 (Foxc2), enhances its protein stability by limiting proteasomal degradation, and increases its occupancy at the Sdc4 promoter, thereby repressing Sdc4 transcription in fibroblast. Fibroblast-conditioned medium experiments further supported a role for Foxc2/Sdc4 regulation in modulating endothelial barrier-related protein expression. These findings identify Foxc2/Sdc4 signaling as a regulatory mechanism associated with the therapeutic effects of YZD-27, and establish YZD-27 as a promising neurovascular therapeutic candidate for ischemic stroke.",
+              "englishSummary": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction.",
+              "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+              "journalIssns": [
+                "2198-3844"
+              ],
+              "publicationDate": "2026-11-15",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Jiang Y",
+                "Han B",
+                "Jin J",
+                "Jiang R",
+                "Pang L",
+                "Zhang L",
+                "Lin J",
+                "Chen H",
+                "Luan X",
+                "Yao H",
+                "Zhang W"
+              ],
+              "affiliations": [
+                "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+                "Department of Pharmacology, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Medicine, Southeast University, Nanjing, Jiangsu, China.",
+                "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research and Shuguang Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+                "School of Pharmacy, Naval Medical University, Shanghai, China.",
+                "Institute of Life Sciences, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, Jiangsu, China.",
+                "Nanjing Pukou People's Hospital, Liangjiang Hospital, Southeast University, Nanjing, Jiangsu, China.",
+                "Co-innovation Center of Neuroregeneration, Nantong University, Nantong, Jiangsu, China."
+              ],
+              "doi": "10.1002/advs.78768",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43036015/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及功能恢复。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-2198-3844",
+                "impactFactor": {
+                  "value": 14.1,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 12,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 12,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
             {
               "pmid": "43018062",
@@ -4702,91 +4704,6 @@
               "digestRank": 28,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42896704",
-              "title": "Role and mechanism of ATF6-mediated endoplasmic reticulum stress in ITLN-1 against cerebral ischemia-reperfusion injury.",
-              "abstract": "AIMS: Intelectin-1 (ITLN-1), a novel adipocytokine, exerts neuroprotective effects against cerebral ischemia-reperfusion injury (CIRI), yet its molecular mechanisms remain unclear. This study focused on activating transcription factor 6 (ATF6), a key endoplasmic reticulum stress sensor, to explore its role in CIRI-induced neuronal injury and determine whether ITLN-1 mediates neuroprotection through ATF6 regulation.\n\nMATERIALS AND METHODS: We established an N2a cell hypoxia/reoxygenation (H/R) model and a mouse middle cerebral artery occlusion (MCAO) model. Using protein-protein molecular docking, in situ proximity ligation assay, Western blotting, mitochondrial membrane potential assays, and TUNEL staining, we investigated ATF6 activation in neuronal apoptosis and its upstream regulatory mechanisms.\n\nKEY FINDINGS: H/R injury markedly induced ATF6 activation in N2a cells, triggering mitochondrial dysfunction and promoting apoptosis. ATF6 overexpression further aggravated these effects, supporting its critical pathogenic role in CIRI. Mechanistic analyses revealed that ITLN-1 physically associates with ATF6. Both ITLN-1 overexpression and exogenous recombinant ITLN-1 administration significantly suppressed excessive ATF6 activation, modulated the JNK signaling pathway, improved cell viability, reduced intracellular calcium overload and reactive oxygen species accumulation, and attenuated neuronal apoptosis. In vivo, ITLN-1 ameliorated neurological deficits, reduced neuronal damage, and alleviated demyelination, whereas ITLN-1 knockdown produced opposite effects.\n\nSIGNIFICANCE: Excessive ATF6 activation underlies CIRI-induced neuronal injury. ITLN-1 exerts neuroprotection by inhibiting ATF6 and modulating JNK signaling, thereby alleviating mitochondrial dysfunction and reducing apoptosis. These findings highlight the ITLN-1/ATF6 axis as a promising therapeutic target for ischemic stroke.",
-              "englishSummary": "AIMS: Intelectin-1 (ITLN-1), a novel adipocytokine, exerts neuroprotective effects against cerebral ischemia-reperfusion injury (CIRI), yet its molecular mechanisms remain unclear. This study focused on activating transcription factor 6 (ATF6), a key endoplasmic reticulum stress sensor, to explore its role in CIRI-induced neuronal injury and determine whether ITLN-1 mediates neuroprotection through ATF6 regulation. MATERIALS AND METHODS: We established an N2a cell hypoxia/reoxygenation (H/R) model and a mouse middle cerebral artery occlusion (MCAO) model.",
-              "journal": "Life sciences",
-              "journalIssns": [
-                "1879-0631",
-                "0024-3205"
-              ],
-              "publicationDate": "2026-10-19",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Liu Y",
-                "Xu L",
-                "Zhang Z",
-                "Zhang C",
-                "Liu P",
-                "Li P",
-                "Wang S",
-                "Tian Y",
-                "Yang Y",
-                "Niu X"
-              ],
-              "affiliations": [
-                "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, 229 Taibai North Road, Xi'an, 710069, China.",
-                "Division of Cancer Biology, Laboratory Animal Center, The Fourth Military Medical University, Xi'an, Shaanxi, 710032, China.",
-                "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, 229 Taibai North Road, Xi'an, 710069, China; Xi'an Key Laboratory of Cardiovascular and Cerebrovascular Diseases, Xi'an No.3 Hospital, The Affiliated Hospital of Northwest University, Xi'an, 710021, China.",
-                "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, 229 Taibai North Road, Xi'an, 710069, China. Electronic address: yang200214yy@nwu.edu.cn.",
-                "Xi'an Key Laboratory of Innovative Drug Research for Heart Failure, Faculty of Life Sciences and Medicine, Northwest University, 229 Taibai North Road, Xi'an, 710069, China; Xi'an Key Laboratory of Cardiovascular and Cerebrovascular Diseases, Xi'an No.3 Hospital, The Affiliated Hospital of Northwest University, Xi'an, 710021, China. Electronic address: xiaochenniunw@163.com."
-              ],
-              "doi": "10.1016/j.lfs.2026.124746",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42896704/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "jcr-1879-0631",
-                "impactFactor": {
-                  "value": 6.4,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 55,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=55",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 55,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=55",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": null
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             }
           ],
           "chinaArticles": [
@@ -4894,6 +4811,93 @@
               "digestRank": 37,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。RCT；建议重点核对方法与终点。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43036015",
+              "title": "Targeting Fibroblast Foxc2 Promotes Neurovascular Recovery by Suppressing Sdc4 After Ischemic Stroke.",
+              "abstract": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction. Mechanistically, YZD-27 directly binds forkhead box protein C2 (Foxc2), enhances its protein stability by limiting proteasomal degradation, and increases its occupancy at the Sdc4 promoter, thereby repressing Sdc4 transcription in fibroblast. Fibroblast-conditioned medium experiments further supported a role for Foxc2/Sdc4 regulation in modulating endothelial barrier-related protein expression. These findings identify Foxc2/Sdc4 signaling as a regulatory mechanism associated with the therapeutic effects of YZD-27, and establish YZD-27 as a promising neurovascular therapeutic candidate for ischemic stroke.",
+              "englishSummary": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction.",
+              "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+              "journalIssns": [
+                "2198-3844"
+              ],
+              "publicationDate": "2026-11-15",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Jiang Y",
+                "Han B",
+                "Jin J",
+                "Jiang R",
+                "Pang L",
+                "Zhang L",
+                "Lin J",
+                "Chen H",
+                "Luan X",
+                "Yao H",
+                "Zhang W"
+              ],
+              "affiliations": [
+                "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+                "Department of Pharmacology, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Medicine, Southeast University, Nanjing, Jiangsu, China.",
+                "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research and Shuguang Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+                "School of Pharmacy, Naval Medical University, Shanghai, China.",
+                "Institute of Life Sciences, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, Jiangsu, China.",
+                "Nanjing Pukou People's Hospital, Liangjiang Hospital, Southeast University, Nanjing, Jiangsu, China.",
+                "Co-innovation Center of Neuroregeneration, Nantong University, Nantong, Jiangsu, China."
+              ],
+              "doi": "10.1002/advs.78768",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43036015/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及功能恢复。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-2198-3844",
+                "impactFactor": {
+                  "value": 14.1,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 12,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 12,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
             {
               "pmid": "42905928",
@@ -5935,9 +5939,9 @@
       "id": "vascular-flow-vibration",
       "title": "血流震颤与血管功能检测",
       "fileName": "topic-vascular-flow-vibration.json",
-      "libraryCount": 92,
+      "libraryCount": 90,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-15T23:58:35.558Z",
+      "lastSuccessfulUpdate": "2026-11-17T02:56:15.045Z",
       "periods": {
         "7": {
           "days": 7,
@@ -5967,14 +5971,14 @@
       "id": "biodegradable-stents",
       "title": "可降解支架",
       "fileName": "topic-biodegradable-stents.json",
-      "libraryCount": 85,
+      "libraryCount": 82,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-15T23:58:35.558Z",
+      "lastSuccessfulUpdate": "2026-11-17T02:56:15.045Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 3,
+            "recentPublications": 1,
             "directHighRelevance": 1,
             "metricsPending": 1,
             "eligible": 0
@@ -6365,14 +6369,14 @@
       "id": "neurovascular-bioelectric",
       "title": "神经与血管电信号互调",
       "fileName": "topic-neurovascular-bioelectric.json",
-      "libraryCount": 61,
+      "libraryCount": 58,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-15T23:58:35.558Z",
+      "lastSuccessfulUpdate": "2026-11-17T02:56:15.045Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 1,
+            "recentPublications": 0,
             "directHighRelevance": 0,
             "metricsPending": 0,
             "eligible": 0
@@ -6383,7 +6387,7 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 8,
+            "recentPublications": 7,
             "directHighRelevance": 1,
             "metricsPending": 0,
             "eligible": 0
@@ -6544,99 +6548,6 @@
           "digestRank": 41,
           "digestIsReview": false,
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。RCT；建议重点核对方法与终点。JCR 2025 Q1。"
-        },
-        {
-          "pmid": "43008844",
-          "title": "The IMA-PLUS Score for Predicting Type 2 Endoleak After Endovascular Repair: Development and External Validation in European and Japanese Cohorts.",
-          "abstract": "OBJECTIVE: Prophylactic embolisation of infrarenal branch vessels has been investigated to prevent type 2 endoleak (EL2) following endovascular repair (EVAR) of abdominal aortic aneurysms (AAA), but patient selection is poorly defined. In this study, a computed tomography angiography (CTA) based risk score was developed and validated to predict EL2 after EVAR.\n\nMETHODS: This multicentre, retrospective diagnostic study used prospectively collected data from the Zenith alpha for aneurysm Repair Registry (ZEPHYR) as the development cohort. Eligible patients underwent standard EVAR with pre-operative arterial phase CTA and at least one post-operative delayed phase CTA. The model was converted into a numerical score (\"IMA-PLUS Score\") and validated in two retrospective cohorts. Discrimination, calibration, and risk group thresholds were assessed. In validation cohorts, freedom from AAA expansion and EL2 associated reinterventions up to 5 years were analysed.\n\nRESULTS: Data from 245 patients of the ZEPHYR registry were included. EL2 occurred in 96 patients (39.2%). The IMA-PLUS Score includes inferior mesenteric artery diameter, number of infrarenal renal pole arteries, number of patent lumbar arteries, and median sacral artery patency, achieving a crossvalidated area under the curve (AUC) of 0.78. Using prespecified thresholds (low < 128, medium 128 - 200, high > 200), observed EL2 incidences in ZEPHYR were 19%, 59%, and 74%. In the Heidelberg cohort (n = 134; EL2 44%), AUC was 0.77 (95% confidence intervals [CI] 0.69 - 0.85) with EL2 incidences of 24%, 60%, and 89% across risk groups with good calibration; interobserver agreement for total score was high (intraclass correlation coefficient of 0.95). In the Tokyo cohort (n = 123; EL2 52.8%) AUC was 0.75 (95% CI 0.67 - 0.84); EL2 incidences were 36%, 76%, and 80%, with higher observed incidence than predicted. In validation cohorts, the IMA-PLUS Score was associated with AAA expansion and reduced freedom from EL2 associated reinterventions.\n\nCONCLUSION: The IMA-PLUS Score may support selection of patients for future studies on preventive management strategies.",
-          "englishSummary": "OBJECTIVE: Prophylactic embolisation of infrarenal branch vessels has been investigated to prevent type 2 endoleak (EL2) following endovascular repair (EVAR) of abdominal aortic aneurysms (AAA), but patient selection is poorly defined. In this study, a computed tomography angiography (CTA) based risk score was developed and validated to predict EL2 after EVAR. METHODS: This multicentre, retrospective diagnostic study used prospectively collected data from the Zenith alpha for aneurysm Repair Registry (ZEPHYR) as the development cohort.",
-          "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-          "journalIssns": [
-            "1532-2165",
-            "1078-5884"
-          ],
-          "publicationDate": "2026-11-10",
-          "publicationDatePrecision": "day",
-          "authors": [
-            "Hatzl J",
-            "El-Sanosy E",
-            "Kilian S",
-            "Barb A",
-            "Bornhak L",
-            "Ozawa H",
-            "Ohki T",
-            "B&#xf6;ckler D",
-            "ZEPHYR Study Group collaborators"
-          ],
-          "affiliations": [
-            "Department of Vascular and Endovascular Surgery, University Hospital Heidelberg, Heidelberg, Germany. Electronic address: johannes.hatzl@med.uni-heidelberg.de.",
-            "Department of Vascular and Endovascular Surgery, University Hospital Heidelberg, Heidelberg, Germany.",
-            "Institute of Medical Biometry, University of Heidelberg, Heidelberg, Germany.",
-            "Division of Vascular Surgery, Department of Surgery, The Jikei University School of Medicine, Tokyo, Japan."
-          ],
-          "doi": "10.1016/j.ejvs.2026.11.003",
-          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43008844/",
-          "publicationTypes": [
-            "Journal Article"
-          ],
-          "topicTags": [
-            "Aortic Disease",
-            "Endovascular",
-            "Imaging / Diagnosis"
-          ],
-          "studyTypeTags": [
-            "Cohort",
-            "Registry"
-          ],
-          "relevance": "high",
-          "score": 7,
-          "scoreReasons": [
-            "+3 title vascular surgery topic: endovascular",
-            "+2 clinical evidence design: cohort",
-            "+2 human study: patients"
-          ],
-          "isChinaResearch": false,
-          "summaryZh": "这篇文献聚焦腹主动脉瘤。主要内容涉及血管腔内修复、风险预测模型或评分、II型内漏的预测或管理。",
-          "source": "PubMed",
-          "summaryBasis": "title-and-objective-rules",
-          "journalMetrics": {
-            "journalId": "ejves",
-            "impactFactor": {
-              "value": 8.5,
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 31,
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "jcr": {
-              "quartile": "Q1",
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 31,
-              "verified": true,
-              "scope": "source-listed",
-              "categories": [],
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "cas": {
-              "zone": 1,
-              "year": 2025,
-              "scope": "major",
-              "verified": true,
-              "sourceId": "pvd-2025",
-              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-            }
-          },
-          "digestGroup": "vascular",
-          "digestKind": "Registry（标题/方法线索）",
-          "digestRank": 34,
-          "digestIsReview": false,
-          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
         },
         {
           "pmid": "43018065",
@@ -6839,66 +6750,70 @@
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
         },
         {
-          "pmid": "43003250",
-          "title": "Prognosis of Patients with Delayed Abdominal Aortic Aneurysm Rupture after Endovascular Aortic Repair: A Multicentre Retrospective Study in France.",
-          "abstract": "OBJECTIVE: The majority of patients with abdominal aortic aneurysm (AAA) undergo endovascular aortic repair (EVAR). Despite its high overall success rate, EVAR does not eliminate the risk of aneurysm rupture. This study aimed to evaluate the prognosis of patients undergoing surgical management for post-EVAR rupture.\n\nMETHODS: A multicentre retrospective study of patients who presented with ruptured AAA after successful EVAR between 2007 and 2022 at 22 academic hospitals was conducted. The index EVAR procedures were performed between 2002 and 2020. Data were extracted from electronic hospital records and computed tomography scans. Death during follow up was ascertained using the French register of deceased persons. Survival probabilities at 30, 90, and 365 days were estimated with Kaplan-Meier estimators. Cox proportional hazards survival regression was used to identify determinants associated with increased risk of death.\n\nRESULTS: One hundred and nine patients (96 men) were included, with a mean age of 79.1 ± 9 years at the time of rupture. The median time from index EVAR to rupture was 50 months (range 0 - 179 months). Sixty-seven patients had open surgery (of which 37% underwent suprarenal cross clamping), 39 received endovascular treatment, and three underwent hybrid repair. Overall mortality was 26.6% at thirty days, increasing to 33.9% at ninety days, and 41.3% at 1 year. Neither the type of endoleak nor the type of repair was significantly associated with risk of death during follow up. Post-operative complications were frequent, including renal complications (44.0%), major haemorrhage (22.9%), respiratory distress (19.3%), and mesenteric ischaemia (6%).\n\nCONCLUSION: This study presented a large multicentre series of patients treated for ruptured AAA after EVAR. Despite considerable progress in stent graft technology, EVAR offers little protection in the event of late rupture, even among patients with type II endoleak only. The mortality rate in this study is within the range of those published based on de novo AAA rupture.",
-          "englishSummary": "OBJECTIVE: The majority of patients with abdominal aortic aneurysm (AAA) undergo endovascular aortic repair (EVAR). Despite its high overall success rate, EVAR does not eliminate the risk of aneurysm rupture. This study aimed to evaluate the prognosis of patients undergoing surgical management for post-EVAR rupture.",
-          "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
+          "pmid": "43036015",
+          "title": "Targeting Fibroblast Foxc2 Promotes Neurovascular Recovery by Suppressing Sdc4 After Ischemic Stroke.",
+          "abstract": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction. Mechanistically, YZD-27 directly binds forkhead box protein C2 (Foxc2), enhances its protein stability by limiting proteasomal degradation, and increases its occupancy at the Sdc4 promoter, thereby repressing Sdc4 transcription in fibroblast. Fibroblast-conditioned medium experiments further supported a role for Foxc2/Sdc4 regulation in modulating endothelial barrier-related protein expression. These findings identify Foxc2/Sdc4 signaling as a regulatory mechanism associated with the therapeutic effects of YZD-27, and establish YZD-27 as a promising neurovascular therapeutic candidate for ischemic stroke.",
+          "englishSummary": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction.",
+          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
           "journalIssns": [
-            "1532-2165",
-            "1078-5884"
+            "2198-3844"
           ],
-          "publicationDate": "2026-11-09",
+          "publicationDate": "2026-11-15",
           "publicationDatePrecision": "day",
           "authors": [
-            "Bartlomiejczyk S",
-            "Salomon C",
-            "Morin L",
-            "Bamd&#xe9; CC",
-            "Steinmetz E",
-            "Settembre N",
-            "Malikov S"
+            "Jiang Y",
+            "Han B",
+            "Jin J",
+            "Jiang R",
+            "Pang L",
+            "Zhang L",
+            "Lin J",
+            "Chen H",
+            "Luan X",
+            "Yao H",
+            "Zhang W"
           ],
           "affiliations": [
-            "Department of Vascular and Endovascular Surgery, Nancy University Hospital, Nancy, France.",
-            "INSERM U1018, High-Dimensional Biostatistics for Pharmacoepidemiology and Genomics, Center for Epidemiology and Population Health, Paris, France.",
-            "Department of Vascular Surgery, Dijon University Hospital, Dijon, France.",
-            "Department of Vascular and Endovascular Surgery, Nancy University Hospital, Nancy, France; INSERM UMRS 1116 DCAC, University of Lorraine, Nancy, France. Electronic address: nicla.settembre@univ-lorraine.fr.",
-            "Department of Vascular and Endovascular Surgery, Nancy University Hospital, Nancy, France; INSERM UMRS 1116 DCAC, University of Lorraine, Nancy, France."
+            "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+            "Department of Pharmacology, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Medicine, Southeast University, Nanjing, Jiangsu, China.",
+            "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research and Shuguang Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+            "School of Pharmacy, Naval Medical University, Shanghai, China.",
+            "Institute of Life Sciences, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, Jiangsu, China.",
+            "Nanjing Pukou People's Hospital, Liangjiang Hospital, Southeast University, Nanjing, Jiangsu, China.",
+            "Co-innovation Center of Neuroregeneration, Nantong University, Nantong, Jiangsu, China."
           ],
-          "doi": "10.1016/j.ejvs.2026.11.014",
-          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43003250/",
+          "doi": "10.1002/advs.78768",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43036015/",
           "publicationTypes": [
             "Journal Article"
           ],
           "topicTags": [
-            "Aortic Disease",
-            "Endovascular",
-            "Open Surgery",
-            "Vascular Graft / Stent / Device",
-            "Imaging / Diagnosis"
+            "Brain Ischemia / Reperfusion",
+            "China Research"
           ],
-          "studyTypeTags": [],
+          "studyTypeTags": [
+            "Basic Research"
+          ],
           "relevance": "high",
-          "score": 7,
+          "score": 5,
           "scoreReasons": [
-            "+3 title vascular surgery topic: endovascular",
-            "+2 human study: patients",
-            "+2 treatment or prognosis relevance: treatment"
+            "+2 专题匹配: Brain Ischemia / Reperfusion",
+            "+3 标题命中专题词"
           ],
-          "isChinaResearch": false,
-          "summaryZh": "这篇文献聚焦腹主动脉瘤。主要内容涉及血管腔内修复。",
+          "isChinaResearch": true,
+          "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及功能恢复。",
           "source": "PubMed",
+          "researchDirection": "hydrogen-brain-iri",
           "summaryBasis": "title-and-objective-rules",
           "journalMetrics": {
-            "journalId": "ejves",
+            "journalId": "jcr-2198-3844",
             "impactFactor": {
-              "value": 8.5,
+              "value": 14.1,
               "year": 2025,
               "releaseYear": 2026,
               "sourceId": "jcr-release-2026",
-              "page": 31,
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+              "page": 12,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
               "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
             },
             "jcr": {
@@ -6906,28 +6821,20 @@
               "year": 2025,
               "releaseYear": 2026,
               "sourceId": "jcr-release-2026",
-              "page": 31,
+              "page": 12,
               "verified": true,
               "scope": "source-listed",
               "categories": [],
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
               "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
             },
-            "cas": {
-              "zone": 1,
-              "year": 2025,
-              "scope": "major",
-              "verified": true,
-              "sourceId": "pvd-2025",
-              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-            }
+            "cas": null
           },
-          "digestGroup": "vascular",
+          "digestGroup": "hydrogen-brain-iri",
           "digestKind": "研究论文",
-          "digestRank": 30,
+          "digestRank": 28,
           "digestIsReview": false,
-          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+          "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
         },
         {
           "pmid": "43018062",
@@ -7947,89 +7854,6 @@
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
         },
         {
-          "pmid": "42941603",
-          "title": "Clinical Risk Factors and Inflammatory Markers as Predictors of Postoperative Delirium in Patients Undergoing Acute Type A Aortic Dissection Surgery.",
-          "abstract": "Background: Postoperative delirium (POD) is a common and serious neurological complication following acute type A aortic dissection (ATAAD) repair, contributing to increased morbidity and mortality. Given the critical role of systemic inflammation in POD pathogenesis, this study aimed to evaluate perioperative inflammatory profiles in patients undergoing ATAAD repair and to develop a predictive nomogram for early POD risk stratification. Methods: This retrospective, single-center study included 355 patients who underwent total arch replacement for ATAAD. Serial inflammatory markers were assessed across multiple perioperative time points. A two-stage variable selection process, incorporating variance inflation factor (VIF) and the Boruta algorithm, was utilized to identify robust predictors. A predictive nomogram was constructed via multivariable logistic regression. Model performance was assessed using the area under the receiver operating characteristic curve (AUC), calibration plots, and decision curve analysis (DCA). Internal validation was performed using 1000 bootstrap resamples. Results: POD occurred in 29.86% of the cohort. Patients who developed POD had higher inflammatory marker levels at several individual postoperative time points compared to the non-delirium group. The final predictive model integrated 11 key variables: age, EuroSCORE I, CPB time, SIRI_6h, PLR_6h, IL-10_6h, IL-8_6h, IL-8_pre, IL-6_6h, IL-6_pre, and PCT_6h. The nomogram demonstrated acceptable internal discrimination with an AUC of 0.835 (95% CI: 0.794-0.876) and an optimism-corrected AUC of 0.811. Notably, IL-6_6h and PCT_6h emerged as strong independent risk factors, while SIRI_6h demonstrated an inverse association with POD. Calibration and DCA analyses confirmed the model's acceptable performance and potential clinical utility, though independent external validation remains essential prior to any clinical translation. An exploratory, web-based risk calculator was developed to facilitate bedside implementation. Conclusions: This study develops and internally validates an exploratory biomarker-based prediction model for POD in ATAAD patients. By integrating early inflammatory profiles with established clinical variables, this preliminary model provides a preliminary foundation for early risk stratification, though rigorous prospective multicenter external validation is required before real-world clinical implementation can be considered.",
-          "englishSummary": "Background: Postoperative delirium (POD) is a common and serious neurological complication following acute type A aortic dissection (ATAAD) repair, contributing to increased morbidity and mortality. Given the critical role of systemic inflammation in POD pathogenesis, this study aimed to evaluate perioperative inflammatory profiles in patients undergoing ATAAD repair and to develop a predictive nomogram for early POD risk stratification. Methods: This retrospective, single-center study included 355 patients who underwent total arch replacement for ATAAD.",
-          "journal": "Journal of clinical medicine",
-          "journalIssns": [
-            "2077-0383"
-          ],
-          "publicationDate": "2026-10-18",
-          "publicationDatePrecision": "day",
-          "authors": [
-            "Cao X",
-            "Wang B",
-            "Yang H",
-            "Wu Y",
-            "Zhang Y",
-            "Zhong L",
-            "Ma T",
-            "Shi T",
-            "Zhang Z"
-          ],
-          "affiliations": [
-            "Department of Cardiovascular Surgery, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an 710061, China.",
-            "Department of Emergency Medicine, First Affiliated Hospital of Xi'an Jiaotong University, No. 277 Yanta West Road, Xi'an 710061, China."
-          ],
-          "doi": "10.3390/jcm15208090",
-          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42941603/",
-          "publicationTypes": [
-            "Journal Article"
-          ],
-          "topicTags": [
-            "Aortic Disease",
-            "China Research"
-          ],
-          "studyTypeTags": [
-            "Cohort",
-            "Real-world Evidence"
-          ],
-          "relevance": "high",
-          "score": 11,
-          "scoreReasons": [
-            "+3 title vascular surgery topic: aortic dissection",
-            "+2 clinical evidence design: cohort",
-            "+2 human study: patients",
-            "+2 treatment or prognosis relevance: surgery",
-            "+2 China affiliation: China"
-          ],
-          "isChinaResearch": true,
-          "summaryZh": "这篇文献聚焦急性A型主动脉夹层。主要内容涉及炎症指标、风险预测模型或评分、术后谵妄风险。",
-          "source": "PubMed",
-          "summaryBasis": "title-and-objective-rules",
-          "journalMetrics": {
-            "journalId": "jcr-2077-0383",
-            "impactFactor": {
-              "value": 3.3,
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 170,
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=170",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "jcr": {
-              "quartile": "Q1",
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 170,
-              "verified": true,
-              "scope": "source-listed",
-              "categories": [],
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=170",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "cas": null
-          },
-          "digestGroup": "vascular",
-          "digestKind": "研究论文",
-          "digestRank": 33,
-          "digestIsReview": false,
-          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-        },
-        {
           "pmid": "42951329",
           "title": "Development of a machine learning model to predict venous thromboembolism risk in women using combined oral contraceptives.",
           "abstract": "OBJECTIVE: Venous thromboembolism (VTE) is a major cause of morbidity and mortality, with combined oral contraceptives (COCPs) being a modifiable risk factor. Existing clinical tools have limited ability to capture complex predictor interactions. This study aimed to develop and evaluate machine learning (ML) models to predict VTE risk among COCP users.\n\nMETHODS: This study was conducted using data from the Saudi Real-World Evidence Network (2016–2023). The primary outcome was the first VTE event within 2 years of COCP initiation. Following data partitioning, feature selection was performed on the training set. Elastic-net logistic regression, random forest (RF), extreme gradient boosting (XGBoost), one-class support vector machine and Isolation-Forest were trained on original and resampled datasets. Performance was evaluated using the area under the receiver operating characteristic curve (AUROC) and F1 score.\n\nRESULTS: The cohort included 24 518 treatment episodes (n=17 512, VTE events=52). After handling class imbalance, RF and XGBoost were the best-performing models (F1: 84.3% and 81.6%; AUROC: 59.6% and 69.2%, respectively), compared with other models (F1: 2.6%–55.3%, AUROC: 54.2%–68.4%). Key predictors included age, glucocorticoid use and rheumatic, renal and thyroid diseases.\n\nDISCUSSION: ML shows potential for VTE risk detection despite low event rate and class imbalance. However, findings suggest synthetic sample overfitting, and external validation is warranted before clinical deployment. Identified predictors reinforce the role of metabolic and inflammatory factors in VTE susceptibility among COCP users.\n\nCONCLUSION: ML models, particularly XGBoost and RF, demonstrated moderate predictive ability for VTE among COCP users, supporting their use in individualised risk assessments, though external validation is warranted.",
@@ -8106,6 +7930,105 @@
           "digestRank": 32,
           "digestIsReview": false,
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Real-world Evidence（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+        },
+        {
+          "pmid": "42901252",
+          "title": "Early and follow-up results of reinterventions for type 2 endoleak following endovascular repair of abdominal aortic aneurysm: The multicenter REinterventions for Type 2 Endoleak study.",
+          "abstract": "BACKGROUND: Type II endoleak (T2EL) is frequent after endovascular abdominal aortic aneurysm (AAA) repair and may require reintervention in selected patients. However, the optimal treatment strategy for durable resolution remains uncertain. This study aimed to retrospectively evaluate the perioperative and long-term outcomes of T2Els' reinterventions, both endovascular and open surgical, in a large patient cohort from 20 high-volume academic centers.\n\nMETHODS: A retrospective analysis of consecutive patients undergoing first reintervention for T2ELs was conducted across 20 centers over a 10-year period. Patients requiring concomitant treatment for other endoleak types were excluded. A total of 403 patients were included. Primary outcomes included technical success, 30-day AAA-related mortality and reintervention-free survival during follow-up. Secondary outcomes were perioperative complications, early reintervention, overall survival, freedom from aneurysm-related death and rupture, freedom from recurrent endoleaks, freedom from open conversion or semiconversion in patients previously treated endovascularly and sac behavior during follow-up. Kaplan-Meier curves and Cox regression analyses were performed to analyze follow-up results.\n\nRESULTS: Patients were predominantly male (90%) with a mean age of 77 years. Reintervention was indicated for sac enlargement in 94.5% of cases; 4% presented with rupture. Median time from endovascular AAA repair to reintervention was 4.3 years. Lumbar arteries (55%) and the inferior mesenteric artery (35%) were the main sources. Endovascular treatment was performed in 86% and open conversion/semiconversion in 14%. Technical success was 96%, with 1% mortality and 4% major complications. Overall survival was 80.5% and rupture-free survival 79.2% at 5 years. Recurrent T2EL occurred in 64.2%, and reintervention-free survival was 48.3%. Endovascular group showed significantly lower freedom from reintervention rates when compared to open conversion/semiconversion group [42.4% vs 86.8%; standard error, 0.04 vs standard error, 0.05; P < .001; log-rank, 15.9]. Conversion/semiconversion after endovascular treatment occurred in 14%. No differences were recorded comparing different fabric materials of the endograft in terms of freedom for reintervention and freedom from open surgery. A sac diameter ≥7 cm at the time of reintervention predicted further reinterventions, whereas primary open treatment improved durability.\n\nCONCLUSIONS: Reinterventions for T2ELs are safe, with satisfactory immediate technical success and low perioperative mortality. During follow-up, risks of rupture and AAA-related death remain low. However, the endoleak recurrence rate exceeds 60% at 5 years, necessitating reintervention in over 40% of patients. Early intervention for patients with a sac diameter approaching 7 cm can be suggested, whereas a primary open approach may be considered in low-risk patients.",
+          "englishSummary": "BACKGROUND: Type II endoleak (T2EL) is frequent after endovascular abdominal aortic aneurysm (AAA) repair and may require reintervention in selected patients. However, the optimal treatment strategy for durable resolution remains uncertain. This study aimed to retrospectively evaluate the perioperative and long-term outcomes of T2Els' reinterventions, both endovascular and open surgical, in a large patient cohort from 20 high-volume academic centers.",
+          "journal": "Journal of vascular surgery",
+          "journalIssns": [
+            "1097-6809",
+            "0741-5214"
+          ],
+          "publicationDate": "2026-10-20",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Falso R",
+            "Speziali S",
+            "Perini P",
+            "Leone N",
+            "Esposito D",
+            "Campolmi M",
+            "Kahlberg AL",
+            "Troisi N",
+            "Dorigo W",
+            "Pulli R",
+            "RETE study collaborators"
+          ],
+          "affiliations": [
+            "University of Florence, Florence, Italy. Electronic address: roberto.falso@unifi.it.",
+            "University of Florence, Florence, Italy.",
+            "University of Parma, Parma, Italy.",
+            "University of Modena and Reggio, Emilia, Italy.",
+            "University of Genova, Genova, Italy.",
+            "University Vita-Salute San Raffaele of Milan, Milan, Italy.",
+            "University of Florence, Florence, Italy; University of Pisa, Pisa, Italy."
+          ],
+          "doi": "10.1016/j.jvs.2026.09.049",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42901252/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Aortic Disease",
+            "Endovascular",
+            "Open Surgery",
+            "Vascular Graft / Stent / Device"
+          ],
+          "studyTypeTags": [
+            "Cohort"
+          ],
+          "relevance": "high",
+          "score": 9,
+          "scoreReasons": [
+            "+3 title vascular surgery topic: endovascular",
+            "+2 clinical evidence design: cohort",
+            "+2 human study: patients",
+            "+2 treatment or prognosis relevance: treatment"
+          ],
+          "isChinaResearch": false,
+          "summaryZh": "这篇文献聚焦腹主动脉瘤。主要内容涉及血管腔内修复、II型内漏的预测或管理、再次干预需求。",
+          "source": "PubMed",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jvs",
+            "impactFactor": {
+              "value": 3.9,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": {
+              "zone": 2,
+              "year": 2025,
+              "scope": "major",
+              "verified": true,
+              "sourceId": "pvd-2025",
+              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+            }
+          },
+          "digestGroup": "vascular",
+          "digestKind": "研究论文",
+          "digestRank": 32,
+          "digestIsReview": false,
+          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
         },
         {
           "pmid": "42949816",
@@ -8288,6 +8211,93 @@
           "digestRank": 30,
           "digestIsReview": false,
           "selectionReason": "直接涉及可降解支架及其材料、性能或应用证据。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+        },
+        {
+          "pmid": "43036015",
+          "title": "Targeting Fibroblast Foxc2 Promotes Neurovascular Recovery by Suppressing Sdc4 After Ischemic Stroke.",
+          "abstract": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction. Mechanistically, YZD-27 directly binds forkhead box protein C2 (Foxc2), enhances its protein stability by limiting proteasomal degradation, and increases its occupancy at the Sdc4 promoter, thereby repressing Sdc4 transcription in fibroblast. Fibroblast-conditioned medium experiments further supported a role for Foxc2/Sdc4 regulation in modulating endothelial barrier-related protein expression. These findings identify Foxc2/Sdc4 signaling as a regulatory mechanism associated with the therapeutic effects of YZD-27, and establish YZD-27 as a promising neurovascular therapeutic candidate for ischemic stroke.",
+          "englishSummary": "Ischemic stroke remains a leading cause of mortality and long-term disability, with current reperfusion therapies limited by narrow therapeutic windows and inability to promote sustained neurovascular repair. Here, we developed YZD-27, a rationally designed Tanshinone IIA (TSA) derivative with improved druggability, and show that it remains therapeutically effective when administered up to 24 h after ischemic injury in transient and permanent middle cerebral artery occlusion (tMCAO and dMCAO) mouse models. Single-cell RNA sequencing (scRNA-seq) and cell-cell communication analysis revealed broad cellular responses to YZD-27 and identified fibronectin-1 (Fn1)/syndecan-4 (Sdc4) as a predicted endothelia-fibroblast ligand-receptor interaction.",
+          "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "journalIssns": [
+            "2198-3844"
+          ],
+          "publicationDate": "2026-11-15",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Jiang Y",
+            "Han B",
+            "Jin J",
+            "Jiang R",
+            "Pang L",
+            "Zhang L",
+            "Lin J",
+            "Chen H",
+            "Luan X",
+            "Yao H",
+            "Zhang W"
+          ],
+          "affiliations": [
+            "State Key Laboratory for Quality Ensurance and Sustainable Use of Dao-di Herbs, Institute of Medicinal Plant Development, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China.",
+            "Department of Pharmacology, Jiangsu Provincial Key Laboratory of Critical Care Medicine, School of Medicine, Southeast University, Nanjing, Jiangsu, China.",
+            "State Key Laboratory of Discovery and Utilization of Functional Components in Traditional Chinese Medicine, Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research and Shuguang Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China.",
+            "School of Pharmacy, Naval Medical University, Shanghai, China.",
+            "Institute of Life Sciences, Key Laboratory of Developmental Genes and Human Disease, Southeast University, Nanjing, Jiangsu, China.",
+            "Nanjing Pukou People's Hospital, Liangjiang Hospital, Southeast University, Nanjing, Jiangsu, China.",
+            "Co-innovation Center of Neuroregeneration, Nantong University, Nantong, Jiangsu, China."
+          ],
+          "doi": "10.1002/advs.78768",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43036015/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Brain Ischemia / Reperfusion",
+            "China Research"
+          ],
+          "studyTypeTags": [
+            "Basic Research"
+          ],
+          "relevance": "high",
+          "score": 5,
+          "scoreReasons": [
+            "+2 专题匹配: Brain Ischemia / Reperfusion",
+            "+3 标题命中专题词"
+          ],
+          "isChinaResearch": true,
+          "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及功能恢复。",
+          "source": "PubMed",
+          "researchDirection": "hydrogen-brain-iri",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jcr-2198-3844",
+            "impactFactor": {
+              "value": 14.1,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 12,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 12,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=12",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": null
+          },
+          "digestGroup": "hydrogen-brain-iri",
+          "digestKind": "研究论文",
+          "digestRank": 28,
+          "digestIsReview": false,
+          "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
         },
         {
           "pmid": "43018062",
@@ -8808,98 +8818,6 @@
               "sourceId": "neuro-2025",
               "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/0ae0e718-5b9b-454e-88a7-e54ab48bd6eb.pdf",
               "sourceLabel": "豫北医学院图书馆·2025投稿资讯·神经科学（JIF 2024 / 中科院大类2025）"
-            }
-          },
-          "digestGroup": "hydrogen-brain-iri",
-          "digestKind": "研究论文",
-          "digestRank": 28,
-          "digestIsReview": false,
-          "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-        },
-        {
-          "pmid": "42959271",
-          "title": "Panax notoginseng-Derived Carbon Quantum Dots as a Novel Administration Strategy for Cerebral Ischemia-Reperfusion Injury Therapy.",
-          "abstract": "The present study aimed to synthesize Panax notoginseng-derived carbon quantum dots (PN-CDs) and explore their role in cerebral ischemia-reperfusion injury (CIRI). PN-CDs were synthesized by the hydrothermal method, and characterization and biocompatibility were assessed. Next, CIRI models were established using SH-SY5Y cells, primary neurons were treated with oxygen-glucose deprivation/reoxygenation (OGD/R), and rats were subjected to middle cerebral artery occlusion/reperfusion (MCAO/R). After PN-CDs treatment, inflammation, apoptosis, and oxidative stress were detected in neuronal cells and rats using enzyme-linked immunosorbent assay, quantitative reverse transcription polymerase chain reaction, flow cytometry, Western blot, and 2',7'-dichlorodihydrofluorescein diacetate probe. Meanwhile, 2,3,5-triphenyltetrazolium chloride, terminal deoxynucleotidyl transferase dUTP nick end labeling, Nissl, and hematoxylin and eosin staining were employed to measure the pathological damage of rats. Additionally, CIRI rats were administered with PN-CDs, Panax notoginseng saponins (PNS), Panax notoginseng (PN), or edaravone to investigate whether PN-CDs had the best effect. The findings revealed that PN-CDs exhibited favorable biocompatibility and crossed the blood-brain barrier. In vitro, PN-CD treatment inhibited oxidative stress, apoptosis, and inflammation, as evidenced by the decrease of interleukin-1β (IL-1β), IL-6, Bax, C-caspase-3, tumor necrosis factor-α, malondialdehyde, and reactive oxygen species and the increase of superoxide dismutase, Bcl-2, and glutathione. In CIRI rats, PN-CDs improved pathological damage and suppressed inflammation, apoptosis, and oxidative stress. The therapeutic effect of PN-CDs on CIRI was distinctly better than that of PNS and PN, and comparable to that of the first-line drug edaravone. In short, PN-CDs, a novel and efficient administration strategy, alleviates CIRI by inhibiting apoptosis, oxidative stress, and inflammation.",
-          "englishSummary": "The present study aimed to synthesize Panax notoginseng-derived carbon quantum dots (PN-CDs) and explore their role in cerebral ischemia-reperfusion injury (CIRI). PN-CDs were synthesized by the hydrothermal method, and characterization and biocompatibility were assessed. Next, CIRI models were established using SH-SY5Y cells, primary neurons were treated with oxygen-glucose deprivation/reoxygenation (OGD/R), and rats were subjected to middle cerebral artery occlusion/reperfusion (MCAO/R).",
-          "journal": "Biomaterials research",
-          "journalIssns": [
-            "1226-4601"
-          ],
-          "publicationDate": "2026-10-29",
-          "publicationDatePrecision": "day",
-          "authors": [
-            "Cui WQ",
-            "Wei S",
-            "Li HT",
-            "Zhi HW",
-            "Zhang JP",
-            "Wang Y",
-            "Liu ZL",
-            "Hu FX",
-            "Xu XQ",
-            "Wu HY"
-          ],
-          "affiliations": [
-            "Department of Neurology, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan 250014, PR China.",
-            "First College of Clinical Medicine, Shandong University of Traditional Chinese Medicine, Jinan 250355, PR China.",
-            "Xiyuan Hospital of China Academy of Chinese Medical Sciences, Beijing 100091, PR China.",
-            "Institute for Chinese Medicine and Brain Science, Shandong University of Traditional Chinese Medicine, Jinan 250355, PR China.",
-            "Key Laboratory of Traditional Chinese Medicine Classical Theory, Ministry of Education/Shandong Key Laboratory of Innovation and Application Research in Basic Theory of Traditional Chinese Medicine/Shandong Provincial Engineering Research Center for the Prevention and Treatment of Major Brain Diseases with Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan 250355, PR China."
-          ],
-          "doi": "10.34133/bmr.0440",
-          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42959271/",
-          "publicationTypes": [
-            "Journal Article"
-          ],
-          "topicTags": [
-            "Brain Ischemia / Reperfusion",
-            "China Research"
-          ],
-          "studyTypeTags": [
-            "Basic Research"
-          ],
-          "relevance": "high",
-          "score": 5,
-          "scoreReasons": [
-            "+2 专题匹配: Brain Ischemia / Reperfusion",
-            "+3 标题命中专题词"
-          ],
-          "isChinaResearch": true,
-          "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。主要内容涉及碳量子点给药材料。",
-          "source": "PubMed",
-          "researchDirection": "hydrogen-brain-iri",
-          "summaryBasis": "title-and-objective-rules",
-          "journalMetrics": {
-            "journalId": "biomater-res",
-            "impactFactor": {
-              "value": 9.8,
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 24,
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=24",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "jcr": {
-              "quartile": "Q1",
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 24,
-              "verified": true,
-              "scope": "source-listed",
-              "categories": [],
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=24",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "cas": {
-              "zone": 2,
-              "year": 2025,
-              "scope": "major",
-              "verified": true,
-              "sourceId": "bioeng-2025",
-              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
-              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
             }
           },
           "digestGroup": "hydrogen-brain-iri",

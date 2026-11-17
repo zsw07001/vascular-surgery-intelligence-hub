@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T23:58:46.096Z",
+  "generatedAt": "2026-11-17T02:56:27.182Z",
   "records": {
     "41475890": {
       "pmid": "41475890",
@@ -1181,10 +1181,21 @@
   "counts": {
     "available": 42,
     "selected": 42,
-    "readySelected": 42,
-    "pendingSelected": 0
+    "readySelected": 40,
+    "pendingSelected": 2
   },
-  "pending": [],
+  "pending": [
+    {
+      "pmid": "42933654",
+      "title": "JTH in Clinic: Venous Thromboembolism (VTE) Prophylaxis of Pediatric Patients at Risk of VTE.",
+      "reason": "中文详读待整理，保留完整英文摘要"
+    },
+    {
+      "pmid": "43036015",
+      "title": "Targeting Fibroblast Foxc2 Promotes Neurovascular Recovery by Suppressing Sdc4 After Ischemic Stroke.",
+      "reason": "中文详读待整理，保留完整英文摘要"
+    }
+  ],
   "staleNotes": [],
   "note": "中文详读根据PubMed摘要整理为目的、方法、结果与局限，不是逐句全文翻译，未经医学审校。原文变化即停用旧稿。新增文献未整理中文稿时显示完整英文摘要；不自动调用翻译或付费AI服务。"
 }
