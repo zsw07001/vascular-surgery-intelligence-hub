@@ -1,92 +1,92 @@
 {
-  "generatedAt": "2026-11-17T02:56:27.282Z",
+  "generatedAt": "2026-11-18T02:26:19.988Z",
   "period": {
-    "start": "2026-11-11",
-    "end": "2026-11-17"
+    "start": "2026-11-12",
+    "end": "2026-11-18"
   },
-  "dataUpdatedAt": "2026-11-17T02:56:27.282Z",
+  "dataUpdatedAt": "2026-11-18T02:26:19.988Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
-      "count": 1602,
-      "updatedAt": "2026-11-17T02:56:27.282Z"
+      "count": 1412,
+      "updatedAt": "2026-11-18T02:26:19.988Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 776,
-      "updatedAt": "2026-11-17T02:56:27.282Z"
+      "count": 771,
+      "updatedAt": "2026-11-18T02:26:19.988Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 30,
-      "updatedAt": "2026-11-17T02:56:27.282Z"
+      "updatedAt": "2026-11-18T02:26:19.988Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-17T02:56:27.282Z"
+      "updatedAt": "2026-11-18T02:26:19.988Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-17T02:56:27.282Z"
+      "updatedAt": "2026-11-18T02:26:19.988Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
       "count": 23,
-      "updatedAt": "2026-11-17T02:56:27.282Z"
+      "updatedAt": "2026-11-18T02:26:19.988Z"
     }
   ],
   "counts": {
-    "latestResearch": 1602,
-    "highImpact": 687,
-    "chinaResearch": 250,
-    "clinicalTrials": 776,
+    "latestResearch": 1412,
+    "highImpact": 606,
+    "chinaResearch": 234,
+    "clinicalTrials": 771,
     "guidelines": 30,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
     "totalBriefItems": 23
   },
-  "overviewZh": "本周自动汇总 1602 篇 PubMed 文献、776 项进行中/招募中临床试验，并筛出 23 条重点简报条目。",
+  "overviewZh": "本周自动汇总 1412 篇 PubMed 文献、771 项进行中/招募中临床试验，并筛出 23 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Imaging / Diagnosis",
-      "count": 604
+      "count": 558
     },
     {
       "tag": "Endovascular",
-      "count": 579
+      "count": 518
     },
     {
       "tag": "Venous Disease",
-      "count": 318
+      "count": 296
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 309
+      "count": 270
     },
     {
       "tag": "China Research",
-      "count": 250
+      "count": 234
     },
     {
       "tag": "Aortic Disease",
-      "count": 224
+      "count": 193
     },
     {
       "tag": "PAD / CLTI",
-      "count": 179
+      "count": 131
     },
     {
       "tag": "Open Surgery",
-      "count": 149
+      "count": 127
     }
   ],
   "priorityReading": [
@@ -150,6 +150,64 @@
       "doi": "10.1056/NEJMoa2602435"
     },
     {
+      "pmid": "43039119",
+      "title": "Society for Vascular Surgery Vascular Quality Initiative Contemporary Benchmarks: Thoracic Endovascular Aortic Repair.",
+      "abstract": "OBJECTIVE: To describe contemporary outcomes as well as temporal trends of in-hospital mortality and complication rates for patients undergoing thoracic endovascular aortic repair (TEVAR) across indications and levels of urgency, establishing a benchmark for future analytic efforts.\n\nMETHODS: The VQI TEVAR and complex EVAR registry was queried for procedures performed between January 2014-December 2024. Primary outcomes included in-hospital mortality and major complications. Analyses were stratified by indication to include descending thoracic aortic aneurysms (DTAA), dissections, and trauma. Aneurysms involving the aortic arch (i.e. landing zone < 2) or extending to the visceral segment and distally (i.e. landing zone >5) were excluded. Linear regression and the Cochran Armitage test for trend were used to analyze yearly mortality and complication rates over time. Mortality and complication end-points were further analyzed using logistic regression with and without risk-adjustment.\n\nRESULTS: Over the ten-year study period, 4,632 TEVARs were performed for DTAA, 6,701 for dissection, and 2,321 for trauma. For patients undergoing TEVAR for DTAA, in-hospital mortality declined significantly for both elective (2014, 3.9% versus 2024, 1.0%, -0.26 percentage points per year, p=0.01) and nonelective cases (2014, 16.7% versus 2024, 8.7%, -0.63 percentage points per year, p=0.04). There was also a decline in in-hospital mortality among elective dissection patients (2014, 3.7% versus 2024, 0.5%, -0.17 percentage points per year, p=0.03). Elective TEVAR overall is associated with a mortality rate of less than two percent per year. The in-hospital complication trends declined significantly for patients undergoing TEVAR for DTAA - elective patients experienced a decline in complication rates by -1.13 percentage points per year (2014, 24.8% versus 2024, 11.5% p<0.001) and non-elective patients experienced a decline in complication rates by -2.0 percentage points per year (2014, 40.5% versus 2024, 25.2%, p<0.001). Dissection patients undergoing elective repair had a decrease of -0.8 percentage points per year (2014, 16.9% versus 2024, 9.2%, p<0.001). Nonelective dissections repairs had a complication rate of 36.4% in 2014 vs 34.1% in 2024, p=0.874). Trauma patients tended toward higher complication rates over time, with a rate of 21.6% in 2014 and 32.2% in 2024, p=0.06) Trauma patients experienced an overall increase in in-hospital mortality of +0.38 percentage points per year (2014, 9.8% versus 2024, 9.4%, p=0.01).\n\nCONCLUSION: Temporal trends within the VQI demonstrate improvements in mortality and complication rates for patients undergoing TEVAR for DTAA and elective dissection repair, with contemporary yearly mortality rates of less than two percent. Patients undergoing non-elective dissection repair and those with traumatic indications represent challenging and complex pathologies requiring further research to identify opportunities to improve outcomes.",
+      "journalIssns": [
+        "1097-6809",
+        "0741-5214"
+      ],
+      "source": "PubMed",
+      "date": "2026-11-16",
+      "journal": "Journal of vascular surgery",
+      "journalMetrics": {
+        "journalId": "jvs",
+        "impactFactor": {
+          "value": 3.9,
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "jcr": {
+          "quartile": "Q1",
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "verified": true,
+          "scope": "source-listed",
+          "categories": [],
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "cas": {
+          "zone": 2,
+          "year": 2025,
+          "scope": "major",
+          "verified": true,
+          "sourceId": "pvd-2025",
+          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+        }
+      },
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Registry"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。",
+      "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复与血管疾病及其治疗。主要内容涉及血管腔内修复、死亡风险或生存结局。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039119/",
+      "doi": "10.1016/j.jvs.2026.11.011"
+    },
+    {
       "pmid": "43018065",
       "title": "Predictors of Clinically Meaningful 1-Year Health Status Improvements Following Endovascular or Surgical Revascularization: Insights From the BEST-CLI Trial.",
       "abstract": "BACKGROUND: Despite efforts to promote limb salvage in chronic limb-threatening ischemia (CLTI), the factors associated with meaningful health status improvement after revascularization remain poorly understood. We examined predictors of meaningful 1-year health status improvement following revascularization for CLTI.\n\nMETHODS: We pooled endovascular and surgical arms from the BEST-CLI (Best Endovascular Versus Best Surgical Therapy in Patients With CLTI) randomized controlled trial, including patients with CLTI (150 international sites, 2014-2019). Health status was assessed at baseline and 1 year using the peripheral artery disease-specific Vascular Quality of Life questionnaire, the generic European Quality-of-Life 5 Dimensions, and the Short Form-12 Physical and Mental Component Summary. Distribution-based minimal clinically important difference thresholds were defined as 0.5 SD of baseline health status scores. Multivariable logistic regression identified predictors of no meaningful 1-year improvement (same/worsened versus improved).\n\nRESULTS: Among 1017 patients (72.0% men, mean age 66.8±9.7 years), clinically meaningful improvements were reported by 76.5% for Vascular Quality of Life, 52.8% European Quality-of-Life 5 Dimensions, 56.7% for Short Form-12 Physical Component Summary, and 42.1% for Short Form-12 Mental Component Summary, regardless of revascularization type (surgical versus endovascular). Cardiometabolic risk factors and higher preprocedural health status increased the odds of no meaningful improvement. Revascularization type was not associated with Vascular Quality of Life improvement (odds ratio, 1.059 [95% CI, 0.91-1.23]; P=0.445; C statistic=0.77).\n\nCONCLUSIONS: One-year postrevascularization, over three-fourths of individuals with CLTI perceived meaningful improvements in peripheral artery disease-specific health, and over half improved overall physical health, regardless of procedure type. Cardiometabolic risk factors and higher preprocedural health status predicted 1-year health status response. REGISTRATION: URL: https://clinicaltrials.gov; Unique identifier: NCT02060630.",
@@ -206,61 +264,6 @@
       "summaryZh": "主要内容涉及风险预测模型或评分。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43018065/",
       "doi": "10.1161/JAHA.125.043270"
-    },
-    {
-      "pmid": "43014502",
-      "title": "Training Structure and Satisfaction with Learning in European Vascular Surgery Training: Results from the European Vascular Surgery Training (EVaST) Surveys.",
-      "abstract": "OBJECTIVE: This study describes the availability of modifiable structural training elements across European vascular surgery programmes to identify which of these elements are independently associated with trainees' satisfaction with learning and to contextualise them with trainer reported delivery constraints.\n\nMETHODS: The study comprised two parallel cross-sectional web based European Vascular Surgery Training (EVaST) surveys of trainees and trainers. The main outcome variable was satisfaction with learning (10 point Likert scale). Five modifiable structural elements were identified a priori: structured curriculum; training coordinator; dedicated or protected training time; assigned mentor; and simulation access. Associations were examined using an adjusted linear mixed effects model (LMM), with secondary models for coordinator resourcing and mentorship evaluations. Trainer data were analysed descriptively.\n\nRESULTS: Of 420 trainee responses (32 countries), 273 entered the complete case main LMM. Availability was inconsistent: structured curriculum 56.4%; dedicated or protected training time 34.3%; and simulation access 32.3%. In the adjusted LMM, learning satisfaction was higher with a structured curriculum (= 0.79, 95% confidence interval [CI] 0.21 - 1.38; p = .008) and dedicated training time (= 0.62, 95% CI 0.05 - 1.19; p = .035). In secondary models, coordinators with dedicated educational time showed the largest association (= 1.76, 95% CI 1.05 - 2.46; p < .001), and mentorship with regular evaluations was associated with higher satisfaction (= 0.98, 95% CI 0.36 - 1.59; p = .002). Among 659 trainers (37 countries), mentorship importance was rated 8.26 out of 10, yet only 43.4% had dedicated mentorship time; the dominant barrier was clinical workload (84.1%). Desired improvements were dedicated mentorship time (64.4%), formalised programmes (54.3%), and regular feedback sessions (51.6%).\n\nCONCLUSION: A structured curriculum and dedicated training time were independently associated with higher trainee learning satisfaction across European vascular surgery programmes. Organisational roles such as training coordinators and mentors were associated with higher satisfaction in exploratory secondary analyses, suggesting these roles may be most beneficial when actively resourced with dedicated time and regular evaluations. Trainer constraints converged on protected time for training and mentorship.",
-      "journalIssns": [
-        "1532-2165",
-        "1078-5884"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-11",
-      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-      "journalMetrics": {
-        "journalId": "ejves",
-        "impactFactor": {
-          "value": 8.5,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 1,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "pvd-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Endovascular"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦血管疾病及其治疗。主要内容涉及培训与测量表现。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43014502/",
-      "doi": "10.1016/j.ejvs.2026.11.018"
     }
   ],
   "priorityArticles": [
@@ -324,6 +327,64 @@
       "doi": "10.1056/NEJMoa2602435"
     },
     {
+      "pmid": "43039119",
+      "title": "Society for Vascular Surgery Vascular Quality Initiative Contemporary Benchmarks: Thoracic Endovascular Aortic Repair.",
+      "abstract": "OBJECTIVE: To describe contemporary outcomes as well as temporal trends of in-hospital mortality and complication rates for patients undergoing thoracic endovascular aortic repair (TEVAR) across indications and levels of urgency, establishing a benchmark for future analytic efforts.\n\nMETHODS: The VQI TEVAR and complex EVAR registry was queried for procedures performed between January 2014-December 2024. Primary outcomes included in-hospital mortality and major complications. Analyses were stratified by indication to include descending thoracic aortic aneurysms (DTAA), dissections, and trauma. Aneurysms involving the aortic arch (i.e. landing zone < 2) or extending to the visceral segment and distally (i.e. landing zone >5) were excluded. Linear regression and the Cochran Armitage test for trend were used to analyze yearly mortality and complication rates over time. Mortality and complication end-points were further analyzed using logistic regression with and without risk-adjustment.\n\nRESULTS: Over the ten-year study period, 4,632 TEVARs were performed for DTAA, 6,701 for dissection, and 2,321 for trauma. For patients undergoing TEVAR for DTAA, in-hospital mortality declined significantly for both elective (2014, 3.9% versus 2024, 1.0%, -0.26 percentage points per year, p=0.01) and nonelective cases (2014, 16.7% versus 2024, 8.7%, -0.63 percentage points per year, p=0.04). There was also a decline in in-hospital mortality among elective dissection patients (2014, 3.7% versus 2024, 0.5%, -0.17 percentage points per year, p=0.03). Elective TEVAR overall is associated with a mortality rate of less than two percent per year. The in-hospital complication trends declined significantly for patients undergoing TEVAR for DTAA - elective patients experienced a decline in complication rates by -1.13 percentage points per year (2014, 24.8% versus 2024, 11.5% p<0.001) and non-elective patients experienced a decline in complication rates by -2.0 percentage points per year (2014, 40.5% versus 2024, 25.2%, p<0.001). Dissection patients undergoing elective repair had a decrease of -0.8 percentage points per year (2014, 16.9% versus 2024, 9.2%, p<0.001). Nonelective dissections repairs had a complication rate of 36.4% in 2014 vs 34.1% in 2024, p=0.874). Trauma patients tended toward higher complication rates over time, with a rate of 21.6% in 2014 and 32.2% in 2024, p=0.06) Trauma patients experienced an overall increase in in-hospital mortality of +0.38 percentage points per year (2014, 9.8% versus 2024, 9.4%, p=0.01).\n\nCONCLUSION: Temporal trends within the VQI demonstrate improvements in mortality and complication rates for patients undergoing TEVAR for DTAA and elective dissection repair, with contemporary yearly mortality rates of less than two percent. Patients undergoing non-elective dissection repair and those with traumatic indications represent challenging and complex pathologies requiring further research to identify opportunities to improve outcomes.",
+      "journalIssns": [
+        "1097-6809",
+        "0741-5214"
+      ],
+      "source": "PubMed",
+      "date": "2026-11-16",
+      "journal": "Journal of vascular surgery",
+      "journalMetrics": {
+        "journalId": "jvs",
+        "impactFactor": {
+          "value": 3.9,
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "jcr": {
+          "quartile": "Q1",
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "verified": true,
+          "scope": "source-listed",
+          "categories": [],
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "cas": {
+          "zone": 2,
+          "year": 2025,
+          "scope": "major",
+          "verified": true,
+          "sourceId": "pvd-2025",
+          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+        }
+      },
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular"
+      ],
+      "studyTypeTags": [
+        "Registry"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。",
+      "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复与血管疾病及其治疗。主要内容涉及血管腔内修复、死亡风险或生存结局。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039119/",
+      "doi": "10.1016/j.jvs.2026.11.011"
+    },
+    {
       "pmid": "43018065",
       "title": "Predictors of Clinically Meaningful 1-Year Health Status Improvements Following Endovascular or Surgical Revascularization: Insights From the BEST-CLI Trial.",
       "abstract": "BACKGROUND: Despite efforts to promote limb salvage in chronic limb-threatening ischemia (CLTI), the factors associated with meaningful health status improvement after revascularization remain poorly understood. We examined predictors of meaningful 1-year health status improvement following revascularization for CLTI.\n\nMETHODS: We pooled endovascular and surgical arms from the BEST-CLI (Best Endovascular Versus Best Surgical Therapy in Patients With CLTI) randomized controlled trial, including patients with CLTI (150 international sites, 2014-2019). Health status was assessed at baseline and 1 year using the peripheral artery disease-specific Vascular Quality of Life questionnaire, the generic European Quality-of-Life 5 Dimensions, and the Short Form-12 Physical and Mental Component Summary. Distribution-based minimal clinically important difference thresholds were defined as 0.5 SD of baseline health status scores. Multivariable logistic regression identified predictors of no meaningful 1-year improvement (same/worsened versus improved).\n\nRESULTS: Among 1017 patients (72.0% men, mean age 66.8±9.7 years), clinically meaningful improvements were reported by 76.5% for Vascular Quality of Life, 52.8% European Quality-of-Life 5 Dimensions, 56.7% for Short Form-12 Physical Component Summary, and 42.1% for Short Form-12 Mental Component Summary, regardless of revascularization type (surgical versus endovascular). Cardiometabolic risk factors and higher preprocedural health status increased the odds of no meaningful improvement. Revascularization type was not associated with Vascular Quality of Life improvement (odds ratio, 1.059 [95% CI, 0.91-1.23]; P=0.445; C statistic=0.77).\n\nCONCLUSIONS: One-year postrevascularization, over three-fourths of individuals with CLTI perceived meaningful improvements in peripheral artery disease-specific health, and over half improved overall physical health, regardless of procedure type. Cardiometabolic risk factors and higher preprocedural health status predicted 1-year health status response. REGISTRATION: URL: https://clinicaltrials.gov; Unique identifier: NCT02060630.",
@@ -380,61 +441,6 @@
       "summaryZh": "主要内容涉及风险预测模型或评分。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43018065/",
       "doi": "10.1161/JAHA.125.043270"
-    },
-    {
-      "pmid": "43014502",
-      "title": "Training Structure and Satisfaction with Learning in European Vascular Surgery Training: Results from the European Vascular Surgery Training (EVaST) Surveys.",
-      "abstract": "OBJECTIVE: This study describes the availability of modifiable structural training elements across European vascular surgery programmes to identify which of these elements are independently associated with trainees' satisfaction with learning and to contextualise them with trainer reported delivery constraints.\n\nMETHODS: The study comprised two parallel cross-sectional web based European Vascular Surgery Training (EVaST) surveys of trainees and trainers. The main outcome variable was satisfaction with learning (10 point Likert scale). Five modifiable structural elements were identified a priori: structured curriculum; training coordinator; dedicated or protected training time; assigned mentor; and simulation access. Associations were examined using an adjusted linear mixed effects model (LMM), with secondary models for coordinator resourcing and mentorship evaluations. Trainer data were analysed descriptively.\n\nRESULTS: Of 420 trainee responses (32 countries), 273 entered the complete case main LMM. Availability was inconsistent: structured curriculum 56.4%; dedicated or protected training time 34.3%; and simulation access 32.3%. In the adjusted LMM, learning satisfaction was higher with a structured curriculum (= 0.79, 95% confidence interval [CI] 0.21 - 1.38; p = .008) and dedicated training time (= 0.62, 95% CI 0.05 - 1.19; p = .035). In secondary models, coordinators with dedicated educational time showed the largest association (= 1.76, 95% CI 1.05 - 2.46; p < .001), and mentorship with regular evaluations was associated with higher satisfaction (= 0.98, 95% CI 0.36 - 1.59; p = .002). Among 659 trainers (37 countries), mentorship importance was rated 8.26 out of 10, yet only 43.4% had dedicated mentorship time; the dominant barrier was clinical workload (84.1%). Desired improvements were dedicated mentorship time (64.4%), formalised programmes (54.3%), and regular feedback sessions (51.6%).\n\nCONCLUSION: A structured curriculum and dedicated training time were independently associated with higher trainee learning satisfaction across European vascular surgery programmes. Organisational roles such as training coordinators and mentors were associated with higher satisfaction in exploratory secondary analyses, suggesting these roles may be most beneficial when actively resourced with dedicated time and regular evaluations. Trainer constraints converged on protected time for training and mentorship.",
-      "journalIssns": [
-        "1532-2165",
-        "1078-5884"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-11",
-      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
-      "journalMetrics": {
-        "journalId": "ejves",
-        "impactFactor": {
-          "value": 8.5,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 31,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 1,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "pvd-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Endovascular"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦血管疾病及其治疗。主要内容涉及培训与测量表现。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43014502/",
-      "doi": "10.1016/j.ejvs.2026.11.018"
     }
   ],
   "chinaHighlights": [],
@@ -474,23 +480,6 @@
       "url": "https://clinicaltrials.gov/study/NCT02089607"
     },
     {
-      "nctId": "NCT07510451",
-      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-10-20",
-      "topicTags": [
-        "Aortic Disease",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 200,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-10-20",
-      "url": "https://clinicaltrials.gov/study/NCT07510451"
-    },
-    {
       "nctId": "NCT06528873",
       "title": "NAZARÉ: Concurrent Optical and Magnetic Stimulation (COMS) for Treatment of Patients With Chronic Ulcers of Vascular Origin in a Real-world Setting Including Care at Patient's Home, a Prospective Randomized, Controlled, Assessor Blinded, Phase IV, Clinical Trial",
       "source": "ClinicalTrials.gov",
@@ -572,22 +561,6 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
-      "nctId": "NCT07613840",
-      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-09-11",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 484,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
-      "url": "https://clinicaltrials.gov/study/NCT07613840"
-    },
-    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -602,6 +575,39 @@
       "enrollment": 450,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 450；最近更新 2026-09-09",
       "url": "https://clinicaltrials.gov/study/NCT05064540"
+    },
+    {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
+    },
+    {
+      "nctId": "NCT04545502",
+      "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-08-20",
+      "topicTags": [
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 2000,
+      "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
+      "url": "https://clinicaltrials.gov/study/NCT04545502"
     }
   ],
   "clinicalTrials": [
@@ -639,23 +645,6 @@
       "url": "https://clinicaltrials.gov/study/NCT02089607"
     },
     {
-      "nctId": "NCT07510451",
-      "title": "The Hypotension Prediction Index Software Compared With Standard Advanced Haemodynamic Monitoring in Patients Undergoing Major Aortic Surgery: A Prospective Randomized Controlled Trial",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-10-20",
-      "topicTags": [
-        "Aortic Disease",
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 200,
-      "reason": "正在招募；介入性研究；主题：Aortic Disease / Venous Disease / Endovascular；最近更新 2026-10-20",
-      "url": "https://clinicaltrials.gov/study/NCT07510451"
-    },
-    {
       "nctId": "NCT06528873",
       "title": "NAZARÉ: Concurrent Optical and Magnetic Stimulation (COMS) for Treatment of Patients With Chronic Ulcers of Vascular Origin in a Real-world Setting Including Care at Patient's Home, a Prospective Randomized, Controlled, Assessor Blinded, Phase IV, Clinical Trial",
       "source": "ClinicalTrials.gov",
@@ -737,22 +726,6 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
-      "nctId": "NCT07613840",
-      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-09-11",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "INTERVENTIONAL",
-      "enrollment": 484,
-      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
-      "url": "https://clinicaltrials.gov/study/NCT07613840"
-    },
-    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -767,9 +740,68 @@
       "enrollment": 450,
       "reason": "正在招募；介入性研究；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 450；最近更新 2026-09-09",
       "url": "https://clinicaltrials.gov/study/NCT05064540"
+    },
+    {
+      "nctId": "NCT06687590",
+      "title": "POst-Market ClINical Follow-up STudy oF the SerranatOR PTA Serration Balloon CathEter",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-05-07",
+      "topicTags": [
+        "PAD / CLTI",
+        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 500,
+      "reason": "正在招募；主题：PAD / CLTI / Venous Disease / Endovascular；计划入组 500；最近更新 2026-05-07",
+      "url": "https://clinicaltrials.gov/study/NCT06687590"
+    },
+    {
+      "nctId": "NCT04545502",
+      "title": "A Prospective and Retrospective, Multi-Centre, Post-Market, Non-Interventional Study of Terumo Aortic Knitted and Woven Grafts, and Cardiovascular Patches",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-08-20",
+      "topicTags": [
+        "Aortic Disease",
+        "Carotid Disease",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "OBSERVATIONAL",
+      "enrollment": 2000,
+      "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
+      "url": "https://clinicaltrials.gov/study/NCT04545502"
     }
   ],
   "manualReview": [
+    {
+      "title": "Limb Salvage Outcomes Following Endovascular Revascularization for Peripheral Artery Disease in a Southern Indian Population: A Single-Center Retrospective Study.",
+      "source": "Guidelines",
+      "date": "2026-10-10",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43005574/"
+    },
+    {
+      "title": "Dual antiplatelet therapy is not associated with target vessel occlusion or bleeding complications following fenestrated and branched aortic repair.",
+      "source": "Guidelines",
+      "date": "2026-08-03",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Antithrombotic Therapy",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42546856/"
+    },
     {
       "title": "Updated systematic review and meta-analysis comparing Myval versus Sapien 3 transcatheter heart valves in severe aortic stenosis: focus on early and one-year mortality.",
       "source": "Guidelines",
@@ -783,39 +815,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42862939/"
     },
     {
-      "title": "Rapid Endovascular Hemorrhage Control in Trauma: Joint Position Statement from the American College of Surgeons Committee on Trauma and the Society of Interventional Radiology.",
+      "title": "Expert Consensus on the Clinical Application of Sulodexide in Vascular Diseases.",
       "source": "Guidelines",
-      "date": "2026-07-24",
-      "topicTags": [
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42492772/"
-    },
-    {
-      "title": "2025 National Guidelines on the Mediterranean Diet: Executive Summary of a Joint Report by Italian Scientific Societies and the National Institute of Health Task Force on Clinical Practice Guidelines.",
-      "source": "Guidelines",
-      "date": "2026-12-01",
+      "date": "2026-07-18",
       "topicTags": [
         "PAD / CLTI",
-        "Guideline / Consensus"
+        "Venous Disease",
+        "Antithrombotic Therapy",
+        "Guideline / Consensus",
+        "China Research"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41493438/"
-    },
-    {
-      "title": "Glucagon-Like Peptide-1 Receptor Agonist Exposure and Long-Term Outcomes in Patients with Asymptomatic Carotid Stenosis: A Propensity Score-Matched Real-World Analysis.",
-      "source": "Guidelines",
-      "date": "2026-11-12",
-      "topicTags": [
-        "Carotid Disease",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Carotid Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42229997/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Venous Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42470601/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
@@ -895,6 +906,32 @@
   ],
   "reviewQueue": [
     {
+      "title": "Limb Salvage Outcomes Following Endovascular Revascularization for Peripheral Artery Disease in a Southern Indian Population: A Single-Center Retrospective Study.",
+      "source": "Guidelines",
+      "date": "2026-10-10",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43005574/"
+    },
+    {
+      "title": "Dual antiplatelet therapy is not associated with target vessel occlusion or bleeding complications following fenestrated and branched aortic repair.",
+      "source": "Guidelines",
+      "date": "2026-08-03",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Antithrombotic Therapy",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42546856/"
+    },
+    {
       "title": "Updated systematic review and meta-analysis comparing Myval versus Sapien 3 transcatheter heart valves in severe aortic stenosis: focus on early and one-year mortality.",
       "source": "Guidelines",
       "date": "2026-10-12",
@@ -907,39 +944,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42862939/"
     },
     {
-      "title": "Rapid Endovascular Hemorrhage Control in Trauma: Joint Position Statement from the American College of Surgeons Committee on Trauma and the Society of Interventional Radiology.",
+      "title": "Expert Consensus on the Clinical Application of Sulodexide in Vascular Diseases.",
       "source": "Guidelines",
-      "date": "2026-07-24",
-      "topicTags": [
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42492772/"
-    },
-    {
-      "title": "2025 National Guidelines on the Mediterranean Diet: Executive Summary of a Joint Report by Italian Scientific Societies and the National Institute of Health Task Force on Clinical Practice Guidelines.",
-      "source": "Guidelines",
-      "date": "2026-12-01",
+      "date": "2026-07-18",
       "topicTags": [
         "PAD / CLTI",
-        "Guideline / Consensus"
+        "Venous Disease",
+        "Antithrombotic Therapy",
+        "Guideline / Consensus",
+        "China Research"
       ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41493438/"
-    },
-    {
-      "title": "Glucagon-Like Peptide-1 Receptor Agonist Exposure and Long-Term Outcomes in Patients with Asymptomatic Carotid Stenosis: A Propensity Score-Matched Real-World Analysis.",
-      "source": "Guidelines",
-      "date": "2026-11-12",
-      "topicTags": [
-        "Carotid Disease",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Carotid Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42229997/"
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Venous Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42470601/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
