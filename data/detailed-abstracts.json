@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T02:26:19.917Z",
+  "generatedAt": "2026-11-19T01:53:16.861Z",
   "records": {
     "41475890": {
       "pmid": "41475890",
@@ -527,34 +527,6 @@
         {
           "heading": "结论与局限",
           "text": "结果支持其作为经过选择的难治性内瘘病变的挽救方案，但仅42例、单中心、无随机对照，不能据此认定常规跨肘支架没有风险。摘要未完整列出其他各项通畅终点和长期随访人数，需结合原文及器械适用范围判断。"
-        }
-      ],
-      "preparedAt": "2026-11-15",
-      "preparation": "AI辅助整理，未经医学审校",
-      "isVerbatimTranslation": false
-    },
-    "42941603": {
-      "pmid": "42941603",
-      "sourceTitle": "Clinical Risk Factors and Inflammatory Markers as Predictors of Postoperative Delirium in Patients Undergoing Acute Type A Aortic Dissection Surgery.",
-      "sourceAbstract": "Background: Postoperative delirium (POD) is a common and serious neurological complication following acute type A aortic dissection (ATAAD) repair, contributing to increased morbidity and mortality. Given the critical role of systemic inflammation in POD pathogenesis, this study aimed to evaluate perioperative inflammatory profiles in patients undergoing ATAAD repair and to develop a predictive nomogram for early POD risk stratification. Methods: This retrospective, single-center study included 355 patients who underwent total arch replacement for ATAAD. Serial inflammatory markers were assessed across multiple perioperative time points. A two-stage variable selection process, incorporating variance inflation factor (VIF) and the Boruta algorithm, was utilized to identify robust predictors. A predictive nomogram was constructed via multivariable logistic regression. Model performance was assessed using the area under the receiver operating characteristic curve (AUC), calibration plots, and decision curve analysis (DCA). Internal validation was performed using 1000 bootstrap resamples. Results: POD occurred in 29.86% of the cohort. Patients who developed POD had higher inflammatory marker levels at several individual postoperative time points compared to the non-delirium group. The final predictive model integrated 11 key variables: age, EuroSCORE I, CPB time, SIRI_6h, PLR_6h, IL-10_6h, IL-8_6h, IL-8_pre, IL-6_6h, IL-6_pre, and PCT_6h. The nomogram demonstrated acceptable internal discrimination with an AUC of 0.835 (95% CI: 0.794-0.876) and an optimism-corrected AUC of 0.811. Notably, IL-6_6h and PCT_6h emerged as strong independent risk factors, while SIRI_6h demonstrated an inverse association with POD. Calibration and DCA analyses confirmed the model's acceptable performance and potential clinical utility, though independent external validation remains essential prior to any clinical translation. An exploratory, web-based risk calculator was developed to facilitate bedside implementation. Conclusions: This study develops and internally validates an exploratory biomarker-based prediction model for POD in ATAAD patients. By integrating early inflammatory profiles with established clinical variables, this preliminary model provides a preliminary foundation for early risk stratification, though rigorous prospective multicenter external validation is required before real-world clinical implementation can be considered.",
-      "sourceHash": "a0d8cce51f5c5dce6b39e3a404a71c41106dd69de099cb1f9693220d531dd8b6",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42941603/",
-      "sections": [
-        {
-          "heading": "研究目的",
-          "text": "利用围手术期炎症指标和临床变量，建立急性A型主动脉夹层全弓置换患者术后谵妄的早期风险预测模型。"
-        },
-        {
-          "heading": "研究方法",
-          "text": "单中心回顾性研究纳入355名患者，采集多个时间点的炎症指标，通过共线性评估和Boruta算法筛选变量，再用多变量Logistic回归建立列线图。采用校准、决策曲线和1000次bootstrap进行内部验证。"
-        },
-        {
-          "heading": "主要结果",
-          "text": "术后谵妄发生率为29.86%。最终模型包含年龄、EuroSCORE I、体外循环时间以及术前和术后6小时的多种炎症指标，共11个变量。模型AUC为0.835（95%CI 0.794—0.876），乐观偏倚校正后AUC为0.811。术后6小时IL-6和降钙素原是较强的独立相关因素；SIRI_6h呈反向关联。"
-        },
-        {
-          "heading": "结论与局限",
-          "text": "该模型属于探索性工具，尽管内部区分度、校准和决策曲线表现可接受，也不能视为已经完成临床验证。原文明确要求严格的前瞻性、多中心外部验证后，再考虑真实临床应用。"
         }
       ],
       "preparedAt": "2026-11-15",
@@ -1179,10 +1151,10 @@
     }
   },
   "counts": {
-    "available": 42,
+    "available": 41,
     "selected": 42,
-    "readySelected": 38,
-    "pendingSelected": 4
+    "readySelected": 34,
+    "pendingSelected": 8
   },
   "pending": [
     {
@@ -1191,8 +1163,28 @@
       "reason": "中文详读待整理，保留完整英文摘要"
     },
     {
-      "pmid": "42933654",
-      "title": "JTH in Clinic: Venous Thromboembolism (VTE) Prophylaxis of Pediatric Patients at Risk of VTE.",
+      "pmid": "43044872",
+      "title": "Branched Endovascular Aortic Repair as a Salvage Strategy after Failed Chimney Endovascular Aortic Repair: An International Multicentre Cohort.",
+      "reason": "中文详读待整理，保留完整英文摘要"
+    },
+    {
+      "pmid": "43044871",
+      "title": "Zero Iodine Contrast Endovascular Aortic Repair Using Carbon Dioxide Angiography is Associated with Lower Rates of Renal Deterioration: A Multicentre, Prospective, Propensity Matched Study.",
+      "reason": "中文详读待整理，保留完整英文摘要"
+    },
+    {
+      "pmid": "43047539",
+      "title": "Machine-learning-derived laboratory signatures associated with postoperative day-3 ultrasound-detected lower-extremity deep vein thrombosis after fractures around the knee.",
+      "reason": "中文详读待整理，保留完整英文摘要"
+    },
+    {
+      "pmid": "43048814",
+      "title": "Longitudinal Trends of Intact and Ruptured Abdominal Aortic Aneurysm Repairs in the United States: A Cross-Sectional Study.",
+      "reason": "中文详读待整理，保留完整英文摘要"
+    },
+    {
+      "pmid": "43045649",
+      "title": "Disrupting the interaction between T lymphocytes and microglia: Mechanism of Huanglian Jiedu Decoction in the treatment of ischemic stroke.",
       "reason": "中文详读待整理，保留完整英文摘要"
     },
     {
