@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T01:53:07.486Z",
+  "generatedAt": "2026-11-20T01:46:36.551Z",
   "defaultWindow": 30,
   "rankingSystem": "JCR",
   "jcrYear": 2025,
@@ -22,16 +22,16 @@
       "id": "vascular",
       "title": "血管外科",
       "fileName": "latest-research.json",
-      "libraryCount": 1438,
+      "libraryCount": 1489,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-19T01:53:07.486Z",
+      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 132,
+            "recentPublications": 139,
             "directHighRelevance": 16,
-            "metricsPending": 13,
+            "metricsPending": 9,
             "eligible": 4
           },
           "articles": [
@@ -423,9 +423,9 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 479,
-            "directHighRelevance": 70,
-            "metricsPending": 30,
+            "recentPublications": 512,
+            "directHighRelevance": 78,
+            "metricsPending": 31,
             "eligible": 22
           },
           "articles": [
@@ -2649,9 +2649,9 @@
       "id": "hydrogen-brain-iri",
       "title": "氢气治疗与脑缺血再灌注",
       "fileName": "topic-hydrogen-brain-iri.json",
-      "libraryCount": 1027,
+      "libraryCount": 992,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-19T01:53:07.486Z",
+      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
       "periods": {
         "7": {
           "days": 7,
@@ -2659,9 +2659,94 @@
             "recentPublications": 17,
             "directHighRelevance": 9,
             "metricsPending": 2,
-            "eligible": 2
+            "eligible": 3
           },
           "articles": [
+            {
+              "pmid": "43056037",
+              "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
+              "abstract": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI. Principal component analysis and enrichment analysis were employed to validate impairment in mitochondrial dynamics in CIRI mice. GRSF1 was then evaluated for its effects on neurological function and histology. The role of GRSF1 on mitochondrial dynamics following CIRI was examined through enrichment analysis, electron microscopy, and respiratory chain complex activity assays. The relationship between GRSF1 and mitofusin 2 (Mfn2) in mitochondrial fusion was further investigated. The regulatory mechanism of mitochondrial E3 ubiquitin protein ligase 1 (Mul1) on Mfn2 was assessed using co-immunoprecipitation and denaturing immunoprecipitation assays. CIRI mice were characterized by disrupted mitochondrial dynamics, and restoring this balance ameliorates pathological progression. GRSF1 improved neurological function in CIRI mice, an effect confirmed to associate with maintenance of neuronal mitochondrial dynamics. Mechanistically, GRSF1 promoted mitochondrial fusion by suppressing the expression or activity of Mul1, thereby reducing Mul1-mediated ubiquitination and degradation of Mfn2. Ultimately, GRSF1 attenuated CIRI by inhibiting neuronal mitochondrial dynamic imbalance via the Mul1/Mfn2 pathway. It uncovers GRSF1 as a novel neuroprotective regulator in CIRI and identifies the Mul1/Mfn2 pathway as a critical mechanistic pathway underlying its protective effects. Targeting GRSF1 may hold therapeutic potential by modulating mitochondrial dynamics in CIRI.",
+              "englishSummary": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI.",
+              "journal": "Molecular neurobiology",
+              "journalIssns": [
+                "1559-1182",
+                "0893-7648"
+              ],
+              "publicationDate": "2026-11-19",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Li X",
+                "Wang X",
+                "Pan Y",
+                "Song X",
+                "Liu J",
+                "Zhou H",
+                "Jiang H",
+                "Yu G"
+              ],
+              "affiliations": [
+                "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China.",
+                "Center for Diagnosis and Treatment of Neuro-Oncology Diseases, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+                "Department of Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+                "Department of Critical Care Medicine, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+                "Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+                "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Road, Wuchang District, Wuhan, 430060, Hubei Province, China. hx-jiang@whu.edu.cn.",
+                "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China. yusheen@163.com."
+              ],
+              "doi": "10.1007/s12035-026-06329-2",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43056037/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。题名包含动物实验线索，临床适用性需另行判断。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-1559-1182",
+                "impactFactor": {
+                  "value": 5.5,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 73,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 73,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
             {
               "pmid": "43045649",
               "title": "Disrupting the interaction between T lymphocytes and microglia: Mechanism of Huanglian Jiedu Decoction in the treatment of ischemic stroke.",
@@ -2844,6 +2929,91 @@
             }
           ],
           "chinaArticles": [
+            {
+              "pmid": "43056037",
+              "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
+              "abstract": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI. Principal component analysis and enrichment analysis were employed to validate impairment in mitochondrial dynamics in CIRI mice. GRSF1 was then evaluated for its effects on neurological function and histology. The role of GRSF1 on mitochondrial dynamics following CIRI was examined through enrichment analysis, electron microscopy, and respiratory chain complex activity assays. The relationship between GRSF1 and mitofusin 2 (Mfn2) in mitochondrial fusion was further investigated. The regulatory mechanism of mitochondrial E3 ubiquitin protein ligase 1 (Mul1) on Mfn2 was assessed using co-immunoprecipitation and denaturing immunoprecipitation assays. CIRI mice were characterized by disrupted mitochondrial dynamics, and restoring this balance ameliorates pathological progression. GRSF1 improved neurological function in CIRI mice, an effect confirmed to associate with maintenance of neuronal mitochondrial dynamics. Mechanistically, GRSF1 promoted mitochondrial fusion by suppressing the expression or activity of Mul1, thereby reducing Mul1-mediated ubiquitination and degradation of Mfn2. Ultimately, GRSF1 attenuated CIRI by inhibiting neuronal mitochondrial dynamic imbalance via the Mul1/Mfn2 pathway. It uncovers GRSF1 as a novel neuroprotective regulator in CIRI and identifies the Mul1/Mfn2 pathway as a critical mechanistic pathway underlying its protective effects. Targeting GRSF1 may hold therapeutic potential by modulating mitochondrial dynamics in CIRI.",
+              "englishSummary": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI.",
+              "journal": "Molecular neurobiology",
+              "journalIssns": [
+                "1559-1182",
+                "0893-7648"
+              ],
+              "publicationDate": "2026-11-19",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Li X",
+                "Wang X",
+                "Pan Y",
+                "Song X",
+                "Liu J",
+                "Zhou H",
+                "Jiang H",
+                "Yu G"
+              ],
+              "affiliations": [
+                "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China.",
+                "Center for Diagnosis and Treatment of Neuro-Oncology Diseases, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+                "Department of Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+                "Department of Critical Care Medicine, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+                "Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+                "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Road, Wuchang District, Wuhan, 430060, Hubei Province, China. hx-jiang@whu.edu.cn.",
+                "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China. yusheen@163.com."
+              ],
+              "doi": "10.1007/s12035-026-06329-2",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43056037/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。题名包含动物实验线索，临床适用性需另行判断。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-1559-1182",
+                "impactFactor": {
+                  "value": 5.5,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 73,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 73,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
             {
               "pmid": "43045649",
               "title": "Disrupting the interaction between T lymphocytes and microglia: Mechanism of Huanglian Jiedu Decoction in the treatment of ischemic stroke.",
@@ -3029,10 +3199,10 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 121,
-            "directHighRelevance": 69,
-            "metricsPending": 14,
-            "eligible": 22
+            "recentPublications": 119,
+            "directHighRelevance": 66,
+            "metricsPending": 13,
+            "eligible": 23
           },
           "articles": [
             {
@@ -3139,6 +3309,91 @@
               "digestRank": 37,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。RCT；建议重点核对方法与终点。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43056037",
+              "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
+              "abstract": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI. Principal component analysis and enrichment analysis were employed to validate impairment in mitochondrial dynamics in CIRI mice. GRSF1 was then evaluated for its effects on neurological function and histology. The role of GRSF1 on mitochondrial dynamics following CIRI was examined through enrichment analysis, electron microscopy, and respiratory chain complex activity assays. The relationship between GRSF1 and mitofusin 2 (Mfn2) in mitochondrial fusion was further investigated. The regulatory mechanism of mitochondrial E3 ubiquitin protein ligase 1 (Mul1) on Mfn2 was assessed using co-immunoprecipitation and denaturing immunoprecipitation assays. CIRI mice were characterized by disrupted mitochondrial dynamics, and restoring this balance ameliorates pathological progression. GRSF1 improved neurological function in CIRI mice, an effect confirmed to associate with maintenance of neuronal mitochondrial dynamics. Mechanistically, GRSF1 promoted mitochondrial fusion by suppressing the expression or activity of Mul1, thereby reducing Mul1-mediated ubiquitination and degradation of Mfn2. Ultimately, GRSF1 attenuated CIRI by inhibiting neuronal mitochondrial dynamic imbalance via the Mul1/Mfn2 pathway. It uncovers GRSF1 as a novel neuroprotective regulator in CIRI and identifies the Mul1/Mfn2 pathway as a critical mechanistic pathway underlying its protective effects. Targeting GRSF1 may hold therapeutic potential by modulating mitochondrial dynamics in CIRI.",
+              "englishSummary": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI.",
+              "journal": "Molecular neurobiology",
+              "journalIssns": [
+                "1559-1182",
+                "0893-7648"
+              ],
+              "publicationDate": "2026-11-19",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Li X",
+                "Wang X",
+                "Pan Y",
+                "Song X",
+                "Liu J",
+                "Zhou H",
+                "Jiang H",
+                "Yu G"
+              ],
+              "affiliations": [
+                "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China.",
+                "Center for Diagnosis and Treatment of Neuro-Oncology Diseases, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+                "Department of Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+                "Department of Critical Care Medicine, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+                "Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+                "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Road, Wuchang District, Wuhan, 430060, Hubei Province, China. hx-jiang@whu.edu.cn.",
+                "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China. yusheen@163.com."
+              ],
+              "doi": "10.1007/s12035-026-06329-2",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43056037/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。题名包含动物实验线索，临床适用性需另行判断。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-1559-1182",
+                "impactFactor": {
+                  "value": 5.5,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 73,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 73,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
             {
               "pmid": "43045649",
@@ -4702,92 +4957,6 @@
               "digestRank": 28,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42913965",
-              "title": "Pharmacological basis of Suhexiang Wan in ischemic stroke: identification and functional characterization of piperlongumine as a brain-distributed bioactive constituent associated with STAT3-mediated blood-brain barrier protection.",
-              "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Suhexiang Wan (SHXW) is a classical traditional Chinese medicine (TCM) formula that has been traditionally used for stroke-related disorders, including sudden loss of consciousness, neurological dysfunction, and hemiplegia. Although modern pharmacological studies have suggested its neuroprotective and anti-inflammatory properties, the brain-distributed constituents potentially associated with its therapeutic effects in ischemic stroke (IS) and the underlying molecular mechanisms remain unclear.\n\nAIM OF THE STUDY: This study aimed to elucidate the pharmacological basis of SHXW in IS by identifying brain-distributed constituents and investigating a candidate constituent potentially associated with its protective effects against cerebral ischemia/reperfusion injury (CIRI), with particular emphasis on blood-brain barrier (BBB) protection.\n\nMATERIALS AND METHODS: SHXW-derived constituents detected in brain tissue under middle cerebral artery occlusion/reperfusion (MCAO/R) conditions were characterized using ultra-high-performance liquid chromatography-tandem mass spectrometry (UHPLC-MS/MS). Integrated network pharmacology analysis was performed to predict potential therapeutic targets and signaling pathways. Piperlongumine (PIP) was further confirmed and quantified in SHXW and brain tissue using an authentic standard-based LC-MS/MS approach. Molecular docking, molecular dynamics simulations, biophysical binding assays, and cellular target-engagement experiments were used to investigate the interaction between PIP and signal transducer and activator of transcription 3 (STAT3). The protective effects and associated mechanisms were evaluated in a mouse MCAO/R model and an oxygen-glucose deprivation/reoxygenation (OGD/R)-induced brain microvascular endothelial cell injury model.\n\nRESULTS: Among 1991 putatively annotated constituents of SHXW, 55 SHXW-derived constituents were detected in brain tissue under MCAO/R conditions. In the MCAO/R mouse model, SHXW significantly improved neurological deficits, reduced infarct volume and brain edema, decreased BBB permeability, and restored tight junction protein expression. Among the brain-detected constituents, PIP, a natural alkaloid derived from Piper longum L., was selected for further investigation based on its detection in brain tissue, network topology characteristics, predicted association with STAT3, and reported pharmacological relevance to ischemic injury. Authentic standard-based LC-MS/MS confirmed PIP in SHXW and brain tissue, with a PIP content of 48.21 ± 1.10 μg/g in SHXW and a brain concentration of 159.67 ± 8.37 ng/g at 2 h after SHXW administration. Biophysical and cellular target-engagement assays supported the interaction between PIP and STAT3. PIP partially recapitulated the protective effects of SHXW by alleviating neurological deficits, preserving BBB integrity, restoring endothelial barrier function, and suppressing STAT3-associated inflammatory responses. STAT3 knockdown partially phenocopied the endothelial protective effects of PIP, whereas restoration of STAT3 expression in STAT3-knockdown cells reversed the protective phenotype. PIP treatment attenuated the injury-associated changes following STAT3 restoration, supporting the functional involvement of STAT3-associated signaling in PIP-mediated BBB protection.\n\nCONCLUSIONS: This study provides new insights into the pharmacological basis of SHXW in IS by integrating chemical profiling, brain distribution analysis, and pharmacological validation. SHXW exerted protective effects against CIRI and preserved BBB integrity. Among the SHXW-derived constituents detected in brain tissue, PIP was identified and functionally characterized as a bioactive candidate associated with BBB protection. The findings support the involvement of PIP-STAT3 interaction and STAT3-associated inflammatory signaling in PIP-mediated BBB protection. These results provide pharmacological evidence linking the traditional application of SHXW with its modern molecular mechanisms while highlighting brain-distribution-guided approaches for investigating the therapeutic basis of complex TCM formulas.",
-              "englishSummary": "ETHNOPHARMACOLOGICAL RELEVANCE: Suhexiang Wan (SHXW) is a classical traditional Chinese medicine (TCM) formula that has been traditionally used for stroke-related disorders, including sudden loss of consciousness, neurological dysfunction, and hemiplegia. Although modern pharmacological studies have suggested its neuroprotective and anti-inflammatory properties, the brain-distributed constituents potentially associated with its therapeutic effects in ischemic stroke (IS) and the underlying molecular mechanisms remain unclear. AIM OF THE STUDY: This study aimed to elucidate the pharmacological basis of SHXW in IS by identifying brain-distributed constituents and investigating a candidate constituent potentially associated with its protective effects against cerebral ischemia/reperfusion injury (CIRI), with particular emphasis on blood-brain barrier (BBB) protection.",
-              "journal": "Journal of ethnopharmacology",
-              "journalIssns": [
-                "1872-7573",
-                "0378-8741"
-              ],
-              "publicationDate": "2026-10-23",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Wang J",
-                "Ma S",
-                "Yu D",
-                "Wang Y",
-                "Ma C",
-                "Ma D",
-                "Chang X",
-                "Yang Y",
-                "Jin M",
-                "Wang Z",
-                "Wu W"
-              ],
-              "affiliations": [
-                "Department of Neurovascular Surgery, The First Hospital of Jilin University, Changchun, 130021, China.",
-                "Public Research Platform, The First Hospital of Jilin University, Changchun, 130021, China.",
-                "Department of Neurology, Qianwei Hospital of Jilin Province, Changchun, 130012, China.",
-                "The First Clinical Medical College, Jilin University, Changchun, 130021, China.",
-                "Department of Neurovascular Surgery, The First Hospital of Jilin University, Changchun, 130021, China. Electronic address: wu_w@jlu.edu.cn."
-              ],
-              "doi": "10.1016/j.jep.2026.122561",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42913965/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及血脑屏障。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "jcr-1872-7573",
-                "impactFactor": {
-                  "value": 6.8,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 49,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=49",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 49,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=49",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": null
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             }
           ],
           "chinaArticles": [
@@ -4895,6 +5064,91 @@
               "digestRank": 37,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。RCT；建议重点核对方法与终点。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43056037",
+              "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
+              "abstract": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI. Principal component analysis and enrichment analysis were employed to validate impairment in mitochondrial dynamics in CIRI mice. GRSF1 was then evaluated for its effects on neurological function and histology. The role of GRSF1 on mitochondrial dynamics following CIRI was examined through enrichment analysis, electron microscopy, and respiratory chain complex activity assays. The relationship between GRSF1 and mitofusin 2 (Mfn2) in mitochondrial fusion was further investigated. The regulatory mechanism of mitochondrial E3 ubiquitin protein ligase 1 (Mul1) on Mfn2 was assessed using co-immunoprecipitation and denaturing immunoprecipitation assays. CIRI mice were characterized by disrupted mitochondrial dynamics, and restoring this balance ameliorates pathological progression. GRSF1 improved neurological function in CIRI mice, an effect confirmed to associate with maintenance of neuronal mitochondrial dynamics. Mechanistically, GRSF1 promoted mitochondrial fusion by suppressing the expression or activity of Mul1, thereby reducing Mul1-mediated ubiquitination and degradation of Mfn2. Ultimately, GRSF1 attenuated CIRI by inhibiting neuronal mitochondrial dynamic imbalance via the Mul1/Mfn2 pathway. It uncovers GRSF1 as a novel neuroprotective regulator in CIRI and identifies the Mul1/Mfn2 pathway as a critical mechanistic pathway underlying its protective effects. Targeting GRSF1 may hold therapeutic potential by modulating mitochondrial dynamics in CIRI.",
+              "englishSummary": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI.",
+              "journal": "Molecular neurobiology",
+              "journalIssns": [
+                "1559-1182",
+                "0893-7648"
+              ],
+              "publicationDate": "2026-11-19",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Li X",
+                "Wang X",
+                "Pan Y",
+                "Song X",
+                "Liu J",
+                "Zhou H",
+                "Jiang H",
+                "Yu G"
+              ],
+              "affiliations": [
+                "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China.",
+                "Center for Diagnosis and Treatment of Neuro-Oncology Diseases, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+                "Department of Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+                "Department of Critical Care Medicine, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+                "Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+                "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Road, Wuchang District, Wuhan, 430060, Hubei Province, China. hx-jiang@whu.edu.cn.",
+                "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China. yusheen@163.com."
+              ],
+              "doi": "10.1007/s12035-026-06329-2",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43056037/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。题名包含动物实验线索，临床适用性需另行判断。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-1559-1182",
+                "impactFactor": {
+                  "value": 5.5,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 73,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 73,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
             {
               "pmid": "43045649",
@@ -6119,14 +6373,14 @@
       "fileName": "topic-vascular-flow-vibration.json",
       "libraryCount": 89,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-19T01:53:07.486Z",
+      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 2,
-            "directHighRelevance": 0,
-            "metricsPending": 0,
+            "recentPublications": 3,
+            "directHighRelevance": 1,
+            "metricsPending": 1,
             "eligible": 0
           },
           "articles": [],
@@ -6135,9 +6389,9 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 13,
-            "directHighRelevance": 2,
-            "metricsPending": 1,
+            "recentPublications": 14,
+            "directHighRelevance": 3,
+            "metricsPending": 2,
             "eligible": 0
           },
           "articles": [],
@@ -6151,14 +6405,14 @@
       "fileName": "topic-biodegradable-stents.json",
       "libraryCount": 86,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-19T01:53:07.486Z",
+      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 4,
-            "directHighRelevance": 3,
-            "metricsPending": 4,
+            "recentPublications": 5,
+            "directHighRelevance": 4,
+            "metricsPending": 3,
             "eligible": 0
           },
           "articles": [],
@@ -6167,10 +6421,10 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 18,
-            "directHighRelevance": 11,
+            "recentPublications": 19,
+            "directHighRelevance": 12,
             "metricsPending": 6,
-            "eligible": 2
+            "eligible": 1
           },
           "articles": [
             {
@@ -6249,98 +6503,6 @@
                 },
                 "cas": {
                   "zone": 2,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "bioeng-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "biodegradable-stents",
-              "digestKind": "研究论文",
-              "digestRank": 30,
-              "digestIsReview": false,
-              "selectionReason": "直接涉及可降解支架及其材料、性能或应用证据。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42906674",
-              "title": "Multiscale heterostructured Mg-2 Zn alloy for biodegradable implants: Coordinated strength-ductility, moderate degradation, and immunomodulation.",
-              "abstract": "High-strength lean-alloy magnesium (Mg) has attracted extensive attention for orthopedic and vascular stent implants owing to its favorable biodegradability and biocompatibility. However, while retaining the chemical composition of specimens and ensuring high biosafety, the major challenge is to overcome the strength-ductility trade-off and achieve uniform degradation behavior. In this study, a lean Mg-2 wt% Zn alloy with balanced strength and ductility was fabricated via hot working. The alloy possessed a bimodal heterogeneous structure composed of fine-grained regions containing nanograins and nanotwins, as well as coarse-grained regions. It attained an ultimate tensile strength of approximately 350 MPa with an elongation of 13%. This heterostructured Mg-2Zn alloy exhibits better performance compared with the commercial rare-earth-containing WE43 alloy. Moreover, it demonstrated slow degradation rates (0.07 mm·year-1 in vitro and 0.11 mm·year-1 in vivo) driven by multi-phase interface effects. Furthermore, the heterostructured Mg-2 Zn alloy exhibited antibacterial activity in vitro and a relatively mild peri‑implant inflammatory response in vivo. This study differs from conventional rare-earth alloy strengthening strategies, clarifies the formation and regulation mechanisms of heterostructures, and provides theoretical and technical support for the clinical translation of high-performance biodegradable Mg alloys. STATEMENT OF SIGNIFICANCE: To address the bottleneck of balancing mechanical performance and biocompatibility in rare-earth-free magnesium (Mg) alloys for biodegradable temporary implants, this study employed a multi-pass hot-rolling process with an optimized final rolling temperature to produce the lean-alloyed Mg-2 Zn heterostructured alloy. The alloy achieved a reasonable combination of tensile strength (349 MPa) and elongation (13%), mitigating the common strength-ductility trade-off observed in Mg-2 Zn alloys. Metabolomic analysis showed that metal ions slowly released during alloy degradation could regulate biological energy metabolism, endowing the material with antibacterial activity in vitro and a relatively mild peri‑implant inflammatory response in vivo. This study clarified the mechanisms associated with heterostructure formation, strength-ductility synergistic strengthening, slow degradation, and biological metabolic regulation. It also provided experimental support for the research and development of high-performance rare-earth-free Mg-based biomaterials.",
-              "englishSummary": "High-strength lean-alloy magnesium (Mg) has attracted extensive attention for orthopedic and vascular stent implants owing to its favorable biodegradability and biocompatibility. However, while retaining the chemical composition of specimens and ensuring high biosafety, the major challenge is to overcome the strength-ductility trade-off and achieve uniform degradation behavior. In this study, a lean Mg-2 wt% Zn alloy with balanced strength and ductility was fabricated via hot working.",
-              "journal": "Acta biomaterialia",
-              "journalIssns": [
-                "1878-7568",
-                "1742-7061"
-              ],
-              "publicationDate": "2026-10-21",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Tian J",
-                "Wu Q",
-                "Yang C",
-                "Zhang X",
-                "Liu X",
-                "Wang W"
-              ],
-              "affiliations": [
-                "Shanghai Engineering Research Center of Nano-Biomaterials and Regenerative Medicine, College of Biological Science and Medical Engineering, Donghua University, Shanghai, 201620, China.",
-                "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 201306, China.",
-                "Department of Gastroenterology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, 200025, China.",
-                "State Key Laboratory of Metal Matrix Composites, School of Materials Science and Engineering, Shanghai Jiao Tong University, Shanghai, 200240, China; Suzhou Origin Medical Technology Co., Ltd., Suzhou, 215513, China.",
-                "Shanghai Engineering Research Center of Nano-Biomaterials and Regenerative Medicine, College of Biological Science and Medical Engineering, Donghua University, Shanghai, 201620, China; State Key Laboratory of High Performance Ceramics, Shanghai Institute of Ceramics, Shanghai, 200050, China.",
-                "Shanghai Engineering Research Center of Nano-Biomaterials and Regenerative Medicine, College of Biological Science and Medical Engineering, Donghua University, Shanghai, 201620, China. Electronic address: wenhuiwang@dhu.edu.cn."
-              ],
-              "doi": "10.1016/j.actbio.2026.10.038",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42906674/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Bioresorbable Stent / Scaffold",
-                "Biomaterials",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 7,
-              "scoreReasons": [
-                "+2 专题匹配: Bioresorbable Stent / Scaffold",
-                "+2 专题匹配: Biomaterials",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦可降解植入材料。主要内容涉及镁锌合金材料设计、材料降解或腐蚀行为、材料强度与延展性能。",
-              "source": "PubMed",
-              "researchDirection": "biodegradable-stents",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "acta-biomater",
-                "impactFactor": {
-                  "value": 10.4,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 22,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=22",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 22,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=22",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 1,
                   "year": 2025,
                   "scope": "major",
                   "verified": true,
@@ -6446,98 +6608,6 @@
               "digestRank": 30,
               "digestIsReview": false,
               "selectionReason": "直接涉及可降解支架及其材料、性能或应用证据。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42906674",
-              "title": "Multiscale heterostructured Mg-2 Zn alloy for biodegradable implants: Coordinated strength-ductility, moderate degradation, and immunomodulation.",
-              "abstract": "High-strength lean-alloy magnesium (Mg) has attracted extensive attention for orthopedic and vascular stent implants owing to its favorable biodegradability and biocompatibility. However, while retaining the chemical composition of specimens and ensuring high biosafety, the major challenge is to overcome the strength-ductility trade-off and achieve uniform degradation behavior. In this study, a lean Mg-2 wt% Zn alloy with balanced strength and ductility was fabricated via hot working. The alloy possessed a bimodal heterogeneous structure composed of fine-grained regions containing nanograins and nanotwins, as well as coarse-grained regions. It attained an ultimate tensile strength of approximately 350 MPa with an elongation of 13%. This heterostructured Mg-2Zn alloy exhibits better performance compared with the commercial rare-earth-containing WE43 alloy. Moreover, it demonstrated slow degradation rates (0.07 mm·year-1 in vitro and 0.11 mm·year-1 in vivo) driven by multi-phase interface effects. Furthermore, the heterostructured Mg-2 Zn alloy exhibited antibacterial activity in vitro and a relatively mild peri‑implant inflammatory response in vivo. This study differs from conventional rare-earth alloy strengthening strategies, clarifies the formation and regulation mechanisms of heterostructures, and provides theoretical and technical support for the clinical translation of high-performance biodegradable Mg alloys. STATEMENT OF SIGNIFICANCE: To address the bottleneck of balancing mechanical performance and biocompatibility in rare-earth-free magnesium (Mg) alloys for biodegradable temporary implants, this study employed a multi-pass hot-rolling process with an optimized final rolling temperature to produce the lean-alloyed Mg-2 Zn heterostructured alloy. The alloy achieved a reasonable combination of tensile strength (349 MPa) and elongation (13%), mitigating the common strength-ductility trade-off observed in Mg-2 Zn alloys. Metabolomic analysis showed that metal ions slowly released during alloy degradation could regulate biological energy metabolism, endowing the material with antibacterial activity in vitro and a relatively mild peri‑implant inflammatory response in vivo. This study clarified the mechanisms associated with heterostructure formation, strength-ductility synergistic strengthening, slow degradation, and biological metabolic regulation. It also provided experimental support for the research and development of high-performance rare-earth-free Mg-based biomaterials.",
-              "englishSummary": "High-strength lean-alloy magnesium (Mg) has attracted extensive attention for orthopedic and vascular stent implants owing to its favorable biodegradability and biocompatibility. However, while retaining the chemical composition of specimens and ensuring high biosafety, the major challenge is to overcome the strength-ductility trade-off and achieve uniform degradation behavior. In this study, a lean Mg-2 wt% Zn alloy with balanced strength and ductility was fabricated via hot working.",
-              "journal": "Acta biomaterialia",
-              "journalIssns": [
-                "1878-7568",
-                "1742-7061"
-              ],
-              "publicationDate": "2026-10-21",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Tian J",
-                "Wu Q",
-                "Yang C",
-                "Zhang X",
-                "Liu X",
-                "Wang W"
-              ],
-              "affiliations": [
-                "Shanghai Engineering Research Center of Nano-Biomaterials and Regenerative Medicine, College of Biological Science and Medical Engineering, Donghua University, Shanghai, 201620, China.",
-                "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 201306, China.",
-                "Department of Gastroenterology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, 200025, China.",
-                "State Key Laboratory of Metal Matrix Composites, School of Materials Science and Engineering, Shanghai Jiao Tong University, Shanghai, 200240, China; Suzhou Origin Medical Technology Co., Ltd., Suzhou, 215513, China.",
-                "Shanghai Engineering Research Center of Nano-Biomaterials and Regenerative Medicine, College of Biological Science and Medical Engineering, Donghua University, Shanghai, 201620, China; State Key Laboratory of High Performance Ceramics, Shanghai Institute of Ceramics, Shanghai, 200050, China.",
-                "Shanghai Engineering Research Center of Nano-Biomaterials and Regenerative Medicine, College of Biological Science and Medical Engineering, Donghua University, Shanghai, 201620, China. Electronic address: wenhuiwang@dhu.edu.cn."
-              ],
-              "doi": "10.1016/j.actbio.2026.10.038",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42906674/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Bioresorbable Stent / Scaffold",
-                "Biomaterials",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 7,
-              "scoreReasons": [
-                "+2 专题匹配: Bioresorbable Stent / Scaffold",
-                "+2 专题匹配: Biomaterials",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦可降解植入材料。主要内容涉及镁锌合金材料设计、材料降解或腐蚀行为、材料强度与延展性能。",
-              "source": "PubMed",
-              "researchDirection": "biodegradable-stents",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "acta-biomater",
-                "impactFactor": {
-                  "value": 10.4,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 22,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=22",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 22,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=22",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 1,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "bioeng-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "biodegradable-stents",
-              "digestKind": "研究论文",
-              "digestRank": 30,
-              "digestIsReview": false,
-              "selectionReason": "直接涉及可降解支架及其材料、性能或应用证据。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             }
           ]
         }
@@ -6547,9 +6617,9 @@
       "id": "neurovascular-bioelectric",
       "title": "神经与血管电信号互调",
       "fileName": "topic-neurovascular-bioelectric.json",
-      "libraryCount": 58,
+      "libraryCount": 56,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-19T01:53:07.486Z",
+      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
       "periods": {
         "7": {
           "days": 7,
@@ -6565,7 +6635,7 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 7,
+            "recentPublications": 6,
             "directHighRelevance": 1,
             "metricsPending": 0,
             "eligible": 0
@@ -6960,6 +7030,91 @@
           "digestRank": 30,
           "digestIsReview": false,
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+        },
+        {
+          "pmid": "43056037",
+          "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
+          "abstract": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI. Principal component analysis and enrichment analysis were employed to validate impairment in mitochondrial dynamics in CIRI mice. GRSF1 was then evaluated for its effects on neurological function and histology. The role of GRSF1 on mitochondrial dynamics following CIRI was examined through enrichment analysis, electron microscopy, and respiratory chain complex activity assays. The relationship between GRSF1 and mitofusin 2 (Mfn2) in mitochondrial fusion was further investigated. The regulatory mechanism of mitochondrial E3 ubiquitin protein ligase 1 (Mul1) on Mfn2 was assessed using co-immunoprecipitation and denaturing immunoprecipitation assays. CIRI mice were characterized by disrupted mitochondrial dynamics, and restoring this balance ameliorates pathological progression. GRSF1 improved neurological function in CIRI mice, an effect confirmed to associate with maintenance of neuronal mitochondrial dynamics. Mechanistically, GRSF1 promoted mitochondrial fusion by suppressing the expression or activity of Mul1, thereby reducing Mul1-mediated ubiquitination and degradation of Mfn2. Ultimately, GRSF1 attenuated CIRI by inhibiting neuronal mitochondrial dynamic imbalance via the Mul1/Mfn2 pathway. It uncovers GRSF1 as a novel neuroprotective regulator in CIRI and identifies the Mul1/Mfn2 pathway as a critical mechanistic pathway underlying its protective effects. Targeting GRSF1 may hold therapeutic potential by modulating mitochondrial dynamics in CIRI.",
+          "englishSummary": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI.",
+          "journal": "Molecular neurobiology",
+          "journalIssns": [
+            "1559-1182",
+            "0893-7648"
+          ],
+          "publicationDate": "2026-11-19",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Li X",
+            "Wang X",
+            "Pan Y",
+            "Song X",
+            "Liu J",
+            "Zhou H",
+            "Jiang H",
+            "Yu G"
+          ],
+          "affiliations": [
+            "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China.",
+            "Center for Diagnosis and Treatment of Neuro-Oncology Diseases, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+            "Department of Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+            "Department of Critical Care Medicine, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+            "Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+            "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Road, Wuchang District, Wuhan, 430060, Hubei Province, China. hx-jiang@whu.edu.cn.",
+            "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China. yusheen@163.com."
+          ],
+          "doi": "10.1007/s12035-026-06329-2",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43056037/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Brain Ischemia / Reperfusion",
+            "China Research"
+          ],
+          "studyTypeTags": [
+            "Basic Research"
+          ],
+          "relevance": "high",
+          "score": 5,
+          "scoreReasons": [
+            "+2 专题匹配: Brain Ischemia / Reperfusion",
+            "+3 标题命中专题词"
+          ],
+          "isChinaResearch": true,
+          "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。题名包含动物实验线索，临床适用性需另行判断。",
+          "source": "PubMed",
+          "researchDirection": "hydrogen-brain-iri",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jcr-1559-1182",
+            "impactFactor": {
+              "value": 5.5,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 73,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 73,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": null
+          },
+          "digestGroup": "hydrogen-brain-iri",
+          "digestKind": "研究论文",
+          "digestRank": 28,
+          "digestIsReview": false,
+          "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
         },
         {
           "pmid": "43045649",
@@ -8385,67 +8540,68 @@
           "selectionReason": "直接涉及可降解支架及其材料、性能或应用证据。研究设计与结论仍需原文复核。JCR 2025 Q1。"
         },
         {
-          "pmid": "42906674",
-          "title": "Multiscale heterostructured Mg-2 Zn alloy for biodegradable implants: Coordinated strength-ductility, moderate degradation, and immunomodulation.",
-          "abstract": "High-strength lean-alloy magnesium (Mg) has attracted extensive attention for orthopedic and vascular stent implants owing to its favorable biodegradability and biocompatibility. However, while retaining the chemical composition of specimens and ensuring high biosafety, the major challenge is to overcome the strength-ductility trade-off and achieve uniform degradation behavior. In this study, a lean Mg-2 wt% Zn alloy with balanced strength and ductility was fabricated via hot working. The alloy possessed a bimodal heterogeneous structure composed of fine-grained regions containing nanograins and nanotwins, as well as coarse-grained regions. It attained an ultimate tensile strength of approximately 350 MPa with an elongation of 13%. This heterostructured Mg-2Zn alloy exhibits better performance compared with the commercial rare-earth-containing WE43 alloy. Moreover, it demonstrated slow degradation rates (0.07 mm·year-1 in vitro and 0.11 mm·year-1 in vivo) driven by multi-phase interface effects. Furthermore, the heterostructured Mg-2 Zn alloy exhibited antibacterial activity in vitro and a relatively mild peri‑implant inflammatory response in vivo. This study differs from conventional rare-earth alloy strengthening strategies, clarifies the formation and regulation mechanisms of heterostructures, and provides theoretical and technical support for the clinical translation of high-performance biodegradable Mg alloys. STATEMENT OF SIGNIFICANCE: To address the bottleneck of balancing mechanical performance and biocompatibility in rare-earth-free magnesium (Mg) alloys for biodegradable temporary implants, this study employed a multi-pass hot-rolling process with an optimized final rolling temperature to produce the lean-alloyed Mg-2 Zn heterostructured alloy. The alloy achieved a reasonable combination of tensile strength (349 MPa) and elongation (13%), mitigating the common strength-ductility trade-off observed in Mg-2 Zn alloys. Metabolomic analysis showed that metal ions slowly released during alloy degradation could regulate biological energy metabolism, endowing the material with antibacterial activity in vitro and a relatively mild peri‑implant inflammatory response in vivo. This study clarified the mechanisms associated with heterostructure formation, strength-ductility synergistic strengthening, slow degradation, and biological metabolic regulation. It also provided experimental support for the research and development of high-performance rare-earth-free Mg-based biomaterials.",
-          "englishSummary": "High-strength lean-alloy magnesium (Mg) has attracted extensive attention for orthopedic and vascular stent implants owing to its favorable biodegradability and biocompatibility. However, while retaining the chemical composition of specimens and ensuring high biosafety, the major challenge is to overcome the strength-ductility trade-off and achieve uniform degradation behavior. In this study, a lean Mg-2 wt% Zn alloy with balanced strength and ductility was fabricated via hot working.",
-          "journal": "Acta biomaterialia",
+          "pmid": "43056037",
+          "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
+          "abstract": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI. Principal component analysis and enrichment analysis were employed to validate impairment in mitochondrial dynamics in CIRI mice. GRSF1 was then evaluated for its effects on neurological function and histology. The role of GRSF1 on mitochondrial dynamics following CIRI was examined through enrichment analysis, electron microscopy, and respiratory chain complex activity assays. The relationship between GRSF1 and mitofusin 2 (Mfn2) in mitochondrial fusion was further investigated. The regulatory mechanism of mitochondrial E3 ubiquitin protein ligase 1 (Mul1) on Mfn2 was assessed using co-immunoprecipitation and denaturing immunoprecipitation assays. CIRI mice were characterized by disrupted mitochondrial dynamics, and restoring this balance ameliorates pathological progression. GRSF1 improved neurological function in CIRI mice, an effect confirmed to associate with maintenance of neuronal mitochondrial dynamics. Mechanistically, GRSF1 promoted mitochondrial fusion by suppressing the expression or activity of Mul1, thereby reducing Mul1-mediated ubiquitination and degradation of Mfn2. Ultimately, GRSF1 attenuated CIRI by inhibiting neuronal mitochondrial dynamic imbalance via the Mul1/Mfn2 pathway. It uncovers GRSF1 as a novel neuroprotective regulator in CIRI and identifies the Mul1/Mfn2 pathway as a critical mechanistic pathway underlying its protective effects. Targeting GRSF1 may hold therapeutic potential by modulating mitochondrial dynamics in CIRI.",
+          "englishSummary": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI.",
+          "journal": "Molecular neurobiology",
           "journalIssns": [
-            "1878-7568",
-            "1742-7061"
+            "1559-1182",
+            "0893-7648"
           ],
-          "publicationDate": "2026-10-21",
+          "publicationDate": "2026-11-19",
           "publicationDatePrecision": "day",
           "authors": [
-            "Tian J",
-            "Wu Q",
-            "Yang C",
-            "Zhang X",
-            "Liu X",
-            "Wang W"
+            "Li X",
+            "Wang X",
+            "Pan Y",
+            "Song X",
+            "Liu J",
+            "Zhou H",
+            "Jiang H",
+            "Yu G"
           ],
           "affiliations": [
-            "Shanghai Engineering Research Center of Nano-Biomaterials and Regenerative Medicine, College of Biological Science and Medical Engineering, Donghua University, Shanghai, 201620, China.",
-            "Department of Orthopedics, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Shanghai, 201306, China.",
-            "Department of Gastroenterology, Ruijin Hospital, Shanghai Jiaotong University School of Medicine, Shanghai, 200025, China.",
-            "State Key Laboratory of Metal Matrix Composites, School of Materials Science and Engineering, Shanghai Jiao Tong University, Shanghai, 200240, China; Suzhou Origin Medical Technology Co., Ltd., Suzhou, 215513, China.",
-            "Shanghai Engineering Research Center of Nano-Biomaterials and Regenerative Medicine, College of Biological Science and Medical Engineering, Donghua University, Shanghai, 201620, China; State Key Laboratory of High Performance Ceramics, Shanghai Institute of Ceramics, Shanghai, 200050, China.",
-            "Shanghai Engineering Research Center of Nano-Biomaterials and Regenerative Medicine, College of Biological Science and Medical Engineering, Donghua University, Shanghai, 201620, China. Electronic address: wenhuiwang@dhu.edu.cn."
+            "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China.",
+            "Center for Diagnosis and Treatment of Neuro-Oncology Diseases, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+            "Department of Critical Care Medicine, Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+            "Department of Critical Care Medicine, Taihe Hospital, Hubei University of Medicine, Shiyan, 442000, Hubei Province, China.",
+            "Renmin Hospital of Wuhan University, Wuhan, 430060, China.",
+            "Department of Neurosurgery, Renmin Hospital of Wuhan University, 238 Jiefang Road, Wuchang District, Wuhan, 430060, Hubei Province, China. hx-jiang@whu.edu.cn.",
+            "College of Life Sciences, South-Central Minzu University, 182 Mingzu Avenue, Wuhan, 430074, Hubei Province, China. yusheen@163.com."
           ],
-          "doi": "10.1016/j.actbio.2026.10.038",
-          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42906674/",
+          "doi": "10.1007/s12035-026-06329-2",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43056037/",
           "publicationTypes": [
             "Journal Article"
           ],
           "topicTags": [
-            "Bioresorbable Stent / Scaffold",
-            "Biomaterials",
+            "Brain Ischemia / Reperfusion",
             "China Research"
           ],
           "studyTypeTags": [
             "Basic Research"
           ],
           "relevance": "high",
-          "score": 7,
+          "score": 5,
           "scoreReasons": [
-            "+2 专题匹配: Bioresorbable Stent / Scaffold",
-            "+2 专题匹配: Biomaterials",
+            "+2 专题匹配: Brain Ischemia / Reperfusion",
             "+3 标题命中专题词"
           ],
           "isChinaResearch": true,
-          "summaryZh": "这篇文献聚焦可降解植入材料。主要内容涉及镁锌合金材料设计、材料降解或腐蚀行为、材料强度与延展性能。",
+          "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。题名包含动物实验线索，临床适用性需另行判断。",
           "source": "PubMed",
-          "researchDirection": "biodegradable-stents",
+          "researchDirection": "hydrogen-brain-iri",
           "summaryBasis": "title-and-objective-rules",
           "journalMetrics": {
-            "journalId": "acta-biomater",
+            "journalId": "jcr-1559-1182",
             "impactFactor": {
-              "value": 10.4,
+              "value": 5.5,
               "year": 2025,
               "releaseYear": 2026,
               "sourceId": "jcr-release-2026",
-              "page": 22,
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=22",
+              "page": 73,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
               "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
             },
             "jcr": {
@@ -8453,28 +8609,20 @@
               "year": 2025,
               "releaseYear": 2026,
               "sourceId": "jcr-release-2026",
-              "page": 22,
+              "page": 73,
               "verified": true,
               "scope": "source-listed",
               "categories": [],
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=22",
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=73",
               "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
             },
-            "cas": {
-              "zone": 1,
-              "year": 2025,
-              "scope": "major",
-              "verified": true,
-              "sourceId": "bioeng-2025",
-              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
-              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
-            }
+            "cas": null
           },
-          "digestGroup": "biodegradable-stents",
+          "digestGroup": "hydrogen-brain-iri",
           "digestKind": "研究论文",
-          "digestRank": 30,
+          "digestRank": 28,
           "digestIsReview": false,
-          "selectionReason": "直接涉及可降解支架及其材料、性能或应用证据。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+          "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
         },
         {
           "pmid": "43045649",

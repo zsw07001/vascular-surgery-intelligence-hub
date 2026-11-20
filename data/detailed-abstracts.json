@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T01:53:16.861Z",
+  "generatedAt": "2026-11-20T01:46:45.647Z",
   "records": {
     "41475890": {
       "pmid": "41475890",
@@ -757,34 +757,6 @@
       "preparation": "AI辅助整理，未经医学审校",
       "isVerbatimTranslation": false
     },
-    "42973470": {
-      "pmid": "42973470",
-      "sourceTitle": "Perioperative prothrombin time activity trajectories and subsequent mortality after surgical repair of acute type A aortic dissection.",
-      "sourceAbstract": "BACKGROUND: Perioperative prothrombin time activity (PTA) changes rapidly during surgical repair of acute type A aortic dissection (ATAAD), but single measurements do not capture heterogeneous longitudinal patterns. We sought to identify recurring perioperative PTA trajectories, characterize their clinical context, and examine their association with subsequent all-cause mortality.\n\nMETHODS: This single-center retrospective cohort included 284 adults who underwent ATAAD repair from 2021 through 2023. Group-based trajectory modeling used the last preoperative and observed postoperative day (POD) 1-7 PTA measurements. Patients required at least three observed PTA measurements for trajectory modeling. Mortality analyses began immediately after POD7. The primary Cox model adjusted for age and sex; Firth regression addressed sparse events. Incremental information beyond last preoperative PTA was evaluated by a prespecified likelihood-ratio comparison.\n\nRESULTS: The trajectory cohort comprised 268 patients with 1,895 observations and 27 deaths after POD7. Four perioperative PTA trajectory groups were identified: moderate-stable [87 (32.5%)], low-declining [50 (18.7%)], preserved-rapidly-declining [61 (22.8%)], and high-preserved [70 (26.1%)]. Cumulative mortality differed globally (log-rank P = 0.00210), and trajectory group remained associated with subsequent mortality in the age- and sex-adjusted Cox model (global P = 0.0322) and Firth sensitivity analysis (global P = 0.0481). The prespecified direct low-declining-versus-preserved-rapidly-declining comparison did not demonstrate a clear difference. Adding trajectory group to age, sex, and last preoperative PTA did not show clear incremental information (likelihood-ratio P = 0.304; Firth P = 0.380). After exclusion of mechanical-valve recipients, the principal trajectory structure was largely preserved, although this sensitivity analysis did not exclude treatment-related effects on PTA.\n\nCONCLUSION: Four reproducible perioperative PTA trajectories characterized distinct longitudinal patterns and were associated with mortality after the POD7 landmark. These trajectories should be interpreted as composite perioperative patterns reflecting both disease and treatment context rather than as intrinsic coagulation states. They were not ordered mortality-risk tiers and did not show clear incremental prognostic information beyond last preoperative PTA. External validation is required.",
-      "sourceHash": "023b576404037caaf2a28320f274736c0506e03d1dde441090718a7504659c9b",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973470/",
-      "sections": [
-        {
-          "heading": "研究目的",
-          "text": "探索急性A型主动脉夹层手术前后凝血酶原时间活动度（PTA）的动态轨迹，及其与术后第7天之后全因死亡的关系；同时检验其是否提供超越最后一次术前PTA的额外预测信息。"
-        },
-        {
-          "heading": "研究方法",
-          "text": "单中心回顾性队列纳入2021—2023年284名成人手术患者，使用术前末次及术后1—7天PTA进行分组轨迹建模。至少具有3次观测的268人进入轨迹分析，共1895次测量；死亡分析以术后第7天为时间界标，采用年龄、性别校正的Cox模型及Firth敏感性分析。"
-        },
-        {
-          "heading": "主要结果",
-          "text": "识别出中等稳定、低水平下降、初始保留后快速下降和高水平保留4类轨迹。术后第7天之后发生27例死亡，轨迹组总体与死亡相关；但预设的低水平下降组对快速下降组比较未见明确差异。将轨迹组加入年龄、性别及术前末次PTA后，未显示明确增量预测信息（似然比检验p=0.304；Firth分析p=0.380）。"
-        },
-        {
-          "heading": "结论与局限",
-          "text": "这些轨迹反映疾病和治疗共同作用下的围手术期变化，不应被当作固有凝血状态，也不能简单排列成高低死亡风险等级。研究尚缺乏外部验证，尤其不应将“总体有关联”误写为“已提高临床预测能力”。"
-        }
-      ],
-      "preparedAt": "2026-11-15",
-      "preparation": "AI辅助整理，未经医学审校",
-      "isVerbatimTranslation": false
-    },
     "42985190": {
       "pmid": "42985190",
       "sourceTitle": "Sequential blood-brain barrier-penetrating and microglial-mitochondria-targeting nanosystem for ischemic stroke therapy.",
@@ -1151,10 +1123,10 @@
     }
   },
   "counts": {
-    "available": 41,
-    "selected": 42,
-    "readySelected": 34,
-    "pendingSelected": 8
+    "available": 40,
+    "selected": 41,
+    "readySelected": 32,
+    "pendingSelected": 9
   },
   "pending": [
     {
@@ -1180,6 +1152,11 @@
     {
       "pmid": "43048814",
       "title": "Longitudinal Trends of Intact and Ruptured Abdominal Aortic Aneurysm Repairs in the United States: A Cross-Sectional Study.",
+      "reason": "中文详读待整理，保留完整英文摘要"
+    },
+    {
+      "pmid": "43056037",
+      "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
       "reason": "中文详读待整理，保留完整英文摘要"
     },
     {

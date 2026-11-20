@@ -1,5 +1,59 @@
 [
   {
+    "pmid": "43051513",
+    "title": "Computational Modeling of Bioresorbable Flow-Diverting Stents: Insights into Approaches for Coupling Hemodynamics and Material Degradation.",
+    "abstract": "Bioresorbable flow diverters (BRFDs) represent an emerging treatment for intracranial aneurysms (IAs) that reduces complications associated with permanent flow diverters, as BRFDs-due to their temporary nature-restore native blood flow following degradation. The therapeutic efficacy of BRFDs depends on material degradation, hemodynamics, thrombosis, and endothelialization. To this end, computational models enabling a holistic evaluation of the interplay between these processes could provide considerable insight into optimized BRFD designs. This review summarizes degradation modeling approaches for bioresorbable metals, including continuum damage mechanics (CDM), mechanochemical phase-field, and reaction-diffusion models. It evaluates the suitability of each framework for integration with computational fluid dynamics (CFD) for guiding BRFD design. CDM approaches focus on the degradation of mechanical integrity and do not directly consider electrochemical transport, whereas mechanochemical models account for mechanical, chemical, and electrochemical processes, providing detailed information on localized corrosion, albeit at a higher computational cost. Reaction-diffusion models are the most practical option for coupling with CFD, offering a balance between accuracy in describing key mechanisms and computational feasibility, although the most suitable approach ultimately depends on how each metal degrades. Critical gaps in BRFD models include the limited modeling of iron, zinc, and molybdenum, and specific aspects of blood chemistry. Additionally, since no standardized validation protocol currently exists for computational models of BRFDs, we recommend a staged pathway: a framework integrating material degradation and hemodynamics and considering thrombosis and endothelialization, validated against in vitro and/or in vivo data, will be essential for advancing the design and therapeutic efficacy assessment of BRFDs. STATEMENT OF SIGNIFICANCE: Bioresorbable flow diverters (BRFDs), when compared to permanent flow diverters, allow mitigation of long-term complications in treating intracranial aneurysms, but their development remains limited by an incomplete understanding of the interaction between material degradation, blood flow, and biological responses such as thrombosis and aneurysm healing. The design choices of FDs ultimately depend on this interplay, yet no computational framework currently exists to guide it. This review is the first of its kind to systematically evaluate the use of degradation models for coupling with computational fluid dynamics (CFD) to elucidate physiologically relevant information of aneurysm healing with BRFDs. Coupling these frameworks provides a practical guide to accelerate the translation of bioresorbable devices from conceptualization, design, and development to clinical use.",
+    "englishSummary": "Bioresorbable flow diverters (BRFDs) represent an emerging treatment for intracranial aneurysms (IAs) that reduces complications associated with permanent flow diverters, as BRFDs-due to their temporary nature-restore native blood flow following degradation. The therapeutic efficacy of BRFDs depends on material degradation, hemodynamics, thrombosis, and endothelialization. To this end, computational models enabling a holistic evaluation of the interplay between these processes could provide considerable insight into optimized BRFD designs.",
+    "journal": "Acta biomaterialia",
+    "journalIssns": [
+      "1878-7568",
+      "1742-7061"
+    ],
+    "publicationDate": "2026-11-18",
+    "publicationDatePrecision": "day",
+    "authors": [
+      "Taepakdee A",
+      "McDonald S",
+      "Molander Z",
+      "Colby GP",
+      "Rodgers VGJ",
+      "Holzapfel GA",
+      "Lee CH"
+    ],
+    "affiliations": [
+      "Biomechnics and Biomaterials Design Laboratory, Department of Bioengineering, The University of California, Riverside, Riverside, CA 92507, USA.",
+      "Department of Neurosurgery, University of California, Los Angeles, Los Angeles, CA 90095, USA.",
+      "Biotransport & Bioreaction Kinetics Laboratory, Department of Bioengineering, The University of California, Riverside, Riverside, CA 92507, USA.",
+      "Instiute of Biomechanics, Graz University of Technology, Austria; Department of Structural Engineering, Norwegian University of Science and Technology, Trondheim, Norway.",
+      "Biomechnics and Biomaterials Design Laboratory, Department of Bioengineering, The University of California, Riverside, Riverside, CA 92507, USA. Electronic address: chunghao.lee@ucr.edu."
+    ],
+    "doi": "10.1016/j.actbio.2026.11.032",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43051513/",
+    "publicationTypes": [
+      "Journal Article",
+      "Review"
+    ],
+    "topicTags": [
+      "Bioresorbable Stent / Scaffold",
+      "Biomaterials"
+    ],
+    "studyTypeTags": [
+      "Basic Research",
+      "Review"
+    ],
+    "relevance": "high",
+    "score": 7,
+    "scoreReasons": [
+      "+2 专题匹配: Bioresorbable Stent / Scaffold",
+      "+2 专题匹配: Biomaterials",
+      "+3 标题命中专题词"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "这篇综述聚焦可降解/可吸收支架。主要内容涉及材料降解或腐蚀行为。",
+    "source": "PubMed",
+    "researchDirection": "biodegradable-stents"
+  },
+  {
     "pmid": "43049009",
     "title": "Bioresorbable Polymer Drug-Eluting Stents: A Solid Presence in Cath-Labs, but Enough?",
     "abstract": "",
@@ -973,62 +1027,6 @@
     ],
     "isChinaResearch": true,
     "summaryZh": "这篇文献聚焦血管支架。主要内容涉及材料降解或腐蚀行为。",
-    "source": "PubMed",
-    "researchDirection": "biodegradable-stents"
-  },
-  {
-    "pmid": "42896829",
-    "title": "Multi-Objective Structural Optimization of Vascular Stents With Varied Materials Based on Numerical Simulation.",
-    "abstract": "Stent implantation would alter local blood flow within the vessel. Minimizing blood flow disturbance is critical to prevent recurrent blockage, and the stent should have specific mechanical properties. Improvements in both mechanical and hemodynamic properties are essential in stent optimization. Stents made from different materials exhibit significantly varying mechanical properties, whereas their hemodynamic performance depends primarily on geometry. A multi-objective structural optimization was employed with the four structural parameters of the stent as design variables. Hemodynamic performance was measured by the oscillatory shear index, while the mechanical performance of the stent was assessed based on the maximum equivalent plastic strain and stent support force. The structural optimization of vascular stents fabricated from magnesium alloy (Mg) and poly-l-lactic acid (PLLA) was conducted with varying weights as the optimization objectives. The proposed radial basis function (RBF) model accurately predicted the stent structural performance. Single-objective optimization achieved maximal improvements in targeted performance but compromised other performance, while multi-objective optimization yielded more balanced overall performance. Structural parameters exhibited material-specific sensitivities. Specifically, hemodynamic performance was structure-dependent and, under the rigid-wall assumption, material-independent, whereas mechanical performance was strongly material-dependent. These findings underscore the need to consider both stent structure and material properties in optimization, providing comprehensive guidance for rational stent design.",
-    "englishSummary": "Stent implantation would alter local blood flow within the vessel. Minimizing blood flow disturbance is critical to prevent recurrent blockage, and the stent should have specific mechanical properties. Improvements in both mechanical and hemodynamic properties are essential in stent optimization.",
-    "journal": "International journal for numerical methods in biomedical engineering",
-    "journalIssns": [
-      "2040-7947",
-      "2040-7939"
-    ],
-    "publicationDate": "2026-10-01",
-    "publicationDatePrecision": "month",
-    "authors": [
-      "Liang M",
-      "Zhang R",
-      "Gao Y",
-      "Li Q",
-      "Shen L",
-      "You L",
-      "Feng W",
-      "Wang L",
-      "Ge J",
-      "Fan Y"
-    ],
-    "affiliations": [
-      "Medical Engineering & Engineering Medicine Innovation Center, Key Laboratory of Biomechanics and Mechanobiology of Ministry of Education, Beijing Advanced Innovation Center for Biomedical Engineering, Hangzhou International Innovation Institute, School of Biological Science and Medical Engineering, School of Engineering Medicine, Beihang University, Beijing, China.",
-      "Beijing No. 156 High School, Beijing, China.",
-      "Department of Cardiology, Zhongshan Hospital, Shanghai Institute of Cardiovascular Diseases, Fudan University, Shanghai, China.",
-      "National Clinical Research Center for Interventional Medicine, Shanghai, China.",
-      "Oriental Pan-Vascular Devices Innovation College, University of Shanghai for Science and Technology (USST), Shanghai, China.",
-      "State Key Laboratory of Cardiovascular Diseases, Zhongshan Hospital, Fudan University, Shanghai, China.",
-      "NHC Key Laboratory of Ischemic Heart Diseases, Shanghai, China."
-    ],
-    "doi": "10.1002/cnm.70229",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42896829/",
-    "publicationTypes": [
-      "Journal Article"
-    ],
-    "topicTags": [
-      "Bioresorbable Stent / Scaffold",
-      "Biomaterials",
-      "China Research"
-    ],
-    "studyTypeTags": [],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+2 专题匹配: Bioresorbable Stent / Scaffold",
-      "+2 专题匹配: Biomaterials",
-      "+3 标题命中专题词"
-    ],
-    "isChinaResearch": true,
-    "summaryZh": "这篇文献聚焦血管支架。",
     "source": "PubMed",
     "researchDirection": "biodegradable-stents"
   },
@@ -2044,76 +2042,6 @@
     "researchDirection": "biodegradable-stents"
   },
   {
-    "pmid": "33402278",
-    "title": "Comparative clinical performance of two types of drug-eluting stents with abluminal biodegradable polymer coating: Five-year results of the DESTINY randomized trial.",
-    "abstract": "INTRODUCTION AND OBJECTIVES: The Stents Coated With the Biodegradable Polymer on Their Abluminal Faces and Elution of Sirolimus Versus Biolimus Elution for the Treatment of de Novo Coronary Lesions - DESTINY Trial is a non-inferiority randomized study that compared the Inspiron™ sirolimus-eluting stent (SES) with the control Biomatrix™ Flex biolimus-eluting stent (BES). Previous reports in the first year showed similar outcomes for both stents, in clinical, angiographic, optical coherence tomography, and intravascular ultrasound assessments. The present analysis aims to compare the clinical performance of these two biodegradable polymer drug-eluting stents five years after the index procedure.\n\nMETHODS: A total of 170 patients (194 lesions) were randomized in a 2:1 ratio for treatment with SES or BES, respectively. The primary endpoint for the present study was the five-year rate of combined major adverse cardiac events, defined as cardiac death, myocardial infarction, or target lesion revascularization.\n\nRESULTS: At five years, the primary endpoint occurred in 12.5% and 17.9% of the SES and BES groups, respectively (p=0.4). There was no definite or probable stent thrombosis among patients treated with the novel SES stent during the five years of follow-up, and no stent thrombosis after the first year in the BES group.\n\nCONCLUSIONS: The novel Inspiron™ stent had similar good clinical performance in long-term follow-up when compared head-to-head with the control latest-generation Biomatrix™ Flex biolimus-eluting stent.",
-    "englishSummary": "INTRODUCTION AND OBJECTIVES: The Stents Coated With the Biodegradable Polymer on Their Abluminal Faces and Elution of Sirolimus Versus Biolimus Elution for the Treatment of de Novo Coronary Lesions - DESTINY Trial is a non-inferiority randomized study that compared the Inspiron™ sirolimus-eluting stent (SES) with the control Biomatrix™ Flex biolimus-eluting stent (BES). Previous reports in the first year showed similar outcomes for both stents, in clinical, angiographic, optical coherence tomography, and intravascular ultrasound assessments. The present analysis aims to compare the clinical performance of these two biodegradable polymer drug-eluting stents five years after the index procedure.",
-    "journal": "Revista portuguesa de cardiologia",
-    "journalIssns": [
-      "2174-2049"
-    ],
-    "publicationDate": "2021-01-02",
-    "publicationDatePrecision": "day",
-    "authors": [
-      "Prado GFA",
-      "Abizaid AAC",
-      "Meireles GC",
-      "Sarmento-Leite R",
-      "Prudente M",
-      "Cantarelli M",
-      "Dourado AD",
-      "Mariani J",
-      "Perin MA",
-      "Costantini C",
-      "Costa R",
-      "Costa JR",
-      "Chamie D",
-      "Campos CM",
-      "Ribeiro EE",
-      "Lemos PA"
-    ],
-    "affiliations": [
-      "Heart Institute (InCor), University of S&#xe3;o Paulo Medical School, S&#xe3;o Paulo, SP, Brazil; Hospital Israelita Albert Einstein, S&#xe3;o Paulo, SP, Brazil.",
-      "Instituto Dante Pazzanese de Cardiologia, S&#xe3;o Paulo, SP, Brazil.",
-      "Hospital do Servidor P&#xfa;blico Estadual - IAMSPE, S&#xe3;o Paulo, SP, Brazil.",
-      "Institute of Cardiology/Funda&#xe7;&#xe3;o Universit&#xe1;ria de Cardiologia de Porto Alegre, Porto Alegre, RS, Brazil.",
-      "Hospital Encore, Aparecida de Goiania, GO, Brazil.",
-      "Hospital Bandeirantes, S&#xe3;o Paulo, SP, Brazil.",
-      "Hospital Santa Izabel, Salvador, BA, Brazil.",
-      "Heart Institute (InCor), University of S&#xe3;o Paulo Medical School, S&#xe3;o Paulo, SP, Brazil; Hospital Israelita Albert Einstein, S&#xe3;o Paulo, SP, Brazil; Faculdade de Ci&#xea;ncias M&#xe9;dicas da Santa Casa de S&#xe3;o Paulo, S&#xe3;o Paulo, SP, Brazil.",
-      "Hospital Santa Marcelina, S&#xe3;o Paulo, SP, Brazil.",
-      "Hospital Cardiol&#xf3;gico Costantini, Curitiba, PR, Brazil.",
-      "Heart Institute (InCor), University of S&#xe3;o Paulo Medical School, S&#xe3;o Paulo, SP, Brazil.",
-      "Heart Institute (InCor), University of S&#xe3;o Paulo Medical School, S&#xe3;o Paulo, SP, Brazil; Hospital Israelita Albert Einstein, S&#xe3;o Paulo, SP, Brazil. Electronic address: pedrolemos.cardio@gmail.com."
-    ],
-    "doi": "10.1016/j.repc.2020.05.017",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33402278/",
-    "publicationTypes": [
-      "Journal Article",
-      "Randomized Controlled Trial",
-      "Equivalence Trial"
-    ],
-    "topicTags": [
-      "Bioresorbable Stent / Scaffold",
-      "Biomaterials"
-    ],
-    "studyTypeTags": [
-      "RCT",
-      "Clinical Trial"
-    ],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+2 专题匹配: Bioresorbable Stent / Scaffold",
-      "+2 专题匹配: Biomaterials",
-      "+3 标题命中专题词"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "这项随机对照研究聚焦支架或腔内移植物。",
-    "source": "PubMed",
-    "researchDirection": "biodegradable-stents"
-  },
-  {
     "pmid": "29588716",
     "title": "Drug-coated Balloon-only Angioplasty for Native Coronary Disease Instead of Stents.",
     "abstract": "Coronary angioplasty has vastly improved both in technique and devices since the first angioplasty in 1977. Currently, stent implantation is used almost ubiquitously, despite being developed originally to treat vessel threatening dissections. Newer concepts including absorbable polymers or fully bioabsorbable scaffolds are constantly being developed. However, we find the concept of no permanent implant whilst still delivering a chemotherapeutic drug to reduce restenosis very attractive given the long term implications of a metallic stent, which include restenosis, late thrombosis and neo-atheroma formation. The use of a drug-coated balloon-only approach to de novo angioplasty will avoid the late thrombotic problems whilst also reducing early restenosis, simplifying the procedure and reducing the dual antiplatelet duration to 1 month. We review the current literature and highlight our practice with regard to use of drug-coated balloons in treatment of de novo coronary artery disease.",
@@ -2268,6 +2196,56 @@
     ],
     "isChinaResearch": false,
     "summaryZh": "这项随机对照研究聚焦支架或腔内移植物。",
+    "source": "PubMed",
+    "researchDirection": "biodegradable-stents"
+  },
+  {
+    "pmid": "43051349",
+    "title": "First Use of a Bioresorbable Everolimus-Eluting Scaffold for Coronary In-Stent Restenosis.",
+    "abstract": "",
+    "englishSummary": "",
+    "journal": "The American journal of cardiology",
+    "journalIssns": [
+      "1879-1913",
+      "0002-9149"
+    ],
+    "publicationDate": "2026-11-18",
+    "publicationDatePrecision": "day",
+    "authors": [
+      "Strepkos D",
+      "Williford NN",
+      "Akyel A",
+      "Alexandrou M",
+      "Carvalho PEP",
+      "Vichos T",
+      "Tsourous M",
+      "Spanos M",
+      "Sandoval Y",
+      "Brilakis ES",
+      "Murad B"
+    ],
+    "affiliations": [
+      "Minneapolis Heart Institute and Minneapolis Heart Institute Foundation, Abbott Northwestern Hospital, Minneapolis, Minnesota, USA.",
+      "Albert Einstein College of Medicine, Jacobi Medical Center / North Central Bronx Hospital, New York, New York, USA; Cardiovascular Division, Massachusetts General Hospital and Harvard Medical School, Boston, Massachusetts, USA.",
+      "Minneapolis Heart Institute, United Hospital, Minneapolis, Minnesota, USA. Electronic address: bilal.murad@allina.com."
+    ],
+    "doi": "10.1016/j.amjcard.2026.11.011",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43051349/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Bioresorbable Stent / Scaffold"
+    ],
+    "studyTypeTags": [],
+    "relevance": "high",
+    "score": 5,
+    "scoreReasons": [
+      "+2 专题匹配: Bioresorbable Stent / Scaffold",
+      "+3 标题命中专题词"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "这篇文献聚焦可降解/可吸收支架。主要内容涉及血管通畅性、狭窄或闭塞。未提供摘要，方法与结果需查阅原文。",
     "source": "PubMed",
     "researchDirection": "biodegradable-stents"
   },
