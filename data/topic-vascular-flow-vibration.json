@@ -54,58 +54,6 @@
     "researchDirection": "vascular-flow-vibration"
   },
   {
-    "pmid": "42884289",
-    "title": "Artificial Intelligence and Sensing Technologies for Vascular Access in Hemodialysis: A Narrative Review.",
-    "abstract": "Vascular access performance determines the adequacy, safety, and cost of hemodialysis. Stenosis, thrombosis, cannulation difficulty, infection, and access-related cardiac stress remain major sources of morbidity. This narrative review examines artificial intelligence and sensing technologies for vascular access care, based on PubMed and ClinicalTrials.gov searches through 22 August 2026 with citation chaining. Existing reviews have examined artificial intelligence in dialysis broadly or prediction models in isolation. In this review, the vascular access itself is kept as the unit of analysis, and the evidence is followed across four connected stages: systemic risk stratification; prediction of maturation, dysfunction, and complications from clinical, ultrasound, and multimodal data; longitudinal monitoring with optical, acoustic, vibration, thermal, and pressure sensors; and procedural support with robotics and visualization technologies. Reported discrimination is high in retrospective, recording-level analyses, reaching areas under the curve of 0.99 and sample-level accuracy of 100%, but falls to approximately 0.71 in longitudinal designs that predict future events in the same patients; patient-level external validation and calibration are also rarely reported. No approach has yet been demonstrated to reduce thrombosis, prolong patency, avoid interventions, or lower cost relative to standard care in prospective multicenter studies. Deployment is further constrained by power budgets, duty cycling, and transmission bandwidth in wearable devices. Technical feasibility should not be read as clinical utility.",
-    "englishSummary": "Vascular access performance determines the adequacy, safety, and cost of hemodialysis. Stenosis, thrombosis, cannulation difficulty, infection, and access-related cardiac stress remain major sources of morbidity. This narrative review examines artificial intelligence and sensing technologies for vascular access care, based on PubMed and ClinicalTrials.gov searches through 22 August 2026 with citation chaining.",
-    "journal": "Sensors (Basel, Switzerland)",
-    "journalIssns": [
-      "1424-8220"
-    ],
-    "publicationDate": "2026-09-25",
-    "publicationDatePrecision": "day",
-    "authors": [
-      "Sessa C",
-      "Lomeo E",
-      "Morale W",
-      "Gianni T",
-      "Bonerba B",
-      "Grandaliano G",
-      "Pesce F"
-    ],
-    "affiliations": [
-      "Department of Nephrology and Dialysis, Maggiore \"Nino Baglieri\" Hospital, 97015 Modica, Italy.",
-      "Nephrology, Dialysis and Transplantation Unit, Department of Medical and Surgical Sciences, Fondazione Policlinico Universitario Agostino Gemelli IRCCS, 00168 Rome, Italy.",
-      "Department of Nephrology, Sidney Kimmel Medical College at Thomas Jefferson University, Philadelphia, PA 19107, USA.",
-      "Department of Translational Medicine and Surgery, Universit&#xe0; Cattolica del Sacro Cuore, 00168 Rome, Italy.",
-      "Division of Renal Medicine, Ospedale Isola Tiberina-Gemelli Isola, 00186 Rome, Italy."
-    ],
-    "doi": "10.3390/s26196089",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42884289/",
-    "publicationTypes": [
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "Flow Vibration / Thrill",
-      "Vascular Function / Sensing"
-    ],
-    "studyTypeTags": [
-      "Review"
-    ],
-    "relevance": "high",
-    "score": 7,
-    "scoreReasons": [
-      "+2 专题匹配: Flow Vibration / Thrill",
-      "+2 专题匹配: Vascular Function / Sensing",
-      "+3 标题命中专题词"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "暂未提取到可靠的中文研究要点，可展开原文摘要了解具体研究问题。",
-    "source": "PubMed",
-    "researchDirection": "vascular-flow-vibration"
-  },
-  {
     "pmid": "39760966",
     "title": "Machine learning models based on FEM simulation of hoop mode vibrations to enable ultrasonic cuffless measurement of blood pressure.",
     "abstract": "Blood pressure (BP) is one of the vital physiological parameters, and its measurement is done routinely for almost all patients who visit hospitals. Cuffless BP measurement has been of great research interest over the last few years. In this paper, we aim to establish a method for cuffless measurement of BP using ultrasound. In this method, the arterial wall is pushed with an acoustic radiation force impulse (ARFI). After the completion of the ARFI pulse, the artery undergoes impulsive unloading which stimulates a hoop mode vibration. We designed two machine learning (ML) models which make it possible to estimate the internal pressure of the artery using ultrasonically measurable parameters. To generate the training data for the ML models, we did extensive finite element method (FEM) eigen frequency simulations for different tubes under pressure by sweeping through a range of values for inner lumen diameter (ILD), tube density (TD), elastic modulus, internal pressure (IP), tube length, and Poisson's ratio. Through image processing applied on images of different eigen modes supported for each simulated case, we identified its hoop mode frequency (HMF). Two different ML models were designed based on the simulated data. One is a four-parameter model (FPM) that takes tube thickness (TT), TD, ILD, and HMF as the inputs and gives out IP as output. Second is a three-parameter model (TPM) that takes TT, ILD, and HMF as inputs and IP as output. The accuracy of these models was assessed using simulated data, and their performance was confirmed through experimental verification on two arterial phantoms across a range of pressure values. The first prediction model (FPM) exhibited a mean absolute percentage error (MAPE) of 5.63% for the simulated data and 3.68% for the experimental data. The second prediction model (TPM) demonstrated a MAPE of 6.5% for simulated data and 8.73% for experimental data. We were able to create machine learning models that can measure pressure within an elastic tube through ultrasonically measurable parameters and verified their performance to be adequate for BP measurement applications. This work establishes a pathway for cuffless, continuous, real-time, and non-invasive measurement of BP using ultrasound.",
@@ -615,58 +563,6 @@
     ],
     "isChinaResearch": false,
     "summaryZh": "暂未提取到可靠的中文研究要点，可展开原文摘要了解具体研究问题。",
-    "source": "PubMed",
-    "researchDirection": "vascular-flow-vibration"
-  },
-  {
-    "pmid": "41968955",
-    "title": "Effect of mechanical vibration on peripheral blood flow in laboratory exposure: a narrative review.",
-    "abstract": "Although mechanical vibration (MV) has grown in popularity and utilization in recent years, there is lack off the literature in relation to its impact on peripheral blood flow. The main aim of the current narrative review is to examine the effects of local mechanical vibration (LMV) and whole‑body vibration (WBV) on peripheral blood flow in different populations. Between January 2000 - February 2025, the authors used the following keywords related to MV and peripheral blood flow: \"whole-body vibration,\" \"WBV,\" \"whole-body periodic acceleration,\" \"WBPA,\" \"local vibration,\" \"LV\", \"mechanical vibration,\" \"MV,\" \"blood flow,\" \"peripheral blood flow,\" and \"peripheral circulation\" to search Google Scholar, Web of Science, Scopus, and PubMed databases and reference lists from relevant articles. The authors used both single-word and combination searches. Nineteen potential articles that fit the inclusion criteria were identified. While LMV exhibited positive as well as negative impacts on peripheral blood flow in several studies, WBV was demonstrated to have a favorable effect on peripheral blood flow. Furthermore, the impact of MV on blood flow was modified by variables such as vibration type and frequency. Mechanical vibration has benefits and risks to the peripheral blood flow. When it comes to enhancing peripheral blood flow, WBV is more beneficial than LMV. Standardized procedures and uniform results reporting can be more advantageous in order to facilitate future meta-analyses and allow for more transparent comparisons between studies. Int J Occup Med Environ Health. 2026;39(2):99-111.",
-    "englishSummary": "Although mechanical vibration (MV) has grown in popularity and utilization in recent years, there is lack off the literature in relation to its impact on peripheral blood flow. The main aim of the current narrative review is to examine the effects of local mechanical vibration (LMV) and whole‑body vibration (WBV) on peripheral blood flow in different populations. Between January 2000 - February 2025, the authors used the following keywords related to MV and peripheral blood flow: \"whole-body vibration,\" \"WBV,\" \"whole-body periodic acceleration,\" \"WBPA,\" \"local vibration,\" \"LV\", \"mechanical vibration,\" \"MV,\" \"blood flow,\" \"peripheral blood flow,\" and \"peripheral circulation\" to search Google Scholar, Web of Science, Scopus, and PubMed databases and reference lists from relevant articles.",
-    "journal": "International journal of occupational medicine and environmental health",
-    "journalIssns": [
-      "1896-494X",
-      "1232-1087"
-    ],
-    "publicationDate": "2026-03-31",
-    "publicationDatePrecision": "day",
-    "authors": [
-      "Alenazy FO",
-      "Elderdery AY",
-      "Subbarayalu AV",
-      "Alzahrani B",
-      "Manni E",
-      "Mills J",
-      "Ameer MA",
-      "Said SM"
-    ],
-    "affiliations": [
-      "Jouf University, Sakaka, Saudi Arabia (Department of Clinical Laboratory Sciences, College of Applied Medical Sciences).",
-      "Arabian Gulf University, Manama, Kingdom of Bahrain (College of Education, Administrative and Technical Sciences, Center for Quality Assurance and Strategic Planning).",
-      "University of Portsmouth, Portsmouth, United Kingdom (School of Medicine, Pharmacy and Biomedical Sciences).",
-      "Jouf University, Sakaka, Saudi Arabia (Department of Physical Therapy and Health Rehabilitation, College of Applied Medical Sciences).",
-      "Misr University for Science and Technology, Giza, Egypt (Department of Basic Science, Faculty of Physical Therapy)."
-    ],
-    "doi": "10.13075/ijomeh.1896.02702",
-    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41968955/",
-    "publicationTypes": [
-      "Journal Article",
-      "Review"
-    ],
-    "topicTags": [
-      "Flow Vibration / Thrill"
-    ],
-    "studyTypeTags": [
-      "Review"
-    ],
-    "relevance": "high",
-    "score": 5,
-    "scoreReasons": [
-      "+2 专题匹配: Flow Vibration / Thrill",
-      "+3 标题命中专题词"
-    ],
-    "isChinaResearch": false,
-    "summaryZh": "主要内容涉及振动、声学或血流信号检测。",
     "source": "PubMed",
     "researchDirection": "vascular-flow-vibration"
   },
@@ -1618,6 +1514,54 @@
     "researchDirection": "vascular-flow-vibration"
   },
   {
+    "pmid": "43060920",
+    "title": "High-fat diet disrupts retinal vessel reactivity and redox balance.",
+    "abstract": "BACKGROUND: A high-fat diet (HFD) is a major public health concern associated with vascular dysfunction and systemic pathological alterations, often linked to oxidative stress and redox imbalance. However, its effects on the retinal microvasculature remain incompletely understood.\n\nOBJECTIVE: This study tested the hypothesis that prolonged HFD exposure induces endothelial dysfunction in retinal arterioles.\n\nMETHODS: Mice were fed an HFD for 18 weeks, while age-matched controls received a normal chow diet. Retinal arteriole reactivity to changes in intraluminal pressure and vasoactive agents was assessed in vitro. Reactive oxygen species (ROS) production was quantified in retinal cryosections using dihydroethidium staining. Expression of redox- and inflammation-related genes was analyzed in retinal explants by quantitative real-time PCR. Protein expression of key signaling molecules was evaluated by immunofluorescence microscopy.\n\nRESULTS: Retinal arterioles from HFD-fed mice exhibited attenuated responses to increased intraluminal pressure and impaired endothelium-dependent vasodilation to acetylcholine. ROS levels were elevated in retinal tissue following HFD exposure. Gene expression analysis revealed upregulation of hypoxia- and redox-related markers, including HIF-1α, VEGF-A, and NOX2, as well as the proinflammatory cytokine TNF-α and antioxidant enzyme catalase. Immunofluorescence staining demonstrated increased expression of the receptor for advanced glycation endproducts (RAGE) and NOX2.\n\nCONCLUSION: Chronic HFD exposure induces endothelial dysfunction in the retinal microvasculature, associated with increased oxidative stress and altered redox signaling. These findings provide mechanistic insight into the impact of diet-induced metabolic stress on retinal vascular function.",
+    "englishSummary": "BACKGROUND: A high-fat diet (HFD) is a major public health concern associated with vascular dysfunction and systemic pathological alterations, often linked to oxidative stress and redox imbalance. However, its effects on the retinal microvasculature remain incompletely understood. OBJECTIVE: This study tested the hypothesis that prolonged HFD exposure induces endothelial dysfunction in retinal arterioles.",
+    "journal": "Frontiers in physiology",
+    "journalIssns": [
+      "1664-042X"
+    ],
+    "publicationDate": "2026-11-05",
+    "publicationDatePrecision": "day",
+    "authors": [
+      "Jiang S",
+      "Xia N",
+      "Buonfiglio F",
+      "B&#xf6;hm EW",
+      "Tang Q",
+      "Pfeiffer N",
+      "Wagner FM",
+      "Olinger D",
+      "Li H",
+      "Gericke A"
+    ],
+    "affiliations": [
+      "Department of Ophthalmology, University Medical Center, Johannes Gutenberg University Mainz, Mainz,&#xa0;Germany.",
+      "Department of Pharmacology, University Medical Center, Johannes Gutenberg University Mainz, Mainz,&#xa0;Germany."
+    ],
+    "doi": "10.3389/fphys.2026.1869067",
+    "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43060920/",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "topicTags": [
+      "Vascular Function / Sensing"
+    ],
+    "studyTypeTags": [
+      "Basic Research"
+    ],
+    "relevance": "medium",
+    "score": 2,
+    "scoreReasons": [
+      "+2 专题匹配: Vascular Function / Sensing"
+    ],
+    "isChinaResearch": false,
+    "summaryZh": "暂未提取到可靠的中文研究要点，可展开原文摘要了解具体研究问题。",
+    "source": "PubMed",
+    "researchDirection": "vascular-flow-vibration"
+  },
+  {
     "pmid": "42955840",
     "title": "Vascular Abnormalities in the Hand and Wrist: State-of-the-Art Multimodality Imaging.",
     "abstract": "Vascular abnormalities are less common in the hand and wrist than in the lower extremities but can result in significant morbidity if unrecognized or untreated. The unique vascular architecture of the hand and wrist, with a dense network of arterial anastomoses, confers resilience to ischemia, but the superficial location makes them vulnerable to trauma and occupational injury. The authors describe and illustrate a comprehensive multimodality imaging approach to the diagnosis and evaluation of vascular abnormalities of the hand and wrist. They begin with an overview of vascular anatomy and normal variants, including a persistent median artery. Multimodality imaging, including US, CT angiography, MR angiography, and digital subtraction angiography, is reviewed with a focus on strengths, limitations, and clinical utility. Dynamic imaging techniques and photon-counting CT are highlighted for their evolving roles. A wide spectrum of vascular diseases, including atherosclerosis, trauma, iatrogenic injury, embolism, hypothenar hammer syndrome, hand-arm vibration syndrome, vasculitis, and frostbite, as well as their imaging appearances, are discussed. Vascular anomalies, including vascular malformations and vascular neoplasms, are also reviewed. The role of imaging in hand transplantation is addressed. The authors provide a framework for recognizing vascular diseases in the hand and wrist and selecting the appropriate imaging modality. Familiarity with vascular anatomy, imaging findings, and clinical context is essential for timely diagnosis, guiding management, and preserving limb function.",
@@ -1866,9 +1810,9 @@
   },
   {
     "pmid": "42946122",
-    "title": "Comprehensive Evaluation of Hemodialysis Arteriovenous Fistula Dysfunction Using 2D-Ultrasound, Elastography, and Vector Flow Imaging.",
-    "abstract": "OBJECTIVE: To evaluate the diagnostic value of multimodal ultrasound-including 2D-ultrasound, sound touch elastography (STE), and vector flow imaging (VFI)-for the identification of functional and biomechanical abnormalities indicative of arteriovenous fistula (AVF) stenosis or occlusion in hemodialysis patients.\n\nMETHODS: This prospective study enrolled 37 hemodialysis patients with AVFs, divided into normal (n = 20) and dysfunction (n = 17) groups based on digital subtraction angiography (DSA) or clinical/ultrasound criteria. For the dysfunction group, AVF stenosis was defined as >50% luminal diameter reduction on DSA, and occlusion as complete absence of flow. For the normal group, dysfunction was excluded by clinical examination (thrill/bruit) and normal duplex parameters. All patients underwent 2D-ultrasound, STE, and VFI examinations. Key parameters measured included vessel diameter, elasticity (kPa), blood flow velocities, turbulence index, and wall shear stress (WSS). Statistical comparisons were made between groups.\n\nRESULTS: No significant differences were found in vessel diameter or intima status between groups. However, the stenosis/occlusion group exhibited significantly lower mean blood flow, peak systolic/end-diastolic velocities, and WSS, along with higher resistance index and vessel wall stiffness (STE-mean: 30.35 ± 11.65 vs. 20.7 ± 7.52 kPa, p < 0.01). VFI revealed reduced blood flow velocity, turbulence, and WSS in dysfunctional AVFs (all p < 0.01).\n\nCONCLUSION: Multimodal ultrasound integrating 2D-ultrasound, STE, and VFI provides a comprehensive assessment of AVF structure and function, detecting functional and biomechanical abnormalities associated with AVF stenosis or occlusion.",
-    "englishSummary": "OBJECTIVE: To evaluate the diagnostic value of multimodal ultrasound-including 2D-ultrasound, sound touch elastography (STE), and vector flow imaging (VFI)-for the identification of functional and biomechanical abnormalities indicative of arteriovenous fistula (AVF) stenosis or occlusion in hemodialysis patients. METHODS: This prospective study enrolled 37 hemodialysis patients with AVFs, divided into normal (n = 20) and dysfunction (n = 17) groups based on digital subtraction angiography (DSA) or clinical/ultrasound criteria. For the dysfunction group, AVF stenosis was defined as >50% luminal diameter reduction on DSA, and occlusion as complete absence of flow.",
+    "title": "Elastography and Vector Flow Imaging Detect Arteriovenous Fistula Stenosis Independent of Luminal Diameter.",
+    "abstract": "PURPOSE: To evaluate the diagnostic value of multimodal ultrasound (US)-including 2-dimensional (2D) US, sound touch elastography (STE), and vector flow imaging (VFI)-for the identification of functional and biomechanical abnormalities indicative of arteriovenous fistula (AVF) stenosis or occlusion in hemodialysis patients.\n\nMATERIALS AND METHODS: This prospective study enrolled 37 hemodialysis patients with AVFs, divided into normal (n = 20) and dysfunction (n = 17) groups based on digital subtraction angiography (DSA) or clinical/US criteria. For the dysfunction group, AVF stenosis was defined as >50% luminal diameter reduction on DSA, and occlusion was defined as complete absence of flow. For the normal group, dysfunction was excluded by clinical examination (thrill/bruit) and normal duplex parameters. All patients underwent 2D US, STE, and VFI examinations. Key parameters measured included vessel diameter, elasticity (kPa), blood flow velocities, turbulence (Tur) index, and wall shear stress (WSS). Statistical comparisons were made between groups.\n\nRESULTS: No significant differences were found in vessel diameter or intima status between groups. However, the stenosis/occlusion group exhibited significantly lower mean blood flow, peak systolic/end-diastolic velocities, and WSS, along with higher resistance index and vessel wall stiffness (STE mean, 30.35 kPa [SD ± 11.65] vs 20.7 kPa [SD ± 7.52]; P < .01). VFI revealed reduced blood flow velocity, Tur, and WSS in dysfunctional AVFs (all P < .01).\n\nCONCLUSIONS: Multimodal US integrating 2D US, STE, and VFI provides a comprehensive assessment of AVF structure and function, detecting functional and biomechanical abnormalities associated with AVF stenosis or occlusion.",
+    "englishSummary": "PURPOSE: To evaluate the diagnostic value of multimodal ultrasound (US)-including 2-dimensional (2D) US, sound touch elastography (STE), and vector flow imaging (VFI)-for the identification of functional and biomechanical abnormalities indicative of arteriovenous fistula (AVF) stenosis or occlusion in hemodialysis patients. MATERIALS AND METHODS: This prospective study enrolled 37 hemodialysis patients with AVFs, divided into normal (n = 20) and dysfunction (n = 17) groups based on digital subtraction angiography (DSA) or clinical/US criteria. For the dysfunction group, AVF stenosis was defined as >50% luminal diameter reduction on DSA, and occlusion was defined as complete absence of flow.",
     "journal": "Journal of vascular and interventional radiology : JVIR",
     "journalIssns": [
       "1535-7732",
@@ -1883,10 +1827,9 @@
       "Huang S"
     ],
     "affiliations": [
-      "Department of Ultrasound, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen 518020, Guangdong, China. Electronic address: nanjiechen@126.com.",
-      "Department of Nephrology, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen 518020, Guangdong, China. Electronic address: guobaochun_1983@163.com.",
-      "Department of Nephrology, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen 518020, Guangdong, China. Electronic address: WZ1989JNU@163.com.",
-      "Department of Ultrasound, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen 518020, Guangdong, China. Electronic address: shouting12345@163.com."
+      "Department of Ultrasound, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen, Guangdong, China.",
+      "Department of Nephrology, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen, Guangdong, China.",
+      "Department of Ultrasound, Shenzhen People's Hospital (The Second Clinical Medical College, Jinan University; The First Affiliated Hospital, Southern University of Science and Technology), Shenzhen, Guangdong, China. Electronic address: shouting12345@163.com."
     ],
     "doi": "10.1016/j.jvir.2026.109163",
     "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42946122/",

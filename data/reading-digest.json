@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T01:46:36.551Z",
+  "generatedAt": "2026-11-21T01:30:53.765Z",
   "defaultWindow": 30,
   "rankingSystem": "JCR",
   "jcrYear": 2025,
@@ -22,17 +22,17 @@
       "id": "vascular",
       "title": "血管外科",
       "fileName": "latest-research.json",
-      "libraryCount": 1489,
+      "libraryCount": 1074,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
+      "lastSuccessfulUpdate": "2026-11-21T01:30:53.765Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 139,
-            "directHighRelevance": 16,
-            "metricsPending": 9,
-            "eligible": 4
+            "recentPublications": 155,
+            "directHighRelevance": 19,
+            "metricsPending": 10,
+            "eligible": 5
           },
           "articles": [
             {
@@ -128,6 +128,99 @@
               "digestGroup": "vascular",
               "digestKind": "Registry（标题/方法线索）",
               "digestRank": 36,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43057629",
+              "title": "One-Year Outcomes of Surgical Versus Endovascular Revascularization for Acute Limb Ischemia in the SAPLING-ALI Registry.",
+              "abstract": "OBJECTIVE: Despite the increasing use of endovascular therapy as an alternative to surgery for acute limb ischemia, individualized treatment selection remains challenging. We compared outcomes of endovascular therapy versus surgery and sought to identify patient characteristics favoring either strategy.\n\nMETHODS: This multicenter retrospective study included consecutive patients with acute limb ischemia (Rutherford category 1-2b) who underwent revascularization at 13 Japanese institutions between July 2011 and March 2025; patients with thrombosed popliteal artery aneurysm were excluded. The primary outcome was amputation-free survival, defined as freedom from major amputation or death from any cause. The primary analysis was a Cox model adjusted for 13 baseline covariates with hospital as a categorical covariate; propensity score weighting was used as a sensitivity analysis. Subgroup analyses were performed to identify characteristics favoring either strategy.\n\nRESULTS: Of 978 patients (endovascular therapy, n = 607; surgery, n = 371), those treated with endovascular therapy more often had diabetes, hemodialysis, dementia, and non-ambulatory status. Unadjusted 1-year amputation-free survival was lower with endovascular therapy than with surgery (68.7% vs 76.3%; log-rank P = .001), but the adjusted hazard ratio for death or major amputation was 1.03 (95% confidence interval, 0.77-1.38; P = .84). Results were consistent with overlap weighting (hazard ratio 1.15; 95% confidence interval, 0.93-1.42) and across other sensitivity analyses. Thirty-day mortality was 13.1% after endovascular therapy and 8.9% after surgery (P = .05), and the difference was attenuated after weighting. No subgroup favoring either strategy was identified (all P for interaction ≥ .18).\n\nCONCLUSIONS: Unadjusted amputation-free survival was lower after endovascular therapy than after surgery, but the difference disappeared after adjustment for patient characteristics and hospital, and no subgroup favoring either strategy was identified. Endovascular therapy, being less invasive, may be a reasonable alternative to surgery for acute limb ischemia.",
+              "englishSummary": "OBJECTIVE: Despite the increasing use of endovascular therapy as an alternative to surgery for acute limb ischemia, individualized treatment selection remains challenging. We compared outcomes of endovascular therapy versus surgery and sought to identify patient characteristics favoring either strategy. METHODS: This multicenter retrospective study included consecutive patients with acute limb ischemia (Rutherford category 1-2b) who underwent revascularization at 13 Japanese institutions between July 2011 and March 2025; patients with thrombosed popliteal artery aneurysm were excluded.",
+              "journal": "Journal of vascular surgery",
+              "journalIssns": [
+                "1097-6809",
+                "0741-5214"
+              ],
+              "publicationDate": "2026-11-19",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Hata Y",
+                "Iida O",
+                "Haraguchi T",
+                "Uchikawa T",
+                "Matsuda D",
+                "Koyama E",
+                "Yoshii D",
+                "Masuda M",
+                "SAPLING-ALI Investigators"
+              ],
+              "affiliations": [
+                "Cardiovascular Center, Kansai Rosai Hospital, Amagasaki, Japan.",
+                "Cardiovascular Division, Osaka Keisatsu Hospital, Osaka, Japan. Electronic address: iida.osa@gmail.com.",
+                "Department of Cardiology, Asia Medical Group, Sapporo Heart Center, Sapporo, Japan.",
+                "Division of Cardiology, Cardiovascular and Aortic Center, Saiseikai Fukuoka General Hospital, Fukuoka, Japan.",
+                "Department of Vascular Surgery, Matsuyama Red Cross Hospital, Matsuyama, Japan.",
+                "Department of Cardiology, Shonan Kamakura General Hospital, Kamakura, Japan.",
+                "Cardiovascular Division, Osaka Keisatsu Hospital, Osaka, Japan."
+              ],
+              "doi": "10.1016/j.jvs.2026.11.014",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43057629/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Endovascular"
+              ],
+              "studyTypeTags": [
+                "Registry"
+              ],
+              "relevance": "high",
+              "score": 7,
+              "scoreReasons": [
+                "+3 title vascular surgery topic: endovascular",
+                "+2 human study: patients",
+                "+2 treatment or prognosis relevance: treatment"
+              ],
+              "isChinaResearch": false,
+              "summaryZh": "主要内容涉及血管腔内干预或血运重建。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jvs",
+                "impactFactor": {
+                  "value": 3.9,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": {
+                  "zone": 2,
+                  "year": 2025,
+                  "scope": "major",
+                  "verified": true,
+                  "sourceId": "pvd-2025",
+                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+                }
+              },
+              "digestGroup": "vascular",
+              "digestKind": "Registry（标题/方法线索）",
+              "digestRank": 34,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
             },
@@ -423,9 +516,9 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 512,
-            "directHighRelevance": 78,
-            "metricsPending": 31,
+            "recentPublications": 484,
+            "directHighRelevance": 71,
+            "metricsPending": 28,
             "eligible": 22
           },
           "articles": [
@@ -1054,6 +1147,99 @@
               "digestRank": 35,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43057629",
+              "title": "One-Year Outcomes of Surgical Versus Endovascular Revascularization for Acute Limb Ischemia in the SAPLING-ALI Registry.",
+              "abstract": "OBJECTIVE: Despite the increasing use of endovascular therapy as an alternative to surgery for acute limb ischemia, individualized treatment selection remains challenging. We compared outcomes of endovascular therapy versus surgery and sought to identify patient characteristics favoring either strategy.\n\nMETHODS: This multicenter retrospective study included consecutive patients with acute limb ischemia (Rutherford category 1-2b) who underwent revascularization at 13 Japanese institutions between July 2011 and March 2025; patients with thrombosed popliteal artery aneurysm were excluded. The primary outcome was amputation-free survival, defined as freedom from major amputation or death from any cause. The primary analysis was a Cox model adjusted for 13 baseline covariates with hospital as a categorical covariate; propensity score weighting was used as a sensitivity analysis. Subgroup analyses were performed to identify characteristics favoring either strategy.\n\nRESULTS: Of 978 patients (endovascular therapy, n = 607; surgery, n = 371), those treated with endovascular therapy more often had diabetes, hemodialysis, dementia, and non-ambulatory status. Unadjusted 1-year amputation-free survival was lower with endovascular therapy than with surgery (68.7% vs 76.3%; log-rank P = .001), but the adjusted hazard ratio for death or major amputation was 1.03 (95% confidence interval, 0.77-1.38; P = .84). Results were consistent with overlap weighting (hazard ratio 1.15; 95% confidence interval, 0.93-1.42) and across other sensitivity analyses. Thirty-day mortality was 13.1% after endovascular therapy and 8.9% after surgery (P = .05), and the difference was attenuated after weighting. No subgroup favoring either strategy was identified (all P for interaction ≥ .18).\n\nCONCLUSIONS: Unadjusted amputation-free survival was lower after endovascular therapy than after surgery, but the difference disappeared after adjustment for patient characteristics and hospital, and no subgroup favoring either strategy was identified. Endovascular therapy, being less invasive, may be a reasonable alternative to surgery for acute limb ischemia.",
+              "englishSummary": "OBJECTIVE: Despite the increasing use of endovascular therapy as an alternative to surgery for acute limb ischemia, individualized treatment selection remains challenging. We compared outcomes of endovascular therapy versus surgery and sought to identify patient characteristics favoring either strategy. METHODS: This multicenter retrospective study included consecutive patients with acute limb ischemia (Rutherford category 1-2b) who underwent revascularization at 13 Japanese institutions between July 2011 and March 2025; patients with thrombosed popliteal artery aneurysm were excluded.",
+              "journal": "Journal of vascular surgery",
+              "journalIssns": [
+                "1097-6809",
+                "0741-5214"
+              ],
+              "publicationDate": "2026-11-19",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Hata Y",
+                "Iida O",
+                "Haraguchi T",
+                "Uchikawa T",
+                "Matsuda D",
+                "Koyama E",
+                "Yoshii D",
+                "Masuda M",
+                "SAPLING-ALI Investigators"
+              ],
+              "affiliations": [
+                "Cardiovascular Center, Kansai Rosai Hospital, Amagasaki, Japan.",
+                "Cardiovascular Division, Osaka Keisatsu Hospital, Osaka, Japan. Electronic address: iida.osa@gmail.com.",
+                "Department of Cardiology, Asia Medical Group, Sapporo Heart Center, Sapporo, Japan.",
+                "Division of Cardiology, Cardiovascular and Aortic Center, Saiseikai Fukuoka General Hospital, Fukuoka, Japan.",
+                "Department of Vascular Surgery, Matsuyama Red Cross Hospital, Matsuyama, Japan.",
+                "Department of Cardiology, Shonan Kamakura General Hospital, Kamakura, Japan.",
+                "Cardiovascular Division, Osaka Keisatsu Hospital, Osaka, Japan."
+              ],
+              "doi": "10.1016/j.jvs.2026.11.014",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43057629/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Endovascular"
+              ],
+              "studyTypeTags": [
+                "Registry"
+              ],
+              "relevance": "high",
+              "score": 7,
+              "scoreReasons": [
+                "+3 title vascular surgery topic: endovascular",
+                "+2 human study: patients",
+                "+2 treatment or prognosis relevance: treatment"
+              ],
+              "isChinaResearch": false,
+              "summaryZh": "主要内容涉及血管腔内干预或血运重建。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jvs",
+                "impactFactor": {
+                  "value": 3.9,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": {
+                  "zone": 2,
+                  "year": 2025,
+                  "scope": "major",
+                  "verified": true,
+                  "sourceId": "pvd-2025",
+                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+                }
+              },
+              "digestGroup": "vascular",
+              "digestKind": "Registry（标题/方法线索）",
+              "digestRank": 34,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
             },
             {
               "pmid": "43044872",
@@ -1892,81 +2078,6 @@
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
             },
             {
-              "pmid": "43028315",
-              "title": "Preprocedural Serum Albumin and Early Contrast-Associated Acute Kidney Injury After Elective Carotid Artery Stenting: Incremental Prognostic Information Beyond the PCI-Derived Mehran Score.",
-              "abstract": "Background/Objectives: We assessed whether preprocedural serum albumin adds prognostic information to the PCI-derived Mehran score for early contrast-associated acute kidney injury (CA-AKI) after elective carotid artery stenting (CAS). Methods: This single-centre retrospective cohort included 121 consecutive elective patients (January 2020-April 2026). The primary model combined the reconstructed Mehran score with albumin < 3.5 g/dL, a conventional threshold fixed in advance. Because the score uses actual contrast volume, the combined model applies only after CAS. The outcome used KDIGO serum creatinine thresholds (≥0.3 mg/dL or ≥1.5 times baseline) from routine second-day testing. Internal validation used 1000 bootstrap resamples. Results: Early CA-AKI occurred in 32 patients (26.4%). Adjusted odds ratios were 1.35 per Mehran point (95% CI 1.13-1.60) and 11.68 for albumin < 3.5 g/dL (95% CI 4.14-32.97). AUC increased from 0.768 to 0.865 (95% CI 0.794-0.937; likelihood ratio χ2 = 24.58, p < 0.001). Corrected AUC, calibration slope, and Brier score were 0.860, 0.96, and 0.132. In exploratory decision curves (20% threshold), corrected net benefit was 0.168 for the combined model and 0.133 for Mehran alone. Conclusions: Low preprocedural albumin added prognostic information to the PCI-derived score and may help select patients for closer renal surveillance after CAS. External validation and prospective impact studies are needed before clinical use.",
-              "englishSummary": "Background/Objectives: We assessed whether preprocedural serum albumin adds prognostic information to the PCI-derived Mehran score for early contrast-associated acute kidney injury (CA-AKI) after elective carotid artery stenting (CAS). Methods: This single-centre retrospective cohort included 121 consecutive elective patients (January 2020-April 2026). The primary model combined the reconstructed Mehran score with albumin < 3.5 g/dL, a conventional threshold fixed in advance.",
-              "journal": "Diagnostics (Basel, Switzerland)",
-              "journalIssns": [
-                "2075-4418"
-              ],
-              "publicationDate": "2026-10-22",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Karata&#x15f; G",
-                "Kula E",
-                "Orug K&#xf6;seer B"
-              ],
-              "affiliations": [
-                "Department of Radiology, Trakya University, Edirne 22030, Turkey.",
-                "Department of Neurology, Trakya University, Edirne 22030, Turkey."
-              ],
-              "doi": "10.3390/diagnostics16213441",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43028315/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Carotid Disease",
-                "Endovascular",
-                "Imaging / Diagnosis"
-              ],
-              "studyTypeTags": [
-                "Cohort"
-              ],
-              "relevance": "high",
-              "score": 6,
-              "scoreReasons": [
-                "+2 clinical evidence design: cohort",
-                "+2 human study: patients",
-                "+2 treatment or prognosis relevance: outcome"
-              ],
-              "isChinaResearch": false,
-              "summaryZh": "这篇文献聚焦颈动脉狭窄及其治疗。",
-              "source": "PubMed",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "jcr-2075-4418",
-                "impactFactor": {
-                  "value": 3.8,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 137,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=137",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 137,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=137",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": null
-              },
-              "digestGroup": "vascular",
-              "digestKind": "Cohort（标题/方法线索）",
-              "digestRank": 31,
-              "digestIsReview": false,
-              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
-            },
-            {
               "pmid": "43048814",
               "title": "Longitudinal Trends of Intact and Ruptured Abdominal Aortic Aneurysm Repairs in the United States: A Cross-Sectional Study.",
               "abstract": "BACKGROUND: The COVID-19 pandemic disrupted access to elective procedures and routine care. Given the risk of abdominal aortic aneurysm (AAA) rupture, understanding repair trends is important to assess the impact of the pandemic on vascular outcomes.\n\nMETHODS: This repeated cross-sectional analysis used the TriNetX network, a multicenter US electronic health records database. We included 423 874 patients diagnosed with AAA from 2016 to 2024. Patients were categorized by clinical presentation-intact AAA and ruptured AAA-and stratified by surgical approach: endovascular aneurysm repair or open aneurysm repair. Annual trends in AAA repair rates were assessed using joinpoint regression to calculate annual percentage change.\n\nRESULTS: Among 19 330 AAA repairs, 3791 (19.6%) were open aneurysm repair, and 15 539 (80.4%) were endovascular aneurysm repair. From 2018 to 2024, 1623 repairs (9.9%) were for ruptured AAA and 14 835 (90.1%) were for intact AAA. The rate of intact AAA repairs initially remained stable from 2018 to 2022 but significantly decreased after the pandemic from 2022 to 2024 (annual percentage change, -2.87% [95% CI, -10.95 to -1.00]). In contrast, ruptured AAA repairs rates shifted sharply during the pandemic, with an established prepandemic decline in ruptured repairs from 2018 to 2020 (annual percentage change, -11.48%) reversed, with an increase from 2020 to 2022 (annual percentage change +12.01%), before declining from 2022 to 2024 (annual percentage change, -11.00%).\n\nCONCLUSIONS: In this retrospective cross-sectional study, repairs for intact AAA declined, while repairs for ruptured AAA increased during the pandemic period. These trends suggest that potential delays in routine surveillance and elective surgery during the pandemic may have increased acute presentations.",
@@ -2649,16 +2760,16 @@
       "id": "hydrogen-brain-iri",
       "title": "氢气治疗与脑缺血再灌注",
       "fileName": "topic-hydrogen-brain-iri.json",
-      "libraryCount": 992,
+      "libraryCount": 984,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
+      "lastSuccessfulUpdate": "2026-11-21T01:30:53.765Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 17,
-            "directHighRelevance": 9,
-            "metricsPending": 2,
+            "recentPublications": 25,
+            "directHighRelevance": 10,
+            "metricsPending": 4,
             "eligible": 3
           },
           "articles": [
@@ -3199,9 +3310,9 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 119,
-            "directHighRelevance": 66,
-            "metricsPending": 13,
+            "recentPublications": 125,
+            "directHighRelevance": 67,
+            "metricsPending": 15,
             "eligible": 23
           },
           "articles": [
@@ -6371,14 +6482,14 @@
       "id": "vascular-flow-vibration",
       "title": "血流震颤与血管功能检测",
       "fileName": "topic-vascular-flow-vibration.json",
-      "libraryCount": 89,
+      "libraryCount": 88,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
+      "lastSuccessfulUpdate": "2026-11-21T01:30:53.765Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 3,
+            "recentPublications": 2,
             "directHighRelevance": 1,
             "metricsPending": 1,
             "eligible": 0
@@ -6403,9 +6514,9 @@
       "id": "biodegradable-stents",
       "title": "可降解支架",
       "fileName": "topic-biodegradable-stents.json",
-      "libraryCount": 86,
+      "libraryCount": 84,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
+      "lastSuccessfulUpdate": "2026-11-21T01:30:53.765Z",
       "periods": {
         "7": {
           "days": 7,
@@ -6617,9 +6728,9 @@
       "id": "neurovascular-bioelectric",
       "title": "神经与血管电信号互调",
       "fileName": "topic-neurovascular-bioelectric.json",
-      "libraryCount": 56,
+      "libraryCount": 54,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-20T01:46:36.551Z",
+      "lastSuccessfulUpdate": "2026-11-21T01:30:53.765Z",
       "periods": {
         "7": {
           "days": 7,
@@ -6635,7 +6746,7 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 6,
+            "recentPublications": 5,
             "directHighRelevance": 1,
             "metricsPending": 0,
             "eligible": 0
@@ -6742,6 +6853,99 @@
           "digestGroup": "vascular",
           "digestKind": "Registry（标题/方法线索）",
           "digestRank": 36,
+          "digestIsReview": false,
+          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+        },
+        {
+          "pmid": "43057629",
+          "title": "One-Year Outcomes of Surgical Versus Endovascular Revascularization for Acute Limb Ischemia in the SAPLING-ALI Registry.",
+          "abstract": "OBJECTIVE: Despite the increasing use of endovascular therapy as an alternative to surgery for acute limb ischemia, individualized treatment selection remains challenging. We compared outcomes of endovascular therapy versus surgery and sought to identify patient characteristics favoring either strategy.\n\nMETHODS: This multicenter retrospective study included consecutive patients with acute limb ischemia (Rutherford category 1-2b) who underwent revascularization at 13 Japanese institutions between July 2011 and March 2025; patients with thrombosed popliteal artery aneurysm were excluded. The primary outcome was amputation-free survival, defined as freedom from major amputation or death from any cause. The primary analysis was a Cox model adjusted for 13 baseline covariates with hospital as a categorical covariate; propensity score weighting was used as a sensitivity analysis. Subgroup analyses were performed to identify characteristics favoring either strategy.\n\nRESULTS: Of 978 patients (endovascular therapy, n = 607; surgery, n = 371), those treated with endovascular therapy more often had diabetes, hemodialysis, dementia, and non-ambulatory status. Unadjusted 1-year amputation-free survival was lower with endovascular therapy than with surgery (68.7% vs 76.3%; log-rank P = .001), but the adjusted hazard ratio for death or major amputation was 1.03 (95% confidence interval, 0.77-1.38; P = .84). Results were consistent with overlap weighting (hazard ratio 1.15; 95% confidence interval, 0.93-1.42) and across other sensitivity analyses. Thirty-day mortality was 13.1% after endovascular therapy and 8.9% after surgery (P = .05), and the difference was attenuated after weighting. No subgroup favoring either strategy was identified (all P for interaction ≥ .18).\n\nCONCLUSIONS: Unadjusted amputation-free survival was lower after endovascular therapy than after surgery, but the difference disappeared after adjustment for patient characteristics and hospital, and no subgroup favoring either strategy was identified. Endovascular therapy, being less invasive, may be a reasonable alternative to surgery for acute limb ischemia.",
+          "englishSummary": "OBJECTIVE: Despite the increasing use of endovascular therapy as an alternative to surgery for acute limb ischemia, individualized treatment selection remains challenging. We compared outcomes of endovascular therapy versus surgery and sought to identify patient characteristics favoring either strategy. METHODS: This multicenter retrospective study included consecutive patients with acute limb ischemia (Rutherford category 1-2b) who underwent revascularization at 13 Japanese institutions between July 2011 and March 2025; patients with thrombosed popliteal artery aneurysm were excluded.",
+          "journal": "Journal of vascular surgery",
+          "journalIssns": [
+            "1097-6809",
+            "0741-5214"
+          ],
+          "publicationDate": "2026-11-19",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Hata Y",
+            "Iida O",
+            "Haraguchi T",
+            "Uchikawa T",
+            "Matsuda D",
+            "Koyama E",
+            "Yoshii D",
+            "Masuda M",
+            "SAPLING-ALI Investigators"
+          ],
+          "affiliations": [
+            "Cardiovascular Center, Kansai Rosai Hospital, Amagasaki, Japan.",
+            "Cardiovascular Division, Osaka Keisatsu Hospital, Osaka, Japan. Electronic address: iida.osa@gmail.com.",
+            "Department of Cardiology, Asia Medical Group, Sapporo Heart Center, Sapporo, Japan.",
+            "Division of Cardiology, Cardiovascular and Aortic Center, Saiseikai Fukuoka General Hospital, Fukuoka, Japan.",
+            "Department of Vascular Surgery, Matsuyama Red Cross Hospital, Matsuyama, Japan.",
+            "Department of Cardiology, Shonan Kamakura General Hospital, Kamakura, Japan.",
+            "Cardiovascular Division, Osaka Keisatsu Hospital, Osaka, Japan."
+          ],
+          "doi": "10.1016/j.jvs.2026.11.014",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43057629/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Endovascular"
+          ],
+          "studyTypeTags": [
+            "Registry"
+          ],
+          "relevance": "high",
+          "score": 7,
+          "scoreReasons": [
+            "+3 title vascular surgery topic: endovascular",
+            "+2 human study: patients",
+            "+2 treatment or prognosis relevance: treatment"
+          ],
+          "isChinaResearch": false,
+          "summaryZh": "主要内容涉及血管腔内干预或血运重建。",
+          "source": "PubMed",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jvs",
+            "impactFactor": {
+              "value": 3.9,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": {
+              "zone": 2,
+              "year": 2025,
+              "scope": "major",
+              "verified": true,
+              "sourceId": "pvd-2025",
+              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+            }
+          },
+          "digestGroup": "vascular",
+          "digestKind": "Registry（标题/方法线索）",
+          "digestRank": 34,
           "digestIsReview": false,
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
         },
@@ -8032,6 +8236,99 @@
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
         },
         {
+          "pmid": "43057629",
+          "title": "One-Year Outcomes of Surgical Versus Endovascular Revascularization for Acute Limb Ischemia in the SAPLING-ALI Registry.",
+          "abstract": "OBJECTIVE: Despite the increasing use of endovascular therapy as an alternative to surgery for acute limb ischemia, individualized treatment selection remains challenging. We compared outcomes of endovascular therapy versus surgery and sought to identify patient characteristics favoring either strategy.\n\nMETHODS: This multicenter retrospective study included consecutive patients with acute limb ischemia (Rutherford category 1-2b) who underwent revascularization at 13 Japanese institutions between July 2011 and March 2025; patients with thrombosed popliteal artery aneurysm were excluded. The primary outcome was amputation-free survival, defined as freedom from major amputation or death from any cause. The primary analysis was a Cox model adjusted for 13 baseline covariates with hospital as a categorical covariate; propensity score weighting was used as a sensitivity analysis. Subgroup analyses were performed to identify characteristics favoring either strategy.\n\nRESULTS: Of 978 patients (endovascular therapy, n = 607; surgery, n = 371), those treated with endovascular therapy more often had diabetes, hemodialysis, dementia, and non-ambulatory status. Unadjusted 1-year amputation-free survival was lower with endovascular therapy than with surgery (68.7% vs 76.3%; log-rank P = .001), but the adjusted hazard ratio for death or major amputation was 1.03 (95% confidence interval, 0.77-1.38; P = .84). Results were consistent with overlap weighting (hazard ratio 1.15; 95% confidence interval, 0.93-1.42) and across other sensitivity analyses. Thirty-day mortality was 13.1% after endovascular therapy and 8.9% after surgery (P = .05), and the difference was attenuated after weighting. No subgroup favoring either strategy was identified (all P for interaction ≥ .18).\n\nCONCLUSIONS: Unadjusted amputation-free survival was lower after endovascular therapy than after surgery, but the difference disappeared after adjustment for patient characteristics and hospital, and no subgroup favoring either strategy was identified. Endovascular therapy, being less invasive, may be a reasonable alternative to surgery for acute limb ischemia.",
+          "englishSummary": "OBJECTIVE: Despite the increasing use of endovascular therapy as an alternative to surgery for acute limb ischemia, individualized treatment selection remains challenging. We compared outcomes of endovascular therapy versus surgery and sought to identify patient characteristics favoring either strategy. METHODS: This multicenter retrospective study included consecutive patients with acute limb ischemia (Rutherford category 1-2b) who underwent revascularization at 13 Japanese institutions between July 2011 and March 2025; patients with thrombosed popliteal artery aneurysm were excluded.",
+          "journal": "Journal of vascular surgery",
+          "journalIssns": [
+            "1097-6809",
+            "0741-5214"
+          ],
+          "publicationDate": "2026-11-19",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Hata Y",
+            "Iida O",
+            "Haraguchi T",
+            "Uchikawa T",
+            "Matsuda D",
+            "Koyama E",
+            "Yoshii D",
+            "Masuda M",
+            "SAPLING-ALI Investigators"
+          ],
+          "affiliations": [
+            "Cardiovascular Center, Kansai Rosai Hospital, Amagasaki, Japan.",
+            "Cardiovascular Division, Osaka Keisatsu Hospital, Osaka, Japan. Electronic address: iida.osa@gmail.com.",
+            "Department of Cardiology, Asia Medical Group, Sapporo Heart Center, Sapporo, Japan.",
+            "Division of Cardiology, Cardiovascular and Aortic Center, Saiseikai Fukuoka General Hospital, Fukuoka, Japan.",
+            "Department of Vascular Surgery, Matsuyama Red Cross Hospital, Matsuyama, Japan.",
+            "Department of Cardiology, Shonan Kamakura General Hospital, Kamakura, Japan.",
+            "Cardiovascular Division, Osaka Keisatsu Hospital, Osaka, Japan."
+          ],
+          "doi": "10.1016/j.jvs.2026.11.014",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43057629/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Endovascular"
+          ],
+          "studyTypeTags": [
+            "Registry"
+          ],
+          "relevance": "high",
+          "score": 7,
+          "scoreReasons": [
+            "+3 title vascular surgery topic: endovascular",
+            "+2 human study: patients",
+            "+2 treatment or prognosis relevance: treatment"
+          ],
+          "isChinaResearch": false,
+          "summaryZh": "主要内容涉及血管腔内干预或血运重建。",
+          "source": "PubMed",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jvs",
+            "impactFactor": {
+              "value": 3.9,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": {
+              "zone": 2,
+              "year": 2025,
+              "scope": "major",
+              "verified": true,
+              "sourceId": "pvd-2025",
+              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+            }
+          },
+          "digestGroup": "vascular",
+          "digestKind": "Registry（标题/方法线索）",
+          "digestRank": 34,
+          "digestIsReview": false,
+          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+        },
+        {
           "pmid": "43044872",
           "title": "Branched Endovascular Aortic Repair as a Salvage Strategy after Failed Chimney Endovascular Aortic Repair: An International Multicentre Cohort.",
           "abstract": "OBJECTIVE: Chimney endovascular aortic repair (chEVAR) failures, often manifesting as late type Ia endoleaks or sac expansion, present a formidable surgical challenge. Due to the variable upward orientation of pre-existing chimney stents, fenestrated solutions are frequently technically precluded. This study aimed to evaluate the outcomes of branched endovascular aortic repair (BEVAR) as a salvage strategy for late chEVAR failure within a multicentre international cohort.\n\nMETHODS: A retrospective analysis was conducted on 29 consecutive patients (median age 81.0 years, interquartile range [IQR] 66.0, 83.0) treated across 13 European centres (2013 - 2025) for failed chEVAR using branched endografts. The primary endpoints were technical success, thirty day clinical success, and procedure related complications. Secondary endpoints included overall survival, freedom from re-intervention, and target visceral vessel (TVV) patency.\n\nRESULTS: The median interval from index chEVAR to BEVAR re-intervention was 48.5 months (IQR 30.0, 80.8). Acute urgent or emergent procedures accounted for 17% of cases (n = 5), while 31% (n = 9) underwent expedited repair for large aneurysms. Off the shelf devices were utilised in 41% of cases. A total of 106 TVVs were incorporated through branches, with a mean of 3.7 vessels per patient. Technical success was achieved in 97% (28 of 29). There was no peri-operative mortality or open surgical conversion. Significant complications included two cases (7%) of severe spinal cord ischaemia. The thirty day clinical success rate was 90%. At a median follow up of 19 months (IQR 9, 40), the Kaplan-Meier estimate for overall survival was 92% at 1 year. TVV patency was 100%, with only one renal artery re-intervention for in stent re-stenosis. Freedom from branch related re-intervention was 96% at 1 year.\n\nCONCLUSION: Salvage of failed chEVAR using branched endografts is technically demanding but yields excellent early results. In experienced centres, BEVAR appears feasible and offers one potential salvage option in selected patients with suitable anatomy, particularly when an off the shelf solution is required.",
@@ -8363,91 +8660,6 @@
           "digestRank": 33,
           "digestIsReview": false,
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
-        },
-        {
-          "pmid": "42928039",
-          "title": "Trends in incident hemodialysis access and mortality in China: results from China Renal Data System 2000-2024.",
-          "abstract": "BACKGROUNDS: Large‑scale multicenter data on vascular access among Chinese incident hemodialysis (HD) patients are limited. We explored temporal trends of initial vascular access and its relationship with all‑cause mortality.\n\nMETHODS: This retrospective cohort study was conducted using the China Renal Data System, enrolling incident HD patients from January 2000 to April 2024. Vascular access trends and distribution at HD initiation were analyzed.\n\nRESULTS: 16,717 patients were enrolled (mean age 55.62 ± 10.93 years; 61.54% male; mean follow‑up 64.41 months). At HD initiation, 29.17% of patients used arteriovenous fistula/graft (AVF/AVG), while 70.83% used central venous catheter (CVC), comprising 60.78% with a maturing AVF/AVG and 10.06% with CVC alone. AVF/AVG use increased from 26.24% in 2015 to 35.77% in 2024, while CVC-only use decreased from 16.16% to 8.27%. Mortality rates per 100 person-years were 4.15 (95% confidence interval [CI] 3.93 - 4.38), 7.24 (95% CI 7.00 - 7.49), and 15.08 (95% CI 14.07 - 16.15) in the AVF/AVG, CVC with maturing AVF/AVG, and CVC-only groups, respectively. In the adjusted Cox model, patients using CVC with a maturing AVF/AVG or CVC alone exhibited 36% and 91% higher all-cause mortality risks, respectively, compared with those using AVF/AVG.\n\nCONCLUSIONS: Over the 25-year period, initial vascular access among Chinese incident HD patients gradually shifted from CVC to AVF/AVG, reflecting ongoing and considerable improvements in vascular access practice in China. CVC use at HD initiation was associated with higher all-cause mortality compared with AVF/AVG. These findings support early AVF/AVG creation in end-stage kidney disease patients to avoid CVC use at HD initiation.",
-          "englishSummary": "BACKGROUNDS: Large‑scale multicenter data on vascular access among Chinese incident hemodialysis (HD) patients are limited. We explored temporal trends of initial vascular access and its relationship with all‑cause mortality. METHODS: This retrospective cohort study was conducted using the China Renal Data System, enrolling incident HD patients from January 2000 to April 2024.",
-          "journal": "Renal failure",
-          "journalIssns": [
-            "1525-6049",
-            "0886-022X"
-          ],
-          "publicationDate": "2026-10-25",
-          "publicationDatePrecision": "day",
-          "authors": [
-            "Gan W",
-            "Zhu F",
-            "Zeng X",
-            "Chen W",
-            "Mao H",
-            "Shao D",
-            "Su L",
-            "Zhan P"
-          ],
-          "affiliations": [
-            "Department of Nephrology, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
-            "Key Laboratory for Molecular Diagnosis of Hubei Province, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
-            "Division of Nephrology, Nanfang Hospital, Southern Medical University, National Clinical Research Center for Kidney Disease, State Key Laboratory of Multi-organ Injury Prevention and Treatment, Guangdong Provincial Institute of Nephrology, Guangdong Provincial Key Laboratory of Renal Failure Research, Guangzhou, China.",
-            "Department of Geriatrics, The Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
-          ],
-          "doi": "10.1080/0886022X.2026.2747546",
-          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42928039/",
-          "publicationTypes": [
-            "Journal Article"
-          ],
-          "topicTags": [
-            "Dialysis Access",
-            "Vascular Graft / Stent / Device",
-            "Imaging / Diagnosis",
-            "China Research"
-          ],
-          "studyTypeTags": [
-            "Cohort"
-          ],
-          "relevance": "high",
-          "score": 8,
-          "scoreReasons": [
-            "+2 clinical evidence design: cohort",
-            "+2 human study: patients",
-            "+2 treatment or prognosis relevance: graft",
-            "+2 China affiliation: China"
-          ],
-          "isChinaResearch": true,
-          "summaryZh": "这篇文献聚焦血液透析血管通路。主要内容涉及死亡风险或生存结局、初始透析通路的使用趋势。",
-          "source": "PubMed",
-          "summaryBasis": "title-and-objective-rules",
-          "journalMetrics": {
-            "journalId": "jcr-1525-6049",
-            "impactFactor": {
-              "value": 3.8,
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 135,
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=135",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "jcr": {
-              "quartile": "Q1",
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 135,
-              "verified": true,
-              "scope": "source-listed",
-              "categories": [],
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=135",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "cas": null
-          },
-          "digestGroup": "vascular",
-          "digestKind": "Cohort（标题/方法线索）",
-          "digestRank": 33,
-          "digestIsReview": false,
-          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
         },
         {
           "pmid": "42949816",
