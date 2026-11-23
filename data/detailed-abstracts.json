@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:20:57.445Z",
+  "generatedAt": "2026-11-23T00:53:34.727Z",
   "records": {
     "41475890": {
       "pmid": "41475890",
@@ -925,34 +925,6 @@
       "preparation": "AI辅助整理，未经医学审校",
       "isVerbatimTranslation": false
     },
-    "43028315": {
-      "pmid": "43028315",
-      "sourceTitle": "Preprocedural Serum Albumin and Early Contrast-Associated Acute Kidney Injury After Elective Carotid Artery Stenting: Incremental Prognostic Information Beyond the PCI-Derived Mehran Score.",
-      "sourceAbstract": "Background/Objectives: We assessed whether preprocedural serum albumin adds prognostic information to the PCI-derived Mehran score for early contrast-associated acute kidney injury (CA-AKI) after elective carotid artery stenting (CAS). Methods: This single-centre retrospective cohort included 121 consecutive elective patients (January 2020-April 2026). The primary model combined the reconstructed Mehran score with albumin < 3.5 g/dL, a conventional threshold fixed in advance. Because the score uses actual contrast volume, the combined model applies only after CAS. The outcome used KDIGO serum creatinine thresholds (≥0.3 mg/dL or ≥1.5 times baseline) from routine second-day testing. Internal validation used 1000 bootstrap resamples. Results: Early CA-AKI occurred in 32 patients (26.4%). Adjusted odds ratios were 1.35 per Mehran point (95% CI 1.13-1.60) and 11.68 for albumin < 3.5 g/dL (95% CI 4.14-32.97). AUC increased from 0.768 to 0.865 (95% CI 0.794-0.937; likelihood ratio χ2 = 24.58, p < 0.001). Corrected AUC, calibration slope, and Brier score were 0.860, 0.96, and 0.132. In exploratory decision curves (20% threshold), corrected net benefit was 0.168 for the combined model and 0.133 for Mehran alone. Conclusions: Low preprocedural albumin added prognostic information to the PCI-derived score and may help select patients for closer renal surveillance after CAS. External validation and prospective impact studies are needed before clinical use.",
-      "sourceHash": "6b2cc8cf247872983438ad260ef77b8fdd25b0334bc9d99422caaf13eaee1084",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43028315/",
-      "sections": [
-        {
-          "heading": "研究目的",
-          "text": "评估术前白蛋白能否在源自冠脉介入的Mehran评分之外，增加择期颈动脉支架术后早期对比剂相关急性肾损伤（CA-AKI）的预后信息。"
-        },
-        {
-          "heading": "研究方法",
-          "text": "单中心回顾性队列纳入2020年1月至2026年4月121例连续患者；预先固定低白蛋白阈值为<3.5 g/dL，与重建的Mehran评分联合。术后第2天常规肌酐检测按KDIGO阈值判定结局，使用1000次bootstrap内部验证。Mehran评分用到实际对比剂量，因此联合模型只适用于CAS完成后，而非纯术前预测。"
-        },
-        {
-          "heading": "主要结果",
-          "text": "32例发生早期CA-AKI（26.4%）。Mehran每增加1分的校正OR为1.35（95%CI 1.13–1.60），低白蛋白OR为11.68（4.14–32.97）。联合模型AUC由0.768升至0.865（95%CI 0.794–0.937），校正AUC为0.860、校准斜率0.96、Brier评分0.132。探索性决策曲线在20%阈值下，校正净获益为0.168，比单用Mehran的0.133更高。"
-        },
-        {
-          "heading": "结论与局限",
-          "text": "低白蛋白与肾损伤风险相关，不代表补充白蛋白就能降低风险。样本量小、单中心且仅内部验证，模型尚需外部验证及前瞻性影响研究；术后第2天检测界定的早期终点不等于完整围术期肾脏结局。"
-        }
-      ],
-      "preparedAt": "2026-11-15",
-      "preparation": "AI辅助整理，未经医学审校",
-      "isVerbatimTranslation": false
-    },
     "43028342": {
       "pmid": "43028342",
       "sourceTitle": "Continuous Near-Infrared Spectroscopy as a Real-Time Monitor of Intravenous Thrombolysis in Acute Ischaemic Stroke: A Prospective Observational Emergency Department Study.",
@@ -1067,9 +1039,9 @@
     }
   },
   "counts": {
-    "available": 38,
-    "selected": 40,
-    "readySelected": 28,
+    "available": 37,
+    "selected": 36,
+    "readySelected": 24,
     "pendingSelected": 12
   },
   "pending": [

@@ -1,153 +1,95 @@
 {
-  "generatedAt": "2026-11-22T00:20:57.481Z",
+  "generatedAt": "2026-11-23T00:53:34.816Z",
   "period": {
-    "start": "2026-11-16",
-    "end": "2026-11-22"
+    "start": "2026-11-17",
+    "end": "2026-11-23"
   },
-  "dataUpdatedAt": "2026-11-22T00:20:57.481Z",
+  "dataUpdatedAt": "2026-11-23T00:53:34.816Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
-      "count": 1121,
-      "updatedAt": "2026-11-22T00:20:57.481Z"
+      "count": 1653,
+      "updatedAt": "2026-11-23T00:53:34.816Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 777,
-      "updatedAt": "2026-11-22T00:20:57.481Z"
+      "updatedAt": "2026-11-23T00:53:34.816Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 30,
-      "updatedAt": "2026-11-22T00:20:57.481Z"
+      "updatedAt": "2026-11-23T00:53:34.816Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-22T00:20:57.481Z"
+      "updatedAt": "2026-11-23T00:53:34.816Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-22T00:20:57.481Z"
+      "updatedAt": "2026-11-23T00:53:34.816Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
-      "count": 25,
-      "updatedAt": "2026-11-22T00:20:57.481Z"
+      "count": 24,
+      "updatedAt": "2026-11-23T00:53:34.816Z"
     }
   ],
   "counts": {
-    "latestResearch": 1121,
-    "highImpact": 477,
-    "chinaResearch": 176,
+    "latestResearch": 1653,
+    "highImpact": 646,
+    "chinaResearch": 187,
     "clinicalTrials": 777,
     "guidelines": 30,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
-    "totalBriefItems": 25
+    "totalBriefItems": 24
   },
-  "overviewZh": "本周自动汇总 1121 篇 PubMed 文献、777 项进行中/招募中临床试验，并筛出 25 条重点简报条目。",
+  "overviewZh": "本周自动汇总 1653 篇 PubMed 文献、777 项进行中/招募中临床试验，并筛出 24 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Imaging / Diagnosis",
-      "count": 360
+      "count": 507
     },
     {
       "tag": "Endovascular",
-      "count": 341
+      "count": 495
     },
     {
       "tag": "Venous Disease",
-      "count": 268
-    },
-    {
-      "tag": "China Research",
-      "count": 176
-    },
-    {
-      "tag": "Vascular Graft / Stent / Device",
-      "count": 175
+      "count": 408
     },
     {
       "tag": "Aortic Disease",
-      "count": 149
+      "count": 242
     },
     {
       "tag": "PAD / CLTI",
-      "count": 123
+      "count": 226
     },
     {
-      "tag": "Open Surgery",
-      "count": 103
+      "tag": "Vascular Graft / Stent / Device",
+      "count": 217
+    },
+    {
+      "tag": "China Research",
+      "count": 187
+    },
+    {
+      "tag": "Antithrombotic Therapy",
+      "count": 136
     }
   ],
   "priorityReading": [
-    {
-      "pmid": "43039119",
-      "title": "Society for Vascular Surgery Vascular Quality Initiative Contemporary Benchmarks: Thoracic Endovascular Aortic Repair.",
-      "abstract": "OBJECTIVE: To describe contemporary outcomes as well as temporal trends of in-hospital mortality and complication rates for patients undergoing thoracic endovascular aortic repair (TEVAR) across indications and levels of urgency, establishing a benchmark for future analytic efforts.\n\nMETHODS: The VQI TEVAR and complex EVAR registry was queried for procedures performed between January 2014-December 2024. Primary outcomes included in-hospital mortality and major complications. Analyses were stratified by indication to include descending thoracic aortic aneurysms (DTAA), dissections, and trauma. Aneurysms involving the aortic arch (i.e. landing zone < 2) or extending to the visceral segment and distally (i.e. landing zone >5) were excluded. Linear regression and the Cochran Armitage test for trend were used to analyze yearly mortality and complication rates over time. Mortality and complication end-points were further analyzed using logistic regression with and without risk-adjustment.\n\nRESULTS: Over the ten-year study period, 4,632 TEVARs were performed for DTAA, 6,701 for dissection, and 2,321 for trauma. For patients undergoing TEVAR for DTAA, in-hospital mortality declined significantly for both elective (2014, 3.9% versus 2024, 1.0%, -0.26 percentage points per year, p=0.01) and nonelective cases (2014, 16.7% versus 2024, 8.7%, -0.63 percentage points per year, p=0.04). There was also a decline in in-hospital mortality among elective dissection patients (2014, 3.7% versus 2024, 0.5%, -0.17 percentage points per year, p=0.03). Elective TEVAR overall is associated with a mortality rate of less than two percent per year. The in-hospital complication trends declined significantly for patients undergoing TEVAR for DTAA - elective patients experienced a decline in complication rates by -1.13 percentage points per year (2014, 24.8% versus 2024, 11.5% p<0.001) and non-elective patients experienced a decline in complication rates by -2.0 percentage points per year (2014, 40.5% versus 2024, 25.2%, p<0.001). Dissection patients undergoing elective repair had a decrease of -0.8 percentage points per year (2014, 16.9% versus 2024, 9.2%, p<0.001). Nonelective dissections repairs had a complication rate of 36.4% in 2014 vs 34.1% in 2024, p=0.874). Trauma patients tended toward higher complication rates over time, with a rate of 21.6% in 2014 and 32.2% in 2024, p=0.06) Trauma patients experienced an overall increase in in-hospital mortality of +0.38 percentage points per year (2014, 9.8% versus 2024, 9.4%, p=0.01).\n\nCONCLUSION: Temporal trends within the VQI demonstrate improvements in mortality and complication rates for patients undergoing TEVAR for DTAA and elective dissection repair, with contemporary yearly mortality rates of less than two percent. Patients undergoing non-elective dissection repair and those with traumatic indications represent challenging and complex pathologies requiring further research to identify opportunities to improve outcomes.",
-      "journalIssns": [
-        "1097-6809",
-        "0741-5214"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-16",
-      "journal": "Journal of vascular surgery",
-      "journalMetrics": {
-        "journalId": "jvs",
-        "impactFactor": {
-          "value": 3.9,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 129,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 129,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 2,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "pvd-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular"
-      ],
-      "studyTypeTags": [
-        "Registry"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复与血管疾病及其治疗。主要内容涉及血管腔内修复、死亡风险或生存结局。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43039119/",
-      "doi": "10.1016/j.jvs.2026.11.011"
-    },
     {
       "pmid": "43057629",
       "title": "One-Year Outcomes of Surgical Versus Endovascular Revascularization for Acute Limb Ischemia in the SAPLING-ALI Registry.",
@@ -379,64 +321,6 @@
     }
   ],
   "priorityArticles": [
-    {
-      "pmid": "43039119",
-      "title": "Society for Vascular Surgery Vascular Quality Initiative Contemporary Benchmarks: Thoracic Endovascular Aortic Repair.",
-      "abstract": "OBJECTIVE: To describe contemporary outcomes as well as temporal trends of in-hospital mortality and complication rates for patients undergoing thoracic endovascular aortic repair (TEVAR) across indications and levels of urgency, establishing a benchmark for future analytic efforts.\n\nMETHODS: The VQI TEVAR and complex EVAR registry was queried for procedures performed between January 2014-December 2024. Primary outcomes included in-hospital mortality and major complications. Analyses were stratified by indication to include descending thoracic aortic aneurysms (DTAA), dissections, and trauma. Aneurysms involving the aortic arch (i.e. landing zone < 2) or extending to the visceral segment and distally (i.e. landing zone >5) were excluded. Linear regression and the Cochran Armitage test for trend were used to analyze yearly mortality and complication rates over time. Mortality and complication end-points were further analyzed using logistic regression with and without risk-adjustment.\n\nRESULTS: Over the ten-year study period, 4,632 TEVARs were performed for DTAA, 6,701 for dissection, and 2,321 for trauma. For patients undergoing TEVAR for DTAA, in-hospital mortality declined significantly for both elective (2014, 3.9% versus 2024, 1.0%, -0.26 percentage points per year, p=0.01) and nonelective cases (2014, 16.7% versus 2024, 8.7%, -0.63 percentage points per year, p=0.04). There was also a decline in in-hospital mortality among elective dissection patients (2014, 3.7% versus 2024, 0.5%, -0.17 percentage points per year, p=0.03). Elective TEVAR overall is associated with a mortality rate of less than two percent per year. The in-hospital complication trends declined significantly for patients undergoing TEVAR for DTAA - elective patients experienced a decline in complication rates by -1.13 percentage points per year (2014, 24.8% versus 2024, 11.5% p<0.001) and non-elective patients experienced a decline in complication rates by -2.0 percentage points per year (2014, 40.5% versus 2024, 25.2%, p<0.001). Dissection patients undergoing elective repair had a decrease of -0.8 percentage points per year (2014, 16.9% versus 2024, 9.2%, p<0.001). Nonelective dissections repairs had a complication rate of 36.4% in 2014 vs 34.1% in 2024, p=0.874). Trauma patients tended toward higher complication rates over time, with a rate of 21.6% in 2014 and 32.2% in 2024, p=0.06) Trauma patients experienced an overall increase in in-hospital mortality of +0.38 percentage points per year (2014, 9.8% versus 2024, 9.4%, p=0.01).\n\nCONCLUSION: Temporal trends within the VQI demonstrate improvements in mortality and complication rates for patients undergoing TEVAR for DTAA and elective dissection repair, with contemporary yearly mortality rates of less than two percent. Patients undergoing non-elective dissection repair and those with traumatic indications represent challenging and complex pathologies requiring further research to identify opportunities to improve outcomes.",
-      "journalIssns": [
-        "1097-6809",
-        "0741-5214"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-16",
-      "journal": "Journal of vascular surgery",
-      "journalMetrics": {
-        "journalId": "jvs",
-        "impactFactor": {
-          "value": 3.9,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 129,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 129,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 2,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "pvd-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular"
-      ],
-      "studyTypeTags": [
-        "Registry"
-      ],
-      "relevance": "high",
-      "score": 9,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复与血管疾病及其治疗。主要内容涉及血管腔内修复、死亡风险或生存结局。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43039119/",
-      "doi": "10.1016/j.jvs.2026.11.011"
-    },
     {
       "pmid": "43057629",
       "title": "One-Year Outcomes of Surgical Versus Endovascular Revascularization for Acute Limb Ischemia in the SAPLING-ALI Registry.",
@@ -1016,6 +900,32 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43055216/"
     },
     {
+      "title": "Symptomatic and asymptomatic peripheral artery disease and the risk of abdominal aortic aneurysm: The Atherosclerosis Risk in Communities (ARIC) study.",
+      "source": "Guidelines",
+      "date": "2021-08-14",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Aortic Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34419824/"
+    },
+    {
+      "title": "Lactobacillus Bacteremia and Endovascular Infections: A Retrospective Study of 100 Patients.",
+      "source": "Guidelines",
+      "date": "2025-08-04",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40852136/"
+    },
+    {
       "title": "Updated systematic review and meta-analysis comparing Myval versus Sapien 3 transcatheter heart valves in severe aortic stenosis: focus on early and one-year mortality.",
       "source": "Guidelines",
       "date": "2026-10-12",
@@ -1026,32 +936,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42862939/"
-    },
-    {
-      "title": "Efficacy and safety of rivaroxaban in preventing venous thromboembolism in postoperative patients with gynecological malignancies: protocol for a randomised controlled open-label trial (G-alfalfa trial).",
-      "source": "Guidelines",
-      "date": "2024-12-20",
-      "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy",
-        "Guideline / Consensus",
-        "China Research"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39806649/"
-    },
-    {
-      "title": "A Multicenter Case Review Program on the impact of ViTAA Regional Aortic Weakness Maps on clinical decision-making in abdominal aortic aneurysm management.",
-      "source": "Guidelines",
-      "date": "2026-10-07",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43034619/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
@@ -1091,17 +975,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42562226/"
     },
     {
-      "title": "Endovascular reconstruction of extracranial traumatic internal carotid artery dissections: a systematic review.",
+      "title": "Outcomes of Endovascular Repair for Stanford Type B Aortic Dissection with Concurrent Retrograde Intramural Hematoma Involving the Aortic Arch and/or Ascending Aorta (Zone 0-2) in a Chinese Population: A Systematic Review and Meta-Analysis.",
       "source": "Devices / Regulatory",
-      "date": "2019-03-22",
+      "date": "2026-11-19",
       "topicTags": [
-        "Carotid Disease",
+        "Aortic Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
+        "Imaging / Diagnosis",
+        "China Research"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30903316/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
@@ -1116,17 +1001,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42811133/"
     },
     {
-      "title": "Endovascular reconstruction of extracranial traumatic internal carotid artery dissections: a systematic review.",
+      "title": "Outcomes of Endovascular Repair for Stanford Type B Aortic Dissection with Concurrent Retrograde Intramural Hematoma Involving the Aortic Arch and/or Ascending Aorta (Zone 0-2) in a Chinese Population: A Systematic Review and Meta-Analysis.",
       "source": "Safety",
-      "date": "2019-03-22",
+      "date": "2026-11-19",
       "topicTags": [
-        "Carotid Disease",
+        "Aortic Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
+        "Imaging / Diagnosis",
+        "China Research"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30903316/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
     }
   ],
   "reviewQueue": [
@@ -1146,6 +1032,32 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43055216/"
     },
     {
+      "title": "Symptomatic and asymptomatic peripheral artery disease and the risk of abdominal aortic aneurysm: The Atherosclerosis Risk in Communities (ARIC) study.",
+      "source": "Guidelines",
+      "date": "2021-08-14",
+      "topicTags": [
+        "PAD / CLTI",
+        "Aortic Disease",
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Aortic Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34419824/"
+    },
+    {
+      "title": "Lactobacillus Bacteremia and Endovascular Infections: A Retrospective Study of 100 Patients.",
+      "source": "Guidelines",
+      "date": "2025-08-04",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Guideline / Consensus"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40852136/"
+    },
+    {
       "title": "Updated systematic review and meta-analysis comparing Myval versus Sapien 3 transcatheter heart valves in severe aortic stenosis: focus on early and one-year mortality.",
       "source": "Guidelines",
       "date": "2026-10-12",
@@ -1156,32 +1068,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42862939/"
-    },
-    {
-      "title": "Efficacy and safety of rivaroxaban in preventing venous thromboembolism in postoperative patients with gynecological malignancies: protocol for a randomised controlled open-label trial (G-alfalfa trial).",
-      "source": "Guidelines",
-      "date": "2024-12-20",
-      "topicTags": [
-        "Venous Disease",
-        "Antithrombotic Therapy",
-        "Guideline / Consensus",
-        "China Research"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Venous Disease",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39806649/"
-    },
-    {
-      "title": "A Multicenter Case Review Program on the impact of ViTAA Regional Aortic Weakness Maps on clinical decision-making in abdominal aortic aneurysm management.",
-      "source": "Guidelines",
-      "date": "2026-10-07",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43034619/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
@@ -1221,17 +1107,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42562226/"
     },
     {
-      "title": "Endovascular reconstruction of extracranial traumatic internal carotid artery dissections: a systematic review.",
+      "title": "Outcomes of Endovascular Repair for Stanford Type B Aortic Dissection with Concurrent Retrograde Intramural Hematoma Involving the Aortic Arch and/or Ascending Aorta (Zone 0-2) in a Chinese Population: A Systematic Review and Meta-Analysis.",
       "source": "Devices / Regulatory",
-      "date": "2019-03-22",
+      "date": "2026-11-19",
       "topicTags": [
-        "Carotid Disease",
+        "Aortic Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
+        "Imaging / Diagnosis",
+        "China Research"
       ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30903316/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
     },
     {
       "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
@@ -1246,17 +1133,18 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42811133/"
     },
     {
-      "title": "Endovascular reconstruction of extracranial traumatic internal carotid artery dissections: a systematic review.",
+      "title": "Outcomes of Endovascular Repair for Stanford Type B Aortic Dissection with Concurrent Retrograde Intramural Hematoma Involving the Aortic Arch and/or Ascending Aorta (Zone 0-2) in a Chinese Population: A Systematic Review and Meta-Analysis.",
       "source": "Safety",
-      "date": "2019-03-22",
+      "date": "2026-11-19",
       "topicTags": [
-        "Carotid Disease",
+        "Aortic Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device",
-        "Imaging / Diagnosis"
+        "Imaging / Diagnosis",
+        "China Research"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30903316/"
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
     }
   ],
   "note": "文献采用近7天实际发表、高相关、已核实JCR Q1的精选；不以旧文、未知分区或普通综述凑数。试验与人工复核提醒沿用原规则，不调用AI。"
