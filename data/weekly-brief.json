@@ -1,92 +1,92 @@
 {
-  "generatedAt": "2026-11-24T04:48:23.529Z",
+  "generatedAt": "2026-11-25T03:33:32.119Z",
   "period": {
-    "start": "2026-11-18",
-    "end": "2026-11-24"
+    "start": "2026-11-19",
+    "end": "2026-11-25"
   },
-  "dataUpdatedAt": "2026-11-24T04:48:23.529Z",
+  "dataUpdatedAt": "2026-11-25T03:33:32.119Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
-      "count": 1720,
-      "updatedAt": "2026-11-24T04:48:23.529Z"
+      "count": 1671,
+      "updatedAt": "2026-11-25T03:33:32.119Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
-      "count": 757,
-      "updatedAt": "2026-11-24T04:48:23.529Z"
+      "count": 768,
+      "updatedAt": "2026-11-25T03:33:32.119Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 30,
-      "updatedAt": "2026-11-24T04:48:23.529Z"
+      "updatedAt": "2026-11-25T03:33:32.119Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-24T04:48:23.529Z"
+      "updatedAt": "2026-11-25T03:33:32.119Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-24T04:48:23.529Z"
+      "updatedAt": "2026-11-25T03:33:32.119Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
-      "count": 23,
-      "updatedAt": "2026-11-24T04:48:23.529Z"
+      "count": 22,
+      "updatedAt": "2026-11-25T03:33:32.119Z"
     }
   ],
   "counts": {
-    "latestResearch": 1720,
-    "highImpact": 688,
-    "chinaResearch": 196,
-    "clinicalTrials": 757,
+    "latestResearch": 1671,
+    "highImpact": 639,
+    "chinaResearch": 184,
+    "clinicalTrials": 768,
     "guidelines": 30,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
-    "totalBriefItems": 23
+    "totalBriefItems": 22
   },
-  "overviewZh": "本周自动汇总 1720 篇 PubMed 文献、757 项进行中/招募中临床试验，并筛出 23 条重点简报条目。",
+  "overviewZh": "本周自动汇总 1671 篇 PubMed 文献、768 项进行中/招募中临床试验，并筛出 22 条重点简报条目。",
   "topicTrends": [
     {
-      "tag": "Imaging / Diagnosis",
-      "count": 517
+      "tag": "Endovascular",
+      "count": 501
     },
     {
-      "tag": "Endovascular",
-      "count": 515
+      "tag": "Imaging / Diagnosis",
+      "count": 498
     },
     {
       "tag": "Venous Disease",
-      "count": 427
+      "count": 407
     },
     {
       "tag": "Aortic Disease",
-      "count": 257
+      "count": 249
     },
     {
       "tag": "PAD / CLTI",
-      "count": 235
+      "count": 236
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 224
+      "count": 214
     },
     {
       "tag": "China Research",
-      "count": 196
+      "count": 184
     },
     {
       "tag": "Antithrombotic Therapy",
-      "count": 141
+      "count": 132
     }
   ],
   "priorityReading": [
@@ -146,62 +146,6 @@
       "summaryZh": "主要内容涉及血管腔内干预或血运重建。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43057629/",
       "doi": "10.1016/j.jvs.2026.11.014"
-    },
-    {
-      "pmid": "43048814",
-      "title": "Longitudinal Trends of Intact and Ruptured Abdominal Aortic Aneurysm Repairs in the United States: A Cross-Sectional Study.",
-      "abstract": "BACKGROUND: The COVID-19 pandemic disrupted access to elective procedures and routine care. Given the risk of abdominal aortic aneurysm (AAA) rupture, understanding repair trends is important to assess the impact of the pandemic on vascular outcomes.\n\nMETHODS: This repeated cross-sectional analysis used the TriNetX network, a multicenter US electronic health records database. We included 423 874 patients diagnosed with AAA from 2016 to 2024. Patients were categorized by clinical presentation-intact AAA and ruptured AAA-and stratified by surgical approach: endovascular aneurysm repair or open aneurysm repair. Annual trends in AAA repair rates were assessed using joinpoint regression to calculate annual percentage change.\n\nRESULTS: Among 19 330 AAA repairs, 3791 (19.6%) were open aneurysm repair, and 15 539 (80.4%) were endovascular aneurysm repair. From 2018 to 2024, 1623 repairs (9.9%) were for ruptured AAA and 14 835 (90.1%) were for intact AAA. The rate of intact AAA repairs initially remained stable from 2018 to 2022 but significantly decreased after the pandemic from 2022 to 2024 (annual percentage change, -2.87% [95% CI, -10.95 to -1.00]). In contrast, ruptured AAA repairs rates shifted sharply during the pandemic, with an established prepandemic decline in ruptured repairs from 2018 to 2020 (annual percentage change, -11.48%) reversed, with an increase from 2020 to 2022 (annual percentage change +12.01%), before declining from 2022 to 2024 (annual percentage change, -11.00%).\n\nCONCLUSIONS: In this retrospective cross-sectional study, repairs for intact AAA declined, while repairs for ruptured AAA increased during the pandemic period. These trends suggest that potential delays in routine surveillance and elective surgery during the pandemic may have increased acute presentations.",
-      "journalIssns": [
-        "2047-9980"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-18",
-      "journal": "Journal of the American Heart Association",
-      "journalMetrics": {
-        "journalId": "jaha",
-        "impactFactor": {
-          "value": 6,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 62,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=62",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 62,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=62",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 1,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "cardio-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/10061332-1719-4850-8894-ec27d6e3f531.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·心血管系统（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦腹主动脉瘤。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43048814/",
-      "doi": "10.1161/JAHA.125.045275"
     },
     {
       "pmid": "43072712",
@@ -319,62 +263,6 @@
       "summaryZh": "主要内容涉及血管腔内干预或血运重建。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43057629/",
       "doi": "10.1016/j.jvs.2026.11.014"
-    },
-    {
-      "pmid": "43048814",
-      "title": "Longitudinal Trends of Intact and Ruptured Abdominal Aortic Aneurysm Repairs in the United States: A Cross-Sectional Study.",
-      "abstract": "BACKGROUND: The COVID-19 pandemic disrupted access to elective procedures and routine care. Given the risk of abdominal aortic aneurysm (AAA) rupture, understanding repair trends is important to assess the impact of the pandemic on vascular outcomes.\n\nMETHODS: This repeated cross-sectional analysis used the TriNetX network, a multicenter US electronic health records database. We included 423 874 patients diagnosed with AAA from 2016 to 2024. Patients were categorized by clinical presentation-intact AAA and ruptured AAA-and stratified by surgical approach: endovascular aneurysm repair or open aneurysm repair. Annual trends in AAA repair rates were assessed using joinpoint regression to calculate annual percentage change.\n\nRESULTS: Among 19 330 AAA repairs, 3791 (19.6%) were open aneurysm repair, and 15 539 (80.4%) were endovascular aneurysm repair. From 2018 to 2024, 1623 repairs (9.9%) were for ruptured AAA and 14 835 (90.1%) were for intact AAA. The rate of intact AAA repairs initially remained stable from 2018 to 2022 but significantly decreased after the pandemic from 2022 to 2024 (annual percentage change, -2.87% [95% CI, -10.95 to -1.00]). In contrast, ruptured AAA repairs rates shifted sharply during the pandemic, with an established prepandemic decline in ruptured repairs from 2018 to 2020 (annual percentage change, -11.48%) reversed, with an increase from 2020 to 2022 (annual percentage change +12.01%), before declining from 2022 to 2024 (annual percentage change, -11.00%).\n\nCONCLUSIONS: In this retrospective cross-sectional study, repairs for intact AAA declined, while repairs for ruptured AAA increased during the pandemic period. These trends suggest that potential delays in routine surveillance and elective surgery during the pandemic may have increased acute presentations.",
-      "journalIssns": [
-        "2047-9980"
-      ],
-      "source": "PubMed",
-      "date": "2026-11-18",
-      "journal": "Journal of the American Heart Association",
-      "journalMetrics": {
-        "journalId": "jaha",
-        "impactFactor": {
-          "value": 6,
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 62,
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=62",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "jcr": {
-          "quartile": "Q1",
-          "year": 2025,
-          "releaseYear": 2026,
-          "sourceId": "jcr-release-2026",
-          "page": 62,
-          "verified": true,
-          "scope": "source-listed",
-          "categories": [],
-          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=62",
-          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-        },
-        "cas": {
-          "zone": 1,
-          "year": 2025,
-          "scope": "major",
-          "verified": true,
-          "sourceId": "cardio-2025",
-          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/10061332-1719-4850-8894-ec27d6e3f531.pdf",
-          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·心血管系统（JIF 2024 / 中科院大类2025）"
-        }
-      },
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Imaging / Diagnosis"
-      ],
-      "studyTypeTags": [],
-      "relevance": "high",
-      "score": 7,
-      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
-      "summaryZh": "这篇文献聚焦腹主动脉瘤。",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43048814/",
-      "doi": "10.1161/JAHA.125.045275"
     },
     {
       "pmid": "43072712",
@@ -536,6 +424,22 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-09-11",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
+    },
+    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -583,22 +487,6 @@
       "enrollment": 2000,
       "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
       "url": "https://clinicaltrials.gov/study/NCT04545502"
-    },
-    {
-      "nctId": "NCT06658730",
-      "title": "Long-term Characterization of GORE® TAG® Conformable Thoracic Stent Graft With ACTIVE CONTROL System Performance",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-08-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1500,
-      "reason": "正在招募；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1500；最近更新 2026-08-19",
-      "url": "https://clinicaltrials.gov/study/NCT06658730"
     }
   ],
   "clinicalTrials": [
@@ -700,6 +588,22 @@
       "url": "https://clinicaltrials.gov/study/NCT07839390"
     },
     {
+      "nctId": "NCT07613840",
+      "title": "Personalizing Post Surgical Thromboprophylaxis for Patients With Peripheral Artery Disease",
+      "source": "ClinicalTrials.gov",
+      "date": "2026-09-11",
+      "topicTags": [
+        "PAD / CLTI",
+        "Endovascular",
+        "Vascular Graft / Stent / Device"
+      ],
+      "status": "RECRUITING",
+      "studyType": "INTERVENTIONAL",
+      "enrollment": 484,
+      "reason": "正在招募；介入性研究；主题：PAD / CLTI / Endovascular / Vascular Graft / Stent / Device；计划入组 484；最近更新 2026-09-11",
+      "url": "https://clinicaltrials.gov/study/NCT07613840"
+    },
+    {
       "nctId": "NCT05064540",
       "title": "JAGUAR Trial: ObJective Analysis to GaUge EVAR Outcomes Through Randomization",
       "source": "ClinicalTrials.gov",
@@ -747,22 +651,6 @@
       "enrollment": 2000,
       "reason": "正在招募；主题：Aortic Disease / Carotid Disease / Vascular Graft / Stent / Device；计划入组 2000；最近更新 2026-08-20",
       "url": "https://clinicaltrials.gov/study/NCT04545502"
-    },
-    {
-      "nctId": "NCT06658730",
-      "title": "Long-term Characterization of GORE® TAG® Conformable Thoracic Stent Graft With ACTIVE CONTROL System Performance",
-      "source": "ClinicalTrials.gov",
-      "date": "2026-08-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "status": "RECRUITING",
-      "studyType": "OBSERVATIONAL",
-      "enrollment": 1500,
-      "reason": "正在招募；主题：Aortic Disease / Endovascular / Vascular Graft / Stent / Device；计划入组 1500；最近更新 2026-08-19",
-      "url": "https://clinicaltrials.gov/study/NCT06658730"
     }
   ],
   "manualReview": [
@@ -781,6 +669,20 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/38775052/"
     },
     {
+      "title": "Evaluation of Total Patent Branch Vessel Ostial Area at Preoperative CT Angiography for Predicting Type II Endoleak after Endovascular Aneurysm Repair.",
+      "source": "Guidelines",
+      "date": "2026-11-01",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus",
+        "China Research"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43076674/"
+    },
+    {
       "title": "Percutaneous Local Antibiotic Irrigation for Aortic Graft Infection After Endovascular Repair: A Single-Center Experience and Systematic Literature Review.",
       "source": "Guidelines",
       "date": "2026-11-19",
@@ -810,55 +712,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/34419824/"
     },
     {
-      "title": "Lactobacillus Bacteremia and Endovascular Infections: A Retrospective Study of 100 Patients.",
-      "source": "Guidelines",
-      "date": "2025-08-04",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40852136/"
-    },
-    {
-      "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-09-29",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42811133/"
-    },
-    {
-      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-Analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-08-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
-    },
-    {
-      "title": "Clinical Efficacy of Different Endovascular Approaches in Femoropopliteal Artery Disease with Moderate-to-Severe Calcification: A Meta-Analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-08-06",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42562226/"
-    },
-    {
       "title": "Outcomes of Endovascular Repair for Stanford Type B Aortic Dissection with Concurrent Retrograde Intramural Hematoma Involving the Aortic Arch and/or Ascending Aorta (Zone 0-2) in a Chinese Population: A Systematic Review and Meta-Analysis.",
       "source": "Devices / Regulatory",
       "date": "2026-11-19",
@@ -873,16 +726,42 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
     },
     {
-      "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
-      "source": "Safety",
-      "date": "2026-09-29",
+      "title": "Endovascular robotic-assisted system for cerebral angiography (ERASE): Rationale, design, and protocol of a multicenter randomized controlled trial.",
+      "source": "Devices / Regulatory",
+      "date": "2026-11-16",
       "topicTags": [
-        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035560/"
+    },
+    {
+      "title": "Total Endovascular Aortic Arch Repair: A Review of Current Technologies and Clinical Decision Frameworks.",
+      "source": "Devices / Regulatory",
+      "date": "2027-01-01",
+      "topicTags": [
+        "Aortic Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42811133/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039578/"
+    },
+    {
+      "title": "Carotid endarterectomy versus transcarotid artery revascularization for asymptomatic carotid stenosis: a systematic review and meta-analysis.",
+      "source": "Devices / Regulatory",
+      "date": "2026-10-29",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42951050/"
     },
     {
       "title": "Outcomes of Endovascular Repair for Stanford Type B Aortic Dissection with Concurrent Retrograde Intramural Hematoma Involving the Aortic Arch and/or Ascending Aorta (Zone 0-2) in a Chinese Population: A Systematic Review and Meta-Analysis.",
@@ -897,6 +776,19 @@
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
+    },
+    {
+      "title": "Endovascular robotic-assisted system for cerebral angiography (ERASE): Rationale, design, and protocol of a multicenter randomized controlled trial.",
+      "source": "Safety",
+      "date": "2026-11-16",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035560/"
     }
   ],
   "reviewQueue": [
@@ -915,6 +807,20 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/38775052/"
     },
     {
+      "title": "Evaluation of Total Patent Branch Vessel Ostial Area at Preoperative CT Angiography for Predicting Type II Endoleak after Endovascular Aneurysm Repair.",
+      "source": "Guidelines",
+      "date": "2026-11-01",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus",
+        "China Research"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43076674/"
+    },
+    {
       "title": "Percutaneous Local Antibiotic Irrigation for Aortic Graft Infection After Endovascular Repair: A Single-Center Experience and Systematic Literature Review.",
       "source": "Guidelines",
       "date": "2026-11-19",
@@ -944,55 +850,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/34419824/"
     },
     {
-      "title": "Lactobacillus Bacteremia and Endovascular Infections: A Retrospective Study of 100 Patients.",
-      "source": "Guidelines",
-      "date": "2025-08-04",
-      "topicTags": [
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40852136/"
-    },
-    {
-      "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-09-29",
-      "topicTags": [
-        "Venous Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42811133/"
-    },
-    {
-      "title": "Aorto-Uni-Iliac Versus Bifurcated Endograft Configuration for Endovascular Repair of Ruptured Abdominal Aortic Aneurysm: A Systematic Review and Meta-Analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-08-19",
-      "topicTags": [
-        "Aortic Disease",
-        "Endovascular",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42617685/"
-    },
-    {
-      "title": "Clinical Efficacy of Different Endovascular Approaches in Femoropopliteal Artery Disease with Moderate-to-Severe Calcification: A Meta-Analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-08-06",
-      "topicTags": [
-        "PAD / CLTI",
-        "Endovascular",
-        "Vascular Graft / Stent / Device",
-        "China Research"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42562226/"
-    },
-    {
       "title": "Outcomes of Endovascular Repair for Stanford Type B Aortic Dissection with Concurrent Retrograde Intramural Hematoma Involving the Aortic Arch and/or Ascending Aorta (Zone 0-2) in a Chinese Population: A Systematic Review and Meta-Analysis.",
       "source": "Devices / Regulatory",
       "date": "2026-11-19",
@@ -1007,16 +864,42 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
     },
     {
-      "title": "Endovascular Iliac Vein Revascularization Versus Conservative Management for Chronic, Symptomatic Iliac Vein Obstruction: A Systematic Review and Meta-Analysis.",
-      "source": "Safety",
-      "date": "2026-09-29",
+      "title": "Endovascular robotic-assisted system for cerebral angiography (ERASE): Rationale, design, and protocol of a multicenter randomized controlled trial.",
+      "source": "Devices / Regulatory",
+      "date": "2026-11-16",
       "topicTags": [
-        "Venous Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035560/"
+    },
+    {
+      "title": "Total Endovascular Aortic Arch Repair: A Review of Current Technologies and Clinical Decision Frameworks.",
+      "source": "Devices / Regulatory",
+      "date": "2027-01-01",
+      "topicTags": [
+        "Aortic Disease",
         "Endovascular",
         "Vascular Graft / Stent / Device"
       ],
-      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Venous Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42811133/"
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039578/"
+    },
+    {
+      "title": "Carotid endarterectomy versus transcarotid artery revascularization for asymptomatic carotid stenosis: a systematic review and meta-analysis.",
+      "source": "Devices / Regulatory",
+      "date": "2026-10-29",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Vascular Graft / Stent / Device"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42951050/"
     },
     {
       "title": "Outcomes of Endovascular Repair for Stanford Type B Aortic Dissection with Concurrent Retrograde Intramural Hematoma Involving the Aortic Arch and/or Ascending Aorta (Zone 0-2) in a Chinese Population: A Systematic Review and Meta-Analysis.",
@@ -1031,6 +914,19 @@
       ],
       "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
+    },
+    {
+      "title": "Endovascular robotic-assisted system for cerebral angiography (ERASE): Rationale, design, and protocol of a multicenter randomized controlled trial.",
+      "source": "Safety",
+      "date": "2026-11-16",
+      "topicTags": [
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "reason": "安全性或并发症信号，建议人工复核终点、事件定义和临床可操作性。；high relevance；Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035560/"
     }
   ],
   "note": "文献采用近7天实际发表、高相关、已核实JCR Q1的精选；不以旧文、未知分区或普通综述凑数。试验与人工复核提醒沿用原规则，不调用AI。"
