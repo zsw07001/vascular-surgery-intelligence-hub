@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T02:51:51.094Z",
+  "generatedAt": "2026-11-27T02:51:48.869Z",
   "defaultWindow": 30,
   "rankingSystem": "JCR",
   "jcrYear": 2025,
@@ -22,17 +22,17 @@
       "id": "vascular",
       "title": "血管外科",
       "fileName": "latest-research.json",
-      "libraryCount": 1680,
+      "libraryCount": 1684,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-26T02:51:51.094Z",
+      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 109,
-            "directHighRelevance": 15,
-            "metricsPending": 8,
-            "eligible": 4
+            "recentPublications": 123,
+            "directHighRelevance": 28,
+            "metricsPending": 13,
+            "eligible": 7
           },
           "articles": [
             {
@@ -134,6 +134,96 @@
               "digestRank": 42,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。RCT；建议重点核对方法与终点。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43085634",
+              "title": "Beyond injury grade: Anatomic location and outcomes after endovascular repair of blunt thoracic aortic injury.",
+              "abstract": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).\n\nMETHODS: We performed a retrospective cohort study of patients undergoing TEVAR for BTAI in the Society for Vascular Surgery Vascular Quality Initiative from 2013 through April 1, 2026. Patients were classified according to the proximal extent of the aortic injury as proximal (zones 0-2), isthmic (zone 3), or distal (zones 4-5). Multinomial propensity scores incorporating pretreatment demographic, comorbidity, physiologic, and injury-severity variables were used to generate stabilized inverse probability of treatment weights. Weighted logistic regression with center-clustered standard errors evaluated perioperative outcomes. Cox regression evaluated all-cause mortality, and Fine-Gray regression evaluated aorta- or branch-related reintervention with death treated as a competing event. Zone 3 served as the reference group.\n\nRESULTS: Among 2,693 patients, 551 (20.5%) had proximal injuries, 1,772 (65.8%) had zone 3 injuries, and 370 (13.7%) had distal injuries. Injury-grade distributions did not differ significantly among groups. After weighting, proximal injury was associated with greater in-hospital mortality compared with zone 3 injury (11.0% vs. 8.5%; odds ratio [OR], 1.33; 95% confidence interval [CI], 1.01-1.76; P=0.046) and greater 30-day aortic reintervention (2.2% vs. 0.8%; OR, 3.00; 95% CI, 1.30-6.92; P=0.010). Stroke and spinal cord ischemia did not differ significantly. Proximal injury was also associated with a greater cumulative incidence of aortic reintervention (subdistribution hazard ratio, 1.94; 95% CI, 1.06-3.53; P=0.031), although its association with all-cause mortality during follow-up did not reach statistical significance (hazard ratio, 1.28; 95% CI, 0.99-1.65; P=0.060). Distal injury was not associated with increased perioperative or long-term adverse outcomes compared with zone 3 injury.\n\nCONCLUSIONS: Among patients undergoing TEVAR for BTAI, proximal injury location was associated with greater in-hospital mortality and aortic reintervention despite similar injury-grade distributions. Anatomic injury zone may complement injury grade when assessing procedural risk and planning postoperative surveillance.",
+              "englishSummary": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).",
+              "journal": "Journal of vascular surgery",
+              "journalIssns": [
+                "1097-6809",
+                "0741-5214"
+              ],
+              "publicationDate": "2026-11-25",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Baghbani A",
+                "DuBose JJ",
+                "Keyhani K",
+                "Keyhani A",
+                "Martin GH",
+                "Estrera AL",
+                "Saqib NU",
+                "Wang SK"
+              ],
+              "affiliations": [
+                "Department of Cardiothoracic and Vascular Surgery, McGovern Medical School at UTHealth Houston, Houston, TX, USA.",
+                "Department of Cardiothoracic and Vascular Surgery, McGovern Medical School at UTHealth Houston, Houston, TX, USA. Electronic address: Shihuan.K.Wang@uth.tmc.edu."
+              ],
+              "doi": "10.1016/j.jvs.2026.11.023",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085634/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Aortic Disease",
+                "Endovascular",
+                "Imaging / Diagnosis"
+              ],
+              "studyTypeTags": [
+                "Cohort"
+              ],
+              "relevance": "high",
+              "score": 9,
+              "scoreReasons": [
+                "+3 title vascular surgery topic: endovascular",
+                "+2 clinical evidence design: cohort",
+                "+2 human study: patients",
+                "+2 treatment or prognosis relevance: treatment"
+              ],
+              "isChinaResearch": false,
+              "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复。主要内容涉及血管腔内修复。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jvs",
+                "impactFactor": {
+                  "value": 3.9,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": {
+                  "zone": 2,
+                  "year": 2025,
+                  "scope": "major",
+                  "verified": true,
+                  "sourceId": "pvd-2025",
+                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+                }
+              },
+              "digestGroup": "vascular",
+              "digestKind": "Cohort（标题/方法线索）",
+              "digestRank": 34,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
             },
             {
               "pmid": "41172259",
@@ -298,6 +388,199 @@
               "digestRank": 32,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43085449",
+              "title": "Wider social determinants of the presentation and outcomes of patients enrolled in small abdominal aortic aneurysm surveillance.",
+              "abstract": "OBJECTIVE: Elective repair offers better outcomes than urgent repair for patients in small abdominal aortic aneurysm (AAA) surveillance who reach treatment thresholds, or treatment being declined due to surgical risk. Internationally, socioeconomically deprived, ethnic minority, and rural populations receive fewer guideline recommended surgical procedures. In Aotearoa New Zealand (NZ), Māori face barriers to timely surgical access. This multicentre, observational analysis of prospectively collected AAA surveillance data (2002 - 2019) examined disparities in AAA stage at diagnosis and elective repair by socioeconomic deprivation, ethnicity, and distance to vascular services.\n\nMETHODS: Patients with incidentally detected AAAs were grouped by socioeconomic deprivation, ethnicity (Māori/non-Māori), and travel time to vascular services. Outcomes included age and AAA diameter at diagnosis, and elective repair rates. Cumulative incidence functions estimated 36 month probability of elective repair, with cause specific Cox regression adjusted for comorbidities.\n\nRESULTS: 1 684 patients were eligible for analysis. Patients in highly deprived areas were diagnosed younger, but higher deprivation was associated with lower elective repair rates (hazard ratio [HR] 0.85, 95% confidence interval [CI] 0.75 - 0.98; p = .02). Māori were diagnosed younger (68.7 vs. 73.4 years; p < .001) yet had lower elective repair rates for medium (≥ 45 mm) AAAs in univariable analysis (36 month probability 0.27 vs. 0.54; p = .04) and multivariable analysis controlling for covariates (HR 0.51, 95% CI 0.29 - 0.86; p = .01) despite reaching treatment thresholds at least as often. Rural location was not associated with repair rates.\n\nCONCLUSION: Socioeconomic and ethnic inequities in outcomes of small AAA surveillance exist in NZ. Patients in more deprived areas had lower elective repair rates. Māori received fewer elective repairs despite equivalent or greater clinical need, likely reflecting higher comorbidity burden and operative risk. Earlier diagnosis, improved access to specialist care, including national AAA screening, enhanced risk factor management, and strengthened primary care access may reduce inequity. Socioeconomic, ethnic, and geographical factors should inform equitable screening and service delivery.",
+              "englishSummary": "OBJECTIVE: Elective repair offers better outcomes than urgent repair for patients in small abdominal aortic aneurysm (AAA) surveillance who reach treatment thresholds, or treatment being declined due to surgical risk. Internationally, socioeconomically deprived, ethnic minority, and rural populations receive fewer guideline recommended surgical procedures. In Aotearoa New Zealand (NZ), Māori face barriers to timely surgical access.",
+              "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
+              "journalIssns": [
+                "1532-2165",
+                "1078-5884"
+              ],
+              "publicationDate": "2026-11-25",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Kindon AJ",
+                "Lyons OT",
+                "McCombie AM",
+                "Khashram M",
+                "Clarke G",
+                "Roake J",
+                "Frampton C",
+                "Kingham S",
+                "Crengle S",
+                "Hobbs M"
+              ],
+              "affiliations": [
+                "GeoHealth Laboratory, Geospatial Research Institute, University of Canterbury, Christchurch, New Zealand; Department of Radiology, Christchurch Public Hospital, Christchurch, Canterbury District Health Board, New Zealand; Christchurch Vascular Group, Christchurch, Canterbury, New Zealand; Faculty of Health, University of Canterbury, Christchurch, New Zealand. Electronic address: aki85@uclive.ac.nz.",
+                "Department of Surgery, University of Otago, Christchurch, New Zealand; Department of Vascular, Endovascular & Transplant Surgery, Christchurch Public Hospital, Christchurch, Canterbury, New Zealand.",
+                "Department of Surgery, University of Otago, Christchurch, New Zealand.",
+                "Department of Surgery, University of Auckland, Auckland, New Zealand; Department of Vascular Surgery, Waikato Hospital, Hamilton, Waikato, New Zealand.",
+                "Department of Vascular, Endovascular & Transplant Surgery, Christchurch Public Hospital, Christchurch, Canterbury, New Zealand.",
+                "Christchurch Vascular Group, Christchurch, Canterbury, New Zealand; Department of Surgery, University of Otago, Christchurch, New Zealand; Department of Vascular, Endovascular & Transplant Surgery, Christchurch Public Hospital, Christchurch, Canterbury, New Zealand.",
+                "GeoHealth Laboratory, Geospatial Research Institute, University of Canterbury, Christchurch, New Zealand; School of Earth and Environment, Faculty of Science, University of Canterbury, Christchurch, Canterbury, New Zealand.",
+                "Ng&#x101;i Tahu M&#x101;ori Health Research Unit, Division of Health Sciences, University of Otago, Christchurch, Canterbury, New Zealand.",
+                "GeoHealth Laboratory, Geospatial Research Institute, University of Canterbury, Christchurch, New Zealand; Faculty of Health, University of Canterbury, Christchurch, New Zealand."
+              ],
+              "doi": "10.1016/j.ejvs.2026.11.042",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085449/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Aortic Disease",
+                "Endovascular",
+                "Imaging / Diagnosis",
+                "Guideline / Consensus"
+              ],
+              "studyTypeTags": [
+                "Guideline"
+              ],
+              "relevance": "high",
+              "score": 9,
+              "scoreReasons": [
+                "+3 title vascular surgery topic: aortic aneurysm",
+                "+2 clinical evidence design: guideline",
+                "+2 human study: patients",
+                "+2 treatment or prognosis relevance: treatment"
+              ],
+              "isChinaResearch": false,
+              "summaryZh": "这篇文献聚焦腹主动脉瘤。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "ejves",
+                "impactFactor": {
+                  "value": 8.5,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 31,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 31,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": {
+                  "zone": 1,
+                  "year": 2025,
+                  "scope": "major",
+                  "verified": true,
+                  "sourceId": "pvd-2025",
+                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+                }
+              },
+              "digestGroup": "vascular",
+              "digestKind": "研究论文",
+              "digestRank": 32,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43085635",
+              "title": "Efficacy and safety of variable perioperative antiplatelet regimens in patients undergoing carotid endarterectomy.",
+              "abstract": "BACKGROUND: Current SVS recommendations for perioperative antithrombotic therapy in patients undergoing carotid endarterectomy (CEA) are limited. In acutely symptomatic patients, dual antiplatelet therapy (DAPT) is recommended for secondary stroke prevention. In asymptomatic patients, there are no clear recommendations, though single antiplatelet therapy with aspirin (ASA) is commonly used. We examined the efficacy and safety of various perioperative antiplatelet regimens in patients who underwent CEA in the VQI.\n\nMETHODS: We retrospectively reviewed all patients who underwent CEA in VQI from January 2003 to September 2024. We stratified patients based on their pre-operative antiplatelet regimen: No-antiplatelet, ASA-only, Clopidogrel-only, DAPT (ASA/Clopidogrel), and Alternative-DAPT (ASA/Alternative P2Y12 Inhibitors). We created propensity scores for each treatment regimen and assessed in-hospital stroke/death and bleeding complications using inverse probability of treatment weighted log binomial regression, with ASA-only as the reference group and adjusting for intraoperative protamine use and drain placement. We also assessed outcomes stratified by preoperative symptom status.\n\nRESULTS: Of 195,619 CEA patients: 53% received ASA-only, 11% No-antiplatelet, 6% Clopidogrel-only, 30% DAPT, and 1% Alternative-DAPT. The corresponding unadjusted rates of in-hospital stroke/death were 1.3%, 1.7%, 1.2%, 1.2%, and 1.6%. After adjustment, compared with ASA-only, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.81, 95% CI 0.67-0.97) and DAPT (RR 0.79, 95% CI 0.72-0.87). In symptomatic patients (26% of the cohort), there was a trend towards lower in-hospital stroke/death with DAPT (RR 0.88, 95% CI 0.76-1.00). In asymptomatic patients, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.69, 95% CI 0.52-0.90) and DAPT (RR 0.73, 95% CI 0.64-0.83). Bleeding complications were higher with DAPT (RR 1.49, 95% CI 1.35-1.66) and trended toward higher with Clopidogrel-only (RR 1.22, 95% CI 1.00-1.48) but were similar across other regimens.\n\nCONCLUSIONS: Compared with ASA-monotherapy, Clopidogrel-monotherapy and DAPT were associated with lower rates of in-hospital stroke/death after CEA driven by lower rates of stroke, albeit with higher rates of bleeding complications, particularly with DAPT. These findings highlight Clopidogrel-monotherapy as a potential alternative to DAPT for patients undergoing CEA, with similar efficacy and more acceptable bleeding risk. Analyses in patients on alternative P2Y12 inhibitors were limited by sample size; however, analyses with a larger cohort will be valuable in the future. Overall, our findings emphasize a potential role for clopidogrel-monotherapy in stroke prevention among patients undergoing CEA and highlight the importance of individualized risk assessment.",
+              "englishSummary": "BACKGROUND: Current SVS recommendations for perioperative antithrombotic therapy in patients undergoing carotid endarterectomy (CEA) are limited. In acutely symptomatic patients, dual antiplatelet therapy (DAPT) is recommended for secondary stroke prevention. In asymptomatic patients, there are no clear recommendations, though single antiplatelet therapy with aspirin (ASA) is commonly used.",
+              "journal": "Journal of vascular surgery",
+              "journalIssns": [
+                "1097-6809",
+                "0741-5214"
+              ],
+              "publicationDate": "2026-11-25",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Park J",
+                "Guetter CR",
+                "Darling JD",
+                "van Galen IF",
+                "Ciaramella MA",
+                "Li C",
+                "Jim J",
+                "Schermerhorn ML",
+                "Marcaccio CL"
+              ],
+              "affiliations": [
+                "Division of Vascular and Endovascular Surgery, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA.",
+                "Division of Vascular Surgery, Medical University of South Carolina, Charleston, SC.",
+                "Division of Vascular and Endovascular Surgery, Allina Health Minneapolis Heart Institute, Minneapolis, MN.",
+                "Division of Vascular and Endovascular Surgery, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA. Electronic address: cmarcacc@bidmc.harvard.edu."
+              ],
+              "doi": "10.1016/j.jvs.2026.10.068",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085635/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Carotid Disease",
+                "Endovascular",
+                "Open Surgery",
+                "Antithrombotic Therapy"
+              ],
+              "studyTypeTags": [
+                "Cohort"
+              ],
+              "relevance": "high",
+              "score": 6,
+              "scoreReasons": [
+                "+2 clinical evidence design: cohort",
+                "+2 human study: patients",
+                "+2 treatment or prognosis relevance: treatment"
+              ],
+              "isChinaResearch": false,
+              "summaryZh": "这篇文献聚焦颈动脉狭窄及其治疗。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jvs",
+                "impactFactor": {
+                  "value": 3.9,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": {
+                  "zone": 2,
+                  "year": 2025,
+                  "scope": "major",
+                  "verified": true,
+                  "sourceId": "pvd-2025",
+                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+                }
+              },
+              "digestGroup": "vascular",
+              "digestKind": "研究论文",
+              "digestRank": 29,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
             {
               "pmid": "43072712",
@@ -563,10 +846,10 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 418,
-            "directHighRelevance": 67,
-            "metricsPending": 27,
-            "eligible": 17
+            "recentPublications": 453,
+            "directHighRelevance": 84,
+            "metricsPending": 32,
+            "eligible": 21
           },
           "articles": [
             {
@@ -1019,6 +1302,96 @@
               "digestRank": 36,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43085634",
+              "title": "Beyond injury grade: Anatomic location and outcomes after endovascular repair of blunt thoracic aortic injury.",
+              "abstract": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).\n\nMETHODS: We performed a retrospective cohort study of patients undergoing TEVAR for BTAI in the Society for Vascular Surgery Vascular Quality Initiative from 2013 through April 1, 2026. Patients were classified according to the proximal extent of the aortic injury as proximal (zones 0-2), isthmic (zone 3), or distal (zones 4-5). Multinomial propensity scores incorporating pretreatment demographic, comorbidity, physiologic, and injury-severity variables were used to generate stabilized inverse probability of treatment weights. Weighted logistic regression with center-clustered standard errors evaluated perioperative outcomes. Cox regression evaluated all-cause mortality, and Fine-Gray regression evaluated aorta- or branch-related reintervention with death treated as a competing event. Zone 3 served as the reference group.\n\nRESULTS: Among 2,693 patients, 551 (20.5%) had proximal injuries, 1,772 (65.8%) had zone 3 injuries, and 370 (13.7%) had distal injuries. Injury-grade distributions did not differ significantly among groups. After weighting, proximal injury was associated with greater in-hospital mortality compared with zone 3 injury (11.0% vs. 8.5%; odds ratio [OR], 1.33; 95% confidence interval [CI], 1.01-1.76; P=0.046) and greater 30-day aortic reintervention (2.2% vs. 0.8%; OR, 3.00; 95% CI, 1.30-6.92; P=0.010). Stroke and spinal cord ischemia did not differ significantly. Proximal injury was also associated with a greater cumulative incidence of aortic reintervention (subdistribution hazard ratio, 1.94; 95% CI, 1.06-3.53; P=0.031), although its association with all-cause mortality during follow-up did not reach statistical significance (hazard ratio, 1.28; 95% CI, 0.99-1.65; P=0.060). Distal injury was not associated with increased perioperative or long-term adverse outcomes compared with zone 3 injury.\n\nCONCLUSIONS: Among patients undergoing TEVAR for BTAI, proximal injury location was associated with greater in-hospital mortality and aortic reintervention despite similar injury-grade distributions. Anatomic injury zone may complement injury grade when assessing procedural risk and planning postoperative surveillance.",
+              "englishSummary": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).",
+              "journal": "Journal of vascular surgery",
+              "journalIssns": [
+                "1097-6809",
+                "0741-5214"
+              ],
+              "publicationDate": "2026-11-25",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Baghbani A",
+                "DuBose JJ",
+                "Keyhani K",
+                "Keyhani A",
+                "Martin GH",
+                "Estrera AL",
+                "Saqib NU",
+                "Wang SK"
+              ],
+              "affiliations": [
+                "Department of Cardiothoracic and Vascular Surgery, McGovern Medical School at UTHealth Houston, Houston, TX, USA.",
+                "Department of Cardiothoracic and Vascular Surgery, McGovern Medical School at UTHealth Houston, Houston, TX, USA. Electronic address: Shihuan.K.Wang@uth.tmc.edu."
+              ],
+              "doi": "10.1016/j.jvs.2026.11.023",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085634/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Aortic Disease",
+                "Endovascular",
+                "Imaging / Diagnosis"
+              ],
+              "studyTypeTags": [
+                "Cohort"
+              ],
+              "relevance": "high",
+              "score": 9,
+              "scoreReasons": [
+                "+3 title vascular surgery topic: endovascular",
+                "+2 clinical evidence design: cohort",
+                "+2 human study: patients",
+                "+2 treatment or prognosis relevance: treatment"
+              ],
+              "isChinaResearch": false,
+              "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复。主要内容涉及血管腔内修复。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jvs",
+                "impactFactor": {
+                  "value": 3.9,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 129,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": {
+                  "zone": 2,
+                  "year": 2025,
+                  "scope": "major",
+                  "verified": true,
+                  "sourceId": "pvd-2025",
+                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+                }
+              },
+              "digestGroup": "vascular",
+              "digestKind": "Cohort（标题/方法线索）",
+              "digestRank": 34,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
             },
             {
               "pmid": "43057629",
@@ -1611,6 +1984,106 @@
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
             },
             {
+              "pmid": "43085449",
+              "title": "Wider social determinants of the presentation and outcomes of patients enrolled in small abdominal aortic aneurysm surveillance.",
+              "abstract": "OBJECTIVE: Elective repair offers better outcomes than urgent repair for patients in small abdominal aortic aneurysm (AAA) surveillance who reach treatment thresholds, or treatment being declined due to surgical risk. Internationally, socioeconomically deprived, ethnic minority, and rural populations receive fewer guideline recommended surgical procedures. In Aotearoa New Zealand (NZ), Māori face barriers to timely surgical access. This multicentre, observational analysis of prospectively collected AAA surveillance data (2002 - 2019) examined disparities in AAA stage at diagnosis and elective repair by socioeconomic deprivation, ethnicity, and distance to vascular services.\n\nMETHODS: Patients with incidentally detected AAAs were grouped by socioeconomic deprivation, ethnicity (Māori/non-Māori), and travel time to vascular services. Outcomes included age and AAA diameter at diagnosis, and elective repair rates. Cumulative incidence functions estimated 36 month probability of elective repair, with cause specific Cox regression adjusted for comorbidities.\n\nRESULTS: 1 684 patients were eligible for analysis. Patients in highly deprived areas were diagnosed younger, but higher deprivation was associated with lower elective repair rates (hazard ratio [HR] 0.85, 95% confidence interval [CI] 0.75 - 0.98; p = .02). Māori were diagnosed younger (68.7 vs. 73.4 years; p < .001) yet had lower elective repair rates for medium (≥ 45 mm) AAAs in univariable analysis (36 month probability 0.27 vs. 0.54; p = .04) and multivariable analysis controlling for covariates (HR 0.51, 95% CI 0.29 - 0.86; p = .01) despite reaching treatment thresholds at least as often. Rural location was not associated with repair rates.\n\nCONCLUSION: Socioeconomic and ethnic inequities in outcomes of small AAA surveillance exist in NZ. Patients in more deprived areas had lower elective repair rates. Māori received fewer elective repairs despite equivalent or greater clinical need, likely reflecting higher comorbidity burden and operative risk. Earlier diagnosis, improved access to specialist care, including national AAA screening, enhanced risk factor management, and strengthened primary care access may reduce inequity. Socioeconomic, ethnic, and geographical factors should inform equitable screening and service delivery.",
+              "englishSummary": "OBJECTIVE: Elective repair offers better outcomes than urgent repair for patients in small abdominal aortic aneurysm (AAA) surveillance who reach treatment thresholds, or treatment being declined due to surgical risk. Internationally, socioeconomically deprived, ethnic minority, and rural populations receive fewer guideline recommended surgical procedures. In Aotearoa New Zealand (NZ), Māori face barriers to timely surgical access.",
+              "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
+              "journalIssns": [
+                "1532-2165",
+                "1078-5884"
+              ],
+              "publicationDate": "2026-11-25",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Kindon AJ",
+                "Lyons OT",
+                "McCombie AM",
+                "Khashram M",
+                "Clarke G",
+                "Roake J",
+                "Frampton C",
+                "Kingham S",
+                "Crengle S",
+                "Hobbs M"
+              ],
+              "affiliations": [
+                "GeoHealth Laboratory, Geospatial Research Institute, University of Canterbury, Christchurch, New Zealand; Department of Radiology, Christchurch Public Hospital, Christchurch, Canterbury District Health Board, New Zealand; Christchurch Vascular Group, Christchurch, Canterbury, New Zealand; Faculty of Health, University of Canterbury, Christchurch, New Zealand. Electronic address: aki85@uclive.ac.nz.",
+                "Department of Surgery, University of Otago, Christchurch, New Zealand; Department of Vascular, Endovascular & Transplant Surgery, Christchurch Public Hospital, Christchurch, Canterbury, New Zealand.",
+                "Department of Surgery, University of Otago, Christchurch, New Zealand.",
+                "Department of Surgery, University of Auckland, Auckland, New Zealand; Department of Vascular Surgery, Waikato Hospital, Hamilton, Waikato, New Zealand.",
+                "Department of Vascular, Endovascular & Transplant Surgery, Christchurch Public Hospital, Christchurch, Canterbury, New Zealand.",
+                "Christchurch Vascular Group, Christchurch, Canterbury, New Zealand; Department of Surgery, University of Otago, Christchurch, New Zealand; Department of Vascular, Endovascular & Transplant Surgery, Christchurch Public Hospital, Christchurch, Canterbury, New Zealand.",
+                "GeoHealth Laboratory, Geospatial Research Institute, University of Canterbury, Christchurch, New Zealand; School of Earth and Environment, Faculty of Science, University of Canterbury, Christchurch, Canterbury, New Zealand.",
+                "Ng&#x101;i Tahu M&#x101;ori Health Research Unit, Division of Health Sciences, University of Otago, Christchurch, Canterbury, New Zealand.",
+                "GeoHealth Laboratory, Geospatial Research Institute, University of Canterbury, Christchurch, New Zealand; Faculty of Health, University of Canterbury, Christchurch, New Zealand."
+              ],
+              "doi": "10.1016/j.ejvs.2026.11.042",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085449/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Aortic Disease",
+                "Endovascular",
+                "Imaging / Diagnosis",
+                "Guideline / Consensus"
+              ],
+              "studyTypeTags": [
+                "Guideline"
+              ],
+              "relevance": "high",
+              "score": 9,
+              "scoreReasons": [
+                "+3 title vascular surgery topic: aortic aneurysm",
+                "+2 clinical evidence design: guideline",
+                "+2 human study: patients",
+                "+2 treatment or prognosis relevance: treatment"
+              ],
+              "isChinaResearch": false,
+              "summaryZh": "这篇文献聚焦腹主动脉瘤。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "ejves",
+                "impactFactor": {
+                  "value": 8.5,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 31,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 31,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": {
+                  "zone": 1,
+                  "year": 2025,
+                  "scope": "major",
+                  "verified": true,
+                  "sourceId": "pvd-2025",
+                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+                }
+              },
+              "digestGroup": "vascular",
+              "digestKind": "研究论文",
+              "digestRank": 32,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
+            {
               "pmid": "43044871",
               "title": "Zero Iodine Contrast Endovascular Aortic Repair Using Carbon Dioxide Angiography is Associated with Lower Rates of Renal Deterioration: A Multicentre, Prospective, Propensity Matched Study.",
               "abstract": "OBJECTIVE: This prospective, multicentre, non-randomised, observational cohort study evaluated the association between a carbon dioxide (CO2) only angiography strategy during endovascular aortic repair (EVAR) and midterm renal outcomes compared with procedures requiring adjunctive iodinated contrast media (ICM).\n\nMETHODS: Consecutive patients undergoing EVAR with a standardised CO2 only protocol were included. Patients were stratified according to intra-operative contrast use (CO2 only vs. CO2 + ICM). The primary endpoint was renal deterioration, defined as a persistent increase of one or more chronic kidney disease (CKD) stage(s) confirmed on two consecutive follow up assessments. Secondary endpoints included mortality, re-intervention, and aneurysm related outcomes. Propensity score matching (PSM) was performed to adjust for baseline differences. Multivariable regression and time to event analyses were conducted.\n\nRESULTS: Of 291 patients (median age 78 years), 239 (82%) underwent CO2 only EVAR and 52 (18%) required adjunctive ICM. At midterm follow up (up to 24 months; mean follow up 18 months), renal deterioration was less frequent in the CO2 only group than in the CO2 + ICM group (5% vs. 23%; p < .001). Patients treated with CO2 only angiography had a significantly lower serum creatinine and higher estimated glomerular filtration rate at follow up (p < .001 for both). These findings were confirmed after PSM, with renal deterioration occurring in 6% vs. 23% of patients (p = .023). In the matched cohort, CO2 only angiography remained independently associated with lower odds of CKD stage progression (odds ratio 0.14, 95% confidence interval 0.03 - 0.45; p < .001). Thirty day and midterm mortality and endoleak rates were similar between groups, whereas re-interventions were more frequent in the CO2 + ICM group.\n\nCONCLUSION: A zero iodine contrast, CO2 only angiography strategy during EVAR was associated with a lower rate of renal deterioration. Because patients requiring adjunctive ICM were identified intra-operatively rather than randomly allocated, residual confounding by indication cannot be excluded, despite propensity score matching. These findings support the feasibility of a CO2 first strategy and justify confirmation in randomised studies.",
@@ -1710,61 +2183,60 @@
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
             {
-              "pmid": "42951329",
-              "title": "Development of a machine learning model to predict venous thromboembolism risk in women using combined oral contraceptives.",
-              "abstract": "OBJECTIVE: Venous thromboembolism (VTE) is a major cause of morbidity and mortality, with combined oral contraceptives (COCPs) being a modifiable risk factor. Existing clinical tools have limited ability to capture complex predictor interactions. This study aimed to develop and evaluate machine learning (ML) models to predict VTE risk among COCP users.\n\nMETHODS: This study was conducted using data from the Saudi Real-World Evidence Network (2016–2023). The primary outcome was the first VTE event within 2 years of COCP initiation. Following data partitioning, feature selection was performed on the training set. Elastic-net logistic regression, random forest (RF), extreme gradient boosting (XGBoost), one-class support vector machine and Isolation-Forest were trained on original and resampled datasets. Performance was evaluated using the area under the receiver operating characteristic curve (AUROC) and F1 score.\n\nRESULTS: The cohort included 24 518 treatment episodes (n=17 512, VTE events=52). After handling class imbalance, RF and XGBoost were the best-performing models (F1: 84.3% and 81.6%; AUROC: 59.6% and 69.2%, respectively), compared with other models (F1: 2.6%–55.3%, AUROC: 54.2%–68.4%). Key predictors included age, glucocorticoid use and rheumatic, renal and thyroid diseases.\n\nDISCUSSION: ML shows potential for VTE risk detection despite low event rate and class imbalance. However, findings suggest synthetic sample overfitting, and external validation is warranted before clinical deployment. Identified predictors reinforce the role of metabolic and inflammatory factors in VTE susceptibility among COCP users.\n\nCONCLUSION: ML models, particularly XGBoost and RF, demonstrated moderate predictive ability for VTE among COCP users, supporting their use in individualised risk assessments, though external validation is warranted.",
-              "englishSummary": "OBJECTIVE: Venous thromboembolism (VTE) is a major cause of morbidity and mortality, with combined oral contraceptives (COCPs) being a modifiable risk factor. Existing clinical tools have limited ability to capture complex predictor interactions. This study aimed to develop and evaluate machine learning (ML) models to predict VTE risk among COCP users.",
-              "journal": "BMJ health & care informatics",
+              "pmid": "43091716",
+              "title": "Genetic Association Analysis of Known Thoracic Aortic Aneurysm and Dissection Susceptibility Genes in a Han-Taiwanese Population.",
+              "abstract": "Thoracic aortic aneurysm and dissection (TAAD) is a fatal disease and has genetic heritability. Identifying associated loci of heritable thoracic aortic disease is therefore crucial for early screening and preventive surgery. We conducted a two-step single-center-based genome-wide association study to evaluate the genetic association of TAAD in Han-Taiwanese population. 91 patients with TAAD and 910 gender-matched controls were identified. In the first step, WDR36 and PPP4R1, which have not previously been reported to be associated with TAAD in human studies, exceeded the genome-wide significance threshold. In the second step, we focused our analysis on the previously reported TAAD-related genes to assess their associated risks in our population. Three genes with seven different single nucleotide polymorphism (SNP)s were found to be significant, including COL5A2, PRKG1 and SMAD4. Among these seven SNPs, the minor allele frequency of rs994493314, rs1195959339, rs375518580, rs1054669161 and rs1006794099 were lower than 1% in Han-Taiwanese population but extremely rare in the general population, supporting the potential differences in allele frequencies across populations. The result of this study provides additional insights into the genetic associations of TAAD in the Han-Taiwanese population and helps address the existing knowledge gap.",
+              "englishSummary": "Thoracic aortic aneurysm and dissection (TAAD) is a fatal disease and has genetic heritability. Identifying associated loci of heritable thoracic aortic disease is therefore crucial for early screening and preventive surgery. We conducted a two-step single-center-based genome-wide association study to evaluate the genetic association of TAAD in Han-Taiwanese population.",
+              "journal": "International journal of molecular sciences",
               "journalIssns": [
-                "2632-1009"
+                "1422-0067"
               ],
-              "publicationDate": "2026-10-28",
+              "publicationDate": "2026-11-11",
               "publicationDatePrecision": "day",
               "authors": [
-                "Alfakhri A",
-                "Almadani O",
-                "Alsehli H",
-                "Asiri I"
+                "Chu C",
+                "Liu TY",
+                "Yao JH",
+                "Lin YN",
+                "Tsai FJ",
+                "Chang SS"
               ],
               "affiliations": [
-                "Saudi Food and Drug Authority, Riyadh, Saudi Arabia almaha.alf@gmail.com.",
-                "Saudi Food and Drug Authority, Riyadh, Saudi Arabia.",
-                "King Saud bin Abdulaziz University for Health Sciences, Riyadh, Saudi Arabia.",
-                "Department of Obstetrics and Gynecology, King Abdulaziz Medical City, Ministry of the National Guard-Health Affairs, Riyadh, Saudi Arabia.",
-                "King Abdullah International Medical Research Center, Riyadh, Saudi Arabia."
+                "Division of Cardiovascular Medicine, Department of Medicine, China Medical University Hospital, 2, Yu-Der Road, North District, Taichung 40447, Taiwan.",
+                "Million-Person Precision Medicine Initiative, Department of Medical Research, China Medical University Hospital, 2, Yu-Der Road, North District, Taichung 40447, Taiwan.",
+                "School of Medicine, China Medical University, 2, Yu-Der Road, North District, Taichung 40447, Taiwan."
               ],
-              "doi": "10.1136/bmjhci-2025-102020",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42951329/",
+              "doi": "10.3390/ijms272210086",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43091716/",
               "publicationTypes": [
                 "Journal Article"
               ],
               "topicTags": [
-                "Venous Disease"
+                "Aortic Disease",
+                "China Research"
               ],
-              "studyTypeTags": [
-                "Cohort",
-                "Real-world Evidence"
-              ],
+              "studyTypeTags": [],
               "relevance": "high",
-              "score": 6,
+              "score": 9,
               "scoreReasons": [
-                "+2 clinical evidence design: cohort",
-                "+2 human study: clinical",
-                "+2 treatment or prognosis relevance: treatment"
+                "+3 title vascular surgery topic: aortic aneurysm",
+                "+2 human study: human",
+                "+2 treatment or prognosis relevance: surgery",
+                "+2 China affiliation: China"
               ],
-              "isChinaResearch": false,
-              "summaryZh": "这篇文献聚焦静脉血栓栓塞。主要内容涉及复方口服避孕药使用、风险预测模型或评分。",
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复。",
               "source": "PubMed",
               "summaryBasis": "title-and-objective-rules",
               "journalMetrics": {
-                "journalId": "jcr-2632-1009",
+                "journalId": "jcr-1422-0067",
                 "impactFactor": {
-                  "value": 6.2,
+                  "value": 5.6,
                   "year": 2025,
                   "releaseYear": 2026,
                   "sourceId": "jcr-release-2026",
-                  "page": 59,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=59",
+                  "page": 71,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=71",
                   "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
                 },
                 "jcr": {
@@ -1772,20 +2244,20 @@
                   "year": 2025,
                   "releaseYear": 2026,
                   "sourceId": "jcr-release-2026",
-                  "page": 59,
+                  "page": 71,
                   "verified": true,
                   "scope": "source-listed",
                   "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=59",
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=71",
                   "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
                 },
                 "cas": null
               },
               "digestGroup": "vascular",
-              "digestKind": "Real-world Evidence（标题/方法线索）",
+              "digestKind": "研究论文",
               "digestRank": 32,
               "digestIsReview": false,
-              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Real-world Evidence（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
             {
               "pmid": "43047539",
@@ -1861,6 +2333,78 @@
               "digestGroup": "vascular",
               "digestKind": "研究论文",
               "digestRank": 31,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43091127",
+              "title": "Sex-Related Differences in Presentation and Outcomes After Surgery for Acute Type A Aortic Dissection.",
+              "abstract": "Background/Objectives: Sex-specific differences are recognized in cardiovascular medicine but remain poorly defined in acute aortic syndromes. We examined the association of sex with early and late outcomes after surgery for acute type A aortic dissection, considering presentation, dissection morphology and operative management. Methods: We retrospectively analyzed 357 consecutive patients (34.2% female) treated between January 2017 and December 2025. Characteristics, dissection morphology, operative strategies and outcomes were compared by sex. Multivariable logistic regression, inverse probability weighting and Cox regression were used. Results: Women were older (median 66 vs. 60 years, p < 0.001) and more often had pericardial tamponade (40.2% vs. 24.3%, p = 0.002) and catecholamine support (45.1% vs. 31.1%, p = 0.009). Thirty-day mortality was 16.4% in women and 14.0% in men (adjusted odds ratio [aOR] 0.85; 95% confidence interval [CI] 0.43-1.63). Results were similar after inverse probability weighting (odds ratio 0.85; 95% CI 0.44-1.63). Five-year survival was 78.6% vs. 81.0% (hazard ratio 0.87; 95% CI 0.53-1.45). New permanent neurologic deficits occurred in 10.7% vs. 7.2% (aOR 1.55; 95% CI 0.68-3.49). Conclusions: Women presented older and more often hemodynamically unstable. After risk adjustment, early mortality, late survival and new permanent neurologic deficits did not differ significantly between sexes. Early mortality was associated with age, malperfusion and hemodynamic instability, but not with female sex.",
+              "englishSummary": "Background/Objectives: Sex-specific differences are recognized in cardiovascular medicine but remain poorly defined in acute aortic syndromes. We examined the association of sex with early and late outcomes after surgery for acute type A aortic dissection, considering presentation, dissection morphology and operative management. Methods: We retrospectively analyzed 357 consecutive patients (34.2% female) treated between January 2017 and December 2025.",
+              "journal": "Journal of clinical medicine",
+              "journalIssns": [
+                "2077-0383"
+              ],
+              "publicationDate": "2026-11-20",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Gottsberger J",
+                "Huber F",
+                "Szalkiewicz P",
+                "Schachner B",
+                "Zierer AF"
+              ],
+              "affiliations": [
+                "Department for Cardiothoracic and Vascular Surgery, Johannes Kepler University Linz, Kepler University Hospital GmbH, 4020 Linz, Austria."
+              ],
+              "doi": "10.3390/jcm15229096",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43091127/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Aortic Disease"
+              ],
+              "studyTypeTags": [],
+              "relevance": "high",
+              "score": 7,
+              "scoreReasons": [
+                "+3 title vascular surgery topic: aortic dissection",
+                "+2 human study: patients",
+                "+2 treatment or prognosis relevance: surgery"
+              ],
+              "isChinaResearch": false,
+              "summaryZh": "这篇文献聚焦急性A型主动脉夹层。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-2077-0383",
+                "impactFactor": {
+                  "value": 3.3,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 170,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=170",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 170,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=170",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "vascular",
+              "digestKind": "研究论文",
+              "digestRank": 30,
               "digestIsReview": false,
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
@@ -2139,68 +2683,68 @@
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             },
             {
-              "pmid": "43072712",
-              "title": "Predicting Morbidity, Mortality, Revision, and Ambulation in Patients Undergoing Major Lower Limb Amputation for Peripheral Arterial Disease or Diabetes Mellitus: The Case for Regional Level Clinical Prediction Models.",
-              "abstract": "OBJECTIVE: Several outcome prediction tools exist to support decision making for patients undergoing major lower limb amputation (MLLA). However, most predict a single outcome, are derived from registry level data, and lack external validation. The present study aimed to develop clinically focussed, multi-outcome prediction tools using granular regional data with immediate external validation on an international database.\n\nMETHODS: This study involved development, and internal and external validation of multivariable binomial and multinomial regression prediction models. All patients undergoing MLLA for ischaemic or diabetic indications between 1 January 2013 and 1 July 2023 at a single regional vascular hub were used for model development. Clinically focussed logistic multivariable binomial and multinomial regression models were developed predicting 30 day and 1 year mortality and revision, 30 day major morbidity or mortality, and best mobility achieved (binary and 3 category). Model complexity, crossvalidated receiver operating curve (ROC) discrimination and calibration were assessed and optimised, with the best performing models undergoing external validation on PERCEIVE study data. External validity was assessed using discrimination and calibration statistics, with one revision attempt permitted.\n\nRESULTS: The development dataset included 609 patients (75.2% men, median age 69 years). Internal crossvalidated ROC values were 0.774 for 30 day mortality, 0.752 for 1 year mortality, 0.679 for 30 day revision, 0.707 for 1 year revision, 0.699 for 30 day major morbidity or mortality, 0.876 for binary best ambulation, and 0.752 for 3 category best ambulation predictions. All models were well calibrated. On external validation the ROC values were 0.616, 0.722, 0.617, 0.488, 0.697, 0.643, and 0.602, respectively.\n\nCONCLUSION: The prediction models performed well for internal \"regional\" patient outcomes, especially for mortality and ambulation. On external validation, like other models externally validated on the PERCEIVE data, they failed to generalise to the wider population undergoing MLLA, except for 1 year mortality. Predicting patient outcomes from pre-operative variables remains challenging; however, regional level modelling may provide better performance over more general prediction tools.",
-              "englishSummary": "OBJECTIVE: Several outcome prediction tools exist to support decision making for patients undergoing major lower limb amputation (MLLA). However, most predict a single outcome, are derived from registry level data, and lack external validation. The present study aimed to develop clinically focussed, multi-outcome prediction tools using granular regional data with immediate external validation on an international database.",
-              "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
+              "pmid": "43085635",
+              "title": "Efficacy and safety of variable perioperative antiplatelet regimens in patients undergoing carotid endarterectomy.",
+              "abstract": "BACKGROUND: Current SVS recommendations for perioperative antithrombotic therapy in patients undergoing carotid endarterectomy (CEA) are limited. In acutely symptomatic patients, dual antiplatelet therapy (DAPT) is recommended for secondary stroke prevention. In asymptomatic patients, there are no clear recommendations, though single antiplatelet therapy with aspirin (ASA) is commonly used. We examined the efficacy and safety of various perioperative antiplatelet regimens in patients who underwent CEA in the VQI.\n\nMETHODS: We retrospectively reviewed all patients who underwent CEA in VQI from January 2003 to September 2024. We stratified patients based on their pre-operative antiplatelet regimen: No-antiplatelet, ASA-only, Clopidogrel-only, DAPT (ASA/Clopidogrel), and Alternative-DAPT (ASA/Alternative P2Y12 Inhibitors). We created propensity scores for each treatment regimen and assessed in-hospital stroke/death and bleeding complications using inverse probability of treatment weighted log binomial regression, with ASA-only as the reference group and adjusting for intraoperative protamine use and drain placement. We also assessed outcomes stratified by preoperative symptom status.\n\nRESULTS: Of 195,619 CEA patients: 53% received ASA-only, 11% No-antiplatelet, 6% Clopidogrel-only, 30% DAPT, and 1% Alternative-DAPT. The corresponding unadjusted rates of in-hospital stroke/death were 1.3%, 1.7%, 1.2%, 1.2%, and 1.6%. After adjustment, compared with ASA-only, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.81, 95% CI 0.67-0.97) and DAPT (RR 0.79, 95% CI 0.72-0.87). In symptomatic patients (26% of the cohort), there was a trend towards lower in-hospital stroke/death with DAPT (RR 0.88, 95% CI 0.76-1.00). In asymptomatic patients, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.69, 95% CI 0.52-0.90) and DAPT (RR 0.73, 95% CI 0.64-0.83). Bleeding complications were higher with DAPT (RR 1.49, 95% CI 1.35-1.66) and trended toward higher with Clopidogrel-only (RR 1.22, 95% CI 1.00-1.48) but were similar across other regimens.\n\nCONCLUSIONS: Compared with ASA-monotherapy, Clopidogrel-monotherapy and DAPT were associated with lower rates of in-hospital stroke/death after CEA driven by lower rates of stroke, albeit with higher rates of bleeding complications, particularly with DAPT. These findings highlight Clopidogrel-monotherapy as a potential alternative to DAPT for patients undergoing CEA, with similar efficacy and more acceptable bleeding risk. Analyses in patients on alternative P2Y12 inhibitors were limited by sample size; however, analyses with a larger cohort will be valuable in the future. Overall, our findings emphasize a potential role for clopidogrel-monotherapy in stroke prevention among patients undergoing CEA and highlight the importance of individualized risk assessment.",
+              "englishSummary": "BACKGROUND: Current SVS recommendations for perioperative antithrombotic therapy in patients undergoing carotid endarterectomy (CEA) are limited. In acutely symptomatic patients, dual antiplatelet therapy (DAPT) is recommended for secondary stroke prevention. In asymptomatic patients, there are no clear recommendations, though single antiplatelet therapy with aspirin (ASA) is commonly used.",
+              "journal": "Journal of vascular surgery",
               "journalIssns": [
-                "1532-2165",
-                "1078-5884"
+                "1097-6809",
+                "0741-5214"
               ],
-              "publicationDate": "2026-11-23",
+              "publicationDate": "2026-11-25",
               "publicationDatePrecision": "day",
               "authors": [
-                "Leatherby RJ",
-                "Gwilym BL",
-                "Azhar B",
-                "Wafi A",
-                "Pallmann P",
-                "Waldron CA",
-                "Thomas-Jones E",
-                "Holt P",
-                "Bosanquet D",
-                "Roy IN",
-                "VERN",
-                "PERCEIVE collaborators"
+                "Park J",
+                "Guetter CR",
+                "Darling JD",
+                "van Galen IF",
+                "Ciaramella MA",
+                "Li C",
+                "Jim J",
+                "Schermerhorn ML",
+                "Marcaccio CL"
               ],
               "affiliations": [
-                "School of Health & Medical Sciences, City St George's University of London, London, UK; St George's Vascular Institute, St George's University Hospital NHS Foundation Trust, London, UK. Electronic address: robert.leatherby@uhs.nhs.uk.",
-                "Centre for Trials Research, Cardiff University School of Medicine, Cardiff, UK.",
-                "School of Health & Medical Sciences, City St George's University of London, London, UK; St George's Vascular Institute, St George's University Hospital NHS Foundation Trust, London, UK."
+                "Division of Vascular and Endovascular Surgery, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA.",
+                "Division of Vascular Surgery, Medical University of South Carolina, Charleston, SC.",
+                "Division of Vascular and Endovascular Surgery, Allina Health Minneapolis Heart Institute, Minneapolis, MN.",
+                "Division of Vascular and Endovascular Surgery, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA. Electronic address: cmarcacc@bidmc.harvard.edu."
               ],
-              "doi": "10.1016/j.ejvs.2026.11.038",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43072712/",
+              "doi": "10.1016/j.jvs.2026.10.068",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085635/",
               "publicationTypes": [
                 "Journal Article"
               ],
               "topicTags": [
-                "PAD / CLTI",
-                "Endovascular"
+                "Carotid Disease",
+                "Endovascular",
+                "Open Surgery",
+                "Antithrombotic Therapy"
               ],
               "studyTypeTags": [
-                "Registry"
+                "Cohort"
               ],
               "relevance": "high",
               "score": 6,
               "scoreReasons": [
-                "+2 clinical evidence design: registry",
+                "+2 clinical evidence design: cohort",
                 "+2 human study: patients",
-                "+2 treatment or prognosis relevance: outcome"
+                "+2 treatment or prognosis relevance: treatment"
               ],
               "isChinaResearch": false,
-              "summaryZh": "这篇文献聚焦下肢外周动脉疾病与血管疾病及其治疗。主要内容涉及风险预测模型或评分、截肢风险与保肢结局、死亡风险或生存结局。",
+              "summaryZh": "这篇文献聚焦颈动脉狭窄及其治疗。",
               "source": "PubMed",
               "summaryBasis": "title-and-objective-rules",
               "journalMetrics": {
-                "journalId": "ejves",
+                "journalId": "jvs",
                 "impactFactor": {
-                  "value": 8.5,
+                  "value": 3.9,
                   "year": 2025,
                   "releaseYear": 2026,
                   "sourceId": "jcr-release-2026",
-                  "page": 31,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+                  "page": 129,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
                   "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
                 },
                 "jcr": {
@@ -2208,15 +2752,15 @@
                   "year": 2025,
                   "releaseYear": 2026,
                   "sourceId": "jcr-release-2026",
-                  "page": 31,
+                  "page": 129,
                   "verified": true,
                   "scope": "source-listed",
                   "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
                   "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
                 },
                 "cas": {
-                  "zone": 1,
+                  "zone": 2,
                   "year": 2025,
                   "scope": "major",
                   "verified": true,
@@ -2398,6 +2942,83 @@
               "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
             },
             {
+              "pmid": "43091716",
+              "title": "Genetic Association Analysis of Known Thoracic Aortic Aneurysm and Dissection Susceptibility Genes in a Han-Taiwanese Population.",
+              "abstract": "Thoracic aortic aneurysm and dissection (TAAD) is a fatal disease and has genetic heritability. Identifying associated loci of heritable thoracic aortic disease is therefore crucial for early screening and preventive surgery. We conducted a two-step single-center-based genome-wide association study to evaluate the genetic association of TAAD in Han-Taiwanese population. 91 patients with TAAD and 910 gender-matched controls were identified. In the first step, WDR36 and PPP4R1, which have not previously been reported to be associated with TAAD in human studies, exceeded the genome-wide significance threshold. In the second step, we focused our analysis on the previously reported TAAD-related genes to assess their associated risks in our population. Three genes with seven different single nucleotide polymorphism (SNP)s were found to be significant, including COL5A2, PRKG1 and SMAD4. Among these seven SNPs, the minor allele frequency of rs994493314, rs1195959339, rs375518580, rs1054669161 and rs1006794099 were lower than 1% in Han-Taiwanese population but extremely rare in the general population, supporting the potential differences in allele frequencies across populations. The result of this study provides additional insights into the genetic associations of TAAD in the Han-Taiwanese population and helps address the existing knowledge gap.",
+              "englishSummary": "Thoracic aortic aneurysm and dissection (TAAD) is a fatal disease and has genetic heritability. Identifying associated loci of heritable thoracic aortic disease is therefore crucial for early screening and preventive surgery. We conducted a two-step single-center-based genome-wide association study to evaluate the genetic association of TAAD in Han-Taiwanese population.",
+              "journal": "International journal of molecular sciences",
+              "journalIssns": [
+                "1422-0067"
+              ],
+              "publicationDate": "2026-11-11",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Chu C",
+                "Liu TY",
+                "Yao JH",
+                "Lin YN",
+                "Tsai FJ",
+                "Chang SS"
+              ],
+              "affiliations": [
+                "Division of Cardiovascular Medicine, Department of Medicine, China Medical University Hospital, 2, Yu-Der Road, North District, Taichung 40447, Taiwan.",
+                "Million-Person Precision Medicine Initiative, Department of Medical Research, China Medical University Hospital, 2, Yu-Der Road, North District, Taichung 40447, Taiwan.",
+                "School of Medicine, China Medical University, 2, Yu-Der Road, North District, Taichung 40447, Taiwan."
+              ],
+              "doi": "10.3390/ijms272210086",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43091716/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Aortic Disease",
+                "China Research"
+              ],
+              "studyTypeTags": [],
+              "relevance": "high",
+              "score": 9,
+              "scoreReasons": [
+                "+3 title vascular surgery topic: aortic aneurysm",
+                "+2 human study: human",
+                "+2 treatment or prognosis relevance: surgery",
+                "+2 China affiliation: China"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复。",
+              "source": "PubMed",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-1422-0067",
+                "impactFactor": {
+                  "value": 5.6,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 71,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=71",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 71,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=71",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "vascular",
+              "digestKind": "研究论文",
+              "digestRank": 32,
+              "digestIsReview": false,
+              "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
+            {
               "pmid": "43047539",
               "title": "Machine-learning-derived laboratory signatures associated with postoperative day-3 ultrasound-detected lower-extremity deep vein thrombosis after fractures around the knee.",
               "abstract": "OBJECTIVE: This study aimed to construct risk-discrimination models for postoperative-day-3 ultrasound-detected lower-extremity deep vein thrombosis (DVT) status in patients with fractures around the knee (FAK) using five machine-learning algorithms and compare model performance across five machine-learning algorithms.\n\nMETHODS: Electronic medical records of 1,071 patients who underwent surgical treatment for FAK at Suining Central Hospital from January 2023 to August 2026 were retrospectively reviewed. Patients were randomly divided into a training set (n = 749) and a test set (n = 322) at a 7:3 ratio. Feature selection occurred exclusively within the training dataset. Predictive variables were screened using least absolute shrinkage and selection operator (LASSO) regression, the Boruta algorithm, and recursive feature elimination-extreme gradient boosting (RFE-XGBoost). Five predictive models were developed, including logistic regression, k-nearest neighbor (KNN), random forest (RF), light gradient-boosting machine (LightGBM), and extreme gradient boosting (XGBoost). Model performance was evaluated comprehensively via the area under the receiver-operating-characteristic curve (AUC), accuracy, sensitivity, specificity, precision, and F1-score. Receiver-operating-characteristic (ROC) curves, calibration curves, and decision-curve analysis (DCA) were utilized to identify the selected model. Finally, Shapley additive explanations (SHAP) were employed to interpret the global and local prediction outputs of the selected model.\n\nRESULTS: Seventeen overlapping features were identified via feature-selection procedures for final modelling, among which postoperative-day-1 and postoperative-day-3 laboratory biomarkers contributed most substantially to model output. XGBoost was chosen for subsequent SHAP interpretability analyses based on balanced performance observed in cross-validated out-of-fold outputs from the training set. Several non-linear models yielded comparably high discrimination, with overlapping 95% confidence intervals for AUROC.The cross-validated AUC for the XGBoost model in the training set was 0.9932, with a classification threshold of 0.57 derived from the Youden index. In the test set, the AUROC was 0.998 (95% CI: 0.993-1.000), AUPRC was 0.996 (95% CI: 0.988-1.000), accuracy was 0.991 (95% CI: 0.978-1.000), sensitivity was 0.969 (95% CI: 0.930-1.000), specificity was 1.000 (95% CI: 1.000-1.000), precision was 1.000 (95% CI: 1.000-1.000), and F1-score was 0.984 (95% CI: 0.964-1.000). The Brier score for the test set was 0.013. Calibration curves and decision-curve analysis demonstrated favourable probability calibration and higher estimated net benefit across a range of threshold probabilities. SHAP-value analysis highlighted that postoperative-day-1 CRP, postoperative-day-3 FIB, postoperative-day-3 APTT, postoperative-day-3 CRP, postoperative-day-3 FDP, postoperative-day-3 PT, postoperative-day-1 UREA, and postoperative-day-1 CREA were major contributing features.\n\nCONCLUSION: The XGBoost model demonstrated excellent discrimination and favorable calibration in the internal test set for identifying postoperative-day-3 ultrasound-detected DVT among patients with FAK. However, several predictors in the final model were measured on postoperative day 3, temporally proximate to the time-point of DVT ascertainment; these biomarkers may reflect biochemical changes secondary to already-formed thrombus rather than pre-thrombotic prospective risk signals. Therefore, the near-perfect discrimination observed in this retrospective cohort should be interpreted cautiously and should not be regarded as definitive evidence of prospective early-prediction performance. Temporal and multicenter external validation using a prespecified prediction time point, ideally restricted to variables available prior to DVT assessment, is required to determine the model's generalizability and prospective clinical applicability.",
@@ -2482,16 +3103,16 @@
       "id": "hydrogen-brain-iri",
       "title": "氢气治疗与脑缺血再灌注",
       "fileName": "topic-hydrogen-brain-iri.json",
-      "libraryCount": 1323,
+      "libraryCount": 1337,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-26T02:51:51.094Z",
+      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 20,
-            "directHighRelevance": 7,
-            "metricsPending": 7,
+            "recentPublications": 14,
+            "directHighRelevance": 6,
+            "metricsPending": 4,
             "eligible": 0
           },
           "articles": [],
@@ -2500,10 +3121,10 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 124,
-            "directHighRelevance": 65,
-            "metricsPending": 25,
-            "eligible": 16
+            "recentPublications": 130,
+            "directHighRelevance": 68,
+            "metricsPending": 26,
+            "eligible": 15
           },
           "articles": [
             {
@@ -2938,6 +3559,83 @@
                   "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
                   "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
                 }
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43095123",
+              "title": "Puerarin alleviates cerebral ischemia/reperfusion injury-induced oxidative stress via the Neurl1/JAG1/Notch1 signaling pathway.",
+              "abstract": "BACKGROUND: Cerebral ischemia/reperfusion injury (CIRI) remains a major challenge in stroke therapy, with limited effective neuroprotective interventions. Puerarin (Pue), a major bioactive isoflavone from Pueraria lobata, exhibits promising neuroprotective effects, yet its precise molecular targets and mechanisms remain unclear.\n\nPURPOSE: To elucidate the molecular mechanisms of Pue's neuroprotection against CIRI, including its direct protein target and downstream signaling pathways.\n\nMETHODS: Both in vivo and in vitro models were employed, including transient middle cerebral artery occlusion (tMCAO) in rats and oxygen-glucose deprivation/reperfusion (OGD/R) in HT22 cells. Neuroprotective effects were assessed by infarct volume, neurological scores, histopathology, oxidative stress markers (SOD, GSH, MDA), reactive oxygen species (ROS) levels, and mitochondrial membrane potential (MMP). An integrated transcriptomic-computational screening, molecular docking, and molecular dynamics (MD) simulations were used to identify Neuralized E3 ubiquitin protein ligase 1 (Neurl1) as a potential molecular target of Pue. Functional validation of candidate genes was conducted via genetic knockdown and pharmacological modulation (JAG1 peptide, DAPT).\n\nRESULTS: Pue dose-dependently reduced cerebral infarct volume, attenuated neurological deficits and histopathological damage, and alleviated oxidative stress in tMCAO rats. In OGD/R HT22 cells, Pue suppressed cytosolic and mitochondrial ROS accumulation and preserved mitochondrial membrane potential (MMP). Neuralized E3 ubiquitin protein ligase 1 (Neurl1) was identified as a molecular target of Pue. Mechanistically, Pue restored CIRI-induced suppression of Neurl1 protein expression in both tMCAO rats and OGD/R HT22 cells, accompanied by downregulation of Jagged1 (JAG1) and inhibition of Notch1 signaling. Neurl1 knockdown partially counteracted protective effects of Pue against oxidative stress and mitochondrial dysfunction. In vivo, co-administration of a Notch1 activator (JAG1 peptide) partially reversed the neuroprotective effects of Pue, whereas Notch1 inhibition with DAPT showed neuroprotective effects comparable to those of Pue.\n\nCONCLUSION: Pue exerts neuroprotective effects against CIRI by restoring Neurl1 expression, which is associated with modulation of the JAG1/Notch1 signaling pathway and attenuation of oxidative stress. These findings identify the Neurl1/JAG1/Notch1 axis as a potential therapeutic target for CIRI.",
+              "englishSummary": "BACKGROUND: Cerebral ischemia/reperfusion injury (CIRI) remains a major challenge in stroke therapy, with limited effective neuroprotective interventions. Puerarin (Pue), a major bioactive isoflavone from Pueraria lobata, exhibits promising neuroprotective effects, yet its precise molecular targets and mechanisms remain unclear. PURPOSE: To elucidate the molecular mechanisms of Pue's neuroprotection against CIRI, including its direct protein target and downstream signaling pathways.",
+              "journal": "Frontiers in pharmacology",
+              "journalIssns": [
+                "1663-9812"
+              ],
+              "publicationDate": "2026-11-11",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Xu G",
+                "Zhang J",
+                "Kong H",
+                "Li C",
+                "Zhang J"
+              ],
+              "affiliations": [
+                "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China.",
+                "The Fifth Clinical College of Medicine, Zhejiang Chinese Medical University, Hangzhou, China.",
+                "School of Life Sciences, Zhejiang Chinese Medical University, Hangzhou, China."
+              ],
+              "doi": "10.3389/fphar.2026.1888975",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43095123/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。主要内容涉及相关细胞信号机制。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-1663-9812",
+                "impactFactor": {
+                  "value": 5.4,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 75,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=75",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 75,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=75",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
               },
               "digestGroup": "hydrogen-brain-iri",
               "digestKind": "研究论文",
@@ -3738,167 +4436,6 @@
               "digestRank": 28,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "41475890",
-              "title": "RIC-specific cytoprotective profile mediated by microglia in a mouse model of acute ischaemic stroke.",
-              "abstract": "Background: Remote ischaemic conditioning (RIC) is an endogenous neuroprotective strategy involving repeated, transient occlusion of a limb artery to reduce ischaemic injury at a distant site. We investigated the effects of RIC in a mouse model of focal cerebral ischaemia induced by distal transient middle cerebral artery occlusion (tMCAO). Animals were randomised into three groups: Stroke (tMCAO, 60 min), Stroke+remote ischaemic preconditioning (RIPerC) (RIC applied during ischaemia) and Stroke+remote ischaemic postconditioning (RIPostC) (RIC initiated 10 min after reperfusion). The RIC protocol consisted of three cycles of 5-minute hindlimb ischaemia followed by 5-minute reperfusion. Results: At 72 hours postischaemia, both RIPerC and RIPostC significantly reduced the infarct volumes in male and female mice. In males, infarct size decreased from 6.31 ± 0.28% (Stroke) to 3.77 ± 0.47% (RIPerC, p<0.0025) and 4.00 ± 0.40% (RIPostC, p<0.0061). However, the RIPerC+RIPostC group significantly increased the infarct volume compared with the Stroke group (8.41± 0.72%). In females, reductions were greater: from 6.69±0.46% (Stroke) to 2.95 ± 0.34% (RIPerC, p<0.0001) and 2.96 ± 0.32% (RIPostC, p<0.0001). Functional recovery was improved, particularly with RIPostC, correlating with infarct size reduction (Pearson’s r=0.5505 in males, r=0.7313 in females). Apoptosis was reduced by over 50% with both treatments, and microglial phagocytic activity (cluster of differentiation 68+/Iba1+ (ionised calcium binding adaptor molecule 1)) increased significantly. Microglial depletion using PLX3397 (71.3% reduction in Iba1+ cells) worsened ischaemic injury, yet RIC preserved its protective effects, suggesting additional microglia-independent mechanisms. Furthermore, RIC enhanced neurogenesis in the subventricular zone and infarct core (doublecortin marker+ cells doubled versus Stroke), with a marked proliferative response in female hippocampi (Ki67+ cells increased by 127%). Conclusion: These findings reveal sex-specific efficacy of RIC, with mechanistic insights obtained in male animals suggesting a dual mode of action via modulation of microglial function and promotion of endogenous neurorepair pathways.",
-              "englishSummary": "Background: Remote ischaemic conditioning (RIC) is an endogenous neuroprotective strategy involving repeated, transient occlusion of a limb artery to reduce ischaemic injury at a distant site. We investigated the effects of RIC in a mouse model of focal cerebral ischaemia induced by distal transient middle cerebral artery occlusion (tMCAO). Animals were randomised into three groups: Stroke (tMCAO, 60 min), Stroke+remote ischaemic preconditioning (RIPerC) (RIC applied during ischaemia) and Stroke+remote ischaemic postconditioning (RIPostC) (RIC initiated 10 min after reperfusion).",
-              "journal": "Stroke and vascular neurology",
-              "journalIssns": [
-                "2059-8696",
-                "2059-8688"
-              ],
-              "publicationDate": "2026-10-28",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Torres-Querol C",
-                "Arqu&#xe9; G",
-                "Purroy F"
-              ],
-              "affiliations": [
-                "Universitat de Lleida, Lleida, Spain.",
-                "IRBLleida, Lleida, Spain.",
-                "Psychology Department, Universitat de Lleida, Lleida, Spain.",
-                "Universitat de Lleida, Lleida, Spain fpurroygarcia@gmail.com.",
-                "Neurology, Hospital Universitari Arnau de Vilanova de Lleida, Lleida, Spain."
-              ],
-              "doi": "10.1136/svn-2025-004465",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41475890/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": false,
-              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及血管通畅性、狭窄或闭塞。题名包含动物实验线索，临床适用性需另行判断。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "jcr-2059-8696",
-                "impactFactor": {
-                  "value": 4.8,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 91,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=91",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 91,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=91",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": null
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42896130",
-              "title": "Intranasal Delivery of an Antioxidant Nanoassembly for Cerebral Ischemia-Reperfusion Injury via Drd2/β-arrestin2/ERK Signaling.",
-              "abstract": "Cerebral ischemia-reperfusion injury (CIRI) is caused by reduced cerebral blood flow, leading to excessive oxidative stress and neurological deficits. Curcumin (Cur) is a promising therapeutic agent, but its antioxidant activity is limited by low bioavailability and poor brain penetration. Herein, an intranasal delivery strategy using a tetrahedral framework nucleic acid (tFNAs)-Cur nanoassembly (tFNAs-Cur) was employed for CIRI treatment. tFNAs-Cur was synthesized through self-assembly, achieving a high Cur loading efficiency of 87% and exhibiting potent scavenging activity against reactive oxygen species (ROS) including O2·-, ·OH, and H2O2. In vitro studies showed that tFNAs-Cur inhibited oxygen glucose deprivation/reoxygenation-induced ROS elevation of cytoplasm and mitochondria, and enhanced proliferation and migration of SH-SY5Y cells. In vivo studies demonstrated that intranasal administration of tFNAs-Cur reduced cerebral infarct volume, enhanced neuronal survival, and improved neurological and behavioral outcomes in middle cerebral artery occlusion rats. Further mechanistic investigation using RNA sequencing revealed that tFNAs-Cur exerted its effects by activating the Drd2/β-arrestin2/ERK signaling, thereby improving mitochondrial function and upregulating BDNF levels. Furthermore, hemolysis assays, serum biochemical measurements, and histopathological analyses demonstrated that tFNAs-Cur possessed a favorable biosafety profile both ex vivo and in vivo. This study provides an intranasal antioxidant nanoassembly strategy for CIRI and holds potential for clinical translation.",
-              "englishSummary": "Cerebral ischemia-reperfusion injury (CIRI) is caused by reduced cerebral blood flow, leading to excessive oxidative stress and neurological deficits. Curcumin (Cur) is a promising therapeutic agent, but its antioxidant activity is limited by low bioavailability and poor brain penetration. Herein, an intranasal delivery strategy using a tetrahedral framework nucleic acid (tFNAs)-Cur nanoassembly (tFNAs-Cur) was employed for CIRI treatment.",
-              "journal": "ACS applied materials & interfaces",
-              "journalIssns": [
-                "1944-8252",
-                "1944-8244"
-              ],
-              "publicationDate": "2026-10-28",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Li C",
-                "Zhao L",
-                "Zhang Z",
-                "Du Y",
-                "Yu J",
-                "Yue X",
-                "Sun SK",
-                "Liu R",
-                "Wan C"
-              ],
-              "affiliations": [
-                "Department of Physical Rehabilitation and Medicine, Tianjin Medical University General Hospital, Tianjin300052, China.",
-                "The Neuro-regulation and Remodeling Laboratory, Tianjin Medical University General Hospital, Tianjin300052, China.",
-                "School of Rehabilitation Medicine, Division of Medical Technology, Tianjin Medical University, Tianjin300203, China.",
-                "School of Medical Imaging, Division of Medical Technology, Tianjin Key Laboratory of Functional Imaging, Tianjin Medical University, Tianjin300203, China.",
-                "Department of Radiology, Tianjin Medical University General Hospital, Tianjin300052, China."
-              ],
-              "doi": "10.1021/acsami.6c16346",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42896130/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。主要内容涉及纳米材料或靶向递送系统、相关细胞信号机制。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "jcr-1944-8252",
-                "impactFactor": {
-                  "value": 7.8,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 38,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=38",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 38,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=38",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": null
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             }
           ],
           "chinaArticles": [
@@ -4246,6 +4783,83 @@
                   "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
                   "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
                 }
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
+            {
+              "pmid": "43095123",
+              "title": "Puerarin alleviates cerebral ischemia/reperfusion injury-induced oxidative stress via the Neurl1/JAG1/Notch1 signaling pathway.",
+              "abstract": "BACKGROUND: Cerebral ischemia/reperfusion injury (CIRI) remains a major challenge in stroke therapy, with limited effective neuroprotective interventions. Puerarin (Pue), a major bioactive isoflavone from Pueraria lobata, exhibits promising neuroprotective effects, yet its precise molecular targets and mechanisms remain unclear.\n\nPURPOSE: To elucidate the molecular mechanisms of Pue's neuroprotection against CIRI, including its direct protein target and downstream signaling pathways.\n\nMETHODS: Both in vivo and in vitro models were employed, including transient middle cerebral artery occlusion (tMCAO) in rats and oxygen-glucose deprivation/reperfusion (OGD/R) in HT22 cells. Neuroprotective effects were assessed by infarct volume, neurological scores, histopathology, oxidative stress markers (SOD, GSH, MDA), reactive oxygen species (ROS) levels, and mitochondrial membrane potential (MMP). An integrated transcriptomic-computational screening, molecular docking, and molecular dynamics (MD) simulations were used to identify Neuralized E3 ubiquitin protein ligase 1 (Neurl1) as a potential molecular target of Pue. Functional validation of candidate genes was conducted via genetic knockdown and pharmacological modulation (JAG1 peptide, DAPT).\n\nRESULTS: Pue dose-dependently reduced cerebral infarct volume, attenuated neurological deficits and histopathological damage, and alleviated oxidative stress in tMCAO rats. In OGD/R HT22 cells, Pue suppressed cytosolic and mitochondrial ROS accumulation and preserved mitochondrial membrane potential (MMP). Neuralized E3 ubiquitin protein ligase 1 (Neurl1) was identified as a molecular target of Pue. Mechanistically, Pue restored CIRI-induced suppression of Neurl1 protein expression in both tMCAO rats and OGD/R HT22 cells, accompanied by downregulation of Jagged1 (JAG1) and inhibition of Notch1 signaling. Neurl1 knockdown partially counteracted protective effects of Pue against oxidative stress and mitochondrial dysfunction. In vivo, co-administration of a Notch1 activator (JAG1 peptide) partially reversed the neuroprotective effects of Pue, whereas Notch1 inhibition with DAPT showed neuroprotective effects comparable to those of Pue.\n\nCONCLUSION: Pue exerts neuroprotective effects against CIRI by restoring Neurl1 expression, which is associated with modulation of the JAG1/Notch1 signaling pathway and attenuation of oxidative stress. These findings identify the Neurl1/JAG1/Notch1 axis as a potential therapeutic target for CIRI.",
+              "englishSummary": "BACKGROUND: Cerebral ischemia/reperfusion injury (CIRI) remains a major challenge in stroke therapy, with limited effective neuroprotective interventions. Puerarin (Pue), a major bioactive isoflavone from Pueraria lobata, exhibits promising neuroprotective effects, yet its precise molecular targets and mechanisms remain unclear. PURPOSE: To elucidate the molecular mechanisms of Pue's neuroprotection against CIRI, including its direct protein target and downstream signaling pathways.",
+              "journal": "Frontiers in pharmacology",
+              "journalIssns": [
+                "1663-9812"
+              ],
+              "publicationDate": "2026-11-11",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Xu G",
+                "Zhang J",
+                "Kong H",
+                "Li C",
+                "Zhang J"
+              ],
+              "affiliations": [
+                "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China.",
+                "The Fifth Clinical College of Medicine, Zhejiang Chinese Medical University, Hangzhou, China.",
+                "School of Life Sciences, Zhejiang Chinese Medical University, Hangzhou, China."
+              ],
+              "doi": "10.3389/fphar.2026.1888975",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43095123/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。主要内容涉及相关细胞信号机制。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-1663-9812",
+                "impactFactor": {
+                  "value": 5.4,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 75,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=75",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 75,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=75",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
               },
               "digestGroup": "hydrogen-brain-iri",
               "digestKind": "研究论文",
@@ -4778,90 +5392,6 @@
               "digestRank": 28,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42896130",
-              "title": "Intranasal Delivery of an Antioxidant Nanoassembly for Cerebral Ischemia-Reperfusion Injury via Drd2/β-arrestin2/ERK Signaling.",
-              "abstract": "Cerebral ischemia-reperfusion injury (CIRI) is caused by reduced cerebral blood flow, leading to excessive oxidative stress and neurological deficits. Curcumin (Cur) is a promising therapeutic agent, but its antioxidant activity is limited by low bioavailability and poor brain penetration. Herein, an intranasal delivery strategy using a tetrahedral framework nucleic acid (tFNAs)-Cur nanoassembly (tFNAs-Cur) was employed for CIRI treatment. tFNAs-Cur was synthesized through self-assembly, achieving a high Cur loading efficiency of 87% and exhibiting potent scavenging activity against reactive oxygen species (ROS) including O2·-, ·OH, and H2O2. In vitro studies showed that tFNAs-Cur inhibited oxygen glucose deprivation/reoxygenation-induced ROS elevation of cytoplasm and mitochondria, and enhanced proliferation and migration of SH-SY5Y cells. In vivo studies demonstrated that intranasal administration of tFNAs-Cur reduced cerebral infarct volume, enhanced neuronal survival, and improved neurological and behavioral outcomes in middle cerebral artery occlusion rats. Further mechanistic investigation using RNA sequencing revealed that tFNAs-Cur exerted its effects by activating the Drd2/β-arrestin2/ERK signaling, thereby improving mitochondrial function and upregulating BDNF levels. Furthermore, hemolysis assays, serum biochemical measurements, and histopathological analyses demonstrated that tFNAs-Cur possessed a favorable biosafety profile both ex vivo and in vivo. This study provides an intranasal antioxidant nanoassembly strategy for CIRI and holds potential for clinical translation.",
-              "englishSummary": "Cerebral ischemia-reperfusion injury (CIRI) is caused by reduced cerebral blood flow, leading to excessive oxidative stress and neurological deficits. Curcumin (Cur) is a promising therapeutic agent, but its antioxidant activity is limited by low bioavailability and poor brain penetration. Herein, an intranasal delivery strategy using a tetrahedral framework nucleic acid (tFNAs)-Cur nanoassembly (tFNAs-Cur) was employed for CIRI treatment.",
-              "journal": "ACS applied materials & interfaces",
-              "journalIssns": [
-                "1944-8252",
-                "1944-8244"
-              ],
-              "publicationDate": "2026-10-28",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Li C",
-                "Zhao L",
-                "Zhang Z",
-                "Du Y",
-                "Yu J",
-                "Yue X",
-                "Sun SK",
-                "Liu R",
-                "Wan C"
-              ],
-              "affiliations": [
-                "Department of Physical Rehabilitation and Medicine, Tianjin Medical University General Hospital, Tianjin300052, China.",
-                "The Neuro-regulation and Remodeling Laboratory, Tianjin Medical University General Hospital, Tianjin300052, China.",
-                "School of Rehabilitation Medicine, Division of Medical Technology, Tianjin Medical University, Tianjin300203, China.",
-                "School of Medical Imaging, Division of Medical Technology, Tianjin Key Laboratory of Functional Imaging, Tianjin Medical University, Tianjin300203, China.",
-                "Department of Radiology, Tianjin Medical University General Hospital, Tianjin300052, China."
-              ],
-              "doi": "10.1021/acsami.6c16346",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42896130/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。主要内容涉及纳米材料或靶向递送系统、相关细胞信号机制。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "jcr-1944-8252",
-                "impactFactor": {
-                  "value": 7.8,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 38,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=38",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 38,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=38",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": null
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             }
           ]
         }
@@ -4873,12 +5403,12 @@
       "fileName": "topic-vascular-flow-vibration.json",
       "libraryCount": 149,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-26T02:51:51.094Z",
+      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 1,
+            "recentPublications": 0,
             "directHighRelevance": 0,
             "metricsPending": 0,
             "eligible": 0
@@ -4903,9 +5433,9 @@
       "id": "biodegradable-stents",
       "title": "可降解支架",
       "fileName": "topic-biodegradable-stents.json",
-      "libraryCount": 235,
+      "libraryCount": 237,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-26T02:51:51.094Z",
+      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
       "periods": {
         "7": {
           "days": 7,
@@ -4922,194 +5452,12 @@
           "days": 30,
           "stats": {
             "recentPublications": 15,
-            "directHighRelevance": 10,
+            "directHighRelevance": 9,
             "metricsPending": 6,
-            "eligible": 1
+            "eligible": 0
           },
-          "articles": [
-            {
-              "pmid": "42949816",
-              "title": "Electrodeposited Heterostructured Fe-Zn Alloy Microtubes for Vascular Stents: Achieving Enhanced Strength, Ductility, and Uniform Degradation.",
-              "abstract": "To synergistically enhance the strength-ductility trade‑off and achieve uniform degradation in Fe-Zn alloys, heterostructured alloy microtubes were fabricated via layer‑by‑layer electrodeposition on a rotating soluble aluminum mandrel. Microstructural characterization revealed a columnar‑layered architecture with coherent interfacial bonding after annealing, free of delamination or defects. The heterostructured sample containing ten alternating soft layers (FZ10) exhibited an ultimate tensile strength of approximately 605 MPa and an elongation of about 17.3%, both superior to those of the single-layer alloy. The loading-unloading-reloading (LUR) experiments demonstrated pronounced hetero-deformation induced (HDI) strengthening and HDI strain-hardening effects, indicating the critical role of interfacial constraints in deformation coordination. Electrochemical and simulated body fluid (SBF) immersion tests showed that the heterostructure promoted faster and more uniform corrosion, with an average degradation rate of approximately 0.135 mm·y- 1 after 56 days, suppressing localized pitting. XPS and FTIR analyses identified the corrosion products as Fe/Zn oxides and Ca-P compounds, forming a bilayer degradation film with a dense inner layer and a loose outer layer. Additionally, heterostructured Fe-Zn alloy microtubes exhibited favorable cytocompatibility. These heterostructured microtubes integrate high strength, ductility, and controlled and uniform degradability, making them promising candidates for further development as biodegradable vascular stent materials.",
-              "englishSummary": "To synergistically enhance the strength-ductility trade‑off and achieve uniform degradation in Fe-Zn alloys, heterostructured alloy microtubes were fabricated via layer‑by‑layer electrodeposition on a rotating soluble aluminum mandrel. Microstructural characterization revealed a columnar‑layered architecture with coherent interfacial bonding after annealing, free of delamination or defects. The heterostructured sample containing ten alternating soft layers (FZ10) exhibited an ultimate tensile strength of approximately 605 MPa and an elongation of about 17.3%, both superior to those of the single-layer alloy.",
-              "journal": "Advanced healthcare materials",
-              "journalIssns": [
-                "2192-2659",
-                "2192-2640"
-              ],
-              "publicationDate": "2026-10-28",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Yang S",
-                "He Y",
-                "Wang W",
-                "Gao Y",
-                "Yu F",
-                "Guo H",
-                "Hao S",
-                "Liang B"
-              ],
-              "affiliations": [
-                "School of Materials Science and Engineering, Dalian University of Technology, Dalian, P. R. China.",
-                "School of Stomatology, Dalian Medical University, Dalian, P. R. China.",
-                "Academician Laboratory of Immune and Oral Development & Regeneration, Dalian Medical University, Dalian, P. R. China.",
-                "Dalian Third People's Hospital Affiliated to Dalian University of Technology, Dalian, P. R. China."
-              ],
-              "doi": "10.1002/adhm.71841",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42949816/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Bioresorbable Stent / Scaffold",
-                "Biomaterials",
-                "China Research"
-              ],
-              "studyTypeTags": [],
-              "relevance": "high",
-              "score": 7,
-              "scoreReasons": [
-                "+2 专题匹配: Bioresorbable Stent / Scaffold",
-                "+2 专题匹配: Biomaterials",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦血管支架。主要内容涉及铁锌合金微结构设计、材料降解或腐蚀行为、材料强度与延展性能。",
-              "source": "PubMed",
-              "researchDirection": "biodegradable-stents",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "adv-healthc",
-                "impactFactor": {
-                  "value": 11,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 20,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=20",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 20,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=20",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 2,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "bioeng-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "biodegradable-stents",
-              "digestKind": "研究论文",
-              "digestRank": 30,
-              "digestIsReview": false,
-              "selectionReason": "直接涉及可降解支架及其材料、性能或应用证据。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            }
-          ],
-          "chinaArticles": [
-            {
-              "pmid": "42949816",
-              "title": "Electrodeposited Heterostructured Fe-Zn Alloy Microtubes for Vascular Stents: Achieving Enhanced Strength, Ductility, and Uniform Degradation.",
-              "abstract": "To synergistically enhance the strength-ductility trade‑off and achieve uniform degradation in Fe-Zn alloys, heterostructured alloy microtubes were fabricated via layer‑by‑layer electrodeposition on a rotating soluble aluminum mandrel. Microstructural characterization revealed a columnar‑layered architecture with coherent interfacial bonding after annealing, free of delamination or defects. The heterostructured sample containing ten alternating soft layers (FZ10) exhibited an ultimate tensile strength of approximately 605 MPa and an elongation of about 17.3%, both superior to those of the single-layer alloy. The loading-unloading-reloading (LUR) experiments demonstrated pronounced hetero-deformation induced (HDI) strengthening and HDI strain-hardening effects, indicating the critical role of interfacial constraints in deformation coordination. Electrochemical and simulated body fluid (SBF) immersion tests showed that the heterostructure promoted faster and more uniform corrosion, with an average degradation rate of approximately 0.135 mm·y- 1 after 56 days, suppressing localized pitting. XPS and FTIR analyses identified the corrosion products as Fe/Zn oxides and Ca-P compounds, forming a bilayer degradation film with a dense inner layer and a loose outer layer. Additionally, heterostructured Fe-Zn alloy microtubes exhibited favorable cytocompatibility. These heterostructured microtubes integrate high strength, ductility, and controlled and uniform degradability, making them promising candidates for further development as biodegradable vascular stent materials.",
-              "englishSummary": "To synergistically enhance the strength-ductility trade‑off and achieve uniform degradation in Fe-Zn alloys, heterostructured alloy microtubes were fabricated via layer‑by‑layer electrodeposition on a rotating soluble aluminum mandrel. Microstructural characterization revealed a columnar‑layered architecture with coherent interfacial bonding after annealing, free of delamination or defects. The heterostructured sample containing ten alternating soft layers (FZ10) exhibited an ultimate tensile strength of approximately 605 MPa and an elongation of about 17.3%, both superior to those of the single-layer alloy.",
-              "journal": "Advanced healthcare materials",
-              "journalIssns": [
-                "2192-2659",
-                "2192-2640"
-              ],
-              "publicationDate": "2026-10-28",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Yang S",
-                "He Y",
-                "Wang W",
-                "Gao Y",
-                "Yu F",
-                "Guo H",
-                "Hao S",
-                "Liang B"
-              ],
-              "affiliations": [
-                "School of Materials Science and Engineering, Dalian University of Technology, Dalian, P. R. China.",
-                "School of Stomatology, Dalian Medical University, Dalian, P. R. China.",
-                "Academician Laboratory of Immune and Oral Development & Regeneration, Dalian Medical University, Dalian, P. R. China.",
-                "Dalian Third People's Hospital Affiliated to Dalian University of Technology, Dalian, P. R. China."
-              ],
-              "doi": "10.1002/adhm.71841",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42949816/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Bioresorbable Stent / Scaffold",
-                "Biomaterials",
-                "China Research"
-              ],
-              "studyTypeTags": [],
-              "relevance": "high",
-              "score": 7,
-              "scoreReasons": [
-                "+2 专题匹配: Bioresorbable Stent / Scaffold",
-                "+2 专题匹配: Biomaterials",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦血管支架。主要内容涉及铁锌合金微结构设计、材料降解或腐蚀行为、材料强度与延展性能。",
-              "source": "PubMed",
-              "researchDirection": "biodegradable-stents",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "adv-healthc",
-                "impactFactor": {
-                  "value": 11,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 20,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=20",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 20,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=20",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 2,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "bioeng-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "biodegradable-stents",
-              "digestKind": "研究论文",
-              "digestRank": 30,
-              "digestIsReview": false,
-              "selectionReason": "直接涉及可降解支架及其材料、性能或应用证据。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            }
-          ]
+          "articles": [],
+          "chinaArticles": []
         }
       }
     },
@@ -5117,14 +5465,14 @@
       "id": "neurovascular-bioelectric",
       "title": "神经与血管电信号互调",
       "fileName": "topic-neurovascular-bioelectric.json",
-      "libraryCount": 112,
+      "libraryCount": 114,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-26T02:51:51.094Z",
+      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 2,
+            "recentPublications": 1,
             "directHighRelevance": 0,
             "metricsPending": 0,
             "eligible": 0
@@ -5135,8 +5483,8 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 6,
-            "directHighRelevance": 1,
+            "recentPublications": 8,
+            "directHighRelevance": 0,
             "metricsPending": 0,
             "eligible": 0
           },
@@ -5248,6 +5596,96 @@
           "digestRank": 42,
           "digestIsReview": false,
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。RCT；建议重点核对方法与终点。JCR 2025 Q1。"
+        },
+        {
+          "pmid": "43085634",
+          "title": "Beyond injury grade: Anatomic location and outcomes after endovascular repair of blunt thoracic aortic injury.",
+          "abstract": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).\n\nMETHODS: We performed a retrospective cohort study of patients undergoing TEVAR for BTAI in the Society for Vascular Surgery Vascular Quality Initiative from 2013 through April 1, 2026. Patients were classified according to the proximal extent of the aortic injury as proximal (zones 0-2), isthmic (zone 3), or distal (zones 4-5). Multinomial propensity scores incorporating pretreatment demographic, comorbidity, physiologic, and injury-severity variables were used to generate stabilized inverse probability of treatment weights. Weighted logistic regression with center-clustered standard errors evaluated perioperative outcomes. Cox regression evaluated all-cause mortality, and Fine-Gray regression evaluated aorta- or branch-related reintervention with death treated as a competing event. Zone 3 served as the reference group.\n\nRESULTS: Among 2,693 patients, 551 (20.5%) had proximal injuries, 1,772 (65.8%) had zone 3 injuries, and 370 (13.7%) had distal injuries. Injury-grade distributions did not differ significantly among groups. After weighting, proximal injury was associated with greater in-hospital mortality compared with zone 3 injury (11.0% vs. 8.5%; odds ratio [OR], 1.33; 95% confidence interval [CI], 1.01-1.76; P=0.046) and greater 30-day aortic reintervention (2.2% vs. 0.8%; OR, 3.00; 95% CI, 1.30-6.92; P=0.010). Stroke and spinal cord ischemia did not differ significantly. Proximal injury was also associated with a greater cumulative incidence of aortic reintervention (subdistribution hazard ratio, 1.94; 95% CI, 1.06-3.53; P=0.031), although its association with all-cause mortality during follow-up did not reach statistical significance (hazard ratio, 1.28; 95% CI, 0.99-1.65; P=0.060). Distal injury was not associated with increased perioperative or long-term adverse outcomes compared with zone 3 injury.\n\nCONCLUSIONS: Among patients undergoing TEVAR for BTAI, proximal injury location was associated with greater in-hospital mortality and aortic reintervention despite similar injury-grade distributions. Anatomic injury zone may complement injury grade when assessing procedural risk and planning postoperative surveillance.",
+          "englishSummary": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).",
+          "journal": "Journal of vascular surgery",
+          "journalIssns": [
+            "1097-6809",
+            "0741-5214"
+          ],
+          "publicationDate": "2026-11-25",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Baghbani A",
+            "DuBose JJ",
+            "Keyhani K",
+            "Keyhani A",
+            "Martin GH",
+            "Estrera AL",
+            "Saqib NU",
+            "Wang SK"
+          ],
+          "affiliations": [
+            "Department of Cardiothoracic and Vascular Surgery, McGovern Medical School at UTHealth Houston, Houston, TX, USA.",
+            "Department of Cardiothoracic and Vascular Surgery, McGovern Medical School at UTHealth Houston, Houston, TX, USA. Electronic address: Shihuan.K.Wang@uth.tmc.edu."
+          ],
+          "doi": "10.1016/j.jvs.2026.11.023",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085634/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Aortic Disease",
+            "Endovascular",
+            "Imaging / Diagnosis"
+          ],
+          "studyTypeTags": [
+            "Cohort"
+          ],
+          "relevance": "high",
+          "score": 9,
+          "scoreReasons": [
+            "+3 title vascular surgery topic: endovascular",
+            "+2 clinical evidence design: cohort",
+            "+2 human study: patients",
+            "+2 treatment or prognosis relevance: treatment"
+          ],
+          "isChinaResearch": false,
+          "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复。主要内容涉及血管腔内修复。",
+          "source": "PubMed",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jvs",
+            "impactFactor": {
+              "value": 3.9,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": {
+              "zone": 2,
+              "year": 2025,
+              "scope": "major",
+              "verified": true,
+              "sourceId": "pvd-2025",
+              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+            }
+          },
+          "digestGroup": "vascular",
+          "digestKind": "Cohort（标题/方法线索）",
+          "digestRank": 34,
+          "digestIsReview": false,
+          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
         },
         {
           "pmid": "41172259",
@@ -5412,6 +5850,199 @@
           "digestRank": 32,
           "digestIsReview": false,
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+        },
+        {
+          "pmid": "43085449",
+          "title": "Wider social determinants of the presentation and outcomes of patients enrolled in small abdominal aortic aneurysm surveillance.",
+          "abstract": "OBJECTIVE: Elective repair offers better outcomes than urgent repair for patients in small abdominal aortic aneurysm (AAA) surveillance who reach treatment thresholds, or treatment being declined due to surgical risk. Internationally, socioeconomically deprived, ethnic minority, and rural populations receive fewer guideline recommended surgical procedures. In Aotearoa New Zealand (NZ), Māori face barriers to timely surgical access. This multicentre, observational analysis of prospectively collected AAA surveillance data (2002 - 2019) examined disparities in AAA stage at diagnosis and elective repair by socioeconomic deprivation, ethnicity, and distance to vascular services.\n\nMETHODS: Patients with incidentally detected AAAs were grouped by socioeconomic deprivation, ethnicity (Māori/non-Māori), and travel time to vascular services. Outcomes included age and AAA diameter at diagnosis, and elective repair rates. Cumulative incidence functions estimated 36 month probability of elective repair, with cause specific Cox regression adjusted for comorbidities.\n\nRESULTS: 1 684 patients were eligible for analysis. Patients in highly deprived areas were diagnosed younger, but higher deprivation was associated with lower elective repair rates (hazard ratio [HR] 0.85, 95% confidence interval [CI] 0.75 - 0.98; p = .02). Māori were diagnosed younger (68.7 vs. 73.4 years; p < .001) yet had lower elective repair rates for medium (≥ 45 mm) AAAs in univariable analysis (36 month probability 0.27 vs. 0.54; p = .04) and multivariable analysis controlling for covariates (HR 0.51, 95% CI 0.29 - 0.86; p = .01) despite reaching treatment thresholds at least as often. Rural location was not associated with repair rates.\n\nCONCLUSION: Socioeconomic and ethnic inequities in outcomes of small AAA surveillance exist in NZ. Patients in more deprived areas had lower elective repair rates. Māori received fewer elective repairs despite equivalent or greater clinical need, likely reflecting higher comorbidity burden and operative risk. Earlier diagnosis, improved access to specialist care, including national AAA screening, enhanced risk factor management, and strengthened primary care access may reduce inequity. Socioeconomic, ethnic, and geographical factors should inform equitable screening and service delivery.",
+          "englishSummary": "OBJECTIVE: Elective repair offers better outcomes than urgent repair for patients in small abdominal aortic aneurysm (AAA) surveillance who reach treatment thresholds, or treatment being declined due to surgical risk. Internationally, socioeconomically deprived, ethnic minority, and rural populations receive fewer guideline recommended surgical procedures. In Aotearoa New Zealand (NZ), Māori face barriers to timely surgical access.",
+          "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
+          "journalIssns": [
+            "1532-2165",
+            "1078-5884"
+          ],
+          "publicationDate": "2026-11-25",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Kindon AJ",
+            "Lyons OT",
+            "McCombie AM",
+            "Khashram M",
+            "Clarke G",
+            "Roake J",
+            "Frampton C",
+            "Kingham S",
+            "Crengle S",
+            "Hobbs M"
+          ],
+          "affiliations": [
+            "GeoHealth Laboratory, Geospatial Research Institute, University of Canterbury, Christchurch, New Zealand; Department of Radiology, Christchurch Public Hospital, Christchurch, Canterbury District Health Board, New Zealand; Christchurch Vascular Group, Christchurch, Canterbury, New Zealand; Faculty of Health, University of Canterbury, Christchurch, New Zealand. Electronic address: aki85@uclive.ac.nz.",
+            "Department of Surgery, University of Otago, Christchurch, New Zealand; Department of Vascular, Endovascular & Transplant Surgery, Christchurch Public Hospital, Christchurch, Canterbury, New Zealand.",
+            "Department of Surgery, University of Otago, Christchurch, New Zealand.",
+            "Department of Surgery, University of Auckland, Auckland, New Zealand; Department of Vascular Surgery, Waikato Hospital, Hamilton, Waikato, New Zealand.",
+            "Department of Vascular, Endovascular & Transplant Surgery, Christchurch Public Hospital, Christchurch, Canterbury, New Zealand.",
+            "Christchurch Vascular Group, Christchurch, Canterbury, New Zealand; Department of Surgery, University of Otago, Christchurch, New Zealand; Department of Vascular, Endovascular & Transplant Surgery, Christchurch Public Hospital, Christchurch, Canterbury, New Zealand.",
+            "GeoHealth Laboratory, Geospatial Research Institute, University of Canterbury, Christchurch, New Zealand; School of Earth and Environment, Faculty of Science, University of Canterbury, Christchurch, Canterbury, New Zealand.",
+            "Ng&#x101;i Tahu M&#x101;ori Health Research Unit, Division of Health Sciences, University of Otago, Christchurch, Canterbury, New Zealand.",
+            "GeoHealth Laboratory, Geospatial Research Institute, University of Canterbury, Christchurch, New Zealand; Faculty of Health, University of Canterbury, Christchurch, New Zealand."
+          ],
+          "doi": "10.1016/j.ejvs.2026.11.042",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085449/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Aortic Disease",
+            "Endovascular",
+            "Imaging / Diagnosis",
+            "Guideline / Consensus"
+          ],
+          "studyTypeTags": [
+            "Guideline"
+          ],
+          "relevance": "high",
+          "score": 9,
+          "scoreReasons": [
+            "+3 title vascular surgery topic: aortic aneurysm",
+            "+2 clinical evidence design: guideline",
+            "+2 human study: patients",
+            "+2 treatment or prognosis relevance: treatment"
+          ],
+          "isChinaResearch": false,
+          "summaryZh": "这篇文献聚焦腹主动脉瘤。",
+          "source": "PubMed",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "ejves",
+            "impactFactor": {
+              "value": 8.5,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 31,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 31,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": {
+              "zone": 1,
+              "year": 2025,
+              "scope": "major",
+              "verified": true,
+              "sourceId": "pvd-2025",
+              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+            }
+          },
+          "digestGroup": "vascular",
+          "digestKind": "研究论文",
+          "digestRank": 32,
+          "digestIsReview": false,
+          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+        },
+        {
+          "pmid": "43085635",
+          "title": "Efficacy and safety of variable perioperative antiplatelet regimens in patients undergoing carotid endarterectomy.",
+          "abstract": "BACKGROUND: Current SVS recommendations for perioperative antithrombotic therapy in patients undergoing carotid endarterectomy (CEA) are limited. In acutely symptomatic patients, dual antiplatelet therapy (DAPT) is recommended for secondary stroke prevention. In asymptomatic patients, there are no clear recommendations, though single antiplatelet therapy with aspirin (ASA) is commonly used. We examined the efficacy and safety of various perioperative antiplatelet regimens in patients who underwent CEA in the VQI.\n\nMETHODS: We retrospectively reviewed all patients who underwent CEA in VQI from January 2003 to September 2024. We stratified patients based on their pre-operative antiplatelet regimen: No-antiplatelet, ASA-only, Clopidogrel-only, DAPT (ASA/Clopidogrel), and Alternative-DAPT (ASA/Alternative P2Y12 Inhibitors). We created propensity scores for each treatment regimen and assessed in-hospital stroke/death and bleeding complications using inverse probability of treatment weighted log binomial regression, with ASA-only as the reference group and adjusting for intraoperative protamine use and drain placement. We also assessed outcomes stratified by preoperative symptom status.\n\nRESULTS: Of 195,619 CEA patients: 53% received ASA-only, 11% No-antiplatelet, 6% Clopidogrel-only, 30% DAPT, and 1% Alternative-DAPT. The corresponding unadjusted rates of in-hospital stroke/death were 1.3%, 1.7%, 1.2%, 1.2%, and 1.6%. After adjustment, compared with ASA-only, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.81, 95% CI 0.67-0.97) and DAPT (RR 0.79, 95% CI 0.72-0.87). In symptomatic patients (26% of the cohort), there was a trend towards lower in-hospital stroke/death with DAPT (RR 0.88, 95% CI 0.76-1.00). In asymptomatic patients, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.69, 95% CI 0.52-0.90) and DAPT (RR 0.73, 95% CI 0.64-0.83). Bleeding complications were higher with DAPT (RR 1.49, 95% CI 1.35-1.66) and trended toward higher with Clopidogrel-only (RR 1.22, 95% CI 1.00-1.48) but were similar across other regimens.\n\nCONCLUSIONS: Compared with ASA-monotherapy, Clopidogrel-monotherapy and DAPT were associated with lower rates of in-hospital stroke/death after CEA driven by lower rates of stroke, albeit with higher rates of bleeding complications, particularly with DAPT. These findings highlight Clopidogrel-monotherapy as a potential alternative to DAPT for patients undergoing CEA, with similar efficacy and more acceptable bleeding risk. Analyses in patients on alternative P2Y12 inhibitors were limited by sample size; however, analyses with a larger cohort will be valuable in the future. Overall, our findings emphasize a potential role for clopidogrel-monotherapy in stroke prevention among patients undergoing CEA and highlight the importance of individualized risk assessment.",
+          "englishSummary": "BACKGROUND: Current SVS recommendations for perioperative antithrombotic therapy in patients undergoing carotid endarterectomy (CEA) are limited. In acutely symptomatic patients, dual antiplatelet therapy (DAPT) is recommended for secondary stroke prevention. In asymptomatic patients, there are no clear recommendations, though single antiplatelet therapy with aspirin (ASA) is commonly used.",
+          "journal": "Journal of vascular surgery",
+          "journalIssns": [
+            "1097-6809",
+            "0741-5214"
+          ],
+          "publicationDate": "2026-11-25",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Park J",
+            "Guetter CR",
+            "Darling JD",
+            "van Galen IF",
+            "Ciaramella MA",
+            "Li C",
+            "Jim J",
+            "Schermerhorn ML",
+            "Marcaccio CL"
+          ],
+          "affiliations": [
+            "Division of Vascular and Endovascular Surgery, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA.",
+            "Division of Vascular Surgery, Medical University of South Carolina, Charleston, SC.",
+            "Division of Vascular and Endovascular Surgery, Allina Health Minneapolis Heart Institute, Minneapolis, MN.",
+            "Division of Vascular and Endovascular Surgery, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA. Electronic address: cmarcacc@bidmc.harvard.edu."
+          ],
+          "doi": "10.1016/j.jvs.2026.10.068",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085635/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Carotid Disease",
+            "Endovascular",
+            "Open Surgery",
+            "Antithrombotic Therapy"
+          ],
+          "studyTypeTags": [
+            "Cohort"
+          ],
+          "relevance": "high",
+          "score": 6,
+          "scoreReasons": [
+            "+2 clinical evidence design: cohort",
+            "+2 human study: patients",
+            "+2 treatment or prognosis relevance: treatment"
+          ],
+          "isChinaResearch": false,
+          "summaryZh": "这篇文献聚焦颈动脉狭窄及其治疗。",
+          "source": "PubMed",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jvs",
+            "impactFactor": {
+              "value": 3.9,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": {
+              "zone": 2,
+              "year": 2025,
+              "scope": "major",
+              "verified": true,
+              "sourceId": "pvd-2025",
+              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+            }
+          },
+          "digestGroup": "vascular",
+          "digestKind": "研究论文",
+          "digestRank": 29,
+          "digestIsReview": false,
+          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
         },
         {
           "pmid": "43072712",
@@ -5962,6 +6593,96 @@
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
         },
         {
+          "pmid": "43085634",
+          "title": "Beyond injury grade: Anatomic location and outcomes after endovascular repair of blunt thoracic aortic injury.",
+          "abstract": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).\n\nMETHODS: We performed a retrospective cohort study of patients undergoing TEVAR for BTAI in the Society for Vascular Surgery Vascular Quality Initiative from 2013 through April 1, 2026. Patients were classified according to the proximal extent of the aortic injury as proximal (zones 0-2), isthmic (zone 3), or distal (zones 4-5). Multinomial propensity scores incorporating pretreatment demographic, comorbidity, physiologic, and injury-severity variables were used to generate stabilized inverse probability of treatment weights. Weighted logistic regression with center-clustered standard errors evaluated perioperative outcomes. Cox regression evaluated all-cause mortality, and Fine-Gray regression evaluated aorta- or branch-related reintervention with death treated as a competing event. Zone 3 served as the reference group.\n\nRESULTS: Among 2,693 patients, 551 (20.5%) had proximal injuries, 1,772 (65.8%) had zone 3 injuries, and 370 (13.7%) had distal injuries. Injury-grade distributions did not differ significantly among groups. After weighting, proximal injury was associated with greater in-hospital mortality compared with zone 3 injury (11.0% vs. 8.5%; odds ratio [OR], 1.33; 95% confidence interval [CI], 1.01-1.76; P=0.046) and greater 30-day aortic reintervention (2.2% vs. 0.8%; OR, 3.00; 95% CI, 1.30-6.92; P=0.010). Stroke and spinal cord ischemia did not differ significantly. Proximal injury was also associated with a greater cumulative incidence of aortic reintervention (subdistribution hazard ratio, 1.94; 95% CI, 1.06-3.53; P=0.031), although its association with all-cause mortality during follow-up did not reach statistical significance (hazard ratio, 1.28; 95% CI, 0.99-1.65; P=0.060). Distal injury was not associated with increased perioperative or long-term adverse outcomes compared with zone 3 injury.\n\nCONCLUSIONS: Among patients undergoing TEVAR for BTAI, proximal injury location was associated with greater in-hospital mortality and aortic reintervention despite similar injury-grade distributions. Anatomic injury zone may complement injury grade when assessing procedural risk and planning postoperative surveillance.",
+          "englishSummary": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).",
+          "journal": "Journal of vascular surgery",
+          "journalIssns": [
+            "1097-6809",
+            "0741-5214"
+          ],
+          "publicationDate": "2026-11-25",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Baghbani A",
+            "DuBose JJ",
+            "Keyhani K",
+            "Keyhani A",
+            "Martin GH",
+            "Estrera AL",
+            "Saqib NU",
+            "Wang SK"
+          ],
+          "affiliations": [
+            "Department of Cardiothoracic and Vascular Surgery, McGovern Medical School at UTHealth Houston, Houston, TX, USA.",
+            "Department of Cardiothoracic and Vascular Surgery, McGovern Medical School at UTHealth Houston, Houston, TX, USA. Electronic address: Shihuan.K.Wang@uth.tmc.edu."
+          ],
+          "doi": "10.1016/j.jvs.2026.11.023",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43085634/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Aortic Disease",
+            "Endovascular",
+            "Imaging / Diagnosis"
+          ],
+          "studyTypeTags": [
+            "Cohort"
+          ],
+          "relevance": "high",
+          "score": 9,
+          "scoreReasons": [
+            "+3 title vascular surgery topic: endovascular",
+            "+2 clinical evidence design: cohort",
+            "+2 human study: patients",
+            "+2 treatment or prognosis relevance: treatment"
+          ],
+          "isChinaResearch": false,
+          "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复。主要内容涉及血管腔内修复。",
+          "source": "PubMed",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jvs",
+            "impactFactor": {
+              "value": 3.9,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 129,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": {
+              "zone": 2,
+              "year": 2025,
+              "scope": "major",
+              "verified": true,
+              "sourceId": "pvd-2025",
+              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+            }
+          },
+          "digestGroup": "vascular",
+          "digestKind": "Cohort（标题/方法线索）",
+          "digestRank": 34,
+          "digestIsReview": false,
+          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
+        },
+        {
           "pmid": "43057629",
           "title": "One-Year Outcomes of Surgical Versus Endovascular Revascularization for Acute Limb Ischemia in the SAPLING-ALI Registry.",
           "abstract": "OBJECTIVE: Despite the increasing use of endovascular therapy as an alternative to surgery for acute limb ischemia, individualized treatment selection remains challenging. We compared outcomes of endovascular therapy versus surgery and sought to identify patient characteristics favoring either strategy.\n\nMETHODS: This multicenter retrospective study included consecutive patients with acute limb ischemia (Rutherford category 1-2b) who underwent revascularization at 13 Japanese institutions between July 2011 and March 2025; patients with thrombosed popliteal artery aneurysm were excluded. The primary outcome was amputation-free survival, defined as freedom from major amputation or death from any cause. The primary analysis was a Cox model adjusted for 13 baseline covariates with hospital as a categorical covariate; propensity score weighting was used as a sensitivity analysis. Subgroup analyses were performed to identify characteristics favoring either strategy.\n\nRESULTS: Of 978 patients (endovascular therapy, n = 607; surgery, n = 371), those treated with endovascular therapy more often had diabetes, hemodialysis, dementia, and non-ambulatory status. Unadjusted 1-year amputation-free survival was lower with endovascular therapy than with surgery (68.7% vs 76.3%; log-rank P = .001), but the adjusted hazard ratio for death or major amputation was 1.03 (95% confidence interval, 0.77-1.38; P = .84). Results were consistent with overlap weighting (hazard ratio 1.15; 95% confidence interval, 0.93-1.42) and across other sensitivity analyses. Thirty-day mortality was 13.1% after endovascular therapy and 8.9% after surgery (P = .05), and the difference was attenuated after weighting. No subgroup favoring either strategy was identified (all P for interaction ≥ .18).\n\nCONCLUSIONS: Unadjusted amputation-free survival was lower after endovascular therapy than after surgery, but the difference disappeared after adjustment for patient characteristics and hospital, and no subgroup favoring either strategy was identified. Endovascular therapy, being less invasive, may be a reasonable alternative to surgery for acute limb ischemia.",
@@ -6469,179 +7190,6 @@
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
         },
         {
-          "pmid": "40279372",
-          "title": "Global, regional, and national perspectives on aortic aneurysm burden from 1992 to 2021: temporal patterns and age-period-cohort analyses.",
-          "abstract": "AIMS: To assess the global, regional, and country-specific trends in the burden of Aortic aneurysm (AA) from 1992 to 2021, with a focus on mortality rates, disability-adjusted life-years (DALYs), and socio-demographic inequalities.\n\nMETHODS AND RESULTS: The Global Burden of Disease (GBD) 2021 study data were utilized to calculate the age-standardized mortality rates (ASMR) and disability-adjusted life-year rates (ASDR) for AA in 204 countries. Temporal patterns were assessed using Joinpoint regression and age-period-cohort modelling. Cross-country inequalities were evaluated using the slope index of inequality (SII) and concentration index. Globally, the disease burden of AA showed a downward trend. The ASMR for AA decreased from 2.57 per 100 000 (95% uncertainty interval (UI): 2.37, 2.72) in 1992 to 1.86 per 100 000 (95% UI: 1.67, 2.00) in 2021 (EAPC: -1.36%). The age effect indicated that the age-specific mortality rate sharply escalates with age, but opposite trends exist in period and cohort effects. The gender-specific analysis confirmed a consistently higher burden in males, with more pronounced reductions in high socio-demographic index (SDI) regions. Cross-country analyses highlighted widening absolute inequalities (SII: 74.4 to 84.1) but reduced relative inequalities (concentration index: 0.48 to 0.28) over time.\n\nCONCLUSION: There is a downward trend in the global burden of AA from 1992 to 2021, with significant disparities observed across genders, age groups, and SDI regions. These findings emphasize the need for prevention through base healthcare services, risk factor management, and equitable access to interventions to effectively address the disproportionate AA burden.",
-          "englishSummary": "AIMS: To assess the global, regional, and country-specific trends in the burden of Aortic aneurysm (AA) from 1992 to 2021, with a focus on mortality rates, disability-adjusted life-years (DALYs), and socio-demographic inequalities. METHODS AND RESULTS: The Global Burden of Disease (GBD) 2021 study data were utilized to calculate the age-standardized mortality rates (ASMR) and disability-adjusted life-year rates (ASDR) for AA in 204 countries. Temporal patterns were assessed using Joinpoint regression and age-period-cohort modelling.",
-          "journal": "European journal of preventive cardiology",
-          "journalIssns": [
-            "2047-4881",
-            "2047-4873"
-          ],
-          "publicationDate": "2026-11-25",
-          "publicationDatePrecision": "day",
-          "authors": [
-            "Tang J",
-            "Cheng XE",
-            "He YS",
-            "Ge M",
-            "Shi QQ",
-            "Li XX",
-            "Wei HF",
-            "Zhu YY",
-            "Pan HF",
-            "Wang P"
-          ],
-          "affiliations": [
-            "Department of Epidemiology and Biostatistics, School of Public Health, Anhui Medical University, Hefei, Anhui 230032, China.",
-            "Center for Big Data and Population Health of IHM, Anhui Medical University, Hefei, Anhui 230032, China.",
-            "Department of Health Promotion and Behavioral Sciences, School of Public Health, Anhui Medical University, 81 Meishan Road, Hefei, Anhui 230032, China."
-          ],
-          "doi": "10.1093/eurjpc/zwaf266",
-          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40279372/",
-          "publicationTypes": [
-            "Journal Article"
-          ],
-          "topicTags": [
-            "Aortic Disease",
-            "China Research"
-          ],
-          "studyTypeTags": [
-            "Cohort"
-          ],
-          "relevance": "high",
-          "score": 7,
-          "scoreReasons": [
-            "+3 title vascular surgery topic: aortic aneurysm",
-            "+2 clinical evidence design: cohort",
-            "+2 China affiliation: China"
-          ],
-          "isChinaResearch": true,
-          "summaryZh": "这项队列研究聚焦主动脉瘤及主动脉修复。主要内容涉及死亡风险或生存结局。",
-          "source": "PubMed",
-          "summaryBasis": "title-and-objective-rules",
-          "journalMetrics": {
-            "journalId": "jcr-2047-4881",
-            "impactFactor": {
-              "value": 10,
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 23,
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=23",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "jcr": {
-              "quartile": "Q1",
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 23,
-              "verified": true,
-              "scope": "source-listed",
-              "categories": [],
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=23",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "cas": null
-          },
-          "digestGroup": "vascular",
-          "digestKind": "Cohort（标题/方法线索）",
-          "digestRank": 32,
-          "digestIsReview": false,
-          "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
-        },
-        {
-          "pmid": "42949816",
-          "title": "Electrodeposited Heterostructured Fe-Zn Alloy Microtubes for Vascular Stents: Achieving Enhanced Strength, Ductility, and Uniform Degradation.",
-          "abstract": "To synergistically enhance the strength-ductility trade‑off and achieve uniform degradation in Fe-Zn alloys, heterostructured alloy microtubes were fabricated via layer‑by‑layer electrodeposition on a rotating soluble aluminum mandrel. Microstructural characterization revealed a columnar‑layered architecture with coherent interfacial bonding after annealing, free of delamination or defects. The heterostructured sample containing ten alternating soft layers (FZ10) exhibited an ultimate tensile strength of approximately 605 MPa and an elongation of about 17.3%, both superior to those of the single-layer alloy. The loading-unloading-reloading (LUR) experiments demonstrated pronounced hetero-deformation induced (HDI) strengthening and HDI strain-hardening effects, indicating the critical role of interfacial constraints in deformation coordination. Electrochemical and simulated body fluid (SBF) immersion tests showed that the heterostructure promoted faster and more uniform corrosion, with an average degradation rate of approximately 0.135 mm·y- 1 after 56 days, suppressing localized pitting. XPS and FTIR analyses identified the corrosion products as Fe/Zn oxides and Ca-P compounds, forming a bilayer degradation film with a dense inner layer and a loose outer layer. Additionally, heterostructured Fe-Zn alloy microtubes exhibited favorable cytocompatibility. These heterostructured microtubes integrate high strength, ductility, and controlled and uniform degradability, making them promising candidates for further development as biodegradable vascular stent materials.",
-          "englishSummary": "To synergistically enhance the strength-ductility trade‑off and achieve uniform degradation in Fe-Zn alloys, heterostructured alloy microtubes were fabricated via layer‑by‑layer electrodeposition on a rotating soluble aluminum mandrel. Microstructural characterization revealed a columnar‑layered architecture with coherent interfacial bonding after annealing, free of delamination or defects. The heterostructured sample containing ten alternating soft layers (FZ10) exhibited an ultimate tensile strength of approximately 605 MPa and an elongation of about 17.3%, both superior to those of the single-layer alloy.",
-          "journal": "Advanced healthcare materials",
-          "journalIssns": [
-            "2192-2659",
-            "2192-2640"
-          ],
-          "publicationDate": "2026-10-28",
-          "publicationDatePrecision": "day",
-          "authors": [
-            "Yang S",
-            "He Y",
-            "Wang W",
-            "Gao Y",
-            "Yu F",
-            "Guo H",
-            "Hao S",
-            "Liang B"
-          ],
-          "affiliations": [
-            "School of Materials Science and Engineering, Dalian University of Technology, Dalian, P. R. China.",
-            "School of Stomatology, Dalian Medical University, Dalian, P. R. China.",
-            "Academician Laboratory of Immune and Oral Development & Regeneration, Dalian Medical University, Dalian, P. R. China.",
-            "Dalian Third People's Hospital Affiliated to Dalian University of Technology, Dalian, P. R. China."
-          ],
-          "doi": "10.1002/adhm.71841",
-          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42949816/",
-          "publicationTypes": [
-            "Journal Article"
-          ],
-          "topicTags": [
-            "Bioresorbable Stent / Scaffold",
-            "Biomaterials",
-            "China Research"
-          ],
-          "studyTypeTags": [],
-          "relevance": "high",
-          "score": 7,
-          "scoreReasons": [
-            "+2 专题匹配: Bioresorbable Stent / Scaffold",
-            "+2 专题匹配: Biomaterials",
-            "+3 标题命中专题词"
-          ],
-          "isChinaResearch": true,
-          "summaryZh": "这篇文献聚焦血管支架。主要内容涉及铁锌合金微结构设计、材料降解或腐蚀行为、材料强度与延展性能。",
-          "source": "PubMed",
-          "researchDirection": "biodegradable-stents",
-          "summaryBasis": "title-and-objective-rules",
-          "journalMetrics": {
-            "journalId": "adv-healthc",
-            "impactFactor": {
-              "value": 11,
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 20,
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=20",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "jcr": {
-              "quartile": "Q1",
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 20,
-              "verified": true,
-              "scope": "source-listed",
-              "categories": [],
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=20",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "cas": {
-              "zone": 2,
-              "year": 2025,
-              "scope": "major",
-              "verified": true,
-              "sourceId": "bioeng-2025",
-              "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
-              "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
-            }
-          },
-          "digestGroup": "biodegradable-stents",
-          "digestKind": "研究论文",
-          "digestRank": 30,
-          "digestIsReview": false,
-          "selectionReason": "直接涉及可降解支架及其材料、性能或应用证据。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-        },
-        {
           "pmid": "43056037",
           "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
           "abstract": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI. Principal component analysis and enrichment analysis were employed to validate impairment in mitochondrial dynamics in CIRI mice. GRSF1 was then evaluated for its effects on neurological function and histology. The role of GRSF1 on mitochondrial dynamics following CIRI was examined through enrichment analysis, electron microscopy, and respiratory chain complex activity assays. The relationship between GRSF1 and mitofusin 2 (Mfn2) in mitochondrial fusion was further investigated. The regulatory mechanism of mitochondrial E3 ubiquitin protein ligase 1 (Mul1) on Mfn2 was assessed using co-immunoprecipitation and denaturing immunoprecipitation assays. CIRI mice were characterized by disrupted mitochondrial dynamics, and restoring this balance ameliorates pathological progression. GRSF1 improved neurological function in CIRI mice, an effect confirmed to associate with maintenance of neuronal mitochondrial dynamics. Mechanistically, GRSF1 promoted mitochondrial fusion by suppressing the expression or activity of Mul1, thereby reducing Mul1-mediated ubiquitination and degradation of Mfn2. Ultimately, GRSF1 attenuated CIRI by inhibiting neuronal mitochondrial dynamic imbalance via the Mul1/Mfn2 pathway. It uncovers GRSF1 as a novel neuroprotective regulator in CIRI and identifies the Mul1/Mfn2 pathway as a critical mechanistic pathway underlying its protective effects. Targeting GRSF1 may hold therapeutic potential by modulating mitochondrial dynamics in CIRI.",
@@ -7073,6 +7621,83 @@
               "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
               "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
             }
+          },
+          "digestGroup": "hydrogen-brain-iri",
+          "digestKind": "研究论文",
+          "digestRank": 28,
+          "digestIsReview": false,
+          "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+        },
+        {
+          "pmid": "43095123",
+          "title": "Puerarin alleviates cerebral ischemia/reperfusion injury-induced oxidative stress via the Neurl1/JAG1/Notch1 signaling pathway.",
+          "abstract": "BACKGROUND: Cerebral ischemia/reperfusion injury (CIRI) remains a major challenge in stroke therapy, with limited effective neuroprotective interventions. Puerarin (Pue), a major bioactive isoflavone from Pueraria lobata, exhibits promising neuroprotective effects, yet its precise molecular targets and mechanisms remain unclear.\n\nPURPOSE: To elucidate the molecular mechanisms of Pue's neuroprotection against CIRI, including its direct protein target and downstream signaling pathways.\n\nMETHODS: Both in vivo and in vitro models were employed, including transient middle cerebral artery occlusion (tMCAO) in rats and oxygen-glucose deprivation/reperfusion (OGD/R) in HT22 cells. Neuroprotective effects were assessed by infarct volume, neurological scores, histopathology, oxidative stress markers (SOD, GSH, MDA), reactive oxygen species (ROS) levels, and mitochondrial membrane potential (MMP). An integrated transcriptomic-computational screening, molecular docking, and molecular dynamics (MD) simulations were used to identify Neuralized E3 ubiquitin protein ligase 1 (Neurl1) as a potential molecular target of Pue. Functional validation of candidate genes was conducted via genetic knockdown and pharmacological modulation (JAG1 peptide, DAPT).\n\nRESULTS: Pue dose-dependently reduced cerebral infarct volume, attenuated neurological deficits and histopathological damage, and alleviated oxidative stress in tMCAO rats. In OGD/R HT22 cells, Pue suppressed cytosolic and mitochondrial ROS accumulation and preserved mitochondrial membrane potential (MMP). Neuralized E3 ubiquitin protein ligase 1 (Neurl1) was identified as a molecular target of Pue. Mechanistically, Pue restored CIRI-induced suppression of Neurl1 protein expression in both tMCAO rats and OGD/R HT22 cells, accompanied by downregulation of Jagged1 (JAG1) and inhibition of Notch1 signaling. Neurl1 knockdown partially counteracted protective effects of Pue against oxidative stress and mitochondrial dysfunction. In vivo, co-administration of a Notch1 activator (JAG1 peptide) partially reversed the neuroprotective effects of Pue, whereas Notch1 inhibition with DAPT showed neuroprotective effects comparable to those of Pue.\n\nCONCLUSION: Pue exerts neuroprotective effects against CIRI by restoring Neurl1 expression, which is associated with modulation of the JAG1/Notch1 signaling pathway and attenuation of oxidative stress. These findings identify the Neurl1/JAG1/Notch1 axis as a potential therapeutic target for CIRI.",
+          "englishSummary": "BACKGROUND: Cerebral ischemia/reperfusion injury (CIRI) remains a major challenge in stroke therapy, with limited effective neuroprotective interventions. Puerarin (Pue), a major bioactive isoflavone from Pueraria lobata, exhibits promising neuroprotective effects, yet its precise molecular targets and mechanisms remain unclear. PURPOSE: To elucidate the molecular mechanisms of Pue's neuroprotection against CIRI, including its direct protein target and downstream signaling pathways.",
+          "journal": "Frontiers in pharmacology",
+          "journalIssns": [
+            "1663-9812"
+          ],
+          "publicationDate": "2026-11-11",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Xu G",
+            "Zhang J",
+            "Kong H",
+            "Li C",
+            "Zhang J"
+          ],
+          "affiliations": [
+            "School of Basic Medical Sciences, Zhejiang Chinese Medical University, Hangzhou, China.",
+            "The Fifth Clinical College of Medicine, Zhejiang Chinese Medical University, Hangzhou, China.",
+            "School of Life Sciences, Zhejiang Chinese Medical University, Hangzhou, China."
+          ],
+          "doi": "10.3389/fphar.2026.1888975",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43095123/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Brain Ischemia / Reperfusion",
+            "China Research"
+          ],
+          "studyTypeTags": [
+            "Basic Research"
+          ],
+          "relevance": "high",
+          "score": 5,
+          "scoreReasons": [
+            "+2 专题匹配: Brain Ischemia / Reperfusion",
+            "+3 标题命中专题词"
+          ],
+          "isChinaResearch": true,
+          "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。主要内容涉及相关细胞信号机制。",
+          "source": "PubMed",
+          "researchDirection": "hydrogen-brain-iri",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jcr-1663-9812",
+            "impactFactor": {
+              "value": 5.4,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 75,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=75",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 75,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=75",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": null
           },
           "digestGroup": "hydrogen-brain-iri",
           "digestKind": "研究论文",

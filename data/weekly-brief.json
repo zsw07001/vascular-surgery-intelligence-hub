@@ -1,92 +1,92 @@
 {
-  "generatedAt": "2026-11-26T02:52:00.937Z",
+  "generatedAt": "2026-11-27T02:51:59.398Z",
   "period": {
-    "start": "2026-11-20",
-    "end": "2026-11-26"
+    "start": "2026-11-21",
+    "end": "2026-11-27"
   },
-  "dataUpdatedAt": "2026-11-26T02:52:00.937Z",
+  "dataUpdatedAt": "2026-11-27T02:51:59.398Z",
   "sourceUpdates": [
     {
       "name": "PubMed",
       "status": "success",
-      "count": 1680,
-      "updatedAt": "2026-11-26T02:52:00.937Z"
+      "count": 1684,
+      "updatedAt": "2026-11-27T02:51:59.398Z"
     },
     {
       "name": "ClinicalTrials.gov",
       "status": "success",
       "count": 779,
-      "updatedAt": "2026-11-26T02:52:00.937Z"
+      "updatedAt": "2026-11-27T02:51:59.398Z"
     },
     {
       "name": "Guidelines",
       "status": "success",
       "count": 30,
-      "updatedAt": "2026-11-26T02:52:00.937Z"
+      "updatedAt": "2026-11-27T02:51:59.398Z"
     },
     {
       "name": "Devices / Regulatory",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-26T02:52:00.937Z"
+      "updatedAt": "2026-11-27T02:51:59.398Z"
     },
     {
       "name": "Safety",
       "status": "success",
       "count": 40,
-      "updatedAt": "2026-11-26T02:52:00.937Z"
+      "updatedAt": "2026-11-27T02:51:59.398Z"
     },
     {
       "name": "Weekly Brief",
       "status": "success",
-      "count": 26,
-      "updatedAt": "2026-11-26T02:52:00.937Z"
+      "count": 29,
+      "updatedAt": "2026-11-27T02:51:59.398Z"
     }
   ],
   "counts": {
-    "latestResearch": 1680,
-    "highImpact": 641,
-    "chinaResearch": 178,
+    "latestResearch": 1684,
+    "highImpact": 646,
+    "chinaResearch": 182,
     "clinicalTrials": 779,
     "guidelines": 30,
     "devices": 40,
     "safety": 40,
     "manualReview": 10,
-    "totalBriefItems": 26
+    "totalBriefItems": 29
   },
-  "overviewZh": "本周自动汇总 1680 篇 PubMed 文献、779 项进行中/招募中临床试验，并筛出 26 条重点简报条目。",
+  "overviewZh": "本周自动汇总 1684 篇 PubMed 文献、779 项进行中/招募中临床试验，并筛出 29 条重点简报条目。",
   "topicTrends": [
     {
       "tag": "Endovascular",
-      "count": 514
+      "count": 532
     },
     {
       "tag": "Imaging / Diagnosis",
-      "count": 502
+      "count": 517
     },
     {
       "tag": "Venous Disease",
-      "count": 410
+      "count": 387
     },
     {
       "tag": "Aortic Disease",
-      "count": 260
+      "count": 273
     },
     {
       "tag": "PAD / CLTI",
-      "count": 250
+      "count": 256
     },
     {
       "tag": "Vascular Graft / Stent / Device",
-      "count": 223
+      "count": 235
     },
     {
       "tag": "China Research",
-      "count": 178
+      "count": 182
     },
     {
-      "tag": "Antithrombotic Therapy",
-      "count": 129
+      "tag": "Open Surgery",
+      "count": 131
     }
   ],
   "priorityReading": [
@@ -140,6 +140,65 @@
       "summaryZh": "这项随机对照研究聚焦下肢外周动脉疾病。主要内容涉及电活动调控或光遗传学干预。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41662341/",
       "doi": "10.1093/eurjpc/zwag080"
+    },
+    {
+      "pmid": "43085634",
+      "title": "Beyond injury grade: Anatomic location and outcomes after endovascular repair of blunt thoracic aortic injury.",
+      "abstract": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).\n\nMETHODS: We performed a retrospective cohort study of patients undergoing TEVAR for BTAI in the Society for Vascular Surgery Vascular Quality Initiative from 2013 through April 1, 2026. Patients were classified according to the proximal extent of the aortic injury as proximal (zones 0-2), isthmic (zone 3), or distal (zones 4-5). Multinomial propensity scores incorporating pretreatment demographic, comorbidity, physiologic, and injury-severity variables were used to generate stabilized inverse probability of treatment weights. Weighted logistic regression with center-clustered standard errors evaluated perioperative outcomes. Cox regression evaluated all-cause mortality, and Fine-Gray regression evaluated aorta- or branch-related reintervention with death treated as a competing event. Zone 3 served as the reference group.\n\nRESULTS: Among 2,693 patients, 551 (20.5%) had proximal injuries, 1,772 (65.8%) had zone 3 injuries, and 370 (13.7%) had distal injuries. Injury-grade distributions did not differ significantly among groups. After weighting, proximal injury was associated with greater in-hospital mortality compared with zone 3 injury (11.0% vs. 8.5%; odds ratio [OR], 1.33; 95% confidence interval [CI], 1.01-1.76; P=0.046) and greater 30-day aortic reintervention (2.2% vs. 0.8%; OR, 3.00; 95% CI, 1.30-6.92; P=0.010). Stroke and spinal cord ischemia did not differ significantly. Proximal injury was also associated with a greater cumulative incidence of aortic reintervention (subdistribution hazard ratio, 1.94; 95% CI, 1.06-3.53; P=0.031), although its association with all-cause mortality during follow-up did not reach statistical significance (hazard ratio, 1.28; 95% CI, 0.99-1.65; P=0.060). Distal injury was not associated with increased perioperative or long-term adverse outcomes compared with zone 3 injury.\n\nCONCLUSIONS: Among patients undergoing TEVAR for BTAI, proximal injury location was associated with greater in-hospital mortality and aortic reintervention despite similar injury-grade distributions. Anatomic injury zone may complement injury grade when assessing procedural risk and planning postoperative surveillance.",
+      "journalIssns": [
+        "1097-6809",
+        "0741-5214"
+      ],
+      "source": "PubMed",
+      "date": "2026-11-25",
+      "journal": "Journal of vascular surgery",
+      "journalMetrics": {
+        "journalId": "jvs",
+        "impactFactor": {
+          "value": 3.9,
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "jcr": {
+          "quartile": "Q1",
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "verified": true,
+          "scope": "source-listed",
+          "categories": [],
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "cas": {
+          "zone": 2,
+          "year": 2025,
+          "scope": "major",
+          "verified": true,
+          "sourceId": "pvd-2025",
+          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+        }
+      },
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Imaging / Diagnosis"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。",
+      "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复。主要内容涉及血管腔内修复。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085634/",
+      "doi": "10.1016/j.jvs.2026.11.023"
     },
     {
       "pmid": "41172259",
@@ -242,6 +301,126 @@
       "summaryZh": "这项队列研究聚焦主动脉瘤及主动脉修复。主要内容涉及死亡风险或生存结局。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40279372/",
       "doi": "10.1093/eurjpc/zwaf266"
+    },
+    {
+      "pmid": "43085449",
+      "title": "Wider social determinants of the presentation and outcomes of patients enrolled in small abdominal aortic aneurysm surveillance.",
+      "abstract": "OBJECTIVE: Elective repair offers better outcomes than urgent repair for patients in small abdominal aortic aneurysm (AAA) surveillance who reach treatment thresholds, or treatment being declined due to surgical risk. Internationally, socioeconomically deprived, ethnic minority, and rural populations receive fewer guideline recommended surgical procedures. In Aotearoa New Zealand (NZ), Māori face barriers to timely surgical access. This multicentre, observational analysis of prospectively collected AAA surveillance data (2002 - 2019) examined disparities in AAA stage at diagnosis and elective repair by socioeconomic deprivation, ethnicity, and distance to vascular services.\n\nMETHODS: Patients with incidentally detected AAAs were grouped by socioeconomic deprivation, ethnicity (Māori/non-Māori), and travel time to vascular services. Outcomes included age and AAA diameter at diagnosis, and elective repair rates. Cumulative incidence functions estimated 36 month probability of elective repair, with cause specific Cox regression adjusted for comorbidities.\n\nRESULTS: 1 684 patients were eligible for analysis. Patients in highly deprived areas were diagnosed younger, but higher deprivation was associated with lower elective repair rates (hazard ratio [HR] 0.85, 95% confidence interval [CI] 0.75 - 0.98; p = .02). Māori were diagnosed younger (68.7 vs. 73.4 years; p < .001) yet had lower elective repair rates for medium (≥ 45 mm) AAAs in univariable analysis (36 month probability 0.27 vs. 0.54; p = .04) and multivariable analysis controlling for covariates (HR 0.51, 95% CI 0.29 - 0.86; p = .01) despite reaching treatment thresholds at least as often. Rural location was not associated with repair rates.\n\nCONCLUSION: Socioeconomic and ethnic inequities in outcomes of small AAA surveillance exist in NZ. Patients in more deprived areas had lower elective repair rates. Māori received fewer elective repairs despite equivalent or greater clinical need, likely reflecting higher comorbidity burden and operative risk. Earlier diagnosis, improved access to specialist care, including national AAA screening, enhanced risk factor management, and strengthened primary care access may reduce inequity. Socioeconomic, ethnic, and geographical factors should inform equitable screening and service delivery.",
+      "journalIssns": [
+        "1532-2165",
+        "1078-5884"
+      ],
+      "source": "PubMed",
+      "date": "2026-11-25",
+      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
+      "journalMetrics": {
+        "journalId": "ejves",
+        "impactFactor": {
+          "value": 8.5,
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 31,
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "jcr": {
+          "quartile": "Q1",
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 31,
+          "verified": true,
+          "scope": "source-listed",
+          "categories": [],
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "cas": {
+          "zone": 1,
+          "year": 2025,
+          "scope": "major",
+          "verified": true,
+          "sourceId": "pvd-2025",
+          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+        }
+      },
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Guideline"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
+      "summaryZh": "这篇文献聚焦腹主动脉瘤。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085449/",
+      "doi": "10.1016/j.ejvs.2026.11.042"
+    },
+    {
+      "pmid": "43085635",
+      "title": "Efficacy and safety of variable perioperative antiplatelet regimens in patients undergoing carotid endarterectomy.",
+      "abstract": "BACKGROUND: Current SVS recommendations for perioperative antithrombotic therapy in patients undergoing carotid endarterectomy (CEA) are limited. In acutely symptomatic patients, dual antiplatelet therapy (DAPT) is recommended for secondary stroke prevention. In asymptomatic patients, there are no clear recommendations, though single antiplatelet therapy with aspirin (ASA) is commonly used. We examined the efficacy and safety of various perioperative antiplatelet regimens in patients who underwent CEA in the VQI.\n\nMETHODS: We retrospectively reviewed all patients who underwent CEA in VQI from January 2003 to September 2024. We stratified patients based on their pre-operative antiplatelet regimen: No-antiplatelet, ASA-only, Clopidogrel-only, DAPT (ASA/Clopidogrel), and Alternative-DAPT (ASA/Alternative P2Y12 Inhibitors). We created propensity scores for each treatment regimen and assessed in-hospital stroke/death and bleeding complications using inverse probability of treatment weighted log binomial regression, with ASA-only as the reference group and adjusting for intraoperative protamine use and drain placement. We also assessed outcomes stratified by preoperative symptom status.\n\nRESULTS: Of 195,619 CEA patients: 53% received ASA-only, 11% No-antiplatelet, 6% Clopidogrel-only, 30% DAPT, and 1% Alternative-DAPT. The corresponding unadjusted rates of in-hospital stroke/death were 1.3%, 1.7%, 1.2%, 1.2%, and 1.6%. After adjustment, compared with ASA-only, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.81, 95% CI 0.67-0.97) and DAPT (RR 0.79, 95% CI 0.72-0.87). In symptomatic patients (26% of the cohort), there was a trend towards lower in-hospital stroke/death with DAPT (RR 0.88, 95% CI 0.76-1.00). In asymptomatic patients, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.69, 95% CI 0.52-0.90) and DAPT (RR 0.73, 95% CI 0.64-0.83). Bleeding complications were higher with DAPT (RR 1.49, 95% CI 1.35-1.66) and trended toward higher with Clopidogrel-only (RR 1.22, 95% CI 1.00-1.48) but were similar across other regimens.\n\nCONCLUSIONS: Compared with ASA-monotherapy, Clopidogrel-monotherapy and DAPT were associated with lower rates of in-hospital stroke/death after CEA driven by lower rates of stroke, albeit with higher rates of bleeding complications, particularly with DAPT. These findings highlight Clopidogrel-monotherapy as a potential alternative to DAPT for patients undergoing CEA, with similar efficacy and more acceptable bleeding risk. Analyses in patients on alternative P2Y12 inhibitors were limited by sample size; however, analyses with a larger cohort will be valuable in the future. Overall, our findings emphasize a potential role for clopidogrel-monotherapy in stroke prevention among patients undergoing CEA and highlight the importance of individualized risk assessment.",
+      "journalIssns": [
+        "1097-6809",
+        "0741-5214"
+      ],
+      "source": "PubMed",
+      "date": "2026-11-25",
+      "journal": "Journal of vascular surgery",
+      "journalMetrics": {
+        "journalId": "jvs",
+        "impactFactor": {
+          "value": 3.9,
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "jcr": {
+          "quartile": "Q1",
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "verified": true,
+          "scope": "source-listed",
+          "categories": [],
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "cas": {
+          "zone": 2,
+          "year": 2025,
+          "scope": "major",
+          "verified": true,
+          "sourceId": "pvd-2025",
+          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+        }
+      },
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Antithrombotic Therapy"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
+      "summaryZh": "这篇文献聚焦颈动脉狭窄及其治疗。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085635/",
+      "doi": "10.1016/j.jvs.2026.10.068"
     },
     {
       "pmid": "43072712",
@@ -355,6 +534,65 @@
       "doi": "10.1093/eurjpc/zwag080"
     },
     {
+      "pmid": "43085634",
+      "title": "Beyond injury grade: Anatomic location and outcomes after endovascular repair of blunt thoracic aortic injury.",
+      "abstract": "OBJECTIVE: Contemporary risk stratification for blunt thoracic aortic injury (BTAI) has largely emphasized injury grade, whereas the prognostic importance of injury location remains poorly defined. More proximal injuries may require complex arch reconstruction and management of the supra-aortic branches, potentially increasing procedural risk. We evaluated the association between anatomic aortic injury zone and perioperative and long-term outcomes after thoracic endovascular aortic repair (TEVAR).\n\nMETHODS: We performed a retrospective cohort study of patients undergoing TEVAR for BTAI in the Society for Vascular Surgery Vascular Quality Initiative from 2013 through April 1, 2026. Patients were classified according to the proximal extent of the aortic injury as proximal (zones 0-2), isthmic (zone 3), or distal (zones 4-5). Multinomial propensity scores incorporating pretreatment demographic, comorbidity, physiologic, and injury-severity variables were used to generate stabilized inverse probability of treatment weights. Weighted logistic regression with center-clustered standard errors evaluated perioperative outcomes. Cox regression evaluated all-cause mortality, and Fine-Gray regression evaluated aorta- or branch-related reintervention with death treated as a competing event. Zone 3 served as the reference group.\n\nRESULTS: Among 2,693 patients, 551 (20.5%) had proximal injuries, 1,772 (65.8%) had zone 3 injuries, and 370 (13.7%) had distal injuries. Injury-grade distributions did not differ significantly among groups. After weighting, proximal injury was associated with greater in-hospital mortality compared with zone 3 injury (11.0% vs. 8.5%; odds ratio [OR], 1.33; 95% confidence interval [CI], 1.01-1.76; P=0.046) and greater 30-day aortic reintervention (2.2% vs. 0.8%; OR, 3.00; 95% CI, 1.30-6.92; P=0.010). Stroke and spinal cord ischemia did not differ significantly. Proximal injury was also associated with a greater cumulative incidence of aortic reintervention (subdistribution hazard ratio, 1.94; 95% CI, 1.06-3.53; P=0.031), although its association with all-cause mortality during follow-up did not reach statistical significance (hazard ratio, 1.28; 95% CI, 0.99-1.65; P=0.060). Distal injury was not associated with increased perioperative or long-term adverse outcomes compared with zone 3 injury.\n\nCONCLUSIONS: Among patients undergoing TEVAR for BTAI, proximal injury location was associated with greater in-hospital mortality and aortic reintervention despite similar injury-grade distributions. Anatomic injury zone may complement injury grade when assessing procedural risk and planning postoperative surveillance.",
+      "journalIssns": [
+        "1097-6809",
+        "0741-5214"
+      ],
+      "source": "PubMed",
+      "date": "2026-11-25",
+      "journal": "Journal of vascular surgery",
+      "journalMetrics": {
+        "journalId": "jvs",
+        "impactFactor": {
+          "value": 3.9,
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "jcr": {
+          "quartile": "Q1",
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "verified": true,
+          "scope": "source-listed",
+          "categories": [],
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "cas": {
+          "zone": 2,
+          "year": 2025,
+          "scope": "major",
+          "verified": true,
+          "sourceId": "pvd-2025",
+          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+        }
+      },
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Imaging / Diagnosis"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "标题直接涉及血管外科核心疾病或治疗。Cohort（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。",
+      "summaryZh": "这篇文献聚焦主动脉瘤及主动脉修复。主要内容涉及血管腔内修复。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085634/",
+      "doi": "10.1016/j.jvs.2026.11.023"
+    },
+    {
       "pmid": "41172259",
       "title": "Comprehensive risk factor control in Type 2 diabetes and incident peripheral artery disease.",
       "abstract": "AIMS: Patients with Type 2 diabetes (T2D) are at an elevated risk of peripheral artery disease (PAD) compared with the general population. This study aimed to investigate whether joint risk factor control could mitigate the T2D-related excess risk of PAD.\n\nMETHODS AND RESULTS: This study included 14 458 participants with T2D who were initially free of cardiovascular disease and PAD and matched them with 56 961 control individuals from the UK Biobank cohort. Participants with T2D were categorized according to the number of risk factors controlled, including no current smoking, being physically active, healthy diet, and guideline-recommended levels of glycated haemoglobin, body mass index, blood pressure, LDL cholesterol, and urinary albumin. During a median follow-up of 11.9 years, 408 (2.8%) participants with T2D and 671 (1.2%) matched non-T2D individuals developed PAD. Among participants with T2D, a greater number of controlled risk factors were associated with lower PAD incidence (∼23% lower risk per additional factor). Compared with the matched non-T2D individuals, the hazard ratio [95% confidence interval (CI)] for PAD among participants with T2D gradually decreased from 2.49 (1.94, 3.19) for those with ≤2 risk factors controlled to 0.82 (0.51, 1.31) for those with ≥6 risk factors controlled. At 45 years of age, the difference in PAD-free survival time was on average -1.41 (95% CI -1.78, -1.03) years for participants with T2D who had ≤2 risk factors controlled and -0.11 (95% CI -0.38, 0.16) years for those who had ≥6 risk factors controlled compared with the non-T2D individuals.\n\nCONCLUSION: Individuals with T2D who achieved optimal risk factor control had no excess risk of PAD than matched non-T2D counterparts. Efforts to promote comprehensive risk factor management in T2D are imperative for reducing the burden of PAD.",
@@ -455,6 +693,126 @@
       "summaryZh": "这项队列研究聚焦主动脉瘤及主动脉修复。主要内容涉及死亡风险或生存结局。",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40279372/",
       "doi": "10.1093/eurjpc/zwaf266"
+    },
+    {
+      "pmid": "43085449",
+      "title": "Wider social determinants of the presentation and outcomes of patients enrolled in small abdominal aortic aneurysm surveillance.",
+      "abstract": "OBJECTIVE: Elective repair offers better outcomes than urgent repair for patients in small abdominal aortic aneurysm (AAA) surveillance who reach treatment thresholds, or treatment being declined due to surgical risk. Internationally, socioeconomically deprived, ethnic minority, and rural populations receive fewer guideline recommended surgical procedures. In Aotearoa New Zealand (NZ), Māori face barriers to timely surgical access. This multicentre, observational analysis of prospectively collected AAA surveillance data (2002 - 2019) examined disparities in AAA stage at diagnosis and elective repair by socioeconomic deprivation, ethnicity, and distance to vascular services.\n\nMETHODS: Patients with incidentally detected AAAs were grouped by socioeconomic deprivation, ethnicity (Māori/non-Māori), and travel time to vascular services. Outcomes included age and AAA diameter at diagnosis, and elective repair rates. Cumulative incidence functions estimated 36 month probability of elective repair, with cause specific Cox regression adjusted for comorbidities.\n\nRESULTS: 1 684 patients were eligible for analysis. Patients in highly deprived areas were diagnosed younger, but higher deprivation was associated with lower elective repair rates (hazard ratio [HR] 0.85, 95% confidence interval [CI] 0.75 - 0.98; p = .02). Māori were diagnosed younger (68.7 vs. 73.4 years; p < .001) yet had lower elective repair rates for medium (≥ 45 mm) AAAs in univariable analysis (36 month probability 0.27 vs. 0.54; p = .04) and multivariable analysis controlling for covariates (HR 0.51, 95% CI 0.29 - 0.86; p = .01) despite reaching treatment thresholds at least as often. Rural location was not associated with repair rates.\n\nCONCLUSION: Socioeconomic and ethnic inequities in outcomes of small AAA surveillance exist in NZ. Patients in more deprived areas had lower elective repair rates. Māori received fewer elective repairs despite equivalent or greater clinical need, likely reflecting higher comorbidity burden and operative risk. Earlier diagnosis, improved access to specialist care, including national AAA screening, enhanced risk factor management, and strengthened primary care access may reduce inequity. Socioeconomic, ethnic, and geographical factors should inform equitable screening and service delivery.",
+      "journalIssns": [
+        "1532-2165",
+        "1078-5884"
+      ],
+      "source": "PubMed",
+      "date": "2026-11-25",
+      "journal": "European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery",
+      "journalMetrics": {
+        "journalId": "ejves",
+        "impactFactor": {
+          "value": 8.5,
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 31,
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "jcr": {
+          "quartile": "Q1",
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 31,
+          "verified": true,
+          "scope": "source-listed",
+          "categories": [],
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=31",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "cas": {
+          "zone": 1,
+          "year": 2025,
+          "scope": "major",
+          "verified": true,
+          "sourceId": "pvd-2025",
+          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+        }
+      },
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Imaging / Diagnosis",
+        "Guideline / Consensus"
+      ],
+      "studyTypeTags": [
+        "Guideline"
+      ],
+      "relevance": "high",
+      "score": 9,
+      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
+      "summaryZh": "这篇文献聚焦腹主动脉瘤。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085449/",
+      "doi": "10.1016/j.ejvs.2026.11.042"
+    },
+    {
+      "pmid": "43085635",
+      "title": "Efficacy and safety of variable perioperative antiplatelet regimens in patients undergoing carotid endarterectomy.",
+      "abstract": "BACKGROUND: Current SVS recommendations for perioperative antithrombotic therapy in patients undergoing carotid endarterectomy (CEA) are limited. In acutely symptomatic patients, dual antiplatelet therapy (DAPT) is recommended for secondary stroke prevention. In asymptomatic patients, there are no clear recommendations, though single antiplatelet therapy with aspirin (ASA) is commonly used. We examined the efficacy and safety of various perioperative antiplatelet regimens in patients who underwent CEA in the VQI.\n\nMETHODS: We retrospectively reviewed all patients who underwent CEA in VQI from January 2003 to September 2024. We stratified patients based on their pre-operative antiplatelet regimen: No-antiplatelet, ASA-only, Clopidogrel-only, DAPT (ASA/Clopidogrel), and Alternative-DAPT (ASA/Alternative P2Y12 Inhibitors). We created propensity scores for each treatment regimen and assessed in-hospital stroke/death and bleeding complications using inverse probability of treatment weighted log binomial regression, with ASA-only as the reference group and adjusting for intraoperative protamine use and drain placement. We also assessed outcomes stratified by preoperative symptom status.\n\nRESULTS: Of 195,619 CEA patients: 53% received ASA-only, 11% No-antiplatelet, 6% Clopidogrel-only, 30% DAPT, and 1% Alternative-DAPT. The corresponding unadjusted rates of in-hospital stroke/death were 1.3%, 1.7%, 1.2%, 1.2%, and 1.6%. After adjustment, compared with ASA-only, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.81, 95% CI 0.67-0.97) and DAPT (RR 0.79, 95% CI 0.72-0.87). In symptomatic patients (26% of the cohort), there was a trend towards lower in-hospital stroke/death with DAPT (RR 0.88, 95% CI 0.76-1.00). In asymptomatic patients, in-hospital stroke/death was lower with Clopidogrel-only (RR 0.69, 95% CI 0.52-0.90) and DAPT (RR 0.73, 95% CI 0.64-0.83). Bleeding complications were higher with DAPT (RR 1.49, 95% CI 1.35-1.66) and trended toward higher with Clopidogrel-only (RR 1.22, 95% CI 1.00-1.48) but were similar across other regimens.\n\nCONCLUSIONS: Compared with ASA-monotherapy, Clopidogrel-monotherapy and DAPT were associated with lower rates of in-hospital stroke/death after CEA driven by lower rates of stroke, albeit with higher rates of bleeding complications, particularly with DAPT. These findings highlight Clopidogrel-monotherapy as a potential alternative to DAPT for patients undergoing CEA, with similar efficacy and more acceptable bleeding risk. Analyses in patients on alternative P2Y12 inhibitors were limited by sample size; however, analyses with a larger cohort will be valuable in the future. Overall, our findings emphasize a potential role for clopidogrel-monotherapy in stroke prevention among patients undergoing CEA and highlight the importance of individualized risk assessment.",
+      "journalIssns": [
+        "1097-6809",
+        "0741-5214"
+      ],
+      "source": "PubMed",
+      "date": "2026-11-25",
+      "journal": "Journal of vascular surgery",
+      "journalMetrics": {
+        "journalId": "jvs",
+        "impactFactor": {
+          "value": 3.9,
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "jcr": {
+          "quartile": "Q1",
+          "year": 2025,
+          "releaseYear": 2026,
+          "sourceId": "jcr-release-2026",
+          "page": 129,
+          "verified": true,
+          "scope": "source-listed",
+          "categories": [],
+          "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=129",
+          "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+        },
+        "cas": {
+          "zone": 2,
+          "year": 2025,
+          "scope": "major",
+          "verified": true,
+          "sourceId": "pvd-2025",
+          "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
+          "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
+        }
+      },
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Antithrombotic Therapy"
+      ],
+      "studyTypeTags": [
+        "Cohort"
+      ],
+      "relevance": "high",
+      "score": 6,
+      "reason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。",
+      "summaryZh": "这篇文献聚焦颈动脉狭窄及其治疗。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085635/",
+      "doi": "10.1016/j.jvs.2026.10.068"
     },
     {
       "pmid": "43072712",
@@ -1069,6 +1427,19 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/38775052/"
     },
     {
+      "title": "Recent advances and controversial issues in the optimal management of asymptomatic carotid stenosis.",
+      "source": "Guidelines",
+      "date": "2023-11-07",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Imaging / Diagnosis"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Carotid Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37939746/"
+    },
+    {
       "title": "Evaluation of Total Patent Branch Vessel Ostial Area at Preoperative CT Angiography for Predicting Type II Endoleak after Endovascular Aneurysm Repair.",
       "source": "Guidelines",
       "date": "2026-11-01",
@@ -1096,20 +1467,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43055216/"
-    },
-    {
-      "title": "Symptomatic and asymptomatic peripheral artery disease and the risk of abdominal aortic aneurysm: The Atherosclerosis Risk in Communities (ARIC) study.",
-      "source": "Guidelines",
-      "date": "2021-08-14",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Aortic Disease / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34419824/"
     },
     {
       "title": "Five-year results of endovascular treatment with the Gore TAG device compared with open repair of thoracic aortic aneurysms.",
@@ -1140,6 +1497,20 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
     },
     {
+      "title": "[Interpretation of updates to the 2026 edition of the European Society for Vascular Surgery guidelines on descending thoracic and thoraco-abdominal aortic diseases].",
+      "source": "Devices / Regulatory",
+      "date": "2026-11-26",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43086047/"
+    },
+    {
       "title": "Effect of a home-based calf neuromuscular electrical stimulation programme on walking capacity in adults with lower-extremity peripheral artery disease: the ELECTRO-PAD RCT.",
       "source": "Devices / Regulatory",
       "date": "2026-11-25",
@@ -1149,19 +1520,6 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41662341/"
-    },
-    {
-      "title": "Carotid endarterectomy versus transcarotid artery revascularization for asymptomatic carotid stenosis: a systematic review and meta-analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-10-29",
-      "topicTags": [
-        "Carotid Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42951050/"
     },
     {
       "title": "Five-year results of endovascular treatment with the Gore TAG device compared with open repair of thoracic aortic aneurysms.",
@@ -1208,6 +1566,19 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/38775052/"
     },
     {
+      "title": "Recent advances and controversial issues in the optimal management of asymptomatic carotid stenosis.",
+      "source": "Guidelines",
+      "date": "2023-11-07",
+      "topicTags": [
+        "Carotid Disease",
+        "Endovascular",
+        "Open Surgery",
+        "Imaging / Diagnosis"
+      ],
+      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Carotid Disease / Endovascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37939746/"
+    },
+    {
       "title": "Evaluation of Total Patent Branch Vessel Ostial Area at Preoperative CT Angiography for Predicting Type II Endoleak after Endovascular Aneurysm Repair.",
       "source": "Guidelines",
       "date": "2026-11-01",
@@ -1235,20 +1606,6 @@
       ],
       "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43055216/"
-    },
-    {
-      "title": "Symptomatic and asymptomatic peripheral artery disease and the risk of abdominal aortic aneurysm: The Atherosclerosis Risk in Communities (ARIC) study.",
-      "source": "Guidelines",
-      "date": "2021-08-14",
-      "topicTags": [
-        "PAD / CLTI",
-        "Aortic Disease",
-        "Endovascular",
-        "Imaging / Diagnosis",
-        "Guideline / Consensus"
-      ],
-      "reason": "指南/共识信号，建议人工确认是否为正式指南或专家共识。；high relevance；PAD / CLTI / Aortic Disease / Endovascular",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/34419824/"
     },
     {
       "title": "Five-year results of endovascular treatment with the Gore TAG device compared with open repair of thoracic aortic aneurysms.",
@@ -1279,6 +1636,20 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43057630/"
     },
     {
+      "title": "[Interpretation of updates to the 2026 edition of the European Society for Vascular Surgery guidelines on descending thoracic and thoraco-abdominal aortic diseases].",
+      "source": "Devices / Regulatory",
+      "date": "2026-11-26",
+      "topicTags": [
+        "Aortic Disease",
+        "Endovascular",
+        "Vascular Graft / Stent / Device",
+        "Imaging / Diagnosis",
+        "China Research"
+      ],
+      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Aortic Disease / Endovascular / Vascular Graft / Stent / Device",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43086047/"
+    },
+    {
       "title": "Effect of a home-based calf neuromuscular electrical stimulation programme on walking capacity in adults with lower-extremity peripheral artery disease: the ELECTRO-PAD RCT.",
       "source": "Devices / Regulatory",
       "date": "2026-11-25",
@@ -1288,19 +1659,6 @@
       ],
       "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；PAD / CLTI / Vascular Graft / Stent / Device",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41662341/"
-    },
-    {
-      "title": "Carotid endarterectomy versus transcarotid artery revascularization for asymptomatic carotid stenosis: a systematic review and meta-analysis.",
-      "source": "Devices / Regulatory",
-      "date": "2026-10-29",
-      "topicTags": [
-        "Carotid Disease",
-        "Endovascular",
-        "Open Surgery",
-        "Vascular Graft / Stent / Device"
-      ],
-      "reason": "器械/支架/腔内治疗信号，建议人工核对器械名称、适应证和监管来源。；high relevance；Carotid Disease / Endovascular / Vascular Graft / Stent / Device",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42951050/"
     },
     {
       "title": "Five-year results of endovascular treatment with the Gore TAG device compared with open repair of thoracic aortic aneurysms.",
