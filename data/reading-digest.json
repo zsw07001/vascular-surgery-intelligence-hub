@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T02:51:48.869Z",
+  "generatedAt": "2026-11-28T02:41:28.658Z",
   "defaultWindow": 30,
   "rankingSystem": "JCR",
   "jcrYear": 2025,
@@ -22,16 +22,16 @@
       "id": "vascular",
       "title": "血管外科",
       "fileName": "latest-research.json",
-      "libraryCount": 1684,
+      "libraryCount": 1693,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
+      "lastSuccessfulUpdate": "2026-11-28T02:41:28.658Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 123,
-            "directHighRelevance": 28,
-            "metricsPending": 13,
+            "recentPublications": 142,
+            "directHighRelevance": 36,
+            "metricsPending": 16,
             "eligible": 7
           },
           "articles": [
@@ -846,9 +846,9 @@
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 453,
-            "directHighRelevance": 84,
-            "metricsPending": 32,
+            "recentPublications": 442,
+            "directHighRelevance": 80,
+            "metricsPending": 31,
             "eligible": 21
           },
           "articles": [
@@ -3103,30 +3103,356 @@
       "id": "hydrogen-brain-iri",
       "title": "氢气治疗与脑缺血再灌注",
       "fileName": "topic-hydrogen-brain-iri.json",
-      "libraryCount": 1337,
+      "libraryCount": 1343,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
+      "lastSuccessfulUpdate": "2026-11-28T02:41:28.658Z",
       "periods": {
         "7": {
           "days": 7,
           "stats": {
-            "recentPublications": 14,
-            "directHighRelevance": 6,
-            "metricsPending": 4,
-            "eligible": 0
+            "recentPublications": 18,
+            "directHighRelevance": 10,
+            "metricsPending": 6,
+            "eligible": 1
           },
-          "articles": [],
-          "chinaArticles": []
+          "articles": [
+            {
+              "pmid": "43097958",
+              "title": "Transcriptional activation of PFKL by NUCKS1 promotes neuronal glycolysis and injury after cerebral ischemia-reperfusion.",
+              "abstract": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function. Mechanistically, NUCKS1 transcriptionally activated the glycolytic enzyme phosphofructokinase liver-type (PFKL), enhancing neuronal glycolytic flux and leading to lactate accumulation and excessive reactive oxygen species production. This metabolic shift activated the B-cell lymphoma 2/BAX/caspase-3 apoptotic pathway. Targeted modulation of the NUCKS1-PFKL axis using an engineered adeno-associated viral vector (AAV-PHP.eB-hSyn) significantly mitigated cerebral I/R injury, and this axis was recapitulated in human induced pluripotent stem cell-derived cortical neurons. These findings establish the NUCKS1-PFKL axis as a key regulator of neuronal glycolysis and highlight it as a potential preventive intervention target for ischemic stroke.",
+              "englishSummary": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function.",
+              "journal": "Redox biology",
+              "journalIssns": [
+                "2213-2317"
+              ],
+              "publicationDate": "2026-11-24",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Xu H",
+                "Zhang X",
+                "Ma H",
+                "Zhang Y",
+                "Hua W",
+                "Li H",
+                "Gao T",
+                "Liu G",
+                "Wang L",
+                "Zeng Y",
+                "Ma F",
+                "Song M",
+                "Chen R",
+                "Gao Y",
+                "Bai J",
+                "Wang Z",
+                "Zhang H",
+                "Chen S",
+                "Zhang Y",
+                "Cao L",
+                "Liu J",
+                "Zhou Y",
+                "Zhang L",
+                "Wang Y",
+                "Yang P"
+              ],
+              "affiliations": [
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Neurosurgery, The First Affiliated Hospital of Ningbo University, Ningbo, China.",
+                "Department of Neurology, Xijing Hospital, Air Force Medical University, Xi'an, China.",
+                "Bioinformatics Center of AMMS, Beijing, China.",
+                "No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+                "Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: yzhou_2011@126.com.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: zhangleichns@163.com.",
+                "Stem Cell and Regeneration Medicine Institute, Research Center of Translational Medicine, Naval Medical University, Shanghai, 200433, China. Electronic address: wangyuesmmu@163.com.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China; State Key Laboratory of Neurology and Oncology Drug Development, Nanjing, China. Electronic address: chyangpf@163.com."
+              ],
+              "doi": "10.1016/j.redox.2026.104493",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43097958/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-2213-2317",
+                "impactFactor": {
+                  "value": 16.2,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 10,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 10,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            }
+          ],
+          "chinaArticles": [
+            {
+              "pmid": "43097958",
+              "title": "Transcriptional activation of PFKL by NUCKS1 promotes neuronal glycolysis and injury after cerebral ischemia-reperfusion.",
+              "abstract": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function. Mechanistically, NUCKS1 transcriptionally activated the glycolytic enzyme phosphofructokinase liver-type (PFKL), enhancing neuronal glycolytic flux and leading to lactate accumulation and excessive reactive oxygen species production. This metabolic shift activated the B-cell lymphoma 2/BAX/caspase-3 apoptotic pathway. Targeted modulation of the NUCKS1-PFKL axis using an engineered adeno-associated viral vector (AAV-PHP.eB-hSyn) significantly mitigated cerebral I/R injury, and this axis was recapitulated in human induced pluripotent stem cell-derived cortical neurons. These findings establish the NUCKS1-PFKL axis as a key regulator of neuronal glycolysis and highlight it as a potential preventive intervention target for ischemic stroke.",
+              "englishSummary": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function.",
+              "journal": "Redox biology",
+              "journalIssns": [
+                "2213-2317"
+              ],
+              "publicationDate": "2026-11-24",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Xu H",
+                "Zhang X",
+                "Ma H",
+                "Zhang Y",
+                "Hua W",
+                "Li H",
+                "Gao T",
+                "Liu G",
+                "Wang L",
+                "Zeng Y",
+                "Ma F",
+                "Song M",
+                "Chen R",
+                "Gao Y",
+                "Bai J",
+                "Wang Z",
+                "Zhang H",
+                "Chen S",
+                "Zhang Y",
+                "Cao L",
+                "Liu J",
+                "Zhou Y",
+                "Zhang L",
+                "Wang Y",
+                "Yang P"
+              ],
+              "affiliations": [
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Neurosurgery, The First Affiliated Hospital of Ningbo University, Ningbo, China.",
+                "Department of Neurology, Xijing Hospital, Air Force Medical University, Xi'an, China.",
+                "Bioinformatics Center of AMMS, Beijing, China.",
+                "No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+                "Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: yzhou_2011@126.com.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: zhangleichns@163.com.",
+                "Stem Cell and Regeneration Medicine Institute, Research Center of Translational Medicine, Naval Medical University, Shanghai, 200433, China. Electronic address: wangyuesmmu@163.com.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China; State Key Laboratory of Neurology and Oncology Drug Development, Nanjing, China. Electronic address: chyangpf@163.com."
+              ],
+              "doi": "10.1016/j.redox.2026.104493",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43097958/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-2213-2317",
+                "impactFactor": {
+                  "value": 16.2,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 10,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 10,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            }
+          ]
         },
         "30": {
           "days": 30,
           "stats": {
-            "recentPublications": 130,
+            "recentPublications": 128,
             "directHighRelevance": 68,
-            "metricsPending": 26,
-            "eligible": 15
+            "metricsPending": 28,
+            "eligible": 12
           },
           "articles": [
+            {
+              "pmid": "43097958",
+              "title": "Transcriptional activation of PFKL by NUCKS1 promotes neuronal glycolysis and injury after cerebral ischemia-reperfusion.",
+              "abstract": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function. Mechanistically, NUCKS1 transcriptionally activated the glycolytic enzyme phosphofructokinase liver-type (PFKL), enhancing neuronal glycolytic flux and leading to lactate accumulation and excessive reactive oxygen species production. This metabolic shift activated the B-cell lymphoma 2/BAX/caspase-3 apoptotic pathway. Targeted modulation of the NUCKS1-PFKL axis using an engineered adeno-associated viral vector (AAV-PHP.eB-hSyn) significantly mitigated cerebral I/R injury, and this axis was recapitulated in human induced pluripotent stem cell-derived cortical neurons. These findings establish the NUCKS1-PFKL axis as a key regulator of neuronal glycolysis and highlight it as a potential preventive intervention target for ischemic stroke.",
+              "englishSummary": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function.",
+              "journal": "Redox biology",
+              "journalIssns": [
+                "2213-2317"
+              ],
+              "publicationDate": "2026-11-24",
+              "publicationDatePrecision": "day",
+              "authors": [
+                "Xu H",
+                "Zhang X",
+                "Ma H",
+                "Zhang Y",
+                "Hua W",
+                "Li H",
+                "Gao T",
+                "Liu G",
+                "Wang L",
+                "Zeng Y",
+                "Ma F",
+                "Song M",
+                "Chen R",
+                "Gao Y",
+                "Bai J",
+                "Wang Z",
+                "Zhang H",
+                "Chen S",
+                "Zhang Y",
+                "Cao L",
+                "Liu J",
+                "Zhou Y",
+                "Zhang L",
+                "Wang Y",
+                "Yang P"
+              ],
+              "affiliations": [
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Neurosurgery, The First Affiliated Hospital of Ningbo University, Ningbo, China.",
+                "Department of Neurology, Xijing Hospital, Air Force Medical University, Xi'an, China.",
+                "Bioinformatics Center of AMMS, Beijing, China.",
+                "No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+                "Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: yzhou_2011@126.com.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: zhangleichns@163.com.",
+                "Stem Cell and Regeneration Medicine Institute, Research Center of Translational Medicine, Naval Medical University, Shanghai, 200433, China. Electronic address: wangyuesmmu@163.com.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China; State Key Laboratory of Neurology and Oncology Drug Development, Nanjing, China. Electronic address: chyangpf@163.com."
+              ],
+              "doi": "10.1016/j.redox.2026.104493",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43097958/",
+              "publicationTypes": [
+                "Journal Article"
+              ],
+              "topicTags": [
+                "Brain Ischemia / Reperfusion",
+                "China Research"
+              ],
+              "studyTypeTags": [
+                "Basic Research"
+              ],
+              "relevance": "high",
+              "score": 5,
+              "scoreReasons": [
+                "+2 专题匹配: Brain Ischemia / Reperfusion",
+                "+3 标题命中专题词"
+              ],
+              "isChinaResearch": true,
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。",
+              "source": "PubMed",
+              "researchDirection": "hydrogen-brain-iri",
+              "summaryBasis": "title-and-objective-rules",
+              "journalMetrics": {
+                "journalId": "jcr-2213-2317",
+                "impactFactor": {
+                  "value": 16.2,
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 10,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "jcr": {
+                  "quartile": "Q1",
+                  "year": 2025,
+                  "releaseYear": 2026,
+                  "sourceId": "jcr-release-2026",
+                  "page": 10,
+                  "verified": true,
+                  "scope": "source-listed",
+                  "categories": [],
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+                },
+                "cas": null
+              },
+              "digestGroup": "hydrogen-brain-iri",
+              "digestKind": "研究论文",
+              "digestRank": 28,
+              "digestIsReview": false,
+              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+            },
             {
               "pmid": "43056037",
               "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
@@ -4078,220 +4404,65 @@
               "digestRank": 28,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
+            }
+          ],
+          "chinaArticles": [
             {
-              "pmid": "42953917",
-              "title": "Engineering a Translational Human Thrombus Platform to Evaluate Clinical Therapies in Ischemic Stroke.",
-              "abstract": "BACKGROUND: Recanalization failure after ischemic stroke remains a major clinical challenge, partly because cerebral thrombi display marked spatial heterogeneity that is poorly reproduced by experimental models. Here, we engineered a translational human blood-based thrombus platform that recapitulates key histological features of patient-derived stroke clots.\n\nMETHODS: Under controlled conditions, the platform generated reproducible thrombi with pronounced interthrombus and intrathrombus heterogeneity, including alternating red blood cell-rich and platelet-rich territories. Multiscale structural and biochemical analyses confirmed the successful replication of the clinical biphasic organization associated with resistance to rtPA (recombinant tissue-type plasminogen activator): a compact outer fibrin shell containing focal accumulations of plasminogen activator inhibitor-1, and a dense inner core further stabilized by neutrophil extracellular traps.\n\nRESULTS: Functional thrombolysis assays demonstrated that this architecture directly dictates lytic susceptibility. Specifically, artificially breaching the outer fibrin shell (halved thrombi) significantly accelerated early rtPA-mediated lysis, proving its role as an effective physical barrier. Furthermore, lytic response was inherently linked to clot composition: platelet-rich thrombi with dense plasminogen activator inhibitor-1 and neutrophil extracellular trap networks exhibited profound resistance to standard rtPA compared with red blood cell-rich clots. Supporting the platform's translational relevance, this structural resistance was successfully overcome by clinically relevant strategies, including tenecteplase and adjunctive DNAse, consistent with observations from human stroke cohorts.\n\nCONCLUSIONS: By accurately reproducing the spatial organization and differential thrombolytic responses of human cerebral thrombi, this translational framework provides a robust preclinical tool to dissect lytic resistance and evaluate next-generation precision reperfusion therapies. Furthermore, developing robust ex vivo human platforms is increasingly critical to align with the replacement, reduction, refinement ethical guidelines for animal research.",
-              "englishSummary": "BACKGROUND: Recanalization failure after ischemic stroke remains a major clinical challenge, partly because cerebral thrombi display marked spatial heterogeneity that is poorly reproduced by experimental models. Here, we engineered a translational human blood-based thrombus platform that recapitulates key histological features of patient-derived stroke clots. METHODS: Under controlled conditions, the platform generated reproducible thrombi with pronounced interthrombus and intrathrombus heterogeneity, including alternating red blood cell-rich and platelet-rich territories.",
-              "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+              "pmid": "43097958",
+              "title": "Transcriptional activation of PFKL by NUCKS1 promotes neuronal glycolysis and injury after cerebral ischemia-reperfusion.",
+              "abstract": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function. Mechanistically, NUCKS1 transcriptionally activated the glycolytic enzyme phosphofructokinase liver-type (PFKL), enhancing neuronal glycolytic flux and leading to lactate accumulation and excessive reactive oxygen species production. This metabolic shift activated the B-cell lymphoma 2/BAX/caspase-3 apoptotic pathway. Targeted modulation of the NUCKS1-PFKL axis using an engineered adeno-associated viral vector (AAV-PHP.eB-hSyn) significantly mitigated cerebral I/R injury, and this axis was recapitulated in human induced pluripotent stem cell-derived cortical neurons. These findings establish the NUCKS1-PFKL axis as a key regulator of neuronal glycolysis and highlight it as a potential preventive intervention target for ischemic stroke.",
+              "englishSummary": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function.",
+              "journal": "Redox biology",
               "journalIssns": [
-                "1524-4636",
-                "1079-5642"
+                "2213-2317"
               ],
-              "publicationDate": "2026-10-29",
+              "publicationDate": "2026-11-24",
               "publicationDatePrecision": "day",
               "authors": [
-                "Helaine C",
-                "Picot A",
-                "Solo Nomenjanahary M",
-                "Ianszen M",
-                "Goux D",
-                "Gaudin C",
-                "Parcq J",
-                "Macrez R",
-                "Ho-Tin-No&#xe9; B",
-                "Vivien D",
-                "Thiebaut AM"
-              ],
-              "affiliations": [
-                "Normandie Universit&#xe9;, UNICAEN (Universit&#xe9; de Caen Normandie), INSERM (Institut national de la sant&#xe9; et de la recherche m&#xe9;dicale) UMR-S U1237, Physiopathology and Imaging of Neurological Disorders (PhIND), Cyceron, Institut Blood and Brain @ Caen-Normandie (BB@C), France (C.H., A.P., R.M., D.V., A.M.T.).",
-                "Facult&#xe9; de Pharmacie de Paris, Universit&#xe9; Paris Cit&#xe9;, INSERM UMR-S 1144, Optimisation Th&#xe9;rapeutique en Neuropsychopharmacologie, France (M.S.N., B.H.-T.-N.).",
-                "Op2Lysis SAS, Boulogne-Billancourt, France (M.I., C.G., J.P., A.M.T.).",
-                "L&#xe9;gia Park Li&#xe8;ge, Belgium (M.I., C.G., J.P., A.M.T.).",
-                "Normandie Universit&#xe9;, UNICAEN, Universit&#xe9; Caen Normandie, US EMerode, CMAbio3: Centre de Microscopie Appliqu&#xe9;e &#xe0; la Biologie, France (D.G.).",
-                "Emergency Department (R.M.), Caen CHU (University Hospital Center) de Caen C&#xf4;te de Nacre, France.",
-                "Clinical Research Department (D.V.), Caen CHU (University Hospital Center) de Caen C&#xf4;te de Nacre, France."
-              ],
-              "doi": "10.1161/ATVBAHA.126.325244",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42953917/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": false,
-              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及人源血栓实验平台。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "atvb",
-                "impactFactor": {
-                  "value": 8.8,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 29,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=29",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 29,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=29",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 1,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "pvd-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/613dffa5-f97c-40cf-a0d5-a68536d29965.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·周围血管疾病（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42955876",
-              "title": "Single-cell and spatial transcriptomics reveal mesenchymal stem cell-associated neuroimmune and neuronal signaling patterns after ischemic stroke.",
-              "abstract": "Ischemic stroke induces coordinated yet spatially heterogeneous neuroimmune and neuronal responses that shape secondary injury and tissue remodeling. However, how intranasal mesenchymal stem cell administration is associated with these cell type-specific responses remains incompletely understood. Here, we integrated single-cell RNA sequencing of the ipsilateral cerebrum on days 1, 7, and 14 after middle cerebral artery occlusion/reperfusion with spatial transcriptomic profiling on day 7. A total of 55,520 high-quality single-cell transcriptomes were obtained from control, middle cerebral artery occlusion/reperfusion, and mesenchymal stem cell-treated samples. In this exploratory dataset, the middle cerebral artery occlusion/reperfusion samples showed relatively greater representation of inflammatory and antigen-presenting microglial states and elevated expression of selected microglial state-associated genes, including Slfn4, Apoe, and Gpnmb. In the corresponding exploratory comparison, the mesenchymal stem cell-treated sample showed relatively greater representation of homeostatic-associated and Lgals3/Spp1-enriched microglial states and lower expression of several inflammatory-associated genes. Spatial mapping further revealed regionally restricted expression of microglial and neuronal markers within the injured tissue. Excitatory neurons displayed preliminary mesenchymal stem cell-associated transcriptional patterns involving mitochondrial transcripts, oxidative phosphorylation, synaptic signaling, calcium-related functions, and apoptosis/autophagy-associated pathways. CellChat analysis computationally predicted relatively high levels of tumor necrosis factor, C-X-C motif chemokine ligand, and complement signaling in the middle cerebral artery occlusion/reperfusion sample, whereas the mesenchymal stem cell-treated sample had relatively high levels of predicted activity of neuregulin, pleiotrophin and selected semaphorin. Together, these integrated datasets provide a hypothesis-generating framework linking microglial state remodeling, neuronal metabolic and synaptic programs, and predicted neuroimmune communication patterns after ischemic stroke. Because each omics condition or time point was represented by one biological sample, all the transcriptomic findings should be considered preliminary and exploratory and should be validated in independently replicated cohorts.",
-              "englishSummary": "Ischemic stroke induces coordinated yet spatially heterogeneous neuroimmune and neuronal responses that shape secondary injury and tissue remodeling. However, how intranasal mesenchymal stem cell administration is associated with these cell type-specific responses remains incompletely understood. Here, we integrated single-cell RNA sequencing of the ipsilateral cerebrum on days 1, 7, and 14 after middle cerebral artery occlusion/reperfusion with spatial transcriptomic profiling on day 7.",
-              "journal": "Neural regeneration research",
-              "journalIssns": [
-                "1673-5374"
-              ],
-              "publicationDate": "2026-10-29",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Wu Q",
-                "Hu J",
-                "Abuliezi N",
-                "Sun Y",
-                "Wu Y",
-                "Dun X"
-              ],
-              "affiliations": [
-                "Department of Neurology, The Second Affiliated Hospital of Xinjiang Medical University, Urumqi, Xinjiang Uygur Autonomous Region, China.",
-                "Department of Neurosurgery, The 990th Hospital of Joint Logistics Support Force, Zhumadian, Henan Province, China.",
-                "Department of Hematology, The Fifth Affiliated Hospital of Xinjiang Medical University, Urumqi, Xinjiang Uygur Autonomous Region, China."
-              ],
-              "doi": "10.4103/NRR.NRRONLINE-D-26-00871",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42955876/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血与神经细胞或神经免疫过程。主要内容涉及单细胞或空间转录组分析、免疫或神经炎症调节、相关细胞信号机制。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "neural-regen",
-                "impactFactor": {
-                  "value": 8.5,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 32,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=32",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 32,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=32",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 2,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "neuro-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/0ae0e718-5b9b-454e-88a7-e54ab48bd6eb.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·神经科学（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42959271",
-              "title": "Panax notoginseng-Derived Carbon Quantum Dots as a Novel Administration Strategy for Cerebral Ischemia-Reperfusion Injury Therapy.",
-              "abstract": "The present study aimed to synthesize Panax notoginseng-derived carbon quantum dots (PN-CDs) and explore their role in cerebral ischemia-reperfusion injury (CIRI). PN-CDs were synthesized by the hydrothermal method, and characterization and biocompatibility were assessed. Next, CIRI models were established using SH-SY5Y cells, primary neurons were treated with oxygen-glucose deprivation/reoxygenation (OGD/R), and rats were subjected to middle cerebral artery occlusion/reperfusion (MCAO/R). After PN-CDs treatment, inflammation, apoptosis, and oxidative stress were detected in neuronal cells and rats using enzyme-linked immunosorbent assay, quantitative reverse transcription polymerase chain reaction, flow cytometry, Western blot, and 2',7'-dichlorodihydrofluorescein diacetate probe. Meanwhile, 2,3,5-triphenyltetrazolium chloride, terminal deoxynucleotidyl transferase dUTP nick end labeling, Nissl, and hematoxylin and eosin staining were employed to measure the pathological damage of rats. Additionally, CIRI rats were administered with PN-CDs, Panax notoginseng saponins (PNS), Panax notoginseng (PN), or edaravone to investigate whether PN-CDs had the best effect. The findings revealed that PN-CDs exhibited favorable biocompatibility and crossed the blood-brain barrier. In vitro, PN-CD treatment inhibited oxidative stress, apoptosis, and inflammation, as evidenced by the decrease of interleukin-1β (IL-1β), IL-6, Bax, C-caspase-3, tumor necrosis factor-α, malondialdehyde, and reactive oxygen species and the increase of superoxide dismutase, Bcl-2, and glutathione. In CIRI rats, PN-CDs improved pathological damage and suppressed inflammation, apoptosis, and oxidative stress. The therapeutic effect of PN-CDs on CIRI was distinctly better than that of PNS and PN, and comparable to that of the first-line drug edaravone. In short, PN-CDs, a novel and efficient administration strategy, alleviates CIRI by inhibiting apoptosis, oxidative stress, and inflammation.",
-              "englishSummary": "The present study aimed to synthesize Panax notoginseng-derived carbon quantum dots (PN-CDs) and explore their role in cerebral ischemia-reperfusion injury (CIRI). PN-CDs were synthesized by the hydrothermal method, and characterization and biocompatibility were assessed. Next, CIRI models were established using SH-SY5Y cells, primary neurons were treated with oxygen-glucose deprivation/reoxygenation (OGD/R), and rats were subjected to middle cerebral artery occlusion/reperfusion (MCAO/R).",
-              "journal": "Biomaterials research",
-              "journalIssns": [
-                "1226-4601"
-              ],
-              "publicationDate": "2026-10-29",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Cui WQ",
-                "Wei S",
-                "Li HT",
-                "Zhi HW",
-                "Zhang JP",
+                "Xu H",
+                "Zhang X",
+                "Ma H",
+                "Zhang Y",
+                "Hua W",
+                "Li H",
+                "Gao T",
+                "Liu G",
+                "Wang L",
+                "Zeng Y",
+                "Ma F",
+                "Song M",
+                "Chen R",
+                "Gao Y",
+                "Bai J",
+                "Wang Z",
+                "Zhang H",
+                "Chen S",
+                "Zhang Y",
+                "Cao L",
+                "Liu J",
+                "Zhou Y",
+                "Zhang L",
                 "Wang Y",
-                "Liu ZL",
-                "Hu FX",
-                "Xu XQ",
-                "Wu HY"
+                "Yang P"
               ],
               "affiliations": [
-                "Department of Neurology, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan 250014, PR China.",
-                "First College of Clinical Medicine, Shandong University of Traditional Chinese Medicine, Jinan 250355, PR China.",
-                "Xiyuan Hospital of China Academy of Chinese Medical Sciences, Beijing 100091, PR China.",
-                "Institute for Chinese Medicine and Brain Science, Shandong University of Traditional Chinese Medicine, Jinan 250355, PR China.",
-                "Key Laboratory of Traditional Chinese Medicine Classical Theory, Ministry of Education/Shandong Key Laboratory of Innovation and Application Research in Basic Theory of Traditional Chinese Medicine/Shandong Provincial Engineering Research Center for the Prevention and Treatment of Major Brain Diseases with Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan 250355, PR China."
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Neurosurgery, The First Affiliated Hospital of Ningbo University, Ningbo, China.",
+                "Department of Neurology, Xijing Hospital, Air Force Medical University, Xi'an, China.",
+                "Bioinformatics Center of AMMS, Beijing, China.",
+                "No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+                "Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: yzhou_2011@126.com.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: zhangleichns@163.com.",
+                "Stem Cell and Regeneration Medicine Institute, Research Center of Translational Medicine, Naval Medical University, Shanghai, 200433, China. Electronic address: wangyuesmmu@163.com.",
+                "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China; State Key Laboratory of Neurology and Oncology Drug Development, Nanjing, China. Electronic address: chyangpf@163.com."
               ],
-              "doi": "10.34133/bmr.0440",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42959271/",
+              "doi": "10.1016/j.redox.2026.104493",
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43097958/",
               "publicationTypes": [
                 "Journal Article"
               ],
@@ -4309,19 +4480,19 @@
                 "+3 标题命中专题词"
               ],
               "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。主要内容涉及碳量子点给药材料。",
+              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。",
               "source": "PubMed",
               "researchDirection": "hydrogen-brain-iri",
               "summaryBasis": "title-and-objective-rules",
               "journalMetrics": {
-                "journalId": "biomater-res",
+                "journalId": "jcr-2213-2317",
                 "impactFactor": {
-                  "value": 9.8,
+                  "value": 16.2,
                   "year": 2025,
                   "releaseYear": 2026,
                   "sourceId": "jcr-release-2026",
-                  "page": 24,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=24",
+                  "page": 10,
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
                   "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
                 },
                 "jcr": {
@@ -4329,104 +4500,11 @@
                   "year": 2025,
                   "releaseYear": 2026,
                   "sourceId": "jcr-release-2026",
-                  "page": 24,
+                  "page": 10,
                   "verified": true,
                   "scope": "source-listed",
                   "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=24",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 2,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "bioeng-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42966855",
-              "title": "Diffusion-weighted imaging reversal after reperfusion therapy in acute ischemic stroke: associations with white matter hyperintensities and cerebral microbleeds.",
-              "abstract": "BACKGROUND: White matter hyperintensities (WMH) and cerebral microbleeds (CMBs) are common MRI markers of chronic small-vessel brain injury and have been associated with adverse outcomes after ischemic stroke. However, whether these markers influence early ischemic tissue reversibility following reperfusion therapy remains unclear. We therefore investigated their associations with diffusion-weighted imaging (DWI) lesion reversal, hemorrhagic complications, and short-term functional outcome after MRI-guided reperfusion therapy.\n\nMETHODS: In this retrospective single-center study, consecutive patients with acute ischemic stroke undergoing MRI-guided intravenous thrombolysis, with or without additional mechanical thrombectomy, were included. According to the institutional protocol, follow-up MRI was planned 24 ± 6 h after treatment to assess DWI lesion evolution, WMH volume, and CMBs. DWI reversal was defined as a reduction of ≥ 25% in baseline DWI lesion volume. Multivariable regression analyses were performed to identify predictors of DWI reversal, intracerebral hemorrhage, and functional outcome at hospital discharge.\n\nRESULTS: Among 345 patients (median age 74 years [IQR 63-82], 48.1% female), 45 (13%) additionally underwent mechanical thrombectomy. DWI reversal occurred in 76 patients (22.0%) and was not associated with baseline WMH volume, CMBs, initial infarct volume, treatment modality, or thrombolysis time window. Higher baseline NIHSS and modified Rankin Scale scores were associated with lower odds of DWI reversal, whereas hypercholesterolemia was independently associated with increased odds of DWI reversal. We found no evidence of an association of WMH burden or CMB presence with intracerebral hemorrhage or of an independent association with functional outcome. Fourteen patients (4.1%) developed new CMBs on follow-up MRI.\n\nCONCLUSIONS: We found no evidence of an association between baseline WMH volume or CMB presence and early DWI lesion reversal or hemorrhagic complications following reperfusion therapy in this cohort. These findings provide no evidence that these two chronic MRI markers are major determinants of early infarct tissue reversibility. Larger multicenter studies incorporating comprehensive small-vessel disease phenotyping and long-term follow-up are warranted.",
-              "englishSummary": "BACKGROUND: White matter hyperintensities (WMH) and cerebral microbleeds (CMBs) are common MRI markers of chronic small-vessel brain injury and have been associated with adverse outcomes after ischemic stroke. However, whether these markers influence early ischemic tissue reversibility following reperfusion therapy remains unclear. We therefore investigated their associations with diffusion-weighted imaging (DWI) lesion reversal, hemorrhagic complications, and short-term functional outcome after MRI-guided reperfusion therapy.",
-              "journal": "Neurological research and practice",
-              "journalIssns": [
-                "2524-3489"
-              ],
-              "publicationDate": "2026-10-29",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Bannert N",
-                "Klassen P",
-                "Krijatov R",
-                "Dooat A",
-                "Nosanova A",
-                "Dreyhaupt J",
-                "M&#xfc;ller HP",
-                "Haeusler KG",
-                "Laible M"
-              ],
-              "affiliations": [
-                "Department of Neurology, University Hospital Ulm, Oberer Eselsberg 45, Ulm, 89081, Germany.",
-                "Institute for Anatomy and Cell Biology, University of Ulm, Ulm, Germany.",
-                "Institute of Epidemiology and Medical Biometry, University of Ulm, Ulm, Germany.",
-                "Department of Nuclear Medicine, School of Medicine, University Hospital Ulm, Ulm, Germany.",
-                "Department of Diagnostic and Interventional Radiology, University Hospital Ulm, Ulm, Germany.",
-                "Department of Neurology, University Hospital Ulm, Oberer Eselsberg 45, Ulm, 89081, Germany. mona.laible@uniklinik-ulm.de.",
-                "German Center for Neurodegenerative Diseases (DZNE), Ulm, Germany. mona.laible@uniklinik-ulm.de."
-              ],
-              "doi": "10.1186/s42466-026-00545-w",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42966855/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion"
-              ],
-              "studyTypeTags": [
-                "Cohort",
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": false,
-              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及再灌注治疗。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "jcr-2524-3489",
-                "impactFactor": {
-                  "value": 4,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 125,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=125",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 125,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=125",
+                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
                   "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
                 },
                 "cas": null
@@ -4436,9 +4514,7 @@
               "digestRank": 28,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            }
-          ],
-          "chinaArticles": [
+            },
             {
               "pmid": "43056037",
               "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
@@ -5214,184 +5290,6 @@
               "digestRank": 28,
               "digestIsReview": false,
               "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42955876",
-              "title": "Single-cell and spatial transcriptomics reveal mesenchymal stem cell-associated neuroimmune and neuronal signaling patterns after ischemic stroke.",
-              "abstract": "Ischemic stroke induces coordinated yet spatially heterogeneous neuroimmune and neuronal responses that shape secondary injury and tissue remodeling. However, how intranasal mesenchymal stem cell administration is associated with these cell type-specific responses remains incompletely understood. Here, we integrated single-cell RNA sequencing of the ipsilateral cerebrum on days 1, 7, and 14 after middle cerebral artery occlusion/reperfusion with spatial transcriptomic profiling on day 7. A total of 55,520 high-quality single-cell transcriptomes were obtained from control, middle cerebral artery occlusion/reperfusion, and mesenchymal stem cell-treated samples. In this exploratory dataset, the middle cerebral artery occlusion/reperfusion samples showed relatively greater representation of inflammatory and antigen-presenting microglial states and elevated expression of selected microglial state-associated genes, including Slfn4, Apoe, and Gpnmb. In the corresponding exploratory comparison, the mesenchymal stem cell-treated sample showed relatively greater representation of homeostatic-associated and Lgals3/Spp1-enriched microglial states and lower expression of several inflammatory-associated genes. Spatial mapping further revealed regionally restricted expression of microglial and neuronal markers within the injured tissue. Excitatory neurons displayed preliminary mesenchymal stem cell-associated transcriptional patterns involving mitochondrial transcripts, oxidative phosphorylation, synaptic signaling, calcium-related functions, and apoptosis/autophagy-associated pathways. CellChat analysis computationally predicted relatively high levels of tumor necrosis factor, C-X-C motif chemokine ligand, and complement signaling in the middle cerebral artery occlusion/reperfusion sample, whereas the mesenchymal stem cell-treated sample had relatively high levels of predicted activity of neuregulin, pleiotrophin and selected semaphorin. Together, these integrated datasets provide a hypothesis-generating framework linking microglial state remodeling, neuronal metabolic and synaptic programs, and predicted neuroimmune communication patterns after ischemic stroke. Because each omics condition or time point was represented by one biological sample, all the transcriptomic findings should be considered preliminary and exploratory and should be validated in independently replicated cohorts.",
-              "englishSummary": "Ischemic stroke induces coordinated yet spatially heterogeneous neuroimmune and neuronal responses that shape secondary injury and tissue remodeling. However, how intranasal mesenchymal stem cell administration is associated with these cell type-specific responses remains incompletely understood. Here, we integrated single-cell RNA sequencing of the ipsilateral cerebrum on days 1, 7, and 14 after middle cerebral artery occlusion/reperfusion with spatial transcriptomic profiling on day 7.",
-              "journal": "Neural regeneration research",
-              "journalIssns": [
-                "1673-5374"
-              ],
-              "publicationDate": "2026-10-29",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Wu Q",
-                "Hu J",
-                "Abuliezi N",
-                "Sun Y",
-                "Wu Y",
-                "Dun X"
-              ],
-              "affiliations": [
-                "Department of Neurology, The Second Affiliated Hospital of Xinjiang Medical University, Urumqi, Xinjiang Uygur Autonomous Region, China.",
-                "Department of Neurosurgery, The 990th Hospital of Joint Logistics Support Force, Zhumadian, Henan Province, China.",
-                "Department of Hematology, The Fifth Affiliated Hospital of Xinjiang Medical University, Urumqi, Xinjiang Uygur Autonomous Region, China."
-              ],
-              "doi": "10.4103/NRR.NRRONLINE-D-26-00871",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42955876/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血与神经细胞或神经免疫过程。主要内容涉及单细胞或空间转录组分析、免疫或神经炎症调节、相关细胞信号机制。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "neural-regen",
-                "impactFactor": {
-                  "value": 8.5,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 32,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=32",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 32,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=32",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 2,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "neuro-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/0ae0e718-5b9b-454e-88a7-e54ab48bd6eb.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·神经科学（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-            },
-            {
-              "pmid": "42959271",
-              "title": "Panax notoginseng-Derived Carbon Quantum Dots as a Novel Administration Strategy for Cerebral Ischemia-Reperfusion Injury Therapy.",
-              "abstract": "The present study aimed to synthesize Panax notoginseng-derived carbon quantum dots (PN-CDs) and explore their role in cerebral ischemia-reperfusion injury (CIRI). PN-CDs were synthesized by the hydrothermal method, and characterization and biocompatibility were assessed. Next, CIRI models were established using SH-SY5Y cells, primary neurons were treated with oxygen-glucose deprivation/reoxygenation (OGD/R), and rats were subjected to middle cerebral artery occlusion/reperfusion (MCAO/R). After PN-CDs treatment, inflammation, apoptosis, and oxidative stress were detected in neuronal cells and rats using enzyme-linked immunosorbent assay, quantitative reverse transcription polymerase chain reaction, flow cytometry, Western blot, and 2',7'-dichlorodihydrofluorescein diacetate probe. Meanwhile, 2,3,5-triphenyltetrazolium chloride, terminal deoxynucleotidyl transferase dUTP nick end labeling, Nissl, and hematoxylin and eosin staining were employed to measure the pathological damage of rats. Additionally, CIRI rats were administered with PN-CDs, Panax notoginseng saponins (PNS), Panax notoginseng (PN), or edaravone to investigate whether PN-CDs had the best effect. The findings revealed that PN-CDs exhibited favorable biocompatibility and crossed the blood-brain barrier. In vitro, PN-CD treatment inhibited oxidative stress, apoptosis, and inflammation, as evidenced by the decrease of interleukin-1β (IL-1β), IL-6, Bax, C-caspase-3, tumor necrosis factor-α, malondialdehyde, and reactive oxygen species and the increase of superoxide dismutase, Bcl-2, and glutathione. In CIRI rats, PN-CDs improved pathological damage and suppressed inflammation, apoptosis, and oxidative stress. The therapeutic effect of PN-CDs on CIRI was distinctly better than that of PNS and PN, and comparable to that of the first-line drug edaravone. In short, PN-CDs, a novel and efficient administration strategy, alleviates CIRI by inhibiting apoptosis, oxidative stress, and inflammation.",
-              "englishSummary": "The present study aimed to synthesize Panax notoginseng-derived carbon quantum dots (PN-CDs) and explore their role in cerebral ischemia-reperfusion injury (CIRI). PN-CDs were synthesized by the hydrothermal method, and characterization and biocompatibility were assessed. Next, CIRI models were established using SH-SY5Y cells, primary neurons were treated with oxygen-glucose deprivation/reoxygenation (OGD/R), and rats were subjected to middle cerebral artery occlusion/reperfusion (MCAO/R).",
-              "journal": "Biomaterials research",
-              "journalIssns": [
-                "1226-4601"
-              ],
-              "publicationDate": "2026-10-29",
-              "publicationDatePrecision": "day",
-              "authors": [
-                "Cui WQ",
-                "Wei S",
-                "Li HT",
-                "Zhi HW",
-                "Zhang JP",
-                "Wang Y",
-                "Liu ZL",
-                "Hu FX",
-                "Xu XQ",
-                "Wu HY"
-              ],
-              "affiliations": [
-                "Department of Neurology, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan 250014, PR China.",
-                "First College of Clinical Medicine, Shandong University of Traditional Chinese Medicine, Jinan 250355, PR China.",
-                "Xiyuan Hospital of China Academy of Chinese Medical Sciences, Beijing 100091, PR China.",
-                "Institute for Chinese Medicine and Brain Science, Shandong University of Traditional Chinese Medicine, Jinan 250355, PR China.",
-                "Key Laboratory of Traditional Chinese Medicine Classical Theory, Ministry of Education/Shandong Key Laboratory of Innovation and Application Research in Basic Theory of Traditional Chinese Medicine/Shandong Provincial Engineering Research Center for the Prevention and Treatment of Major Brain Diseases with Traditional Chinese Medicine, Shandong University of Traditional Chinese Medicine, Jinan 250355, PR China."
-              ],
-              "doi": "10.34133/bmr.0440",
-              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42959271/",
-              "publicationTypes": [
-                "Journal Article"
-              ],
-              "topicTags": [
-                "Brain Ischemia / Reperfusion",
-                "China Research"
-              ],
-              "studyTypeTags": [
-                "Basic Research"
-              ],
-              "relevance": "high",
-              "score": 5,
-              "scoreReasons": [
-                "+2 专题匹配: Brain Ischemia / Reperfusion",
-                "+3 标题命中专题词"
-              ],
-              "isChinaResearch": true,
-              "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。主要内容涉及碳量子点给药材料。",
-              "source": "PubMed",
-              "researchDirection": "hydrogen-brain-iri",
-              "summaryBasis": "title-and-objective-rules",
-              "journalMetrics": {
-                "journalId": "biomater-res",
-                "impactFactor": {
-                  "value": 9.8,
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 24,
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=24",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "jcr": {
-                  "quartile": "Q1",
-                  "year": 2025,
-                  "releaseYear": 2026,
-                  "sourceId": "jcr-release-2026",
-                  "page": 24,
-                  "verified": true,
-                  "scope": "source-listed",
-                  "categories": [],
-                  "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=24",
-                  "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-                },
-                "cas": {
-                  "zone": 2,
-                  "year": 2025,
-                  "scope": "major",
-                  "verified": true,
-                  "sourceId": "bioeng-2025",
-                  "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
-                  "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
-                }
-              },
-              "digestGroup": "hydrogen-brain-iri",
-              "digestKind": "研究论文",
-              "digestRank": 28,
-              "digestIsReview": false,
-              "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
             }
           ]
         }
@@ -5401,9 +5299,9 @@
       "id": "vascular-flow-vibration",
       "title": "血流震颤与血管功能检测",
       "fileName": "topic-vascular-flow-vibration.json",
-      "libraryCount": 149,
+      "libraryCount": 150,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
+      "lastSuccessfulUpdate": "2026-11-28T02:41:28.658Z",
       "periods": {
         "7": {
           "days": 7,
@@ -5433,9 +5331,9 @@
       "id": "biodegradable-stents",
       "title": "可降解支架",
       "fileName": "topic-biodegradable-stents.json",
-      "libraryCount": 237,
+      "libraryCount": 247,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
+      "lastSuccessfulUpdate": "2026-11-28T02:41:28.658Z",
       "periods": {
         "7": {
           "days": 7,
@@ -5465,9 +5363,9 @@
       "id": "neurovascular-bioelectric",
       "title": "神经与血管电信号互调",
       "fileName": "topic-neurovascular-bioelectric.json",
-      "libraryCount": 114,
+      "libraryCount": 115,
       "sourceStatus": "success",
-      "lastSuccessfulUpdate": "2026-11-27T02:51:48.869Z",
+      "lastSuccessfulUpdate": "2026-11-28T02:41:28.658Z",
       "periods": {
         "7": {
           "days": 7,
@@ -6136,6 +6034,114 @@
           "digestRank": 29,
           "digestIsReview": false,
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+        },
+        {
+          "pmid": "43097958",
+          "title": "Transcriptional activation of PFKL by NUCKS1 promotes neuronal glycolysis and injury after cerebral ischemia-reperfusion.",
+          "abstract": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function. Mechanistically, NUCKS1 transcriptionally activated the glycolytic enzyme phosphofructokinase liver-type (PFKL), enhancing neuronal glycolytic flux and leading to lactate accumulation and excessive reactive oxygen species production. This metabolic shift activated the B-cell lymphoma 2/BAX/caspase-3 apoptotic pathway. Targeted modulation of the NUCKS1-PFKL axis using an engineered adeno-associated viral vector (AAV-PHP.eB-hSyn) significantly mitigated cerebral I/R injury, and this axis was recapitulated in human induced pluripotent stem cell-derived cortical neurons. These findings establish the NUCKS1-PFKL axis as a key regulator of neuronal glycolysis and highlight it as a potential preventive intervention target for ischemic stroke.",
+          "englishSummary": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function.",
+          "journal": "Redox biology",
+          "journalIssns": [
+            "2213-2317"
+          ],
+          "publicationDate": "2026-11-24",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Xu H",
+            "Zhang X",
+            "Ma H",
+            "Zhang Y",
+            "Hua W",
+            "Li H",
+            "Gao T",
+            "Liu G",
+            "Wang L",
+            "Zeng Y",
+            "Ma F",
+            "Song M",
+            "Chen R",
+            "Gao Y",
+            "Bai J",
+            "Wang Z",
+            "Zhang H",
+            "Chen S",
+            "Zhang Y",
+            "Cao L",
+            "Liu J",
+            "Zhou Y",
+            "Zhang L",
+            "Wang Y",
+            "Yang P"
+          ],
+          "affiliations": [
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Neurosurgery, The First Affiliated Hospital of Ningbo University, Ningbo, China.",
+            "Department of Neurology, Xijing Hospital, Air Force Medical University, Xi'an, China.",
+            "Bioinformatics Center of AMMS, Beijing, China.",
+            "No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+            "Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: yzhou_2011@126.com.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: zhangleichns@163.com.",
+            "Stem Cell and Regeneration Medicine Institute, Research Center of Translational Medicine, Naval Medical University, Shanghai, 200433, China. Electronic address: wangyuesmmu@163.com.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China; State Key Laboratory of Neurology and Oncology Drug Development, Nanjing, China. Electronic address: chyangpf@163.com."
+          ],
+          "doi": "10.1016/j.redox.2026.104493",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43097958/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Brain Ischemia / Reperfusion",
+            "China Research"
+          ],
+          "studyTypeTags": [
+            "Basic Research"
+          ],
+          "relevance": "high",
+          "score": 5,
+          "scoreReasons": [
+            "+2 专题匹配: Brain Ischemia / Reperfusion",
+            "+3 标题命中专题词"
+          ],
+          "isChinaResearch": true,
+          "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。",
+          "source": "PubMed",
+          "researchDirection": "hydrogen-brain-iri",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jcr-2213-2317",
+            "impactFactor": {
+              "value": 16.2,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 10,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 10,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": null
+          },
+          "digestGroup": "hydrogen-brain-iri",
+          "digestKind": "研究论文",
+          "digestRank": 28,
+          "digestIsReview": false,
+          "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
         }
       ]
     },
@@ -7190,6 +7196,114 @@
           "selectionReason": "标题直接涉及血管外科核心疾病或治疗。Registry（标题/方法线索）；建议重点核对方法与终点。JCR 2025 Q1。"
         },
         {
+          "pmid": "43097958",
+          "title": "Transcriptional activation of PFKL by NUCKS1 promotes neuronal glycolysis and injury after cerebral ischemia-reperfusion.",
+          "abstract": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function. Mechanistically, NUCKS1 transcriptionally activated the glycolytic enzyme phosphofructokinase liver-type (PFKL), enhancing neuronal glycolytic flux and leading to lactate accumulation and excessive reactive oxygen species production. This metabolic shift activated the B-cell lymphoma 2/BAX/caspase-3 apoptotic pathway. Targeted modulation of the NUCKS1-PFKL axis using an engineered adeno-associated viral vector (AAV-PHP.eB-hSyn) significantly mitigated cerebral I/R injury, and this axis was recapitulated in human induced pluripotent stem cell-derived cortical neurons. These findings establish the NUCKS1-PFKL axis as a key regulator of neuronal glycolysis and highlight it as a potential preventive intervention target for ischemic stroke.",
+          "englishSummary": "Cerebral ischemia-reperfusion (I/R) injury is a major determinant of poor outcomes in ischemic stroke, and its pathogenesis is closely linked to neuronal glycolytic activation. Here, we identified nuclear casein kinase and cyclin-dependent kinase substrate 1 (NUCKS1) as a transcription factor that is markedly upregulated in neurons after cerebral I/R. Neuron-specific NUCKS1 deletion in mice suppressed apoptosis, reduced infarct volume, and improved neurological function.",
+          "journal": "Redox biology",
+          "journalIssns": [
+            "2213-2317"
+          ],
+          "publicationDate": "2026-11-24",
+          "publicationDatePrecision": "day",
+          "authors": [
+            "Xu H",
+            "Zhang X",
+            "Ma H",
+            "Zhang Y",
+            "Hua W",
+            "Li H",
+            "Gao T",
+            "Liu G",
+            "Wang L",
+            "Zeng Y",
+            "Ma F",
+            "Song M",
+            "Chen R",
+            "Gao Y",
+            "Bai J",
+            "Wang Z",
+            "Zhang H",
+            "Chen S",
+            "Zhang Y",
+            "Cao L",
+            "Liu J",
+            "Zhou Y",
+            "Zhang L",
+            "Wang Y",
+            "Yang P"
+          ],
+          "affiliations": [
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Department of Neurosurgery, The First Affiliated Hospital of Ningbo University, Ningbo, China.",
+            "Department of Neurology, Xijing Hospital, Air Force Medical University, Xi'an, China.",
+            "Bioinformatics Center of AMMS, Beijing, China.",
+            "No. 904 Hospital of the PLA Joint Logistics Support Force, Wuxi, China.",
+            "Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: yzhou_2011@126.com.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China. Electronic address: zhangleichns@163.com.",
+            "Stem Cell and Regeneration Medicine Institute, Research Center of Translational Medicine, Naval Medical University, Shanghai, 200433, China. Electronic address: wangyuesmmu@163.com.",
+            "Neurovascular Center, Changhai Hospital, Naval Medical University, Shanghai, China; Changhai Clinical Research Unit, Naval Medical University, Shanghai, China; Key Laboratory of Molecular Neurobiology of Ministry of Education, Naval Medical University, Shanghai, China; State Key Laboratory of Neurology and Oncology Drug Development, Nanjing, China. Electronic address: chyangpf@163.com."
+          ],
+          "doi": "10.1016/j.redox.2026.104493",
+          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43097958/",
+          "publicationTypes": [
+            "Journal Article"
+          ],
+          "topicTags": [
+            "Brain Ischemia / Reperfusion",
+            "China Research"
+          ],
+          "studyTypeTags": [
+            "Basic Research"
+          ],
+          "relevance": "high",
+          "score": 5,
+          "scoreReasons": [
+            "+2 专题匹配: Brain Ischemia / Reperfusion",
+            "+3 标题命中专题词"
+          ],
+          "isChinaResearch": true,
+          "summaryZh": "这篇文献聚焦脑缺血再灌注损伤。",
+          "source": "PubMed",
+          "researchDirection": "hydrogen-brain-iri",
+          "summaryBasis": "title-and-objective-rules",
+          "journalMetrics": {
+            "journalId": "jcr-2213-2317",
+            "impactFactor": {
+              "value": 16.2,
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 10,
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "jcr": {
+              "quartile": "Q1",
+              "year": 2025,
+              "releaseYear": 2026,
+              "sourceId": "jcr-release-2026",
+              "page": 10,
+              "verified": true,
+              "scope": "source-listed",
+              "categories": [],
+              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=10",
+              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
+            },
+            "cas": null
+          },
+          "digestGroup": "hydrogen-brain-iri",
+          "digestKind": "研究论文",
+          "digestRank": 28,
+          "digestIsReview": false,
+          "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
+        },
+        {
           "pmid": "43056037",
           "title": "GRSF1 Ameliorates Neurological Impairment in Cerebral Ischemia/Reperfusion Mice via Regulating Mul1/Mfn2-Mediated Mitochondrial Dynamics and Bioenergetics.",
           "abstract": "Guanine-rich RNA sequence binding factor 1 (GRSF1), a mitochondrial RNA-binding protein, plays a critical role in maintaining mitochondrial homeostasis and mitigating oxidative DNA damage. Whether GRSF1 contributes to cerebral ischemia/reperfusion injury (CIRI) by regulating mitochondrial dynamics remains to be elucidated. Male C57BL/6 J mice underwent middle cerebral artery occlusion/reperfusion (MCAO/R) to induce CIRI. Principal component analysis and enrichment analysis were employed to validate impairment in mitochondrial dynamics in CIRI mice. GRSF1 was then evaluated for its effects on neurological function and histology. The role of GRSF1 on mitochondrial dynamics following CIRI was examined through enrichment analysis, electron microscopy, and respiratory chain complex activity assays. The relationship between GRSF1 and mitofusin 2 (Mfn2) in mitochondrial fusion was further investigated. The regulatory mechanism of mitochondrial E3 ubiquitin protein ligase 1 (Mul1) on Mfn2 was assessed using co-immunoprecipitation and denaturing immunoprecipitation assays. CIRI mice were characterized by disrupted mitochondrial dynamics, and restoring this balance ameliorates pathological progression. GRSF1 improved neurological function in CIRI mice, an effect confirmed to associate with maintenance of neuronal mitochondrial dynamics. Mechanistically, GRSF1 promoted mitochondrial fusion by suppressing the expression or activity of Mul1, thereby reducing Mul1-mediated ubiquitination and degradation of Mfn2. Ultimately, GRSF1 attenuated CIRI by inhibiting neuronal mitochondrial dynamic imbalance via the Mul1/Mfn2 pathway. It uncovers GRSF1 as a novel neuroprotective regulator in CIRI and identifies the Mul1/Mfn2 pathway as a critical mechanistic pathway underlying its protective effects. Targeting GRSF1 may hold therapeutic potential by modulating mitochondrial dynamics in CIRI.",
@@ -7957,94 +8071,6 @@
               "sourceUrl": "https://lib.sqmc.edu.cn/_upload/article/files/31/53/46814bd74a0695742b063007b41e/e9ce98bd-4e4b-42fd-83cb-a1af10a57d84.pdf",
               "sourceLabel": "豫北医学院图书馆·2025投稿资讯·生物医学工程（JIF 2024 / 中科院大类2025）"
             }
-          },
-          "digestGroup": "hydrogen-brain-iri",
-          "digestKind": "研究论文",
-          "digestRank": 28,
-          "digestIsReview": false,
-          "selectionReason": "脑缺血/再灌注研究，标题与摘要直接匹配。研究设计与结论仍需原文复核。JCR 2025 Q1。"
-        },
-        {
-          "pmid": "43002591",
-          "title": "Thrombus stiffness depends on occlusion site and influences thrombectomy outcomes in acute ischemic stroke.",
-          "abstract": "INTRODUCTION: Only 60% of patients with acute ischemic stroke (AIS) achieve successful reperfusion after the first endovascular thrombectomy (EVT) attempt. In vitro studies have shown that thrombus stiffness influences thrombus-device interaction and retrieval efficacy. This prospective observational study investigates how thrombus stiffness relates to clinical factors, thrombus imaging characteristics and histological composition. It further explores the association between thrombus stiffness and EVT success, as measured by the modified first-pass reperfusion (mFPR).\n\nPATIENTS AND METHODS: A total of 281 thrombus samples were collected from 51 AIS patients undergoing EVT. Thrombus stiffness was quantified using compressive mechanical testing, composition from histological staining and radiological characteristics from pre-interventional non-contrast computed tomography (CT) and CT angiography. Statistical analysis was performed using linear and logistic mixed-effects regression models.\n\nRESULTS: Thrombi retrieved from the proximal M2 segment of the middle cerebral artery showed significant lower stiffness (0.236 kPa, 95% CI, 0.136-0.409) compared to those from the M1 segment (0.760 kPa, 95% CI, 0.492-1.174) and from the ICA (1.106 kPa, 95% CI, 0.558-2.192). Occlusion location was the strongest clinical marker of thrombus stiffness. Adjusted mFPR probability was 40.4% (95% CI, 24.5-67.0) for thrombi retrieved from the ICA, 89.7% (95% CI, 79.5-97.0) for M1 occlusions, and 53.0% (95% CI, 30.8-84.7) for M2 occlusions.\n\nCONCLUSION: Thrombi in distal vessels of the anterior cerebral circulation are significantly softer than those in proximal intracranial arteries. First-pass EVT success is lower for the stiffest thrombi from the ICA and for the softest thrombi from M2, providing a foundation for future biomechanically informed thrombus removal strategies to optimise AIS treatment.",
-          "englishSummary": "INTRODUCTION: Only 60% of patients with acute ischemic stroke (AIS) achieve successful reperfusion after the first endovascular thrombectomy (EVT) attempt. In vitro studies have shown that thrombus stiffness influences thrombus-device interaction and retrieval efficacy. This prospective observational study investigates how thrombus stiffness relates to clinical factors, thrombus imaging characteristics and histological composition.",
-          "journal": "European stroke journal",
-          "journalIssns": [
-            "2396-9881",
-            "2396-9873"
-          ],
-          "publicationDate": "2026-11-02",
-          "publicationDatePrecision": "day",
-          "authors": [
-            "Bontempi L",
-            "Cruts JMH",
-            "Cahalane RME",
-            "Ilie OE",
-            "Boodt N",
-            "Bos D",
-            "Fereidoonnezhad B",
-            "van Doormaal PJ",
-            "van der Lugt A",
-            "Dippel DWJ",
-            "Gijsen FJH"
-          ],
-          "affiliations": [
-            "Department of Biomedical Engineering, Thoraxcenter, Erasmus MC, University Medical Center, Rotterdam, The Netherlands.",
-            "Department of Radiology and Nuclear Medicine, Erasmus MC, University Medical Center, Rotterdam, The Netherlands.",
-            "Department of Biomechanical Engineering, Delft University of Technology, Delft, The Netherlands.",
-            "School of Engineering, Bernal Institute, University of Limerick, Limerick, Ireland.",
-            "Department of Neurology, Erasmus MC, University Medical Center, Rotterdam, The Netherlands.",
-            "Department of Public Health, Erasmus MC, University Medical Center, Rotterdam, The Netherlands.",
-            "Department of Epidemiology, Erasmus MC, University Medical Center, Rotterdam, The Netherlands."
-          ],
-          "doi": "10.1093/esj/aakag132",
-          "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/43002591/",
-          "publicationTypes": [
-            "Journal Article",
-            "Observational Study"
-          ],
-          "topicTags": [
-            "Brain Ischemia / Reperfusion"
-          ],
-          "studyTypeTags": [
-            "Basic Research"
-          ],
-          "relevance": "high",
-          "score": 5,
-          "scoreReasons": [
-            "+2 专题匹配: Brain Ischemia / Reperfusion",
-            "+3 标题命中专题词"
-          ],
-          "isChinaResearch": false,
-          "summaryZh": "这篇文献聚焦缺血性卒中或脑缺血。主要内容涉及取栓治疗、血管通畅性、狭窄或闭塞、血栓硬度与治疗结局。",
-          "source": "PubMed",
-          "researchDirection": "hydrogen-brain-iri",
-          "summaryBasis": "title-and-objective-rules",
-          "journalMetrics": {
-            "journalId": "jcr-2396-9881",
-            "impactFactor": {
-              "value": 5.2,
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 80,
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=80",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "jcr": {
-              "quartile": "Q1",
-              "year": 2025,
-              "releaseYear": 2026,
-              "sourceId": "jcr-release-2026",
-              "page": 80,
-              "verified": true,
-              "scope": "source-listed",
-              "categories": [],
-              "sourceUrl": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=80",
-              "sourceLabel": "尼古拉耶夫无机化学研究所公开JCR表（2026发布，2025指标；JIF Quartile列）"
-            },
-            "cas": null
           },
           "digestGroup": "hydrogen-brain-iri",
           "digestKind": "研究论文",
